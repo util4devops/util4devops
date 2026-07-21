@@ -1,31 +1,31 @@
 import { t as e } from "./rolldown-runtime.Dh6celcD.mjs";
 import {
-  B as t,
-  D as n,
+  A as t,
+  C as n,
   E as r,
   F as i,
-  H as a,
-  I as o,
-  L as s,
-  M as c,
-  N as l,
+  I as a,
+  L as o,
+  M as s,
+  N as c,
+  O as l,
   P as u,
-  R as d,
-  b as f,
-  j as p,
-  k as m,
-  l as h,
-  s as g,
-  u as _,
-  v,
-  w as ee,
-  x as y,
+  T as d,
+  V as f,
+  _ as p,
+  b as m,
+  c as h,
+  j as g,
+  l as _,
+  o as v,
+  v as y,
   y as b,
-} from "./react.C8gjTMAM.mjs";
+  z as x,
+} from "./react.B4kFiiQA.mjs";
 import {
-  I as x,
-  N as te,
-  R as S,
+  I as S,
+  N as ee,
+  R as te,
   S as C,
   U as w,
   a as T,
@@ -33,72 +33,72 @@ import {
   h as D,
   r as O,
   t as k,
-} from "./motion.CzGBN5me.mjs";
+} from "./motion.CYX_XZth.mjs";
 import {
-  D as A,
-  E as j,
-  F as M,
-  I as ne,
-  N,
-  P,
-  Q as F,
-  S as I,
-  T as L,
-  V as R,
-  Z as re,
-  _ as ie,
-  b as z,
-  c as B,
-  dt as V,
-  et as ae,
-  g as oe,
-  gt as se,
-  it as ce,
-  lt as le,
-  m as H,
-  mt as ue,
-  n as U,
-  nt as de,
-  o as fe,
-  ot as pe,
-  pt as me,
+  $ as A,
+  B as j,
+  E as M,
+  F as ne,
+  M as N,
+  N as P,
+  P as F,
+  T as re,
+  X as ie,
+  Z as I,
+  _ as L,
+  a as ae,
+  at as oe,
+  b as R,
+  ct as z,
+  dt as se,
+  et as ce,
+  ft as le,
+  g as ue,
+  h as de,
+  it as fe,
+  lt as B,
+  mt as pe,
+  n as V,
+  nt as H,
+  p as U,
   r as W,
-  rt as G,
+  rt as me,
+  s as G,
   st as he,
   t as K,
   tt as ge,
-  ut as q,
-  v as J,
-  x as Y,
-  y as _e,
-} from "./framer.22F-MT4t.mjs";
+  v as _e,
+  w as q,
+  x as ve,
+  y as J,
+} from "./framer.D3c-8bqh.mjs";
 import {
-  C as X,
-  E as ve,
-  S as ye,
-  T as be,
-  _ as xe,
-  b as Se,
-  d as Ce,
-  f as we,
-  h as Te,
-  l as Ee,
-  m as De,
-  o as Oe,
-  p as ke,
-  s as Ae,
-  u as je,
-  v as Me,
-  w as Ne,
+  C as Y,
+  E as ye,
+  S as be,
+  T as xe,
+  _ as Se,
+  b as Ce,
+  d as we,
+  f as Te,
+  h as Ee,
+  l as De,
+  m as Oe,
+  o as ke,
+  p as Ae,
+  s as je,
+  u as Me,
+  v as Ne,
+  w as X,
   x as Pe,
   y as Fe,
-} from "./shared-lib.CuE3I6Um.mjs";
+} from "./shared-lib.WUiyMq6h.mjs";
 var Ie,
   Le,
   Re,
   ze = e(() => {
-    (g(),
-      r(),
+    (v(),
+      d(),
       (Ie = {
         width: `100%`,
         height: `100%`,
@@ -114,7 +114,7 @@ var Ie,
         color: `#a5a5a5`,
         flexDirection: `column`,
       }),
-      (Re = v((e, t) => h(`div`, { style: Le, ref: t }))));
+      (Re = p((e, t) => h(`div`, { style: Le, ref: t }))));
   }),
   Be = e(() => {
     ze();
@@ -201,7 +201,7 @@ var Ie,
     (Ge(), Ge());
   });
 function qe(e, t, n = ``, r, i) {
-  let a = u(() => {
+  let a = c(() => {
     if (n == null || n?.length === 0) return null;
     let t = n.toLowerCase().replace(/-|\s/g, ``);
     return i[t] ?? Ye(e, t);
@@ -211,8 +211,8 @@ function qe(e, t, n = ``, r, i) {
 var Je,
   Ye,
   Xe = e(() => {
-    (r(),
-      R(),
+    (d(),
+      j(),
       (Je = {
         onClick: { type: W.EventHandler },
         onMouseDown: { type: W.EventHandler },
@@ -224,48 +224,48 @@ var Je,
   });
 function Z(e) {
   let {
-      color: t,
-      selectByList: n,
-      iconSearch: r,
-      iconSelection: i,
-      onClick: a,
-      onMouseDown: s,
-      onMouseUp: c,
-      onMouseEnter: l,
-      onMouseLeave: u,
-      weight: f,
+      color: n,
+      selectByList: r,
+      iconSearch: a,
+      iconSelection: s,
+      onClick: c,
+      onMouseDown: u,
+      onMouseUp: d,
+      onMouseEnter: f,
+      onMouseLeave: p,
+      weight: m,
       mirrored: g,
     } = e,
-    _ = p(!1),
-    v = qe(Ze, n, r, i, et),
-    [ee, y] = d(v === `Home` ? We(m) : null);
-  async function b() {
+    _ = t(!1),
+    v = qe(Ze, r, a, s, et),
+    [y, b] = o(v === `Home` ? We(l) : null);
+  async function x() {
     try {
       let e = await import(`${Qe}${v}.js@0.0.57`);
-      _.current && y(e.default(m));
+      _.current && b(e.default(l));
     } catch {
-      _.current && y(null);
+      _.current && b(null);
     }
   }
-  o(
+  i(
     () => (
       (_.current = !0),
-      b(),
+      x(),
       () => {
         _.current = !1;
       }
     ),
     [v]
   );
-  let x = oe.current() === oe.canvas ? h(Re, {}) : null;
+  let S = de.current() === de.canvas ? h(Re, {}) : null;
   return h(C.div, {
     style: { display: `contents` },
-    onClick: a,
-    onMouseEnter: l,
-    onMouseLeave: u,
-    onMouseDown: s,
-    onMouseUp: c,
-    children: ee
+    onClick: c,
+    onMouseEnter: f,
+    onMouseLeave: p,
+    onMouseDown: u,
+    onMouseUp: d,
+    children: y
       ? h(`svg`, {
           xmlns: `http://www.w3.org/2000/svg`,
           viewBox: `0 0 256 256`,
@@ -274,16 +274,16 @@ function Z(e) {
             width: `100%`,
             height: `100%`,
             display: `inline-block`,
-            fill: t,
-            color: t,
+            fill: n,
+            color: n,
             flexShrink: 0,
             transform: g ? `scale(-1, 1)` : void 0,
           },
           focusable: `false`,
-          color: t,
-          children: h(ee, { color: t, weight: f }),
+          color: n,
+          children: h(y, { color: n, weight: m }),
         })
-      : x,
+      : S,
   });
 }
 var Ze,
@@ -291,9 +291,9 @@ var Ze,
   $e,
   et,
   tt = e(() => {
-    (g(),
-      r(),
-      R(),
+    (v(),
+      d(),
+      j(),
       k(),
       Be(),
       Ke(),
@@ -316,7 +316,7 @@ var Ze,
         weight: `regular`,
         mirrored: !1,
       }),
-      I(Z, {
+      ve(Z, {
         selectByList: {
           type: W.Boolean,
           title: `Select`,
@@ -389,62 +389,62 @@ var Ze,
   });
 function ot(e) {
   let {
-      color: t,
-      selectByList: n,
-      iconSearch: r,
-      iconSelection: i,
-      onClick: a,
-      onMouseDown: s,
-      onMouseUp: c,
-      onMouseEnter: l,
-      onMouseLeave: u,
-      mirrored: f,
+      color: n,
+      selectByList: r,
+      iconSearch: a,
+      iconSelection: s,
+      onClick: c,
+      onMouseDown: u,
+      onMouseUp: d,
+      onMouseEnter: f,
+      onMouseLeave: p,
+      mirrored: m,
     } = e,
-    g = p(!1),
-    _ = qe(st, n, r, i, lt),
-    [v, ee] = d(_ === `Home` ? rt(m) : null);
-  async function y() {
+    g = t(!1),
+    _ = qe(st, r, a, s, lt),
+    [v, y] = o(_ === `Home` ? rt(l) : null);
+  async function b() {
     try {
       let e = await import(`${ct}${_}.js@0.0.11`);
-      g.current && ee(e.default(m));
+      g.current && y(e.default(l));
     } catch {
-      g.current && ee(null);
+      g.current && y(null);
     }
   }
-  o(
+  i(
     () => (
       (g.current = !0),
-      y(),
+      b(),
       () => {
         g.current = !1;
       }
     ),
     [_]
   );
-  let b = oe.current() === oe.canvas ? h(Re, {}) : null;
+  let x = de.current() === de.canvas ? h(Re, {}) : null;
   return h(`div`, {
     style: { display: `contents` },
-    onClick: a,
-    onMouseEnter: l,
-    onMouseLeave: u,
-    onMouseDown: s,
-    onMouseUp: c,
+    onClick: c,
+    onMouseEnter: f,
+    onMouseLeave: p,
+    onMouseDown: u,
+    onMouseUp: d,
     children: v
       ? h(v, {
           size: `100$%`,
-          style: { width: `100%`, height: `100%`, transform: f ? `scale(-1, 1)` : void 0 },
-          color: t,
+          style: { width: `100%`, height: `100%`, transform: m ? `scale(-1, 1)` : void 0 },
+          color: n,
         })
-      : b,
+      : x,
   });
 }
 var st,
   ct,
   lt,
   ut = e(() => {
-    (g(),
-      r(),
-      R(),
+    (v(),
+      d(),
+      j(),
       Be(),
       at(),
       Xe(),
@@ -464,7 +464,7 @@ var st,
         selectByList: !0,
         mirrored: !1,
       }),
-      I(ot, {
+      ve(ot, {
         selectByList: {
           type: W.Boolean,
           title: `Select`,
@@ -500,8 +500,8 @@ var st,
   ft,
   pt,
   mt = e(() => {
-    (R(),
-      j.loadFonts([`Inter`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-Italic`]),
+    (j(),
+      re.loadFonts([`Inter`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-Italic`]),
       (dt = [
         {
           explicitInter: !0,
@@ -743,8 +743,8 @@ var st,
   gt,
   _t,
   vt = e(() => {
-    (R(),
-      j.loadFonts([`Inter-Medium`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-MediumItalic`]),
+    (j(),
+      re.loadFonts([`Inter-Medium`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-MediumItalic`]),
       (ht = [
         {
           explicitInter: !0,
@@ -998,18 +998,19 @@ var bt,
   At,
   jt,
   Mt = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
+      tt(),
       ut(),
-      ve(),
+      ye(),
       mt(),
       vt(),
-      (bt = N(ot)),
+      (bt = N(Z)),
       (xt = ne(ot)),
       (St = [`b6EZJwsob`, `egwieoSxG`, `ya0gZ988X`, `CyAGZEOr5`, `KMHpSWbcQ`]),
-      (Ct = `framer-g3UVW`),
+      (Ct = `framer-73DMB`),
       (wt = {
         b6EZJwsob: `framer-v-evqo01`,
         CyAGZEOr5: `framer-v-y6yrg0`,
@@ -1019,81 +1020,81 @@ var bt,
       }),
       (Tt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (Et = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Dt = C.create(s)),
-      (Ot = {
+      (Dt = {
         "Compare List": `KMHpSWbcQ`,
         "Feature Basic": `b6EZJwsob`,
         "Feature Card": `egwieoSxG`,
         "Feature List Mobile": `CyAGZEOr5`,
         "Feature Without Icon": `ya0gZ988X`,
       }),
+      (Ot = C.create(a)),
       (kt = ({ height: e, icon: t, id: n, text: r, title: i, width: a, ...o }) => ({
         ...o,
         JFPp1IiQm: t ?? o.JFPp1IiQm ?? `Home`,
-        variant: Ot[o.variant] ?? o.variant ?? `b6EZJwsob`,
+        variant: Dt[o.variant] ?? o.variant ?? `b6EZJwsob`,
         xKsrNeCEm: i ?? o.xKsrNeCEm ?? `Lorem Ipsum`,
         yvKNMfljW: r ?? o.yvKNMfljW ?? `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       })),
       (At = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (jt = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            c = F(),
+      (jt = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H(),
+            l = I(),
             {
-              style: l,
-              className: u,
-              layoutId: d,
-              variant: m,
-              JFPp1IiQm: g,
-              xKsrNeCEm: v,
-              yvKNMfljW: ee,
+              style: u,
+              className: d,
+              layoutId: f,
+              variant: p,
+              JFPp1IiQm: m,
+              xKsrNeCEm: g,
+              yvKNMfljW: v,
               ...y
             } = kt(e),
             {
-              baseVariant: b,
-              classNames: x,
-              clearLoadingGesture: te,
-              gestureHandlers: S,
+              baseVariant: x,
+              classNames: S,
+              clearLoadingGesture: ee,
+              gestureHandlers: te,
               gestureVariant: w,
               isLoading: T,
               setGestureState: E,
               setVariant: D,
               variants: k,
-            } = q({
+            } = z({
               cycleOrder: St,
               defaultVariant: `b6EZJwsob`,
-              ref: r,
-              variant: m,
+              ref: i,
+              variant: p,
               variantClassNames: wt,
             }),
             A = At(e, k),
-            j = L(Ct, _t, pt, X),
-            ne = () => b !== `ya0gZ988X`,
-            N = () => b === `egwieoSxG`,
-            P = () => b !== `KMHpSWbcQ`;
+            j = q(Ct, _t, pt, Y),
+            M = () => x !== `ya0gZ988X`,
+            ne = () => x === `egwieoSxG`,
+            N = () => x !== `KMHpSWbcQ`;
           return h(O, {
-            id: d ?? i,
-            children: h(Dt, {
+            id: f ?? o,
+            children: h(Ot, {
               animate: k,
               initial: !1,
               children: h(Et, {
                 value: Tt,
                 children: _(C.div, {
                   ...y,
-                  ...S,
-                  className: L(j, `framer-evqo01`, u, x),
+                  ...te,
+                  className: q(j, `framer-evqo01`, d, S),
                   "data-framer-name": `Feature Basic`,
                   layoutDependency: A,
                   layoutId: `b6EZJwsob`,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `0px`,
                     "--border-color": `rgba(0, 0, 0, 0)`,
@@ -1107,7 +1108,7 @@ var bt,
                     borderTopLeftRadius: 0,
                     borderTopRightRadius: 0,
                     boxShadow: `none`,
-                    ...l,
+                    ...u,
                   },
                   variants: {
                     CyAGZEOr5: {
@@ -1168,7 +1169,7 @@ var bt,
                       KMHpSWbcQ: { "data-framer-name": `Compare List` },
                       ya0gZ988X: { "data-framer-name": `Feature Without Icon` },
                     },
-                    b,
+                    x,
                     w
                   ),
                   children: [
@@ -1184,7 +1185,7 @@ var bt,
                           layoutDependency: A,
                           layoutId: `pFCZbwMIO`,
                           children: [
-                            ne() &&
+                            M() &&
                               h(C.div, {
                                 className: `framer-m2lh8x`,
                                 "data-framer-name": `Icon Box`,
@@ -1244,7 +1245,7 @@ var bt,
                                     boxShadow: `none`,
                                   },
                                 },
-                                ...yt({ egwieoSxG: { "data-border": !0 } }, b, w),
+                                ...yt({ egwieoSxG: { "data-border": !0 } }, x, w),
                                 children: _(C.div, {
                                   className: `framer-39pdue`,
                                   "data-framer-name": `Icon Wrapper`,
@@ -1300,7 +1301,7 @@ var bt,
                                       boxShadow: `none`,
                                     },
                                   },
-                                  ...yt({ egwieoSxG: { "data-border": !0 } }, b, w),
+                                  ...yt({ egwieoSxG: { "data-border": !0 } }, x, w),
                                   children: [
                                     h(C.div, {
                                       className: `framer-zhut0s`,
@@ -1308,31 +1309,32 @@ var bt,
                                       layoutDependency: A,
                                       layoutId: `CVCN8wspg`,
                                       children: h(K, {
-                                        children: h(z, {
-                                          className: `framer-4ogbw8-container`,
+                                        children: h(J, {
+                                          className: `framer-14l16kb-container`,
                                           isAuthoredByUser: !0,
                                           isModuleExternal: !0,
                                           layoutDependency: A,
-                                          layoutId: `FlK7jJCYo-container`,
-                                          nodeId: `FlK7jJCYo`,
+                                          layoutId: `ei25LGnHs-container`,
+                                          nodeId: `ei25LGnHs`,
                                           rendersWithMotion: !0,
                                           scopeId: `BnrXI6XVl`,
-                                          children: h(ot, {
+                                          children: h(Z, {
                                             color: `var(--token-4ef7286b-2987-4bd2-ae8e-f1ca66fbb973, rgb(221, 214, 254))`,
                                             height: `100%`,
-                                            iconSearch: `Home`,
-                                            iconSelection: g,
-                                            id: `FlK7jJCYo`,
-                                            layoutId: `FlK7jJCYo`,
+                                            iconSearch: `House`,
+                                            iconSelection: m,
+                                            id: `ei25LGnHs`,
+                                            layoutId: `ei25LGnHs`,
                                             mirrored: !1,
                                             selectByList: !0,
                                             style: { height: `100%`, width: `100%` },
+                                            weight: `regular`,
                                             width: `100%`,
                                           }),
                                         }),
                                       }),
                                     }),
-                                    N() &&
+                                    ne() &&
                                       _(C.div, {
                                         className: `framer-1ksblv0`,
                                         "data-framer-name": `Decor Lines`,
@@ -1378,9 +1380,9 @@ var bt,
                                   ],
                                 }),
                               }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(C.h3, {
                                   className: `framer-styles-preset-1s7ojww`,
                                   "data-styles-preset": `TROKhwdeV`,
@@ -1406,7 +1408,7 @@ var bt,
                                 "--framer-link-text-color": `rgb(0, 153, 255)`,
                                 "--framer-link-text-decoration": `underline`,
                               },
-                              text: v,
+                              text: g,
                               variants: {
                                 KMHpSWbcQ: {
                                   "--extracted-r6o4lv": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
@@ -1417,7 +1419,7 @@ var bt,
                               ...yt(
                                 {
                                   CyAGZEOr5: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.h3, {
                                         className: `framer-styles-preset-1s7ojww`,
                                         "data-styles-preset": `TROKhwdeV`,
@@ -1436,7 +1438,7 @@ var bt,
                                     }),
                                   },
                                   egwieoSxG: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.h3, {
                                         className: `framer-styles-preset-1s7ojww`,
                                         "data-styles-preset": `TROKhwdeV`,
@@ -1455,7 +1457,7 @@ var bt,
                                     }),
                                   },
                                   KMHpSWbcQ: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-1ywp38s`,
                                         "data-styles-preset": `chuOPspnt`,
@@ -1473,7 +1475,7 @@ var bt,
                                     }),
                                   },
                                   ya0gZ988X: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.h3, {
                                         className: `framer-styles-preset-1s7ojww`,
                                         "data-styles-preset": `TROKhwdeV`,
@@ -1492,16 +1494,16 @@ var bt,
                                     }),
                                   },
                                 },
-                                b,
+                                x,
                                 w
                               ),
                             }),
                           ],
                         }),
-                        P() &&
-                          h(J, {
+                        N() &&
+                          h(L, {
                             __fromCanvasComponent: !0,
-                            children: h(s, {
+                            children: h(a, {
                               children: h(C.p, {
                                 className: `framer-styles-preset-ke6suj`,
                                 "data-styles-preset": `Bv6I6Qd8d`,
@@ -1521,7 +1523,7 @@ var bt,
                               "--framer-link-text-color": `rgb(0, 153, 255)`,
                               "--framer-link-text-decoration": `underline`,
                             },
-                            text: ee,
+                            text: v,
                             variants: {
                               egwieoSxG: {
                                 "--extracted-r6o4lv": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
@@ -1532,7 +1534,7 @@ var bt,
                             ...yt(
                               {
                                 CyAGZEOr5: {
-                                  children: h(s, {
+                                  children: h(a, {
                                     children: h(C.p, {
                                       className: `framer-styles-preset-ke6suj`,
                                       "data-styles-preset": `Bv6I6Qd8d`,
@@ -1545,7 +1547,7 @@ var bt,
                                   }),
                                 },
                                 egwieoSxG: {
-                                  children: h(s, {
+                                  children: h(a, {
                                     children: h(C.p, {
                                       className: `framer-styles-preset-ke6suj`,
                                       "data-styles-preset": `Bv6I6Qd8d`,
@@ -1558,7 +1560,7 @@ var bt,
                                   }),
                                 },
                                 ya0gZ988X: {
-                                  children: h(s, {
+                                  children: h(a, {
                                     children: h(C.p, {
                                       className: `framer-styles-preset-ke6suj`,
                                       "data-styles-preset": `Bv6I6Qd8d`,
@@ -1571,14 +1573,14 @@ var bt,
                                   }),
                                 },
                               },
-                              b,
+                              x,
                               w
                             ),
                           }),
                       ],
                     }),
-                    N() &&
-                      h(B, {
+                    ne() &&
+                      h(G, {
                         background: {
                           alt: ``,
                           backgroundSize: 0.29,
@@ -1607,20 +1609,21 @@ var bt,
                                 alt: ``,
                                 backgroundSize: 0.29,
                                 fit: `tile`,
-                                loading: M((c?.y || 0) + 0),
+                                loading: F((l?.y || 0) + 0),
                                 pixelHeight: 96,
                                 pixelWidth: 96,
                                 positionX: `left`,
                                 positionY: `top`,
+                                sizes: l?.width || `100vw`,
                                 src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
                               },
                             },
                           },
-                          b,
+                          x,
                           w
                         ),
                       }),
-                    N() &&
+                    ne() &&
                       h(C.div, {
                         className: `framer-jzwl2s`,
                         "data-framer-name": `Gradient`,
@@ -1640,41 +1643,40 @@ var bt,
           });
         }),
         [
-          `@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }`,
-          `.framer-g3UVW.framer-977eey, .framer-g3UVW .framer-977eey { display: block; }`,
-          `.framer-g3UVW.framer-evqo01 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 368px; }`,
-          `.framer-g3UVW .framer-17w8oht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-          `.framer-g3UVW .framer-nec4td { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-          `.framer-g3UVW .framer-m2lh8x, .framer-g3UVW .framer-39pdue { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-          `.framer-g3UVW .framer-zhut0s { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: auto; }`,
-          `.framer-g3UVW .framer-4ogbw8-container { flex: none; height: 24px; position: relative; width: 24px; }`,
-          `.framer-g3UVW .framer-1ksblv0, .framer-g3UVW .framer-jzwl2s { bottom: 0px; flex: none; left: 0px; overflow: hidden; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-          `.framer-g3UVW .framer-1935qh7 { bottom: 0px; flex: none; left: 10px; overflow: hidden; position: absolute; top: 0px; width: 1px; }`,
-          `.framer-g3UVW .framer-w4g0uj { bottom: 0px; flex: none; overflow: hidden; position: absolute; right: 9px; top: 0px; width: 1px; }`,
-          `.framer-g3UVW .framer-1fk2v8o { flex: none; height: 53px; left: calc(49.056603773584925% - 1px / 2); overflow: hidden; position: absolute; top: -17px; width: 1px; }`,
-          `.framer-g3UVW .framer-1qom6e5 { bottom: -15px; flex: none; height: 53px; left: calc(49.056603773584925% - 1px / 2); overflow: hidden; position: absolute; width: 1px; }`,
-          `.framer-g3UVW .framer-1rsvui5 { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
-          `.framer-g3UVW .framer-xasvnb { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-          `.framer-g3UVW .framer-3ocwrc { bottom: 0px; flex: none; left: 0px; mix-blend-mode: screen; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-          `.framer-g3UVW.framer-v-1u7abr4.framer-evqo01 { align-content: flex-start; align-items: flex-start; overflow: hidden; padding: 30px 24px 30px 24px; will-change: var(--framer-will-change-override, transform); }`,
-          `.framer-g3UVW.framer-v-1u7abr4 .framer-17w8oht { z-index: 10; }`,
-          `.framer-g3UVW.framer-v-1u7abr4 .framer-nec4td, .framer-g3UVW.framer-v-y6yrg0 .framer-nec4td { flex-direction: column; }`,
-          `.framer-g3UVW.framer-v-1u7abr4 .framer-m2lh8x { flex-direction: row; height: 80px; padding: 10px; width: 80px; }`,
-          `.framer-g3UVW.framer-v-1u7abr4 .framer-39pdue { flex: 1 0 0px; flex-direction: row; height: 100%; overflow: hidden; padding: 15px; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
-          `.framer-g3UVW.framer-v-1u7abr4 .framer-zhut0s { align-self: unset; flex: 1 0 0px; width: 1px; }`,
-          `.framer-g3UVW.framer-v-1u7abr4 .framer-1rsvui5, .framer-g3UVW.framer-v-y6yrg0 .framer-1rsvui5 { flex: none; width: 100%; }`,
-          `.framer-g3UVW.framer-v-19nfxps.framer-evqo01 { cursor: default; }`,
-          `.framer-g3UVW.framer-v-y6yrg0 .framer-xasvnb { max-width: 70%; }`,
+          `.framer-73DMB.framer-977eey, .framer-73DMB .framer-977eey { display: block; }`,
+          `.framer-73DMB.framer-evqo01 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 368px; }`,
+          `.framer-73DMB .framer-17w8oht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+          `.framer-73DMB .framer-nec4td { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+          `.framer-73DMB .framer-m2lh8x, .framer-73DMB .framer-39pdue { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+          `.framer-73DMB .framer-zhut0s { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: auto; }`,
+          `.framer-73DMB .framer-14l16kb-container { flex: none; height: 24px; position: relative; width: 24px; }`,
+          `.framer-73DMB .framer-1ksblv0, .framer-73DMB .framer-jzwl2s { bottom: 0px; flex: none; left: 0px; overflow: hidden; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+          `.framer-73DMB .framer-1935qh7 { bottom: 0px; flex: none; left: 10px; overflow: hidden; position: absolute; top: 0px; width: 1px; }`,
+          `.framer-73DMB .framer-w4g0uj { bottom: 0px; flex: none; overflow: hidden; position: absolute; right: 9px; top: 0px; width: 1px; }`,
+          `.framer-73DMB .framer-1fk2v8o { flex: none; height: 53px; left: calc(49.056603773584925% - 1px / 2); overflow: hidden; position: absolute; top: -17px; width: 1px; }`,
+          `.framer-73DMB .framer-1qom6e5 { bottom: -15px; flex: none; height: 53px; left: calc(49.056603773584925% - 1px / 2); overflow: hidden; position: absolute; width: 1px; }`,
+          `.framer-73DMB .framer-1rsvui5 { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+          `.framer-73DMB .framer-xasvnb { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+          `.framer-73DMB .framer-3ocwrc { bottom: 0px; flex: none; left: 0px; mix-blend-mode: screen; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+          `.framer-73DMB.framer-v-1u7abr4.framer-evqo01 { align-content: flex-start; align-items: flex-start; overflow: hidden; padding: 30px 24px 30px 24px; will-change: var(--framer-will-change-override, transform); }`,
+          `.framer-73DMB.framer-v-1u7abr4 .framer-17w8oht { z-index: 10; }`,
+          `.framer-73DMB.framer-v-1u7abr4 .framer-nec4td, .framer-73DMB.framer-v-y6yrg0 .framer-nec4td { flex-direction: column; }`,
+          `.framer-73DMB.framer-v-1u7abr4 .framer-m2lh8x { flex-direction: row; height: 80px; padding: 10px; width: 80px; }`,
+          `.framer-73DMB.framer-v-1u7abr4 .framer-39pdue { flex: 1 0 0px; flex-direction: row; height: 100%; overflow: hidden; padding: 15px; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
+          `.framer-73DMB.framer-v-1u7abr4 .framer-zhut0s { align-self: unset; flex: 1 0 0px; width: 1px; }`,
+          `.framer-73DMB.framer-v-1u7abr4 .framer-1rsvui5, .framer-73DMB.framer-v-y6yrg0 .framer-1rsvui5 { flex: none; width: 100%; }`,
+          `.framer-73DMB.framer-v-19nfxps.framer-evqo01 { cursor: default; }`,
+          `.framer-73DMB.framer-v-y6yrg0 .framer-xasvnb { max-width: 70%; }`,
           ...gt,
           ...ft,
-          ...Ne,
-          `.framer-g3UVW[data-border="true"]::after, .framer-g3UVW [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
+          ...X,
+          `.framer-73DMB[data-border="true"]::after, .framer-73DMB [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
-        `framer-g3UVW`
+        `framer-73DMB`
       )),
       (jt.displayName = `Feature`),
-      (jt.defaultProps = { height: 94.5, width: 368 }),
-      I(jt, {
+      (jt.defaultProps = { height: 94, width: 368 }),
+      ve(jt, {
         variant: {
           options: [`b6EZJwsob`, `egwieoSxG`, `ya0gZ988X`, `CyAGZEOr5`, `KMHpSWbcQ`],
           optionTitles: [
@@ -1692,79 +1694,90 @@ var bt,
           defaultValue: `Home`,
           description: void 0,
           hidden: void 0,
+          optional: void 0,
           title: `Icon`,
         },
+        onJFPp1IiQmChange: { changes: `JFPp1IiQm`, type: W.ChangeHandler },
         xKsrNeCEm: {
           defaultValue: `Lorem Ipsum`,
           displayTextArea: !1,
           title: `Title`,
           type: W.String,
         },
+        onxKsrNeCEmChange: { changes: `xKsrNeCEm`, type: W.ChangeHandler },
         yvKNMfljW: {
           defaultValue: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
           displayTextArea: !1,
           title: `Text`,
           type: W.String,
         },
+        onyvKNMfljWChange: { changes: `yvKNMfljW`, type: W.ChangeHandler },
       }),
-      Y(
+      R(
         jt,
         [
           {
             explicitInter: !0,
             fonts: [
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
                 url: `https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
                 url: `https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+1F00-1FFF`,
                 url: `https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0370-03FF`,
                 url: `https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
                 url: `https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
-                unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
-                url: `../../assets/fonts/vQyevYAyHtARFwPqUzQGpnDs.woff2`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+                url: `https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
                 url: `../../assets/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2`,
                 weight: `400`,
@@ -1774,7 +1787,7 @@ var bt,
           ...bt,
           ...P(ht),
           ...P(dt),
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -1783,8 +1796,8 @@ var bt,
   Pt,
   Ft,
   It = e(() => {
-    (R(),
-      j.loadFonts([`GF;Inter-regular`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
+    (j(),
+      re.loadFonts([`GF;Inter-regular`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
       (Nt = [
         {
           explicitInter: !0,
@@ -1990,22 +2003,22 @@ var Rt,
   Kt,
   qt,
   Jt = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
-      ve(),
+      d(),
+      ye(),
       (Rt = [`A4b5N3lov`, `IHeVKXtSW`]),
       (zt = `framer-QP90l`),
       (Bt = { A4b5N3lov: `framer-v-126znxa`, IHeVKXtSW: `framer-v-jfp7u9` }),
       (Vt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (Ht = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Ut = C.create(s)),
+      (Ut = C.create(a)),
       (Wt = { "Badge Purple": `IHeVKXtSW`, Badge: `A4b5N3lov` }),
       (Gt = ({ height: e, id: t, title: n, width: r, ...i }) => ({
         ...i,
@@ -2013,49 +2026,49 @@ var Rt,
         variant: Wt[i.variant] ?? i.variant ?? `A4b5N3lov`,
       })),
       (Kt = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (qt = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
-          let { style: c, className: l, layoutId: u, variant: d, O6gJl3TVN: m, ...g } = Gt(e),
+      (qt = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H();
+          I();
+          let { style: l, className: u, layoutId: d, variant: f, O6gJl3TVN: p, ...m } = Gt(e),
             {
-              baseVariant: _,
-              classNames: v,
-              clearLoadingGesture: ee,
+              baseVariant: g,
+              classNames: _,
+              clearLoadingGesture: v,
               gestureHandlers: y,
-              gestureVariant: b,
-              isLoading: x,
-              setGestureState: te,
-              setVariant: S,
+              gestureVariant: x,
+              isLoading: S,
+              setGestureState: ee,
+              setVariant: te,
               variants: w,
-            } = q({
+            } = z({
               cycleOrder: Rt,
               defaultVariant: `A4b5N3lov`,
-              ref: r,
-              variant: d,
+              ref: i,
+              variant: f,
               variantClassNames: Bt,
             }),
             T = Kt(e, w),
-            E = L(zt, X);
+            E = q(zt, Y);
           return h(O, {
-            id: u ?? i,
+            id: d ?? o,
             children: h(Ut, {
               animate: w,
               initial: !1,
               children: h(Ht, {
                 value: Vt,
                 children: h(C.div, {
-                  ...g,
+                  ...m,
                   ...y,
-                  className: L(E, `framer-126znxa`, l, v),
+                  className: q(E, `framer-126znxa`, u, _),
                   "data-border": !0,
                   "data-framer-name": `Badge`,
                   layoutDependency: T,
                   layoutId: `A4b5N3lov`,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `1px`,
                     "--border-color": `var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1))`,
@@ -2068,17 +2081,17 @@ var Rt,
                     borderTopLeftRadius: 24,
                     borderTopRightRadius: 24,
                     boxShadow: `inset 0px 0px 10px 0px rgba(250, 169, 115, 0.37)`,
-                    ...c,
+                    ...l,
                   },
                   variants: {
                     IHeVKXtSW: {
                       boxShadow: `inset 0px 0px 10px 0px var(--token-efa3e356-ac9a-49c3-9f07-9b43f54692b7, rgb(167, 139, 250))`,
                     },
                   },
-                  ...Lt({ IHeVKXtSW: { "data-framer-name": `Badge Purple` } }, _, b),
-                  children: h(J, {
+                  ...Lt({ IHeVKXtSW: { "data-framer-name": `Badge Purple` } }, g, x),
+                  children: h(L, {
                     __fromCanvasComponent: !0,
-                    children: h(s, {
+                    children: h(a, {
                       children: h(C.p, {
                         className: `framer-styles-preset-ke6suj`,
                         "data-styles-preset": `Bv6I6Qd8d`,
@@ -2104,7 +2117,7 @@ var Rt,
                       "--framer-link-text-color": `rgb(0, 153, 255)`,
                       "--framer-link-text-decoration": `underline`,
                     },
-                    text: m,
+                    text: p,
                     variants: {
                       IHeVKXtSW: {
                         "--extracted-r6o4lv": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
@@ -2115,7 +2128,7 @@ var Rt,
                     ...Lt(
                       {
                         IHeVKXtSW: {
-                          children: h(s, {
+                          children: h(a, {
                             children: h(C.p, {
                               className: `framer-styles-preset-ke6suj`,
                               "data-styles-preset": `Bv6I6Qd8d`,
@@ -2133,8 +2146,8 @@ var Rt,
                           }),
                         },
                       },
-                      _,
-                      b
+                      g,
+                      x
                     ),
                   }),
                 }),
@@ -2147,14 +2160,14 @@ var Rt,
           `.framer-QP90l.framer-p0dcry, .framer-QP90l .framer-p0dcry { display: block; }`,
           `.framer-QP90l.framer-126znxa { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 6px 15px 6px 15px; position: relative; width: min-content; }`,
           `.framer-QP90l .framer-53b4lw { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Ne,
+          ...X,
           `.framer-QP90l[data-border="true"]::after, .framer-QP90l [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-QP90l`
       )),
       (qt.displayName = `Badge`),
       (qt.defaultProps = { height: 37.5, width: 221.5 }),
-      I(qt, {
+      ve(qt, {
         variant: {
           options: [`A4b5N3lov`, `IHeVKXtSW`],
           optionTitles: [`Badge`, `Badge Purple`],
@@ -2168,7 +2181,7 @@ var Rt,
           type: W.String,
         },
       }),
-      Y(
+      R(
         qt,
         [
           {
@@ -2232,7 +2245,7 @@ var Rt,
               },
             ],
           },
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -2247,10 +2260,10 @@ var Rt,
   nn,
   rn,
   an = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       mt(),
       It(),
       Jt(),
@@ -2259,12 +2272,12 @@ var Rt,
       (Zt = { idAGtyDqJ: `framer-v-oar3z9` }),
       (Qt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       ($t = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (en = C.create(s)),
+      (en = C.create(a)),
       (tn = ({
         badge: e,
         badgeVisible: t,
@@ -2285,59 +2298,59 @@ var Rt,
           `Whether you’re crafting content, designing visuals, or launching ideas, Flamer helps you go from prompt to polished in seconds.`,
       })),
       (nn = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (rn = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            c = F(),
+      (rn = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H(),
+            l = I(),
             {
-              style: l,
-              className: u,
-              layoutId: d,
-              variant: m,
-              sIRtTcVp7: g,
-              bRyvaH27Q: v,
-              TmroXSTYL: ee,
+              style: u,
+              className: d,
+              layoutId: f,
+              variant: p,
+              sIRtTcVp7: m,
+              bRyvaH27Q: g,
+              TmroXSTYL: v,
               blBXxPHbO: y,
-              ...b
+              ...x
             } = tn(e),
             {
-              baseVariant: x,
-              classNames: te,
-              clearLoadingGesture: S,
+              baseVariant: S,
+              classNames: ee,
+              clearLoadingGesture: te,
               gestureHandlers: w,
               gestureVariant: T,
               isLoading: E,
               setGestureState: D,
               setVariant: k,
               variants: A,
-            } = q({ defaultVariant: `idAGtyDqJ`, ref: r, variant: m, variantClassNames: Zt }),
+            } = z({ defaultVariant: `idAGtyDqJ`, ref: i, variant: p, variantClassNames: Zt }),
             j = nn(e, A),
-            M = L(Xt, Ft, pt);
+            M = q(Xt, Ft, pt);
           return h(O, {
-            id: d ?? i,
+            id: f ?? o,
             children: h(en, {
               animate: A,
               initial: !1,
               children: h($t, {
                 value: Qt,
                 children: _(C.div, {
-                  ...b,
+                  ...x,
                   ...w,
-                  className: L(M, `framer-oar3z9`, u, te),
+                  className: q(M, `framer-oar3z9`, d, ee),
                   "data-framer-name": `Centered`,
                   layoutDependency: j,
                   layoutId: `idAGtyDqJ`,
-                  ref: r,
-                  style: { ...l },
+                  ref: i,
+                  style: { ...u },
                   children: [
                     y &&
                       h(K, {
                         height: 37,
-                        y: (c?.y || 0) + 0 + (((c?.height || 193) - 0 - 294.6) / 2 + 0 + 0),
-                        children: h(z, {
+                        y: (l?.y || 0) + 0 + (((l?.height || 193) - 0 - 294.6) / 2 + 0 + 0),
+                        children: h(J, {
                           className: `framer-vzqj77-container`,
                           layoutDependency: j,
                           layoutId: `nS_IiscH2-container`,
@@ -2348,7 +2361,7 @@ var Rt,
                             height: `100%`,
                             id: `nS_IiscH2`,
                             layoutId: `nS_IiscH2`,
-                            O6gJl3TVN: g,
+                            O6gJl3TVN: m,
                             variant: `IHeVKXtSW`,
                             width: `100%`,
                           }),
@@ -2360,9 +2373,9 @@ var Rt,
                       layoutDependency: j,
                       layoutId: `LgtqT8nRp`,
                       children: [
-                        h(J, {
+                        h(L, {
                           __fromCanvasComponent: !0,
-                          children: h(s, {
+                          children: h(a, {
                             children: h(C.h2, {
                               className: `framer-styles-preset-14yy0fo`,
                               "data-styles-preset": `U2wSnEg3t`,
@@ -2388,13 +2401,13 @@ var Rt,
                             "--framer-link-text-color": `rgb(0, 153, 255)`,
                             "--framer-link-text-decoration": `underline`,
                           },
-                          text: v,
+                          text: g,
                           verticalAlignment: `top`,
                           withExternalLayout: !0,
                         }),
-                        h(J, {
+                        h(L, {
                           __fromCanvasComponent: !0,
-                          children: h(s, {
+                          children: h(a, {
                             children: h(C.p, {
                               className: `framer-styles-preset-1ywp38s`,
                               "data-styles-preset": `chuOPspnt`,
@@ -2414,7 +2427,7 @@ var Rt,
                             "--framer-link-text-color": `rgb(0, 153, 255)`,
                             "--framer-link-text-decoration": `underline`,
                           },
-                          text: ee,
+                          text: v,
                           verticalAlignment: `top`,
                           withExternalLayout: !0,
                         }),
@@ -2441,7 +2454,7 @@ var Rt,
       )),
       (rn.displayName = `Headline`),
       (rn.defaultProps = { height: 193, width: 750 }),
-      I(rn, {
+      ve(rn, {
         sIRtTcVp7: {
           defaultValue: `Flamer Blog`,
           displayTextArea: !1,
@@ -2462,7 +2475,7 @@ var Rt,
         },
         blBXxPHbO: { defaultValue: !0, title: `Badge Visible`, type: W.Boolean },
       }),
-      Y(
+      R(
         rn,
         [
           {
@@ -2691,11 +2704,11 @@ function Nn(e, t) {
 }
 function Pn() {
   ((ur = () => {
-    let e = { width: a.innerWidth, height: a.innerHeight },
-      t = { target: a, size: e, contentSize: e };
+    let e = { width: f.innerWidth, height: f.innerHeight },
+      t = { target: f, size: e, contentSize: e };
     lr.forEach((e) => e(t));
   }),
-    a.addEventListener(`resize`, ur));
+    f.addEventListener(`resize`, ur));
 }
 function Fn(e) {
   return (
@@ -2830,8 +2843,8 @@ function Kn(e, t = {}) {
     r = Sn(t, [`container`]);
   let i = xr.get(n);
   i || ((i = new Set()), xr.set(n, i));
-  let o = Wn(n, e, pr(), r);
-  if ((i.add(o), !yr.has(n))) {
+  let a = Wn(n, e, pr(), r);
+  if ((i.add(a), !yr.has(n))) {
     let e = () => {
       let e = performance.now();
       for (let e of i) e.measure();
@@ -2840,23 +2853,23 @@ function Kn(e, t = {}) {
     };
     yr.set(n, e);
     let t = Sr(n);
-    (a.addEventListener(`resize`, e, { passive: !0 }),
+    (f.addEventListener(`resize`, e, { passive: !0 }),
       n !== document.documentElement && br.set(n, In(n, e)),
       t.addEventListener(`scroll`, e, { passive: !0 }));
   }
-  let s = yr.get(n),
-    c = requestAnimationFrame(s);
+  let o = yr.get(n),
+    s = requestAnimationFrame(o);
   return () => {
     var t;
-    (typeof e != `function` && e.stop(), cancelAnimationFrame(c));
+    (typeof e != `function` && e.stop(), cancelAnimationFrame(s));
     let r = xr.get(n);
-    if (!r || (r.delete(o), r.size)) return;
+    if (!r || (r.delete(a), r.size)) return;
     let i = yr.get(n);
     (yr.delete(n),
       i &&
         (Sr(n).removeEventListener(`scroll`, i),
         (t = br.get(n)) == null || t(),
-        a.removeEventListener(`resize`, i)));
+        f.removeEventListener(`resize`, i)));
   };
 }
 function qn(e, t, n) {
@@ -2897,7 +2910,7 @@ var Yn,
   wr,
   Tr,
   Er = e(() => {
-    (t(),
+    (x(),
       yn(),
       xn(),
       Cn(),
@@ -2983,7 +2996,7 @@ var Yn,
       (yr = new WeakMap()),
       (br = new WeakMap()),
       (xr = new WeakMap()),
-      (Sr = (e) => (e === document.documentElement ? a : e)),
+      (Sr = (e) => (e === document.documentElement ? f : e)),
       (Cr = {
         isActive: (e) => !!e.inView,
         subscribe: (e, { enable: t, disable: n }, { inViewOptions: r = {} }) => {
@@ -3024,15 +3037,15 @@ var Yn,
           isActive: (e) => !!e.press,
           subscribe: (e, { enable: t, disable: n }) => {
             let r = (t) => {
-                (n(), qn(e, `pressend`, t), a.removeEventListener(`pointerup`, r));
+                (n(), qn(e, `pressend`, t), f.removeEventListener(`pointerup`, r));
               },
               i = (n) => {
-                (t(), qn(e, `pressstart`, n), a.addEventListener(`pointerup`, r));
+                (t(), qn(e, `pressstart`, n), f.addEventListener(`pointerup`, r));
               };
             return (
               e.addEventListener(`pointerdown`, i),
               () => {
-                (e.removeEventListener(`pointerdown`, i), a.removeEventListener(`pointerup`, r));
+                (e.removeEventListener(`pointerdown`, i), f.removeEventListener(`pointerup`, r));
               }
             );
           },
@@ -3042,16 +3055,16 @@ var Yn,
   });
 function Dr(e) {
   let {
-      slots: t = [],
-      gap: r,
-      padding: a,
-      paddingPerSide: s,
-      paddingTop: l,
-      paddingRight: f,
+      slots: a = [],
+      gap: s,
+      padding: l,
+      paddingPerSide: d,
+      paddingTop: f,
+      paddingRight: p,
       paddingBottom: m,
-      paddingLeft: g,
-      speed: v,
-      hoverFactor: y,
+      paddingLeft: v,
+      speed: b,
+      hoverFactor: x,
       direction: T,
       alignment: E,
       sizingOptions: k,
@@ -3059,73 +3072,73 @@ function Dr(e) {
       style: j,
     } = e,
     { fadeContent: M, overflow: ne, fadeWidth: N, fadeInset: P, fadeAlpha: F } = A,
-    { widthType: I, heightType: L } = k,
-    R = s ? `${l}px ${f}px ${m}px ${g}px` : `${a}px`,
-    re = oe.current(),
-    ie = re === oe.canvas || re === oe.export,
-    z = Or(),
-    B = t.filter(Boolean),
-    V = n.count(B),
-    ae = V > 0,
-    se = x(0),
-    ce = kr(T === !0 ? `left` : T, z),
-    le = ce === `left` || ce === `right`,
-    H = jr[ce];
-  w(se, H);
-  let ue = p(null),
-    U = u(() => [{ current: null }, { current: null }], []),
-    [de, fe] = d({ parent: null, children: null }),
-    pe = null,
-    me = [],
-    W = 0,
+    { widthType: re, heightType: ie } = k,
+    I = d ? `${f}px ${p}px ${m}px ${v}px` : `${l}px`,
+    L = de.current(),
+    ae = L === de.canvas || L === de.export,
+    oe = Or(),
+    R = a.filter(Boolean),
+    z = r.count(R),
+    se = z > 0,
+    ce = S(0),
+    le = kr(T === !0 ? `left` : T, oe),
+    ue = le === `left` || le === `right`,
+    fe = jr[le];
+  w(ce, fe);
+  let B = t(null),
+    pe = c(() => [{ current: null }, { current: null }], []),
+    [V, H] = o({ parent: null, children: null }),
+    U = null,
+    W = [],
+    me = 0,
     G = 0;
-  (ie && ((W = V ? Math.floor(10 / V) : 0), (G = 1)),
-    !ie &&
-      ae &&
-      de.parent &&
-      ((W = Math.round((de.parent / de.children) * 2) + 1), (W = Math.min(W, Ar)), (G = 1)));
-  let he = i(() => {
-      if (ae && ue.current) {
-        let e = le ? ue.current.offsetWidth : ue.current.offsetHeight,
-          t = U[0].current ? (le ? U[0].current.offsetLeft : U[0].current.offsetTop) : 0,
+  (ae && ((me = z ? Math.floor(10 / z) : 0), (G = 1)),
+    !ae &&
+      se &&
+      V.parent &&
+      ((me = Math.round((V.parent / V.children) * 2) + 1), (me = Math.min(me, Ar)), (G = 1)));
+  let he = u(() => {
+      if (se && B.current) {
+        let e = ue ? B.current.offsetWidth : B.current.offsetHeight,
+          t = pe[0].current ? (ue ? pe[0].current.offsetLeft : pe[0].current.offsetTop) : 0,
           n =
-            (U[1].current
-              ? le
-                ? U[1].current.offsetLeft + U[1].current.offsetWidth
-                : U[1].current.offsetTop + U[1].current.offsetHeight
+            (pe[1].current
+              ? ue
+                ? pe[1].current.offsetLeft + pe[1].current.offsetWidth
+                : pe[1].current.offsetTop + pe[1].current.offsetHeight
               : 0) -
             t +
-            r;
-        b(() => {
-          fe({ parent: e, children: n });
+            s;
+        y(() => {
+          H({ parent: e, children: n });
         });
       }
     }, []),
-    K = ie ? { contentVisibility: `auto` } : {};
-  if (ae) {
-    if (!ie) {
-      let e = p(!0);
-      ee(
+    K = ae ? { contentVisibility: `auto` } : {};
+  if (se) {
+    if (!ae) {
+      let e = t(!0);
+      n(
         () => (
           D.read(he, !1, !0),
-          In(ue.current, ({ contentSize: t }) => {
+          In(B.current, ({ contentSize: t }) => {
             (!e.current && (t.width || t.height) && D.read(he, !1, !0), (e.current = !1));
           })
         ),
         []
       );
     }
-    pe = n.map(B, (e, t) => {
+    U = r.map(R, (e, t) => {
       let n;
-      (t === 0 && (n = U[z === `rtl` && le ? 1 : 0]),
-        t === B.length - 1 && (n = U[z === `rtl` && le ? 0 : 1]));
-      let r = { width: I ? e.props?.width : `100%`, height: L ? e.props?.height : `100%` };
+      (t === 0 && (n = pe[oe === `rtl` && ue ? 1 : 0]),
+        t === R.length - 1 && (n = pe[oe === `rtl` && ue ? 0 : 1]));
+      let r = { width: re ? e.props?.width : `100%`, height: ie ? e.props?.height : `100%` };
       return h(O, {
         inherit: `id`,
         children: h(Mr, {
           ref: n,
           style: r,
-          children: c(
+          children: g(
             e,
             {
               style: { ...e.props?.style, ...r, flexShrink: 0, ...K },
@@ -3137,14 +3150,14 @@ function Dr(e) {
       });
     });
   }
-  let ge = ie ? !0 : te(ue);
-  if (!ie)
-    for (let e = 0; e < W; e++)
-      me = me.concat(
-        n.map(B, (t, n) => {
+  let ge = ae ? !0 : ee(B);
+  if (!ae)
+    for (let e = 0; e < me; e++)
+      W = W.concat(
+        r.map(R, (t, n) => {
           let r = {
-            width: I ? t.props?.width : `100%`,
-            height: L ? t.props?.height : `100%`,
+            width: re ? t.props?.width : `100%`,
+            height: ie ? t.props?.height : `100%`,
             willChange: ge ? `transform` : void 0,
           };
           return h(
@@ -3155,14 +3168,14 @@ function Dr(e) {
                 Mr,
                 {
                   style: r,
-                  children: c(
+                  children: g(
                     t,
                     {
                       key: e + ` ` + n,
                       style: {
                         ...t.props?.style,
-                        width: I ? t.props?.width : `100%`,
-                        height: L ? t.props?.height : `100%`,
+                        width: re ? t.props?.width : `100%`,
+                        height: ie ? t.props?.height : `100%`,
                         flexShrink: 0,
                         ...K,
                       },
@@ -3178,39 +3191,39 @@ function Dr(e) {
           );
         })
       );
-  let q = de.children + de.children * Math.round(de.parent / de.children);
-  (p(null), p(null), p(0));
-  let J = p(!1),
-    Y = S(),
-    _e = p(null),
-    X = p(null);
-  if (!ie) {
-    o(() => {
-      if (!(Y || !q || !v))
+  let _e = V.children + V.children * Math.round(V.parent / V.children);
+  (t(null), t(null), t(0));
+  let q = t(!1),
+    ve = te(),
+    J = t(null),
+    Y = t(null);
+  if (!ae) {
+    i(() => {
+      if (!(ve || !_e || !b))
         return (
-          (X.current = _e.current.animate(
-            { transform: [H(0), H(q)] },
+          (Y.current = J.current.animate(
+            { transform: [fe(0), fe(_e)] },
             {
-              duration: (Math.abs(q) / v) * 1e3,
+              duration: (Math.abs(_e) / b) * 1e3,
               iterations: 1 / 0,
-              iterationStart: +(z === `rtl`),
+              iterationStart: +(oe === `rtl`),
               easing: `linear`,
             }
           )),
-          () => X.current.cancel()
+          () => Y.current.cancel()
         );
-    }, [y, q, v, z]);
-    let e = i(() => {
-      if (!X.current) return;
+    }, [x, _e, b, oe]);
+    let e = u(() => {
+      if (!Y.current) return;
       let e = document.hidden;
-      ge && !e && X.current.playState === `paused`
-        ? X.current.play()
-        : (!ge || e) && X.current.playState === `running` && X.current.pause();
+      ge && !e && Y.current.playState === `paused`
+        ? Y.current.play()
+        : (!ge || e) && Y.current.playState === `running` && Y.current.pause();
     }, [ge]);
-    (o(() => {
+    (i(() => {
       e();
-    }, [ge, y, q, v]),
-      o(
+    }, [ge, x, _e, b]),
+      i(
         () => (
           document.addEventListener(`visibilitychange`, e),
           () => {
@@ -3220,42 +3233,42 @@ function Dr(e) {
         [e]
       ));
   }
-  let ve = le ? `to right` : `to bottom`,
-    ye = N / 2,
-    be = 100 - N / 2,
-    xe = `linear-gradient(${ve}, rgba(0, 0, 0, ${F}) ${Rr(P, 0, ye)}%, rgba(0, 0, 0, 1) ${ye}%, rgba(0, 0, 0, 1) ${be}%, rgba(0, 0, 0, ${F}) ${100 - P}%)`;
-  return ae
+  let ye = ue ? `to right` : `to bottom`,
+    be = N / 2,
+    xe = 100 - N / 2,
+    Se = `linear-gradient(${ye}, rgba(0, 0, 0, ${F}) ${Rr(P, 0, be)}%, rgba(0, 0, 0, 1) ${be}%, rgba(0, 0, 0, 1) ${xe}%, rgba(0, 0, 0, ${F}) ${100 - P}%)`;
+  return se
     ? h(`section`, {
         style: {
           ...Nr,
           opacity: G,
-          WebkitMaskImage: M ? xe : void 0,
-          maskImage: M ? xe : void 0,
+          WebkitMaskImage: M ? Se : void 0,
+          maskImage: M ? Se : void 0,
           overflow: ne ? `visible` : `hidden`,
-          padding: R,
+          padding: I,
         },
-        ref: ue,
+        ref: B,
         children: _(C.ul, {
-          ref: _e,
+          ref: J,
           style: {
             ...Nr,
-            gap: r,
-            top: T === `bottom` && zr(q) ? -q : void 0,
-            left: T === `right` && zr(q) ? q * (z === `rtl` ? 1 : -1) : void 0,
+            gap: s,
+            top: T === `bottom` && zr(_e) ? -_e : void 0,
+            left: T === `right` && zr(_e) ? _e * (oe === `rtl` ? 1 : -1) : void 0,
             placeItems: E,
             position: `relative`,
-            flexDirection: le ? `row` : `column`,
+            flexDirection: ue ? `row` : `column`,
             ...j,
-            willChange: ie || !ge ? `auto` : `transform`,
-            transform: H(0),
+            willChange: ae || !ge ? `auto` : `transform`,
+            transform: fe(0),
           },
           onMouseEnter: () => {
-            ((J.current = !0), X.current && (X.current.playbackRate = y));
+            ((q.current = !0), Y.current && (Y.current.playbackRate = x));
           },
           onMouseLeave: () => {
-            ((J.current = !1), X.current && (X.current.playbackRate = 1));
+            ((q.current = !1), Y.current && (Y.current.playbackRate = 1));
           },
-          children: [pe, me],
+          children: [U, W],
         }),
       })
     : _(`section`, {
@@ -3271,9 +3284,9 @@ function Dr(e) {
       });
 }
 function Or() {
-  return !a || !a.document || !a.document.documentElement
+  return !f || !f.document || !f.document.documentElement
     ? `ltr`
-    : a.document.documentElement.dir === `rtl`
+    : f.document.documentElement.dir === `rtl`
       ? `rtl`
       : `ltr`;
 }
@@ -3291,10 +3304,10 @@ var Ar,
   Rr,
   zr,
   Br = e(() => {
-    (t(),
-      g(),
-      r(),
-      R(),
+    (x(),
+      v(),
+      d(),
+      j(),
       k(),
       Er(),
       (Ar = 100),
@@ -3304,15 +3317,15 @@ var Ar,
         top: (e) => `translateY(-${e}px)`,
         bottom: (e) => `translateY(${e}px)`,
       }),
-      (Mr = v(({ children: e, ...t }, n) => {
-        let r = p(),
-          i = te(r);
+      (Mr = p(({ children: e, ...n }, r) => {
+        let a = t(),
+          o = ee(a);
         return (
-          y(n, () => r.current),
-          o(() => {
-            let e = r.current;
+          m(r, () => a.current),
+          i(() => {
+            let e = a.current;
             e &&
-              (i
+              (o
                 ? e.querySelectorAll(`button,a`).forEach((e) => {
                     let t = e.dataset.origTabIndex;
                     t ? (e.tabIndex = t) : e.removeAttribute(`tabIndex`);
@@ -3321,8 +3334,8 @@ var Ar,
                     let t = e.getAttribute(`tabIndex`);
                     (t && (e.dataset.origTabIndex = t), (e.tabIndex = -1));
                   }));
-          }, [i]),
-          h(`li`, { ...t, "aria-hidden": !i, ref: r, children: e })
+          }, [o]),
+          h(`li`, { ...n, "aria-hidden": !o, ref: a, children: e })
         );
       })),
       (Dr.defaultProps = {
@@ -3332,7 +3345,7 @@ var Ar,
         fadeOptions: { fadeContent: !0, overflow: !1, fadeWidth: 25, fadeAlpha: 0, fadeInset: 0 },
         direction: !0,
       }),
-      I(Dr, {
+      ve(Dr, {
         slots: { type: W.Array, title: `Children`, control: { type: W.ComponentInstance } },
         speed: {
           type: W.Number,
@@ -3502,75 +3515,75 @@ var Ar,
   Yr,
   Q,
   Xr = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       tt(),
-      ve(),
+      ye(),
       (Vr = N(Z)),
       (Hr = ne(Z)),
       (Ur = `framer-qSW2P`),
       (Wr = { vrX9Rsr1R: `framer-v-r00olz` }),
       (Gr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (Kr = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (qr = C.create(s)),
+      (qr = C.create(a)),
       (Jr = ({ height: e, icon: t, id: n, title: r, width: i, ...a }) => ({
         ...a,
         GdG43nGqr: r ?? a.GdG43nGqr ?? `Content Creation`,
         oqPfwZIHv: t ?? a.oqPfwZIHv ?? `Sparkle`,
       })),
       (Yr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Q = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
+      (Q = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H();
+          I();
           let {
-              style: c,
-              className: l,
-              layoutId: u,
-              variant: d,
-              GdG43nGqr: m,
-              oqPfwZIHv: g,
-              ...v
+              style: l,
+              className: u,
+              layoutId: d,
+              variant: f,
+              GdG43nGqr: p,
+              oqPfwZIHv: m,
+              ...g
             } = Jr(e),
             {
-              baseVariant: ee,
+              baseVariant: v,
               classNames: y,
-              clearLoadingGesture: b,
-              gestureHandlers: x,
-              gestureVariant: te,
-              isLoading: S,
+              clearLoadingGesture: x,
+              gestureHandlers: S,
+              gestureVariant: ee,
+              isLoading: te,
               setGestureState: w,
               setVariant: T,
               variants: E,
-            } = q({ defaultVariant: `vrX9Rsr1R`, ref: r, variant: d, variantClassNames: Wr }),
+            } = z({ defaultVariant: `vrX9Rsr1R`, ref: i, variant: f, variantClassNames: Wr }),
             D = Yr(e, E),
-            k = L(Ur, X);
+            k = q(Ur, Y);
           return h(O, {
-            id: u ?? i,
+            id: d ?? o,
             children: h(qr, {
               animate: E,
               initial: !1,
               children: h(Kr, {
                 value: Gr,
                 children: h(C.div, {
-                  ...v,
-                  ...x,
-                  className: L(k, `framer-r00olz`, l, y),
+                  ...g,
+                  ...S,
+                  className: q(k, `framer-r00olz`, u, y),
                   "data-border": !0,
                   "data-framer-name": `Variant 1`,
                   layoutDependency: D,
                   layoutId: `vrX9Rsr1R`,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `1px`,
                     "--border-color": `rgba(228, 230, 235, 0.11)`,
@@ -3586,7 +3599,7 @@ var Ar,
                     borderTopRightRadius: 15,
                     boxShadow: `inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25)`,
                     WebkitBackdropFilter: `blur(5px)`,
-                    ...c,
+                    ...l,
                   },
                   children: _(C.div, {
                     className: `framer-gervvj`,
@@ -3595,7 +3608,7 @@ var Ar,
                     layoutId: `InsKIIJGf`,
                     children: [
                       h(K, {
-                        children: h(z, {
+                        children: h(J, {
                           className: `framer-16nrjfv-container`,
                           isAuthoredByUser: !0,
                           isModuleExternal: !0,
@@ -3608,7 +3621,7 @@ var Ar,
                             color: `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                             height: `100%`,
                             iconSearch: `House`,
-                            iconSelection: g,
+                            iconSelection: m,
                             id: `yoXUCmq2Q`,
                             layoutId: `yoXUCmq2Q`,
                             mirrored: !1,
@@ -3619,9 +3632,9 @@ var Ar,
                           }),
                         }),
                       }),
-                      h(J, {
+                      h(L, {
                         __fromCanvasComponent: !0,
-                        children: h(s, {
+                        children: h(a, {
                           children: h(C.p, {
                             className: `framer-styles-preset-ke6suj`,
                             "data-styles-preset": `Bv6I6Qd8d`,
@@ -3636,7 +3649,7 @@ var Ar,
                           "--framer-link-text-color": `rgb(0, 153, 255)`,
                           "--framer-link-text-decoration": `underline`,
                         },
-                        text: m,
+                        text: p,
                         verticalAlignment: `top`,
                         withExternalLayout: !0,
                       }),
@@ -3654,14 +3667,14 @@ var Ar,
           `.framer-qSW2P .framer-gervvj { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
           `.framer-qSW2P .framer-16nrjfv-container { flex: none; height: 20px; position: relative; width: 20px; }`,
           `.framer-qSW2P .framer-13jo9y5 { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Ne,
+          ...X,
           `.framer-qSW2P[data-border="true"]::after, .framer-qSW2P [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-qSW2P`
       )),
       (Q.displayName = `Design Element Button`),
       (Q.defaultProps = { height: 65.5, width: 202 }),
-      I(Q, {
+      ve(Q, {
         GdG43nGqr: {
           defaultValue: `Content Creation`,
           displayTextArea: !1,
@@ -3676,7 +3689,7 @@ var Ar,
           title: `Icon`,
         },
       }),
-      Y(
+      R(
         Q,
         [
           {
@@ -3741,7 +3754,7 @@ var Ar,
             ],
           },
           ...Vr,
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -3759,10 +3772,10 @@ var Ar,
   si,
   ci,
   li = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       Br(),
       tt(),
       Xr(),
@@ -3774,51 +3787,51 @@ var Ar,
       (ni = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (ri = (e, t) => `translate(-50%, -50%) ${t}`),
       (ii = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (ai = C.create(s)),
+      (ai = C.create(a)),
       (oi = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
       (si = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (ci = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            s = F(),
-            { style: c, className: l, layoutId: u, variant: d, ...m } = oi(e),
+      (ci = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            a = b(),
+            { activeLocale: o, setLocale: s } = H(),
+            c = I(),
+            { style: l, className: u, layoutId: d, variant: f, ...p } = oi(e),
             {
-              baseVariant: g,
-              classNames: v,
-              clearLoadingGesture: ee,
+              baseVariant: m,
+              classNames: g,
+              clearLoadingGesture: v,
               gestureHandlers: y,
-              gestureVariant: b,
-              isLoading: x,
-              setGestureState: te,
-              setVariant: S,
+              gestureVariant: x,
+              isLoading: S,
+              setGestureState: ee,
+              setVariant: te,
               variants: w,
-            } = q({ defaultVariant: `OzRtCR5_w`, ref: r, variant: d, variantClassNames: ti }),
+            } = z({ defaultVariant: `OzRtCR5_w`, ref: i, variant: f, variantClassNames: ti }),
             T = si(e, w),
-            E = L(ei);
+            E = q(ei);
           return h(O, {
-            id: u ?? i,
+            id: d ?? a,
             children: h(ai, {
               animate: w,
               initial: !1,
               children: h(ii, {
                 value: ni,
                 children: _(C.div, {
-                  ...m,
+                  ...p,
                   ...y,
-                  className: L(E, `framer-1pr0fgl`, l, v),
+                  className: q(E, `framer-1pr0fgl`, u, g),
                   "data-border": !0,
                   "data-framer-name": `Variant 1`,
                   layoutDependency: T,
                   layoutId: `OzRtCR5_w`,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `1px`,
                     "--border-color": `rgba(228, 230, 235, 0.06)`,
@@ -3832,7 +3845,7 @@ var Ar,
                     borderTopLeftRadius: 40,
                     borderTopRightRadius: 40,
                     boxShadow: `inset 0px 0px 40px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06)`,
-                    ...c,
+                    ...l,
                   },
                   children: [
                     h(C.div, {
@@ -3881,7 +3894,7 @@ var Ar,
                           WebkitBackdropFilter: `blur(10px)`,
                         },
                         children: h(K, {
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-13my1d1-container`,
                             isAuthoredByUser: !0,
                             isModuleExternal: !0,
@@ -3918,7 +3931,7 @@ var Ar,
                       },
                       children: [
                         h(K, {
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-1uv48fu-container`,
                             isAuthoredByUser: !0,
                             isModuleExternal: !0,
@@ -3952,7 +3965,7 @@ var Ar,
                               slots: [
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-i8f106-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -3972,7 +3985,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-1w1aml6-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -3992,7 +4005,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-l9bqzb-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4018,7 +4031,7 @@ var Ar,
                           }),
                         }),
                         h(K, {
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-1tbhagh-container`,
                             isAuthoredByUser: !0,
                             isModuleExternal: !0,
@@ -4052,7 +4065,7 @@ var Ar,
                               slots: [
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-awed7n-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4072,7 +4085,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-jsdtyo-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4092,7 +4105,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-1un77n2-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4118,7 +4131,7 @@ var Ar,
                           }),
                         }),
                         h(K, {
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-1o8kp7q-container`,
                             isAuthoredByUser: !0,
                             isModuleExternal: !0,
@@ -4152,7 +4165,7 @@ var Ar,
                               slots: [
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-stc08h-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4172,7 +4185,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-b8pacz-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4192,7 +4205,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-1ucces9-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4218,7 +4231,7 @@ var Ar,
                           }),
                         }),
                         h(K, {
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-2w2mbf-container`,
                             isAuthoredByUser: !0,
                             isModuleExternal: !0,
@@ -4252,7 +4265,7 @@ var Ar,
                               slots: [
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-5hgs58-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4272,7 +4285,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-ey7uua-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4292,7 +4305,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-1orw1yy-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4318,7 +4331,7 @@ var Ar,
                           }),
                         }),
                         h(K, {
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-1t7e14y-container`,
                             isAuthoredByUser: !0,
                             isModuleExternal: !0,
@@ -4352,7 +4365,7 @@ var Ar,
                               slots: [
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-s8ndo9-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4372,7 +4385,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-ygglar-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4392,7 +4405,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-pi58hr-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4418,7 +4431,7 @@ var Ar,
                           }),
                         }),
                         h(K, {
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-1seue6t-container`,
                             isAuthoredByUser: !0,
                             isModuleExternal: !0,
@@ -4452,7 +4465,7 @@ var Ar,
                               slots: [
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-jrekcs-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4472,7 +4485,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-l0a90e-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4492,7 +4505,7 @@ var Ar,
                                 }),
                                 h(K, {
                                   height: 65,
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-1z0tcii-container`,
                                     inComponentSlot: !0,
                                     layoutDependency: T,
@@ -4519,17 +4532,17 @@ var Ar,
                         }),
                       ],
                     }),
-                    h(B, {
+                    h(G, {
                       background: {
                         alt: ``,
                         backgroundSize: 0.29,
                         fit: `tile`,
-                        loading: M((s?.y || 0) + 0),
+                        loading: F((c?.y || 0) + 0),
                         pixelHeight: 96,
                         pixelWidth: 96,
                         positionX: `left`,
                         positionY: `top`,
-                        sizes: s?.width || `100vw`,
+                        sizes: c?.width || `100vw`,
                         src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
                       },
                       className: `framer-9jdfk0`,
@@ -4567,10 +4580,10 @@ var Ar,
       )),
       (ci.displayName = `Ticker Content`),
       (ci.defaultProps = { height: 567, width: 574 }),
-      Y(ci, [{ explicitInter: !0, fonts: [] }, ...Zr, ...Qr, ...$r], {
+      R(ci, [{ explicitInter: !0, fonts: [] }, ...Zr, ...Qr, ...$r], {
         supportsExplicitInterCodegen: !0,
       }),
-      (ci.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Q, {}, t)])) }));
+      (ci.loader = { load: (e, t) => (t.locale, Promise.allSettled([M(Q, {}, t)])) }));
   }),
   ui,
   di = e(() => {
@@ -4586,33 +4599,33 @@ function pi(e, t, { edgeOpacity: n, moreItems: r, buttonRef: i }, a) {
       e !== t &&
       ((r.current = !0), E(n, 0, a), i.current?.removeAttribute(`disabled`));
 }
-function mi(e, t) {
-  let n = p(e),
-    r = x(+!n.current),
-    i = w(r, [0, 1], [t || 0, 1]),
-    a = w(r, (e) => 1 - e),
-    o = p(null),
-    s = w(a, (e) => (e > 0.2 ? `auto` : `none`)),
-    c = w(s, (e) => (e === `auto` ? `pointer` : `default`));
+function mi(e, n) {
+  let r = t(e),
+    i = S(+!r.current),
+    a = w(i, [0, 1], [n || 0, 1]),
+    o = w(i, (e) => 1 - e),
+    s = t(null),
+    c = w(o, (e) => (e > 0.2 ? `auto` : `none`)),
+    l = w(c, (e) => (e === `auto` ? `pointer` : `default`));
   return {
-    moreItems: n,
-    fadeOpacity: i,
-    edgeOpacity: r,
-    buttonStyle: { ...ki, opacity: a, pointerEvents: s, cursor: c },
-    buttonRef: o,
+    moreItems: r,
+    fadeOpacity: a,
+    edgeOpacity: i,
+    buttonStyle: { ...ki, opacity: o, pointerEvents: c, cursor: l },
+    buttonRef: s,
   };
 }
 function hi({ element: e }) {
   e.setAttribute(`aria-hidden`, !1);
 }
-function gi(e, t, n, r, i, a, s, c) {
-  o(() => {
+function gi(e, t, n, r, a, o, s, c) {
+  i(() => {
     if (!e.current) return;
-    let o = Kn(
+    let i = Kn(
         (e) => {
           ((r.current = e[t]),
-            e[t].current * n === a.current && (a.current = void 0),
-            i(e[t].current),
+            e[t].current * n === o.current && (o.current = void 0),
+            a(e[t].current),
             s());
         },
         { container: e.current, axis: t }
@@ -4621,135 +4634,135 @@ function gi(e, t, n, r, i, a, s, c) {
         (c(), s());
       });
     return () => {
-      (o(), l());
+      (i(), l());
     };
   }, [s, c]);
 }
 function _i({
   slots: e,
-  gap: t,
-  axis: r,
-  align: a,
-  sizingObject: s,
+  gap: n,
+  axis: a,
+  align: s,
+  sizingObject: c,
   fadeObject: l,
-  arrowObject: u,
+  arrowObject: d,
   snapObject: f,
-  progressObject: m,
-  ariaLabel: g,
+  progressObject: p,
+  ariaLabel: m,
   borderRadius: v,
-  effectsObject: ee,
-  ...y
+  effectsObject: b,
+  ...x
 }) {
-  let te = e?.filter(Boolean),
-    T = n.count(te),
-    E = oe.current() === oe.canvas,
+  let ee = e?.filter(Boolean),
+    T = r.count(ee),
+    E = de.current() === de.canvas,
     D = xi(),
-    O = r && D === `rtl` ? -1 : 1,
-    k = Me(y),
-    A = r ? `x` : `y`,
+    O = a && D === `rtl` ? -1 : 1,
+    k = Ne(x),
+    A = a ? `x` : `y`,
     { fadeContent: j, fadeWidth: M, fadeInset: ne, fadeTransition: N, fadeAlpha: P } = l,
-    { snap: F, snapEdge: I, fluid: L } = f,
+    { snap: F, snapEdge: re, fluid: ie } = f,
     {
-      widthType: R,
-      widthInset: re,
-      widthColumns: ie,
-      heightType: z,
-      heightInset: B,
-      heightRows: V,
-    } = s,
+      widthType: I,
+      widthInset: L,
+      widthColumns: ae,
+      heightType: oe,
+      heightInset: R,
+      heightRows: z,
+    } = c,
     {
-      showScrollbar: ae,
-      showProgressDots: se,
-      dotSize: ce,
-      dotsInset: le,
-      dotsRadius: H,
-      dotsPadding: ue,
-      dotsGap: U,
-      dotsFill: de,
-      dotsBackground: fe,
-      dotsActiveOpacity: pe,
-      dotsOpacity: me,
-      dotsBlur: W,
-    } = m,
+      showScrollbar: se,
+      showProgressDots: ce,
+      dotSize: le,
+      dotsInset: ue,
+      dotsRadius: fe,
+      dotsPadding: B,
+      dotsGap: pe,
+      dotsFill: V,
+      dotsBackground: H,
+      dotsActiveOpacity: U,
+      dotsOpacity: W,
+      dotsBlur: me,
+    } = p,
     {
       showMouseControls: G,
       arrowSize: he,
       arrowRadius: K,
       arrowFill: ge,
-      leftArrow: q,
-      rightArrow: J,
-      arrowPadding: Y,
-    } = u,
-    _e = p(void 0),
-    X = p(void 0),
-    ve = x(0),
-    ye = (e) => {
-      ve.set(X.current === void 0 ? e : X.current);
+      leftArrow: _e,
+      rightArrow: q,
+      arrowPadding: ve,
+    } = d,
+    J = t(void 0),
+    Y = t(void 0),
+    ye = S(0),
+    be = (e) => {
+      ye.set(Y.current === void 0 ? e : Y.current);
     },
-    be = mi(D === `rtl`, P),
-    xe = mi(D !== `rtl`, P),
-    Se = x(ne * 0.5),
-    Ce = w(Se, (e) => 100 - e),
-    we = x(M),
-    Te = w([Se, we], fi),
-    Ee = w(Te, (e) => 100 - e),
-    De = x(r ? `right` : `bottom`),
-    Oe = w(
-      [De, be.fadeOpacity, Se, Te, xe.fadeOpacity, Ce, Ee],
+    xe = mi(D === `rtl`, P),
+    Se = mi(D !== `rtl`, P),
+    Ce = S(ne * 0.5),
+    we = w(Ce, (e) => 100 - e),
+    Te = S(M),
+    Ee = w([Ce, Te], fi),
+    De = w(Ee, (e) => 100 - e),
+    Oe = S(a ? `right` : `bottom`),
+    ke = w(
+      [Oe, xe.fadeOpacity, Ce, Ee, Se.fadeOpacity, we, De],
       (e) =>
         `linear-gradient(to ${e[0]}, rgb(0, 0, 0, ${e[1]}) ${e[2]}%, rgb(0, 0, 0, 1) ${e[3]}%, rgba(0, 0, 0, 1) ${e[6]}%, rgb(0, 0, 0, ${e[4]}) ${e[5]}%)`
     ),
-    ke = p(null),
-    [Ae, je] = d(E ? 4 : 1),
-    Ne = { scrollSnapAlign: I, flexShrink: 0 },
+    Ae = t(null),
+    [je, Me] = o(E ? 4 : 1),
+    X = { scrollSnapAlign: re, flexShrink: 0 },
     Pe = {};
-  (a === `stretch` &&
-    (r ? ((Pe.height = `100%`), (Ne.height = `auto`)) : ((Pe.width = `100%`), (Ne.width = `auto`))),
-    L || (Ne.scrollSnapStop = `always`),
-    R === `stretch`
-      ? ((Ne.width = `calc(100% - ${re || 0}px)`), (Pe.width = `100%`))
-      : R === `columns` &&
-        ((Ne.width = `calc(${100 / ie}% - ${t}px + ${t / ie}px)`), (Pe.width = `100%`)),
-    z === `stretch`
-      ? ((Ne.height = `calc(100% - ${B || 0}px)`), (Pe.height = `100%`))
-      : z === `rows` &&
-        ((Ne.height = `calc(${100 / V}% - ${t}px + ${t / V}px)`), (Pe.height = `100%`)));
+  (s === `stretch` &&
+    (a ? ((Pe.height = `100%`), (X.height = `auto`)) : ((Pe.width = `100%`), (X.width = `auto`))),
+    ie || (X.scrollSnapStop = `always`),
+    I === `stretch`
+      ? ((X.width = `calc(100% - ${L || 0}px)`), (Pe.width = `100%`))
+      : I === `columns` &&
+        ((X.width = `calc(${100 / ae}% - ${n}px + ${n / ae}px)`), (Pe.width = `100%`)),
+    oe === `stretch`
+      ? ((X.height = `calc(100% - ${R || 0}px)`), (Pe.height = `100%`))
+      : oe === `rows` &&
+        ((X.height = `calc(${100 / z}% - ${n}px + ${n / z}px)`), (Pe.height = `100%`)));
   let Fe = E ? `hidden` : `auto`,
     Ie = { ...Di, padding: k },
     Le = {
       ...Oi,
-      gap: t,
-      alignItems: a,
-      flexDirection: r ? `row` : `column`,
-      overflowX: r ? Fe : `hidden`,
-      overflowY: r ? `hidden` : Fe,
+      gap: n,
+      alignItems: s,
+      flexDirection: a ? `row` : `column`,
+      overflowX: a ? Fe : `hidden`,
+      overflowY: a ? `hidden` : Fe,
       scrollSnapType: F ? `${A} mandatory` : void 0,
       WebkitOverflowScrolling: `touch`,
-      WebkitMaskImage: j ? Oe : void 0,
-      maskImage: j ? Oe : void 0,
+      WebkitMaskImage: j ? ke : void 0,
+      maskImage: j ? ke : void 0,
       borderRadius: v,
     },
     Re = { "aria-roledescription": `carousel` };
-  g && (Re[`aria-title`] = g);
+  m && (Re[`aria-title`] = m);
   let ze = {};
   if (
-    (a === `stretch` && ((ze[`aria-role`] = `group`), (ze[`aria-roledescription`] = `slide`)), !E)
+    (s === `stretch` && ((ze[`aria-role`] = `group`), (ze[`aria-roledescription`] = `slide`)), !E)
   ) {
-    let e = p([]);
+    let e = t([]);
     gi(
-      ke,
+      Ae,
       A,
       O,
-      _e,
-      ye,
-      X,
-      i(() => {
-        if (!_e.current) return;
-        let { targetLength: t, containerLength: n, scrollLength: r } = _e.current,
-          i = ve.get();
+      J,
+      be,
+      Y,
+      u(() => {
+        if (!J.current) return;
+        let { targetLength: t, containerLength: n, scrollLength: r } = J.current,
+          i = ye.get();
         if (!t && !n) return;
         if (t > n) {
-          (pi(i * O, 0, be, N), pi(i * O, r, xe, N));
+          (pi(i * O, 0, xe, N), pi(i * O, r, Se, N));
           for (let t = 0; t < e.current.length; t++) {
             let { element: r, start: a, end: o } = e.current[t],
               s = o < i || a > i + n;
@@ -4764,14 +4777,14 @@ function _i({
                     t ? (e.tabIndex = t) : e.removeAttribute(`tabIndex`);
                   }));
           }
-        } else (pi(0, 0, be, N), pi(1, 1, xe, N), e.current.forEach(hi));
+        } else (pi(0, 0, xe, N), pi(1, 1, Se, N), e.current.forEach(hi));
         let a = Math.ceil(t / n);
-        isNaN(a) || (a / T > 0.65 && (a = T), a !== Ae && je(a));
-      }, [Ae]),
-      i(() => {
-        ke.current &&
-          (e.current = Array.from(ke.current.children).map((e) =>
-            r
+        isNaN(a) || (a / T > 0.65 && (a = T), a !== je && Me(a));
+      }, [je]),
+      u(() => {
+        Ae.current &&
+          (e.current = Array.from(Ae.current.children).map((e) =>
+            a
               ? { element: e, start: e.offsetLeft, end: e.offsetLeft + e.offsetWidth }
               : { element: e, start: e.offsetTop, end: e.offsetTop + e.offsetHeight }
           ));
@@ -4779,105 +4792,105 @@ function _i({
     );
   }
   E &&
-    (o(() => {
-      we.set(M);
+    (i(() => {
+      Te.set(M);
     }, [M]),
-    o(() => {
-      Se.set(ne * 0.5);
+    i(() => {
+      Ce.set(ne * 0.5);
     }, [ne]),
-    o(() => {
-      De.set(r ? `right` : `bottom`);
-    }, [r]));
-  let Be = S(),
+    i(() => {
+      Oe.set(a ? `right` : `bottom`);
+    }, [a]));
+  let Be = te(),
     Ve = (e) => {
-      X.current = e;
-      let t = r ? { left: e } : { top: e };
-      ke.current.scrollTo({ ...t, behavior: Be ? `auto` : `smooth` });
+      Y.current = e;
+      let t = a ? { left: e } : { top: e };
+      Ae.current.scrollTo({ ...t, behavior: Be ? `auto` : `smooth` });
     },
     He = (e, t = 0) => {
-      if (!_e.current) return;
-      let { scrollLength: n } = _e.current,
-        r = n / (Ae - 1);
+      if (!J.current) return;
+      let { scrollLength: n } = J.current,
+        r = n / (je - 1);
       Ve((e * r + t * r) * O);
     },
     Ue = (e) => () => {
-      if (!_e.current) return;
-      let { containerLength: t, scrollLength: n } = _e.current,
-        r = ve.get() * O,
-        i = n / Ae,
-        a = ui(0, Ae - 1, Math.floor(r / i)),
+      if (!J.current) return;
+      let { containerLength: t, scrollLength: n } = J.current,
+        r = ye.get() * O,
+        i = n / je,
+        a = ui(0, je - 1, Math.floor(r / i)),
         o = 0;
-      (F && (I === `start` || I === `end`) && e >= 1 && (o = 0.4), He(a + e, o));
+      (F && (re === `start` || re === `end`) && e >= 1 && (o = 0.4), He(a + e, o));
     };
   if (T === 0) return h(yi, {});
   let We = [],
     Ge = {};
-  if (Ae > 1 && se && !ae) {
-    for (let e = 0; e < Ae; e++) {
+  if (je > 1 && ce && !se) {
+    for (let e = 0; e < je; e++) {
       let t = (E && !e) || !1;
       We.push(
         h(vi, {
-          dotStyle: { ...Mi, width: ce, height: ce, backgroundColor: de },
+          dotStyle: { ...Mi, width: le, height: le, backgroundColor: V },
           buttonStyle: ki,
           isSelected: t,
-          selectedOpacity: pe,
-          opacity: me,
-          onClick: () => b(() => He(e)),
-          currentScroll: ve,
-          scrollInfo: _e,
-          total: Ae,
+          selectedOpacity: U,
+          opacity: W,
+          onClick: () => y(() => He(e)),
+          currentScroll: ye,
+          scrollInfo: J,
+          total: je,
           index: e,
-          gap: U,
-          padding: ue,
-          axis: r,
+          gap: pe,
+          padding: B,
+          axis: a,
           directionModifier: O,
         })
       );
     }
-    W && (Ge.backdropFilter = Ge.WebkitBackdropFilter = `blur(${W}px)`);
+    me && (Ge.backdropFilter = Ge.WebkitBackdropFilter = `blur(${me}px)`);
   }
-  let Ke = q || `../../assets/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg`,
-    qe = J || `../../assets/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg`;
+  let Ke = _e || `../../assets/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg`,
+    qe = q || `../../assets/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg`;
   return _(`section`, {
     style: Ie,
     ...Re,
     children: [
       h(C.ul, {
-        ref: ke,
+        ref: Ae,
         style: Le,
         className: `framer--carousel`,
-        "data-show-scrollbar": ae,
+        "data-show-scrollbar": se,
         "aria-atomic": `false`,
         "aria-live": `polite`,
-        onWheel: () => (X.current = void 0),
-        children: n.map(te, (e, t) =>
+        onWheel: () => (Y.current = void 0),
+        children: r.map(ee, (e, t) =>
           h(Si, {
             inherit: `id`,
             children: h(`li`, {
-              style: Ne,
+              style: X,
               ...ze,
               "aria-label": `${t + 1} of ${T}`,
-              children: c(e, { ...e.props, style: { ...e.props?.style, ...Pe } }),
+              children: g(e, { ...e.props, style: { ...e.props?.style, ...Pe } }),
             }),
           })
         ),
       }),
       _(`fieldset`, {
-        style: { ...Ai, padding: Y, display: `flex`, flexDirection: r ? `row` : `column` },
+        style: { ...Ai, padding: ve, display: `flex`, flexDirection: a ? `row` : `column` },
         "aria-label": `Carousel pagination controls`,
         className: `framer--carousel-controls`,
         "data-show-mouse-controls": G,
         children: [
           h(C.button, {
-            ref: be.buttonRef,
+            ref: xe.buttonRef,
             type: `button`,
             style: {
-              ...be.buttonStyle,
+              ...xe.buttonStyle,
               backgroundColor: ge,
               width: he,
               height: he,
               borderRadius: K,
-              rotate: r ? 0 : 90,
+              rotate: a ? 0 : 90,
               display: G ? `block` : `none`,
             },
             onClick: Ue(-1),
@@ -4889,19 +4902,19 @@ function _i({
               alt: ``,
               width: he,
               height: he,
-              src: D === `rtl` && r ? qe : Ke,
+              src: D === `rtl` && a ? qe : Ke,
             }),
           }),
           h(C.button, {
-            ref: xe.buttonRef,
+            ref: Se.buttonRef,
             type: `button`,
             style: {
-              ...xe.buttonStyle,
+              ...Se.buttonStyle,
               backgroundColor: ge,
               width: he,
               height: he,
               borderRadius: K,
-              rotate: r ? 0 : 90,
+              rotate: a ? 0 : 90,
               display: G ? `block` : `none`,
             },
             onClick: Ue(1),
@@ -4913,20 +4926,20 @@ function _i({
               alt: ``,
               width: he,
               height: he,
-              src: D === `rtl` && r ? Ke : qe,
+              src: D === `rtl` && a ? Ke : qe,
             }),
           }),
           We.length > 1
             ? h(`div`, {
                 style: {
                   ...ji,
-                  left: r ? `50%` : le,
-                  top: r ? `unset` : `50%`,
-                  transform: r ? `translateX(-50%)` : `translateY(-50%)`,
-                  flexDirection: r ? `row` : `column`,
-                  bottom: r ? le : `unset`,
-                  borderRadius: H,
-                  backgroundColor: fe,
+                  left: a ? `50%` : ue,
+                  top: a ? `unset` : `50%`,
+                  transform: a ? `translateX(-50%)` : `translateY(-50%)`,
+                  flexDirection: a ? `row` : `column`,
+                  bottom: a ? ue : `unset`,
+                  borderRadius: fe,
+                  backgroundColor: H,
                   ...Ge,
                 },
                 children: We,
@@ -4965,13 +4978,13 @@ function vi({
     g = l / 2,
     _ = !d && o > 0 ? g : u,
     v = !d && o !== a - 1 ? g : u,
-    ee = d && o !== a - 1 ? g : u,
-    y = d && o > 0 ? g : u;
+    y = d && o !== a - 1 ? g : u,
+    b = d && o > 0 ? g : u;
   return h(`button`, {
     "aria-label": `Scroll to page ${o + 1}`,
     type: `button`,
     ...p,
-    style: { ...c, padding: `${_}px ${ee}px ${v}px ${y}px` },
+    style: { ...c, padding: `${_}px ${y}px ${v}px ${b}px` },
     children: h(C.div, { style: { ...s, opacity: m } }),
   });
 }
@@ -5009,16 +5022,16 @@ function bi() {
   });
 }
 function xi() {
-  let [e, t] = d(`ltr`);
+  let [e, t] = o(`ltr`);
   return (
-    o(() => {
-      a?.document?.documentElement?.dir === `rtl` && t(`rtl`);
+    i(() => {
+      f?.document?.documentElement?.dir === `rtl` && t(`rtl`);
     }, []),
     e
   );
 }
 function Si({ children: e, ...t }) {
-  return h(O, { id: f(), ...t, children: e });
+  return h(O, { id: b(), ...t, children: e });
 }
 var Ci,
   wi,
@@ -5031,14 +5044,14 @@ var Ci,
   ji,
   Mi,
   Ni = e(() => {
-    (t(),
-      g(),
-      r(),
-      R(),
+    (x(),
+      v(),
+      d(),
+      j(),
       Er(),
       di(),
       k(),
-      Te(),
+      Ee(),
       (_i.defaultProps = {
         gap: 10,
         padding: 10,
@@ -5053,7 +5066,7 @@ var Ci,
         },
         borderRadius: 0,
       }),
-      I(_i, {
+      ve(_i, {
         slots: { type: W.Array, title: `Children`, control: { type: W.ComponentInstance } },
         axis: {
           type: W.Enum,
@@ -5076,7 +5089,7 @@ var Ci,
           displaySegmentedControl: !0,
         },
         gap: { type: W.Number, title: `Gap` },
-        ...xe,
+        ...Se,
         sizingObject: {
           type: W.Object,
           title: `Sizing`,
@@ -5422,12 +5435,12 @@ var Ci,
   Hi,
   Ui,
   Wi = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       tt(),
-      ve(),
+      ye(),
       vt(),
       (Pi = N(Z)),
       (Fi = ne(Z)),
@@ -5435,12 +5448,12 @@ var Ci,
       (Li = { i78ZHXK45: `framer-v-t8feap` }),
       (Ri = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (zi = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Bi = C.create(s)),
+      (Bi = C.create(a)),
       (Vi = ({ height: e, id: t, name1: n, text: r, title: i, width: a, ...o }) => ({
         ...o,
         fmIfMsPvJ: n ?? o.fmIfMsPvJ ?? `Note`,
@@ -5448,38 +5461,38 @@ var Ci,
         vkk8afwca: r ?? o.vkk8afwca ?? `Generate high-quality content instantly with FlamerAI`,
       })),
       (Hi = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Ui = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            c = F(),
+      (Ui = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H(),
+            l = I(),
             {
-              style: l,
-              className: u,
-              layoutId: d,
-              variant: m,
-              fmIfMsPvJ: g,
-              nj9lZJEPR: v,
-              vkk8afwca: ee,
+              style: u,
+              className: d,
+              layoutId: f,
+              variant: p,
+              fmIfMsPvJ: m,
+              nj9lZJEPR: g,
+              vkk8afwca: v,
               ...y
             } = Vi(e),
             {
-              baseVariant: b,
-              classNames: x,
-              clearLoadingGesture: te,
-              gestureHandlers: S,
+              baseVariant: x,
+              classNames: S,
+              clearLoadingGesture: ee,
+              gestureHandlers: te,
               gestureVariant: w,
               isLoading: T,
               setGestureState: E,
               setVariant: D,
               variants: k,
-            } = q({ defaultVariant: `i78ZHXK45`, ref: r, variant: m, variantClassNames: Li }),
+            } = z({ defaultVariant: `i78ZHXK45`, ref: i, variant: p, variantClassNames: Li }),
             A = Hi(e, k),
-            j = L(Ii, _t, X);
+            j = q(Ii, _t, Y);
           return h(O, {
-            id: d ?? i,
+            id: f ?? o,
             children: h(Bi, {
               animate: k,
               initial: !1,
@@ -5487,13 +5500,13 @@ var Ci,
                 value: Ri,
                 children: _(C.div, {
                   ...y,
-                  ...S,
-                  className: L(j, `framer-t8feap`, u, x),
+                  ...te,
+                  className: q(j, `framer-t8feap`, d, S),
                   "data-border": !0,
                   "data-framer-name": `Features`,
                   layoutDependency: A,
                   layoutId: `i78ZHXK45`,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `1px`,
                     "--border-color": `rgba(228, 230, 235, 0.06)`,
@@ -5507,7 +5520,7 @@ var Ci,
                     borderTopLeftRadius: 25,
                     borderTopRightRadius: 25,
                     boxShadow: `inset 0px 0px 12px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06)`,
-                    ...l,
+                    ...u,
                   },
                   children: [
                     _(C.div, {
@@ -5575,7 +5588,7 @@ var Ci,
                               WebkitBackdropFilter: `blur(10px)`,
                             },
                             children: h(K, {
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-1h49s5s-container`,
                                 isAuthoredByUser: !0,
                                 isModuleExternal: !0,
@@ -5588,7 +5601,7 @@ var Ci,
                                   color: `var(--token-9bdda33d-ce52-4ce4-826f-6b5086837a15, rgb(237, 233, 254))`,
                                   height: `100%`,
                                   iconSearch: `House`,
-                                  iconSelection: g,
+                                  iconSelection: m,
                                   id: `Vat8AfB2S`,
                                   layoutId: `Vat8AfB2S`,
                                   mirrored: !1,
@@ -5652,12 +5665,12 @@ var Ci,
                                 rotate: 90,
                               },
                             }),
-                            h(B, {
+                            h(G, {
                               background: {
                                 alt: ``,
                                 backgroundSize: 0.29,
                                 fit: `tile`,
-                                loading: M((c?.y || 0) + 24 + 0 + 0 + 0),
+                                loading: F((l?.y || 0) + 24 + 0 + 0 + 0),
                                 pixelHeight: 96,
                                 pixelWidth: 96,
                                 positionX: `left`,
@@ -5691,9 +5704,9 @@ var Ci,
                         layoutDependency: A,
                         layoutId: `lkQeooALG`,
                         children: [
-                          h(J, {
+                          h(L, {
                             __fromCanvasComponent: !0,
-                            children: h(s, {
+                            children: h(a, {
                               children: h(C.h3, {
                                 className: `framer-styles-preset-1s7ojww`,
                                 "data-styles-preset": `TROKhwdeV`,
@@ -5719,13 +5732,13 @@ var Ci,
                               "--framer-link-text-color": `rgb(0, 153, 255)`,
                               "--framer-link-text-decoration": `underline`,
                             },
-                            text: v,
+                            text: g,
                             verticalAlignment: `top`,
                             withExternalLayout: !0,
                           }),
-                          h(J, {
+                          h(L, {
                             __fromCanvasComponent: !0,
-                            children: h(s, {
+                            children: h(a, {
                               children: h(C.p, {
                                 className: `framer-styles-preset-ke6suj`,
                                 "data-styles-preset": `Bv6I6Qd8d`,
@@ -5745,19 +5758,19 @@ var Ci,
                               "--framer-link-text-color": `rgb(0, 153, 255)`,
                               "--framer-link-text-decoration": `underline`,
                             },
-                            text: ee,
+                            text: v,
                             verticalAlignment: `top`,
                             withExternalLayout: !0,
                           }),
                         ],
                       }),
                     }),
-                    h(B, {
+                    h(G, {
                       background: {
                         alt: ``,
                         backgroundSize: 0.29,
                         fit: `tile`,
-                        loading: M((c?.y || 0) + 0),
+                        loading: F((l?.y || 0) + 0),
                         pixelHeight: 96,
                         pixelWidth: 96,
                         positionX: `left`,
@@ -5813,14 +5826,14 @@ var Ci,
           `.framer-eE5YU .framer-1l4ydg9, .framer-eE5YU .framer-1onaa3d { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
           `.framer-eE5YU .framer-9xghn4 { bottom: 0px; flex: none; left: 0px; overflow: hidden; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
           ...gt,
-          ...Ne,
+          ...X,
           `.framer-eE5YU[data-border="true"]::after, .framer-eE5YU [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-eE5YU`
       )),
       (Ui.displayName = `Feature Cards`),
       (Ui.defaultProps = { height: 378.5, width: 316 }),
-      I(Ui, {
+      ve(Ui, {
         fmIfMsPvJ: Fi?.iconSelection && {
           ...Fi.iconSelection,
           defaultValue: `Note`,
@@ -5841,7 +5854,7 @@ var Ci,
           type: W.String,
         },
       }),
-      Y(
+      R(
         Ui,
         [
           {
@@ -5907,7 +5920,7 @@ var Ci,
           },
           ...Pi,
           ...P(ht),
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -5923,10 +5936,10 @@ var Ci,
   $i,
   ea,
   ta = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       Ni(),
       Wi(),
       (Gi = N(Ui)),
@@ -5935,57 +5948,57 @@ var Ci,
       (Ji = { eHUTA_edh: `framer-v-vebymn` }),
       (Yi = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (Xi = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Zi = C.create(s)),
+      (Zi = C.create(a)),
       (Qi = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
       ($i = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (ea = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
-          let { style: s, className: c, layoutId: l, variant: u, ...d } = Qi(e),
+      (ea = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            a = b(),
+            { activeLocale: o, setLocale: s } = H();
+          I();
+          let { style: c, className: l, layoutId: u, variant: d, ...f } = Qi(e),
             {
-              baseVariant: m,
-              classNames: g,
-              clearLoadingGesture: _,
-              gestureHandlers: v,
-              gestureVariant: ee,
+              baseVariant: p,
+              classNames: m,
+              clearLoadingGesture: g,
+              gestureHandlers: _,
+              gestureVariant: v,
               isLoading: y,
-              setGestureState: b,
-              setVariant: x,
-              variants: te,
-            } = q({ defaultVariant: `eHUTA_edh`, ref: r, variant: u, variantClassNames: Ji }),
-            S = $i(e, te),
-            w = L(qi);
+              setGestureState: x,
+              setVariant: S,
+              variants: ee,
+            } = z({ defaultVariant: `eHUTA_edh`, ref: i, variant: d, variantClassNames: Ji }),
+            te = $i(e, ee),
+            w = q(qi);
           return h(O, {
-            id: l ?? i,
+            id: u ?? a,
             children: h(Zi, {
-              animate: te,
+              animate: ee,
               initial: !1,
               children: h(Xi, {
                 value: Yi,
                 children: h(C.div, {
-                  ...d,
-                  ...v,
-                  className: L(w, `framer-vebymn`, c, g),
+                  ...f,
+                  ..._,
+                  className: q(w, `framer-vebymn`, l, m),
                   "data-framer-name": `Variant 1`,
-                  layoutDependency: S,
+                  layoutDependency: te,
                   layoutId: `eHUTA_edh`,
-                  ref: r,
-                  style: { ...s },
+                  ref: i,
+                  style: { ...c },
                   children: h(K, {
-                    children: h(z, {
+                    children: h(J, {
                       className: `framer-jgwrp3-container`,
                       isAuthoredByUser: !0,
                       isModuleExternal: !0,
-                      layoutDependency: S,
+                      layoutDependency: te,
                       layoutId: `YzVC3ku5H-container`,
                       nodeId: `YzVC3ku5H`,
                       rendersWithMotion: !0,
@@ -6051,10 +6064,10 @@ var Ci,
                           h(K, {
                             height: 378,
                             width: `316px`,
-                            children: h(z, {
+                            children: h(J, {
                               className: `framer-tmd3ue-container`,
                               inComponentSlot: !0,
-                              layoutDependency: S,
+                              layoutDependency: te,
                               layoutId: `qLZomatOO-container`,
                               nodeId: `qLZomatOO`,
                               rendersWithMotion: !0,
@@ -6074,10 +6087,10 @@ var Ci,
                           h(K, {
                             height: 378,
                             width: `316px`,
-                            children: h(z, {
+                            children: h(J, {
                               className: `framer-13gtthk-container`,
                               inComponentSlot: !0,
-                              layoutDependency: S,
+                              layoutDependency: te,
                               layoutId: `LYcHd15td-container`,
                               nodeId: `LYcHd15td`,
                               rendersWithMotion: !0,
@@ -6096,10 +6109,10 @@ var Ci,
                           }),
                           h(K, {
                             height: 378,
-                            children: h(z, {
+                            children: h(J, {
                               className: `framer-mx7bf2-container`,
                               inComponentSlot: !0,
-                              layoutDependency: S,
+                              layoutDependency: te,
                               layoutId: `UV2VtCSOt-container`,
                               nodeId: `UV2VtCSOt`,
                               rendersWithMotion: !0,
@@ -6117,10 +6130,10 @@ var Ci,
                           }),
                           h(K, {
                             height: 378,
-                            children: h(z, {
+                            children: h(J, {
                               className: `framer-1npw2g0-container`,
                               inComponentSlot: !0,
-                              layoutDependency: S,
+                              layoutDependency: te,
                               layoutId: `kQik3eygb-container`,
                               nodeId: `kQik3eygb`,
                               rendersWithMotion: !0,
@@ -6139,10 +6152,10 @@ var Ci,
                           h(K, {
                             height: 378,
                             width: `316px`,
-                            children: h(z, {
+                            children: h(J, {
                               className: `framer-4zxeh8-container`,
                               inComponentSlot: !0,
-                              layoutDependency: S,
+                              layoutDependency: te,
                               layoutId: `FkU98aprB-container`,
                               nodeId: `FkU98aprB`,
                               rendersWithMotion: !0,
@@ -6162,10 +6175,10 @@ var Ci,
                           h(K, {
                             height: 378,
                             width: `316px`,
-                            children: h(z, {
+                            children: h(J, {
                               className: `framer-15g825g-container`,
                               inComponentSlot: !0,
-                              layoutDependency: S,
+                              layoutDependency: te,
                               layoutId: `InGS2WmFr-container`,
                               nodeId: `InGS2WmFr`,
                               rendersWithMotion: !0,
@@ -6206,8 +6219,8 @@ var Ci,
       )),
       (ea.displayName = `Benefits Carousel`),
       (ea.defaultProps = { height: 398, width: 1150 }),
-      Y(ea, [{ explicitInter: !0, fonts: [] }, ...Gi, ...Ki], { supportsExplicitInterCodegen: !0 }),
-      (ea.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Ui, {}, t)])) }));
+      R(ea, [{ explicitInter: !0, fonts: [] }, ...Gi, ...Ki], { supportsExplicitInterCodegen: !0 }),
+      (ea.loader = { load: (e, t) => (t.locale, Promise.allSettled([M(Ui, {}, t)])) }));
   }),
   na,
   ra,
@@ -6218,72 +6231,72 @@ var Ci,
   ca,
   la,
   ua = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
-      ve(),
+      d(),
+      ye(),
       (na = `framer-wCX2P`),
       (ra = { kk7oXE732: `framer-v-fmgod6` }),
       (ia = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (aa = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (oa = C.create(s)),
+      (oa = C.create(a)),
       (sa = ({ announcement: e, badgeTitle: t, height: n, id: r, width: i, ...a }) => ({
         ...a,
         LEDw9whQr: e ?? a.LEDw9whQr ?? `AI is Available for MacOS`,
         s0mvfnZbf: t ?? a.s0mvfnZbf ?? `New`,
       })),
       (ca = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (la = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
+      (la = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H();
+          I();
           let {
-              style: c,
-              className: l,
-              layoutId: u,
-              variant: d,
-              s0mvfnZbf: m,
-              LEDw9whQr: g,
-              ...v
+              style: l,
+              className: u,
+              layoutId: d,
+              variant: f,
+              s0mvfnZbf: p,
+              LEDw9whQr: m,
+              ...g
             } = sa(e),
             {
-              baseVariant: ee,
+              baseVariant: v,
               classNames: y,
-              clearLoadingGesture: b,
-              gestureHandlers: x,
-              gestureVariant: te,
-              isLoading: S,
+              clearLoadingGesture: x,
+              gestureHandlers: S,
+              gestureVariant: ee,
+              isLoading: te,
               setGestureState: w,
               setVariant: T,
               variants: E,
-            } = q({ defaultVariant: `kk7oXE732`, ref: r, variant: d, variantClassNames: ra }),
+            } = z({ defaultVariant: `kk7oXE732`, ref: i, variant: f, variantClassNames: ra }),
             D = ca(e, E),
-            k = L(na, X);
+            k = q(na, Y);
           return h(O, {
-            id: u ?? i,
+            id: d ?? o,
             children: h(oa, {
               animate: E,
               initial: !1,
               children: h(aa, {
                 value: ia,
                 children: _(C.div, {
-                  ...v,
-                  ...x,
-                  className: L(k, `framer-fmgod6`, l, y),
+                  ...g,
+                  ...S,
+                  className: q(k, `framer-fmgod6`, u, y),
                   "data-border": !0,
                   "data-framer-name": `Badge`,
                   layoutDependency: D,
                   layoutId: `kk7oXE732`,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `1px`,
                     "--border-color": `rgba(255, 255, 255, 0.05)`,
@@ -6296,7 +6309,7 @@ var Ci,
                     borderTopLeftRadius: 24,
                     borderTopRightRadius: 24,
                     boxShadow: `inset 0px 0px 10px 0px rgba(250, 169, 115, 0.23)`,
-                    ...c,
+                    ...l,
                   },
                   children: [
                     h(C.div, {
@@ -6312,9 +6325,9 @@ var Ci,
                         borderTopRightRadius: 13,
                         boxShadow: `inset 0px 0px 10px 0px rgba(255, 255, 255, 0.25)`,
                       },
-                      children: h(J, {
+                      children: h(L, {
                         __fromCanvasComponent: !0,
-                        children: h(s, {
+                        children: h(a, {
                           children: h(C.p, {
                             className: `framer-styles-preset-ke6suj`,
                             "data-styles-preset": `Bv6I6Qd8d`,
@@ -6329,14 +6342,14 @@ var Ci,
                           "--framer-link-text-color": `rgb(0, 153, 255)`,
                           "--framer-link-text-decoration": `underline`,
                         },
-                        text: m,
+                        text: p,
                         verticalAlignment: `top`,
                         withExternalLayout: !0,
                       }),
                     }),
-                    h(J, {
+                    h(L, {
                       __fromCanvasComponent: !0,
-                      children: h(s, {
+                      children: h(a, {
                         children: h(C.p, {
                           className: `framer-styles-preset-ke6suj`,
                           "data-styles-preset": `Bv6I6Qd8d`,
@@ -6361,7 +6374,7 @@ var Ci,
                         "--framer-link-text-color": `rgb(0, 153, 255)`,
                         "--framer-link-text-decoration": `underline`,
                       },
-                      text: g,
+                      text: m,
                       verticalAlignment: `top`,
                       withExternalLayout: !0,
                     }),
@@ -6377,14 +6390,14 @@ var Ci,
           `.framer-wCX2P.framer-fmgod6 { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 6px 15px 6px 6px; position: relative; width: min-content; }`,
           `.framer-wCX2P .framer-s72yib { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px 10px 0px 10px; position: relative; width: min-content; }`,
           `.framer-wCX2P .framer-6tzp1b, .framer-wCX2P .framer-1bcz3gm { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Ne,
+          ...X,
           `.framer-wCX2P[data-border="true"]::after, .framer-wCX2P [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-wCX2P`
       )),
       (la.displayName = `Hero Badge`),
       (la.defaultProps = { height: 37.5, width: 277 }),
-      I(la, {
+      ve(la, {
         s0mvfnZbf: {
           defaultValue: `New`,
           displayTextArea: !1,
@@ -6398,7 +6411,7 @@ var Ci,
           type: W.String,
         },
       }),
-      Y(
+      R(
         la,
         [
           {
@@ -6462,7 +6475,7 @@ var Ci,
               },
             ],
           },
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -6479,73 +6492,73 @@ var Ci,
   ba,
   xa,
   Sa = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       mt(),
-      we(),
+      Te(),
       ua(),
-      Se(),
+      Ce(),
       (da = N(la)),
       (fa = N(Fe)),
-      (pa = `framer-Cgp68`),
+      (pa = `framer-WeGsI`),
       (ma = { rrE2SlL6R: `framer-v-tkox25` }),
       (ha = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (ga = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
       (_a = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (va = C.create(s)),
+      (va = C.create(a)),
       (ya = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
       (ba = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (xa = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            c = F(),
-            { style: l, className: u, layoutId: d, variant: m, ...g } = ya(e),
+      (xa = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H(),
+            l = I(),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = ya(e),
             {
-              baseVariant: v,
-              classNames: ee,
+              baseVariant: g,
+              classNames: v,
               clearLoadingGesture: y,
-              gestureHandlers: b,
-              gestureVariant: x,
-              isLoading: te,
-              setGestureState: S,
+              gestureHandlers: x,
+              gestureVariant: S,
+              isLoading: ee,
+              setGestureState: te,
               setVariant: w,
               variants: T,
-            } = q({ defaultVariant: `rrE2SlL6R`, ref: r, variant: m, variantClassNames: ma }),
+            } = z({ defaultVariant: `rrE2SlL6R`, ref: i, variant: p, variantClassNames: ma }),
             E = ba(e, T),
-            D = L(pa, Ee, pt);
+            D = q(pa, De, pt);
           return h(O, {
-            id: d ?? i,
+            id: f ?? o,
             children: h(va, {
               animate: T,
               initial: !1,
               children: h(_a, {
                 value: ha,
                 children: _(C.div, {
-                  ...g,
-                  ...b,
-                  className: L(D, `framer-tkox25`, u, ee),
+                  ...m,
+                  ...x,
+                  className: q(D, `framer-tkox25`, d, v),
                   "data-framer-name": `Variant 1`,
                   layoutDependency: E,
                   layoutId: `rrE2SlL6R`,
-                  ref: r,
-                  style: { ...l },
+                  ref: i,
+                  style: { ...u },
                   children: [
                     h(K, {
                       height: 37,
-                      y: (c?.y || 0) + 0 + (((c?.height || 366) - 0 - 294.6) / 2 + 0 + 0),
-                      children: h(z, {
+                      y: (l?.y || 0) + 0 + (((l?.height || 366) - 0 - 294.6) / 2 + 0 + 0),
+                      children: h(J, {
                         className: `framer-j26l3z-container`,
                         layoutDependency: E,
                         layoutId: `jKBO3Pr6N-container`,
@@ -6556,7 +6569,7 @@ var Ci,
                           height: `100%`,
                           id: `jKBO3Pr6N`,
                           layoutId: `jKBO3Pr6N`,
-                          LEDw9whQr: `Phương pháp đột phá`,
+                          LEDw9whQr: `Phương pháp mới`,
                           s0mvfnZbf: `New`,
                           width: `100%`,
                         }),
@@ -6567,9 +6580,9 @@ var Ci,
                       "data-framer-name": `Copy`,
                       layoutDependency: E,
                       layoutId: `mIK_WSbSh`,
-                      children: h(J, {
+                      children: h(L, {
                         __fromCanvasComponent: !0,
-                        children: h(s, {
+                        children: h(a, {
                           children: h(C.h1, {
                             className: `framer-styles-preset-93ypku`,
                             "data-styles-preset": `JJZKY2HtE`,
@@ -6600,9 +6613,9 @@ var Ci,
                         withExternalLayout: !0,
                       }),
                     }),
-                    h(J, {
+                    h(L, {
                       __fromCanvasComponent: !0,
-                      children: h(s, {
+                      children: h(a, {
                         children: h(C.p, {
                           className: `framer-styles-preset-1ywp38s`,
                           "data-styles-preset": `chuOPspnt`,
@@ -6628,8 +6641,8 @@ var Ci,
                     }),
                     h(K, {
                       height: 48,
-                      y: (c?.y || 0) + 0 + (((c?.height || 366) - 0 - 294.6) / 2 + 167.4 + 45),
-                      children: h(z, {
+                      y: (l?.y || 0) + 0 + (((l?.height || 366) - 0 - 294.6) / 2 + 167.4 + 45),
+                      children: h(J, {
                         className: `framer-wxllgz-container`,
                         layoutDependency: E,
                         layoutId: `HSAi_Ng3u-container`,
@@ -6638,6 +6651,7 @@ var Ci,
                         scopeId: `fhaHIfqLp`,
                         children: h(Fe, {
                           AKuoesW74: 15,
+                          AYwwfkaKd: `https://docs.google.com/forms/d/e/1FAIpQLSfJafB5tqK6MAxMOTPumhzrx01RYmywOqQDUOrx2Cvqd4cCPQ/viewform`,
                           FPjhikCji: !1,
                           height: `100%`,
                           id: `HSAi_Ng3u`,
@@ -6649,9 +6663,9 @@ var Ci,
                         }),
                       }),
                     }),
-                    h(J, {
+                    h(L, {
                       __fromCanvasComponent: !0,
-                      children: h(s, {
+                      children: h(a, {
                         children: h(C.p, {
                           dir: `auto`,
                           style: {
@@ -6675,21 +6689,21 @@ var Ci,
           });
         }),
         [
-          `.framer-Cgp68.framer-qidlc2, .framer-Cgp68 .framer-qidlc2 { display: block; }`,
-          `.framer-Cgp68.framer-tkox25 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1150px; }`,
-          `.framer-Cgp68 .framer-j26l3z-container, .framer-Cgp68 .framer-wxllgz-container { flex: none; height: auto; position: relative; width: auto; }`,
-          `.framer-Cgp68 .framer-k0nsb9 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-          `.framer-Cgp68 .framer-12c66yh { flex: none; height: auto; max-width: 80%; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-          `.framer-Cgp68 .framer-1abhtuc { flex: none; height: 60px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-          `.framer-Cgp68 .framer-owmude { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...je,
+          `.framer-WeGsI.framer-qidlc2, .framer-WeGsI .framer-qidlc2 { display: block; }`,
+          `.framer-WeGsI.framer-tkox25 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1150px; }`,
+          `.framer-WeGsI .framer-j26l3z-container, .framer-WeGsI .framer-wxllgz-container { flex: none; height: auto; position: relative; width: auto; }`,
+          `.framer-WeGsI .framer-k0nsb9 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+          `.framer-WeGsI .framer-12c66yh { flex: none; height: auto; max-width: 80%; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+          `.framer-WeGsI .framer-1abhtuc { flex: none; height: 60px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+          `.framer-WeGsI .framer-owmude { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+          ...Me,
           ...ft,
         ],
-        `framer-Cgp68`
+        `framer-WeGsI`
       )),
       (xa.displayName = `buttons`),
       (xa.defaultProps = { height: 366, width: 1150 }),
-      Y(
+      R(
         xa,
         [
           {
@@ -6762,13 +6776,13 @@ var Ci,
           },
           ...da,
           ...fa,
-          ...P(Ce),
+          ...P(we),
           ...P(dt),
         ],
         { supportsExplicitInterCodegen: !0 }
       ),
       (xa.loader = {
-        load: (e, t) => (t.locale, Promise.allSettled([A(la, {}, t), A(Fe, {}, t)])),
+        load: (e, t) => (t.locale, Promise.allSettled([M(la, {}, t), M(Fe, {}, t)])),
       }));
   }),
   Ca,
@@ -6781,11 +6795,11 @@ var Ci,
   Aa,
   ja,
   Ma = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
-      ve(),
+      d(),
+      ye(),
       mt(),
       (Ca = `framer-34Rcw`),
       (wa = { Xx5mkzhbQ: `framer-v-ojgjb6` }),
@@ -6797,12 +6811,12 @@ var Ci,
             ? { src: e }
             : void 0),
       (Da = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Oa = C.create(s)),
+      (Oa = C.create(a)),
       (ka = ({ height: e, id: t, image: n, text: r, title: i, title2: a, width: o, ...s }) => ({
         ...s,
         dq0WYZkam: n ??
@@ -6820,53 +6834,53 @@ var Ci,
         TTcIv06AG: i ?? s.TTcIv06AG ?? `Emily R.`,
       })),
       (Aa = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (ja = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            c = F(),
+      (ja = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H(),
+            l = I(),
             {
-              style: l,
-              className: u,
-              layoutId: d,
-              variant: m,
-              kkLw1kBtS: g,
-              TTcIv06AG: v,
-              FfjkZFmYc: ee,
+              style: u,
+              className: d,
+              layoutId: f,
+              variant: p,
+              kkLw1kBtS: m,
+              TTcIv06AG: g,
+              FfjkZFmYc: v,
               dq0WYZkam: y,
-              ...b
+              ...x
             } = ka(e),
             {
-              baseVariant: x,
-              classNames: te,
-              clearLoadingGesture: S,
+              baseVariant: S,
+              classNames: ee,
+              clearLoadingGesture: te,
               gestureHandlers: w,
               gestureVariant: T,
               isLoading: E,
               setGestureState: D,
               setVariant: k,
               variants: A,
-            } = q({ defaultVariant: `Xx5mkzhbQ`, ref: r, variant: m, variantClassNames: wa }),
+            } = z({ defaultVariant: `Xx5mkzhbQ`, ref: i, variant: p, variantClassNames: wa }),
             j = Aa(e, A),
-            ne = L(Ca, X, pt);
+            M = q(Ca, Y, pt);
           return h(O, {
-            id: d ?? i,
+            id: f ?? o,
             children: h(Oa, {
               animate: A,
               initial: !1,
               children: h(Da, {
                 value: Ta,
                 children: _(C.div, {
-                  ...b,
+                  ...x,
                   ...w,
-                  className: L(ne, `framer-ojgjb6`, u, te),
+                  className: q(M, `framer-ojgjb6`, d, ee),
                   "data-border": !0,
                   "data-framer-name": `Testimonial`,
                   layoutDependency: j,
                   layoutId: `Xx5mkzhbQ`,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `1px`,
                     "--border-color": `rgba(228, 230, 235, 0.11)`,
@@ -6880,7 +6894,7 @@ var Ci,
                     borderTopLeftRadius: 30,
                     borderTopRightRadius: 30,
                     boxShadow: `inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25)`,
-                    ...l,
+                    ...u,
                   },
                   children: [
                     h(C.div, {
@@ -6888,9 +6902,9 @@ var Ci,
                       "data-framer-name": `Contant`,
                       layoutDependency: j,
                       layoutId: `Y225RXQBo`,
-                      children: h(J, {
+                      children: h(L, {
                         __fromCanvasComponent: !0,
-                        children: h(s, {
+                        children: h(a, {
                           children: h(C.p, {
                             className: `framer-styles-preset-ke6suj`,
                             "data-styles-preset": `Bv6I6Qd8d`,
@@ -6910,7 +6924,7 @@ var Ci,
                           "--framer-link-text-decoration": `underline`,
                           "--framer-paragraph-spacing": `0px`,
                         },
-                        text: g,
+                        text: m,
                         verticalAlignment: `top`,
                         withExternalLayout: !0,
                       }),
@@ -6921,14 +6935,14 @@ var Ci,
                       layoutDependency: j,
                       layoutId: `mBV3SGMtm`,
                       children: [
-                        h(B, {
+                        h(G, {
                           background: {
                             alt: ``,
                             fit: `fill`,
-                            loading: M(
-                              (c?.y || 0) +
+                            loading: F(
+                              (l?.y || 0) +
                                 30 +
-                                (((c?.height || 273) - 60 - 451) / 2 + 128 + 25) +
+                                (((l?.height || 273) - 60 - 451) / 2 + 128 + 25) +
                                 119
                             ),
                             pixelHeight: 90,
@@ -6953,9 +6967,9 @@ var Ci,
                           layoutDependency: j,
                           layoutId: `AegIYWouy`,
                           children: [
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(C.p, {
                                   className: `framer-styles-preset-1ywp38s`,
                                   "data-styles-preset": `chuOPspnt`,
@@ -6975,13 +6989,13 @@ var Ci,
                                 "--framer-link-text-decoration": `underline`,
                                 "--framer-paragraph-spacing": `0px`,
                               },
-                              text: v,
+                              text: g,
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(C.p, {
                                   className: `framer-styles-preset-ke6suj`,
                                   "data-styles-preset": `Bv6I6Qd8d`,
@@ -6998,7 +7012,7 @@ var Ci,
                                 "--framer-link-text-decoration": `underline`,
                                 "--framer-paragraph-spacing": `0px`,
                               },
-                              text: ee,
+                              text: v,
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
@@ -7006,12 +7020,12 @@ var Ci,
                         }),
                       ],
                     }),
-                    h(B, {
+                    h(G, {
                       background: {
                         alt: ``,
                         backgroundSize: 0.29,
                         fit: `tile`,
-                        loading: M((c?.y || 0) + 0),
+                        loading: F((l?.y || 0) + 0),
                         pixelHeight: 96,
                         pixelWidth: 96,
                         positionX: `left`,
@@ -7060,7 +7074,7 @@ var Ci,
           `.framer-34Rcw .framer-1m6k40y, .framer-34Rcw .framer-ho67mc { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
           `.framer-34Rcw .framer-shwash { bottom: 0px; flex: none; left: 0px; mix-blend-mode: screen; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
           `.framer-34Rcw .framer-122o47f { bottom: 0px; flex: none; left: 0px; overflow: hidden; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-          ...Ne,
+          ...X,
           ...ft,
           `.framer-34Rcw[data-border="true"]::after, .framer-34Rcw [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
@@ -7068,7 +7082,7 @@ var Ci,
       )),
       (ja.displayName = `Testimonial Card`),
       (ja.defaultProps = { height: 273, width: 345 }),
-      I(ja, {
+      ve(ja, {
         kkLw1kBtS: {
           defaultValue: `Flamer has completely transformed the way I create content. The AI-generated copy is so natural and engaging that it saves me hours of work!”`,
           displayTextArea: !1,
@@ -7097,7 +7111,7 @@ var Ci,
           type: W.ResponsiveImage,
         },
       }),
-      Y(
+      R(
         ja,
         [
           {
@@ -7161,7 +7175,7 @@ var Ci,
               },
             ],
           },
-          ...P(be),
+          ...P(xe),
           ...P(dt),
         ],
         { supportsExplicitInterCodegen: !0 }
@@ -7177,10 +7191,10 @@ var Ci,
   Ba,
   Va,
   Ha = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       (Na = `framer-zZYPZ`),
       (Pa = { VmTPPJyjA: `framer-v-1ijsilz` }),
       (Fa = (e) =>
@@ -7191,12 +7205,12 @@ var Ci,
             : void 0),
       (Ia = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (La = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Ra = C.create(s)),
+      (Ra = C.create(a)),
       (za = ({ height: e, id: t, image: n, width: r, ...i }) => ({
         ...i,
         kiWtO5xPD: n ??
@@ -7208,54 +7222,54 @@ var Ci,
           },
       })),
       (Ba = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Va = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            s = F(),
-            { style: c, className: l, layoutId: u, variant: d, kiWtO5xPD: m, ...g } = za(e),
+      (Va = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            a = b(),
+            { activeLocale: o, setLocale: s } = H(),
+            c = I(),
+            { style: l, className: u, layoutId: d, variant: f, kiWtO5xPD: p, ...m } = za(e),
             {
-              baseVariant: _,
-              classNames: v,
-              clearLoadingGesture: ee,
+              baseVariant: g,
+              classNames: _,
+              clearLoadingGesture: v,
               gestureHandlers: y,
-              gestureVariant: b,
-              isLoading: x,
-              setGestureState: te,
-              setVariant: S,
+              gestureVariant: x,
+              isLoading: S,
+              setGestureState: ee,
+              setVariant: te,
               variants: C,
-            } = q({ defaultVariant: `VmTPPJyjA`, ref: r, variant: d, variantClassNames: Pa }),
+            } = z({ defaultVariant: `VmTPPJyjA`, ref: i, variant: f, variantClassNames: Pa }),
             w = Ba(e, C),
-            T = L(Na);
+            T = q(Na);
           return h(O, {
-            id: u ?? i,
+            id: d ?? a,
             children: h(Ra, {
               animate: C,
               initial: !1,
               children: h(La, {
                 value: Ia,
-                children: h(B, {
-                  ...g,
+                children: h(G, {
+                  ...m,
                   ...y,
                   background: {
                     alt: ``,
                     fit: `fill`,
-                    loading: M(s?.y || 0),
+                    loading: F(c?.y || 0),
                     pixelHeight: 832,
                     pixelWidth: 1248,
-                    sizes: s?.width || `100vw`,
-                    ...Fa(m),
+                    sizes: c?.width || `100vw`,
+                    ...Fa(p),
                     positionX: `center`,
                     positionY: `center`,
                   },
-                  className: L(T, `framer-1ijsilz`, l, v),
+                  className: q(T, `framer-1ijsilz`, u, _),
                   "data-framer-name": `Image`,
                   layoutDependency: w,
                   layoutId: `VmTPPJyjA`,
-                  ref: r,
-                  style: { ...c },
+                  ref: i,
+                  style: { ...l },
                 }),
               }),
             }),
@@ -7270,14 +7284,14 @@ var Ci,
       )),
       (Va.displayName = `Showcase Image`),
       (Va.defaultProps = { height: 550, width: 550 }),
-      I(Va, {
+      ve(Va, {
         kiWtO5xPD: {
           __defaultAssetReference: `data:framer/asset-reference,fPPQX1SwiW06ThdNYCxiCNoSrtU.jpeg?originalFilename=nQuBmOheR4CJXTtlScYkTQ.jpeg&preferredSize=auto`,
           title: `Image`,
           type: W.ResponsiveImage,
         },
       }),
-      Y(Va, [{ explicitInter: !0, fonts: [] }], { supportsExplicitInterCodegen: !0 }));
+      R(Va, [{ explicitInter: !0, fonts: [] }], { supportsExplicitInterCodegen: !0 }));
   }),
   Ua,
   Wa,
@@ -7292,15 +7306,15 @@ var Ci,
   $a,
   eo,
   to = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       Br(),
       Ha(),
       (Ua = N(Va)),
       (Wa = N(Dr)),
-      (Ga = me(C.figure)),
+      (Ga = se(C.figure)),
       (Ka = `framer-r4vmV`),
       (qa = { vPXxJ3AW1: `framer-v-d75ay` }),
       (Ja = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
@@ -7308,45 +7322,45 @@ var Ci,
         if (!(!e || typeof e != `object`)) return { ...e, alt: t };
       }),
       (Xa = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Za = C.create(s)),
+      (Za = C.create(a)),
       (Qa = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
       ($a = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (eo = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
-          let { style: s, className: c, layoutId: l, variant: u, ...d } = Qa(e),
+      (eo = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            a = b(),
+            { activeLocale: o, setLocale: s } = H();
+          I();
+          let { style: c, className: l, layoutId: u, variant: d, ...f } = Qa(e),
             {
-              baseVariant: m,
-              classNames: g,
-              clearLoadingGesture: v,
-              gestureHandlers: ee,
+              baseVariant: p,
+              classNames: m,
+              clearLoadingGesture: g,
+              gestureHandlers: v,
               gestureVariant: y,
-              isLoading: b,
-              setGestureState: x,
-              setVariant: te,
-              variants: S,
-            } = q({ defaultVariant: `vPXxJ3AW1`, ref: r, variant: u, variantClassNames: qa }),
-            C = $a(e, S),
-            w = L(Ka);
+              isLoading: x,
+              setGestureState: S,
+              setVariant: ee,
+              variants: te,
+            } = z({ defaultVariant: `vPXxJ3AW1`, ref: i, variant: d, variantClassNames: qa }),
+            C = $a(e, te),
+            w = q(Ka);
           return h(O, {
-            id: l ?? i,
+            id: u ?? a,
             children: h(Za, {
-              animate: S,
+              animate: te,
               initial: !1,
               children: h(Xa, {
                 value: Ja,
                 children: _(Ga, {
-                  ...d,
-                  ...ee,
+                  ...f,
+                  ...v,
                   __framer__spring: {
                     damping: 60,
                     delay: 0,
@@ -7389,18 +7403,18 @@ var Ci,
                   __perspectiveFX: !1,
                   __smartComponentFX: !0,
                   __targetOpacity: 1,
-                  className: L(w, `framer-d75ay`, c, g),
+                  className: q(w, `framer-d75ay`, l, m),
                   "data-framer-name": `Showcase`,
                   layoutDependency: C,
                   layoutId: `vPXxJ3AW1`,
-                  ref: r,
+                  ref: i,
                   style: {
                     backgroundColor: `var(--token-cd0d0bf1-aa19-4af4-bbb8-c194108d7779, rgb(39, 39, 39))`,
-                    ...s,
+                    ...c,
                   },
                   children: [
                     h(K, {
-                      children: h(z, {
+                      children: h(J, {
                         className: `framer-1y2h3x5-container`,
                         isAuthoredByUser: !0,
                         isModuleExternal: !0,
@@ -7435,7 +7449,7 @@ var Ci,
                             h(K, {
                               height: 550,
                               width: `550px`,
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-1vm9st-container`,
                                 inComponentSlot: !0,
                                 layoutDependency: C,
@@ -7455,7 +7469,7 @@ var Ci,
                             h(K, {
                               height: 550,
                               width: `550px`,
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-1kltkoo-container`,
                                 inComponentSlot: !0,
                                 layoutDependency: C,
@@ -7484,7 +7498,7 @@ var Ci,
                             h(K, {
                               height: 550,
                               width: `550px`,
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-1awxrug-container`,
                                 inComponentSlot: !0,
                                 layoutDependency: C,
@@ -7518,7 +7532,7 @@ var Ci,
                       }),
                     }),
                     h(K, {
-                      children: h(z, {
+                      children: h(J, {
                         className: `framer-1ci1o64-container`,
                         isAuthoredByUser: !0,
                         isModuleExternal: !0,
@@ -7553,7 +7567,7 @@ var Ci,
                             h(K, {
                               height: 550,
                               width: `550px`,
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-2kf7dh-container`,
                                 inComponentSlot: !0,
                                 layoutDependency: C,
@@ -7582,7 +7596,7 @@ var Ci,
                             h(K, {
                               height: 550,
                               width: `550px`,
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-r6ia3h-container`,
                                 inComponentSlot: !0,
                                 layoutDependency: C,
@@ -7611,7 +7625,7 @@ var Ci,
                             h(K, {
                               height: 550,
                               width: `550px`,
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-1oksq0z-container`,
                                 inComponentSlot: !0,
                                 layoutDependency: C,
@@ -7645,7 +7659,7 @@ var Ci,
                       }),
                     }),
                     h(K, {
-                      children: h(z, {
+                      children: h(J, {
                         className: `framer-7dd5rp-container`,
                         isAuthoredByUser: !0,
                         isModuleExternal: !0,
@@ -7680,7 +7694,7 @@ var Ci,
                             h(K, {
                               height: 550,
                               width: `550px`,
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-m1ktjz-container`,
                                 inComponentSlot: !0,
                                 layoutDependency: C,
@@ -7709,7 +7723,7 @@ var Ci,
                             h(K, {
                               height: 550,
                               width: `550px`,
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-13pzk76-container`,
                                 inComponentSlot: !0,
                                 layoutDependency: C,
@@ -7738,7 +7752,7 @@ var Ci,
                             h(K, {
                               height: 550,
                               width: `550px`,
-                              children: h(z, {
+                              children: h(J, {
                                 className: `framer-6l405x-container`,
                                 inComponentSlot: !0,
                                 layoutDependency: C,
@@ -7788,8 +7802,8 @@ var Ci,
       )),
       (eo.displayName = `Showcase Ticker Section`),
       (eo.defaultProps = { height: 800, width: 1440 }),
-      Y(eo, [{ explicitInter: !0, fonts: [] }, ...Ua, ...Wa], { supportsExplicitInterCodegen: !0 }),
-      (eo.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Va, {}, t)])) }));
+      R(eo, [{ explicitInter: !0, fonts: [] }, ...Ua, ...Wa], { supportsExplicitInterCodegen: !0 }),
+      (eo.loader = { load: (e, t) => (t.locale, Promise.allSettled([M(Va, {}, t)])) }));
   }),
   no,
   ro,
@@ -7801,65 +7815,65 @@ var Ci,
   lo,
   uo,
   fo = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       tt(),
-      ve(),
+      ye(),
       (no = N(Z)),
       (ro = `framer-5Kj10`),
       (io = { mGWZfGZNS: `framer-v-1n4xgv6` }),
       (ao = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (oo = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (so = C.create(s)),
+      (so = C.create(a)),
       (co = ({ height: e, id: t, title: n, width: r, ...i }) => ({
         ...i,
         IAk0cTPD3: n ?? i.IAk0cTPD3 ?? `Basic AI Writing Tools`,
       })),
       (lo = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (uo = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
-          let { style: c, className: l, layoutId: u, variant: d, IAk0cTPD3: m, ...g } = co(e),
+      (uo = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H();
+          I();
+          let { style: l, className: u, layoutId: d, variant: f, IAk0cTPD3: p, ...m } = co(e),
             {
-              baseVariant: v,
-              classNames: ee,
+              baseVariant: g,
+              classNames: v,
               clearLoadingGesture: y,
-              gestureHandlers: b,
-              gestureVariant: x,
-              isLoading: te,
-              setGestureState: S,
+              gestureHandlers: x,
+              gestureVariant: S,
+              isLoading: ee,
+              setGestureState: te,
               setVariant: w,
               variants: T,
-            } = q({ defaultVariant: `mGWZfGZNS`, ref: r, variant: d, variantClassNames: io }),
+            } = z({ defaultVariant: `mGWZfGZNS`, ref: i, variant: f, variantClassNames: io }),
             E = lo(e, T),
-            D = L(ro, X);
+            D = q(ro, Y);
           return h(O, {
-            id: u ?? i,
+            id: d ?? o,
             children: h(so, {
               animate: T,
               initial: !1,
               children: h(oo, {
                 value: ao,
                 children: _(C.ol, {
-                  ...g,
-                  ...b,
-                  className: L(D, `framer-1n4xgv6`, l, ee),
+                  ...m,
+                  ...x,
+                  className: q(D, `framer-1n4xgv6`, u, v),
                   "data-framer-name": `List`,
                   layoutDependency: E,
                   layoutId: `mGWZfGZNS`,
-                  ref: r,
-                  style: { ...c },
+                  ref: i,
+                  style: { ...l },
                   children: [
                     h(C.li, {
                       className: `framer-hvq3oc`,
@@ -7886,7 +7900,7 @@ var Ci,
                           borderTopRightRadius: 9999,
                         },
                         children: h(K, {
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-umva26-container`,
                             isAuthoredByUser: !0,
                             isModuleExternal: !0,
@@ -7912,10 +7926,10 @@ var Ci,
                         }),
                       }),
                     }),
-                    h(J, {
+                    h(L, {
                       __fromCanvasComponent: !0,
                       as: `li`,
-                      children: h(s, {
+                      children: h(a, {
                         children: h(C.p, {
                           className: `framer-styles-preset-ke6suj`,
                           "data-styles-preset": `Bv6I6Qd8d`,
@@ -7930,7 +7944,7 @@ var Ci,
                         "--framer-link-text-color": `rgb(0, 153, 255)`,
                         "--framer-link-text-decoration": `underline`,
                       },
-                      text: m,
+                      text: p,
                       verticalAlignment: `top`,
                       withExternalLayout: !0,
                     }),
@@ -7948,14 +7962,14 @@ var Ci,
           `.framer-5Kj10 .framer-1iwfb1b { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 6px; position: relative; width: min-content; }`,
           `.framer-5Kj10 .framer-umva26-container { flex: none; height: 12px; position: relative; width: 12px; }`,
           `.framer-5Kj10 .framer-ufyt8s { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
-          ...Ne,
+          ...X,
           `.framer-5Kj10[data-border="true"]::after, .framer-5Kj10 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-5Kj10`
       )),
       (uo.displayName = `List Item`),
       (uo.defaultProps = { height: 32, width: 260 }),
-      I(uo, {
+      ve(uo, {
         IAk0cTPD3: {
           defaultValue: `Basic AI Writing Tools`,
           displayTextArea: !1,
@@ -7963,7 +7977,7 @@ var Ci,
           type: W.String,
         },
       }),
-      Y(
+      R(
         uo,
         [
           {
@@ -8028,7 +8042,7 @@ var Ci,
             ],
           },
           ...no,
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -8051,13 +8065,13 @@ var mo,
   To,
   Eo,
   Do = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       mt(),
       fo(),
-      Se(),
+      Ce(),
       Jt(),
       (mo = N(qt)),
       (ho = N(Fe)),
@@ -8067,61 +8081,61 @@ var mo,
       (yo = { slD3l9NUj: `framer-v-auu05y`, zMyIYBXWv: `framer-v-1h0r7j3` }),
       (bo = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (xo = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (So = C.create(s)),
+      (So = C.create(a)),
       (Co = { "Price Card": `zMyIYBXWv`, Mobile: `slD3l9NUj` }),
       (wo = ({ height: e, id: t, width: n, ...r }) => ({
         ...r,
         variant: Co[r.variant] ?? r.variant ?? `zMyIYBXWv`,
       })),
       (To = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Eo = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            c = F(),
-            { style: l, className: u, layoutId: d, variant: m, ...g } = wo(e),
+      (Eo = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H(),
+            l = I(),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = wo(e),
             {
-              baseVariant: v,
-              classNames: ee,
+              baseVariant: g,
+              classNames: v,
               clearLoadingGesture: y,
-              gestureHandlers: b,
-              gestureVariant: x,
-              isLoading: te,
-              setGestureState: S,
+              gestureHandlers: x,
+              gestureVariant: S,
+              isLoading: ee,
+              setGestureState: te,
               setVariant: w,
               variants: T,
-            } = q({
+            } = z({
               cycleOrder: _o,
               defaultVariant: `zMyIYBXWv`,
-              ref: r,
-              variant: m,
+              ref: i,
+              variant: p,
               variantClassNames: yo,
             }),
             E = To(e, T),
-            D = L(vo, pt);
+            D = q(vo, pt);
           return h(O, {
-            id: d ?? i,
+            id: f ?? o,
             children: h(So, {
               animate: T,
               initial: !1,
               children: h(xo, {
                 value: bo,
                 children: _(C.div, {
-                  ...g,
-                  ...b,
-                  className: L(D, `framer-1h0r7j3`, u, ee),
+                  ...m,
+                  ...x,
+                  className: q(D, `framer-1h0r7j3`, d, v),
                   "data-border": !0,
                   "data-framer-name": `Price Card`,
                   layoutDependency: E,
                   layoutId: `zMyIYBXWv`,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `1px`,
                     "--border-color": `rgba(228, 230, 235, 0.06)`,
@@ -8135,9 +8149,9 @@ var mo,
                     borderTopLeftRadius: 23,
                     borderTopRightRadius: 23,
                     boxShadow: `inset 0px 0px 12px 0px rgba(250, 250, 250, 0.19)`,
-                    ...l,
+                    ...u,
                   },
-                  ...po({ slD3l9NUj: { "data-framer-name": `Mobile` } }, v, x),
+                  ...po({ slD3l9NUj: { "data-framer-name": `Mobile` } }, g, S),
                   children: [
                     _(C.div, {
                       className: `framer-h5tgbs`,
@@ -8147,21 +8161,21 @@ var mo,
                       children: [
                         h(K, {
                           height: 37,
-                          y: (c?.y || 0) + 30 + 0 + 0 + 0,
+                          y: (l?.y || 0) + 30 + 0 + 0 + 0,
                           ...po(
                             {
                               slD3l9NUj: {
                                 y:
-                                  (c?.y || 0) +
-                                  (30 + ((c?.height || 263.5) - 60 - 461) / 2) +
+                                  (l?.y || 0) +
+                                  (30 + ((l?.height || 263.5) - 60 - 461) / 2) +
                                   0 +
                                   0,
                               },
                             },
-                            v,
-                            x
+                            g,
+                            S
                           ),
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-1dsw2b0-container`,
                             layoutDependency: E,
                             layoutId: `lTPDR53BQ-container`,
@@ -8184,9 +8198,9 @@ var mo,
                           layoutDependency: E,
                           layoutId: `TFrv66siz`,
                           children: [
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(C.p, {
                                   style: {
                                     "--font-selector": `R0Y7SW50ZXItcmVndWxhcg==`,
@@ -8210,9 +8224,9 @@ var mo,
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(C.p, {
                                   className: `framer-styles-preset-1ywp38s`,
                                   "data-styles-preset": `chuOPspnt`,
@@ -8232,9 +8246,9 @@ var mo,
                             }),
                           ],
                         }),
-                        h(J, {
+                        h(L, {
                           __fromCanvasComponent: !0,
-                          children: h(s, {
+                          children: h(a, {
                             children: h(C.p, {
                               className: `framer-styles-preset-1ywp38s`,
                               "data-styles-preset": `chuOPspnt`,
@@ -8258,23 +8272,23 @@ var mo,
                         }),
                         h(K, {
                           height: 48,
-                          width: `min(${c?.width || `100vw`} - 60px, 300px)`,
-                          y: (c?.y || 0) + 30 + 0 + 0 + 413,
+                          width: `min(${l?.width || `100vw`} - 60px, 300px)`,
+                          y: (l?.y || 0) + 30 + 0 + 0 + 413,
                           ...po(
                             {
                               slD3l9NUj: {
-                                width: `max((${c?.width || `100vw`} - 90px) / 2, 1px)`,
+                                width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
                                 y:
-                                  (c?.y || 0) +
-                                  (30 + ((c?.height || 263.5) - 60 - 461) / 2) +
+                                  (l?.y || 0) +
+                                  (30 + ((l?.height || 263.5) - 60 - 461) / 2) +
                                   0 +
                                   413,
                               },
                             },
-                            v,
-                            x
+                            g,
+                            S
                           ),
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-81ziyn-container`,
                             layoutDependency: E,
                             layoutId: `tnDlChfj7-container`,
@@ -8293,7 +8307,7 @@ var mo,
                               style: { maxWidth: `100%`, width: `100%` },
                               variant: `uGayw3Tld`,
                               width: `100%`,
-                              ...po({ slD3l9NUj: { style: { width: `100%` } } }, v, x),
+                              ...po({ slD3l9NUj: { style: { width: `100%` } } }, g, S),
                             }),
                           }),
                         }),
@@ -8308,22 +8322,22 @@ var mo,
                         h(K, {
                           height: 32,
                           width: `260px`,
-                          y: (c?.y || 0) + 30 + 477 + 0 + 0,
+                          y: (l?.y || 0) + 30 + 477 + 0 + 0,
                           ...po(
                             {
                               slD3l9NUj: {
-                                width: `max((${c?.width || `100vw`} - 90px) / 2, 1px)`,
+                                width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
                                 y:
-                                  (c?.y || 0) +
-                                  (30 + ((c?.height || 263.5) - 60 - 180) / 2) +
+                                  (l?.y || 0) +
+                                  (30 + ((l?.height || 263.5) - 60 - 180) / 2) +
                                   0 +
                                   0,
                               },
                             },
-                            v,
-                            x
+                            g,
+                            S
                           ),
-                          children: h(z, {
+                          children: h(J, {
                             as: `li`,
                             className: `framer-1t3011n-container`,
                             layoutDependency: E,
@@ -8344,22 +8358,22 @@ var mo,
                         h(K, {
                           height: 32,
                           width: `260px`,
-                          y: (c?.y || 0) + 30 + 477 + 0 + 37,
+                          y: (l?.y || 0) + 30 + 477 + 0 + 37,
                           ...po(
                             {
                               slD3l9NUj: {
-                                width: `max((${c?.width || `100vw`} - 90px) / 2, 1px)`,
+                                width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
                                 y:
-                                  (c?.y || 0) +
-                                  (30 + ((c?.height || 263.5) - 60 - 180) / 2) +
+                                  (l?.y || 0) +
+                                  (30 + ((l?.height || 263.5) - 60 - 180) / 2) +
                                   0 +
                                   37,
                               },
                             },
-                            v,
-                            x
+                            g,
+                            S
                           ),
-                          children: h(z, {
+                          children: h(J, {
                             as: `li`,
                             className: `framer-1r5u2pg-container`,
                             layoutDependency: E,
@@ -8380,22 +8394,22 @@ var mo,
                         h(K, {
                           height: 32,
                           width: `260px`,
-                          y: (c?.y || 0) + 30 + 477 + 0 + 74,
+                          y: (l?.y || 0) + 30 + 477 + 0 + 74,
                           ...po(
                             {
                               slD3l9NUj: {
-                                width: `max((${c?.width || `100vw`} - 90px) / 2, 1px)`,
+                                width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
                                 y:
-                                  (c?.y || 0) +
-                                  (30 + ((c?.height || 263.5) - 60 - 180) / 2) +
+                                  (l?.y || 0) +
+                                  (30 + ((l?.height || 263.5) - 60 - 180) / 2) +
                                   0 +
                                   74,
                               },
                             },
-                            v,
-                            x
+                            g,
+                            S
                           ),
-                          children: h(z, {
+                          children: h(J, {
                             as: `li`,
                             className: `framer-h1cwcp-container`,
                             layoutDependency: E,
@@ -8416,22 +8430,22 @@ var mo,
                         h(K, {
                           height: 32,
                           width: `260px`,
-                          y: (c?.y || 0) + 30 + 477 + 0 + 111,
+                          y: (l?.y || 0) + 30 + 477 + 0 + 111,
                           ...po(
                             {
                               slD3l9NUj: {
-                                width: `max((${c?.width || `100vw`} - 90px) / 2, 1px)`,
+                                width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
                                 y:
-                                  (c?.y || 0) +
-                                  (30 + ((c?.height || 263.5) - 60 - 180) / 2) +
+                                  (l?.y || 0) +
+                                  (30 + ((l?.height || 263.5) - 60 - 180) / 2) +
                                   0 +
                                   111,
                               },
                             },
-                            v,
-                            x
+                            g,
+                            S
                           ),
-                          children: h(z, {
+                          children: h(J, {
                             as: `li`,
                             className: `framer-6suliz-container`,
                             layoutDependency: E,
@@ -8452,22 +8466,22 @@ var mo,
                         h(K, {
                           height: 32,
                           width: `260px`,
-                          y: (c?.y || 0) + 30 + 477 + 0 + 148,
+                          y: (l?.y || 0) + 30 + 477 + 0 + 148,
                           ...po(
                             {
                               slD3l9NUj: {
-                                width: `max((${c?.width || `100vw`} - 90px) / 2, 1px)`,
+                                width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
                                 y:
-                                  (c?.y || 0) +
-                                  (30 + ((c?.height || 263.5) - 60 - 180) / 2) +
+                                  (l?.y || 0) +
+                                  (30 + ((l?.height || 263.5) - 60 - 180) / 2) +
                                   0 +
                                   148,
                               },
                             },
-                            v,
-                            x
+                            g,
+                            S
                           ),
-                          children: h(z, {
+                          children: h(J, {
                             as: `li`,
                             className: `framer-c7v6f3-container`,
                             layoutDependency: E,
@@ -8487,17 +8501,17 @@ var mo,
                         }),
                       ],
                     }),
-                    h(B, {
+                    h(G, {
                       background: {
                         alt: ``,
                         backgroundSize: 0.29,
                         fit: `tile`,
-                        loading: M((c?.y || 0) + 0),
+                        loading: F((l?.y || 0) + 0),
                         pixelHeight: 96,
                         pixelWidth: 96,
                         positionX: `left`,
                         positionY: `top`,
-                        sizes: c?.width || `100vw`,
+                        sizes: l?.width || `100vw`,
                         src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
                       },
                       className: `framer-1nl03xp`,
@@ -8512,17 +8526,17 @@ var mo,
                         WebkitMask: `linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add`,
                       },
                     }),
-                    h(B, {
+                    h(G, {
                       background: {
                         alt: ``,
                         backgroundSize: 0.29,
                         fit: `tile`,
-                        loading: M((c?.y || 0) + 0),
+                        loading: F((l?.y || 0) + 0),
                         pixelHeight: 96,
                         pixelWidth: 96,
                         positionX: `left`,
                         positionY: `top`,
-                        sizes: c?.width || `100vw`,
+                        sizes: l?.width || `100vw`,
                         src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
                       },
                       className: `framer-18aocuw`,
@@ -8581,7 +8595,7 @@ var mo,
       )),
       (Eo.displayName = `Price Card`),
       (Eo.defaultProps = { height: 459.5, width: 320 }),
-      I(Eo, {
+      ve(Eo, {
         variant: {
           options: [`zMyIYBXWv`, `slD3l9NUj`],
           optionTitles: [`Price Card`, `Mobile`],
@@ -8589,7 +8603,7 @@ var mo,
           type: W.Enum,
         },
       }),
-      Y(
+      R(
         Eo,
         [
           {
@@ -8692,23 +8706,23 @@ var ko,
   Ro,
   zo,
   Bo = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
-      ve(),
+      d(),
+      ye(),
       (ko = { QzrBcpVgk: { hover: !0, pressed: !0 } }),
       (Ao = [`IllKbU6rd`, `QzrBcpVgk`]),
       (jo = `framer-DvKpE`),
       (Mo = { IllKbU6rd: `framer-v-1t7owjd`, QzrBcpVgk: `framer-v-ramoko` }),
       (No = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (Po = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Fo = C.create(s)),
+      (Fo = C.create(a)),
       (Io = { Active: `IllKbU6rd`, Passive: `QzrBcpVgk` }),
       (Lo = ({
         borderColor: e,
@@ -8738,88 +8752,88 @@ var ko,
           },
       })),
       (Ro = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (zo = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
+      (zo = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H();
+          I();
           let {
-              style: c,
-              className: l,
-              layoutId: u,
-              variant: d,
-              YnoIm5kRZ: m,
-              oXv7AZm4A: g,
-              hWSEK1rhs: _,
-              yueETfOfX: v,
-              ...ee
+              style: l,
+              className: u,
+              layoutId: d,
+              variant: f,
+              YnoIm5kRZ: p,
+              oXv7AZm4A: m,
+              hWSEK1rhs: g,
+              yueETfOfX: _,
+              ...v
             } = Lo(e),
             {
               baseVariant: y,
-              classNames: b,
-              clearLoadingGesture: x,
-              gestureHandlers: te,
-              gestureVariant: S,
+              classNames: x,
+              clearLoadingGesture: S,
+              gestureHandlers: ee,
+              gestureVariant: te,
               isLoading: w,
               setGestureState: T,
               setVariant: E,
               variants: D,
-            } = q({
+            } = z({
               cycleOrder: Ao,
               defaultVariant: `IllKbU6rd`,
               enabledGestures: ko,
-              ref: r,
-              variant: d,
+              ref: i,
+              variant: f,
               variantClassNames: Mo,
             }),
             k = Ro(e, D),
-            { activeVariantCallback: A, delay: j } = re(y),
+            { activeVariantCallback: A, delay: j } = ie(y),
             M = A(async (...e) => {
-              if ((T({ isPressed: !1 }), g && (await g(...e)) === !1)) return !1;
+              if ((T({ isPressed: !1 }), m && (await m(...e)) === !1)) return !1;
             }),
-            ne = L(jo, X);
+            ne = q(jo, Y);
           return h(O, {
-            id: u ?? i,
+            id: d ?? o,
             children: h(Fo, {
               animate: D,
               initial: !1,
               children: h(Po, {
                 value: No,
                 children: h(C.div, {
+                  ...v,
                   ...ee,
-                  ...te,
-                  className: L(ne, `framer-1t7owjd`, l, b),
+                  className: q(ne, `framer-1t7owjd`, u, x),
                   "data-border": !0,
                   "data-framer-name": `Active`,
                   "data-highlight": !0,
                   layoutDependency: k,
                   layoutId: `IllKbU6rd`,
                   onTap: M,
-                  ref: r,
+                  ref: i,
                   style: {
-                    "--border-bottom-width": (_.borderBottomWidth ?? _.borderWidth) + `px`,
-                    "--border-color": _.borderColor,
-                    "--border-left-width": (_.borderLeftWidth ?? _.borderWidth) + `px`,
-                    "--border-right-width": (_.borderRightWidth ?? _.borderWidth) + `px`,
-                    "--border-style": _.borderStyle,
-                    "--border-top-width": (_.borderTopWidth ?? _.borderWidth) + `px`,
+                    "--border-bottom-width": (g.borderBottomWidth ?? g.borderWidth) + `px`,
+                    "--border-color": g.borderColor,
+                    "--border-left-width": (g.borderLeftWidth ?? g.borderWidth) + `px`,
+                    "--border-right-width": (g.borderRightWidth ?? g.borderWidth) + `px`,
+                    "--border-style": g.borderStyle,
+                    "--border-top-width": (g.borderTopWidth ?? g.borderWidth) + `px`,
                     backgroundColor: `rgba(255, 255, 255, 0.07)`,
                     borderBottomLeftRadius: 21,
                     borderBottomRightRadius: 21,
                     borderTopLeftRadius: 21,
                     borderTopRightRadius: 21,
-                    ...c,
+                    ...l,
                   },
                   variants: {
                     "QzrBcpVgk-hover": {
-                      "--border-bottom-width": (v.borderBottomWidth ?? v.borderWidth) + `px`,
-                      "--border-color": v.borderColor,
-                      "--border-left-width": (v.borderLeftWidth ?? v.borderWidth) + `px`,
-                      "--border-right-width": (v.borderRightWidth ?? v.borderWidth) + `px`,
-                      "--border-style": v.borderStyle,
-                      "--border-top-width": (v.borderTopWidth ?? v.borderWidth) + `px`,
+                      "--border-bottom-width": (_.borderBottomWidth ?? _.borderWidth) + `px`,
+                      "--border-color": _.borderColor,
+                      "--border-left-width": (_.borderLeftWidth ?? _.borderWidth) + `px`,
+                      "--border-right-width": (_.borderRightWidth ?? _.borderWidth) + `px`,
+                      "--border-style": _.borderStyle,
+                      "--border-top-width": (_.borderTopWidth ?? _.borderWidth) + `px`,
                     },
                     "QzrBcpVgk-pressed": {
                       "--border-color": `var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, rgb(250, 250, 250))`,
@@ -8841,11 +8855,11 @@ var ko,
                       QzrBcpVgk: { "data-framer-name": `Passive` },
                     },
                     y,
-                    S
+                    te
                   ),
-                  children: h(J, {
+                  children: h(L, {
                     __fromCanvasComponent: !0,
-                    children: h(s, {
+                    children: h(a, {
                       children: h(C.p, {
                         className: `framer-styles-preset-ke6suj`,
                         "data-styles-preset": `Bv6I6Qd8d`,
@@ -8864,7 +8878,7 @@ var ko,
                       "--framer-link-text-color": `rgb(0, 153, 255)`,
                       "--framer-link-text-decoration": `underline`,
                     },
-                    text: m,
+                    text: p,
                     variants: {
                       "QzrBcpVgk-pressed": {
                         "--extracted-r6o4lv": `var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, rgb(250, 250, 250))`,
@@ -8875,7 +8889,7 @@ var ko,
                     ...Oo(
                       {
                         "QzrBcpVgk-pressed": {
-                          children: h(s, {
+                          children: h(a, {
                             children: h(C.p, {
                               className: `framer-styles-preset-ke6suj`,
                               "data-styles-preset": `Bv6I6Qd8d`,
@@ -8888,7 +8902,7 @@ var ko,
                         },
                       },
                       y,
-                      S
+                      te
                     ),
                   }),
                 }),
@@ -8901,14 +8915,14 @@ var ko,
           `.framer-DvKpE.framer-1eshsc, .framer-DvKpE .framer-1eshsc { display: block; }`,
           `.framer-DvKpE.framer-1t7owjd { align-content: center; align-items: center; cursor: pointer; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; overflow: visible; padding: 8px 20px 8px 20px; position: relative; width: min-content; }`,
           `.framer-DvKpE .framer-1mwgbok { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Ne,
+          ...X,
           `.framer-DvKpE[data-border="true"]::after, .framer-DvKpE [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-DvKpE`
       )),
       (zo.displayName = `Platform Tab`),
       (zo.defaultProps = { height: 41.5, width: 154 }),
-      I(zo, {
+      ve(zo, {
         variant: {
           options: [`IllKbU6rd`, `QzrBcpVgk`],
           optionTitles: [`Active`, `Passive`],
@@ -8941,7 +8955,7 @@ var ko,
           type: W.Border,
         },
       }),
-      Y(
+      R(
         zo,
         [
           {
@@ -9005,7 +9019,7 @@ var ko,
               },
             ],
           },
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -9034,19 +9048,19 @@ var Ho,
   as,
   os,
   ss = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       tt(),
-      ve(),
+      ye(),
       mt(),
       It(),
       Bo(),
       (Ho = N(zo)),
       (Uo = N(Z)),
-      (Wo = ue(me(B))),
-      (Go = me(C.div)),
+      (Wo = le(se(G))),
+      (Go = se(C.div)),
       (Ko = [`dlt7juYDw`, `DCkir8bNo`, `DsnxLUd4z`, `SHPjrE0Ds`, `thiS_yWVV`, `uHta1FwxP`]),
       (qo = `framer-kW1mx`),
       (Jo = {
@@ -9110,12 +9124,12 @@ var Ho,
         y: 300,
       }),
       (ts = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (ns = C.create(s)),
+      (ns = C.create(a)),
       (rs = {
         "Ask Advice Mobile": `uHta1FwxP`,
         "Ask Advice": `DsnxLUd4z`,
@@ -9129,71 +9143,71 @@ var Ho,
         variant: rs[r.variant] ?? r.variant ?? `dlt7juYDw`,
       })),
       (as = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (os = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            c = F(),
-            { style: l, className: u, layoutId: d, variant: m, ...g } = is(e),
+      (os = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H(),
+            l = I(),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = is(e),
             {
-              baseVariant: v,
-              classNames: ee,
+              baseVariant: g,
+              classNames: v,
               clearLoadingGesture: y,
-              gestureHandlers: b,
-              gestureVariant: x,
-              isLoading: te,
-              setGestureState: S,
+              gestureHandlers: x,
+              gestureVariant: S,
+              isLoading: ee,
+              setGestureState: te,
               setVariant: w,
               variants: T,
-            } = q({
+            } = z({
               cycleOrder: Ko,
               defaultVariant: `dlt7juYDw`,
-              ref: r,
-              variant: m,
+              ref: i,
+              variant: p,
               variantClassNames: Jo,
             }),
             E = as(e, T),
-            { activeVariantCallback: D, delay: k } = re(v),
+            { activeVariantCallback: D, delay: k } = ie(g),
             A = D(async (...e) => {
               w(`dlt7juYDw`);
             }),
             j = D(async (...e) => {
               w(`SHPjrE0Ds`);
             }),
-            ne = D(async (...e) => {
+            M = D(async (...e) => {
               w(`DCkir8bNo`);
             }),
-            N = D(async (...e) => {
+            ne = D(async (...e) => {
               w(`thiS_yWVV`);
             }),
-            P = D(async (...e) => {
+            N = D(async (...e) => {
               w(`DsnxLUd4z`);
             }),
-            I = D(async (...e) => {
+            P = D(async (...e) => {
               w(`uHta1FwxP`);
             }),
-            R = L(qo, Ft, pt, X),
-            ie = () => !![`DsnxLUd4z`, `uHta1FwxP`].includes(v),
-            V = () => !![`DCkir8bNo`, `thiS_yWVV`].includes(v),
-            ae = () => ![`DCkir8bNo`, `DsnxLUd4z`, `thiS_yWVV`, `uHta1FwxP`].includes(v);
+            re = q(qo, Ft, pt, Y),
+            ae = () => !![`DsnxLUd4z`, `uHta1FwxP`].includes(g),
+            oe = () => !![`DCkir8bNo`, `thiS_yWVV`].includes(g),
+            R = () => ![`DCkir8bNo`, `DsnxLUd4z`, `thiS_yWVV`, `uHta1FwxP`].includes(g);
           return h(O, {
-            id: d ?? i,
+            id: f ?? o,
             children: h(ns, {
               animate: T,
               initial: !1,
               children: h(ts, {
                 value: Yo,
                 children: _(C.section, {
-                  ...g,
-                  ...b,
-                  className: L(R, `framer-1klqkuy`, u, ee),
+                  ...m,
+                  ...x,
+                  className: q(re, `framer-1klqkuy`, d, v),
                   "data-border": !0,
                   "data-framer-name": `Image Generate`,
                   layoutDependency: E,
                   layoutId: `dlt7juYDw`,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `1px`,
                     "--border-color": `var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1))`,
@@ -9207,7 +9221,7 @@ var Ho,
                     borderTopLeftRadius: 56,
                     borderTopRightRadius: 56,
                     boxShadow: `inset 0px 0px 20px 0px rgba(255, 255, 255, 0.1)`,
-                    ...l,
+                    ...u,
                   },
                   variants: {
                     SHPjrE0Ds: {
@@ -9237,8 +9251,8 @@ var Ho,
                       thiS_yWVV: { "data-framer-name": `Text Generate Mobile` },
                       uHta1FwxP: { "data-framer-name": `Ask Advice Mobile` },
                     },
-                    v,
-                    x
+                    g,
+                    S
                   ),
                   children: [
                     _(C.div, {
@@ -9302,19 +9316,19 @@ var Ho,
                                 ...Vo(
                                   {
                                     SHPjrE0Ds: {
-                                      width: `max(min(max(${c?.width || `100vw`} - 60px, 100px) - 12px, 330px), 150px)`,
+                                      width: `max(min(max(${l?.width || `100vw`} - 60px, 100px) - 12px, 330px), 150px)`,
                                     },
                                     thiS_yWVV: {
-                                      width: `max(min(${c?.width || `100vw`} - 72px, 330px), 150px)`,
+                                      width: `max(min(${l?.width || `100vw`} - 72px, 330px), 150px)`,
                                     },
                                     uHta1FwxP: {
-                                      width: `max(min(${c?.width || `100vw`} - 72px, 330px), 150px)`,
+                                      width: `max(min(${l?.width || `100vw`} - 72px, 330px), 150px)`,
                                     },
                                   },
-                                  v,
-                                  x
+                                  g,
+                                  S
                                 ),
-                                children: h(z, {
+                                children: h(J, {
                                   className: `framer-19p5454-container`,
                                   layoutDependency: E,
                                   layoutId: `Qh2D1WBxX-container`,
@@ -9358,8 +9372,8 @@ var Ho,
                                           variant: `QzrBcpVgk`,
                                         },
                                       },
-                                      v,
-                                      x
+                                      g,
+                                      S
                                     ),
                                   }),
                                 }),
@@ -9369,19 +9383,19 @@ var Ho,
                                 ...Vo(
                                   {
                                     SHPjrE0Ds: {
-                                      width: `max(min(max(${c?.width || `100vw`} - 60px, 100px) - 12px, 330px), 150px)`,
+                                      width: `max(min(max(${l?.width || `100vw`} - 60px, 100px) - 12px, 330px), 150px)`,
                                     },
                                     thiS_yWVV: {
-                                      width: `max(min(${c?.width || `100vw`} - 72px, 330px), 150px)`,
+                                      width: `max(min(${l?.width || `100vw`} - 72px, 330px), 150px)`,
                                     },
                                     uHta1FwxP: {
-                                      width: `max(min(${c?.width || `100vw`} - 72px, 330px), 150px)`,
+                                      width: `max(min(${l?.width || `100vw`} - 72px, 330px), 150px)`,
                                     },
                                   },
-                                  v,
-                                  x
+                                  g,
+                                  S
                                 ),
-                                children: h(z, {
+                                children: h(J, {
                                   className: `framer-1l5ylkd-container`,
                                   layoutDependency: E,
                                   layoutId: `UbUQZGLef-container`,
@@ -9397,7 +9411,7 @@ var Ho,
                                     },
                                     id: `UbUQZGLef`,
                                     layoutId: `UbUQZGLef`,
-                                    oXv7AZm4A: ne,
+                                    oXv7AZm4A: M,
                                     variant: `QzrBcpVgk`,
                                     width: `100%`,
                                     YnoIm5kRZ: `Text Generate`,
@@ -9422,7 +9436,7 @@ var Ho,
                                             borderStyle: `solid`,
                                             borderWidth: 1,
                                           },
-                                          oXv7AZm4A: N,
+                                          oXv7AZm4A: ne,
                                           style: { maxWidth: `100%`, width: `100%` },
                                           yueETfOfX: {
                                             borderColor: `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
@@ -9436,7 +9450,7 @@ var Ho,
                                             borderStyle: `solid`,
                                             borderWidth: 1,
                                           },
-                                          oXv7AZm4A: N,
+                                          oXv7AZm4A: ne,
                                           style: { maxWidth: `100%`, width: `100%` },
                                           variant: `IllKbU6rd`,
                                           yueETfOfX: {
@@ -9451,7 +9465,7 @@ var Ho,
                                             borderStyle: `solid`,
                                             borderWidth: 1,
                                           },
-                                          oXv7AZm4A: N,
+                                          oXv7AZm4A: ne,
                                           style: { maxWidth: `100%`, width: `100%` },
                                           yueETfOfX: {
                                             borderColor: `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
@@ -9460,8 +9474,8 @@ var Ho,
                                           },
                                         },
                                       },
-                                      v,
-                                      x
+                                      g,
+                                      S
                                     ),
                                   }),
                                 }),
@@ -9471,19 +9485,19 @@ var Ho,
                                 ...Vo(
                                   {
                                     SHPjrE0Ds: {
-                                      width: `max(min(max(${c?.width || `100vw`} - 60px, 100px) - 12px, 330px), 150px)`,
+                                      width: `max(min(max(${l?.width || `100vw`} - 60px, 100px) - 12px, 330px), 150px)`,
                                     },
                                     thiS_yWVV: {
-                                      width: `max(min(${c?.width || `100vw`} - 72px, 330px), 150px)`,
+                                      width: `max(min(${l?.width || `100vw`} - 72px, 330px), 150px)`,
                                     },
                                     uHta1FwxP: {
-                                      width: `max(min(${c?.width || `100vw`} - 72px, 330px), 150px)`,
+                                      width: `max(min(${l?.width || `100vw`} - 72px, 330px), 150px)`,
                                     },
                                   },
-                                  v,
-                                  x
+                                  g,
+                                  S
                                 ),
-                                children: h(z, {
+                                children: h(J, {
                                   className: `framer-1lpbzo2-container`,
                                   layoutDependency: E,
                                   layoutId: `l7T6v_zdK-container`,
@@ -9499,7 +9513,7 @@ var Ho,
                                     },
                                     id: `l7T6v_zdK`,
                                     layoutId: `l7T6v_zdK`,
-                                    oXv7AZm4A: P,
+                                    oXv7AZm4A: N,
                                     variant: `QzrBcpVgk`,
                                     width: `100%`,
                                     YnoIm5kRZ: `Ask Advice`,
@@ -9519,7 +9533,7 @@ var Ho,
                                           variant: `IllKbU6rd`,
                                         },
                                         SHPjrE0Ds: {
-                                          oXv7AZm4A: I,
+                                          oXv7AZm4A: P,
                                           style: { maxWidth: `100%`, width: `100%` },
                                           yueETfOfX: {
                                             borderColor: `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
@@ -9528,7 +9542,7 @@ var Ho,
                                           },
                                         },
                                         thiS_yWVV: {
-                                          oXv7AZm4A: I,
+                                          oXv7AZm4A: P,
                                           style: { maxWidth: `100%`, width: `100%` },
                                           yueETfOfX: {
                                             borderColor: `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
@@ -9542,7 +9556,7 @@ var Ho,
                                             borderStyle: `solid`,
                                             borderWidth: 1,
                                           },
-                                          oXv7AZm4A: I,
+                                          oXv7AZm4A: P,
                                           style: { maxWidth: `100%`, width: `100%` },
                                           variant: `IllKbU6rd`,
                                           yueETfOfX: {
@@ -9552,8 +9566,8 @@ var Ho,
                                           },
                                         },
                                       },
-                                      v,
-                                      x
+                                      g,
+                                      S
                                     ),
                                   }),
                                 }),
@@ -9567,9 +9581,9 @@ var Ho,
                           layoutDependency: E,
                           layoutId: `I0CZW98Qz`,
                           children: [
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(C.h2, {
                                   className: `framer-styles-preset-14yy0fo`,
                                   "data-styles-preset": `U2wSnEg3t`,
@@ -9599,7 +9613,7 @@ var Ho,
                               ...Vo(
                                 {
                                   DCkir8bNo: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.h2, {
                                         className: `framer-styles-preset-14yy0fo`,
                                         "data-styles-preset": `U2wSnEg3t`,
@@ -9617,7 +9631,7 @@ var Ho,
                                     }),
                                   },
                                   DsnxLUd4z: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.h2, {
                                         className: `framer-styles-preset-14yy0fo`,
                                         "data-styles-preset": `U2wSnEg3t`,
@@ -9635,7 +9649,7 @@ var Ho,
                                     }),
                                   },
                                   SHPjrE0Ds: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.h2, {
                                         className: `framer-styles-preset-14yy0fo`,
                                         "data-styles-preset": `U2wSnEg3t`,
@@ -9654,7 +9668,7 @@ var Ho,
                                     }),
                                   },
                                   thiS_yWVV: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.h2, {
                                         className: `framer-styles-preset-14yy0fo`,
                                         "data-styles-preset": `U2wSnEg3t`,
@@ -9673,7 +9687,7 @@ var Ho,
                                     }),
                                   },
                                   uHta1FwxP: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.h2, {
                                         className: `framer-styles-preset-14yy0fo`,
                                         "data-styles-preset": `U2wSnEg3t`,
@@ -9692,13 +9706,13 @@ var Ho,
                                     }),
                                   },
                                 },
-                                v,
-                                x
+                                g,
+                                S
                               ),
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(C.p, {
                                   className: `framer-styles-preset-1ywp38s`,
                                   "data-styles-preset": `chuOPspnt`,
@@ -9718,7 +9732,7 @@ var Ho,
                               ...Vo(
                                 {
                                   DCkir8bNo: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-1ywp38s`,
                                         "data-styles-preset": `chuOPspnt`,
@@ -9727,7 +9741,7 @@ var Ho,
                                     }),
                                   },
                                   DsnxLUd4z: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-1ywp38s`,
                                         "data-styles-preset": `chuOPspnt`,
@@ -9736,7 +9750,7 @@ var Ho,
                                     }),
                                   },
                                   SHPjrE0Ds: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-1ywp38s`,
                                         "data-styles-preset": `chuOPspnt`,
@@ -9746,7 +9760,7 @@ var Ho,
                                     }),
                                   },
                                   thiS_yWVV: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-1ywp38s`,
                                         "data-styles-preset": `chuOPspnt`,
@@ -9756,7 +9770,7 @@ var Ho,
                                     }),
                                   },
                                   uHta1FwxP: {
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-1ywp38s`,
                                         "data-styles-preset": `chuOPspnt`,
@@ -9766,8 +9780,8 @@ var Ho,
                                     }),
                                   },
                                 },
-                                v,
-                                x
+                                g,
+                                S
                               ),
                             }),
                           ],
@@ -9849,9 +9863,9 @@ var Ho,
                                 layoutDependency: E,
                                 layoutId: `vNgIRSoe2`,
                                 children: [
-                                  h(J, {
+                                  h(L, {
                                     __fromCanvasComponent: !0,
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-1ywp38s`,
                                         "data-styles-preset": `chuOPspnt`,
@@ -9881,9 +9895,9 @@ var Ho,
                                     layoutId: `Wut9JsGQQ`,
                                     style: { backgroundColor: `rgba(255, 255, 255, 0.1)` },
                                   }),
-                                  h(J, {
+                                  h(L, {
                                     __fromCanvasComponent: !0,
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-ke6suj`,
                                         "data-styles-preset": `Bv6I6Qd8d`,
@@ -9909,7 +9923,7 @@ var Ho,
                                     ...Vo(
                                       {
                                         DCkir8bNo: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(C.p, {
                                               className: `framer-styles-preset-ke6suj`,
                                               "data-styles-preset": `Bv6I6Qd8d`,
@@ -9922,7 +9936,7 @@ var Ho,
                                           }),
                                         },
                                         DsnxLUd4z: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(C.p, {
                                               className: `framer-styles-preset-ke6suj`,
                                               "data-styles-preset": `Bv6I6Qd8d`,
@@ -9935,7 +9949,7 @@ var Ho,
                                           }),
                                         },
                                         thiS_yWVV: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(C.p, {
                                               className: `framer-styles-preset-ke6suj`,
                                               "data-styles-preset": `Bv6I6Qd8d`,
@@ -9948,7 +9962,7 @@ var Ho,
                                           }),
                                         },
                                         uHta1FwxP: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(C.p, {
                                               className: `framer-styles-preset-ke6suj`,
                                               "data-styles-preset": `Bv6I6Qd8d`,
@@ -9961,8 +9975,8 @@ var Ho,
                                           }),
                                         },
                                       },
-                                      v,
-                                      x
+                                      g,
+                                      S
                                     ),
                                   }),
                                 ],
@@ -10014,7 +10028,7 @@ var Ho,
                                 WebkitBackdropFilter: `blur(10px)`,
                               },
                               children: h(K, {
-                                children: h(z, {
+                                children: h(J, {
                                   className: `framer-fctvbk-container`,
                                   isAuthoredByUser: !0,
                                   isModuleExternal: !0,
@@ -10072,9 +10086,9 @@ var Ho,
                                 layoutDependency: E,
                                 layoutId: `y5YEfC3Jt`,
                                 children: [
-                                  h(J, {
+                                  h(L, {
                                     __fromCanvasComponent: !0,
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-1ywp38s`,
                                         "data-styles-preset": `chuOPspnt`,
@@ -10099,7 +10113,7 @@ var Ho,
                                     ...Vo(
                                       {
                                         DCkir8bNo: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(C.p, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
@@ -10112,7 +10126,7 @@ var Ho,
                                           }),
                                         },
                                         DsnxLUd4z: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(C.p, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
@@ -10125,7 +10139,7 @@ var Ho,
                                           }),
                                         },
                                         thiS_yWVV: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(C.p, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
@@ -10138,7 +10152,7 @@ var Ho,
                                           }),
                                         },
                                         uHta1FwxP: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(C.p, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
@@ -10151,14 +10165,14 @@ var Ho,
                                           }),
                                         },
                                       },
-                                      v,
-                                      x
+                                      g,
+                                      S
                                     ),
                                   }),
-                                  ie() &&
-                                    h(J, {
+                                  ae() &&
+                                    h(L, {
                                       __fromCanvasComponent: !0,
-                                      children: h(s, {
+                                      children: h(a, {
                                         children: h(C.p, {
                                           className: `framer-styles-preset-ke6suj`,
                                           "data-styles-preset": `Bv6I6Qd8d`,
@@ -10182,10 +10196,10 @@ var Ho,
                                       verticalAlignment: `top`,
                                       withExternalLayout: !0,
                                     }),
-                                  V() &&
-                                    h(J, {
+                                  oe() &&
+                                    h(L, {
                                       __fromCanvasComponent: !0,
-                                      children: h(s, {
+                                      children: h(a, {
                                         children: h(C.p, {
                                           className: `framer-styles-preset-ke6suj`,
                                           "data-styles-preset": `Bv6I6Qd8d`,
@@ -10216,7 +10230,7 @@ var Ho,
                                     layoutId: `gYL40A2aR`,
                                     style: { backgroundColor: `rgba(255, 255, 255, 0.1)` },
                                   }),
-                                  ae() &&
+                                  R() &&
                                     h(Wo, {
                                       __perspectiveFX: !1,
                                       __smartComponentFX: !0,
@@ -10225,9 +10239,9 @@ var Ho,
                                       background: {
                                         alt: ``,
                                         fit: `fill`,
-                                        loading: M(
-                                          (c?.y || 0) +
-                                            (50 + ((c?.height || 660.5) - 100 - 799) / 2) +
+                                        loading: F(
+                                          (l?.y || 0) +
+                                            (50 + ((l?.height || 660.5) - 100 - 799) / 2) +
                                             40 +
                                             479 +
                                             20 +
@@ -10237,7 +10251,7 @@ var Ho,
                                         ),
                                         pixelHeight: 1024,
                                         pixelWidth: 1536,
-                                        sizes: `max(min(max((${c?.width || `100vw`} - 130px) / 2 - 40px, 1px) - 80px, 300px) - 40px, 1px)`,
+                                        sizes: `max(min(max((${l?.width || `100vw`} - 130px) / 2 - 40px, 1px) - 80px, 300px) - 40px, 1px)`,
                                         src: `../../assets/images/YFhzBrVhdHo0M9IU54L1NWsP3YU.png`,
                                         srcSet: `../../assets/images/YFhzBrVhdHo0M9IU54L1NWsP3YU.png 512w,../../assets/images/YFhzBrVhdHo0M9IU54L1NWsP3YU.png?scale-down-to=1024 1024w,../../assets/images/YFhzBrVhdHo0M9IU54L1NWsP3YU.png 1536w`,
                                       },
@@ -10269,14 +10283,14 @@ var Ho,
                                               fit: `fill`,
                                               pixelHeight: 1024,
                                               pixelWidth: 1536,
-                                              sizes: `max(${c?.width || `100vw`} - 130px, 1px)`,
+                                              sizes: `max(${l?.width || `100vw`} - 130px, 1px)`,
                                               src: `../../assets/images/YFhzBrVhdHo0M9IU54L1NWsP3YU.png`,
                                               srcSet: `../../assets/images/YFhzBrVhdHo0M9IU54L1NWsP3YU.png 512w,../../assets/images/YFhzBrVhdHo0M9IU54L1NWsP3YU.png?scale-down-to=1024 1024w,../../assets/images/YFhzBrVhdHo0M9IU54L1NWsP3YU.png 1536w`,
                                             },
                                           },
                                         },
-                                        v,
-                                        x
+                                        g,
+                                        S
                                       ),
                                     }),
                                 ],
@@ -10314,13 +10328,13 @@ var Ho,
                               },
                             }),
                           }),
-                          h(B, {
+                          h(G, {
                             background: {
                               alt: ``,
                               backgroundSize: 0.29,
                               fit: `tile`,
-                              loading: M(
-                                (c?.y || 0) + (50 + ((c?.height || 660.5) - 100 - 799) / 2) + 0
+                              loading: F(
+                                (l?.y || 0) + (50 + ((l?.height || 660.5) - 100 - 799) / 2) + 0
                               ),
                               pixelHeight: 96,
                               pixelWidth: 96,
@@ -10346,9 +10360,9 @@ var Ho,
                                     alt: ``,
                                     backgroundSize: 0.29,
                                     fit: `tile`,
-                                    loading: M(
-                                      (c?.y || 0) +
-                                        (50 + ((c?.height || 660.5) - 100 - 559) / 2) +
+                                    loading: F(
+                                      (l?.y || 0) +
+                                        (50 + ((l?.height || 660.5) - 100 - 559) / 2) +
                                         0
                                     ),
                                     pixelHeight: 96,
@@ -10363,9 +10377,9 @@ var Ho,
                                     alt: ``,
                                     backgroundSize: 0.29,
                                     fit: `tile`,
-                                    loading: M(
-                                      (c?.y || 0) +
-                                        (50 + ((c?.height || 660.5) - 100 - 559) / 2) +
+                                    loading: F(
+                                      (l?.y || 0) +
+                                        (50 + ((l?.height || 660.5) - 100 - 559) / 2) +
                                         0
                                     ),
                                     pixelHeight: 96,
@@ -10412,19 +10426,19 @@ var Ho,
                                   },
                                 },
                               },
-                              v,
-                              x
+                              g,
+                              S
                             ),
                           }),
                         ],
                       }),
                     }),
-                    h(B, {
+                    h(G, {
                       background: {
                         alt: ``,
                         backgroundSize: 0.29,
                         fit: `tile`,
-                        loading: M((c?.y || 0) + 0),
+                        loading: F((l?.y || 0) + 0),
                         pixelHeight: 96,
                         pixelWidth: 96,
                         positionX: `left`,
@@ -10503,14 +10517,14 @@ var Ho,
           `.framer-kW1mx.framer-v-3qjooq .framer-zp9t1f, .framer-kW1mx.framer-v-45vknf .framer-zp9t1f { order: 1; }`,
           ...Pt,
           ...ft,
-          ...Ne,
+          ...X,
           `.framer-kW1mx[data-border="true"]::after, .framer-kW1mx [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-kW1mx`
       )),
       (os.displayName = `Feature Tab`),
       (os.defaultProps = { height: 660.5, width: 1140 }),
-      I(os, {
+      ve(os, {
         variant: {
           options: [`dlt7juYDw`, `DCkir8bNo`, `DsnxLUd4z`, `SHPjrE0Ds`, `thiS_yWVV`, `uHta1FwxP`],
           optionTitles: [
@@ -10525,7 +10539,7 @@ var Ho,
           type: W.Enum,
         },
       }),
-      Y(
+      R(
         os,
         [
           {
@@ -10593,7 +10607,7 @@ var Ho,
           ...Uo,
           ...P(Nt),
           ...P(dt),
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -10602,8 +10616,8 @@ var Ho,
   ls,
   us,
   ds = e(() => {
-    (R(),
-      j.loadFonts([`Inter-SemiBold`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-SemiBoldItalic`]),
+    (j(),
+      re.loadFonts([`Inter-SemiBold`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-SemiBoldItalic`]),
       (cs = [
         {
           explicitInter: !0,
@@ -10850,61 +10864,61 @@ var Ho,
   ys,
   bs,
   xs = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
-      ve(),
+      d(),
+      ye(),
       (fs = `framer-v7sxB`),
       (ps = { KR8VHmiaR: `framer-v-ahjq4m` }),
       (ms = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (hs = (e, t) => `translate(-50%, -50%) ${t}`),
       (gs = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (_s = C.create(s)),
+      (_s = C.create(a)),
       (vs = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
       (ys = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (bs = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
-          let { style: c, className: l, layoutId: u, variant: d, ...m } = vs(e),
+      (bs = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H();
+          I();
+          let { style: l, className: u, layoutId: d, variant: f, ...p } = vs(e),
             {
-              baseVariant: g,
-              classNames: v,
-              clearLoadingGesture: ee,
+              baseVariant: m,
+              classNames: g,
+              clearLoadingGesture: v,
               gestureHandlers: y,
-              gestureVariant: b,
-              isLoading: x,
-              setGestureState: te,
-              setVariant: S,
+              gestureVariant: x,
+              isLoading: S,
+              setGestureState: ee,
+              setVariant: te,
               variants: w,
-            } = q({ defaultVariant: `KR8VHmiaR`, ref: r, variant: d, variantClassNames: ps }),
+            } = z({ defaultVariant: `KR8VHmiaR`, ref: i, variant: f, variantClassNames: ps }),
             T = ys(e, w),
-            E = L(fs, X);
+            E = q(fs, Y);
           return h(O, {
-            id: u ?? i,
+            id: d ?? o,
             children: h(_s, {
               animate: w,
               initial: !1,
               children: h(gs, {
                 value: ms,
                 children: _(C.div, {
-                  ...m,
+                  ...p,
                   ...y,
-                  className: L(E, `framer-ahjq4m`, l, v),
+                  className: q(E, `framer-ahjq4m`, u, g),
                   "data-framer-name": `Cursor`,
                   layoutDependency: T,
                   layoutId: `KR8VHmiaR`,
-                  ref: r,
-                  style: { ...c },
+                  ref: i,
+                  style: { ...l },
                   children: [
                     h(C.div, {
                       className: `framer-1llon1k`,
@@ -10931,9 +10945,9 @@ var Ho,
                       style: {
                         backgroundColor: `var(--token-572bd217-dfef-4745-b0d5-a68a7643d320, rgb(140, 69, 255))`,
                       },
-                      children: h(J, {
+                      children: h(L, {
                         __fromCanvasComponent: !0,
-                        children: h(s, {
+                        children: h(a, {
                           children: h(C.p, {
                             className: `framer-styles-preset-ke6suj`,
                             "data-styles-preset": `Bv6I6Qd8d`,
@@ -10966,13 +10980,13 @@ var Ho,
           `.framer-v7sxB .framer-6zxsbm { flex: none; height: 27px; position: relative; width: 25px; }`,
           `.framer-v7sxB .framer-44fgnp { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; left: 20px; overflow: hidden; padding: 0px 7px 0px 7px; position: absolute; top: 20px; width: min-content; }`,
           `.framer-v7sxB .framer-17w32mo { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Ne,
+          ...X,
         ],
         `framer-v7sxB`
       )),
       (bs.displayName = `Cursor`),
       (bs.defaultProps = { height: 26, width: 24 }),
-      Y(
+      R(
         bs,
         [
           {
@@ -11036,7 +11050,7 @@ var Ho,
               },
             ],
           },
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -11064,19 +11078,19 @@ var Cs,
   zs,
   Bs,
   Vs = e(() => {
-    (g(),
-      R(),
+    (v(),
+      j(),
       k(),
-      r(),
+      d(),
       tt(),
-      ve(),
+      ye(),
       mt(),
       ds(),
-      ye(),
+      be(),
       Bo(),
       xs(),
       (Cs = N(Z)),
-      (ws = ue(me(C.div))),
+      (ws = le(se(C.div))),
       (Ts = N(Pe)),
       (Es = N(zo)),
       (Ds = N(bs)),
@@ -11114,12 +11128,12 @@ var Cs,
         y: 150,
       }),
       (Fs = ({ value: e, children: t }) => {
-        let n = l(T),
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Is = C.create(s)),
+      (Is = C.create(a)),
       (Ls = {
         "Content Generation": `KBgKtVKOD`,
         "Image Generation": `exGrCNMBY`,
@@ -11131,74 +11145,74 @@ var Cs,
         variant: Ls[r.variant] ?? r.variant ?? `KBgKtVKOD`,
       })),
       (zs = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Bs = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            c = F(),
-            { style: l, className: u, layoutId: d, variant: m, ...g } = Rs(e),
+      (Bs = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H(),
+            l = I(),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = Rs(e),
             {
-              baseVariant: v,
-              classNames: ee,
+              baseVariant: g,
+              classNames: v,
               clearLoadingGesture: y,
-              gestureHandlers: b,
-              gestureVariant: x,
-              isLoading: te,
-              setGestureState: S,
+              gestureHandlers: x,
+              gestureVariant: S,
+              isLoading: ee,
+              setGestureState: te,
               setVariant: w,
               variants: T,
-            } = q({
+            } = z({
               cycleOrder: Os,
               defaultVariant: `KBgKtVKOD`,
-              ref: r,
-              variant: m,
+              ref: i,
+              variant: p,
               variantClassNames: As,
             }),
             E = zs(e, T),
-            { activeVariantCallback: D, delay: k } = re(v),
+            { activeVariantCallback: D, delay: k } = ie(g),
             A = D(async (...e) => {
               w(`KBgKtVKOD`);
             }),
             j = D(async (...e) => {
               w(`YkRwyK5Zj`);
             }),
-            ne = D(async (...e) => {
+            M = D(async (...e) => {
               w(`exGrCNMBY`);
             }),
-            N = D(async (...e) => {
+            ne = D(async (...e) => {
               w(`BhgKpPyRM`);
             }),
-            P = L(ks, us, pt, X),
-            I = () => !![`exGrCNMBY`, `BhgKpPyRM`].includes(v);
-          he();
-          let R = () => ![`exGrCNMBY`, `BhgKpPyRM`].includes(v),
-            V = () => v === `exGrCNMBY`;
+            N = q(ks, us, pt, Y),
+            P = () => !![`exGrCNMBY`, `BhgKpPyRM`].includes(g);
+          oe();
+          let re = () => ![`exGrCNMBY`, `BhgKpPyRM`].includes(g),
+            ae = () => g === `exGrCNMBY`;
           return h(O, {
-            id: d ?? i,
+            id: f ?? o,
             children: h(Is, {
               animate: T,
               initial: !1,
               children: h(Fs, {
                 value: js,
                 children: h(C.section, {
-                  ...g,
-                  ...b,
-                  className: L(P, `framer-abng2a`, u, ee),
+                  ...m,
+                  ...x,
+                  className: q(N, `framer-abng2a`, d, v),
                   "data-framer-name": `Content Generation`,
                   layoutDependency: E,
                   layoutId: `KBgKtVKOD`,
-                  ref: r,
-                  style: { ...l },
+                  ref: i,
+                  style: { ...u },
                   ...Ss(
                     {
                       BhgKpPyRM: { "data-framer-name": `Mobile Image Gen` },
                       exGrCNMBY: { "data-framer-name": `Image Generation` },
                       YkRwyK5Zj: { "data-framer-name": `Mobile` },
                     },
-                    v,
-                    x
+                    g,
+                    S
                   ),
                   children: h(C.div, {
                     className: `framer-1m124zm`,
@@ -11224,7 +11238,7 @@ var Cs,
                       layoutDependency: E,
                       layoutId: `aGwVRV_Bw`,
                       children: [
-                        I() &&
+                        P() &&
                           _(ws, {
                             __perspectiveFX: !1,
                             __smartComponentFX: !0,
@@ -11262,7 +11276,7 @@ var Cs,
                                 layoutId: `siAdhTw3p`,
                                 children: [
                                   h(K, {
-                                    children: h(z, {
+                                    children: h(J, {
                                       className: `framer-1sf4mrc-container`,
                                       isAuthoredByUser: !0,
                                       isModuleExternal: !0,
@@ -11286,9 +11300,9 @@ var Cs,
                                       }),
                                     }),
                                   }),
-                                  h(J, {
+                                  h(L, {
                                     __fromCanvasComponent: !0,
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(C.p, {
                                         className: `framer-styles-preset-1gisarj`,
                                         "data-styles-preset": `xErOEMrYx`,
@@ -11312,7 +11326,7 @@ var Cs,
                                     ...Ss(
                                       {
                                         BhgKpPyRM: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(C.h6, {
                                               className: `framer-styles-preset-1q4vzqz`,
                                               "data-styles-preset": `xa8VKVi5f`,
@@ -11321,8 +11335,8 @@ var Cs,
                                           }),
                                         },
                                       },
-                                      v,
-                                      x
+                                      g,
+                                      S
                                     ),
                                   }),
                                 ],
@@ -11347,7 +11361,7 @@ var Cs,
                                   borderTopRightRadius: 14,
                                 },
                                 children: h(K, {
-                                  children: h(z, {
+                                  children: h(J, {
                                     className: `framer-1gr0s0l-container`,
                                     isAuthoredByUser: !0,
                                     isModuleExternal: !0,
@@ -11477,7 +11491,7 @@ var Cs,
                                             layoutDependency: E,
                                             layoutId: `qCjQDJs4m`,
                                             children: [
-                                              h(ie, {
+                                              h(ue, {
                                                 links: [
                                                   {
                                                     href: { webPageId: `augiA20Il` },
@@ -11503,9 +11517,9 @@ var Cs,
                                                       {
                                                         BhgKpPyRM: {
                                                           y:
-                                                            (c?.y || 0) +
+                                                            (l?.y || 0) +
                                                             0 +
-                                                            (((c?.height || 200) - 0 - 720) / 2 +
+                                                            (((l?.height || 200) - 0 - 720) / 2 +
                                                               0 +
                                                               0) +
                                                             5 +
@@ -11527,9 +11541,9 @@ var Cs,
                                                         },
                                                         YkRwyK5Zj: {
                                                           y:
-                                                            (c?.y || 0) +
+                                                            (l?.y || 0) +
                                                             0 +
-                                                            (((c?.height || 200) - 0 - 814) / 2 +
+                                                            (((l?.height || 200) - 0 - 814) / 2 +
                                                               0 +
                                                               0) +
                                                             5 +
@@ -11550,10 +11564,10 @@ var Cs,
                                                             0,
                                                         },
                                                       },
-                                                      v,
-                                                      x
+                                                      g,
+                                                      S
                                                     ),
-                                                    children: h(z, {
+                                                    children: h(J, {
                                                       className: `framer-7g86ak-container`,
                                                       layoutDependency: E,
                                                       layoutId: `lEyAQLvR6-container`,
@@ -11573,8 +11587,8 @@ var Cs,
                                                             exGrCNMBY: { irY_XKj0O: e[1] },
                                                             YkRwyK5Zj: { irY_XKj0O: e[2] },
                                                           },
-                                                          v,
-                                                          x
+                                                          g,
+                                                          S
                                                         ),
                                                       }),
                                                     }),
@@ -11591,11 +11605,11 @@ var Cs,
                                                     ...Ss(
                                                       {
                                                         BhgKpPyRM: {
-                                                          width: `max(max(max(${c?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
+                                                          width: `max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
                                                           y:
-                                                            (c?.y || 0) +
+                                                            (l?.y || 0) +
                                                             0 +
-                                                            (((c?.height || 200) - 0 - 720) / 2 +
+                                                            (((l?.height || 200) - 0 - 720) / 2 +
                                                               0 +
                                                               0) +
                                                             5 +
@@ -11618,11 +11632,11 @@ var Cs,
                                                             0,
                                                         },
                                                         YkRwyK5Zj: {
-                                                          width: `max(max(max(${c?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
+                                                          width: `max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
                                                           y:
-                                                            (c?.y || 0) +
+                                                            (l?.y || 0) +
                                                             0 +
-                                                            (((c?.height || 200) - 0 - 814) / 2 +
+                                                            (((l?.height || 200) - 0 - 814) / 2 +
                                                               0 +
                                                               0) +
                                                             5 +
@@ -11645,10 +11659,10 @@ var Cs,
                                                             0,
                                                         },
                                                       },
-                                                      v,
-                                                      x
+                                                      g,
+                                                      S
                                                     ),
-                                                    children: h(z, {
+                                                    children: h(J, {
                                                       className: `framer-1g931o1-container`,
                                                       layoutDependency: E,
                                                       layoutId: `brUOUIawY-container`,
@@ -11685,8 +11699,8 @@ var Cs,
                                                             },
                                                             YkRwyK5Zj: { style: { width: `100%` } },
                                                           },
-                                                          v,
-                                                          x
+                                                          g,
+                                                          S
                                                         ),
                                                       }),
                                                     }),
@@ -11696,11 +11710,11 @@ var Cs,
                                                     ...Ss(
                                                       {
                                                         BhgKpPyRM: {
-                                                          width: `max(max(max(${c?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
+                                                          width: `max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
                                                           y:
-                                                            (c?.y || 0) +
+                                                            (l?.y || 0) +
                                                             0 +
-                                                            (((c?.height || 200) - 0 - 720) / 2 +
+                                                            (((l?.height || 200) - 0 - 720) / 2 +
                                                               0 +
                                                               0) +
                                                             5 +
@@ -11723,11 +11737,11 @@ var Cs,
                                                             51,
                                                         },
                                                         YkRwyK5Zj: {
-                                                          width: `max(max(max(${c?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
+                                                          width: `max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
                                                           y:
-                                                            (c?.y || 0) +
+                                                            (l?.y || 0) +
                                                             0 +
-                                                            (((c?.height || 200) - 0 - 814) / 2 +
+                                                            (((l?.height || 200) - 0 - 814) / 2 +
                                                               0 +
                                                               0) +
                                                             5 +
@@ -11750,10 +11764,10 @@ var Cs,
                                                             51,
                                                         },
                                                       },
-                                                      v,
-                                                      x
+                                                      g,
+                                                      S
                                                     ),
-                                                    children: h(z, {
+                                                    children: h(J, {
                                                       className: `framer-1gekgcx-container`,
                                                       layoutDependency: E,
                                                       layoutId: `mt0STHqmT-container`,
@@ -11769,7 +11783,7 @@ var Cs,
                                                         },
                                                         id: `mt0STHqmT`,
                                                         layoutId: `mt0STHqmT`,
-                                                        oXv7AZm4A: ne,
+                                                        oXv7AZm4A: M,
                                                         variant: `QzrBcpVgk`,
                                                         width: `100%`,
                                                         YnoIm5kRZ: `Image Generation`,
@@ -11786,12 +11800,12 @@ var Cs,
                                                             },
                                                             exGrCNMBY: { variant: `IllKbU6rd` },
                                                             YkRwyK5Zj: {
-                                                              oXv7AZm4A: N,
+                                                              oXv7AZm4A: ne,
                                                               style: { width: `100%` },
                                                             },
                                                           },
-                                                          v,
-                                                          x
+                                                          g,
+                                                          S
                                                         ),
                                                       }),
                                                     }),
@@ -11820,7 +11834,7 @@ var Cs,
                                           layoutDependency: E,
                                           layoutId: `ZATzS5mer`,
                                           children: [
-                                            R() &&
+                                            re() &&
                                               h(C.div, {
                                                 className: `framer-10whbjb`,
                                                 "data-border": !0,
@@ -11841,7 +11855,7 @@ var Cs,
                                                   borderTopRightRadius: 14,
                                                 },
                                                 children: h(K, {
-                                                  children: h(z, {
+                                                  children: h(J, {
                                                     className: `framer-1bbmkeb-container`,
                                                     isAuthoredByUser: !0,
                                                     isModuleExternal: !0,
@@ -11866,7 +11880,7 @@ var Cs,
                                                   }),
                                                 }),
                                               }),
-                                            R() &&
+                                            re() &&
                                               _(C.div, {
                                                 className: `framer-t5gi6q`,
                                                 "data-framer-name": `Copy`,
@@ -11893,9 +11907,9 @@ var Cs,
                                                           "--border-style": `solid`,
                                                           "--border-top-width": `1px`,
                                                         },
-                                                        children: h(J, {
+                                                        children: h(L, {
                                                           __fromCanvasComponent: !0,
-                                                          children: h(s, {
+                                                          children: h(a, {
                                                             children: h(C.p, {
                                                               className: `framer-styles-preset-1ywp38s`,
                                                               "data-styles-preset": `chuOPspnt`,
@@ -11921,9 +11935,9 @@ var Cs,
                                                           {
                                                             YkRwyK5Zj: {
                                                               y:
-                                                                (c?.y || 0) +
+                                                                (l?.y || 0) +
                                                                 0 +
-                                                                (((c?.height || 200) - 0 - 814) /
+                                                                (((l?.height || 200) - 0 - 814) /
                                                                   2 +
                                                                   0 +
                                                                   0) +
@@ -11947,10 +11961,10 @@ var Cs,
                                                                 -60,
                                                             },
                                                           },
-                                                          v,
-                                                          x
+                                                          g,
+                                                          S
                                                         ),
-                                                        children: h(z, {
+                                                        children: h(J, {
                                                           className: `framer-w1zpxa-container`,
                                                           layoutDependency: E,
                                                           layoutId: `zLG0Yr6R6-container`,
@@ -11969,9 +11983,9 @@ var Cs,
                                                           }),
                                                         }),
                                                       }),
-                                                      h(J, {
+                                                      h(L, {
                                                         __fromCanvasComponent: !0,
-                                                        children: h(s, {
+                                                        children: h(a, {
                                                           children: h(C.p, {
                                                             className: `framer-styles-preset-1ywp38s`,
                                                             "data-styles-preset": `chuOPspnt`,
@@ -12070,14 +12084,14 @@ var Cs,
                                                   }),
                                                 ],
                                               }),
-                                            I() &&
+                                            P() &&
                                               h(C.div, {
                                                 className: `framer-wlsqne`,
                                                 "data-framer-name": `Images`,
                                                 layoutDependency: E,
                                                 layoutId: `JrVZXbXwt`,
                                                 children:
-                                                  I() &&
+                                                  P() &&
                                                   _(ws, {
                                                     __perspectiveFX: !1,
                                                     __smartComponentFX: !0,
@@ -12104,7 +12118,7 @@ var Cs,
                                                       borderTopRightRadius: 20,
                                                     },
                                                     children: [
-                                                      h(B, {
+                                                      h(G, {
                                                         background: {
                                                           alt: ``,
                                                           fit: `fill`,
@@ -12128,10 +12142,10 @@ var Cs,
                                                               background: {
                                                                 alt: ``,
                                                                 fit: `fill`,
-                                                                loading: M(
-                                                                  (c?.y || 0) +
+                                                                loading: F(
+                                                                  (l?.y || 0) +
                                                                     0 +
-                                                                    (((c?.height || 200) -
+                                                                    (((l?.height || 200) -
                                                                       0 -
                                                                       720) /
                                                                       2 +
@@ -12159,17 +12173,17 @@ var Cs,
                                                                 ),
                                                                 pixelHeight: 1024,
                                                                 pixelWidth: 1024,
-                                                                sizes: `max((max(max(max(${c?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px) - 30px) / 2, 50px)`,
+                                                                sizes: `max((max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px) - 30px) / 2, 50px)`,
                                                                 src: `https://framerusercontent.com/images/ycjb6vB5L73k5VcK5wDWBbffRGg.webp`,
                                                                 srcSet: `https://framerusercontent.com/images/ycjb6vB5L73k5VcK5wDWBbffRGg.webp?scale-down-to=512 512w,https://framerusercontent.com/images/ycjb6vB5L73k5VcK5wDWBbffRGg.webp 1024w`,
                                                               },
                                                             },
                                                           },
-                                                          v,
-                                                          x
+                                                          g,
+                                                          S
                                                         ),
                                                       }),
-                                                      h(B, {
+                                                      h(G, {
                                                         background: {
                                                           alt: ``,
                                                           fit: `fill`,
@@ -12193,10 +12207,10 @@ var Cs,
                                                               background: {
                                                                 alt: ``,
                                                                 fit: `fill`,
-                                                                loading: M(
-                                                                  (c?.y || 0) +
+                                                                loading: F(
+                                                                  (l?.y || 0) +
                                                                     0 +
-                                                                    (((c?.height || 200) -
+                                                                    (((l?.height || 200) -
                                                                       0 -
                                                                       720) /
                                                                       2 +
@@ -12224,17 +12238,17 @@ var Cs,
                                                                 ),
                                                                 pixelHeight: 736,
                                                                 pixelWidth: 1312,
-                                                                sizes: `max((max(max(max(${c?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px) - 30px) / 2, 50px)`,
+                                                                sizes: `max((max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px) - 30px) / 2, 50px)`,
                                                                 src: `https://framerusercontent.com/images/xdzkgRYnZOkIxQu4QvXf49JoDU.jpeg`,
                                                                 srcSet: `https://framerusercontent.com/images/xdzkgRYnZOkIxQu4QvXf49JoDU.jpeg?scale-down-to=512 512w,https://framerusercontent.com/images/xdzkgRYnZOkIxQu4QvXf49JoDU.jpeg?scale-down-to=1024 1024w,https://framerusercontent.com/images/xdzkgRYnZOkIxQu4QvXf49JoDU.jpeg 1312w`,
                                                               },
                                                             },
                                                           },
-                                                          v,
-                                                          x
+                                                          g,
+                                                          S
                                                         ),
                                                       }),
-                                                      h(B, {
+                                                      h(G, {
                                                         background: {
                                                           alt: ``,
                                                           fit: `fill`,
@@ -12258,10 +12272,10 @@ var Cs,
                                                               background: {
                                                                 alt: ``,
                                                                 fit: `fill`,
-                                                                loading: M(
-                                                                  (c?.y || 0) +
+                                                                loading: F(
+                                                                  (l?.y || 0) +
                                                                     0 +
-                                                                    (((c?.height || 200) -
+                                                                    (((l?.height || 200) -
                                                                       0 -
                                                                       720) /
                                                                       2 +
@@ -12289,17 +12303,17 @@ var Cs,
                                                                 ),
                                                                 pixelHeight: 1024,
                                                                 pixelWidth: 1024,
-                                                                sizes: `max((max(max(max(${c?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px) - 30px) / 2, 50px)`,
+                                                                sizes: `max((max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px) - 30px) / 2, 50px)`,
                                                                 src: `https://framerusercontent.com/images/gf2bPJPg7qlYLJKu8fKav3QBkI.jpeg`,
                                                                 srcSet: `https://framerusercontent.com/images/gf2bPJPg7qlYLJKu8fKav3QBkI.jpeg?scale-down-to=512 512w,https://framerusercontent.com/images/gf2bPJPg7qlYLJKu8fKav3QBkI.jpeg 1024w`,
                                                               },
                                                             },
                                                           },
-                                                          v,
-                                                          x
+                                                          g,
+                                                          S
                                                         ),
                                                       }),
-                                                      h(B, {
+                                                      h(G, {
                                                         background: {
                                                           alt: ``,
                                                           fit: `fill`,
@@ -12323,10 +12337,10 @@ var Cs,
                                                               background: {
                                                                 alt: ``,
                                                                 fit: `fill`,
-                                                                loading: M(
-                                                                  (c?.y || 0) +
+                                                                loading: F(
+                                                                  (l?.y || 0) +
                                                                     0 +
-                                                                    (((c?.height || 200) -
+                                                                    (((l?.height || 200) -
                                                                       0 -
                                                                       720) /
                                                                       2 +
@@ -12354,20 +12368,20 @@ var Cs,
                                                                 ),
                                                                 pixelHeight: 736,
                                                                 pixelWidth: 1312,
-                                                                sizes: `max((max(max(max(${c?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px) - 30px) / 2, 50px)`,
+                                                                sizes: `max((max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px) - 30px) / 2, 50px)`,
                                                                 src: `https://framerusercontent.com/images/B5lWoz745TyMXL2wGYJFdB6E.jpeg`,
                                                                 srcSet: `https://framerusercontent.com/images/B5lWoz745TyMXL2wGYJFdB6E.jpeg?scale-down-to=512 512w,https://framerusercontent.com/images/B5lWoz745TyMXL2wGYJFdB6E.jpeg?scale-down-to=1024 1024w,https://framerusercontent.com/images/B5lWoz745TyMXL2wGYJFdB6E.jpeg 1312w`,
                                                               },
                                                             },
                                                           },
-                                                          v,
-                                                          x
+                                                          g,
+                                                          S
                                                         ),
                                                       }),
                                                     ],
                                                   }),
                                               }),
-                                            V() &&
+                                            ae() &&
                                               _(ws, {
                                                 __perspectiveFX: !1,
                                                 __smartComponentFX: !0,
@@ -12390,7 +12404,7 @@ var Cs,
                                                   "--border-top-width": `0px`,
                                                 },
                                                 children: [
-                                                  V() &&
+                                                  ae() &&
                                                     h(C.div, {
                                                       className: `framer-1mpufkj`,
                                                       "data-framer-name": `Image Library`,
@@ -12402,9 +12416,9 @@ var Cs,
                                                         borderTopLeftRadius: 10,
                                                         borderTopRightRadius: 10,
                                                       },
-                                                      children: h(J, {
+                                                      children: h(L, {
                                                         __fromCanvasComponent: !0,
-                                                        children: h(s, {
+                                                        children: h(a, {
                                                           children: h(C.p, {
                                                             className: `framer-styles-preset-ke6suj`,
                                                             "data-styles-preset": `Bv6I6Qd8d`,
@@ -12438,9 +12452,9 @@ var Cs,
                                                       borderTopLeftRadius: 10,
                                                       borderTopRightRadius: 10,
                                                     },
-                                                    children: h(J, {
+                                                    children: h(L, {
                                                       __fromCanvasComponent: !0,
-                                                      children: h(s, {
+                                                      children: h(a, {
                                                         children: h(C.p, {
                                                           className: `framer-styles-preset-ke6suj`,
                                                           "data-styles-preset": `Bv6I6Qd8d`,
@@ -12474,9 +12488,9 @@ var Cs,
                                                       borderTopLeftRadius: 10,
                                                       borderTopRightRadius: 10,
                                                     },
-                                                    children: h(J, {
+                                                    children: h(L, {
                                                       __fromCanvasComponent: !0,
-                                                      children: h(s, {
+                                                      children: h(a, {
                                                         children: h(C.p, {
                                                           className: `framer-styles-preset-ke6suj`,
                                                           "data-styles-preset": `Bv6I6Qd8d`,
@@ -12510,9 +12524,9 @@ var Cs,
                                                       borderTopLeftRadius: 10,
                                                       borderTopRightRadius: 10,
                                                     },
-                                                    children: h(J, {
+                                                    children: h(L, {
                                                       __fromCanvasComponent: !0,
-                                                      children: h(s, {
+                                                      children: h(a, {
                                                         children: h(C.p, {
                                                           className: `framer-styles-preset-ke6suj`,
                                                           "data-styles-preset": `Bv6I6Qd8d`,
@@ -12546,9 +12560,9 @@ var Cs,
                                                       borderTopLeftRadius: 10,
                                                       borderTopRightRadius: 10,
                                                     },
-                                                    children: h(J, {
+                                                    children: h(L, {
                                                       __fromCanvasComponent: !0,
-                                                      children: h(s, {
+                                                      children: h(a, {
                                                         children: h(C.p, {
                                                           className: `framer-styles-preset-ke6suj`,
                                                           "data-styles-preset": `Bv6I6Qd8d`,
@@ -12582,9 +12596,9 @@ var Cs,
                                                       borderTopLeftRadius: 10,
                                                       borderTopRightRadius: 10,
                                                     },
-                                                    children: h(J, {
+                                                    children: h(L, {
                                                       __fromCanvasComponent: !0,
-                                                      children: h(s, {
+                                                      children: h(a, {
                                                         children: h(C.p, {
                                                           className: `framer-styles-preset-ke6suj`,
                                                           "data-styles-preset": `Bv6I6Qd8d`,
@@ -12695,14 +12709,14 @@ var Cs,
           `.framer-XHbpr.framer-v-74oqk8 .framer-wrx00q, .framer-XHbpr.framer-v-74oqk8 .framer-2z15iz, .framer-XHbpr.framer-v-74oqk8 .framer-1owar35, .framer-XHbpr.framer-v-74oqk8 .framer-1xj0y6j { aspect-ratio: 1.3888888888888888 / 1; height: var(--framer-aspect-ratio-supported, 144px); }`,
           ...ls,
           ...ft,
-          ...Ne,
+          ...X,
           `.framer-XHbpr[data-border="true"]::after, .framer-XHbpr [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-XHbpr`
       )),
       (Bs.displayName = `Dashboard Tab`),
       (Bs.defaultProps = { height: 573.5, width: 1152 }),
-      I(Bs, {
+      ve(Bs, {
         variant: {
           options: [`KBgKtVKOD`, `exGrCNMBY`, `YkRwyK5Zj`, `BhgKpPyRM`],
           optionTitles: [`Content Generation`, `Image Generation`, `Mobile`, `Mobile Image Gen`],
@@ -12710,7 +12724,7 @@ var Cs,
           type: W.Enum,
         },
       }),
-      Y(
+      R(
         Bs,
         [
           {
@@ -12780,13 +12794,16 @@ var Cs,
           ...Ds,
           ...P(cs),
           ...P(dt),
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
-  }),
-  Hs,
-  Us,
+  });
+function Hs(e, ...t) {
+  let n = {};
+  return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
+}
+var Us,
   Ws,
   Gs,
   Ks,
@@ -12794,475 +12811,40 @@ var Cs,
   Js,
   Ys,
   Xs,
-  Zs = e(() => {
-    (g(),
-      R(),
-      k(),
-      r(),
-      De(),
-      (Hs = N(ke)),
-      (Us = `framer-3ono8`),
-      (Ws = { X3OEq2cg0: `framer-v-ztcg8f` }),
-      (Gs = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Ks = ({ value: e, children: t }) => {
-        let n = l(T),
-          r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
-        return h(T.Provider, { value: i, children: t });
-      }),
-      (qs = C.create(s)),
-      (Js = ({ height: e, id: t, video: n, width: r, ...i }) => ({
-        ...i,
-        O1_TjmRrw: n ?? i.O1_TjmRrw ?? `https://youtu.be/8AHPXm9Y6mI`,
-      })),
-      (Ys = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Xs = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G(),
-            s = F(),
-            { style: c, className: l, layoutId: u, variant: d, O1_TjmRrw: m, ...g } = Js(e),
-            {
-              baseVariant: v,
-              classNames: ee,
-              clearLoadingGesture: y,
-              gestureHandlers: b,
-              gestureVariant: x,
-              isLoading: te,
-              setGestureState: S,
-              setVariant: w,
-              variants: T,
-            } = q({ defaultVariant: `X3OEq2cg0`, ref: r, variant: d, variantClassNames: Ws }),
-            E = Ys(e, T),
-            D = L(Us);
-          return h(O, {
-            id: u ?? i,
-            children: h(qs, {
-              animate: T,
-              initial: !1,
-              children: h(Ks, {
-                value: Gs,
-                children: _(C.div, {
-                  ...g,
-                  ...b,
-                  className: L(D, `framer-ztcg8f`, l, ee),
-                  "data-border": !0,
-                  "data-framer-name": `Video Testimonial Card`,
-                  layoutDependency: E,
-                  layoutId: `X3OEq2cg0`,
-                  ref: r,
-                  style: {
-                    "--border-bottom-width": `1px`,
-                    "--border-color": `rgba(228, 230, 235, 0.11)`,
-                    "--border-left-width": `1px`,
-                    "--border-right-width": `1px`,
-                    "--border-style": `solid`,
-                    "--border-top-width": `1px`,
-                    backgroundColor: `var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, rgb(1, 1, 23))`,
-                    borderBottomLeftRadius: 30,
-                    borderBottomRightRadius: 30,
-                    borderTopLeftRadius: 30,
-                    borderTopRightRadius: 30,
-                    boxShadow: `inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25)`,
-                    ...c,
-                  },
-                  children: [
-                    h(K, {
-                      children: h(z, {
-                        className: `framer-1qpy4r5-container`,
-                        isModuleExternal: !0,
-                        layoutDependency: E,
-                        layoutId: `XhanzNQ7g-container`,
-                        nodeId: `XhanzNQ7g`,
-                        rendersWithMotion: !0,
-                        scopeId: `CLDWQO0yH`,
-                        children: h(ke, {
-                          borderRadius: 22,
-                          bottomLeftRadius: 22,
-                          bottomRightRadius: 22,
-                          height: `100%`,
-                          id: `XhanzNQ7g`,
-                          isMixedBorderRadius: !1,
-                          isRed: !1,
-                          layoutId: `XhanzNQ7g`,
-                          play: `Off`,
-                          shouldMute: !0,
-                          style: { height: `100%`, width: `100%` },
-                          thumbnail: `High Quality`,
-                          topLeftRadius: 22,
-                          topRightRadius: 22,
-                          url: m,
-                          width: `100%`,
-                        }),
-                      }),
-                    }),
-                    h(B, {
-                      background: {
-                        alt: ``,
-                        backgroundSize: 0.29,
-                        fit: `tile`,
-                        loading: M((s?.y || 0) + 0),
-                        pixelHeight: 96,
-                        pixelWidth: 96,
-                        positionX: `left`,
-                        positionY: `top`,
-                        sizes: s?.width || `100vw`,
-                        src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
-                      },
-                      className: `framer-nze3o6`,
-                      "data-framer-name": `Doted BG`,
-                      layoutDependency: E,
-                      layoutId: `ALTVjBrWf`,
-                      style: {
-                        filter: `invert(1)`,
-                        mask: `linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 57.00000000000001%) add`,
-                        opacity: 0.19,
-                        WebkitFilter: `invert(1)`,
-                        WebkitMask: `linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 57.00000000000001%) add`,
-                      },
-                    }),
-                    h(C.div, {
-                      className: `framer-1k6auqe`,
-                      "data-framer-name": `Gradient`,
-                      layoutDependency: E,
-                      layoutId: `fCY23JG3z`,
-                      style: {
-                        backgroundColor: `var(--token-572bd217-dfef-4745-b0d5-a68a7643d320, rgb(140, 69, 255))`,
-                        mask: `linear-gradient(140deg, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 390%) add`,
-                        opacity: 0.3,
-                        WebkitMask: `linear-gradient(140deg, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 390%) add`,
-                      },
-                    }),
-                  ],
-                }),
-              }),
-            }),
-          });
-        }),
-        [
-          `@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }`,
-          `.framer-3ono8.framer-glwurx, .framer-3ono8 .framer-glwurx { display: block; }`,
-          `.framer-3ono8.framer-ztcg8f { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: hidden; padding: 10px; position: relative; width: min-content; will-change: var(--framer-will-change-override, transform); }`,
-          `.framer-3ono8 .framer-1qpy4r5-container { aspect-ratio: 0.5625 / 1; flex: none; height: var(--framer-aspect-ratio-supported, 400px); position: relative; width: 225px; z-index: 10; }`,
-          `.framer-3ono8 .framer-nze3o6 { bottom: 0px; flex: none; left: 0px; mix-blend-mode: screen; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-          `.framer-3ono8 .framer-1k6auqe { bottom: 0px; flex: none; left: 0px; overflow: hidden; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-          `.framer-3ono8[data-border="true"]::after, .framer-3ono8 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
-        ],
-        `framer-3ono8`
-      )),
-      (Xs.displayName = `Video Testimonial Card`),
-      (Xs.defaultProps = { height: 420, width: 245 }),
-      I(Xs, {
-        O1_TjmRrw: { defaultValue: `https://youtu.be/8AHPXm9Y6mI`, title: `Video`, type: W.String },
-        onO1_TjmRrwChange: { changes: `O1_TjmRrw`, type: W.ChangeHandler },
-      }),
-      Y(Xs, [{ explicitInter: !0, fonts: [] }, ...Hs], { supportsExplicitInterCodegen: !0 }));
-  }),
+  Zs,
   Qs,
   $s,
   ec,
   tc,
-  nc,
-  rc,
-  ic,
-  ac,
-  oc,
-  sc,
-  cc = e(() => {
-    (g(),
-      R(),
+  nc = e(() => {
+    (v(),
+      j(),
       k(),
-      r(),
-      Ni(),
-      Zs(),
-      (Qs = N(Xs)),
-      ($s = N(_i)),
-      (ec = `framer-NR7IV`),
-      (tc = { rcWTc04eB: `framer-v-16b3q95` }),
-      (nc = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (rc = ({ value: e, children: t }) => {
-        let n = l(T),
-          r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
-        return h(T.Provider, { value: i, children: t });
-      }),
-      (ic = C.create(s)),
-      (ac = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
-      (oc = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (sc = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
-          let { style: s, className: c, layoutId: l, variant: u, ...d } = ac(e),
-            {
-              baseVariant: m,
-              classNames: g,
-              clearLoadingGesture: _,
-              gestureHandlers: v,
-              gestureVariant: ee,
-              isLoading: y,
-              setGestureState: b,
-              setVariant: x,
-              variants: te,
-            } = q({ defaultVariant: `rcWTc04eB`, ref: r, variant: u, variantClassNames: tc }),
-            S = oc(e, te),
-            w = L(ec);
-          return h(O, {
-            id: l ?? i,
-            children: h(ic, {
-              animate: te,
-              initial: !1,
-              children: h(rc, {
-                value: nc,
-                children: h(C.div, {
-                  ...d,
-                  ...v,
-                  className: L(w, `framer-16b3q95`, c, g),
-                  "data-framer-name": `Variant 1`,
-                  layoutDependency: S,
-                  layoutId: `rcWTc04eB`,
-                  ref: r,
-                  style: { ...s },
-                  children: h(K, {
-                    children: h(z, {
-                      className: `framer-oncq48-container`,
-                      isAuthoredByUser: !0,
-                      isModuleExternal: !0,
-                      layoutDependency: S,
-                      layoutId: `rV4Jnqc_t-container`,
-                      nodeId: `rV4Jnqc_t`,
-                      rendersWithMotion: !0,
-                      scopeId: `tne4ZGoex`,
-                      children: h(_i, {
-                        align: `center`,
-                        ariaLabel: ``,
-                        arrowObject: {
-                          arrowFill: `rgba(0, 0, 0, 0.2)`,
-                          arrowPadding: 20,
-                          arrowRadius: 40,
-                          arrowSize: 40,
-                          showMouseControls: !0,
-                        },
-                        axis: !0,
-                        borderRadius: 0,
-                        fadeObject: {
-                          fadeAlpha: 0,
-                          fadeContent: !0,
-                          fadeInset: 0,
-                          fadeTransition: {
-                            damping: 60,
-                            delay: 0,
-                            mass: 1,
-                            stiffness: 500,
-                            type: `spring`,
-                          },
-                          fadeWidth: 25,
-                        },
-                        gap: 20,
-                        height: `100%`,
-                        id: `rV4Jnqc_t`,
-                        layoutId: `rV4Jnqc_t`,
-                        padding: 10,
-                        paddingBottom: 10,
-                        paddingLeft: 10,
-                        paddingPerSide: !1,
-                        paddingRight: 10,
-                        paddingTop: 10,
-                        progressObject: {
-                          dotsActiveOpacity: 1,
-                          dotsBackground: `rgba(0, 0, 0, 0.2)`,
-                          dotsBlur: 4,
-                          dotsFill: `rgb(255, 255, 255)`,
-                          dotsGap: 10,
-                          dotsInset: 10,
-                          dotSize: 10,
-                          dotsOpacity: 0.5,
-                          dotsPadding: 10,
-                          dotsRadius: 50,
-                          showProgressDots: !1,
-                          showScrollbar: !1,
-                        },
-                        sizingObject: {
-                          heightInset: 0,
-                          heightRows: 2,
-                          heightType: `auto`,
-                          widthColumns: 2,
-                          widthInset: 0,
-                          widthType: `auto`,
-                        },
-                        slots: [
-                          h(K, {
-                            height: 420,
-                            children: h(z, {
-                              className: `framer-1u7mhoo-container`,
-                              inComponentSlot: !0,
-                              layoutDependency: S,
-                              layoutId: `tNswENdl8-container`,
-                              nodeId: `tNswENdl8`,
-                              rendersWithMotion: !0,
-                              scopeId: `tne4ZGoex`,
-                              children: h(Xs, {
-                                height: `100%`,
-                                id: `tNswENdl8`,
-                                layoutId: `tNswENdl8`,
-                                O1_TjmRrw: `https://youtube.com/shorts/LQrGTON6YRw`,
-                                width: `100%`,
-                              }),
-                            }),
-                          }),
-                          h(K, {
-                            height: 420,
-                            children: h(z, {
-                              className: `framer-nzkxvh-container`,
-                              inComponentSlot: !0,
-                              layoutDependency: S,
-                              layoutId: `VqOESPft8-container`,
-                              nodeId: `VqOESPft8`,
-                              rendersWithMotion: !0,
-                              scopeId: `tne4ZGoex`,
-                              children: h(Xs, {
-                                height: `100%`,
-                                id: `VqOESPft8`,
-                                layoutId: `VqOESPft8`,
-                                O1_TjmRrw: `https://youtube.com/shorts/Cw3eQh1njq0`,
-                                width: `100%`,
-                              }),
-                            }),
-                          }),
-                          h(K, {
-                            height: 420,
-                            children: h(z, {
-                              className: `framer-ghhhd3-container`,
-                              inComponentSlot: !0,
-                              layoutDependency: S,
-                              layoutId: `fbuG8mBrs-container`,
-                              nodeId: `fbuG8mBrs`,
-                              rendersWithMotion: !0,
-                              scopeId: `tne4ZGoex`,
-                              children: h(Xs, {
-                                height: `100%`,
-                                id: `fbuG8mBrs`,
-                                layoutId: `fbuG8mBrs`,
-                                O1_TjmRrw: `https://youtube.com/shorts/Kj9uWzpWps0`,
-                                width: `100%`,
-                              }),
-                            }),
-                          }),
-                          h(K, {
-                            height: 420,
-                            children: h(z, {
-                              className: `framer-a3ckqn-container`,
-                              inComponentSlot: !0,
-                              layoutDependency: S,
-                              layoutId: `aXNeDh0Db-container`,
-                              nodeId: `aXNeDh0Db`,
-                              rendersWithMotion: !0,
-                              scopeId: `tne4ZGoex`,
-                              children: h(Xs, {
-                                height: `100%`,
-                                id: `aXNeDh0Db`,
-                                layoutId: `aXNeDh0Db`,
-                                O1_TjmRrw: `https://youtube.com/shorts/MEqaTh-elZM`,
-                                width: `100%`,
-                              }),
-                            }),
-                          }),
-                          h(K, {
-                            height: 420,
-                            children: h(z, {
-                              className: `framer-3nxs2v-container`,
-                              inComponentSlot: !0,
-                              layoutDependency: S,
-                              layoutId: `oCoWjLiNk-container`,
-                              nodeId: `oCoWjLiNk`,
-                              rendersWithMotion: !0,
-                              scopeId: `tne4ZGoex`,
-                              children: h(Xs, {
-                                height: `100%`,
-                                id: `oCoWjLiNk`,
-                                layoutId: `oCoWjLiNk`,
-                                O1_TjmRrw: `https://youtube.com/shorts/ungSRqmJVTI?feature=share`,
-                                width: `100%`,
-                              }),
-                            }),
-                          }),
-                        ],
-                        snapObject: { fluid: !1, snap: !0, snapEdge: `center` },
-                        style: { width: `100%` },
-                        width: `100%`,
-                      }),
-                    }),
-                  }),
-                }),
-              }),
-            }),
-          });
-        }),
-        [
-          `@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }`,
-          `.framer-NR7IV.framer-1lvwxst, .framer-NR7IV .framer-1lvwxst { display: block; }`,
-          `.framer-NR7IV.framer-16b3q95 { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 1150px; }`,
-          `.framer-NR7IV .framer-oncq48-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; z-index: 10; }`,
-          `.framer-NR7IV .framer-1u7mhoo-container, .framer-NR7IV .framer-nzkxvh-container, .framer-NR7IV .framer-ghhhd3-container, .framer-NR7IV .framer-a3ckqn-container, .framer-NR7IV .framer-3nxs2v-container { height: auto; position: relative; width: auto; }`,
-        ],
-        `framer-NR7IV`
-      )),
-      (sc.displayName = `Testimonials Carousel`),
-      (sc.defaultProps = { height: 440, width: 1150 }),
-      Y(sc, [{ explicitInter: !0, fonts: [] }, ...Qs, ...$s], { supportsExplicitInterCodegen: !0 }),
-      (sc.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Xs, {}, t)])) }));
-  });
-function lc(e, ...t) {
-  let n = {};
-  return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
-}
-var uc,
-  dc,
-  fc,
-  pc,
-  mc,
-  hc,
-  gc,
-  _c,
-  vc,
-  yc,
-  bc,
-  xc,
-  Sc,
-  Cc = e(() => {
-    (g(),
-      R(),
-      k(),
-      r(),
+      d(),
       tt(),
-      ve(),
+      ye(),
       mt(),
-      (uc = N(Z)),
-      (dc = ne(Z)),
-      (fc = [`UQAKERQXo`, `J3JugmfqE`]),
-      (pc = `framer-6mUmJ`),
-      (mc = { J3JugmfqE: `framer-v-1ye2a7x`, UQAKERQXo: `framer-v-heob82` }),
-      (hc = (e, t) => {
+      (Us = N(Z)),
+      (Ws = ne(Z)),
+      (Gs = [`UQAKERQXo`, `J3JugmfqE`]),
+      (Ks = `framer-6mUmJ`),
+      (qs = { J3JugmfqE: `framer-v-1ye2a7x`, UQAKERQXo: `framer-v-heob82` }),
+      (Js = (e, t) => {
         if (typeof e == `number` && Number.isFinite(e)) return Math.max(0, e) + `px`;
         if (typeof e != `string` || typeof t != `number`) return;
         let n = e.split(` `);
         return n[t] || n[t - 2] || n[0];
       }),
-      (gc = { duration: 0, type: `tween` }),
-      (_c = ({ value: e, children: t }) => {
-        let n = l(T),
+      (Ys = { duration: 0, type: `tween` }),
+      (Xs = ({ value: e, children: t }) => {
+        let n = s(T),
           r = e ?? n.transition,
-          i = u(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+          i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (vc = C.create(s)),
-      (yc = { Closed: `UQAKERQXo`, Opened: `J3JugmfqE` }),
-      (bc = ({
+      (Zs = C.create(a)),
+      (Qs = { Closed: `UQAKERQXo`, Opened: `J3JugmfqE` }),
+      ($s = ({
         answer: e,
         height: t,
         id: n,
@@ -13280,33 +12862,33 @@ var uc,
         kYWASCjTi: a ?? l.kYWASCjTi ?? `8px`,
         NJYIkQ6JL: e ?? l.NJYIkQ6JL ?? `Answer`,
         Ro4lUtH7q: r ?? l.Ro4lUtH7q ?? `CaretUp`,
-        variant: yc[l.variant] ?? l.variant ?? `UQAKERQXo`,
+        variant: Qs[l.variant] ?? l.variant ?? `UQAKERQXo`,
         w45GKkb9R: s ?? l.w45GKkb9R ?? `CaretDown`,
       })),
-      (xc = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Sc = V(
-        v(function (e, t) {
-          let n = p(null),
-            r = t ?? n,
-            i = f(),
-            { activeLocale: a, setLocale: o } = G();
-          F();
+      (ec = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (tc = B(
+        p(function (e, n) {
+          let r = t(null),
+            i = n ?? r,
+            o = b(),
+            { activeLocale: s, setLocale: c } = H();
+          I();
           let {
-              style: c,
-              className: l,
-              layoutId: u,
-              variant: d,
-              kYWASCjTi: m,
-              I8x_1pBcj: g,
-              NJYIkQ6JL: v,
-              iOqNF0AA8: ee,
+              style: l,
+              className: u,
+              layoutId: d,
+              variant: f,
+              kYWASCjTi: p,
+              I8x_1pBcj: m,
+              NJYIkQ6JL: g,
+              iOqNF0AA8: v,
               w45GKkb9R: y,
-              Ro4lUtH7q: b,
-              ...x
-            } = bc(e),
+              Ro4lUtH7q: x,
+              ...S
+            } = $s(e),
             {
-              baseVariant: te,
-              classNames: S,
+              baseVariant: ee,
+              classNames: te,
               clearLoadingGesture: w,
               gestureHandlers: T,
               gestureVariant: E,
@@ -13314,41 +12896,41 @@ var uc,
               setGestureState: k,
               setVariant: A,
               variants: j,
-            } = q({
-              cycleOrder: fc,
+            } = z({
+              cycleOrder: Gs,
               defaultVariant: `UQAKERQXo`,
-              ref: r,
-              variant: d,
-              variantClassNames: mc,
+              ref: i,
+              variant: f,
+              variantClassNames: qs,
             }),
-            M = xc(e, j),
-            { activeVariantCallback: ne, delay: N } = re(te),
+            M = ec(e, j),
+            { activeVariantCallback: ne, delay: N } = ie(ee),
             P = ne(async (...e) => {
               (k({ isPressed: !1 }), A(`J3JugmfqE`));
             }),
-            I = ne(async (...e) => {
+            F = ne(async (...e) => {
               (k({ isPressed: !1 }), A(`UQAKERQXo`));
             }),
-            R = L(pc, pt, X),
-            ie = () => te === `J3JugmfqE`;
+            re = q(Ks, pt, Y),
+            ae = () => ee === `J3JugmfqE`;
           return h(O, {
-            id: u ?? i,
-            children: h(vc, {
+            id: d ?? o,
+            children: h(Zs, {
               animate: j,
               initial: !1,
-              children: h(_c, {
-                value: gc,
+              children: h(Xs, {
+                value: Ys,
                 children: _(C.div, {
-                  ...x,
+                  ...S,
                   ...T,
-                  className: L(R, `framer-heob82`, l, S),
+                  className: q(re, `framer-heob82`, u, te),
                   "data-border": !0,
                   "data-framer-name": `Closed`,
                   "data-highlight": !0,
                   layoutDependency: M,
                   layoutId: `UQAKERQXo`,
                   onTap: P,
-                  ref: r,
+                  ref: i,
                   style: {
                     "--border-bottom-width": `1px`,
                     "--border-color": `var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1))`,
@@ -13356,14 +12938,14 @@ var uc,
                     "--border-right-width": `1px`,
                     "--border-style": `solid`,
                     "--border-top-width": `1px`,
-                    borderBottomLeftRadius: hc(m, 3),
-                    borderBottomRightRadius: hc(m, 2),
-                    borderTopLeftRadius: hc(m, 0),
-                    borderTopRightRadius: hc(m, 1),
+                    borderBottomLeftRadius: Js(p, 3),
+                    borderBottomRightRadius: Js(p, 2),
+                    borderTopLeftRadius: Js(p, 0),
+                    borderTopRightRadius: Js(p, 1),
                     boxShadow: `inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25)`,
-                    ...c,
+                    ...l,
                   },
-                  ...lc({ J3JugmfqE: { "data-framer-name": `Opened`, onTap: I } }, te, E),
+                  ...Hs({ J3JugmfqE: { "data-framer-name": `Opened`, onTap: F } }, ee, E),
                   children: [
                     _(C.div, {
                       className: `framer-xoxlf4`,
@@ -13371,9 +12953,9 @@ var uc,
                       layoutDependency: M,
                       layoutId: `sZiv3iBHC`,
                       children: [
-                        h(J, {
+                        h(L, {
                           __fromCanvasComponent: !0,
-                          children: h(s, {
+                          children: h(a, {
                             children: h(C.p, {
                               className: `framer-styles-preset-1ywp38s`,
                               "data-styles-preset": `chuOPspnt`,
@@ -13392,14 +12974,14 @@ var uc,
                             "--framer-link-text-color": `rgb(0, 153, 255)`,
                             "--framer-link-text-decoration": `underline`,
                           },
-                          text: g,
+                          text: m,
                           verticalAlignment: `top`,
                           withExternalLayout: !0,
                         }),
-                        ie() &&
-                          h(J, {
+                        ae() &&
+                          h(L, {
                             __fromCanvasComponent: !0,
-                            children: h(s, {
+                            children: h(a, {
                               children: h(C.p, {
                                 className: `framer-styles-preset-ke6suj`,
                                 "data-styles-preset": `Bv6I6Qd8d`,
@@ -13419,20 +13001,20 @@ var uc,
                               "--framer-link-text-decoration": `underline`,
                               opacity: 0.75,
                             },
-                            text: v,
+                            text: g,
                             verticalAlignment: `top`,
                             withExternalLayout: !0,
                           }),
                       ],
                     }),
-                    ee &&
+                    v &&
                       h(C.div, {
                         className: `framer-23gvxk`,
                         "data-framer-name": `icon`,
                         layoutDependency: M,
                         layoutId: `ioOXwwkO1`,
                         children: h(K, {
-                          children: h(z, {
+                          children: h(J, {
                             className: `framer-rd8rfz-container`,
                             isAuthoredByUser: !0,
                             isModuleExternal: !0,
@@ -13453,7 +13035,7 @@ var uc,
                               style: { height: `100%`, width: `100%` },
                               weight: `bold`,
                               width: `100%`,
-                              ...lc({ J3JugmfqE: { iconSelection: b } }, te, E),
+                              ...Hs({ J3JugmfqE: { iconSelection: x } }, ee, E),
                             }),
                           }),
                         }),
@@ -13486,14 +13068,14 @@ var uc,
           `.framer-6mUmJ .framer-rd8rfz-container { flex: none; height: 20px; position: relative; width: 20px; }`,
           `.framer-6mUmJ .framer-125oda7 { bottom: 0px; flex: none; left: 0px; overflow: hidden; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
           ...ft,
-          ...Ne,
+          ...X,
           `.framer-6mUmJ[data-border="true"]::after, .framer-6mUmJ [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-6mUmJ`
       )),
-      (Sc.displayName = `FAQ Item`),
-      (Sc.defaultProps = { height: 82, width: 390 }),
-      I(Sc, {
+      (tc.displayName = `FAQ Item`),
+      (tc.defaultProps = { height: 82, width: 390 }),
+      ve(tc, {
         variant: {
           options: [`UQAKERQXo`, `J3JugmfqE`],
           optionTitles: [`Closed`, `Opened`],
@@ -13509,23 +13091,23 @@ var uc,
         },
         NJYIkQ6JL: { defaultValue: `Answer`, displayTextArea: !0, title: `Answer`, type: W.String },
         iOqNF0AA8: { defaultValue: !0, title: `Right Icon`, type: W.Boolean },
-        w45GKkb9R: dc?.iconSelection && {
-          ...dc.iconSelection,
+        w45GKkb9R: Ws?.iconSelection && {
+          ...Ws.iconSelection,
           defaultValue: `CaretDown`,
           description: void 0,
           hidden: void 0,
           title: `Right Icon 2`,
         },
-        Ro4lUtH7q: dc?.iconSelection && {
-          ...dc.iconSelection,
+        Ro4lUtH7q: Ws?.iconSelection && {
+          ...Ws.iconSelection,
           defaultValue: `CaretUp`,
           description: void 0,
           hidden: void 0,
           title: `Open Icon`,
         },
       }),
-      Y(
-        Sc,
+      R(
+        tc,
         [
           {
             explicitInter: !0,
@@ -13588,20 +13170,20 @@ var uc,
               },
             ],
           },
-          ...uc,
+          ...Us,
           ...P(dt),
-          ...P(be),
+          ...P(xe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  wc,
-  Tc,
-  Ec,
-  Dc = e(() => {
-    (R(),
-      j.loadFonts([`Inter`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-Italic`]),
-      (wc = [
+  rc,
+  ic,
+  ac,
+  oc = e(() => {
+    (j(),
+      re.loadFonts([`Inter`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-Italic`]),
+      (rc = [
         {
           explicitInter: !0,
           fonts: [
@@ -13832,23 +13414,23 @@ var uc,
           ],
         },
       ]),
-      (Tc = [
+      (ic = [
         `.framer-qohCG .framer-styles-preset-1kw3yst:not(.rich-text-wrapper), .framer-qohCG .framer-styles-preset-1kw3yst.rich-text-wrapper p { --framer-font-family: "Inter", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 14px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.02em; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
-      (Ec = `framer-qohCG`));
+      (ac = `framer-qohCG`));
   }),
-  Oc,
-  kc,
-  Ac,
-  jc = e(() => {
-    (R(),
-      j.loadFonts([
+  sc,
+  cc,
+  lc,
+  uc = e(() => {
+    (j(),
+      re.loadFonts([
         `FS;Poppins-regular`,
         `FS;Poppins-bold`,
         `FS;Poppins-bold italic`,
         `FS;Poppins-italic`,
       ]),
-      (Oc = [
+      (sc = [
         {
           explicitInter: !0,
           fonts: [
@@ -13883,19 +13465,19 @@ var uc,
           ],
         },
       ]),
-      (kc = [
+      (cc = [
         `.framer-LsGmy .framer-styles-preset-qpltp7:not(.rich-text-wrapper), .framer-LsGmy .framer-styles-preset-qpltp7.rich-text-wrapper p { --framer-font-family: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 68px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.05em; --framer-line-height: 1em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 0px) { .framer-LsGmy .framer-styles-preset-qpltp7:not(.rich-text-wrapper), .framer-LsGmy .framer-styles-preset-qpltp7.rich-text-wrapper p { --framer-font-family: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 36px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.05em; --framer-line-height: 1em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (Ac = `framer-LsGmy`));
+      (lc = `framer-LsGmy`));
   }),
-  Mc,
-  Nc,
-  Pc,
-  Fc = e(() => {
-    (R(),
-      j.loadFonts([`GF;Inter-regular`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-italic`]),
-      (Mc = [
+  dc,
+  fc,
+  pc,
+  mc = e(() => {
+    (j(),
+      re.loadFonts([`GF;Inter-regular`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-italic`]),
+      (dc = [
         {
           explicitInter: !0,
           fonts: [
@@ -13930,14 +13512,36 @@ var uc,
           ],
         },
       ]),
-      (Nc = [
+      (fc = [
         `.framer-JC3Nv .framer-styles-preset-12qzpp4:not(.rich-text-wrapper), .framer-JC3Nv .framer-styles-preset-12qzpp4.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 30px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-JC3Nv .framer-styles-preset-12qzpp4:not(.rich-text-wrapper), .framer-JC3Nv .framer-styles-preset-12qzpp4.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 28px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-JC3Nv .framer-styles-preset-12qzpp4:not(.rich-text-wrapper), .framer-JC3Nv .framer-styles-preset-12qzpp4.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 28px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (Pc = `framer-JC3Nv`));
+      (pc = `framer-JC3Nv`));
   }),
+  hc,
+  gc,
+  _c,
+  vc,
+  yc,
+  bc,
+  xc,
+  Sc,
+  Cc,
+  wc,
+  Tc,
+  Ec,
+  Dc,
+  Oc,
+  kc,
+  Ac,
+  jc,
+  Mc,
+  Nc,
+  Pc,
+  Fc,
   Ic,
+  $,
   Lc,
   Rc,
   zc,
@@ -13948,36 +13552,13 @@ var uc,
   Wc,
   Gc,
   Kc,
-  qc,
-  Jc,
-  Yc,
-  Xc,
-  Zc,
-  Qc,
-  $c,
-  el,
-  tl,
-  nl,
-  rl,
-  il,
-  $,
-  al,
-  ol,
-  sl,
-  cl,
-  ll,
-  ul,
-  dl,
-  fl,
-  pl,
-  ml,
-  hl;
+  qc;
 e(() => {
-  (g(),
-    R(),
+  (v(),
+    j(),
     k(),
-    r(),
-    De(),
+    d(),
+    Oe(),
     tt(),
     Mt(),
     an(),
@@ -13990,52 +13571,50 @@ e(() => {
     ss(),
     Jt(),
     Vs(),
-    cc(),
-    Cc(),
-    ve(),
+    nc(),
+    ye(),
     mt(),
-    Dc(),
-    jc(),
+    oc(),
+    uc(),
     It(),
-    Fc(),
-    Oe(),
-    (Ic = me(B)),
-    (Lc = N(xa)),
-    (Rc = N(qt)),
-    (zc = N(jt)),
-    (Bc = N(ci)),
-    (Vc = N(Z)),
-    (Hc = N(os)),
-    (Uc = me(C.div)),
-    (Wc = N(rn)),
-    (Gc = N(ea)),
-    (Kc = N(Bs)),
-    (qc = N(sc)),
-    (Jc = N(eo)),
-    (Yc = se(eo)),
-    (Xc = N(ke)),
-    (Zc = N(ja)),
-    (Qc = N(Sc)),
-    ($c = N(Eo)),
-    (el = {
+    mc(),
+    ke(),
+    (hc = se(G)),
+    (gc = N(xa)),
+    (_c = N(qt)),
+    (vc = N(jt)),
+    (yc = N(ci)),
+    (bc = N(Z)),
+    (xc = N(os)),
+    (Sc = se(C.div)),
+    (Cc = N(rn)),
+    (wc = N(ea)),
+    (Tc = N(Bs)),
+    (Ec = N(eo)),
+    (Dc = pe(eo)),
+    (Oc = N(Ae)),
+    (kc = N(ja)),
+    (Ac = N(tc)),
+    (jc = N(Eo)),
+    (Mc = {
       dV9dN50OP: `(max-width: 809.98px)`,
       MNFOeKjhJ: `(min-width: 810px) and (max-width: 1199.98px)`,
       WQLkyLRf1: `(min-width: 1200px)`,
     }),
-    (tl = []),
-    (nl = `framer-Gk3Tz`),
-    (rl = {
+    (Nc = []),
+    (Pc = `framer-HE7pv`),
+    (Fc = {
       dV9dN50OP: `framer-v-1bp0152`,
       MNFOeKjhJ: `framer-v-1npr79d`,
       WQLkyLRf1: `framer-v-72rtr7`,
     }),
-    (il = (e, t, n) => (e && t ? `position` : n)),
+    (Ic = (e, t, n) => (e && t ? `position` : n)),
     ($ = (...e) => {
       for (let t of e) if (t && typeof t == `string`) return t;
     }),
-    (al = (e, t) => `translate(-50%, -50%) ${t}`),
-    (ol = { delay: 0, duration: 1, ease: [0, 0, 1, 1], type: `tween` }),
-    (sl = {
+    (Lc = (e, t) => `translate(-50%, -50%) ${t}`),
+    (Rc = { delay: 0, duration: 1, ease: [0, 0, 1, 1], type: `tween` }),
+    (zc = {
       opacity: 1,
       rotate: 360,
       rotateX: 0,
@@ -14046,72 +13625,75 @@ e(() => {
       x: 0,
       y: 0,
     }),
-    (cl = (e, t) => `translateX(-50%) ${t}`),
-    (ll = (e, t) => `translateY(-50%) ${t}`),
-    (ul = (e, t) => {
+    (Bc = (e, t) => `translateX(-50%) ${t}`),
+    (Vc = (e, t) => `translateY(-50%) ${t}`),
+    (Hc = (e, t) => {
       if (!(!e || typeof e != `object`)) return { ...e, alt: t };
     }),
-    (dl = { Desktop: `WQLkyLRf1`, Phone: `dV9dN50OP`, Tablet: `MNFOeKjhJ` }),
-    (fl = ({ value: e }) =>
-      de()
+    (Uc = { Desktop: `WQLkyLRf1`, Phone: `dV9dN50OP`, Tablet: `MNFOeKjhJ` }),
+    (Wc = ({ value: e }) =>
+      ge()
         ? null
         : h(`style`, { dangerouslySetInnerHTML: { __html: e }, "data-framer-html-style": `` })),
-    (pl = ({ height: e, id: t, width: n, ...r }) => ({
+    (Gc = ({ height: e, id: t, width: n, ...r }) => ({
       ...r,
-      variant: dl[r.variant] ?? r.variant ?? `WQLkyLRf1`,
+      variant: Uc[r.variant] ?? r.variant ?? `WQLkyLRf1`,
     })),
-    (ml = V(
-      v(function (e, t) {
-        let n = p(null),
-          r = t ?? n,
-          i = f(),
-          { activeLocale: a, setLocale: o } = G(),
-          c = F(),
-          { style: d, className: m, layoutId: g, variant: v, ...ee } = pl(e);
-        ce(u(() => Ae({}, a), [a]));
-        let [y, b] = ge(v, el, !1),
-          x = L(nl, Ac, Ft, pt, Ec, X, Pc),
-          te = l(fe)?.isLayoutTemplate,
-          S = !!l(T)?.transition?.layout,
-          w = il(te, S),
-          E = pe(`iYUNHqCEb`),
-          D = le(),
-          k = pe(`U6VhzUg6a`),
-          A = pe(`N2ijbw0rP`),
-          j = pe(`IknGWjLgy`),
-          M = p(null),
-          ne = pe(`lCq8UO0dC`),
-          N = pe(`adTRrxLJn`),
-          P = p(null),
-          I = pe(`sgmlFhWUG`),
-          R = p(null);
+    (Kc = B(
+      p(function (e, n) {
+        let r = t(null),
+          i = n ?? r,
+          o = b(),
+          { activeLocale: l, setLocale: u } = H(),
+          d = I(),
+          { style: f, className: p, layoutId: m, variant: g, ...v } = Gc(e);
+        me(c(() => je({}, l), [l]));
+        let [y, x] = ce(g, Mc, !1),
+          S = q(Pc, lc, Ft, pt, ac, Y, pc),
+          ee = s(ae)?.isLayoutTemplate,
+          te = !!s(T)?.transition?.layout,
+          w = Ic(ee, te),
+          E = fe(`iYUNHqCEb`),
+          D = t(null),
+          k = fe(`U6VhzUg6a`),
+          j = he(),
+          M = fe(`N2ijbw0rP`),
+          ne = fe(`IknGWjLgy`),
+          N = t(null),
+          P = fe(`lCq8UO0dC`),
+          F = fe(`zKzXmXRGU`),
+          re = t(null),
+          ie = fe(`sgmlFhWUG`),
+          oe = t(null),
+          R = fe(`v99AbFhke`),
+          z = t(null);
         return (
-          ae({}),
-          h(fe.Provider, {
+          A({}),
+          h(ae.Provider, {
             value: {
               activeVariantId: y,
-              humanReadableVariantMap: dl,
+              humanReadableVariantMap: Uc,
               primaryVariantId: `WQLkyLRf1`,
-              variantClassNames: rl,
+              variantClassNames: Fc,
             },
             children: _(O, {
-              id: g ?? i,
+              id: m ?? o,
               children: [
-                h(fl, {
+                h(Wc, {
                   value: `html body { background: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, rgb(1, 1, 23)); }`,
                 }),
                 _(C.div, {
-                  ...ee,
-                  className: L(x, `framer-72rtr7`, m),
-                  ref: r,
-                  style: { ...d },
+                  ...v,
+                  className: q(S, `framer-72rtr7`, p),
+                  ref: i,
+                  style: { ...f },
                   children: [
                     h(C.section, {
                       className: `framer-7dod6r`,
                       "data-framer-name": `Hero`,
                       id: E,
                       layout: w,
-                      ref: D(E),
+                      ref: D,
                       children: _(`div`, {
                         className: `framer-1mki1k0`,
                         "data-framer-name": `Hero Container`,
@@ -14124,7 +13706,7 @@ e(() => {
                                 className: `framer-39pjht`,
                                 "data-framer-name": `Hero Copy`,
                                 children: [
-                                  h(H, {
+                                  h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
@@ -14132,17 +13714,18 @@ e(() => {
                                         background: {
                                           alt: ``,
                                           fit: `fill`,
-                                          pixelHeight: 1250,
-                                          pixelWidth: 1250,
+                                          intrinsicHeight: 500,
+                                          intrinsicWidth: 500,
+                                          pixelHeight: 500,
+                                          pixelWidth: 500,
                                           positionX: `center`,
                                           positionY: `top`,
                                           sizes: `60px`,
-                                          src: `../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?width=1250&height=1250`,
-                                          srcSet: `../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png 512w,../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?scale-down-to=1024&width=1250&height=1250 1024w,../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?width=1250&height=1250 1250w`,
+                                          src: `../../assets/images/WrvykligdJZY32g7Myd2JLZeVk.png`,
                                         },
                                       },
                                     },
-                                    children: h(Ic, {
+                                    children: h(hc, {
                                       __framer__spring: {
                                         damping: 60,
                                         delay: 0,
@@ -14170,7 +13753,7 @@ e(() => {
                                         },
                                         {
                                           offset: 150,
-                                          ref: D(k),
+                                          ref: j(k),
                                           target: {
                                             opacity: 1,
                                             rotate: 180,
@@ -14191,19 +13774,20 @@ e(() => {
                                       background: {
                                         alt: ``,
                                         fit: `fill`,
-                                        pixelHeight: 1250,
-                                        pixelWidth: 1250,
+                                        intrinsicHeight: 500,
+                                        intrinsicWidth: 500,
+                                        pixelHeight: 500,
+                                        pixelWidth: 500,
                                         positionX: `center`,
                                         positionY: `top`,
                                         sizes: `113px`,
-                                        src: `../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?width=1250&height=1250`,
-                                        srcSet: `../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png 512w,../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?scale-down-to=1024&width=1250&height=1250 1024w,../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?width=1250&height=1250 1250w`,
+                                        src: `../../assets/images/WrvykligdJZY32g7Myd2JLZeVk.png`,
                                       },
                                       className: `framer-wmsqgn`,
                                       "data-framer-name": `Left Decor`,
                                     }),
                                   }),
-                                  h(H, {
+                                  h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
@@ -14211,17 +13795,19 @@ e(() => {
                                         background: {
                                           alt: ``,
                                           fit: `fill`,
-                                          pixelHeight: 2500,
-                                          pixelWidth: 2500,
+                                          intrinsicHeight: 1024,
+                                          intrinsicWidth: 1024,
+                                          pixelHeight: 1024,
+                                          pixelWidth: 1024,
                                           positionX: `center`,
                                           positionY: `top`,
                                           sizes: `60px`,
-                                          src: `../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png?width=2500&height=2500`,
-                                          srcSet: `../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png 512w,../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png?scale-down-to=1024&width=2500&height=2500 1024w,../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png?scale-down-to=2048&width=2500&height=2500 2048w,../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png?width=2500&height=2500 2500w`,
+                                          src: `../../assets/images/cpLF0XuVCyINA4MGTQ3KDizX8.png?width=1024&height=1024`,
+                                          srcSet: `../../assets/images/cpLF0XuVCyINA4MGTQ3KDizX8.png 512w,../../assets/images/cpLF0XuVCyINA4MGTQ3KDizX8.png?width=1024&height=1024 1024w`,
                                         },
                                       },
                                     },
-                                    children: h(Ic, {
+                                    children: h(hc, {
                                       __framer__spring: {
                                         damping: 60,
                                         delay: 0,
@@ -14249,7 +13835,7 @@ e(() => {
                                         },
                                         {
                                           offset: 150,
-                                          ref: D(k),
+                                          ref: j(k),
                                           target: {
                                             opacity: 1,
                                             rotate: -180,
@@ -14270,29 +13856,31 @@ e(() => {
                                       background: {
                                         alt: ``,
                                         fit: `fill`,
-                                        pixelHeight: 2500,
-                                        pixelWidth: 2500,
+                                        intrinsicHeight: 1024,
+                                        intrinsicWidth: 1024,
+                                        pixelHeight: 1024,
+                                        pixelWidth: 1024,
                                         positionX: `center`,
                                         positionY: `top`,
                                         sizes: `113px`,
-                                        src: `../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png?width=2500&height=2500`,
-                                        srcSet: `../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png 512w,../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png?scale-down-to=1024&width=2500&height=2500 1024w,../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png?scale-down-to=2048&width=2500&height=2500 2048w,../../assets/images/0g0gYb6RRfPBABNbBs9wlT2zw.png?width=2500&height=2500 2500w`,
+                                        src: `../../assets/images/cpLF0XuVCyINA4MGTQ3KDizX8.png?width=1024&height=1024`,
+                                        srcSet: `../../assets/images/cpLF0XuVCyINA4MGTQ3KDizX8.png 512w,../../assets/images/cpLF0XuVCyINA4MGTQ3KDizX8.png?width=1024&height=1024 1024w`,
                                       },
                                       className: `framer-np6d6q`,
                                       "data-framer-name": `Right Decor`,
                                     }),
                                   }),
-                                  h(H, {
+                                  h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
-                                        width: `calc(min(${c?.width || `100vw`}, 1200px) - 50px)`,
+                                        width: `calc(min(${d?.width || `100vw`}, 1200px) - 50px)`,
                                       },
                                     },
                                     children: h(K, {
-                                      height: 305,
-                                      width: `calc(min(max(${c?.width || `100vw`}, 1px), 1200px) - 50px)`,
-                                      children: h(U, {
+                                      height: 366,
+                                      width: `calc(min(max(${d?.width || `100vw`}, 1px), 1200px) - 50px)`,
+                                      children: h(V, {
                                         className: `framer-1ok201j-container`,
                                         nodeId: `Md0g4bJOo`,
                                         scopeId: `augiA20Il`,
@@ -14315,7 +13903,7 @@ e(() => {
                                   className: `framer-pw3zxg`,
                                   "data-border": !0,
                                   "data-framer-name": `Dashboard`,
-                                  children: h(H, {
+                                  children: h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
@@ -14326,12 +13914,12 @@ e(() => {
                                           pixelWidth: 4400,
                                           positionX: `center`,
                                           positionY: `top`,
-                                          sizes: `calc(min(${c?.width || `100vw`}, 1200px) - 70px)`,
+                                          sizes: `calc(min(${d?.width || `100vw`}, 1200px) - 70px)`,
                                           src: `../../assets/images/4aCktFwOFRqgc0p5WQGnXd3JbYg.png`,
                                         },
                                       },
                                     },
-                                    children: h(B, {
+                                    children: h(G, {
                                       background: {
                                         alt: ``,
                                         fit: `fill`,
@@ -14339,19 +13927,20 @@ e(() => {
                                         pixelWidth: 4400,
                                         positionX: `center`,
                                         positionY: `top`,
-                                        sizes: `calc(min(max(${c?.width || `100vw`}, 1px), 1200px) - 70px)`,
+                                        sizes: `calc(min(max(${d?.width || `100vw`}, 1px), 1200px) - 70px)`,
                                         src: `../../assets/images/4aCktFwOFRqgc0p5WQGnXd3JbYg.png`,
                                       },
                                       className: `framer-14jm00u`,
                                       "data-border": !0,
                                       "data-framer-name": `Replace Your Image Here`,
+                                      id: `14jm00u`,
                                     }),
                                   }),
                                 }),
                               }),
                             ],
                           }),
-                          h(H, {
+                          h(U, {
                             breakpoint: y,
                             overrides: {
                               dV9dN50OP: {
@@ -14363,12 +13952,12 @@ e(() => {
                                   pixelWidth: 96,
                                   positionX: `left`,
                                   positionY: `top`,
-                                  sizes: c?.width || `100vw`,
+                                  sizes: d?.width || `100vw`,
                                   src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
                                 },
                               },
                             },
-                            children: h(B, {
+                            children: h(G, {
                               background: {
                                 alt: ``,
                                 backgroundSize: 0.29,
@@ -14377,7 +13966,7 @@ e(() => {
                                 pixelWidth: 96,
                                 positionX: `left`,
                                 positionY: `top`,
-                                sizes: `max(${c?.width || `100vw`}, 1px)`,
+                                sizes: `max(${d?.width || `100vw`}, 1px)`,
                                 src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
                               },
                               className: `framer-13indg1`,
@@ -14392,7 +13981,7 @@ e(() => {
                       "data-framer-name": `Rich Texts`,
                       id: k,
                       layout: w,
-                      ref: D(k),
+                      ref: j(k),
                       children: h(`div`, {
                         className: `framer-k0af9v`,
                         "data-framer-name": `Container`,
@@ -14400,16 +13989,17 @@ e(() => {
                           className: `framer-la7fvh`,
                           "data-framer-name": `Rich Texts`,
                           children: [
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(`p`, {
                                   className: `framer-styles-preset-qpltp7`,
                                   "data-styles-preset": `KI3pCqnpD`,
+                                  dir: `auto`,
                                   style: {
                                     "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
                                   },
-                                  children: `Flamer`,
+                                  children: `Util4dev`,
                                 }),
                               }),
                               className: `framer-1ix5vbv`,
@@ -14417,49 +14007,52 @@ e(() => {
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
-                            h(H, {
+                            h(U, {
                               breakpoint: y,
                               overrides: {
                                 dV9dN50OP: {
                                   background: {
                                     alt: ``,
                                     fit: `fill`,
-                                    pixelHeight: 1250,
-                                    pixelWidth: 1250,
+                                    intrinsicHeight: 500,
+                                    intrinsicWidth: 500,
+                                    pixelHeight: 500,
+                                    pixelWidth: 500,
                                     positionX: `center`,
                                     positionY: `top`,
                                     sizes: `48px`,
-                                    src: `../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?width=1250&height=1250`,
-                                    srcSet: `../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png 512w,../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?scale-down-to=1024&width=1250&height=1250 1024w,../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?width=1250&height=1250 1250w`,
+                                    src: `../../assets/images/rUuTjKy2KCktdCTckSbw6z7Kbt0.png`,
                                   },
                                 },
                               },
-                              children: h(B, {
+                              children: h(G, {
                                 background: {
                                   alt: ``,
                                   fit: `fill`,
-                                  pixelHeight: 1250,
-                                  pixelWidth: 1250,
+                                  intrinsicHeight: 500,
+                                  intrinsicWidth: 500,
+                                  pixelHeight: 500,
+                                  pixelWidth: 500,
                                   positionX: `center`,
                                   positionY: `top`,
                                   sizes: `62px`,
-                                  src: `../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?width=1250&height=1250`,
-                                  srcSet: `../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png 512w,../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?scale-down-to=1024&width=1250&height=1250 1024w,../../assets/images/0Dl6EAZZR82BtjFE8r3qmHydI.png?width=1250&height=1250 1250w`,
+                                  src: `../../assets/images/rUuTjKy2KCktdCTckSbw6z7Kbt0.png`,
                                 },
                                 className: `framer-1obwh4c`,
                                 "data-framer-name": `3d Object`,
                               }),
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(`p`, {
                                   className: `framer-styles-preset-qpltp7`,
                                   "data-styles-preset": `KI3pCqnpD`,
+                                  dir: `auto`,
                                   style: {
                                     "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
                                   },
-                                  children: `Ultimate`,
+                                  children: ` dùng tiện ích`,
                                 }),
                               }),
                               className: `framer-19nc088`,
@@ -14467,9 +14060,9 @@ e(() => {
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(`p`, {
                                   className: `framer-styles-preset-qpltp7`,
                                   "data-styles-preset": `KI3pCqnpD`,
@@ -14484,7 +14077,7 @@ e(() => {
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
-                            h(H, {
+                            h(U, {
                               breakpoint: y,
                               overrides: {
                                 dV9dN50OP: {
@@ -14501,7 +14094,7 @@ e(() => {
                                   },
                                 },
                               },
-                              children: h(B, {
+                              children: h(G, {
                                 background: {
                                   alt: ``,
                                   fit: `fill`,
@@ -14517,16 +14110,17 @@ e(() => {
                                 "data-framer-name": `3d Object`,
                               }),
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(`p`, {
                                   className: `framer-styles-preset-qpltp7`,
                                   "data-styles-preset": `KI3pCqnpD`,
+                                  dir: `auto`,
                                   style: {
                                     "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
                                   },
-                                  children: `Powered`,
+                                  children: `xây dựng`,
                                 }),
                               }),
                               className: `framer-5aywpq`,
@@ -14534,16 +14128,17 @@ e(() => {
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(`p`, {
                                   className: `framer-styles-preset-qpltp7`,
                                   "data-styles-preset": `KI3pCqnpD`,
+                                  dir: `auto`,
                                   style: {
                                     "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
                                   },
-                                  children: `Platform`,
+                                  children: `nền tảng`,
                                 }),
                               }),
                               className: `framer-esox5h`,
@@ -14551,7 +14146,7 @@ e(() => {
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
-                            h(H, {
+                            h(U, {
                               breakpoint: y,
                               overrides: {
                                 dV9dN50OP: {
@@ -14568,7 +14163,7 @@ e(() => {
                                   },
                                 },
                               },
-                              children: h(B, {
+                              children: h(G, {
                                 background: {
                                   alt: ``,
                                   fit: `fill`,
@@ -14584,16 +14179,17 @@ e(() => {
                                 "data-framer-name": `3d Object`,
                               }),
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(`p`, {
                                   className: `framer-styles-preset-qpltp7`,
                                   "data-styles-preset": `KI3pCqnpD`,
+                                  dir: `auto`,
                                   style: {
                                     "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
                                   },
-                                  children: `Designed`,
+                                  children: `Thiết kế`,
                                 }),
                               }),
                               className: `framer-qoiezj`,
@@ -14601,16 +14197,17 @@ e(() => {
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(`p`, {
                                   className: `framer-styles-preset-qpltp7`,
                                   "data-styles-preset": `KI3pCqnpD`,
+                                  dir: `auto`,
                                   style: {
                                     "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
                                   },
-                                  children: `for your`,
+                                  children: `cách thức làm việc`,
                                 }),
                               }),
                               className: `framer-1a10g8j`,
@@ -14618,7 +14215,7 @@ e(() => {
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
                             }),
-                            h(H, {
+                            h(U, {
                               breakpoint: y,
                               overrides: {
                                 dV9dN50OP: {
@@ -14635,7 +14232,7 @@ e(() => {
                                   },
                                 },
                               },
-                              children: h(B, {
+                              children: h(G, {
                                 background: {
                                   alt: ``,
                                   fit: `fill`,
@@ -14651,16 +14248,17 @@ e(() => {
                                 "data-framer-name": `3d Object`,
                               }),
                             }),
-                            h(J, {
+                            h(L, {
                               __fromCanvasComponent: !0,
-                              children: h(s, {
+                              children: h(a, {
                                 children: h(`p`, {
                                   className: `framer-styles-preset-qpltp7`,
                                   "data-styles-preset": `KI3pCqnpD`,
+                                  dir: `auto`,
                                   style: {
                                     "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
                                   },
-                                  children: `dreams`,
+                                  children: `như bạn mong muốn`,
                                 }),
                               }),
                               className: `framer-1kw4qni`,
@@ -14675,9 +14273,9 @@ e(() => {
                     h(C.section, {
                       className: `framer-1qlm5z7`,
                       "data-framer-name": `Content`,
-                      id: A,
+                      id: M,
                       layout: w,
-                      ref: D(A),
+                      ref: j(M),
                       children: _(`div`, {
                         className: `framer-16gd5iv`,
                         "data-framer-name": `Container`,
@@ -14695,7 +14293,7 @@ e(() => {
                                   children: [
                                     h(K, {
                                       height: 37,
-                                      children: h(U, {
+                                      children: h(V, {
                                         className: `framer-1unbp0v-container`,
                                         nodeId: `XZc1RRV7p`,
                                         scopeId: `augiA20Il`,
@@ -14709,64 +14307,49 @@ e(() => {
                                         }),
                                       }),
                                     }),
-                                    h(H, {
+                                    h(U, {
                                       breakpoint: y,
                                       overrides: {
                                         dV9dN50OP: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`h2`, {
                                               className: `framer-styles-preset-14yy0fo`,
                                               "data-styles-preset": `U2wSnEg3t`,
+                                              dir: `auto`,
                                               style: {
                                                 "--framer-text-alignment": `center`,
                                                 "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                               },
-                                              children: h(`span`, {
-                                                "data-text-fill": `true`,
-                                                style: {
-                                                  backgroundImage: `linear-gradient(270deg, rgb(255, 255, 255) 0%, var(--token-efa3e356-ac9a-49c3-9f07-9b43f54692b7, rgb(167, 139, 250)) 100%)`,
-                                                },
-                                                children: `The AI Powerhouse for All Your Needs!`,
-                                              }),
+                                              children: `Tập hợp giải pháp công nghệ đáp ứng nhu cầu của bạn!`,
                                             }),
                                           }),
                                         },
                                         MNFOeKjhJ: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`h2`, {
                                               className: `framer-styles-preset-14yy0fo`,
                                               "data-styles-preset": `U2wSnEg3t`,
+                                              dir: `auto`,
                                               style: {
                                                 "--framer-text-alignment": `center`,
                                                 "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                               },
-                                              children: h(`span`, {
-                                                "data-text-fill": `true`,
-                                                style: {
-                                                  backgroundImage: `linear-gradient(270deg, rgb(255, 255, 255) 0%, var(--token-efa3e356-ac9a-49c3-9f07-9b43f54692b7, rgb(167, 139, 250)) 100%)`,
-                                                },
-                                                children: `The AI Powerhouse for All Your Needs!`,
-                                              }),
+                                              children: `Tập hợp giải pháp công nghệ đáp ứng nhu cầu của bạn!`,
                                             }),
                                           }),
                                         },
                                       },
-                                      children: h(J, {
+                                      children: h(L, {
                                         __fromCanvasComponent: !0,
-                                        children: h(s, {
+                                        children: h(a, {
                                           children: h(`h2`, {
                                             className: `framer-styles-preset-14yy0fo`,
                                             "data-styles-preset": `U2wSnEg3t`,
+                                            dir: `auto`,
                                             style: {
                                               "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                             },
-                                            children: h(`span`, {
-                                              "data-text-fill": `true`,
-                                              style: {
-                                                backgroundImage: `linear-gradient(270deg, rgb(255, 255, 255) 0%, var(--token-efa3e356-ac9a-49c3-9f07-9b43f54692b7, rgb(167, 139, 250)) 100%)`,
-                                              },
-                                              children: `The AI Powerhouse for All Your Needs!`,
-                                            }),
+                                            children: `Tập hợp giải pháp công nghệ đáp ứng nhu cầu của bạn!`,
                                           }),
                                         }),
                                         className: `framer-kwokev`,
@@ -14775,47 +14358,50 @@ e(() => {
                                         withExternalLayout: !0,
                                       }),
                                     }),
-                                    h(H, {
+                                    h(U, {
                                       breakpoint: y,
                                       overrides: {
                                         dV9dN50OP: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`p`, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
+                                              dir: `auto`,
                                               style: {
                                                 "--framer-text-alignment": `center`,
                                                 "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                               },
-                                              children: `Flamer transforms the way you create, analyze & optimize your content seamlesly.`,
+                                              children: `Util4dev thay đổi cách bạn làm việc với sự hỗ trợ của công nghệ RAG & AI agent.`,
                                             }),
                                           }),
                                         },
                                         MNFOeKjhJ: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`p`, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
+                                              dir: `auto`,
                                               style: {
                                                 "--framer-text-alignment": `center`,
                                                 "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                               },
-                                              children: `Flamer transforms the way you create, analyze & optimize your content seamlesly.`,
+                                              children: `Util4dev thay đổi cách bạn làm việc với sự hỗ trợ của công nghệ RAG & AI agent.`,
                                             }),
                                           }),
                                         },
                                       },
-                                      children: h(J, {
+                                      children: h(L, {
                                         __fromCanvasComponent: !0,
-                                        children: h(s, {
+                                        children: h(a, {
                                           children: h(`p`, {
                                             className: `framer-styles-preset-1ywp38s`,
                                             "data-styles-preset": `chuOPspnt`,
+                                            dir: `auto`,
                                             style: {
                                               "--framer-text-alignment": `left`,
                                               "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                             },
-                                            children: `Flamer transforms the way you create, analyze & optimize your content seamlesly.`,
+                                            children: `Util4dev thay đổi cách bạn làm việc với sự hỗ trợ của công nghệ RAG & AI agent.`,
                                           }),
                                         }),
                                         className: `framer-fgnpc0`,
@@ -14830,24 +14416,24 @@ e(() => {
                                   className: `framer-wdmzrp`,
                                   "data-framer-name": `Features`,
                                   children: [
-                                    h(H, {
+                                    h(U, {
                                       breakpoint: y,
                                       overrides: {
                                         dV9dN50OP: {
-                                          width: `calc(min(${c?.width || `100vw`}, 1200px) - 60px)`,
+                                          width: `calc(min(${d?.width || `100vw`}, 1200px) - 60px)`,
                                         },
                                         MNFOeKjhJ: {
-                                          width: `max((min(${c?.width || `100vw`}, 1200px) - 70px) / 2, 1px)`,
+                                          width: `max((min(${d?.width || `100vw`}, 1200px) - 70px) / 2, 1px)`,
                                         },
                                       },
                                       children: h(K, {
                                         height: 94,
-                                        width: `max((max((min(${c?.width || `100vw`}, 1200px) - 100px) / 2, 1px) - 10px) / 2, 1px)`,
-                                        children: h(U, {
+                                        width: `max((max((min(${d?.width || `100vw`}, 1200px) - 100px) / 2, 1px) - 10px) / 2, 1px)`,
+                                        children: h(V, {
                                           className: `framer-be6r75-container`,
                                           nodeId: `V5jaIM4Z_`,
                                           scopeId: `augiA20Il`,
-                                          children: h(H, {
+                                          children: h(U, {
                                             breakpoint: y,
                                             overrides: {
                                               dV9dN50OP: { variant: $(`CyAGZEOr5`) },
@@ -14861,31 +14447,31 @@ e(() => {
                                               style: { width: `100%` },
                                               variant: $(`b6EZJwsob`),
                                               width: `100%`,
-                                              xKsrNeCEm: `Content Creation`,
-                                              yvKNMfljW: `Generate high-quality content instantly with AI`,
+                                              xKsrNeCEm: `RAG`,
+                                              yvKNMfljW: `Bộ não tra cứu dữ liệu nội bộ của doanh nghiệp.`,
                                             }),
                                           }),
                                         }),
                                       }),
                                     }),
-                                    h(H, {
+                                    h(U, {
                                       breakpoint: y,
                                       overrides: {
                                         dV9dN50OP: {
-                                          width: `calc(min(${c?.width || `100vw`}, 1200px) - 60px)`,
+                                          width: `calc(min(${d?.width || `100vw`}, 1200px) - 60px)`,
                                         },
                                         MNFOeKjhJ: {
-                                          width: `max((min(${c?.width || `100vw`}, 1200px) - 70px) / 2, 1px)`,
+                                          width: `max((min(${d?.width || `100vw`}, 1200px) - 70px) / 2, 1px)`,
                                         },
                                       },
                                       children: h(K, {
                                         height: 94,
-                                        width: `max((max((min(${c?.width || `100vw`}, 1200px) - 100px) / 2, 1px) - 10px) / 2, 1px)`,
-                                        children: h(U, {
+                                        width: `max((max((min(${d?.width || `100vw`}, 1200px) - 100px) / 2, 1px) - 10px) / 2, 1px)`,
+                                        children: h(V, {
                                           className: `framer-1d14rzc-container`,
                                           nodeId: `mJC5D9GKG`,
                                           scopeId: `augiA20Il`,
-                                          children: h(H, {
+                                          children: h(U, {
                                             breakpoint: y,
                                             overrides: {
                                               dV9dN50OP: { variant: $(`CyAGZEOr5`) },
@@ -14899,8 +14485,8 @@ e(() => {
                                               style: { width: `100%` },
                                               variant: $(`b6EZJwsob`),
                                               width: `100%`,
-                                              xKsrNeCEm: `Smart Data Analytics`,
-                                              yvKNMfljW: `Gain deep insights into content performance.`,
+                                              xKsrNeCEm: `AI agent`,
+                                              yvKNMfljW: `Nhân sự số biết tự lên kế hoạch và thực thi tác vụ.`,
                                             }),
                                           }),
                                         }),
@@ -14911,26 +14497,26 @@ e(() => {
                               ],
                             }),
                           }),
-                          h(H, {
+                          h(U, {
                             breakpoint: y,
                             overrides: {
                               dV9dN50OP: {
                                 height: 567,
-                                width: `calc(min(${c?.width || `100vw`}, 1200px) - 40px)`,
+                                width: `calc(min(${d?.width || `100vw`}, 1200px) - 40px)`,
                               },
                               MNFOeKjhJ: {
                                 height: 567,
-                                width: `calc(min(${c?.width || `100vw`}, 1200px) - 50px)`,
+                                width: `calc(min(${d?.width || `100vw`}, 1200px) - 50px)`,
                               },
                             },
                             children: h(K, {
                               height: 463.6,
-                              width: `max((min(${c?.width || `100vw`}, 1200px) - 100px) / 2, 1px)`,
-                              children: h(U, {
+                              width: `max((min(${d?.width || `100vw`}, 1200px) - 100px) / 2, 1px)`,
+                              children: h(V, {
                                 className: `framer-154jz2f-container`,
                                 nodeId: `wfFANPtBb`,
                                 scopeId: `augiA20Il`,
-                                children: h(H, {
+                                children: h(U, {
                                   breakpoint: y,
                                   overrides: {
                                     dV9dN50OP: { style: { width: `100%` } },
@@ -14965,16 +14551,16 @@ e(() => {
                             h(`div`, {
                               className: `framer-1psnt4v`,
                               "data-framer-name": `Content Generation`,
-                              children: h(H, {
+                              children: h(U, {
                                 breakpoint: y,
                                 overrides: {
                                   dV9dN50OP: {
-                                    width: `calc(min(${c?.width || `100vw`}, 1200px) - 80px)`,
+                                    width: `calc(min(${d?.width || `100vw`}, 1200px) - 80px)`,
                                   },
                                 },
                                 children: h(K, {
                                   height: 94,
-                                  children: h(U, {
+                                  children: h(V, {
                                     className: `framer-jx3klg-container`,
                                     nodeId: `O1sdVnhaQ`,
                                     scopeId: `augiA20Il`,
@@ -14996,16 +14582,16 @@ e(() => {
                             h(`div`, {
                               className: `framer-6uiyx3`,
                               "data-framer-name": `Publishing`,
-                              children: h(H, {
+                              children: h(U, {
                                 breakpoint: y,
                                 overrides: {
                                   dV9dN50OP: {
-                                    width: `calc(min(${c?.width || `100vw`}, 1200px) - 80px)`,
+                                    width: `calc(min(${d?.width || `100vw`}, 1200px) - 80px)`,
                                   },
                                 },
                                 children: h(K, {
                                   height: 94,
-                                  children: h(U, {
+                                  children: h(V, {
                                     className: `framer-f3x7a-container`,
                                     nodeId: `DygMemjtp`,
                                     scopeId: `augiA20Il`,
@@ -15027,16 +14613,16 @@ e(() => {
                             h(`div`, {
                               className: `framer-xjqzmg`,
                               "data-framer-name": `Data Insights`,
-                              children: h(H, {
+                              children: h(U, {
                                 breakpoint: y,
                                 overrides: {
                                   dV9dN50OP: {
-                                    width: `calc(min(${c?.width || `100vw`}, 1200px) - 80px)`,
+                                    width: `calc(min(${d?.width || `100vw`}, 1200px) - 80px)`,
                                   },
                                 },
                                 children: h(K, {
                                   height: 94,
-                                  children: h(U, {
+                                  children: h(V, {
                                     className: `framer-8lw8u4-container`,
                                     nodeId: `RGqaUdzPK`,
                                     scopeId: `augiA20Il`,
@@ -15058,16 +14644,16 @@ e(() => {
                             h(`div`, {
                               className: `framer-16c0xdy`,
                               "data-framer-name": `AI Assistance`,
-                              children: h(H, {
+                              children: h(U, {
                                 breakpoint: y,
                                 overrides: {
                                   dV9dN50OP: {
-                                    width: `calc(min(${c?.width || `100vw`}, 1200px) - 80px)`,
+                                    width: `calc(min(${d?.width || `100vw`}, 1200px) - 80px)`,
                                   },
                                 },
                                 children: h(K, {
                                   height: 94,
-                                  children: h(U, {
+                                  children: h(V, {
                                     className: `framer-ztv74n-container`,
                                     nodeId: `dqUazk4ii`,
                                     scopeId: `augiA20Il`,
@@ -15089,16 +14675,16 @@ e(() => {
                             h(`div`, {
                               className: `framer-f9gs6n`,
                               "data-framer-name": `Integration`,
-                              children: h(H, {
+                              children: h(U, {
                                 breakpoint: y,
                                 overrides: {
                                   dV9dN50OP: {
-                                    width: `calc(min(${c?.width || `100vw`}, 1200px) - 80px)`,
+                                    width: `calc(min(${d?.width || `100vw`}, 1200px) - 80px)`,
                                   },
                                 },
                                 children: h(K, {
                                   height: 94,
-                                  children: h(U, {
+                                  children: h(V, {
                                     className: `framer-1elfzky-container`,
                                     nodeId: `yk_NaDMi2`,
                                     scopeId: `augiA20Il`,
@@ -15120,16 +14706,16 @@ e(() => {
                             h(`div`, {
                               className: `framer-xngrzv`,
                               "data-framer-name": `Automated Workflows`,
-                              children: h(H, {
+                              children: h(U, {
                                 breakpoint: y,
                                 overrides: {
                                   dV9dN50OP: {
-                                    width: `calc(min(${c?.width || `100vw`}, 1200px) - 80px)`,
+                                    width: `calc(min(${d?.width || `100vw`}, 1200px) - 80px)`,
                                   },
                                 },
                                 children: h(K, {
                                   height: 94,
-                                  children: h(U, {
+                                  children: h(V, {
                                     className: `framer-znhnrm-container`,
                                     nodeId: `RsR4lklg3`,
                                     scopeId: `augiA20Il`,
@@ -15165,7 +14751,7 @@ e(() => {
                             "data-border": !0,
                             "data-framer-name": `Image `,
                             children: [
-                              h(H, {
+                              h(U, {
                                 breakpoint: y,
                                 overrides: {
                                   dV9dN50OP: { style: { scale: 0.7 } },
@@ -15186,9 +14772,9 @@ e(() => {
                                           className: `framer-uf1zfz`,
                                           "data-framer-name": `Card`,
                                           children: [
-                                            h(J, {
+                                            h(L, {
                                               __fromCanvasComponent: !0,
-                                              children: h(s, {
+                                              children: h(a, {
                                                 children: h(`p`, {
                                                   className: `framer-styles-preset-1ywp38s`,
                                                   "data-styles-preset": `chuOPspnt`,
@@ -15201,9 +14787,9 @@ e(() => {
                                               withExternalLayout: !0,
                                             }),
                                             h(`div`, { className: `framer-1s4cmew` }),
-                                            h(J, {
+                                            h(L, {
                                               __fromCanvasComponent: !0,
-                                              children: h(s, {
+                                              children: h(a, {
                                                 children: h(`p`, {
                                                   className: `framer-styles-preset-1kw3yst`,
                                                   "data-styles-preset": `FfRRUaILP`,
@@ -15218,9 +14804,9 @@ e(() => {
                                               verticalAlignment: `top`,
                                               withExternalLayout: !0,
                                             }),
-                                            h(J, {
+                                            h(L, {
                                               __fromCanvasComponent: !0,
-                                              children: h(s, {
+                                              children: h(a, {
                                                 children: h(`p`, {
                                                   className: `framer-styles-preset-1kw3yst`,
                                                   "data-styles-preset": `FfRRUaILP`,
@@ -15235,9 +14821,9 @@ e(() => {
                                               verticalAlignment: `top`,
                                               withExternalLayout: !0,
                                             }),
-                                            h(J, {
+                                            h(L, {
                                               __fromCanvasComponent: !0,
-                                              children: h(s, {
+                                              children: h(a, {
                                                 children: h(`p`, {
                                                   className: `framer-styles-preset-1kw3yst`,
                                                   "data-styles-preset": `FfRRUaILP`,
@@ -15252,9 +14838,9 @@ e(() => {
                                               verticalAlignment: `top`,
                                               withExternalLayout: !0,
                                             }),
-                                            h(J, {
+                                            h(L, {
                                               __fromCanvasComponent: !0,
-                                              children: h(s, {
+                                              children: h(a, {
                                                 children: h(`p`, {
                                                   className: `framer-styles-preset-1kw3yst`,
                                                   "data-styles-preset": `FfRRUaILP`,
@@ -15269,9 +14855,9 @@ e(() => {
                                               verticalAlignment: `top`,
                                               withExternalLayout: !0,
                                             }),
-                                            h(J, {
+                                            h(L, {
                                               __fromCanvasComponent: !0,
-                                              children: h(s, {
+                                              children: h(a, {
                                                 children: h(`p`, {
                                                   className: `framer-styles-preset-1kw3yst`,
                                                   "data-styles-preset": `FfRRUaILP`,
@@ -15301,9 +14887,9 @@ e(() => {
                                           className: `framer-1ily88o`,
                                           "data-framer-name": `Card`,
                                           children: [
-                                            h(J, {
+                                            h(L, {
                                               __fromCanvasComponent: !0,
-                                              children: h(s, {
+                                              children: h(a, {
                                                 children: h(`p`, {
                                                   className: `framer-styles-preset-1ywp38s`,
                                                   "data-styles-preset": `chuOPspnt`,
@@ -15323,7 +14909,7 @@ e(() => {
                                               className: `framer-putkun`,
                                               "data-framer-name": `User`,
                                               children: [
-                                                h(B, {
+                                                h(G, {
                                                   background: {
                                                     alt: ``,
                                                     fit: `fill`,
@@ -15336,9 +14922,9 @@ e(() => {
                                                   className: `framer-p6tjzn`,
                                                   "data-framer-name": `Avatar`,
                                                 }),
-                                                h(J, {
+                                                h(L, {
                                                   __fromCanvasComponent: !0,
-                                                  children: h(s, {
+                                                  children: h(a, {
                                                     children: h(`p`, {
                                                       className: `framer-styles-preset-ke6suj`,
                                                       "data-styles-preset": `Bv6I6Qd8d`,
@@ -15359,7 +14945,7 @@ e(() => {
                                               className: `framer-1xda8k8`,
                                               "data-framer-name": `User`,
                                               children: [
-                                                h(B, {
+                                                h(G, {
                                                   background: {
                                                     alt: ``,
                                                     fit: `fill`,
@@ -15374,9 +14960,9 @@ e(() => {
                                                   className: `framer-bj3gl6`,
                                                   "data-framer-name": `Avatar`,
                                                 }),
-                                                h(J, {
+                                                h(L, {
                                                   __fromCanvasComponent: !0,
-                                                  children: h(s, {
+                                                  children: h(a, {
                                                     children: h(`p`, {
                                                       className: `framer-styles-preset-ke6suj`,
                                                       "data-styles-preset": `Bv6I6Qd8d`,
@@ -15402,7 +14988,7 @@ e(() => {
                                                   "data-border": !0,
                                                   "data-framer-name": `Add member`,
                                                   children: h(K, {
-                                                    children: h(U, {
+                                                    children: h(V, {
                                                       className: `framer-1mc1cmk-container`,
                                                       isAuthoredByUser: !0,
                                                       isModuleExternal: !0,
@@ -15424,9 +15010,9 @@ e(() => {
                                                     }),
                                                   }),
                                                 }),
-                                                h(J, {
+                                                h(L, {
                                                   __fromCanvasComponent: !0,
-                                                  children: h(s, {
+                                                  children: h(a, {
                                                     children: h(`p`, {
                                                       className: `framer-styles-preset-ke6suj`,
                                                       "data-styles-preset": `Bv6I6Qd8d`,
@@ -15450,7 +15036,7 @@ e(() => {
                                   ],
                                 }),
                               }),
-                              h(H, {
+                              h(U, {
                                 breakpoint: y,
                                 overrides: {
                                   dV9dN50OP: {
@@ -15462,7 +15048,7 @@ e(() => {
                                       pixelWidth: 96,
                                       positionX: `left`,
                                       positionY: `top`,
-                                      sizes: `calc(min(${c?.width || `100vw`}, 1200px) - 40px)`,
+                                      sizes: `calc(min(${d?.width || `100vw`}, 1200px) - 40px)`,
                                       src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
                                     },
                                   },
@@ -15475,12 +15061,12 @@ e(() => {
                                       pixelWidth: 96,
                                       positionX: `left`,
                                       positionY: `top`,
-                                      sizes: `calc(min(${c?.width || `100vw`}, 1200px) - 50px)`,
+                                      sizes: `calc(min(${d?.width || `100vw`}, 1200px) - 50px)`,
                                       src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
                                     },
                                   },
                                 },
-                                children: h(B, {
+                                children: h(G, {
                                   background: {
                                     alt: ``,
                                     backgroundSize: 0.29,
@@ -15489,7 +15075,7 @@ e(() => {
                                     pixelWidth: 96,
                                     positionX: `left`,
                                     positionY: `top`,
-                                    sizes: `max((min(${c?.width || `100vw`}, 1200px) - 100px) / 2, 1px)`,
+                                    sizes: `max((min(${d?.width || `100vw`}, 1200px) - 100px) / 2, 1px)`,
                                     src: `../../assets/images/wGAHOWhVswEtWkOKTJN6s2CW0.svg`,
                                   },
                                   className: `framer-hajfu1`,
@@ -15511,7 +15097,7 @@ e(() => {
                                   children: [
                                     h(K, {
                                       height: 37,
-                                      children: h(U, {
+                                      children: h(V, {
                                         className: `framer-zroyd3-container`,
                                         nodeId: `ZkRPIb5ot`,
                                         scopeId: `augiA20Il`,
@@ -15519,17 +15105,17 @@ e(() => {
                                           height: `100%`,
                                           id: `ZkRPIb5ot`,
                                           layoutId: `ZkRPIb5ot`,
-                                          O6gJl3TVN: `Why Flamer?`,
+                                          O6gJl3TVN: `Tại sao chọn util4dev?`,
                                           variant: $(`IHeVKXtSW`),
                                           width: `100%`,
                                         }),
                                       }),
                                     }),
-                                    h(H, {
+                                    h(U, {
                                       breakpoint: y,
                                       overrides: {
                                         dV9dN50OP: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`h2`, {
                                               className: `framer-styles-preset-14yy0fo`,
                                               "data-styles-preset": `U2wSnEg3t`,
@@ -15548,7 +15134,7 @@ e(() => {
                                           }),
                                         },
                                         MNFOeKjhJ: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`h2`, {
                                               className: `framer-styles-preset-14yy0fo`,
                                               "data-styles-preset": `U2wSnEg3t`,
@@ -15567,9 +15153,9 @@ e(() => {
                                           }),
                                         },
                                       },
-                                      children: h(J, {
+                                      children: h(L, {
                                         __fromCanvasComponent: !0,
-                                        children: h(s, {
+                                        children: h(a, {
                                           children: h(`h2`, {
                                             className: `framer-styles-preset-14yy0fo`,
                                             "data-styles-preset": `U2wSnEg3t`,
@@ -15591,11 +15177,11 @@ e(() => {
                                         withExternalLayout: !0,
                                       }),
                                     }),
-                                    h(H, {
+                                    h(U, {
                                       breakpoint: y,
                                       overrides: {
                                         dV9dN50OP: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`p`, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
@@ -15608,7 +15194,7 @@ e(() => {
                                           }),
                                         },
                                         MNFOeKjhJ: {
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`p`, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
@@ -15621,9 +15207,9 @@ e(() => {
                                           }),
                                         },
                                       },
-                                      children: h(J, {
+                                      children: h(L, {
                                         __fromCanvasComponent: !0,
-                                        children: h(s, {
+                                        children: h(a, {
                                           children: h(`p`, {
                                             className: `framer-styles-preset-1ywp38s`,
                                             "data-styles-preset": `chuOPspnt`,
@@ -15646,24 +15232,24 @@ e(() => {
                                   className: `framer-1i2yrmx`,
                                   "data-framer-name": `Features`,
                                   children: [
-                                    h(H, {
+                                    h(U, {
                                       breakpoint: y,
                                       overrides: {
                                         dV9dN50OP: {
-                                          width: `calc(min(${c?.width || `100vw`}, 1200px) - 60px)`,
+                                          width: `calc(min(${d?.width || `100vw`}, 1200px) - 60px)`,
                                         },
                                         MNFOeKjhJ: {
-                                          width: `max((min(${c?.width || `100vw`}, 1200px) - 70px) / 2, 1px)`,
+                                          width: `max((min(${d?.width || `100vw`}, 1200px) - 70px) / 2, 1px)`,
                                         },
                                       },
                                       children: h(K, {
                                         height: 94,
-                                        width: `max((max((min(${c?.width || `100vw`}, 1200px) - 100px) / 2, 1px) - 10px) / 2, 1px)`,
-                                        children: h(U, {
+                                        width: `max((max((min(${d?.width || `100vw`}, 1200px) - 100px) / 2, 1px) - 10px) / 2, 1px)`,
+                                        children: h(V, {
                                           className: `framer-1t71dbs-container`,
                                           nodeId: `BCqlwOt96`,
                                           scopeId: `augiA20Il`,
-                                          children: h(H, {
+                                          children: h(U, {
                                             breakpoint: y,
                                             overrides: {
                                               dV9dN50OP: { variant: $(`CyAGZEOr5`) },
@@ -15684,24 +15270,24 @@ e(() => {
                                         }),
                                       }),
                                     }),
-                                    h(H, {
+                                    h(U, {
                                       breakpoint: y,
                                       overrides: {
                                         dV9dN50OP: {
-                                          width: `calc(min(${c?.width || `100vw`}, 1200px) - 60px)`,
+                                          width: `calc(min(${d?.width || `100vw`}, 1200px) - 60px)`,
                                         },
                                         MNFOeKjhJ: {
-                                          width: `max((min(${c?.width || `100vw`}, 1200px) - 70px) / 2, 1px)`,
+                                          width: `max((min(${d?.width || `100vw`}, 1200px) - 70px) / 2, 1px)`,
                                         },
                                       },
                                       children: h(K, {
                                         height: 94,
-                                        width: `max((max((min(${c?.width || `100vw`}, 1200px) - 100px) / 2, 1px) - 10px) / 2, 1px)`,
-                                        children: h(U, {
+                                        width: `max((max((min(${d?.width || `100vw`}, 1200px) - 100px) / 2, 1px) - 10px) / 2, 1px)`,
+                                        children: h(V, {
                                           className: `framer-1vo5xwn-container`,
                                           nodeId: `O_aGj4OEv`,
                                           scopeId: `augiA20Il`,
-                                          children: h(H, {
+                                          children: h(U, {
                                             breakpoint: y,
                                             overrides: {
                                               dV9dN50OP: { variant: $(`CyAGZEOr5`) },
@@ -15733,27 +15319,27 @@ e(() => {
                     h(C.section, {
                       className: `framer-hl8uki`,
                       "data-framer-name": `Tab Content`,
-                      id: j,
+                      id: ne,
                       layout: w,
-                      ref: M,
+                      ref: N,
                       children: h(`div`, {
                         className: `framer-jkn0t7`,
                         "data-framer-name": `container`,
-                        children: h(H, {
+                        children: h(U, {
                           breakpoint: y,
                           overrides: {
                             dV9dN50OP: {
-                              width: `max(min(${c?.width || `100vw`}, 1200px) - 40px, 1px)`,
+                              width: `max(min(${d?.width || `100vw`}, 1200px) - 40px, 1px)`,
                             },
                           },
                           children: h(K, {
                             height: 660,
-                            width: `max(min(${c?.width || `100vw`}, 1200px) - 50px, 1px)`,
-                            children: h(U, {
+                            width: `max(min(${d?.width || `100vw`}, 1200px) - 50px, 1px)`,
+                            children: h(V, {
                               className: `framer-c4w6c8-container`,
                               nodeId: `tFLfNDzaA`,
                               scopeId: `augiA20Il`,
-                              children: h(H, {
+                              children: h(U, {
                                 breakpoint: y,
                                 overrides: {
                                   dV9dN50OP: { variant: $(`SHPjrE0Ds`) },
@@ -15781,14 +15367,14 @@ e(() => {
                         className: `framer-swwljn`,
                         "data-framer-name": `Wrapper`,
                         children: [
-                          h(B, {
+                          h(G, {
                             as: `figure`,
                             background: {
                               alt: ``,
                               fit: `fill`,
                               pixelHeight: 771,
                               pixelWidth: 1289,
-                              sizes: c?.width || `100vw`,
+                              sizes: d?.width || `100vw`,
                               src: `../../assets/images/mBYSe88xFFrut92HaZbLp6U460.svg`,
                               srcSet: `../../assets/images/mBYSe88xFFrut92HaZbLp6U460.svg?scale-down-to=512&width=1289&height=771 512w,../../assets/images/mBYSe88xFFrut92HaZbLp6U460.svg?scale-down-to=1024&width=1289&height=771 1024w,../../assets/images/mBYSe88xFFrut92HaZbLp6U460.svg 1289w`,
                             },
@@ -15804,7 +15390,7 @@ e(() => {
                               "data-border": !0,
                               "data-framer-name": `Decors`,
                               children: [
-                                h(Uc, {
+                                h(Sc, {
                                   __framer__spring: {
                                     damping: 60,
                                     delay: 0,
@@ -15851,9 +15437,9 @@ e(() => {
                                   "data-border": !0,
                                   "data-framer-name": `AI Chip`,
                                   style: { transformPerspective: 500 },
-                                  children: h(J, {
+                                  children: h(L, {
                                     __fromCanvasComponent: !0,
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(`h3`, {
                                         style: {
                                           "--font-selector": `R0Y7SW50ZXItcmVndWxhcg==`,
@@ -15873,18 +15459,18 @@ e(() => {
                                     }),
                                     className: `framer-shxrxy`,
                                     fonts: [`GF;Inter-regular`],
-                                    transformTemplate: al,
+                                    transformTemplate: Lc,
                                     verticalAlignment: `top`,
                                     withExternalLayout: !0,
                                   }),
                                 }),
-                                h(Uc, {
-                                  __framer__loop: sl,
+                                h(Sc, {
+                                  __framer__loop: zc,
                                   __framer__loopEffectEnabled: !0,
                                   __framer__loopPauseOffscreen: !0,
                                   __framer__loopRepeatDelay: 0,
                                   __framer__loopRepeatType: `mirror`,
-                                  __framer__loopTransition: ol,
+                                  __framer__loopTransition: Rc,
                                   __framer__styleTransformEffectEnabled: !0,
                                   __framer__transformTargets: [
                                     {
@@ -15919,7 +15505,7 @@ e(() => {
                                   __targetOpacity: 1,
                                   className: `framer-eby5ch`,
                                   "data-framer-name": `Light`,
-                                  transformTemplate: al,
+                                  transformTemplate: Lc,
                                 }),
                                 _(`div`, {
                                   className: `framer-ua5e1b`,
@@ -16030,7 +15616,7 @@ e(() => {
                                   className: `framer-1704cpc`,
                                   "data-framer-name": `Top`,
                                   style: { rotate: 180 },
-                                  transformTemplate: cl,
+                                  transformTemplate: Bc,
                                   children: [
                                     _(`div`, {
                                       className: `framer-9pkixk`,
@@ -16137,7 +15723,7 @@ e(() => {
                                   className: `framer-1tacat3`,
                                   "data-framer-name": `Left`,
                                   style: { rotate: 90 },
-                                  transformTemplate: ll,
+                                  transformTemplate: Vc,
                                   children: [
                                     _(`div`, {
                                       className: `framer-zgcfdk`,
@@ -16233,7 +15819,7 @@ e(() => {
                                   className: `framer-2kludh`,
                                   "data-framer-name": `Right`,
                                   style: { rotate: -90 },
-                                  transformTemplate: ll,
+                                  transformTemplate: Vc,
                                   children: [
                                     _(`div`, {
                                       className: `framer-12arpol`,
@@ -16325,7 +15911,7 @@ e(() => {
                                     }),
                                   ],
                                 }),
-                                h(B, {
+                                h(G, {
                                   background: {
                                     alt: ``,
                                     backgroundSize: 0.29,
@@ -16343,7 +15929,7 @@ e(() => {
                               ],
                             }),
                           }),
-                          _(Uc, {
+                          _(Sc, {
                             __framer__spring: {
                               damping: 60,
                               delay: 0,
@@ -16389,9 +15975,9 @@ e(() => {
                             className: `framer-18f2cvk`,
                             "data-framer-name": `Card`,
                             style: { transformPerspective: 500 },
-                            transformTemplate: al,
+                            transformTemplate: Lc,
                             children: [
-                              h(B, {
+                              h(G, {
                                 background: {
                                   alt: ``,
                                   backgroundSize: 0.6,
@@ -16410,19 +15996,19 @@ e(() => {
                                 className: `framer-8p2ooy`,
                                 "data-framer-name": `Copy`,
                                 children: [
-                                  h(J, {
+                                  h(L, {
                                     __fromCanvasComponent: !0,
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(`h3`, {
+                                        dir: `auto`,
                                         style: {
                                           "--font-selector": `R0Y7SW50ZXItNjAw`,
-                                          "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
                                           "--framer-font-size": `40px`,
                                           "--framer-font-weight": `600`,
                                           "--framer-text-alignment": `center`,
                                           "--framer-text-color": `var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, rgb(245, 245, 245))`,
                                         },
-                                        children: `Flamer`,
+                                        children: `Util4dev`,
                                       }),
                                     }),
                                     className: `framer-1g13tt7`,
@@ -16430,19 +16016,19 @@ e(() => {
                                     verticalAlignment: `top`,
                                     withExternalLayout: !0,
                                   }),
-                                  h(J, {
+                                  h(L, {
                                     __fromCanvasComponent: !0,
-                                    children: h(s, {
+                                    children: h(a, {
                                       children: h(`h3`, {
+                                        dir: `auto`,
                                         style: {
                                           "--font-selector": `R0Y7SW50ZXItMzAw`,
-                                          "--framer-font-family": `"Inter", "Inter Placeholder", sans-serif`,
                                           "--framer-font-size": `22px`,
                                           "--framer-font-weight": `300`,
                                           "--framer-text-alignment": `center`,
                                           "--framer-text-color": `var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, rgb(245, 245, 245))`,
                                         },
-                                        children: `All-in-one AI`,
+                                        children: `Nền tảng tiện ích`,
                                       }),
                                     }),
                                     className: `framer-1t98ne0`,
@@ -16465,17 +16051,17 @@ e(() => {
                         className: `framer-1j73nb`,
                         "data-framer-name": `Container`,
                         children: [
-                          h(H, {
+                          h(U, {
                             breakpoint: y,
                             overrides: {
                               dV9dN50OP: {
-                                width: `calc(min(${c?.width || `100vw`}, 1200px) - 40px)`,
+                                width: `calc(min(${d?.width || `100vw`}, 1200px) - 40px)`,
                               },
                             },
                             children: h(K, {
                               height: 193,
-                              width: `calc(min(max(${c?.width || `100vw`}, 1px), 1200px) - 50px)`,
-                              children: h(U, {
+                              width: `calc(min(max(${d?.width || `100vw`}, 1px), 1200px) - 50px)`,
+                              children: h(V, {
                                 className: `framer-1x9ilpz-container`,
                                 nodeId: `Y4jmwJ7eg`,
                                 scopeId: `augiA20Il`,
@@ -16485,7 +16071,7 @@ e(() => {
                                   height: `100%`,
                                   id: `Y4jmwJ7eg`,
                                   layoutId: `Y4jmwJ7eg`,
-                                  sIRtTcVp7: `Unique Features`,
+                                  sIRtTcVp7: `Tính năng độc quyền `,
                                   style: { width: `100%` },
                                   TmroXSTYL: `Harness the power of AI to create, optimize, and automate like never before. Flamer streamlines your content process.`,
                                   width: `100%`,
@@ -16493,17 +16079,17 @@ e(() => {
                               }),
                             }),
                           }),
-                          h(H, {
+                          h(U, {
                             breakpoint: y,
                             overrides: {
                               dV9dN50OP: {
-                                width: `calc(min(${c?.width || `100vw`}, 1200px) - 40px)`,
+                                width: `calc(min(${d?.width || `100vw`}, 1200px) - 40px)`,
                               },
                             },
                             children: h(K, {
                               height: 398,
-                              width: `calc(min(max(${c?.width || `100vw`}, 1px), 1200px) - 50px)`,
-                              children: h(U, {
+                              width: `calc(min(max(${d?.width || `100vw`}, 1px), 1200px) - 50px)`,
+                              children: h(V, {
                                 className: `framer-xd1ple-container`,
                                 nodeId: `hM4JpdrkK`,
                                 scopeId: `augiA20Il`,
@@ -16528,49 +16114,49 @@ e(() => {
                         className: `framer-1lqrq9m`,
                         "data-framer-name": `Container`,
                         children: [
-                          h(H, {
+                          h(U, {
                             breakpoint: y,
                             overrides: {
                               dV9dN50OP: {
-                                width: `calc(min(${c?.width || `100vw`}, 1200px) - 40px)`,
+                                width: `calc(min(${d?.width || `100vw`}, 1200px) - 40px)`,
                               },
                             },
                             children: h(K, {
                               height: 193,
-                              width: `calc(min(max(${c?.width || `100vw`}, 1px), 1200px) - 50px)`,
-                              children: h(U, {
+                              width: `calc(min(max(${d?.width || `100vw`}, 1px), 1200px) - 50px)`,
+                              children: h(V, {
                                 className: `framer-13vydhe-container`,
                                 nodeId: `l23j0jFfm`,
                                 scopeId: `augiA20Il`,
                                 children: h(rn, {
                                   blBXxPHbO: !0,
-                                  bRyvaH27Q: `Amazing Features`,
+                                  bRyvaH27Q: `Những tính năng hấp dẫn `,
                                   height: `100%`,
                                   id: `l23j0jFfm`,
                                   layoutId: `l23j0jFfm`,
                                   sIRtTcVp7: `All-in-one`,
                                   style: { width: `100%` },
-                                  TmroXSTYL: `Harness the power of AI to create, optimize, and automate like never before. Flamer streamlines your content process.`,
+                                  TmroXSTYL: `Khai thác sức mạnh của AI agent để tạo, tối ưu hóa và tự động hóa hơn bao giờ hết. Util4dev là nền tảng giúp đơn giản hóa quy trình công việc của bạn.`,
                                   width: `100%`,
                                 }),
                               }),
                             }),
                           }),
-                          h(H, {
+                          h(U, {
                             breakpoint: y,
                             overrides: {
                               dV9dN50OP: {
-                                width: `calc(min(${c?.width || `100vw`}, 1200px) - 40px)`,
+                                width: `calc(min(${d?.width || `100vw`}, 1200px) - 40px)`,
                               },
                             },
                             children: h(K, {
                               height: 573,
-                              width: `calc(min(max(${c?.width || `100vw`}, 1px), 1200px) - 50px)`,
-                              children: h(U, {
+                              width: `calc(min(max(${d?.width || `100vw`}, 1px), 1200px) - 50px)`,
+                              children: h(V, {
                                 className: `framer-a7r3bf-container`,
                                 nodeId: `ALpI4vCyC`,
                                 scopeId: `augiA20Il`,
-                                children: h(H, {
+                                children: h(U, {
                                   breakpoint: y,
                                   overrides: { dV9dN50OP: { variant: $(`YkRwyK5Zj`) } },
                                   children: h(Bs, {
@@ -16592,106 +16178,52 @@ e(() => {
                       className: `framer-3ikoin`,
                       "data-framer-name": `Testimonials`,
                       layout: w,
-                      children: _(`div`, {
+                      children: h(`div`, {
                         className: `framer-ut05aa`,
                         "data-framer-name": `Container`,
-                        children: [
-                          h(H, {
-                            breakpoint: y,
-                            overrides: {
-                              dV9dN50OP: {
-                                width: `calc(min(${c?.width || `100vw`}, 1200px) - 40px)`,
-                              },
-                            },
-                            children: h(K, {
-                              height: 193,
-                              width: `calc(min(max(${c?.width || `100vw`}, 1px), 1200px) - 50px)`,
-                              children: h(U, {
-                                className: `framer-3pixh4-container`,
-                                nodeId: `GSyUu3aWo`,
-                                scopeId: `augiA20Il`,
-                                children: h(rn, {
-                                  blBXxPHbO: !0,
-                                  bRyvaH27Q: `What creators say`,
-                                  height: `100%`,
-                                  id: `GSyUu3aWo`,
-                                  layoutId: `GSyUu3aWo`,
-                                  sIRtTcVp7: `Loved by AI-first teams`,
-                                  style: { width: `100%` },
-                                  TmroXSTYL: `From solo founders to growing content teams, FlamerX is transforming how people create, publish, and scale with AI.`,
-                                  width: `100%`,
-                                }),
-                              }),
-                            }),
-                          }),
-                          h(H, {
-                            breakpoint: y,
-                            overrides: {
-                              dV9dN50OP: {
-                                width: `calc(min(${c?.width || `100vw`}, 1200px) - 40px)`,
-                              },
-                            },
-                            children: h(K, {
-                              height: 440,
-                              width: `calc(min(max(${c?.width || `100vw`}, 1px), 1200px) - 50px)`,
-                              children: h(U, {
-                                className: `framer-13cezmo-container`,
-                                nodeId: `KtzsvZZhN`,
-                                scopeId: `augiA20Il`,
-                                children: h(sc, {
-                                  height: `100%`,
-                                  id: `KtzsvZZhN`,
-                                  layoutId: `KtzsvZZhN`,
-                                  style: { width: `100%` },
-                                  width: `100%`,
-                                }),
-                              }),
-                            }),
-                          }),
-                        ],
                       }),
                     }),
                     _(C.section, {
                       className: `framer-4rcdqo`,
                       "data-framer-name": `Generated Images`,
-                      id: ne,
+                      id: P,
                       layout: w,
-                      ref: D(ne),
+                      ref: j(P),
                       children: [
                         h(K, {
                           height: 193,
-                          width: c?.width || `100vw`,
-                          children: h(U, {
+                          width: d?.width || `100vw`,
+                          children: h(V, {
                             className: `framer-t6hoyi-container`,
+                            id: F,
                             nodeId: `zKzXmXRGU`,
+                            ref: re,
                             scopeId: `augiA20Il`,
                             children: h(rn, {
                               blBXxPHbO: !0,
-                              bRyvaH27Q: `Next Level Image Gen`,
+                              bRyvaH27Q: `Chuyển dịch nhân sự từ thế bị động sang chủ động`,
                               height: `100%`,
                               id: `zKzXmXRGU`,
                               layoutId: `zKzXmXRGU`,
-                              sIRtTcVp7: `Next Gen AI Images`,
+                              sIRtTcVp7: `Ứng dụng thực tế`,
                               style: { width: `100%` },
-                              TmroXSTYL: `Forget all the image creation tools you know, FlamerX creates images for you beyond your dreams`,
+                              TmroXSTYL: `Thay vì tốn thời gian giám sát thủ công, hãy cấu hình AI Agent để tự động quét và phát hiện mọi bất thường hệ thống 24/7. `,
                               width: `100%`,
                             }),
                           }),
                         }),
-                        h(H, {
+                        h(U, {
                           breakpoint: y,
                           overrides: { dV9dN50OP: { height: 500 } },
                           children: h(K, {
                             height: 1e3,
-                            width: c?.width || `100vw`,
-                            children: h(U, {
+                            width: d?.width || `100vw`,
+                            children: h(V, {
                               className: `framer-rlgwnx-container`,
-                              id: N,
                               nodeId: `adTRrxLJn`,
-                              ref: P,
                               rendersWithMotion: !0,
                               scopeId: `augiA20Il`,
-                              children: h(Yc, {
+                              children: h(Dc, {
                                 __framer__animateOnce: !1,
                                 __framer__threshold: 1,
                                 __framer__variantAppearEffectEnabled: !0,
@@ -16709,9 +16241,9 @@ e(() => {
                     h(C.section, {
                       className: `framer-iis1dp`,
                       "data-framer-name": `Product Contents`,
-                      id: I,
+                      id: ie,
                       layout: w,
-                      ref: R,
+                      ref: oe,
                       children: _(`div`, {
                         className: `framer-1xenox7`,
                         "data-border": !0,
@@ -16722,14 +16254,14 @@ e(() => {
                             "data-framer-name": `content`,
                             children: [
                               h(K, {
-                                children: h(U, {
+                                children: h(V, {
                                   className: `framer-4z21j4-container`,
                                   "data-framer-name": `Video`,
                                   isModuleExternal: !0,
                                   name: `Video`,
                                   nodeId: `mZCf8mOn5`,
                                   scopeId: `augiA20Il`,
-                                  children: h(ke, {
+                                  children: h(Ae, {
                                     borderRadius: 25,
                                     bottomLeftRadius: 25,
                                     bottomRightRadius: 25,
@@ -16760,11 +16292,11 @@ e(() => {
                                     className: `framer-1ud89md`,
                                     "data-framer-name": `Copy`,
                                     children: [
-                                      h(H, {
+                                      h(U, {
                                         breakpoint: y,
                                         overrides: {
                                           dV9dN50OP: {
-                                            children: h(s, {
+                                            children: h(a, {
                                               children: h(`h2`, {
                                                 className: `framer-styles-preset-14yy0fo`,
                                                 "data-styles-preset": `U2wSnEg3t`,
@@ -16783,9 +16315,9 @@ e(() => {
                                             }),
                                           },
                                         },
-                                        children: h(J, {
+                                        children: h(L, {
                                           __fromCanvasComponent: !0,
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`h2`, {
                                               className: `framer-styles-preset-14yy0fo`,
                                               "data-styles-preset": `U2wSnEg3t`,
@@ -16807,11 +16339,11 @@ e(() => {
                                           withExternalLayout: !0,
                                         }),
                                       }),
-                                      h(H, {
+                                      h(U, {
                                         breakpoint: y,
                                         overrides: {
                                           dV9dN50OP: {
-                                            children: h(s, {
+                                            children: h(a, {
                                               children: h(`p`, {
                                                 className: `framer-styles-preset-1ywp38s`,
                                                 "data-styles-preset": `chuOPspnt`,
@@ -16824,9 +16356,9 @@ e(() => {
                                             }),
                                           },
                                         },
-                                        children: h(J, {
+                                        children: h(L, {
                                           __fromCanvasComponent: !0,
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`p`, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
@@ -16850,25 +16382,25 @@ e(() => {
                                 className: `framer-s3q4nu`,
                                 "data-framer-name": `Testimonial Grid`,
                                 children: [
-                                  h(H, {
+                                  h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
-                                        width: `calc(min(${c?.width || `100vw`} - 40px, 1200px) - 50px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 40px, 1200px) - 50px)`,
                                       },
                                       MNFOeKjhJ: {
-                                        width: `calc(min(${c?.width || `100vw`} - 48px, 1200px) - 80px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 48px, 1200px) - 80px)`,
                                       },
                                     },
                                     children: h(K, {
                                       height: 273,
-                                      width: `max((min(${c?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
-                                      children: h(U, {
+                                      width: `max((min(${d?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
+                                      children: h(V, {
                                         className: `framer-xxy9et-container`,
                                         nodeId: `rIEJc79jB`,
                                         scopeId: `augiA20Il`,
                                         children: h(ja, {
-                                          dq0WYZkam: ul(
+                                          dq0WYZkam: Hc(
                                             {
                                               pixelHeight: 1312,
                                               pixelWidth: 736,
@@ -16889,25 +16421,25 @@ e(() => {
                                       }),
                                     }),
                                   }),
-                                  h(H, {
+                                  h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
-                                        width: `calc(min(${c?.width || `100vw`} - 40px, 1200px) - 50px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 40px, 1200px) - 50px)`,
                                       },
                                       MNFOeKjhJ: {
-                                        width: `calc(min(${c?.width || `100vw`} - 48px, 1200px) - 80px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 48px, 1200px) - 80px)`,
                                       },
                                     },
                                     children: h(K, {
                                       height: 273,
-                                      width: `max((min(${c?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
-                                      children: h(U, {
+                                      width: `max((min(${d?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
+                                      children: h(V, {
                                         className: `framer-1l65csp-container`,
                                         nodeId: `uoPfRXOKX`,
                                         scopeId: `augiA20Il`,
                                         children: h(ja, {
-                                          dq0WYZkam: ul(
+                                          dq0WYZkam: Hc(
                                             {
                                               pixelHeight: 1312,
                                               pixelWidth: 736,
@@ -16938,80 +16470,74 @@ e(() => {
                                     className: `framer-rdc6sc`,
                                     "data-framer-name": `Copy`,
                                     children: [
-                                      h(H, {
+                                      h(U, {
                                         breakpoint: y,
                                         overrides: {
                                           dV9dN50OP: {
-                                            children: h(s, {
+                                            children: h(a, {
                                               children: h(`h3`, {
                                                 className: `framer-styles-preset-12qzpp4`,
                                                 "data-styles-preset": `wHxkTk0jb`,
+                                                dir: `auto`,
                                                 style: {
                                                   "--framer-text-alignment": `center`,
                                                   "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                                 },
-                                                children: h(`span`, {
-                                                  "data-text-fill": `true`,
-                                                  style: {
-                                                    backgroundImage: `linear-gradient(270deg, rgb(255, 255, 255) 0%, var(--token-efa3e356-ac9a-49c3-9f07-9b43f54692b7, rgb(167, 139, 250)) 100%)`,
-                                                  },
-                                                  children: `Frequently Asked Questions`,
-                                                }),
+                                                children: `Những câu hỏi thường gặp`,
                                               }),
                                             }),
                                           },
                                         },
-                                        children: h(J, {
+                                        children: h(L, {
                                           __fromCanvasComponent: !0,
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`h3`, {
                                               className: `framer-styles-preset-12qzpp4`,
                                               "data-styles-preset": `wHxkTk0jb`,
+                                              dir: `auto`,
                                               style: {
                                                 "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                               },
-                                              children: h(`span`, {
-                                                "data-text-fill": `true`,
-                                                style: {
-                                                  backgroundImage: `linear-gradient(270deg, rgb(255, 255, 255) 0%, var(--token-efa3e356-ac9a-49c3-9f07-9b43f54692b7, rgb(167, 139, 250)) 100%)`,
-                                                },
-                                                children: `Frequently Asked Questions`,
-                                              }),
+                                              children: `Những câu hỏi thường gặp`,
                                             }),
                                           }),
                                           className: `framer-jx47os`,
                                           fonts: [`Inter`],
+                                          id: R,
+                                          ref: z,
                                           verticalAlignment: `top`,
                                           withExternalLayout: !0,
                                         }),
                                       }),
-                                      h(H, {
+                                      h(U, {
                                         breakpoint: y,
                                         overrides: {
                                           dV9dN50OP: {
-                                            children: h(s, {
+                                            children: h(a, {
                                               children: h(`p`, {
                                                 className: `framer-styles-preset-1ywp38s`,
                                                 "data-styles-preset": `chuOPspnt`,
+                                                dir: `auto`,
                                                 style: {
                                                   "--framer-text-alignment": `center`,
                                                   "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                                 },
-                                                children: `Everything you need to know about Flamer before getting started.`,
+                                                children: `Tất cả những điều bạn cần biết về Util4dev trước khi bắt đầu sử dụng`,
                                               }),
                                             }),
                                           },
                                         },
-                                        children: h(J, {
+                                        children: h(L, {
                                           __fromCanvasComponent: !0,
-                                          children: h(s, {
+                                          children: h(a, {
                                             children: h(`p`, {
                                               className: `framer-styles-preset-1ywp38s`,
                                               "data-styles-preset": `chuOPspnt`,
+                                              dir: `auto`,
                                               style: {
                                                 "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                               },
-                                              children: `Everything you need to know about Flamer before getting started.`,
+                                              children: `Tất cả những điều bạn cần biết về Util4dev trước khi bắt đầu sử dụng`,
                                             }),
                                           }),
                                           className: `framer-dmav2q`,
@@ -17022,24 +16548,24 @@ e(() => {
                                       }),
                                     ],
                                   }),
-                                  h(H, {
+                                  h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
-                                        width: `calc(min(${c?.width || `100vw`} - 40px, 1200px) - 50px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 40px, 1200px) - 50px)`,
                                       },
                                       MNFOeKjhJ: {
-                                        width: `calc(min(${c?.width || `100vw`} - 48px, 1200px) - 80px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 48px, 1200px) - 80px)`,
                                       },
                                     },
                                     children: h(K, {
                                       height: 82,
-                                      width: `max((min(${c?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
-                                      children: h(U, {
+                                      width: `max((min(${d?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
+                                      children: h(V, {
                                         className: `framer-1pcksmg-container`,
                                         nodeId: `EBNMcAQFa`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Sc, {
+                                        children: h(tc, {
                                           height: `100%`,
                                           I8x_1pBcj: `How does Flamer work?`,
                                           id: `EBNMcAQFa`,
@@ -17056,24 +16582,24 @@ e(() => {
                                       }),
                                     }),
                                   }),
-                                  h(H, {
+                                  h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
-                                        width: `calc(min(${c?.width || `100vw`} - 40px, 1200px) - 50px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 40px, 1200px) - 50px)`,
                                       },
                                       MNFOeKjhJ: {
-                                        width: `calc(min(${c?.width || `100vw`} - 48px, 1200px) - 80px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 48px, 1200px) - 80px)`,
                                       },
                                     },
                                     children: h(K, {
                                       height: 82,
-                                      width: `max((min(${c?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
-                                      children: h(U, {
+                                      width: `max((min(${d?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
+                                      children: h(V, {
                                         className: `framer-1t3z73n-container`,
                                         nodeId: `m1PPLCI3K`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Sc, {
+                                        children: h(tc, {
                                           height: `100%`,
                                           I8x_1pBcj: `Do I need any technical skills to use Flamer?`,
                                           id: `m1PPLCI3K`,
@@ -17090,24 +16616,24 @@ e(() => {
                                       }),
                                     }),
                                   }),
-                                  h(H, {
+                                  h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
-                                        width: `calc(min(${c?.width || `100vw`} - 40px, 1200px) - 50px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 40px, 1200px) - 50px)`,
                                       },
                                       MNFOeKjhJ: {
-                                        width: `calc(min(${c?.width || `100vw`} - 48px, 1200px) - 80px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 48px, 1200px) - 80px)`,
                                       },
                                     },
                                     children: h(K, {
                                       height: 82,
-                                      width: `max((min(${c?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
-                                      children: h(U, {
+                                      width: `max((min(${d?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
+                                      children: h(V, {
                                         className: `framer-lxy4y4-container`,
                                         nodeId: `JcrKmJGCC`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Sc, {
+                                        children: h(tc, {
                                           height: `100%`,
                                           I8x_1pBcj: `Are the contents generated by Flamer unique?`,
                                           id: `JcrKmJGCC`,
@@ -17124,24 +16650,24 @@ e(() => {
                                       }),
                                     }),
                                   }),
-                                  h(H, {
+                                  h(U, {
                                     breakpoint: y,
                                     overrides: {
                                       dV9dN50OP: {
-                                        width: `calc(min(${c?.width || `100vw`} - 40px, 1200px) - 50px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 40px, 1200px) - 50px)`,
                                       },
                                       MNFOeKjhJ: {
-                                        width: `calc(min(${c?.width || `100vw`} - 48px, 1200px) - 80px)`,
+                                        width: `calc(min(${d?.width || `100vw`} - 48px, 1200px) - 80px)`,
                                       },
                                     },
                                     children: h(K, {
                                       height: 82,
-                                      width: `max((min(${c?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
-                                      children: h(U, {
+                                      width: `max((min(${d?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px)`,
+                                      children: h(V, {
                                         className: `framer-1scxxvo-container`,
                                         nodeId: `C10yzXb47`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Sc, {
+                                        children: h(tc, {
                                           height: `100%`,
                                           I8x_1pBcj: `Can I try Flamer for free?`,
                                           id: `C10yzXb47`,
@@ -17162,24 +16688,24 @@ e(() => {
                               }),
                             ],
                           }),
-                          h(H, {
+                          h(U, {
                             breakpoint: y,
                             overrides: {
                               dV9dN50OP: {
-                                width: `calc(min(${c?.width || `100vw`} - 40px, 1200px) - 50px)`,
+                                width: `calc(min(${d?.width || `100vw`} - 40px, 1200px) - 50px)`,
                               },
                               MNFOeKjhJ: {
-                                width: `calc(min(${c?.width || `100vw`} - 48px, 1200px) - 80px)`,
+                                width: `calc(min(${d?.width || `100vw`} - 48px, 1200px) - 80px)`,
                               },
                             },
                             children: h(K, {
                               height: 459,
-                              width: `min(max((min(${c?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px), (min(${c?.width || `100vw`} - 50px, 1200px) - 80px) * 0.3)`,
-                              children: h(U, {
+                              width: `min(max((min(${d?.width || `100vw`} - 50px, 1200px) - 120px) / 2, 1px), (min(${d?.width || `100vw`} - 50px, 1200px) - 80px) * 0.3)`,
+                              children: h(V, {
                                 className: `framer-a7kr4n-container`,
                                 nodeId: `DXDiXNvM6`,
                                 scopeId: `augiA20Il`,
-                                children: h(H, {
+                                children: h(U, {
                                   breakpoint: y,
                                   overrides: {
                                     dV9dN50OP: { style: { width: `100%` } },
@@ -17203,11 +16729,6 @@ e(() => {
                         ],
                       }),
                     }),
-                    h(C.section, {
-                      className: `framer-pod46v`,
-                      "data-framer-name": `CTA`,
-                      layout: w,
-                    }),
                   ],
                 }),
                 h(`div`, { id: `overlay` }),
@@ -17217,119 +16738,119 @@ e(() => {
         );
       }),
       [
-        `.framer-Gk3Tz.framer-lux5qc, .framer-Gk3Tz .framer-lux5qc { display: block; }`,
-        `.framer-Gk3Tz.framer-72rtr7 { align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1200px; }`,
-        `.framer-Gk3Tz .framer-7dod6r { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; scroll-margin-top: 200px; width: 100%; z-index: 5; }`,
-        `.framer-Gk3Tz .framer-1mki1k0 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 13%) add; align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 13%) add; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
-        `.framer-Gk3Tz .framer-1au44ra { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-Gk3Tz .framer-39pjht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-wmsqgn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; left: 100px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 9; }`,
-        `.framer-Gk3Tz .framer-np6d6q { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; overflow: hidden; padding: 0px; position: absolute; right: 100px; top: 0px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 8; }`,
-        `.framer-Gk3Tz .framer-1ok201j-container { flex: none; height: auto; position: relative; width: 100%; z-index: 3; }`,
-        `.framer-Gk3Tz .framer-9vblh4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; max-height: 710px; overflow: visible; padding: 0px; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-Gk3Tz .framer-pw3zxg { --border-bottom-width: 0px; --border-color: rgba(255, 255, 255, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(66px); align-content: center; align-items: center; aspect-ratio: 1.986206896551724 / 1; backdrop-filter: blur(66px); background-color: rgba(1, 1, 23, 0.8); border-top-left-radius: 30px; border-top-right-radius: 30px; box-shadow: inset 0px 0px 12px 0px rgba(255, 255, 255, 0.25); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: auto; justify-content: center; max-height: 580px; overflow: visible; padding: 10px; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-Gk3Tz .framer-14jm00u { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 2.0214285714285714 / 1; border-top-left-radius: 24px; border-top-right-radius: 24px; flex: none; height: auto; max-height: 560px; overflow: hidden; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-Gk3Tz .framer-13indg1 { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) add; mix-blend-mode: screen; opacity: 0.09; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-2y58l1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; scroll-margin-top: 150px; width: 100%; }`,
-        `.framer-Gk3Tz .framer-k0af9v { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 27px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 100px 25px 100px 25px; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-la7fvh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 17px; height: min-content; justify-content: center; max-width: 975px; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1ix5vbv, .framer-Gk3Tz .framer-19nc088, .framer-Gk3Tz .framer-iwgkyw, .framer-Gk3Tz .framer-5aywpq, .framer-Gk3Tz .framer-esox5h, .framer-Gk3Tz .framer-qoiezj, .framer-Gk3Tz .framer-1a10g8j, .framer-Gk3Tz .framer-1kw4qni, .framer-Gk3Tz .framer-cwkj3m, .framer-Gk3Tz .framer-1v0joqm, .framer-Gk3Tz .framer-1g13tt7, .framer-Gk3Tz .framer-1t98ne0 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-        `.framer-Gk3Tz .framer-1obwh4c, .framer-Gk3Tz .framer-lvsu6d, .framer-Gk3Tz .framer-10pj67n, .framer-Gk3Tz .framer-1fiua8d { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 62px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 62px; will-change: var(--framer-will-change-filter-override, filter); }`,
-        `.framer-Gk3Tz .framer-1qlm5z7, .framer-Gk3Tz .framer-11h0s18, .framer-Gk3Tz .framer-hl8uki { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-16gd5iv, .framer-Gk3Tz .framer-1fv2udu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-flkrtb { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-1afaic6 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1l0fz2d, .framer-Gk3Tz .framer-y0l0rk { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1unbp0v-container, .framer-Gk3Tz .framer-zroyd3-container { flex: none; height: auto; position: relative; width: auto; }`,
-        `.framer-Gk3Tz .framer-kwokev, .framer-Gk3Tz .framer-fgnpc0, .framer-Gk3Tz .framer-i58id4, .framer-Gk3Tz .framer-tqr107 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 500px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-Gk3Tz .framer-wdmzrp, .framer-Gk3Tz .framer-1i2yrmx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-be6r75-container, .framer-Gk3Tz .framer-1d14rzc-container, .framer-Gk3Tz .framer-1t71dbs-container, .framer-Gk3Tz .framer-1vo5xwn-container, .framer-Gk3Tz .framer-c4w6c8-container, .framer-Gk3Tz .framer-xxy9et-container, .framer-Gk3Tz .framer-1l65csp-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-154jz2f-container { align-self: stretch; flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-zqr5yg { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 0; }`,
-        `.framer-Gk3Tz .framer-1v3a43r { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-feyxnm { --border-bottom-width: 1px; --border-color: rgba(250, 250, 250, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-bottom-left-radius: 34px; border-bottom-right-radius: 34px; border-top-left-radius: 34px; border-top-right-radius: 34px; box-shadow: inset 0px 0.421531111242075px 0.421531111242075px -0.8333333333333333px rgba(255, 255, 255, 0.13), inset 0px 1.60197331227042px 1.60197331227042px -1.6666666666666665px rgba(255, 255, 255, 0.13), inset 0px 7px 7px -2.5px rgba(255, 255, 255, 0.13); display: grid; flex: none; gap: 20px 20px; grid-auto-rows: min-content; grid-template-columns: repeat(auto-fill, minmax(282px, 1fr)); height: min-content; justify-content: center; overflow: visible; padding: 20px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1psnt4v, .framer-Gk3Tz .framer-xjqzmg, .framer-Gk3Tz .framer-16c0xdy, .framer-Gk3Tz .framer-xngrzv { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 1fr; }`,
-        `.framer-Gk3Tz .framer-jx3klg-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-Gk3Tz .framer-6uiyx3, .framer-Gk3Tz .framer-f9gs6n { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-f3x7a-container, .framer-Gk3Tz .framer-8lw8u4-container, .framer-Gk3Tz .framer-ztv74n-container, .framer-Gk3Tz .framer-1elfzky-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-Gk3Tz .framer-znhnrm-container { flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-Gk3Tz .framer-w99w4p { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; aspect-ratio: 1.0126582278481013 / 1; background-color: #010117; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: auto; justify-content: center; overflow: hidden; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-Gk3Tz .framer-nbkp49 { flex: none; height: 342px; left: calc(50.00000000000002% - 429px / 2); overflow: hidden; position: absolute; top: calc(50.09041591320075% - 342px / 2); width: 429px; z-index: 6; }`,
-        `.framer-Gk3Tz .framer-n8js10 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; bottom: 1px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; left: 0px; padding: 30px; position: absolute; width: min-content; z-index: 8; }`,
-        `.framer-Gk3Tz .framer-1axadyl, .framer-Gk3Tz .framer-1madksd { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-        `.framer-Gk3Tz .framer-uf1zfz, .framer-Gk3Tz .framer-1ily88o { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-        `.framer-Gk3Tz .framer-1s4cmew, .framer-Gk3Tz .framer-1bxaqb { background-color: rgba(255, 255, 255, 0.1); flex: none; height: 1px; overflow: hidden; position: relative; width: 231px; }`,
-        `.framer-Gk3Tz .framer-34b1uq, .framer-Gk3Tz .framer-1q33nos, .framer-Gk3Tz .framer-1fkwiq9, .framer-Gk3Tz .framer-1t7yud9, .framer-Gk3Tz .framer-gnplo5 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; align-self: stretch; flex: none; height: auto; position: relative; white-space: pre-wrap; width: auto; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-Gk3Tz .framer-9zmqk2 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; padding: 30px; position: absolute; right: 0px; top: 1px; width: min-content; z-index: 9; }`,
-        `.framer-Gk3Tz .framer-putkun, .framer-Gk3Tz .framer-1xda8k8, .framer-Gk3Tz .framer-1kor0q7 { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: auto; }`,
-        `.framer-Gk3Tz .framer-p6tjzn, .framer-Gk3Tz .framer-bj3gl6 { aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-Gk3Tz .framer-1q7qg1, .framer-Gk3Tz .framer-rgkh0s, .framer-Gk3Tz .framer-8d4qq { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-Gk3Tz .framer-l5pl4y { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.29); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-Gk3Tz .framer-1mc1cmk-container { flex: none; height: 20px; left: calc(50.00000000000002% - 20px / 2); position: absolute; top: calc(50.00000000000002% - 20px / 2); width: 20px; }`,
-        `.framer-Gk3Tz .framer-hajfu1 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.15; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-101kz2c { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-gug6nb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-jkn0t7 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-561hc4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 100vh; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-swwljn { flex: none; height: 100vh; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-heo43w { -webkit-mask: radial-gradient(36% 53% at 50% 50%, #000000 0%, rgba(0,0,0,0) 100%) add; bottom: 0px; flex: none; left: 0px; mask: radial-gradient(36% 53% at 50% 50%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%) add; opacity: 0.3; overflow: hidden; position: absolute; right: 0px; top: 0px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
-        `.framer-Gk3Tz .framer-usmt83 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; border-top-left-radius: 50px; border-top-right-radius: 50px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 240px; justify-content: center; left: calc(50.00000000000002% - 240px / 2); overflow: visible; padding: 60px 40px 60px 40px; position: absolute; top: calc(50.062893081761025% - 240px / 2); width: 240px; z-index: 5; }`,
-        `.framer-Gk3Tz .framer-184qr9z { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: #010117; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-top-left-radius: 45px; border-top-right-radius: 45px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.1), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px -5px 0px 0px rgb(18, 18, 38); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 230px; justify-content: center; overflow: visible; padding: 60px 40px 60px 40px; position: relative; width: 230px; }`,
-        `.framer-Gk3Tz .framer-ix4n7k { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.08); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: #0f0f1c; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; border-top-left-radius: 11px; border-top-right-radius: 11px; box-shadow: inset 0px -5px 0px 0px #151526, 0px 2px 50px 0px rgba(255, 255, 255, 0.25); flex: none; height: 100px; left: calc(50.00000000000002% - 100px / 2); overflow: visible; position: absolute; top: calc(50.00000000000002% - 100px / 2); width: 100px; z-index: 8; }`,
-        `.framer-Gk3Tz .framer-shxrxy { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); white-space: pre; width: auto; z-index: 3; }`,
-        `.framer-Gk3Tz .framer-eby5ch { -webkit-filter: blur(50px); aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; border-top-left-radius: 60px; border-top-right-radius: 60px; filter: blur(50px); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 149px; will-change: var(--framer-will-change-override, transform); z-index: 7; }`,
-        `.framer-Gk3Tz .framer-ua5e1b { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; bottom: 0px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; transform: translateX(-50%); width: min-content; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-d2f385, .framer-Gk3Tz .framer-9gt9oc, .framer-Gk3Tz .framer-1esk5v6, .framer-Gk3Tz .framer-1x0uys9, .framer-Gk3Tz .framer-amoeb6, .framer-Gk3Tz .framer-6hekwl, .framer-Gk3Tz .framer-1srqqzw, .framer-Gk3Tz .framer-425ty6, .framer-Gk3Tz .framer-so1fg0, .framer-Gk3Tz .framer-9pkixk, .framer-Gk3Tz .framer-1dqaayv, .framer-Gk3Tz .framer-lov685, .framer-Gk3Tz .framer-1p36qzv, .framer-Gk3Tz .framer-1swmpqo, .framer-Gk3Tz .framer-1lphk7i, .framer-Gk3Tz .framer-1dghyv2, .framer-Gk3Tz .framer-1biver0, .framer-Gk3Tz .framer-bi87nm, .framer-Gk3Tz .framer-zgcfdk, .framer-Gk3Tz .framer-1sj3ks9, .framer-Gk3Tz .framer-f487ef, .framer-Gk3Tz .framer-1tte299, .framer-Gk3Tz .framer-p4hlcq, .framer-Gk3Tz .framer-1h2n2r9, .framer-Gk3Tz .framer-dlpv88, .framer-Gk3Tz .framer-zokmbl, .framer-Gk3Tz .framer-12arpol, .framer-Gk3Tz .framer-1y1wi5, .framer-Gk3Tz .framer-xcsk9u, .framer-Gk3Tz .framer-1kcp2ao, .framer-Gk3Tz .framer-mv5f17, .framer-Gk3Tz .framer-n0a3b1, .framer-Gk3Tz .framer-vat3ft, .framer-Gk3Tz .framer-113kpbl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 7px; }`,
-        `.framer-Gk3Tz .framer-10gecie, .framer-Gk3Tz .framer-sc8g0l, .framer-Gk3Tz .framer-1iuql6i, .framer-Gk3Tz .framer-12s2puc, .framer-Gk3Tz .framer-1xfwsb1, .framer-Gk3Tz .framer-1i6kawf, .framer-Gk3Tz .framer-rf53n8, .framer-Gk3Tz .framer-867xl, .framer-Gk3Tz .framer-1tfh29b, .framer-Gk3Tz .framer-1eda2up, .framer-Gk3Tz .framer-1qw4diq, .framer-Gk3Tz .framer-36a1sf, .framer-Gk3Tz .framer-y1i8tj, .framer-Gk3Tz .framer-1w3w184, .framer-Gk3Tz .framer-41fqr7, .framer-Gk3Tz .framer-1r7widh, .framer-Gk3Tz .framer-ya9uhb, .framer-Gk3Tz .framer-1r8goa4, .framer-Gk3Tz .framer-zu341p, .framer-Gk3Tz .framer-xflsxq, .framer-Gk3Tz .framer-ho0m6l, .framer-Gk3Tz .framer-7nv7an, .framer-Gk3Tz .framer-7bj5wz, .framer-Gk3Tz .framer-fnyeb8, .framer-Gk3Tz .framer-1dgg61f, .framer-Gk3Tz .framer-wd5i5z, .framer-Gk3Tz .framer-zd88su, .framer-Gk3Tz .framer-1t8qsas, .framer-Gk3Tz .framer-13rwvn9, .framer-Gk3Tz .framer-hsobs1, .framer-Gk3Tz .framer-l3dhnu, .framer-Gk3Tz .framer-1vu9xoi, .framer-Gk3Tz .framer-qjqm97, .framer-Gk3Tz .framer-1c1oc41 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-18hq8p2, .framer-Gk3Tz .framer-bqwiqu, .framer-Gk3Tz .framer-1swx3aq, .framer-Gk3Tz .framer-1w4aefw, .framer-Gk3Tz .framer-1tpir69, .framer-Gk3Tz .framer-15rq9h7, .framer-Gk3Tz .framer-1m3oam1, .framer-Gk3Tz .framer-1ju0v5u, .framer-Gk3Tz .framer-1tglqmr, .framer-Gk3Tz .framer-1uf9mxj, .framer-Gk3Tz .framer-1h7hn3v, .framer-Gk3Tz .framer-fcegqc, .framer-Gk3Tz .framer-1xpg41w, .framer-Gk3Tz .framer-grcv3c, .framer-Gk3Tz .framer-9iej07, .framer-Gk3Tz .framer-186tb14, .framer-Gk3Tz .framer-iawexo, .framer-Gk3Tz .framer-1xvjhhw, .framer-Gk3Tz .framer-12sev8g, .framer-Gk3Tz .framer-fapyao, .framer-Gk3Tz .framer-1wkdjqn, .framer-Gk3Tz .framer-1isb641, .framer-Gk3Tz .framer-1thuvo1, .framer-Gk3Tz .framer-opqvdb, .framer-Gk3Tz .framer-cz9lgj, .framer-Gk3Tz .framer-1cxikid, .framer-Gk3Tz .framer-1njdv9x, .framer-Gk3Tz .framer-1uxj224, .framer-Gk3Tz .framer-36wm5j, .framer-Gk3Tz .framer-cmiagn, .framer-Gk3Tz .framer-trdy3u, .framer-Gk3Tz .framer-dp41nc, .framer-Gk3Tz .framer-1olfxnc, .framer-Gk3Tz .framer-1c7vd7a { background-color: #26263b; flex: none; height: 2px; overflow: hidden; position: relative; width: 3px; }`,
-        `.framer-Gk3Tz .framer-1blku5b, .framer-Gk3Tz .framer-vryvz3, .framer-Gk3Tz .framer-1lgx97q, .framer-Gk3Tz .framer-1vo5k69, .framer-Gk3Tz .framer-1sc3pyy, .framer-Gk3Tz .framer-1oy9leb, .framer-Gk3Tz .framer-8r580i, .framer-Gk3Tz .framer-1cfwvrk, .framer-Gk3Tz .framer-1oprtfp, .framer-Gk3Tz .framer-3sq8h3, .framer-Gk3Tz .framer-9eu0qa, .framer-Gk3Tz .framer-1pp8gvd, .framer-Gk3Tz .framer-1jpo2es, .framer-Gk3Tz .framer-4e81e7, .framer-Gk3Tz .framer-1bh4qeh, .framer-Gk3Tz .framer-1r06lh2, .framer-Gk3Tz .framer-1hh7ji4, .framer-Gk3Tz .framer-1j94mul, .framer-Gk3Tz .framer-1pwbak4, .framer-Gk3Tz .framer-82mlkx, .framer-Gk3Tz .framer-bpr2qe, .framer-Gk3Tz .framer-z03wpc, .framer-Gk3Tz .framer-1is7cls, .framer-Gk3Tz .framer-1822x3x, .framer-Gk3Tz .framer-bwg342, .framer-Gk3Tz .framer-1yz2he9, .framer-Gk3Tz .framer-1klubqh, .framer-Gk3Tz .framer-1i9zwqc, .framer-Gk3Tz .framer-11bt983, .framer-Gk3Tz .framer-30dnev, .framer-Gk3Tz .framer-3yrj4, .framer-Gk3Tz .framer-grfgz6, .framer-Gk3Tz .framer-1tlzkai, .framer-Gk3Tz .framer-10hqp73 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-or86ni, .framer-Gk3Tz .framer-l19m8k, .framer-Gk3Tz .framer-1ll7tok, .framer-Gk3Tz .framer-mqrfb2, .framer-Gk3Tz .framer-l765d2, .framer-Gk3Tz .framer-13n0vxr, .framer-Gk3Tz .framer-luf7wi, .framer-Gk3Tz .framer-13rvf71, .framer-Gk3Tz .framer-1iglmqd, .framer-Gk3Tz .framer-44fsjz, .framer-Gk3Tz .framer-vwx8me, .framer-Gk3Tz .framer-uwvk6e, .framer-Gk3Tz .framer-6p4uyb, .framer-Gk3Tz .framer-1mgctqc, .framer-Gk3Tz .framer-1rkg42b, .framer-Gk3Tz .framer-168l4j, .framer-Gk3Tz .framer-1w6t7gu, .framer-Gk3Tz .framer-1b5vybr, .framer-Gk3Tz .framer-2re22o, .framer-Gk3Tz .framer-19ymgc3, .framer-Gk3Tz .framer-1l1nqhm, .framer-Gk3Tz .framer-104g80q, .framer-Gk3Tz .framer-1mved3f, .framer-Gk3Tz .framer-1xa0xbr, .framer-Gk3Tz .framer-1xldh3q, .framer-Gk3Tz .framer-q8ut7y, .framer-Gk3Tz .framer-19x7o1d, .framer-Gk3Tz .framer-1h93ipv, .framer-Gk3Tz .framer-ndjb9l, .framer-Gk3Tz .framer-1pt695f, .framer-Gk3Tz .framer-12b51mw, .framer-Gk3Tz .framer-194mruf, .framer-Gk3Tz .framer-1hmmem9, .framer-Gk3Tz .framer-zz7l6b { background-color: #26263b; flex: none; height: 6px; overflow: hidden; position: relative; width: 3px; }`,
-        `.framer-Gk3Tz .framer-10qqhre, .framer-Gk3Tz .framer-1y3kixc, .framer-Gk3Tz .framer-dujhfu, .framer-Gk3Tz .framer-16o62ae, .framer-Gk3Tz .framer-jnqi3m, .framer-Gk3Tz .framer-fzkgk7, .framer-Gk3Tz .framer-1qqodxh, .framer-Gk3Tz .framer-1wszigl, .framer-Gk3Tz .framer-140tmra, .framer-Gk3Tz .framer-rs00n7, .framer-Gk3Tz .framer-baims5, .framer-Gk3Tz .framer-1ty5wsh, .framer-Gk3Tz .framer-htzwl1, .framer-Gk3Tz .framer-120teex, .framer-Gk3Tz .framer-16x1y9q, .framer-Gk3Tz .framer-15351tf, .framer-Gk3Tz .framer-yyyb0b, .framer-Gk3Tz .framer-1lafilr, .framer-Gk3Tz .framer-1n43xx3, .framer-Gk3Tz .framer-1q892uq, .framer-Gk3Tz .framer-z4jszg, .framer-Gk3Tz .framer-xdtpf1, .framer-Gk3Tz .framer-oz109a, .framer-Gk3Tz .framer-i4ldro, .framer-Gk3Tz .framer-zxc94p, .framer-Gk3Tz .framer-1x73ba2, .framer-Gk3Tz .framer-jjkcfb, .framer-Gk3Tz .framer-1sgbbek, .framer-Gk3Tz .framer-1n86hme, .framer-Gk3Tz .framer-16rxcnq, .framer-Gk3Tz .framer-oh247, .framer-Gk3Tz .framer-1j2j096, .framer-Gk3Tz .framer-14gn505, .framer-Gk3Tz .framer-lghanc { background-color: #26263b; flex: none; height: 30px; overflow: hidden; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-1704cpc { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 0px; transform: translateX(-50%); width: min-content; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-1tacat3 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: -20px; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-2kludh { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-107c3z8 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; bottom: 0px; filter: invert(1); flex: none; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-18f2cvk { aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 39px; border-bottom-right-radius: 39px; border-top-left-radius: 39px; border-top-right-radius: 39px; box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.52), inset 0px -4px 1px 0px rgba(255, 255, 255, 0.25); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 217px; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
-        `.framer-Gk3Tz .framer-imcr1b { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgba(0,0,0,0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-8p2ooy { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 100%; z-index: 5; }`,
-        `.framer-Gk3Tz .framer-1w04aur, .framer-Gk3Tz .framer-3ikoin { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1j73nb, .framer-Gk3Tz .framer-ut05aa { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; z-index: 0; }`,
-        `.framer-Gk3Tz .framer-1x9ilpz-container, .framer-Gk3Tz .framer-13vydhe-container, .framer-Gk3Tz .framer-3pixh4-container, .framer-Gk3Tz .framer-t6hoyi-container { flex: none; height: auto; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-xd1ple-container, .framer-Gk3Tz .framer-a7r3bf-container, .framer-Gk3Tz .framer-13cezmo-container, .framer-Gk3Tz .framer-1pcksmg-container, .framer-Gk3Tz .framer-1t3z73n-container, .framer-Gk3Tz .framer-lxy4y4-container, .framer-Gk3Tz .framer-1scxxvo-container { flex: none; height: auto; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-yr7e8u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1lqrq9m { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-4rcdqo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: visible; padding: 75px 0px 75px 0px; position: relative; scroll-margin-top: 100px; width: 100%; }`,
-        `.framer-Gk3Tz .framer-rlgwnx-container { flex: none; height: 100vh; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-iis1dp { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 75px 25px 75px 25px; position: relative; scroll-margin-top: 150px; width: 100%; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-1xenox7 { --border-bottom-width: 1px; --border-color: var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; border-bottom-left-radius: 44px; border-bottom-right-radius: 44px; border-top-left-radius: 44px; border-top-right-radius: 44px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 40px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1pdk0aw { align-content: flex-start; align-items: flex-start; align-self: stretch; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: auto; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-Gk3Tz .framer-4z21j4-container { aspect-ratio: 1.6488372093023256 / 1; flex: none; height: auto; min-height: 430px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1uvw7h { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 26px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-owrlp1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1ud89md { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1b1disl, .framer-Gk3Tz .framer-1b2wotv { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 90%; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-Gk3Tz .framer-s3q4nu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 15px 15px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-1a2p70w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-rdc6sc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-Gk3Tz .framer-jx47os, .framer-Gk3Tz .framer-dmav2q { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-Gk3Tz .framer-a7kr4n-container { flex: 1 0 0px; height: auto; max-width: 30%; position: sticky; top: 35px; width: 1px; z-index: 1; }`,
-        `.framer-Gk3Tz .framer-pod46v { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 1px; justify-content: center; overflow: hidden; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
-        ...kc,
+        `.framer-HE7pv.framer-lux5qc, .framer-HE7pv .framer-lux5qc { display: block; }`,
+        `.framer-HE7pv.framer-72rtr7 { align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1200px; }`,
+        `.framer-HE7pv .framer-7dod6r { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; scroll-margin-top: 200px; width: 100%; z-index: 5; }`,
+        `.framer-HE7pv .framer-1mki1k0 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 13%) add; align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 13%) add; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
+        `.framer-HE7pv .framer-1au44ra { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-HE7pv .framer-39pjht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-wmsqgn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; left: 18px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 9; }`,
+        `.framer-HE7pv .framer-np6d6q { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; overflow: hidden; padding: 0px; position: absolute; right: 22px; top: -5px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 5; }`,
+        `.framer-HE7pv .framer-1ok201j-container { flex: none; height: auto; position: relative; width: 100%; z-index: 3; }`,
+        `.framer-HE7pv .framer-9vblh4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; max-height: 710px; overflow: visible; padding: 0px; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-HE7pv .framer-pw3zxg { --border-bottom-width: 0px; --border-color: rgba(255, 255, 255, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(66px); align-content: center; align-items: center; aspect-ratio: 1.986206896551724 / 1; backdrop-filter: blur(66px); background-color: rgba(1, 1, 23, 0.8); border-top-left-radius: 30px; border-top-right-radius: 30px; box-shadow: inset 0px 0px 12px 0px rgba(255, 255, 255, 0.25); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: auto; justify-content: center; max-height: 580px; overflow: visible; padding: 10px; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-HE7pv .framer-14jm00u { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 2.0214285714285714 / 1; border-top-left-radius: 24px; border-top-right-radius: 24px; flex: none; height: auto; max-height: 560px; overflow: hidden; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-HE7pv .framer-13indg1 { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) add; mix-blend-mode: screen; opacity: 0.09; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-HE7pv .framer-2y58l1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; scroll-margin-top: 150px; width: 100%; }`,
+        `.framer-HE7pv .framer-k0af9v { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 27px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 100px 25px 100px 25px; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-la7fvh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 17px; height: min-content; justify-content: center; max-width: 975px; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1ix5vbv, .framer-HE7pv .framer-19nc088, .framer-HE7pv .framer-iwgkyw, .framer-HE7pv .framer-5aywpq, .framer-HE7pv .framer-esox5h, .framer-HE7pv .framer-qoiezj, .framer-HE7pv .framer-1a10g8j, .framer-HE7pv .framer-1kw4qni, .framer-HE7pv .framer-cwkj3m, .framer-HE7pv .framer-1v0joqm, .framer-HE7pv .framer-1g13tt7, .framer-HE7pv .framer-1t98ne0 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+        `.framer-HE7pv .framer-1obwh4c, .framer-HE7pv .framer-lvsu6d, .framer-HE7pv .framer-10pj67n, .framer-HE7pv .framer-1fiua8d { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 62px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 62px; will-change: var(--framer-will-change-filter-override, filter); }`,
+        `.framer-HE7pv .framer-1qlm5z7, .framer-HE7pv .framer-11h0s18, .framer-HE7pv .framer-hl8uki { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-HE7pv .framer-16gd5iv, .framer-HE7pv .framer-1fv2udu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-flkrtb { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-1afaic6 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1l0fz2d, .framer-HE7pv .framer-y0l0rk { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1unbp0v-container, .framer-HE7pv .framer-zroyd3-container { flex: none; height: auto; position: relative; width: auto; }`,
+        `.framer-HE7pv .framer-kwokev, .framer-HE7pv .framer-fgnpc0, .framer-HE7pv .framer-i58id4, .framer-HE7pv .framer-tqr107 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 500px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-HE7pv .framer-wdmzrp, .framer-HE7pv .framer-1i2yrmx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-be6r75-container, .framer-HE7pv .framer-1d14rzc-container, .framer-HE7pv .framer-1t71dbs-container, .framer-HE7pv .framer-1vo5xwn-container, .framer-HE7pv .framer-c4w6c8-container, .framer-HE7pv .framer-xxy9et-container, .framer-HE7pv .framer-1l65csp-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-154jz2f-container { align-self: stretch; flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-zqr5yg { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 0; }`,
+        `.framer-HE7pv .framer-1v3a43r { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-feyxnm { --border-bottom-width: 1px; --border-color: rgba(250, 250, 250, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-bottom-left-radius: 34px; border-bottom-right-radius: 34px; border-top-left-radius: 34px; border-top-right-radius: 34px; box-shadow: inset 0px 0.421531111242075px 0.421531111242075px -0.8333333333333333px rgba(255, 255, 255, 0.13), inset 0px 1.60197331227042px 1.60197331227042px -1.6666666666666665px rgba(255, 255, 255, 0.13), inset 0px 7px 7px -2.5px rgba(255, 255, 255, 0.13); display: grid; flex: none; gap: 20px 20px; grid-auto-rows: min-content; grid-template-columns: repeat(auto-fill, minmax(282px, 1fr)); height: min-content; justify-content: center; overflow: visible; padding: 20px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1psnt4v, .framer-HE7pv .framer-xjqzmg, .framer-HE7pv .framer-16c0xdy, .framer-HE7pv .framer-xngrzv { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 1fr; }`,
+        `.framer-HE7pv .framer-jx3klg-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-HE7pv .framer-6uiyx3, .framer-HE7pv .framer-f9gs6n { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-f3x7a-container, .framer-HE7pv .framer-8lw8u4-container, .framer-HE7pv .framer-ztv74n-container, .framer-HE7pv .framer-1elfzky-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-HE7pv .framer-znhnrm-container { flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-HE7pv .framer-w99w4p { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; aspect-ratio: 1.0126582278481013 / 1; background-color: #010117; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: auto; justify-content: center; overflow: hidden; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-HE7pv .framer-nbkp49 { flex: none; height: 342px; left: calc(50.00000000000002% - 429px / 2); overflow: hidden; position: absolute; top: calc(50.09041591320075% - 342px / 2); width: 429px; z-index: 6; }`,
+        `.framer-HE7pv .framer-n8js10 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; bottom: 1px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; left: 0px; padding: 30px; position: absolute; width: min-content; z-index: 8; }`,
+        `.framer-HE7pv .framer-1axadyl, .framer-HE7pv .framer-1madksd { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-HE7pv .framer-uf1zfz, .framer-HE7pv .framer-1ily88o { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-HE7pv .framer-1s4cmew, .framer-HE7pv .framer-1bxaqb { background-color: rgba(255, 255, 255, 0.1); flex: none; height: 1px; overflow: hidden; position: relative; width: 231px; }`,
+        `.framer-HE7pv .framer-34b1uq, .framer-HE7pv .framer-1q33nos, .framer-HE7pv .framer-1fkwiq9, .framer-HE7pv .framer-1t7yud9, .framer-HE7pv .framer-gnplo5 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; align-self: stretch; flex: none; height: auto; position: relative; white-space: pre-wrap; width: auto; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-HE7pv .framer-9zmqk2 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; padding: 30px; position: absolute; right: 0px; top: 1px; width: min-content; z-index: 9; }`,
+        `.framer-HE7pv .framer-putkun, .framer-HE7pv .framer-1xda8k8, .framer-HE7pv .framer-1kor0q7 { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: auto; }`,
+        `.framer-HE7pv .framer-p6tjzn, .framer-HE7pv .framer-bj3gl6 { aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-HE7pv .framer-1q7qg1, .framer-HE7pv .framer-rgkh0s, .framer-HE7pv .framer-8d4qq { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-HE7pv .framer-l5pl4y { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.29); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-HE7pv .framer-1mc1cmk-container { flex: none; height: 20px; left: calc(50.00000000000002% - 20px / 2); position: absolute; top: calc(50.00000000000002% - 20px / 2); width: 20px; }`,
+        `.framer-HE7pv .framer-hajfu1 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.15; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-HE7pv .framer-101kz2c { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-gug6nb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-jkn0t7 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-561hc4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 100vh; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-swwljn { flex: none; height: 100vh; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-HE7pv .framer-heo43w { -webkit-mask: radial-gradient(36% 53% at 50% 50%, #000000 0%, rgba(0,0,0,0) 100%) add; bottom: 0px; flex: none; left: 0px; mask: radial-gradient(36% 53% at 50% 50%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%) add; opacity: 0.3; overflow: hidden; position: absolute; right: 0px; top: 0px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
+        `.framer-HE7pv .framer-usmt83 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; border-top-left-radius: 50px; border-top-right-radius: 50px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 240px; justify-content: center; left: calc(50.00000000000002% - 240px / 2); overflow: visible; padding: 60px 40px 60px 40px; position: absolute; top: calc(50.062893081761025% - 240px / 2); width: 240px; z-index: 5; }`,
+        `.framer-HE7pv .framer-184qr9z { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: #010117; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-top-left-radius: 45px; border-top-right-radius: 45px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.1), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px -5px 0px 0px rgb(18, 18, 38); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 230px; justify-content: center; overflow: visible; padding: 60px 40px 60px 40px; position: relative; width: 230px; }`,
+        `.framer-HE7pv .framer-ix4n7k { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.08); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: #0f0f1c; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; border-top-left-radius: 11px; border-top-right-radius: 11px; box-shadow: inset 0px -5px 0px 0px #151526, 0px 2px 50px 0px rgba(255, 255, 255, 0.25); flex: none; height: 100px; left: calc(50.00000000000002% - 100px / 2); overflow: visible; position: absolute; top: calc(50.00000000000002% - 100px / 2); width: 100px; z-index: 8; }`,
+        `.framer-HE7pv .framer-shxrxy { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); white-space: pre; width: auto; z-index: 3; }`,
+        `.framer-HE7pv .framer-eby5ch { -webkit-filter: blur(50px); aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; border-top-left-radius: 60px; border-top-right-radius: 60px; filter: blur(50px); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 149px; will-change: var(--framer-will-change-override, transform); z-index: 7; }`,
+        `.framer-HE7pv .framer-ua5e1b { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; bottom: 0px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; transform: translateX(-50%); width: min-content; z-index: 1; }`,
+        `.framer-HE7pv .framer-d2f385, .framer-HE7pv .framer-9gt9oc, .framer-HE7pv .framer-1esk5v6, .framer-HE7pv .framer-1x0uys9, .framer-HE7pv .framer-amoeb6, .framer-HE7pv .framer-6hekwl, .framer-HE7pv .framer-1srqqzw, .framer-HE7pv .framer-425ty6, .framer-HE7pv .framer-so1fg0, .framer-HE7pv .framer-9pkixk, .framer-HE7pv .framer-1dqaayv, .framer-HE7pv .framer-lov685, .framer-HE7pv .framer-1p36qzv, .framer-HE7pv .framer-1swmpqo, .framer-HE7pv .framer-1lphk7i, .framer-HE7pv .framer-1dghyv2, .framer-HE7pv .framer-1biver0, .framer-HE7pv .framer-bi87nm, .framer-HE7pv .framer-zgcfdk, .framer-HE7pv .framer-1sj3ks9, .framer-HE7pv .framer-f487ef, .framer-HE7pv .framer-1tte299, .framer-HE7pv .framer-p4hlcq, .framer-HE7pv .framer-1h2n2r9, .framer-HE7pv .framer-dlpv88, .framer-HE7pv .framer-zokmbl, .framer-HE7pv .framer-12arpol, .framer-HE7pv .framer-1y1wi5, .framer-HE7pv .framer-xcsk9u, .framer-HE7pv .framer-1kcp2ao, .framer-HE7pv .framer-mv5f17, .framer-HE7pv .framer-n0a3b1, .framer-HE7pv .framer-vat3ft, .framer-HE7pv .framer-113kpbl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 7px; }`,
+        `.framer-HE7pv .framer-10gecie, .framer-HE7pv .framer-sc8g0l, .framer-HE7pv .framer-1iuql6i, .framer-HE7pv .framer-12s2puc, .framer-HE7pv .framer-1xfwsb1, .framer-HE7pv .framer-1i6kawf, .framer-HE7pv .framer-rf53n8, .framer-HE7pv .framer-867xl, .framer-HE7pv .framer-1tfh29b, .framer-HE7pv .framer-1eda2up, .framer-HE7pv .framer-1qw4diq, .framer-HE7pv .framer-36a1sf, .framer-HE7pv .framer-y1i8tj, .framer-HE7pv .framer-1w3w184, .framer-HE7pv .framer-41fqr7, .framer-HE7pv .framer-1r7widh, .framer-HE7pv .framer-ya9uhb, .framer-HE7pv .framer-1r8goa4, .framer-HE7pv .framer-zu341p, .framer-HE7pv .framer-xflsxq, .framer-HE7pv .framer-ho0m6l, .framer-HE7pv .framer-7nv7an, .framer-HE7pv .framer-7bj5wz, .framer-HE7pv .framer-fnyeb8, .framer-HE7pv .framer-1dgg61f, .framer-HE7pv .framer-wd5i5z, .framer-HE7pv .framer-zd88su, .framer-HE7pv .framer-1t8qsas, .framer-HE7pv .framer-13rwvn9, .framer-HE7pv .framer-hsobs1, .framer-HE7pv .framer-l3dhnu, .framer-HE7pv .framer-1vu9xoi, .framer-HE7pv .framer-qjqm97, .framer-HE7pv .framer-1c1oc41 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-18hq8p2, .framer-HE7pv .framer-bqwiqu, .framer-HE7pv .framer-1swx3aq, .framer-HE7pv .framer-1w4aefw, .framer-HE7pv .framer-1tpir69, .framer-HE7pv .framer-15rq9h7, .framer-HE7pv .framer-1m3oam1, .framer-HE7pv .framer-1ju0v5u, .framer-HE7pv .framer-1tglqmr, .framer-HE7pv .framer-1uf9mxj, .framer-HE7pv .framer-1h7hn3v, .framer-HE7pv .framer-fcegqc, .framer-HE7pv .framer-1xpg41w, .framer-HE7pv .framer-grcv3c, .framer-HE7pv .framer-9iej07, .framer-HE7pv .framer-186tb14, .framer-HE7pv .framer-iawexo, .framer-HE7pv .framer-1xvjhhw, .framer-HE7pv .framer-12sev8g, .framer-HE7pv .framer-fapyao, .framer-HE7pv .framer-1wkdjqn, .framer-HE7pv .framer-1isb641, .framer-HE7pv .framer-1thuvo1, .framer-HE7pv .framer-opqvdb, .framer-HE7pv .framer-cz9lgj, .framer-HE7pv .framer-1cxikid, .framer-HE7pv .framer-1njdv9x, .framer-HE7pv .framer-1uxj224, .framer-HE7pv .framer-36wm5j, .framer-HE7pv .framer-cmiagn, .framer-HE7pv .framer-trdy3u, .framer-HE7pv .framer-dp41nc, .framer-HE7pv .framer-1olfxnc, .framer-HE7pv .framer-1c7vd7a { background-color: #26263b; flex: none; height: 2px; overflow: hidden; position: relative; width: 3px; }`,
+        `.framer-HE7pv .framer-1blku5b, .framer-HE7pv .framer-vryvz3, .framer-HE7pv .framer-1lgx97q, .framer-HE7pv .framer-1vo5k69, .framer-HE7pv .framer-1sc3pyy, .framer-HE7pv .framer-1oy9leb, .framer-HE7pv .framer-8r580i, .framer-HE7pv .framer-1cfwvrk, .framer-HE7pv .framer-1oprtfp, .framer-HE7pv .framer-3sq8h3, .framer-HE7pv .framer-9eu0qa, .framer-HE7pv .framer-1pp8gvd, .framer-HE7pv .framer-1jpo2es, .framer-HE7pv .framer-4e81e7, .framer-HE7pv .framer-1bh4qeh, .framer-HE7pv .framer-1r06lh2, .framer-HE7pv .framer-1hh7ji4, .framer-HE7pv .framer-1j94mul, .framer-HE7pv .framer-1pwbak4, .framer-HE7pv .framer-82mlkx, .framer-HE7pv .framer-bpr2qe, .framer-HE7pv .framer-z03wpc, .framer-HE7pv .framer-1is7cls, .framer-HE7pv .framer-1822x3x, .framer-HE7pv .framer-bwg342, .framer-HE7pv .framer-1yz2he9, .framer-HE7pv .framer-1klubqh, .framer-HE7pv .framer-1i9zwqc, .framer-HE7pv .framer-11bt983, .framer-HE7pv .framer-30dnev, .framer-HE7pv .framer-3yrj4, .framer-HE7pv .framer-grfgz6, .framer-HE7pv .framer-1tlzkai, .framer-HE7pv .framer-10hqp73 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-or86ni, .framer-HE7pv .framer-l19m8k, .framer-HE7pv .framer-1ll7tok, .framer-HE7pv .framer-mqrfb2, .framer-HE7pv .framer-l765d2, .framer-HE7pv .framer-13n0vxr, .framer-HE7pv .framer-luf7wi, .framer-HE7pv .framer-13rvf71, .framer-HE7pv .framer-1iglmqd, .framer-HE7pv .framer-44fsjz, .framer-HE7pv .framer-vwx8me, .framer-HE7pv .framer-uwvk6e, .framer-HE7pv .framer-6p4uyb, .framer-HE7pv .framer-1mgctqc, .framer-HE7pv .framer-1rkg42b, .framer-HE7pv .framer-168l4j, .framer-HE7pv .framer-1w6t7gu, .framer-HE7pv .framer-1b5vybr, .framer-HE7pv .framer-2re22o, .framer-HE7pv .framer-19ymgc3, .framer-HE7pv .framer-1l1nqhm, .framer-HE7pv .framer-104g80q, .framer-HE7pv .framer-1mved3f, .framer-HE7pv .framer-1xa0xbr, .framer-HE7pv .framer-1xldh3q, .framer-HE7pv .framer-q8ut7y, .framer-HE7pv .framer-19x7o1d, .framer-HE7pv .framer-1h93ipv, .framer-HE7pv .framer-ndjb9l, .framer-HE7pv .framer-1pt695f, .framer-HE7pv .framer-12b51mw, .framer-HE7pv .framer-194mruf, .framer-HE7pv .framer-1hmmem9, .framer-HE7pv .framer-zz7l6b { background-color: #26263b; flex: none; height: 6px; overflow: hidden; position: relative; width: 3px; }`,
+        `.framer-HE7pv .framer-10qqhre, .framer-HE7pv .framer-1y3kixc, .framer-HE7pv .framer-dujhfu, .framer-HE7pv .framer-16o62ae, .framer-HE7pv .framer-jnqi3m, .framer-HE7pv .framer-fzkgk7, .framer-HE7pv .framer-1qqodxh, .framer-HE7pv .framer-1wszigl, .framer-HE7pv .framer-140tmra, .framer-HE7pv .framer-rs00n7, .framer-HE7pv .framer-baims5, .framer-HE7pv .framer-1ty5wsh, .framer-HE7pv .framer-htzwl1, .framer-HE7pv .framer-120teex, .framer-HE7pv .framer-16x1y9q, .framer-HE7pv .framer-15351tf, .framer-HE7pv .framer-yyyb0b, .framer-HE7pv .framer-1lafilr, .framer-HE7pv .framer-1n43xx3, .framer-HE7pv .framer-1q892uq, .framer-HE7pv .framer-z4jszg, .framer-HE7pv .framer-xdtpf1, .framer-HE7pv .framer-oz109a, .framer-HE7pv .framer-i4ldro, .framer-HE7pv .framer-zxc94p, .framer-HE7pv .framer-1x73ba2, .framer-HE7pv .framer-jjkcfb, .framer-HE7pv .framer-1sgbbek, .framer-HE7pv .framer-1n86hme, .framer-HE7pv .framer-16rxcnq, .framer-HE7pv .framer-oh247, .framer-HE7pv .framer-1j2j096, .framer-HE7pv .framer-14gn505, .framer-HE7pv .framer-lghanc { background-color: #26263b; flex: none; height: 30px; overflow: hidden; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-1704cpc { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 0px; transform: translateX(-50%); width: min-content; z-index: 1; }`,
+        `.framer-HE7pv .framer-1tacat3 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: -20px; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
+        `.framer-HE7pv .framer-2kludh { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
+        `.framer-HE7pv .framer-107c3z8 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; bottom: 0px; filter: invert(1); flex: none; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+        `.framer-HE7pv .framer-18f2cvk { aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 39px; border-bottom-right-radius: 39px; border-top-left-radius: 39px; border-top-right-radius: 39px; box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.52), inset 0px -4px 1px 0px rgba(255, 255, 255, 0.25); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 217px; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
+        `.framer-HE7pv .framer-imcr1b { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgba(0,0,0,0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-HE7pv .framer-8p2ooy { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 100%; z-index: 5; }`,
+        `.framer-HE7pv .framer-1w04aur, .framer-HE7pv .framer-3ikoin { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1j73nb { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; z-index: 0; }`,
+        `.framer-HE7pv .framer-1x9ilpz-container, .framer-HE7pv .framer-13vydhe-container, .framer-HE7pv .framer-t6hoyi-container { flex: none; height: auto; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-HE7pv .framer-xd1ple-container, .framer-HE7pv .framer-a7r3bf-container, .framer-HE7pv .framer-1pcksmg-container, .framer-HE7pv .framer-1t3z73n-container, .framer-HE7pv .framer-lxy4y4-container, .framer-HE7pv .framer-1scxxvo-container { flex: none; height: auto; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-yr7e8u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1lqrq9m { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-ut05aa { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: 1px; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; z-index: 0; }`,
+        `.framer-HE7pv .framer-4rcdqo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: visible; padding: 75px 0px 75px 0px; position: relative; scroll-margin-top: 100px; width: 100%; }`,
+        `.framer-HE7pv .framer-rlgwnx-container { flex: none; height: 100vh; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-iis1dp { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 75px 25px 75px 25px; position: relative; scroll-margin-top: 150px; width: 100%; z-index: 1; }`,
+        `.framer-HE7pv .framer-1xenox7 { --border-bottom-width: 1px; --border-color: var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; border-bottom-left-radius: 44px; border-bottom-right-radius: 44px; border-top-left-radius: 44px; border-top-right-radius: 44px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 40px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1pdk0aw { align-content: flex-start; align-items: flex-start; align-self: stretch; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: auto; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-HE7pv .framer-4z21j4-container { aspect-ratio: 1.6488372093023256 / 1; flex: none; height: auto; min-height: 430px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1uvw7h { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 26px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-owrlp1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1ud89md { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1b1disl, .framer-HE7pv .framer-1b2wotv { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 90%; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-HE7pv .framer-s3q4nu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 15px 15px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-1a2p70w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-rdc6sc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-HE7pv .framer-jx47os, .framer-HE7pv .framer-dmav2q { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-HE7pv .framer-a7kr4n-container { flex: 1 0 0px; height: auto; max-width: 30%; position: sticky; top: 35px; width: 1px; z-index: 1; }`,
+        ...cc,
         ...Pt,
         ...ft,
-        ...Tc,
-        ...Ne,
-        ...Nc,
-        `.framer-Gk3Tz[data-border="true"]::after, .framer-Gk3Tz [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
-        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-Gk3Tz.framer-72rtr7 { width: 810px; } .framer-Gk3Tz .framer-1au44ra { gap: 50px; padding: 50px 25px 0px 25px; } .framer-Gk3Tz .framer-wmsqgn { left: 50px; } .framer-Gk3Tz .framer-np6d6q { right: 50px; } .framer-Gk3Tz .framer-k0af9v, .framer-Gk3Tz .framer-1v3a43r, .framer-Gk3Tz .framer-jkn0t7, .framer-Gk3Tz .framer-1j73nb, .framer-Gk3Tz .framer-ut05aa, .framer-Gk3Tz .framer-pod46v { padding: 50px 25px 50px 25px; } .framer-Gk3Tz .framer-la7fvh { gap: 5px 10px; max-width: 600px; } .framer-Gk3Tz .framer-16gd5iv, .framer-Gk3Tz .framer-1fv2udu { flex-direction: column; padding: 50px 25px 50px 25px; } .framer-Gk3Tz .framer-flkrtb { flex: none; width: 100%; } .framer-Gk3Tz .framer-1l0fz2d, .framer-Gk3Tz .framer-y0l0rk { align-content: center; align-items: center; } .framer-Gk3Tz .framer-fgnpc0, .framer-Gk3Tz .framer-tqr107 { max-width: 450px; } .framer-Gk3Tz .framer-wdmzrp, .framer-Gk3Tz .framer-1i2yrmx { gap: 20px; } .framer-Gk3Tz .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-Gk3Tz .framer-w99w4p { flex: none; order: 1; width: 100%; } .framer-Gk3Tz .framer-101kz2c { flex: none; order: 0; width: 100%; } .framer-Gk3Tz .framer-561hc4 { padding: 100px 0px 100px 0px; } .framer-Gk3Tz .framer-1lqrq9m { gap: 50px; padding: 50px 25px 50px 25px; } .framer-Gk3Tz .framer-4rcdqo { padding: 50px 0px 50px 0px; } .framer-Gk3Tz .framer-iis1dp { padding: 24px; } .framer-Gk3Tz .framer-1xenox7 { flex-direction: column; } .framer-Gk3Tz .framer-1pdk0aw { align-self: unset; flex: none; height: min-content; width: 100%; } .framer-Gk3Tz .framer-4z21j4-container { min-height: 390px; } .framer-Gk3Tz .framer-1b1disl, .framer-Gk3Tz .framer-1b2wotv { max-width: unset; } .framer-Gk3Tz .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
-        `@media (max-width: 809.98px) { .framer-Gk3Tz.framer-72rtr7 { width: 390px; } .framer-Gk3Tz .framer-7dod6r { flex-direction: column; padding: 75px 0px 0px 0px; } .framer-Gk3Tz .framer-1mki1k0, .framer-Gk3Tz .framer-flkrtb, .framer-Gk3Tz .framer-be6r75-container, .framer-Gk3Tz .framer-1d14rzc-container, .framer-Gk3Tz .framer-w99w4p, .framer-Gk3Tz .framer-101kz2c, .framer-Gk3Tz .framer-1t71dbs-container, .framer-Gk3Tz .framer-1vo5xwn-container, .framer-Gk3Tz .framer-xxy9et-container, .framer-Gk3Tz .framer-1l65csp-container { flex: none; width: 100%; } .framer-Gk3Tz .framer-1au44ra { gap: 36px; padding: 20px 25px 0px 25px; } .framer-Gk3Tz .framer-wmsqgn { aspect-ratio: 1 / 1; height: auto; left: 0px; top: 45px; width: 60px; } .framer-Gk3Tz .framer-np6d6q { aspect-ratio: 1 / 1; height: auto; right: 0px; top: 45px; width: 60px; } .framer-Gk3Tz .framer-pw3zxg { border-top-left-radius: 15px; border-top-right-radius: 15px; } .framer-Gk3Tz .framer-14jm00u { border-top-left-radius: 7px; border-top-right-radius: 7px; } .framer-Gk3Tz .framer-2y58l1 { flex-direction: column; scroll-margin-top: unset; } .framer-Gk3Tz .framer-k0af9v, .framer-Gk3Tz .framer-1v3a43r { flex: none; padding: 30px 20px 30px 20px; width: 100%; } .framer-Gk3Tz .framer-la7fvh { gap: 5px 10px; max-width: 95%; } .framer-Gk3Tz .framer-1obwh4c, .framer-Gk3Tz .framer-lvsu6d, .framer-Gk3Tz .framer-10pj67n, .framer-Gk3Tz .framer-1fiua8d { aspect-ratio: 1 / 1; height: auto; width: 48px; } .framer-Gk3Tz .framer-16gd5iv { flex-direction: column; gap: 30px; padding: 30px 20px 30px 20px; } .framer-Gk3Tz .framer-1afaic6 { align-content: center; align-items: center; padding: 10px; } .framer-Gk3Tz .framer-1l0fz2d, .framer-Gk3Tz .framer-y0l0rk { align-content: center; align-items: center; } .framer-Gk3Tz .framer-wdmzrp, .framer-Gk3Tz .framer-1i2yrmx { flex-direction: column; gap: 20px; } .framer-Gk3Tz .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-Gk3Tz .framer-zqr5yg, .framer-Gk3Tz .framer-1w04aur, .framer-Gk3Tz .framer-yr7e8u, .framer-Gk3Tz .framer-3ikoin, .framer-Gk3Tz .framer-s3q4nu { flex-direction: column; } .framer-Gk3Tz .framer-feyxnm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; } .framer-Gk3Tz .framer-1psnt4v, .framer-Gk3Tz .framer-xjqzmg, .framer-Gk3Tz .framer-16c0xdy, .framer-Gk3Tz .framer-xngrzv { align-self: unset; width: 100%; } .framer-Gk3Tz .framer-6uiyx3, .framer-Gk3Tz .framer-f9gs6n { align-self: unset; } .framer-Gk3Tz .framer-1fv2udu { flex-direction: column; padding: 30px 20px 30px 20px; } .framer-Gk3Tz .framer-gug6nb { align-content: center; align-items: center; gap: 30px; padding: 10px; } .framer-Gk3Tz .framer-jkn0t7, .framer-Gk3Tz .framer-pod46v { padding: 30px 20px 30px 20px; } .framer-Gk3Tz .framer-1j73nb, .framer-Gk3Tz .framer-1lqrq9m, .framer-Gk3Tz .framer-ut05aa { flex: none; gap: 30px; padding: 30px 20px 30px 20px; width: 100%; } .framer-Gk3Tz .framer-4rcdqo { padding: 30px 0px 30px 0px; } .framer-Gk3Tz .framer-rlgwnx-container { height: 50vh; } .framer-Gk3Tz .framer-iis1dp { padding: 20px; } .framer-Gk3Tz .framer-1xenox7 { flex-direction: column; padding: 25px; } .framer-Gk3Tz .framer-1pdk0aw { align-self: unset; flex: none; gap: 30px; height: min-content; width: 100%; } .framer-Gk3Tz .framer-4z21j4-container { min-height: unset; } .framer-Gk3Tz .framer-1ud89md { align-content: center; align-items: center; gap: 15px; } .framer-Gk3Tz .framer-1b1disl { max-width: 100%; } .framer-Gk3Tz .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
+        ...ic,
+        ...X,
+        ...fc,
+        `.framer-HE7pv[data-border="true"]::after, .framer-HE7pv [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-HE7pv.framer-72rtr7 { width: 810px; } .framer-HE7pv .framer-1au44ra { gap: 50px; padding: 50px 25px 0px 25px; } .framer-HE7pv .framer-wmsqgn { left: 50px; } .framer-HE7pv .framer-np6d6q { right: 50px; } .framer-HE7pv .framer-k0af9v, .framer-HE7pv .framer-1v3a43r, .framer-HE7pv .framer-jkn0t7, .framer-HE7pv .framer-1j73nb, .framer-HE7pv .framer-ut05aa { padding: 50px 25px 50px 25px; } .framer-HE7pv .framer-la7fvh { gap: 5px 10px; max-width: 600px; } .framer-HE7pv .framer-16gd5iv, .framer-HE7pv .framer-1fv2udu { flex-direction: column; padding: 50px 25px 50px 25px; } .framer-HE7pv .framer-flkrtb { flex: none; width: 100%; } .framer-HE7pv .framer-1l0fz2d, .framer-HE7pv .framer-y0l0rk { align-content: center; align-items: center; } .framer-HE7pv .framer-fgnpc0, .framer-HE7pv .framer-tqr107 { max-width: 450px; } .framer-HE7pv .framer-wdmzrp, .framer-HE7pv .framer-1i2yrmx { gap: 20px; } .framer-HE7pv .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-HE7pv .framer-w99w4p { flex: none; order: 1; width: 100%; } .framer-HE7pv .framer-101kz2c { flex: none; order: 0; width: 100%; } .framer-HE7pv .framer-561hc4 { padding: 100px 0px 100px 0px; } .framer-HE7pv .framer-1lqrq9m { gap: 50px; padding: 50px 25px 50px 25px; } .framer-HE7pv .framer-4rcdqo { padding: 50px 0px 50px 0px; } .framer-HE7pv .framer-iis1dp { padding: 24px; } .framer-HE7pv .framer-1xenox7 { flex-direction: column; } .framer-HE7pv .framer-1pdk0aw { align-self: unset; flex: none; height: min-content; width: 100%; } .framer-HE7pv .framer-4z21j4-container { min-height: 390px; } .framer-HE7pv .framer-1b1disl, .framer-HE7pv .framer-1b2wotv { max-width: unset; } .framer-HE7pv .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
+        `@media (max-width: 809.98px) { .framer-HE7pv.framer-72rtr7 { width: 390px; } .framer-HE7pv .framer-7dod6r { flex-direction: column; padding: 75px 0px 0px 0px; } .framer-HE7pv .framer-1mki1k0, .framer-HE7pv .framer-flkrtb, .framer-HE7pv .framer-be6r75-container, .framer-HE7pv .framer-1d14rzc-container, .framer-HE7pv .framer-w99w4p, .framer-HE7pv .framer-101kz2c, .framer-HE7pv .framer-1t71dbs-container, .framer-HE7pv .framer-1vo5xwn-container, .framer-HE7pv .framer-xxy9et-container, .framer-HE7pv .framer-1l65csp-container { flex: none; width: 100%; } .framer-HE7pv .framer-1au44ra { gap: 36px; padding: 20px 25px 0px 25px; } .framer-HE7pv .framer-wmsqgn { aspect-ratio: 1 / 1; height: auto; left: 0px; top: 45px; width: 60px; } .framer-HE7pv .framer-np6d6q { aspect-ratio: 1 / 1; height: auto; right: 0px; top: 45px; width: 60px; } .framer-HE7pv .framer-pw3zxg { border-top-left-radius: 15px; border-top-right-radius: 15px; } .framer-HE7pv .framer-14jm00u { border-top-left-radius: 7px; border-top-right-radius: 7px; } .framer-HE7pv .framer-2y58l1 { flex-direction: column; scroll-margin-top: unset; } .framer-HE7pv .framer-k0af9v, .framer-HE7pv .framer-1v3a43r { flex: none; padding: 30px 20px 30px 20px; width: 100%; } .framer-HE7pv .framer-la7fvh { gap: 5px 10px; max-width: 95%; } .framer-HE7pv .framer-1obwh4c, .framer-HE7pv .framer-lvsu6d, .framer-HE7pv .framer-10pj67n, .framer-HE7pv .framer-1fiua8d { aspect-ratio: 1 / 1; height: auto; width: 48px; } .framer-HE7pv .framer-16gd5iv { flex-direction: column; gap: 30px; padding: 30px 20px 30px 20px; } .framer-HE7pv .framer-1afaic6 { align-content: center; align-items: center; padding: 10px; } .framer-HE7pv .framer-1l0fz2d, .framer-HE7pv .framer-y0l0rk { align-content: center; align-items: center; } .framer-HE7pv .framer-wdmzrp, .framer-HE7pv .framer-1i2yrmx { flex-direction: column; gap: 20px; } .framer-HE7pv .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-HE7pv .framer-zqr5yg, .framer-HE7pv .framer-1w04aur, .framer-HE7pv .framer-yr7e8u, .framer-HE7pv .framer-3ikoin, .framer-HE7pv .framer-s3q4nu { flex-direction: column; } .framer-HE7pv .framer-feyxnm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; } .framer-HE7pv .framer-1psnt4v, .framer-HE7pv .framer-xjqzmg, .framer-HE7pv .framer-16c0xdy, .framer-HE7pv .framer-xngrzv { align-self: unset; width: 100%; } .framer-HE7pv .framer-6uiyx3, .framer-HE7pv .framer-f9gs6n { align-self: unset; } .framer-HE7pv .framer-1fv2udu { flex-direction: column; padding: 30px 20px 30px 20px; } .framer-HE7pv .framer-gug6nb { align-content: center; align-items: center; gap: 30px; padding: 10px; } .framer-HE7pv .framer-jkn0t7 { padding: 30px 20px 30px 20px; } .framer-HE7pv .framer-1j73nb, .framer-HE7pv .framer-1lqrq9m, .framer-HE7pv .framer-ut05aa { flex: none; gap: 30px; padding: 30px 20px 30px 20px; width: 100%; } .framer-HE7pv .framer-4rcdqo { padding: 30px 0px 30px 0px; } .framer-HE7pv .framer-rlgwnx-container { height: 50vh; } .framer-HE7pv .framer-iis1dp { padding: 20px; } .framer-HE7pv .framer-1xenox7 { flex-direction: column; padding: 25px; } .framer-HE7pv .framer-1pdk0aw { align-self: unset; flex: none; gap: 30px; height: min-content; width: 100%; } .framer-HE7pv .framer-4z21j4-container { min-height: unset; } .framer-HE7pv .framer-1ud89md { align-content: center; align-items: center; gap: 15px; } .framer-HE7pv .framer-1b1disl { max-width: 100%; } .framer-HE7pv .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
       ],
-      `framer-Gk3Tz`
+      `framer-HE7pv`
     )),
-    (ml.displayName = `Home`),
-    (ml.defaultProps = { height: 10975, width: 1200 }),
-    Y(
-      ml,
+    (Kc.displayName = `Home`),
+    (Kc.defaultProps = { height: 10396, width: 1200 }),
+    R(
+      Kc,
       [
         {
           explicitInter: !0,
@@ -17423,77 +16944,75 @@ e(() => {
             },
           ],
         },
-        ...Lc,
-        ...Rc,
-        ...zc,
-        ...Bc,
-        ...Vc,
-        ...Hc,
-        ...Wc,
-        ...Gc,
-        ...Kc,
-        ...qc,
-        ...Jc,
-        ...Xc,
-        ...Zc,
-        ...Qc,
-        ...$c,
-        ...P(Oc),
+        ...gc,
+        ..._c,
+        ...vc,
+        ...yc,
+        ...bc,
+        ...xc,
+        ...Cc,
+        ...wc,
+        ...Tc,
+        ...Ec,
+        ...Oc,
+        ...kc,
+        ...Ac,
+        ...jc,
+        ...P(sc),
         ...P(Nt),
         ...P(dt),
-        ...P(wc),
-        ...P(be),
-        ...P(Mc),
+        ...P(rc),
+        ...P(xe),
+        ...P(dc),
       ],
       { supportsExplicitInterCodegen: !0 }
     ),
-    (ml.loader = {
+    (Kc.loader = {
       load: (e, t) => (
         t.locale,
         Promise.allSettled([
-          A(xa, {}, t),
-          A(qt, {}, t),
-          A(jt, {}, t),
-          A(ci, {}, t),
-          A(os, {}, t),
-          A(rn, {}, t),
-          A(ea, {}, t),
-          A(Bs, {}, t),
-          A(sc, {}, t),
-          A(eo, {}, t),
-          A(ja, {}, t),
-          A(Sc, {}, t),
-          A(Eo, {}, t),
+          M(xa, {}, t),
+          M(qt, {}, t),
+          M(jt, {}, t),
+          M(ci, {}, t),
+          M(os, {}, t),
+          M(rn, {}, t),
+          M(ea, {}, t),
+          M(Bs, {}, t),
+          M(eo, {}, t),
+          M(ja, {}, t),
+          M(tc, {}, t),
+          M(Eo, {}, t),
         ])
       ),
     }),
-    (hl = {
+    (qc = {
       exports: {
+        Props: { type: `tsType`, annotations: { framerContractVersion: `1` } },
         default: {
           type: `reactComponent`,
           name: `FrameraugiA20Il`,
           slots: [],
           annotations: {
-            framerColorSyntax: `true`,
-            framerAutoSizeImages: `true`,
-            framerAcceptsLayoutTemplate: `true`,
-            framerIntrinsicWidth: `1200`,
             framerLayoutTemplateFlowEffect: `true`,
-            framerDisplayContentsDiv: `false`,
-            framerIntrinsicHeight: `10975`,
+            framerIntrinsicHeight: `10396`,
+            framerColorSyntax: `true`,
             framerImmutableVariables: `true`,
-            framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"MNFOeKjhJ":{"layout":["fixed","auto"]},"dV9dN50OP":{"layout":["fixed","auto"]}}}`,
             framerComponentViewportWidth: `true`,
-            framerScrollSections: `{"iYUNHqCEb":{"pattern":":iYUNHqCEb","name":"hero"},"U6VhzUg6a":{"pattern":":U6VhzUg6a","name":"richtext"},"N2ijbw0rP":{"pattern":":N2ijbw0rP","name":"features"},"IknGWjLgy":{"pattern":":IknGWjLgy","name":"benefits"},"lCq8UO0dC":{"pattern":":lCq8UO0dC","name":"image-gen"},"adTRrxLJn":{"pattern":":adTRrxLJn","name":"showcase"},"sgmlFhWUG":{"pattern":":sgmlFhWUG","name":"product"}}`,
             framerResponsiveScreen: `true`,
+            framerAutoSizeImages: `true`,
+            framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"MNFOeKjhJ":{"layout":["fixed","auto"]},"dV9dN50OP":{"layout":["fixed","auto"]}}}`,
+            framerAcceptsLayoutTemplate: `true`,
+            framerScrollSections: `{"iYUNHqCEb":{"pattern":":iYUNHqCEb","name":"hero"},"U6VhzUg6a":{"pattern":":U6VhzUg6a","name":"richtext"},"N2ijbw0rP":{"pattern":":N2ijbw0rP","name":"features"},"IknGWjLgy":{"pattern":":IknGWjLgy","name":"benefits"},"lCq8UO0dC":{"pattern":":lCq8UO0dC","name":"image-gen"},"zKzXmXRGU":{"pattern":":zKzXmXRGU","name":"showcases"},"sgmlFhWUG":{"pattern":":sgmlFhWUG","name":"product"},"v99AbFhke":{"pattern":":v99AbFhke","name":"faqs"}}`,
+            framerDisplayContentsDiv: `false`,
             framerContractVersion: `1`,
+            framerIntrinsicWidth: `1200`,
           },
         },
-        Props: { type: `tsType`, annotations: { framerContractVersion: `1` } },
         queryParamNames: { type: `variable`, annotations: { framerContractVersion: `1` } },
         __FramerMetadata__: { type: `variable` },
       },
     }));
 })();
-export { hl as __FramerMetadata__, ml as default, tl as queryParamNames };
-//# sourceMappingURL=_aS7UdC3vs_F3zLdrwSnJ7yJTHJvc56gxXquEc41Ce0.TWita4CM.mjs.map
+export { qc as __FramerMetadata__, Kc as default, Nc as queryParamNames };
+//# sourceMappingURL=b9AnrOqDE7ngOlbAioYs0FAvP8DlR5C9GIBtYeJr6Ro.DhfqFp_1.mjs.map

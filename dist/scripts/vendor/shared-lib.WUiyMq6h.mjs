@@ -1,44 +1,46 @@
 import { t as e } from "./rolldown-runtime.Dh6celcD.mjs";
 import {
-  B as t,
-  E as n,
-  L as r,
-  N as i,
-  O as a,
-  P as o,
-  R as s,
-  b as c,
+  A as t,
+  D as n,
+  I as r,
+  L as i,
+  M as a,
+  N as o,
+  T as s,
+  _ as c,
   c as l,
-  j as u,
-  l as d,
+  l as u,
+  o as d,
   s as f,
-  u as p,
-  v as m,
-} from "./react.C8gjTMAM.mjs";
-import { S as h, a as g, r as _, t as v } from "./motion.CzGBN5me.mjs";
+  y as p,
+  z as m,
+} from "./react.B4kFiiQA.mjs";
+import { S as h, a as g, r as _, t as v } from "./motion.CYX_XZth.mjs";
 import {
-  E as y,
-  P as b,
-  Q as x,
-  S,
-  T as C,
-  V as w,
-  d as T,
-  dt as E,
-  g as D,
-  r as O,
-  rt as k,
-  ut as A,
-  v as j,
-  x as M,
-} from "./framer.22F-MT4t.mjs";
-var N,
-  P,
-  F,
-  I = e(() => {
-    (w(),
-      y.loadFonts([`Inter-Medium`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-MediumItalic`]),
-      (N = [
+  B as y,
+  N as b,
+  P as x,
+  T as S,
+  Z as C,
+  _ as w,
+  b as T,
+  ct as E,
+  h as D,
+  lt as O,
+  nt as k,
+  r as A,
+  s as j,
+  u as M,
+  w as N,
+  x as P,
+} from "./framer.D3c-8bqh.mjs";
+var F,
+  I,
+  L,
+  R = e(() => {
+    (y(),
+      S.loadFonts([`Inter-Medium`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-MediumItalic`]),
+      (F = [
         {
           explicitInter: !0,
           fonts: [
@@ -269,20 +271,20 @@ var N,
           ],
         },
       ]),
-      (P = [
+      (I = [
         `.framer-mhfY5 .framer-styles-preset-ke6suj:not(.rich-text-wrapper), .framer-mhfY5 .framer-styles-preset-ke6suj.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0px; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-mhfY5 .framer-styles-preset-ke6suj:not(.rich-text-wrapper), .framer-mhfY5 .framer-styles-preset-ke6suj.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0px; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-mhfY5 .framer-styles-preset-ke6suj:not(.rich-text-wrapper), .framer-mhfY5 .framer-styles-preset-ke6suj.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0px; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (F = `framer-mhfY5`));
+      (L = `framer-mhfY5`));
   }),
-  L,
-  R,
   z,
-  ee = e(() => {
-    (w(),
-      y.loadFonts([`GF;Inter-500`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-500italic`]),
-      (L = [
+  B,
+  V,
+  H = e(() => {
+    (y(),
+      S.loadFonts([`GF;Inter-500`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-500italic`]),
+      (z = [
         {
           explicitInter: !0,
           fonts: [
@@ -317,16 +319,16 @@ var N,
           ],
         },
       ]),
-      (R = [
+      (B = [
         `.framer-zCU8Z .framer-styles-preset-im2x0h:not(.rich-text-wrapper), .framer-zCU8Z .framer-styles-preset-im2x0h.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 20px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0em; --framer-line-height: 1.4em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
-      (z = `framer-zCU8Z`));
+      (V = `framer-zCU8Z`));
   });
-function te(e, ...t) {
+function ee(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var B,
+var te,
   ne,
   re,
   ie,
@@ -335,22 +337,22 @@ var B,
   se,
   ce,
   le,
-  V,
+  U,
   ue = e(() => {
-    (f(),
-      w(),
+    (d(),
+      y(),
       v(),
-      n(),
-      ee(),
-      (B = [`iC3uXzR0q`, `mmDUgpyjc`]),
-      (ne = `framer-e9bci`),
+      s(),
+      H(),
+      (te = [`iC3uXzR0q`, `mmDUgpyjc`]),
+      (ne = `framer-Oj3EQ`),
       (re = { iC3uXzR0q: `framer-v-17bnp42`, mmDUgpyjc: `framer-v-1t7i2o5` }),
       (ie = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (ae = ({ value: e, children: t }) => {
-        let n = i(g),
+        let n = a(g),
           r = e ?? n.transition,
-          a = o(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
-        return d(g.Provider, { value: a, children: t });
+          i = o(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+        return l(g.Provider, { value: i, children: t });
       }),
       (oe = { Footer: `mmDUgpyjc`, Logo: `iC3uXzR0q` }),
       (se = h.create(r)),
@@ -360,96 +362,90 @@ var B,
         variant: oe[i.variant] ?? i.variant ?? `iC3uXzR0q`,
       })),
       (le = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (V = E(
-        m(function (e, t) {
-          let n = u(null),
-            i = t ?? n,
-            a = c(),
-            { activeLocale: o, setLocale: s } = k();
-          x();
-          let { style: l, className: f, layoutId: m, variant: g, irY_XKj0O: v, ...y } = ce(e),
+      (U = O(
+        c(function (e, n) {
+          let i = t(null),
+            a = n ?? i,
+            o = p(),
+            { activeLocale: s, setLocale: c } = k(),
+            d = C(),
+            { style: f, className: m, layoutId: g, variant: v, irY_XKj0O: y, ...b } = ce(e),
             {
-              baseVariant: b,
-              classNames: S,
-              clearLoadingGesture: w,
-              gestureHandlers: E,
-              gestureVariant: D,
-              isLoading: O,
-              setGestureState: M,
-              setVariant: N,
-              variants: P,
-            } = A({
-              cycleOrder: B,
+              baseVariant: S,
+              classNames: T,
+              clearLoadingGesture: D,
+              gestureHandlers: O,
+              gestureVariant: A,
+              isLoading: P,
+              setGestureState: F,
+              setVariant: I,
+              variants: L,
+            } = E({
+              cycleOrder: te,
               defaultVariant: `iC3uXzR0q`,
-              ref: i,
-              variant: g,
+              ref: a,
+              variant: v,
               variantClassNames: re,
             }),
-            F = le(e, P),
-            I = C(ne, z),
-            L = () => b !== `mmDUgpyjc`;
-          return d(_, {
-            id: m ?? a,
-            children: d(se, {
-              animate: P,
+            R = le(e, L),
+            z = N(ne, V),
+            B = () => S !== `mmDUgpyjc`,
+            H = () => S === `mmDUgpyjc`;
+          return l(_, {
+            id: g ?? o,
+            children: l(se, {
+              animate: L,
               initial: !1,
-              children: d(ae, {
+              children: l(ae, {
                 value: ie,
-                children: d(T, {
-                  href: v,
+                children: l(M, {
+                  href: y,
                   motionChild: !0,
                   nodeId: `iC3uXzR0q`,
                   scopeId: `JTibN7whG`,
-                  children: d(h.a, {
-                    ...y,
-                    ...E,
-                    className: `${C(I, `framer-17bnp42`, f, S)} framer-8037fa`,
+                  children: l(h.a, {
+                    ...b,
+                    ...O,
+                    className: `${N(z, `framer-17bnp42`, m, T)} framer-8037fa`,
                     "data-framer-name": `Logo`,
-                    layoutDependency: F,
+                    layoutDependency: R,
                     layoutId: `iC3uXzR0q`,
-                    ref: i,
-                    style: { ...l },
-                    ...te({ mmDUgpyjc: { "data-framer-name": `Footer` } }, b, D),
-                    children: p(h.div, {
+                    ref: a,
+                    style: { ...f },
+                    ...ee({ mmDUgpyjc: { "data-framer-name": `Footer` } }, S, A),
+                    children: u(h.div, {
                       className: `framer-14xrcyt`,
                       "data-framer-name": `Logo`,
-                      layoutDependency: F,
+                      layoutDependency: R,
                       layoutId: `W5UNeFaVz`,
                       children: [
-                        d(T, {
-                          href: { webPageId: `augiA20Il` },
-                          motionChild: !0,
-                          nodeId: `LavuTHulC`,
-                          openInNewTab: !1,
-                          scopeId: `JTibN7whG`,
-                          children: d(h.a, {
-                            className: `framer-gcnmuw framer-8037fa`,
-                            "data-framer-name": `Logo`,
-                            layoutDependency: F,
-                            layoutId: `LavuTHulC`,
-                            style: {
-                              background: `linear-gradient(128deg, var(--token-fc3ae52e-96b8-4206-b03a-a7c4b682c3c4, rgb(196, 181, 253)) 0%, var(--token-31538414-9035-4880-bae7-d650ac13116b, rgb(225, 29, 72)) 50%, rgb(255, 219, 77) 100%)`,
-                              borderBottomLeftRadius: 20,
-                              borderBottomRightRadius: 20,
-                              borderTopLeftRadius: 20,
-                              borderTopRightRadius: 20,
-                              boxShadow: `inset 0px 0px 10px 0px rgb(255, 255, 255), inset 0px -2px 0px 0px rgba(255, 255, 255, 0.2)`,
+                        B() &&
+                          l(j, {
+                            background: {
+                              alt: ``,
+                              fit: `fill`,
+                              intrinsicHeight: 500,
+                              intrinsicWidth: 500,
+                              loading: x((d?.y || 0) + (0 + ((d?.height || 48) - 0 - 48) / 2) + 0),
+                              pixelHeight: 500,
+                              pixelWidth: 500,
+                              sizes: `48px`,
+                              src: `../../assets/images/rUuTjKy2KCktdCTckSbw6z7Kbt0.png`,
                             },
-                            variants: {
-                              mmDUgpyjc: {
-                                borderBottomLeftRadius: 24,
-                                borderBottomRightRadius: 24,
-                                borderTopLeftRadius: 24,
-                                borderTopRightRadius: 24,
-                              },
+                            className: `framer-19ysx27`,
+                            "data-framer-name": `Logo-removebg-preview`,
+                            layoutDependency: R,
+                            layoutId: `DQHI69Gw8`,
+                            style: {
+                              filter: `drop-shadow(0px 1px 1px rgba(0,0,0,0.25))`,
+                              WebkitFilter: `drop-shadow(0px 1px 1px rgba(0,0,0,0.25))`,
                             },
                           }),
-                        }),
-                        L() &&
-                          d(j, {
+                        B() &&
+                          l(w, {
                             __fromCanvasComponent: !0,
-                            children: d(r, {
-                              children: d(h.p, {
+                            children: l(r, {
+                              children: l(h.p, {
                                 className: `framer-styles-preset-im2x0h`,
                                 "data-styles-preset": `fhos88JCX`,
                                 dir: `auto`,
@@ -461,7 +457,7 @@ var B,
                             }),
                             className: `framer-1u5vwwj`,
                             fonts: [`Inter`],
-                            layoutDependency: F,
+                            layoutDependency: R,
                             layoutId: `aY_Unl2UT`,
                             style: {
                               "--extracted-r6o4lv": `var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, rgb(250, 250, 250))`,
@@ -470,6 +466,41 @@ var B,
                             },
                             verticalAlignment: `top`,
                             withExternalLayout: !0,
+                          }),
+                        H() &&
+                          l(j, {
+                            background: {
+                              alt: ``,
+                              fit: `fill`,
+                              intrinsicHeight: 100,
+                              intrinsicWidth: 100,
+                              pixelHeight: 100,
+                              pixelWidth: 100,
+                              src: `https://framerusercontent.com/images/jDukThs7vhHC8ImWGEsB8atvM.png?width=100&height=100`,
+                            },
+                            className: `framer-ifdtpq`,
+                            "data-framer-name": `Logo-removebg-preview`,
+                            layoutDependency: R,
+                            layoutId: `OO_viLLXT`,
+                            ...ee(
+                              {
+                                mmDUgpyjc: {
+                                  background: {
+                                    alt: ``,
+                                    fit: `fill`,
+                                    intrinsicHeight: 100,
+                                    intrinsicWidth: 100,
+                                    loading: x((d?.y || 0) + 0 + 0 + 0 + 0),
+                                    pixelHeight: 100,
+                                    pixelWidth: 100,
+                                    sizes: `87px`,
+                                    src: `https://framerusercontent.com/images/jDukThs7vhHC8ImWGEsB8atvM.png?width=100&height=100`,
+                                  },
+                                },
+                              },
+                              S,
+                              A
+                            ),
                           }),
                       ],
                     }),
@@ -480,31 +511,31 @@ var B,
           });
         }),
         [
-          `.framer-e9bci.framer-8037fa, .framer-e9bci .framer-8037fa { display: block; }`,
-          `.framer-e9bci.framer-17bnp42 { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; text-decoration: none; width: min-content; }`,
-          `.framer-e9bci .framer-14xrcyt { align-content: center; align-items: center; cursor: pointer; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-          `.framer-e9bci .framer-gcnmuw { aspect-ratio: 1 / 1; flex: none; gap: 10px; height: auto; overflow: visible; position: relative; text-decoration: none; width: 32px; }`,
-          `.framer-e9bci .framer-1u5vwwj { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          `.framer-e9bci.framer-v-1t7i2o5.framer-17bnp42 { flex-direction: column; }`,
-          `.framer-e9bci.framer-v-1t7i2o5 .framer-14xrcyt { flex-direction: column; gap: 5px; }`,
-          `.framer-e9bci.framer-v-1t7i2o5 .framer-gcnmuw { width: 48px; }`,
-          ...R,
+          `.framer-Oj3EQ.framer-8037fa, .framer-Oj3EQ .framer-8037fa { display: block; }`,
+          `.framer-Oj3EQ.framer-17bnp42 { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; text-decoration: none; width: min-content; }`,
+          `.framer-Oj3EQ .framer-14xrcyt { align-content: center; align-items: center; cursor: pointer; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+          `.framer-Oj3EQ .framer-19ysx27 { aspect-ratio: 1 / 1; flex: none; height: auto; overflow: visible; position: relative; width: 48px; }`,
+          `.framer-Oj3EQ .framer-1u5vwwj { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+          `.framer-Oj3EQ .framer-ifdtpq { aspect-ratio: 1 / 1; flex: none; height: auto; overflow: visible; position: relative; width: 87px; }`,
+          `.framer-Oj3EQ.framer-v-1t7i2o5.framer-17bnp42 { flex-direction: column; }`,
+          `.framer-Oj3EQ.framer-v-1t7i2o5 .framer-14xrcyt { flex-direction: column; gap: 5px; }`,
+          ...B,
         ],
-        `framer-e9bci`
+        `framer-Oj3EQ`
       )),
-      (V.displayName = `Logos`),
-      (V.defaultProps = { height: 32, width: 122 }),
-      S(V, {
+      (U.displayName = `Logos`),
+      (U.defaultProps = { height: 48, width: 138 }),
+      P(U, {
         variant: {
           options: [`iC3uXzR0q`, `mmDUgpyjc`],
           optionTitles: [`Logo`, `Footer`],
           title: `Variant`,
-          type: O.Enum,
+          type: A.Enum,
         },
-        irY_XKj0O: { title: `Link`, type: O.Link },
+        irY_XKj0O: { title: `Link`, type: A.Link },
       }),
-      M(
-        V,
+      T(
+        U,
         [
           {
             explicitInter: !0,
@@ -574,17 +605,17 @@ var B,
               },
             ],
           },
-          ...b(L),
+          ...b(z),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
   de,
-  H,
-  U,
-  fe = e(() => {
-    (w(),
-      y.loadFonts([`GF;Inter-500`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
+  fe,
+  pe,
+  me = e(() => {
+    (y(),
+      S.loadFonts([`GF;Inter-500`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
       (de = [
         {
           explicitInter: !0,
@@ -767,75 +798,75 @@ var B,
           ],
         },
       ]),
-      (H = [
+      (fe = [
         `.framer-NS75P .framer-styles-preset-ko1txu:not(.rich-text-wrapper), .framer-NS75P .framer-styles-preset-ko1txu.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 32px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-NS75P .framer-styles-preset-ko1txu:not(.rich-text-wrapper), .framer-NS75P .framer-styles-preset-ko1txu.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 26px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-NS75P .framer-styles-preset-ko1txu:not(.rich-text-wrapper), .framer-NS75P .framer-styles-preset-ko1txu.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 20px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (U = `framer-NS75P`));
+      (pe = `framer-NS75P`));
   });
-function pe(e, ...t) {
+function he(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var me,
-  he,
-  ge,
+var ge,
   _e,
   ve,
   ye,
-  W,
   be,
-  G,
   xe,
   Se,
   Ce,
+  W,
   we,
   Te,
   Ee,
-  K,
-  De = e(() => {
-    (f(),
-      w(),
+  De,
+  Oe,
+  ke,
+  G,
+  Ae = e(() => {
+    (d(),
+      y(),
       v(),
-      n(),
-      I(),
-      fe(),
-      (me = { H6ztmrCS6: { hover: !0 }, uGayw3Tld: { hover: !0 } }),
-      (he = [`uGayw3Tld`, `H6ztmrCS6`]),
-      (ge = `framer-oVUBd`),
-      (_e = { H6ztmrCS6: `framer-v-1w5meqt`, uGayw3Tld: `framer-v-1m898ms` }),
-      (ve = (e, t) =>
+      s(),
+      R(),
+      me(),
+      (ge = { H6ztmrCS6: { hover: !0 }, uGayw3Tld: { hover: !0 } }),
+      (_e = [`uGayw3Tld`, `H6ztmrCS6`]),
+      (ve = `framer-oVUBd`),
+      (ye = { H6ztmrCS6: `framer-v-1w5meqt`, uGayw3Tld: `framer-v-1m898ms` }),
+      (be = (e, t) =>
         typeof e == `string` && typeof t == `string`
           ? e.toLowerCase() === t.toLowerCase()
           : e === t),
-      (ye = (e, t) => (e ? 20 : 12)),
-      (W = (e) => {
+      (xe = (e, t) => (e ? 20 : 12)),
+      (Se = (e) => {
         if (typeof e == `number` && Number.isFinite(e)) return e;
         if (typeof e != `string`) return 0;
         let t = parseFloat(e);
         return typeof t == `number` && Number.isFinite(t) ? t : 0;
       }),
-      (be = (e) => {
+      (Ce = (e) => {
         if (typeof e != `number`) return e;
         if (Number.isFinite(e)) return Math.max(0, e) + `px`;
       }),
-      (G = (e, t) => {
+      (W = (e, t) => {
         if (typeof e == `number` && Number.isFinite(e)) return Math.max(0, e) + `px`;
         if (typeof e != `string` || typeof t != `number`) return;
         let n = e.split(` `);
         return n[t] || n[t - 2] || n[0];
       }),
-      (xe = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
-      (Se = ({ value: e, children: t }) => {
-        let n = i(g),
+      (we = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (Te = ({ value: e, children: t }) => {
+        let n = a(g),
           r = e ?? n.transition,
-          a = o(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
-        return d(g.Provider, { value: a, children: t });
+          i = o(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
+        return l(g.Provider, { value: i, children: t });
       }),
-      (Ce = { "Big Button": `H6ztmrCS6`, "Gradient Button": `uGayw3Tld` }),
-      (we = h.create(r)),
-      (Te = ({
+      (Ee = { "Big Button": `H6ztmrCS6`, "Gradient Button": `uGayw3Tld` }),
+      (De = h.create(r)),
+      (Oe = ({
         buttonLabel: e,
         buttonLabel1: t,
         height: n,
@@ -852,75 +883,75 @@ var me,
         FPjhikCji: a ?? c.FPjhikCji,
         OlthDMhqu: t ?? c.OlthDMhqu ?? `Button`,
         r7ASsAiJ9: e ?? c.r7ASsAiJ9 ?? !0,
-        variant: Ce[c.variant] ?? c.variant ?? `uGayw3Tld`,
+        variant: Ee[c.variant] ?? c.variant ?? `uGayw3Tld`,
       })),
-      (Ee = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (K = E(
-        m(function (e, t) {
-          let n = u(null),
-            i = t ?? n,
-            a = c(),
-            { activeLocale: o, setLocale: s } = k();
-          x();
+      (ke = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (G = O(
+        c(function (e, n) {
+          let i = t(null),
+            a = n ?? i,
+            o = p(),
+            { activeLocale: s, setLocale: c } = k();
+          C();
           let {
-              style: l,
-              className: f,
-              layoutId: p,
+              style: u,
+              className: d,
+              layoutId: f,
               variant: m,
               AKuoesW74: g,
               r7ASsAiJ9: v,
               OlthDMhqu: y,
               AYwwfkaKd: b,
-              FPjhikCji: S,
-              ...w
-            } = Te(e),
+              FPjhikCji: x,
+              ...S
+            } = Oe(e),
             {
-              baseVariant: E,
+              baseVariant: T,
               classNames: D,
               clearLoadingGesture: O,
-              gestureHandlers: M,
-              gestureVariant: N,
+              gestureHandlers: A,
+              gestureVariant: j,
               isLoading: P,
-              setGestureState: I,
-              setVariant: L,
+              setGestureState: F,
+              setVariant: I,
               variants: R,
-            } = A({
-              cycleOrder: he,
+            } = E({
+              cycleOrder: _e,
               defaultVariant: `uGayw3Tld`,
-              enabledGestures: me,
-              ref: i,
+              enabledGestures: ge,
+              ref: a,
               variant: m,
-              variantClassNames: _e,
+              variantClassNames: ye,
             }),
-            z = Ee(e, R),
-            ee = [F, U],
-            te = be(W(ye(ve(v, !0), o))),
-            B = C(ge, ...ee);
-          return d(_, {
-            id: p ?? a,
-            children: d(we, {
+            z = ke(e, R),
+            B = [L, pe],
+            V = Ce(Se(xe(be(v, !0), s))),
+            H = N(ve, ...B);
+          return l(_, {
+            id: f ?? o,
+            children: l(De, {
               animate: R,
               initial: !1,
-              children: d(Se, {
-                value: xe,
-                children: d(T, {
+              children: l(Te, {
+                value: we,
+                children: l(M, {
                   href: b,
                   motionChild: !0,
                   nodeId: `uGayw3Tld`,
-                  openInNewTab: S,
+                  openInNewTab: x,
                   scopeId: `sq0qV09H9`,
                   smoothScroll: !1,
-                  children: d(h.a, {
-                    ...w,
-                    ...M,
-                    className: `${C(B, `framer-1m898ms`, f, D)} framer-xi89o0`,
+                  children: l(h.a, {
+                    ...S,
+                    ...A,
+                    className: `${N(H, `framer-1m898ms`, d, D)} framer-xi89o0`,
                     "data-border": !0,
                     "data-framer-name": `Gradient Button`,
                     layoutDependency: z,
                     layoutId: `uGayw3Tld`,
-                    ref: i,
+                    ref: a,
                     style: {
-                      "--10ocmuz": te,
+                      "--10ocmuz": V,
                       "--border-bottom-width": `1px`,
                       "--border-color": `rgba(255, 255, 255, 0.29)`,
                       "--border-left-width": `1px`,
@@ -928,12 +959,12 @@ var me,
                       "--border-style": `solid`,
                       "--border-top-width": `1px`,
                       background: `linear-gradient(109deg, rgb(148, 61, 255) -4%, rgb(242, 97, 121) 50.30616554054054%, rgb(252, 208, 147) 107%)`,
-                      borderBottomLeftRadius: G(g, 3),
-                      borderBottomRightRadius: G(g, 2),
-                      borderTopLeftRadius: G(g, 0),
-                      borderTopRightRadius: G(g, 1),
+                      borderBottomLeftRadius: W(g, 3),
+                      borderBottomRightRadius: W(g, 2),
+                      borderTopLeftRadius: W(g, 0),
+                      borderTopRightRadius: W(g, 1),
                       boxShadow: `inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25), inset 0px -5px 0.5px 0px rgba(255, 255, 255, 0.49), inset 0px 0px 20px 0px rgb(255, 255, 255), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(15, 15, 15, 0.72), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(15, 15, 15, 0.64), inset 0px 10px 10px -3.75px rgba(15, 15, 15, 0.25), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(255, 255, 255, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(255, 255, 255, 0.16), 0px 10px 10px -3.75px rgba(255, 255, 255, 0.06), 0px 0.6021873017743928px 0.6021873017743928px -1px rgba(255, 255, 255, 0.15), 0px 2.288533303243457px 2.288533303243457px -2px rgba(255, 255, 255, 0.14), 0px 10px 10px -3px rgba(255, 255, 255, 0.1)`,
-                      ...l,
+                      ...u,
                     },
                     variants: {
                       "H6ztmrCS6-hover": {
@@ -944,26 +975,26 @@ var me,
                         boxShadow: `inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25), inset 0px -3px 0.5px 0px rgba(255, 255, 255, 0.25), inset 0px 0px 20px 0px rgb(255, 255, 255), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(15, 15, 15, 0.72), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(15, 15, 15, 0.64), inset 0px 10px 10px -3.75px rgba(15, 15, 15, 0.25), 0px 0.8398022765904898px 0.7558220489314408px -0.4375px rgba(255, 255, 255, 0.07), 0px 1.9904796838090988px 1.7914317154281887px -0.875px rgba(255, 255, 255, 0.07), 0px 3.6308406896569063px 3.267756620691215px -1.3125px rgba(255, 255, 255, 0.07), 0px 6.036265357761295px 5.432638821985164px -1.75px rgba(255, 255, 255, 0.07), 0px 9.748076360978303px 8.773268724880472px -2.1875px rgba(255, 255, 255, 0.06), 0px 15.956633803711155px 14.360970423340037px -2.625px rgba(255, 255, 255, 0.06), 0px 27.476245881684008px 24.728621293515605px -3.0625px rgba(255, 255, 255, 0.05), 0px 50px 44.99999999999999px -3.5px rgba(255, 255, 255, 0.03)`,
                       },
                     },
-                    ...pe(
+                    ...he(
                       {
                         "H6ztmrCS6-hover": { "data-framer-name": void 0 },
                         "uGayw3Tld-hover": { "data-framer-name": void 0 },
                         H6ztmrCS6: { "data-framer-name": `Big Button` },
                       },
-                      E,
-                      N
+                      T,
+                      j
                     ),
                     children:
                       v !== !1 &&
-                      d(h.div, {
+                      l(h.div, {
                         className: `framer-h4h8vv`,
                         "data-framer-name": `label`,
                         layoutDependency: z,
                         layoutId: `G19FVmU1r`,
-                        children: d(j, {
+                        children: l(w, {
                           __fromCanvasComponent: !0,
-                          children: d(r, {
-                            children: d(h.p, {
+                          children: l(r, {
+                            children: l(h.p, {
                               className: `framer-styles-preset-ke6suj`,
                               "data-styles-preset": `Bv6I6Qd8d`,
                               style: { "--framer-text-alignment": `center` },
@@ -981,11 +1012,11 @@ var me,
                           text: y,
                           verticalAlignment: `top`,
                           withExternalLayout: !0,
-                          ...pe(
+                          ...he(
                             {
                               H6ztmrCS6: {
-                                children: d(r, {
-                                  children: d(h.h3, {
+                                children: l(r, {
+                                  children: l(h.h3, {
                                     className: `framer-styles-preset-ko1txu`,
                                     "data-styles-preset": `YSqkrWqww`,
                                     style: { "--framer-text-alignment": `center` },
@@ -994,8 +1025,8 @@ var me,
                                 }),
                               },
                             },
-                            E,
-                            N
+                            T,
+                            j
                           ),
                         }),
                       }),
@@ -1011,38 +1042,38 @@ var me,
           `.framer-oVUBd .framer-h4h8vv { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px 2px 0px 2px; position: relative; width: min-content; }`,
           `.framer-oVUBd .framer-dyr4eo { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
           `.framer-oVUBd.framer-v-1w5meqt.framer-1m898ms { height: min-content; padding: 30px 40px 30px 40px; }`,
-          ...P,
-          ...H,
+          ...I,
+          ...fe,
           `.framer-oVUBd[data-border="true"]::after, .framer-oVUBd [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
         `framer-oVUBd`
       )),
-      (K.displayName = `Buttons`),
-      (K.defaultProps = { height: 48, width: 94 }),
-      S(K, {
+      (G.displayName = `Buttons`),
+      (G.defaultProps = { height: 48, width: 94 }),
+      P(G, {
         variant: {
           options: [`uGayw3Tld`, `H6ztmrCS6`],
           optionTitles: [`Gradient Button`, `Big Button`],
           title: `Variant`,
-          type: O.Enum,
+          type: A.Enum,
         },
-        AKuoesW74: { defaultValue: 8, displayStepper: !0, title: `Radius`, type: O.Number },
-        onAKuoesW74Change: { changes: `AKuoesW74`, type: O.ChangeHandler },
-        r7ASsAiJ9: { defaultValue: !0, title: `Button Label`, type: O.Boolean },
-        onr7ASsAiJ9Change: { changes: `r7ASsAiJ9`, type: O.ChangeHandler },
+        AKuoesW74: { defaultValue: 8, displayStepper: !0, title: `Radius`, type: A.Number },
+        onAKuoesW74Change: { changes: `AKuoesW74`, type: A.ChangeHandler },
+        r7ASsAiJ9: { defaultValue: !0, title: `Button Label`, type: A.Boolean },
+        onr7ASsAiJ9Change: { changes: `r7ASsAiJ9`, type: A.ChangeHandler },
         OlthDMhqu: {
           defaultValue: `Button`,
           displayTextArea: !1,
           title: `Button Label`,
-          type: O.String,
+          type: A.String,
         },
-        onOlthDMhquChange: { changes: `OlthDMhqu`, type: O.ChangeHandler },
-        AYwwfkaKd: { title: `Link`, type: O.Link },
-        FPjhikCji: { defaultValue: !1, title: `New Tab`, type: O.Boolean },
-        onFPjhikCjiChange: { changes: `FPjhikCji`, type: O.ChangeHandler },
+        onOlthDMhquChange: { changes: `OlthDMhqu`, type: A.ChangeHandler },
+        AYwwfkaKd: { title: `Link`, type: A.Link },
+        FPjhikCji: { defaultValue: !1, title: `New Tab`, type: A.Boolean },
+        onFPjhikCjiChange: { changes: `FPjhikCji`, type: A.ChangeHandler },
       }),
-      M(
-        K,
+      T(
+        G,
         [
           {
             explicitInter: !0,
@@ -1112,18 +1143,18 @@ var me,
               },
             ],
           },
-          ...b(N),
+          ...b(F),
           ...b(de),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  q,
-  Oe,
-  ke,
-  Ae = e(() => {
-    (w(),
-      (q = {
+  K,
+  je,
+  Me,
+  Ne = e(() => {
+    (y(),
+      (K = {
         position: `relative`,
         width: `100%`,
         height: `100%`,
@@ -1131,64 +1162,64 @@ var me,
         justifyContent: `center`,
         alignItems: `center`,
       }),
-      (Oe = {
-        ...q,
+      (je = {
+        ...K,
         borderRadius: 6,
         background: `rgba(136, 85, 255, 0.3)`,
         color: `#85F`,
         border: `1px dashed #85F`,
         flexDirection: `column`,
       }),
-      (ke = {
-        onClick: { type: O.EventHandler },
-        onMouseEnter: { type: O.EventHandler },
-        onMouseLeave: { type: O.EventHandler },
+      (Me = {
+        onClick: { type: A.EventHandler },
+        onMouseEnter: { type: A.EventHandler },
+        onMouseLeave: { type: A.EventHandler },
       }),
-      O.Number,
-      O.Boolean,
-      O.String,
-      O.Enum);
-  }),
-  je = e(() => {
-    (w(), n());
-  }),
-  Me = e(() => {
-    n();
-  }),
-  Ne = e(() => {
-    w();
-  }),
-  J = e(() => {
-    w();
+      A.Number,
+      A.Boolean,
+      A.String,
+      A.Enum);
   }),
   Pe = e(() => {
-    n();
+    (y(), s());
   }),
   Fe = e(() => {
-    w();
+    s();
   }),
   Ie = e(() => {
-    (t(), n());
+    y();
+  }),
+  q = e(() => {
+    y();
   }),
   Le = e(() => {
-    (n(), J());
+    s();
   }),
   Re = e(() => {
-    (n(), w(), J(), Me());
+    y();
   }),
   ze = e(() => {
-    (w(), n(), Ae());
-  });
-function Be() {
-  return o(() => D.current() === D.canvas, []);
-}
-var Ve = e(() => {
-    (n(), w());
+    (m(), s());
+  }),
+  Be = e(() => {
+    (s(), q());
+  }),
+  Ve = e(() => {
+    (s(), y(), q(), Fe());
   }),
   He = e(() => {
-    n();
+    (y(), s(), Ne());
   });
-function Ue(e) {
+function Ue() {
+  return o(() => D.current() === D.canvas, []);
+}
+var We = e(() => {
+    (s(), y());
+  }),
+  Ge = e(() => {
+    s();
+  });
+function Ke(e) {
   let {
     borderRadius: t,
     isMixedBorderRadius: n,
@@ -1199,7 +1230,7 @@ function Ue(e) {
   } = e;
   return o(() => (n ? `${r}px ${i}px ${a}px ${s}px` : `${t}px`), [t, n, r, i, a, s]);
 }
-function We(e) {
+function qe(e) {
   let {
     padding: t,
     paddingPerSide: n,
@@ -1210,15 +1241,15 @@ function We(e) {
   } = e;
   return o(() => (n ? `${r}px ${i}px ${a}px ${s}px` : t), [t, n, r, i, a, s]);
 }
-var Ge,
-  Ke,
-  qe = e(() => {
-    (n(),
-      w(),
-      (Ge = {
+var Je,
+  Ye,
+  Xe = e(() => {
+    (s(),
+      y(),
+      (Je = {
         borderRadius: {
           title: `Radius`,
-          type: O.FusedNumber,
+          type: A.FusedNumber,
           toggleKey: `isMixedBorderRadius`,
           toggleTitles: [`Radius`, `Radius per corner`],
           valueKeys: [`topLeftRadius`, `topRightRadius`, `bottomRightRadius`, `bottomLeftRadius`],
@@ -1226,9 +1257,9 @@ var Ge,
           min: 0,
         },
       }),
-      (Ke = {
+      (Ye = {
         padding: {
-          type: O.FusedNumber,
+          type: A.FusedNumber,
           toggleKey: `paddingPerSide`,
           toggleTitles: [`Padding`, `Padding per side`],
           valueKeys: [`paddingTop`, `paddingRight`, `paddingBottom`, `paddingLeft`],
@@ -1238,37 +1269,37 @@ var Ge,
         },
       }));
   }),
-  Je = e(() => {
-    (Ae(), je(), Me(), Ne(), J(), Pe(), Fe(), Ie(), Le(), Re(), ze(), Ve(), He(), qe());
+  Ze = e(() => {
+    (Ne(), Pe(), Fe(), Ie(), q(), Le(), Re(), ze(), Be(), Ve(), He(), We(), Ge(), Xe());
   }),
-  Ye = e(() => {
-    Je();
+  Qe = e(() => {
+    Ze();
   });
-function Y({
+function J({
   url: e,
   play: t,
-  shouldMute: n,
-  thumbnail: r,
-  isRed: i,
-  onClick: o,
+  shouldMute: r,
+  thumbnail: a,
+  isRed: o,
+  onClick: s,
   onMouseEnter: c,
-  onMouseLeave: u,
-  onMouseDown: f,
+  onMouseLeave: d,
+  onMouseDown: p,
   onMouseUp: m,
   title: h,
   ...g
 }) {
-  let _ = Be(),
+  let _ = Ue(),
     v = t !== `Off`,
-    y = _ || (r !== `Off` && !v),
-    [b, x] = a(() => !0, !1),
-    [S, C] = a(() => !0, !y),
-    [w, T] = s(!1),
-    E = Ue(g),
+    y = _ || (a !== `Off` && !v),
+    [b, x] = n(() => !0, !1),
+    [S, C] = n(() => !0, !y),
+    [w, T] = i(!1),
+    E = Ke(g),
     D = E !== `0px 0px 0px 0px` && E !== `0px`;
-  if (e === ``) return d(Qe, {});
-  let O = Xe(e);
-  if (O === void 0) return d($e, { message: `Invalid Youtube URL.` });
+  if (e === ``) return l(tt, {});
+  let O = $e(e);
+  if (O === void 0) return l(nt, { message: `Invalid Youtube URL.` });
   let [k, A, j] = O,
     M = A.searchParams;
   if (j) for (let [e, t] of j) (M.set(e, t), e === `t` && M.set(`start`, t));
@@ -1277,28 +1308,28 @@ function Y({
     M.set(`modestbranding`, `1`),
     M.set(`playsinline`, `1`),
     S ? (v || (y && S)) && M.set(`autoplay`, `1`) : M.set(`autoplay`, `0`),
-    v && n && M.set(`mute`, `1`),
+    v && r && M.set(`mute`, `1`),
     t === `Loop` && (M.set(`loop`, `1`), M.set(`playlist`, k)),
-    i || M.set(`color`, `white`));
+    o || M.set(`color`, `white`));
   let N = {
     title: h || `Youtube Video`,
     allow: `presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture`,
     src: A.href,
     frameBorder: `0`,
-    onClick: o,
+    onClick: s,
     onMouseEnter: c,
-    onMouseLeave: u,
-    onMouseDown: f,
+    onMouseLeave: d,
+    onMouseDown: p,
     onMouseUp: m,
   };
-  return p(`article`, {
+  return u(`article`, {
     onPointerEnter: () => T(!0),
     onPointerLeave: () => T(!1),
     onPointerOver: x,
     onKeyDown: C,
     onClick: C,
     style: {
-      ...it,
+      ...st,
       borderRadius: E,
       transform: D && (S || _) ? `translateZ(0.000001px)` : `unset`,
       cursor: `pointer`,
@@ -1306,32 +1337,32 @@ function Y({
     },
     role: `presentation`,
     children: [
-      b && d(`link`, { rel: `preconnect`, href: `https://www.youtube.com` }),
-      b && d(`link`, { rel: `preconnect`, href: `https://www.google.com` }),
+      b && l(`link`, { rel: `preconnect`, href: `https://www.youtube.com` }),
+      b && l(`link`, { rel: `preconnect`, href: `https://www.google.com` }),
       y &&
-        p(l, {
+        u(f, {
           children: [
-            d(`link`, { rel: `preconnect`, href: `https://i.ytimg.com` }),
-            d(`img`, { decoding: `async`, src: Ze(k, r), style: { ...Q, objectFit: `cover` } }),
+            l(`link`, { rel: `preconnect`, href: `https://i.ytimg.com` }),
+            l(`img`, { decoding: `async`, src: et(k, a), style: { ...Z, objectFit: `cover` } }),
           ],
         }),
       _
         ? null
-        : d(`iframe`, {
+        : l(`iframe`, {
             loading: S ? void 0 : `lazy`,
-            style: S ? Q : { ...Q, display: `none` },
+            style: S ? Z : { ...Z, display: `none` },
             ...N,
           }),
-      S ? null : d(et, { onClick: C, isHovered: w, isRed: i }),
+      S ? null : l(rt, { onClick: C, isHovered: w, isRed: o }),
     ],
   });
 }
-function Xe(e) {
+function $e(e) {
   let t;
   try {
     t = new URL(e);
   } catch {
-    return [e, X(e), null];
+    return [e, Y(e), null];
   }
   let n = t.searchParams;
   if (
@@ -1344,23 +1375,23 @@ function Xe(e) {
       r = e[0];
     if (r === `watch`) {
       let e = t.searchParams.get(`v`);
-      return [e, X(e), n];
+      return [e, Y(e), n];
     }
     if (r === `embed`) return [e[1], t, n];
     if (r === `shorts` || r === `live`) {
       let t = e[1];
-      return [t, X(t), n];
+      return [t, Y(t), n];
     }
   }
   if (t.hostname === `youtu.be`) {
     let e = t.pathname.slice(1);
-    return [e, X(e), n];
+    return [e, Y(e), n];
   }
 }
-function X(e) {
+function Y(e) {
   return new URL(`https://www.youtube.com/embed/${e}`);
 }
-function Ze(e, t) {
+function et(e, t) {
   let n = `https://i.ytimg.com/vi_webp/`,
     r = `webp`;
   switch (t) {
@@ -1374,34 +1405,34 @@ function Ze(e, t) {
       return `${n}${e}/0.${r}`;
   }
 }
-function Qe() {
-  return d(`div`, {
-    style: { ...Oe, overflow: `hidden` },
-    children: d(`div`, {
-      style: Z,
+function tt() {
+  return l(`div`, {
+    style: { ...je, overflow: `hidden` },
+    children: l(`div`, {
+      style: X,
       children: `To embed a Youtube video, add the URL to the properties\xA0panel.`,
     }),
   });
 }
-function $e({ message: e }) {
-  return d(`div`, {
+function nt({ message: e }) {
+  return l(`div`, {
     className: `framerInternalUI-errorPlaceholder`,
-    style: { ...q, overflow: `hidden` },
-    children: p(`div`, { style: Z, children: [`Error: `, e] }),
+    style: { ...K, overflow: `hidden` },
+    children: u(`div`, { style: X, children: [`Error: `, e] }),
   });
 }
-function et({ onClick: e, isHovered: t, isRed: n }) {
-  return d(`button`, {
+function rt({ onClick: e, isHovered: t, isRed: n }) {
+  return l(`button`, {
     onClick: e,
     "aria-label": `Play`,
-    style: rt,
-    children: p(`svg`, {
+    style: ot,
+    children: u(`svg`, {
       height: `100%`,
       version: `1.1`,
       viewBox: `0 0 68 48`,
       width: `100%`,
       children: [
-        d(`path`, {
+        l(`path`, {
           d: `M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z`,
           fill: t ? (n ? `#f00` : `#000`) : `#212121`,
           fillOpacity: t && n ? 1 : 0.8,
@@ -1409,38 +1440,38 @@ function et({ onClick: e, isHovered: t, isRed: n }) {
             transition: `fill .1s cubic-bezier(0.4, 0, 1, 1), fill-opacity .1s cubic-bezier(0.4, 0, 1, 1)`,
           },
         }),
-        d(`path`, { d: `M 45,24 27,14 27,34`, fill: `#fff` }),
+        l(`path`, { d: `M 45,24 27,14 27,34`, fill: `#fff` }),
       ],
     }),
   });
 }
-var tt,
-  nt,
-  rt,
-  it,
+var it,
+  at,
+  ot,
+  st,
+  X,
   Z,
-  Q,
-  at = e(() => {
-    (f(),
-      n(),
-      w(),
-      Ye(),
+  ct = e(() => {
+    (d(),
+      s(),
+      y(),
+      Qe(),
       (function (e) {
         ((e.Normal = `Off`), (e.Auto = `On`), (e.Loop = `Loop`));
-      })((tt ||= {})),
+      })((it ||= {})),
       (function (e) {
         ((e.High = `High Quality`),
           (e.Medium = `Medium Quality`),
           (e.Low = `Low Quality`),
           (e.Off = `Off`));
-      })((nt ||= {})),
-      (Y.displayName = `YouTube`),
-      S(Y, {
-        url: { type: O.String, title: `Video` },
-        play: { type: O.Enum, title: `Autoplay`, options: Object.values(tt) },
+      })((at ||= {})),
+      (J.displayName = `YouTube`),
+      P(J, {
+        url: { type: A.String, title: `Video` },
+        play: { type: A.Enum, title: `Autoplay`, options: Object.values(it) },
         shouldMute: {
           title: `Mute`,
-          type: O.Boolean,
+          type: A.Boolean,
           enabledTitle: `Yes`,
           disabledTitle: `No`,
           hidden(e) {
@@ -1450,24 +1481,24 @@ var tt,
         thumbnail: {
           title: `Thumbnail`,
           description: `Showing a thumbnail improves performance.`,
-          type: O.Enum,
-          options: Object.values(nt),
+          type: A.Enum,
+          options: Object.values(at),
           hidden(e) {
             return e.play !== `Off`;
           },
         },
-        isRed: { title: `Color`, type: O.Boolean, enabledTitle: `Red`, disabledTitle: `White` },
-        ...Ge,
-        ...ke,
+        isRed: { title: `Color`, type: A.Boolean, enabledTitle: `Red`, disabledTitle: `White` },
+        ...Je,
+        ...Me,
       }),
-      (Y.defaultProps = {
+      (J.defaultProps = {
         url: `https://youtu.be/8AHPXm9Y6mI`,
         play: `Off`,
         shouldMute: !0,
         thumbnail: `Medium Quality`,
         isRed: !0,
       }),
-      (rt = {
+      (ot = {
         position: `absolute`,
         top: `50%`,
         left: `50%`,
@@ -1479,17 +1510,17 @@ var tt,
         background: `transparent`,
         cursor: `pointer`,
       }),
-      (it = { position: `relative`, width: `100%`, height: `100%` }),
-      (Z = { textAlign: `center`, minWidth: 140 }),
-      (Q = { position: `absolute`, top: 0, left: 0, height: `100%`, width: `100%` }));
+      (st = { position: `relative`, width: `100%`, height: `100%` }),
+      (X = { textAlign: `center`, minWidth: 140 }),
+      (Z = { position: `absolute`, top: 0, left: 0, height: `100%`, width: `100%` }));
   }),
-  ot,
-  st,
-  ct,
-  lt = e(() => {
-    (w(),
-      y.loadFonts([`GF;Inter-600`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
-      (ot = [
+  lt,
+  ut,
+  dt,
+  ft = e(() => {
+    (y(),
+      S.loadFonts([`GF;Inter-600`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
+      (lt = [
         {
           explicitInter: !0,
           fonts: [
@@ -1672,14 +1703,14 @@ var tt,
           ],
         },
       ]),
-      (st = [
+      (ut = [
         `.framer-7wku3 .framer-styles-preset-93ypku:not(.rich-text-wrapper), .framer-7wku3 .framer-styles-preset-93ypku.rich-text-wrapper h1 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 64px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-7wku3 .framer-styles-preset-93ypku:not(.rich-text-wrapper), .framer-7wku3 .framer-styles-preset-93ypku.rich-text-wrapper h1 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 51px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-7wku3 .framer-styles-preset-93ypku:not(.rich-text-wrapper), .framer-7wku3 .framer-styles-preset-93ypku.rich-text-wrapper h1 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 40px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }`,
       ]),
-      (ct = `framer-7wku3`));
+      (dt = `framer-7wku3`));
   });
-function $(e, t) {
+function Q(e, t) {
   return {
     description: `Flamer is a sleek, high-converting SaaS landing page template designed for AI-powered startups. With modern design, intuitive layout, and all essential sections, it helps you showcase your product, engage users, and drive conversions effortlessly.`,
     favicon: `https://framerusercontent.com/assets/lbsCM2zkqw7fkfm7k2tIMYBfIWE.png`,
@@ -1688,36 +1719,37 @@ function $(e, t) {
     title: `Flamer – The Ultimate AI SaaS Landing Page Template`,
   };
 }
-var ut = e(() => {});
-function dt(e, t) {
+var pt = e(() => {});
+function mt(e, t) {
   return {
     breakpoints: [
       { hash: `72rtr7`, mediaQuery: `(min-width: 1200px)` },
       { hash: `1npr79d`, mediaQuery: `(min-width: 810px) and (max-width: 1199.98px)` },
       { hash: `1bp0152`, mediaQuery: `(max-width: 809.98px)` },
     ],
-    description: $(e, t).description,
+    description: Q(e, t).description,
     elements: {
-      adTRrxLJn: `showcase`,
       IknGWjLgy: `benefits`,
       iYUNHqCEb: `hero`,
       lCq8UO0dC: `image-gen`,
       N2ijbw0rP: `features`,
       sgmlFhWUG: `product`,
       U6VhzUg6a: `richtext`,
+      v99AbFhke: `faqs`,
+      zKzXmXRGU: `showcases`,
     },
     robots: `max-image-preview:large`,
-    serializationId: `framer-Gk3Tz`,
-    title: $(e, t).title || `Home`,
+    serializationId: `framer-HE7pv`,
+    title: Q(e, t).title || `Home`,
     viewport: `width=device-width`,
   };
 }
-var ft,
-  pt,
-  mt = e(() => {
-    (ut(),
-      (ft = 1),
-      (pt = {
+var ht,
+  gt,
+  _t = e(() => {
+    (pt(),
+      (ht = 1),
+      (gt = {
         exports: {
           metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           default: { type: `function`, annotations: { framerContractVersion: `1` } },
@@ -1725,61 +1757,61 @@ var ft,
         },
       }));
   });
-function ht(e, t) {
+function vt(e, t) {
   return {
     breakpoints: [
       { hash: `djrgrx`, mediaQuery: `(min-width: 1200px)` },
       { hash: `1yvhpvj`, mediaQuery: `(min-width: 810px) and (max-width: 1199.98px)` },
       { hash: `6560ev`, mediaQuery: `(max-width: 809.98px)` },
     ],
-    description: $(e, t).description,
+    description: Q(e, t).description,
     elements: {},
     framerSearch: { index: !1 },
     robots: `noindex`,
-    serializationId: `framer-YiXIe`,
-    title: $(e, t).title || `404`,
+    serializationId: `framer-sVwXL`,
+    title: Q(e, t).title || `404`,
     viewport: `width=device-width`,
   };
 }
-var gt,
-  _t,
-  vt = e(() => {
-    (ut(),
-      (gt = 1),
-      (_t = {
+var $,
+  yt,
+  bt = e(() => {
+    (pt(),
+      ($ = 1),
+      (yt = {
         exports: {
-          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           default: { type: `function`, annotations: { framerContractVersion: `1` } },
+          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           __FramerMetadata__: { type: `variable` },
         },
       }));
   });
 export {
-  F as C,
-  I as E,
+  L as C,
+  R as E,
   ue as S,
-  N as T,
-  Ke as _,
-  pt as a,
-  De as b,
-  ft as c,
-  ot as d,
-  lt as f,
-  qe as g,
-  Ye as h,
-  gt as i,
-  ct as l,
-  at as m,
-  vt as n,
-  mt as o,
-  Y as p,
-  ht as r,
-  dt as s,
-  _t as t,
-  st as u,
-  We as v,
-  P as w,
-  V as x,
-  K as y,
+  F as T,
+  Ye as _,
+  gt as a,
+  Ae as b,
+  ht as c,
+  lt as d,
+  ft as f,
+  Xe as g,
+  Qe as h,
+  $ as i,
+  dt as l,
+  ct as m,
+  bt as n,
+  _t as o,
+  J as p,
+  vt as r,
+  mt as s,
+  yt as t,
+  ut as u,
+  qe as v,
+  I as w,
+  U as x,
+  G as y,
 };
-//# sourceMappingURL=shared-lib.CuE3I6Um.mjs.map
+//# sourceMappingURL=shared-lib.WUiyMq6h.mjs.map

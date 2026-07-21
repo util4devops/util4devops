@@ -35,7 +35,7 @@ async function u() {
 }
 async function d(e) {
   try {
-    let { jwtDecode: t } = await import("https://app.framerstatic.com/esm-GWBOIHES.mjs");
+    let { jwtDecode: t } = await import("https://app.framerstatic.com/esm-O3OA2UPW.mjs");
     return t(e).userId;
   } catch {
     return;
@@ -74,4 +74,4 @@ async function w(e) {
     : { status: "success", data: o, userId: s };
 }
 export { w as a };
-//# sourceMappingURL=chunk-SDIKLVRM.mjs.map
+//# sourceMappingURL=chunk-IE346I3J.mjs.map
