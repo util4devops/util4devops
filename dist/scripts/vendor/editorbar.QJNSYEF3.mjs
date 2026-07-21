@@ -79,8 +79,8 @@ async function h() {
       t.data.projectFeatures &&
       (window.framerProjectFeatures = t.data.projectFeatures),
     await Promise.all([w(), b()]));
-  let { renderEditorBar: m } = await import("https://app.framerstatic.com/render-G2YKTPFX.mjs");
+  let { renderEditorBar: m } = await import("https://app.framerstatic.com/render-FJ4NDLD5.mjs");
   await m(t, r);
 }
 h().catch(console.error);
-//# sourceMappingURL=editorbar.7PNBQLFF.mjs.map
+//# sourceMappingURL=editorbar.QJNSYEF3.mjs.map

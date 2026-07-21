@@ -1,46 +1,43 @@
 import { t as e } from "./rolldown-runtime.Dh6celcD.mjs";
 import {
   A as t,
-  D as n,
-  I as r,
-  L as i,
-  M as a,
-  N as o,
-  T as s,
-  _ as c,
-  c as l,
-  l as u,
-  o as d,
-  s as f,
-  y as p,
-  z as m,
+  I as n,
+  M as r,
+  N as i,
+  T as a,
+  _ as o,
+  c as s,
+  l as c,
+  o as l,
+  y as ee,
+  z as te,
 } from "./react.B4kFiiQA.mjs";
-import { S as h, a as g, r as _, t as v } from "./motion.CYX_XZth.mjs";
+import { S as u, a as d, r as ne, t as f } from "./motion.CYX_XZth.mjs";
 import {
-  B as y,
-  N as b,
-  P as x,
-  T as S,
-  Z as C,
-  _ as w,
-  b as T,
-  ct as E,
-  h as D,
-  lt as O,
-  nt as k,
-  r as A,
-  s as j,
-  u as M,
-  w as N,
-  x as P,
-} from "./framer.D3c-8bqh.mjs";
-var F,
-  I,
-  L,
-  R = e(() => {
-    (y(),
-      S.loadFonts([`Inter-Medium`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-MediumItalic`]),
-      (F = [
+  B as p,
+  N as m,
+  P as h,
+  T as g,
+  Z as _,
+  _ as v,
+  b as y,
+  ct as re,
+  h as b,
+  lt as x,
+  nt as ie,
+  r as S,
+  s as C,
+  u as w,
+  w as T,
+  x as E,
+} from "./framer.D26jh1-v.mjs";
+var D,
+  O,
+  k,
+  ae = e(() => {
+    (p(),
+      g.loadFonts([`Inter-Medium`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-MediumItalic`]),
+      (D = [
         {
           explicitInter: !0,
           fonts: [
@@ -271,20 +268,20 @@ var F,
           ],
         },
       ]),
-      (I = [
+      (O = [
         `.framer-mhfY5 .framer-styles-preset-ke6suj:not(.rich-text-wrapper), .framer-mhfY5 .framer-styles-preset-ke6suj.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0px; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-mhfY5 .framer-styles-preset-ke6suj:not(.rich-text-wrapper), .framer-mhfY5 .framer-styles-preset-ke6suj.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0px; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-mhfY5 .framer-styles-preset-ke6suj:not(.rich-text-wrapper), .framer-mhfY5 .framer-styles-preset-ke6suj.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0px; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (L = `framer-mhfY5`));
+      (k = `framer-mhfY5`));
   }),
-  z,
-  B,
-  V,
-  H = e(() => {
-    (y(),
-      S.loadFonts([`GF;Inter-500`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-500italic`]),
-      (z = [
+  oe,
+  A,
+  j,
+  M = e(() => {
+    (p(),
+      g.loadFonts([`GF;Inter-500`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-500italic`]),
+      (oe = [
         {
           explicitInter: !0,
           fonts: [
@@ -319,114 +316,114 @@ var F,
           ],
         },
       ]),
-      (B = [
+      (A = [
         `.framer-zCU8Z .framer-styles-preset-im2x0h:not(.rich-text-wrapper), .framer-zCU8Z .framer-styles-preset-im2x0h.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 20px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0em; --framer-line-height: 1.4em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
-      (V = `framer-zCU8Z`));
+      (j = `framer-zCU8Z`));
   });
-function ee(e, ...t) {
+function N(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var te,
-  ne,
-  re,
-  ie,
-  ae,
-  oe,
+var P,
+  F,
+  I,
   se,
-  ce,
-  le,
-  U,
-  ue = e(() => {
-    (d(),
-      y(),
-      v(),
-      s(),
-      H(),
-      (te = [`iC3uXzR0q`, `mmDUgpyjc`]),
-      (ne = `framer-Oj3EQ`),
-      (re = { iC3uXzR0q: `framer-v-17bnp42`, mmDUgpyjc: `framer-v-1t7i2o5` }),
-      (ie = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (ae = ({ value: e, children: t }) => {
-        let n = a(g),
-          r = e ?? n.transition,
-          i = o(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
-        return l(g.Provider, { value: i, children: t });
+  L,
+  R,
+  z,
+  B,
+  V,
+  H,
+  U = e(() => {
+    (l(),
+      p(),
+      f(),
+      a(),
+      M(),
+      (P = [`iC3uXzR0q`, `mmDUgpyjc`]),
+      (F = `framer-Oj3EQ`),
+      (I = { iC3uXzR0q: `framer-v-17bnp42`, mmDUgpyjc: `framer-v-1t7i2o5` }),
+      (se = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (L = ({ value: e, children: t }) => {
+        let n = r(d),
+          a = e ?? n.transition,
+          o = i(() => ({ ...n, transition: a }), [JSON.stringify(a)]);
+        return s(d.Provider, { value: o, children: t });
       }),
-      (oe = { Footer: `mmDUgpyjc`, Logo: `iC3uXzR0q` }),
-      (se = h.create(r)),
-      (ce = ({ height: e, id: t, link: n, width: r, ...i }) => ({
+      (R = { Footer: `mmDUgpyjc`, Logo: `iC3uXzR0q` }),
+      (z = u.create(n)),
+      (B = ({ height: e, id: t, link: n, width: r, ...i }) => ({
         ...i,
         irY_XKj0O: n ?? i.irY_XKj0O,
-        variant: oe[i.variant] ?? i.variant ?? `iC3uXzR0q`,
+        variant: R[i.variant] ?? i.variant ?? `iC3uXzR0q`,
       })),
-      (le = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (U = O(
-        c(function (e, n) {
+      (V = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (H = x(
+        o(function (e, r) {
           let i = t(null),
-            a = n ?? i,
-            o = p(),
-            { activeLocale: s, setLocale: c } = k(),
-            d = C(),
-            { style: f, className: m, layoutId: g, variant: v, irY_XKj0O: y, ...b } = ce(e),
+            a = r ?? i,
+            o = ee(),
+            { activeLocale: l, setLocale: te } = ie(),
+            d = _(),
+            { style: f, className: p, layoutId: m, variant: g, irY_XKj0O: y, ...b } = B(e),
             {
-              baseVariant: S,
-              classNames: T,
-              clearLoadingGesture: D,
-              gestureHandlers: O,
-              gestureVariant: A,
-              isLoading: P,
-              setGestureState: F,
-              setVariant: I,
-              variants: L,
-            } = E({
-              cycleOrder: te,
+              baseVariant: x,
+              classNames: S,
+              clearLoadingGesture: E,
+              gestureHandlers: D,
+              gestureVariant: O,
+              isLoading: k,
+              setGestureState: ae,
+              setVariant: oe,
+              variants: A,
+            } = re({
+              cycleOrder: P,
               defaultVariant: `iC3uXzR0q`,
               ref: a,
-              variant: v,
-              variantClassNames: re,
+              variant: g,
+              variantClassNames: I,
             }),
-            R = le(e, L),
-            z = N(ne, V),
-            B = () => S !== `mmDUgpyjc`,
-            H = () => S === `mmDUgpyjc`;
-          return l(_, {
-            id: g ?? o,
-            children: l(se, {
-              animate: L,
+            M = V(e, A),
+            R = T(F, j),
+            H = () => x !== `mmDUgpyjc`,
+            U = () => x === `mmDUgpyjc`;
+          return s(ne, {
+            id: m ?? o,
+            children: s(z, {
+              animate: A,
               initial: !1,
-              children: l(ae, {
-                value: ie,
-                children: l(M, {
+              children: s(L, {
+                value: se,
+                children: s(w, {
                   href: y,
                   motionChild: !0,
                   nodeId: `iC3uXzR0q`,
                   scopeId: `JTibN7whG`,
-                  children: l(h.a, {
+                  children: s(u.a, {
                     ...b,
-                    ...O,
-                    className: `${N(z, `framer-17bnp42`, m, T)} framer-8037fa`,
+                    ...D,
+                    className: `${T(R, `framer-17bnp42`, p, S)} framer-8037fa`,
                     "data-framer-name": `Logo`,
-                    layoutDependency: R,
+                    layoutDependency: M,
                     layoutId: `iC3uXzR0q`,
                     ref: a,
                     style: { ...f },
-                    ...ee({ mmDUgpyjc: { "data-framer-name": `Footer` } }, S, A),
-                    children: u(h.div, {
+                    ...N({ mmDUgpyjc: { "data-framer-name": `Footer` } }, x, O),
+                    children: c(u.div, {
                       className: `framer-14xrcyt`,
                       "data-framer-name": `Logo`,
-                      layoutDependency: R,
+                      layoutDependency: M,
                       layoutId: `W5UNeFaVz`,
                       children: [
-                        B() &&
-                          l(j, {
+                        H() &&
+                          s(C, {
                             background: {
                               alt: ``,
                               fit: `fill`,
                               intrinsicHeight: 500,
                               intrinsicWidth: 500,
-                              loading: x((d?.y || 0) + (0 + ((d?.height || 48) - 0 - 48) / 2) + 0),
+                              loading: h((d?.y || 0) + (0 + ((d?.height || 48) - 0 - 48) / 2) + 0),
                               pixelHeight: 500,
                               pixelWidth: 500,
                               sizes: `48px`,
@@ -434,18 +431,18 @@ var te,
                             },
                             className: `framer-19ysx27`,
                             "data-framer-name": `Logo-removebg-preview`,
-                            layoutDependency: R,
+                            layoutDependency: M,
                             layoutId: `DQHI69Gw8`,
                             style: {
                               filter: `drop-shadow(0px 1px 1px rgba(0,0,0,0.25))`,
                               WebkitFilter: `drop-shadow(0px 1px 1px rgba(0,0,0,0.25))`,
                             },
                           }),
-                        B() &&
-                          l(w, {
+                        H() &&
+                          s(v, {
                             __fromCanvasComponent: !0,
-                            children: l(r, {
-                              children: l(h.p, {
+                            children: s(n, {
+                              children: s(u.p, {
                                 className: `framer-styles-preset-im2x0h`,
                                 "data-styles-preset": `fhos88JCX`,
                                 dir: `auto`,
@@ -457,7 +454,7 @@ var te,
                             }),
                             className: `framer-1u5vwwj`,
                             fonts: [`Inter`],
-                            layoutDependency: R,
+                            layoutDependency: M,
                             layoutId: `aY_Unl2UT`,
                             style: {
                               "--extracted-r6o4lv": `var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, rgb(250, 250, 250))`,
@@ -467,8 +464,8 @@ var te,
                             verticalAlignment: `top`,
                             withExternalLayout: !0,
                           }),
-                        H() &&
-                          l(j, {
+                        U() &&
+                          s(C, {
                             background: {
                               alt: ``,
                               fit: `fill`,
@@ -480,9 +477,9 @@ var te,
                             },
                             className: `framer-ifdtpq`,
                             "data-framer-name": `Logo-removebg-preview`,
-                            layoutDependency: R,
+                            layoutDependency: M,
                             layoutId: `OO_viLLXT`,
-                            ...ee(
+                            ...N(
                               {
                                 mmDUgpyjc: {
                                   background: {
@@ -490,7 +487,7 @@ var te,
                                     fit: `fill`,
                                     intrinsicHeight: 100,
                                     intrinsicWidth: 100,
-                                    loading: x((d?.y || 0) + 0 + 0 + 0 + 0),
+                                    loading: h((d?.y || 0) + 0 + 0 + 0 + 0),
                                     pixelHeight: 100,
                                     pixelWidth: 100,
                                     sizes: `87px`,
@@ -498,8 +495,8 @@ var te,
                                   },
                                 },
                               },
-                              S,
-                              A
+                              x,
+                              O
                             ),
                           }),
                       ],
@@ -519,23 +516,23 @@ var te,
           `.framer-Oj3EQ .framer-ifdtpq { aspect-ratio: 1 / 1; flex: none; height: auto; overflow: visible; position: relative; width: 87px; }`,
           `.framer-Oj3EQ.framer-v-1t7i2o5.framer-17bnp42 { flex-direction: column; }`,
           `.framer-Oj3EQ.framer-v-1t7i2o5 .framer-14xrcyt { flex-direction: column; gap: 5px; }`,
-          ...B,
+          ...A,
         ],
         `framer-Oj3EQ`
       )),
-      (U.displayName = `Logos`),
-      (U.defaultProps = { height: 48, width: 138 }),
-      P(U, {
+      (H.displayName = `Logos`),
+      (H.defaultProps = { height: 48, width: 138 }),
+      E(H, {
         variant: {
           options: [`iC3uXzR0q`, `mmDUgpyjc`],
           optionTitles: [`Logo`, `Footer`],
           title: `Variant`,
-          type: A.Enum,
+          type: S.Enum,
         },
-        irY_XKj0O: { title: `Link`, type: A.Link },
+        irY_XKj0O: { title: `Link`, type: S.Link },
       }),
-      T(
-        U,
+      y(
+        H,
         [
           {
             explicitInter: !0,
@@ -605,18 +602,18 @@ var te,
               },
             ],
           },
-          ...b(z),
+          ...m(oe),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  de,
-  fe,
-  pe,
-  me = e(() => {
-    (y(),
-      S.loadFonts([`GF;Inter-500`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
-      (de = [
+  W,
+  G,
+  K,
+  ce = e(() => {
+    (p(),
+      g.loadFonts([`GF;Inter-500`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
+      (W = [
         {
           explicitInter: !0,
           fonts: [
@@ -798,75 +795,75 @@ var te,
           ],
         },
       ]),
-      (fe = [
+      (G = [
         `.framer-NS75P .framer-styles-preset-ko1txu:not(.rich-text-wrapper), .framer-NS75P .framer-styles-preset-ko1txu.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 32px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-NS75P .framer-styles-preset-ko1txu:not(.rich-text-wrapper), .framer-NS75P .framer-styles-preset-ko1txu.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 26px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-NS75P .framer-styles-preset-ko1txu:not(.rich-text-wrapper), .framer-NS75P .framer-styles-preset-ko1txu.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 20px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (pe = `framer-NS75P`));
+      (K = `framer-NS75P`));
   });
-function he(e, ...t) {
+function le(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var ge,
+var ue,
+  de,
+  fe,
+  pe,
+  me,
+  he,
+  ge,
   _e,
+  q,
   ve,
   ye,
   be,
   xe,
   Se,
   Ce,
-  W,
-  we,
-  Te,
-  Ee,
-  De,
-  Oe,
-  ke,
-  G,
-  Ae = e(() => {
-    (d(),
-      y(),
-      v(),
-      s(),
-      R(),
-      me(),
-      (ge = { H6ztmrCS6: { hover: !0 }, uGayw3Tld: { hover: !0 } }),
-      (_e = [`uGayw3Tld`, `H6ztmrCS6`]),
-      (ve = `framer-oVUBd`),
-      (ye = { H6ztmrCS6: `framer-v-1w5meqt`, uGayw3Tld: `framer-v-1m898ms` }),
-      (be = (e, t) =>
+  J,
+  we = e(() => {
+    (l(),
+      p(),
+      f(),
+      a(),
+      ae(),
+      ce(),
+      (ue = { H6ztmrCS6: { hover: !0 }, uGayw3Tld: { hover: !0 } }),
+      (de = [`uGayw3Tld`, `H6ztmrCS6`]),
+      (fe = `framer-oVUBd`),
+      (pe = { H6ztmrCS6: `framer-v-1w5meqt`, uGayw3Tld: `framer-v-1m898ms` }),
+      (me = (e, t) =>
         typeof e == `string` && typeof t == `string`
           ? e.toLowerCase() === t.toLowerCase()
           : e === t),
-      (xe = (e, t) => (e ? 20 : 12)),
-      (Se = (e) => {
+      (he = (e, t) => (e ? 20 : 12)),
+      (ge = (e) => {
         if (typeof e == `number` && Number.isFinite(e)) return e;
         if (typeof e != `string`) return 0;
         let t = parseFloat(e);
         return typeof t == `number` && Number.isFinite(t) ? t : 0;
       }),
-      (Ce = (e) => {
+      (_e = (e) => {
         if (typeof e != `number`) return e;
         if (Number.isFinite(e)) return Math.max(0, e) + `px`;
       }),
-      (W = (e, t) => {
+      (q = (e, t) => {
         if (typeof e == `number` && Number.isFinite(e)) return Math.max(0, e) + `px`;
         if (typeof e != `string` || typeof t != `number`) return;
         let n = e.split(` `);
         return n[t] || n[t - 2] || n[0];
       }),
-      (we = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
-      (Te = ({ value: e, children: t }) => {
-        let n = a(g),
-          r = e ?? n.transition,
-          i = o(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
-        return l(g.Provider, { value: i, children: t });
+      (ve = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (ye = ({ value: e, children: t }) => {
+        let n = r(d),
+          a = e ?? n.transition,
+          o = i(() => ({ ...n, transition: a }), [JSON.stringify(a)]);
+        return s(d.Provider, { value: o, children: t });
       }),
-      (Ee = { "Big Button": `H6ztmrCS6`, "Gradient Button": `uGayw3Tld` }),
-      (De = h.create(r)),
-      (Oe = ({
+      (be = { "Big Button": `H6ztmrCS6`, "Gradient Button": `uGayw3Tld` }),
+      (xe = u.create(n)),
+      (Se = ({
         buttonLabel: e,
         buttonLabel1: t,
         height: n,
@@ -883,75 +880,75 @@ var ge,
         FPjhikCji: a ?? c.FPjhikCji,
         OlthDMhqu: t ?? c.OlthDMhqu ?? `Button`,
         r7ASsAiJ9: e ?? c.r7ASsAiJ9 ?? !0,
-        variant: Ee[c.variant] ?? c.variant ?? `uGayw3Tld`,
+        variant: be[c.variant] ?? c.variant ?? `uGayw3Tld`,
       })),
-      (ke = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (G = O(
-        c(function (e, n) {
+      (Ce = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (J = x(
+        o(function (e, r) {
           let i = t(null),
-            a = n ?? i,
-            o = p(),
-            { activeLocale: s, setLocale: c } = k();
-          C();
+            a = r ?? i,
+            o = ee(),
+            { activeLocale: c, setLocale: l } = ie();
+          _();
           let {
-              style: u,
+              style: te,
               className: d,
               layoutId: f,
-              variant: m,
-              AKuoesW74: g,
-              r7ASsAiJ9: v,
-              OlthDMhqu: y,
-              AYwwfkaKd: b,
-              FPjhikCji: x,
-              ...S
-            } = Oe(e),
+              variant: p,
+              AKuoesW74: m,
+              r7ASsAiJ9: h,
+              OlthDMhqu: g,
+              AYwwfkaKd: y,
+              FPjhikCji: b,
+              ...x
+            } = Se(e),
             {
-              baseVariant: T,
-              classNames: D,
-              clearLoadingGesture: O,
-              gestureHandlers: A,
-              gestureVariant: j,
-              isLoading: P,
-              setGestureState: F,
-              setVariant: I,
-              variants: R,
-            } = E({
-              cycleOrder: _e,
+              baseVariant: S,
+              classNames: C,
+              clearLoadingGesture: E,
+              gestureHandlers: D,
+              gestureVariant: O,
+              isLoading: ae,
+              setGestureState: oe,
+              setVariant: A,
+              variants: j,
+            } = re({
+              cycleOrder: de,
               defaultVariant: `uGayw3Tld`,
-              enabledGestures: ge,
+              enabledGestures: ue,
               ref: a,
-              variant: m,
-              variantClassNames: ye,
+              variant: p,
+              variantClassNames: pe,
             }),
-            z = ke(e, R),
-            B = [L, pe],
-            V = Ce(Se(xe(be(v, !0), s))),
-            H = N(ve, ...B);
-          return l(_, {
+            M = Ce(e, j),
+            N = [k, K],
+            P = _e(ge(he(me(h, !0), c))),
+            F = T(fe, ...N);
+          return s(ne, {
             id: f ?? o,
-            children: l(De, {
-              animate: R,
+            children: s(xe, {
+              animate: j,
               initial: !1,
-              children: l(Te, {
-                value: we,
-                children: l(M, {
-                  href: b,
+              children: s(ye, {
+                value: ve,
+                children: s(w, {
+                  href: y,
                   motionChild: !0,
                   nodeId: `uGayw3Tld`,
-                  openInNewTab: x,
+                  openInNewTab: b,
                   scopeId: `sq0qV09H9`,
                   smoothScroll: !1,
-                  children: l(h.a, {
-                    ...S,
-                    ...A,
-                    className: `${N(H, `framer-1m898ms`, d, D)} framer-xi89o0`,
+                  children: s(u.a, {
+                    ...x,
+                    ...D,
+                    className: `${T(F, `framer-1m898ms`, d, C)} framer-xi89o0`,
                     "data-border": !0,
                     "data-framer-name": `Gradient Button`,
-                    layoutDependency: z,
+                    layoutDependency: M,
                     layoutId: `uGayw3Tld`,
                     ref: a,
                     style: {
-                      "--10ocmuz": V,
+                      "--10ocmuz": P,
                       "--border-bottom-width": `1px`,
                       "--border-color": `rgba(255, 255, 255, 0.29)`,
                       "--border-left-width": `1px`,
@@ -959,12 +956,12 @@ var ge,
                       "--border-style": `solid`,
                       "--border-top-width": `1px`,
                       background: `linear-gradient(109deg, rgb(148, 61, 255) -4%, rgb(242, 97, 121) 50.30616554054054%, rgb(252, 208, 147) 107%)`,
-                      borderBottomLeftRadius: W(g, 3),
-                      borderBottomRightRadius: W(g, 2),
-                      borderTopLeftRadius: W(g, 0),
-                      borderTopRightRadius: W(g, 1),
+                      borderBottomLeftRadius: q(m, 3),
+                      borderBottomRightRadius: q(m, 2),
+                      borderTopLeftRadius: q(m, 0),
+                      borderTopRightRadius: q(m, 1),
                       boxShadow: `inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25), inset 0px -5px 0.5px 0px rgba(255, 255, 255, 0.49), inset 0px 0px 20px 0px rgb(255, 255, 255), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(15, 15, 15, 0.72), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(15, 15, 15, 0.64), inset 0px 10px 10px -3.75px rgba(15, 15, 15, 0.25), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(255, 255, 255, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(255, 255, 255, 0.16), 0px 10px 10px -3.75px rgba(255, 255, 255, 0.06), 0px 0.6021873017743928px 0.6021873017743928px -1px rgba(255, 255, 255, 0.15), 0px 2.288533303243457px 2.288533303243457px -2px rgba(255, 255, 255, 0.14), 0px 10px 10px -3px rgba(255, 255, 255, 0.1)`,
-                      ...u,
+                      ...te,
                     },
                     variants: {
                       "H6ztmrCS6-hover": {
@@ -975,26 +972,26 @@ var ge,
                         boxShadow: `inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25), inset 0px -3px 0.5px 0px rgba(255, 255, 255, 0.25), inset 0px 0px 20px 0px rgb(255, 255, 255), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(15, 15, 15, 0.72), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(15, 15, 15, 0.64), inset 0px 10px 10px -3.75px rgba(15, 15, 15, 0.25), 0px 0.8398022765904898px 0.7558220489314408px -0.4375px rgba(255, 255, 255, 0.07), 0px 1.9904796838090988px 1.7914317154281887px -0.875px rgba(255, 255, 255, 0.07), 0px 3.6308406896569063px 3.267756620691215px -1.3125px rgba(255, 255, 255, 0.07), 0px 6.036265357761295px 5.432638821985164px -1.75px rgba(255, 255, 255, 0.07), 0px 9.748076360978303px 8.773268724880472px -2.1875px rgba(255, 255, 255, 0.06), 0px 15.956633803711155px 14.360970423340037px -2.625px rgba(255, 255, 255, 0.06), 0px 27.476245881684008px 24.728621293515605px -3.0625px rgba(255, 255, 255, 0.05), 0px 50px 44.99999999999999px -3.5px rgba(255, 255, 255, 0.03)`,
                       },
                     },
-                    ...he(
+                    ...le(
                       {
                         "H6ztmrCS6-hover": { "data-framer-name": void 0 },
                         "uGayw3Tld-hover": { "data-framer-name": void 0 },
                         H6ztmrCS6: { "data-framer-name": `Big Button` },
                       },
-                      T,
-                      j
+                      S,
+                      O
                     ),
                     children:
-                      v !== !1 &&
-                      l(h.div, {
+                      h !== !1 &&
+                      s(u.div, {
                         className: `framer-h4h8vv`,
                         "data-framer-name": `label`,
-                        layoutDependency: z,
+                        layoutDependency: M,
                         layoutId: `G19FVmU1r`,
-                        children: l(w, {
+                        children: s(v, {
                           __fromCanvasComponent: !0,
-                          children: l(r, {
-                            children: l(h.p, {
+                          children: s(n, {
+                            children: s(u.p, {
                               className: `framer-styles-preset-ke6suj`,
                               "data-styles-preset": `Bv6I6Qd8d`,
                               style: { "--framer-text-alignment": `center` },
@@ -1003,20 +1000,20 @@ var ge,
                           }),
                           className: `framer-dyr4eo`,
                           fonts: [`Inter`],
-                          layoutDependency: z,
+                          layoutDependency: M,
                           layoutId: `aMazJQRJ4`,
                           style: {
                             "--framer-link-text-color": `rgb(0, 153, 255)`,
                             "--framer-link-text-decoration": `underline`,
                           },
-                          text: y,
+                          text: g,
                           verticalAlignment: `top`,
                           withExternalLayout: !0,
-                          ...he(
+                          ...le(
                             {
                               H6ztmrCS6: {
-                                children: l(r, {
-                                  children: l(h.h3, {
+                                children: s(n, {
+                                  children: s(u.h3, {
                                     className: `framer-styles-preset-ko1txu`,
                                     "data-styles-preset": `YSqkrWqww`,
                                     style: { "--framer-text-alignment": `center` },
@@ -1025,8 +1022,8 @@ var ge,
                                 }),
                               },
                             },
-                            T,
-                            j
+                            S,
+                            O
                           ),
                         }),
                       }),
@@ -1042,38 +1039,38 @@ var ge,
           `.framer-oVUBd .framer-h4h8vv { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px 2px 0px 2px; position: relative; width: min-content; }`,
           `.framer-oVUBd .framer-dyr4eo { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
           `.framer-oVUBd.framer-v-1w5meqt.framer-1m898ms { height: min-content; padding: 30px 40px 30px 40px; }`,
-          ...I,
-          ...fe,
+          ...O,
+          ...G,
           `.framer-oVUBd[data-border="true"]::after, .framer-oVUBd [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
         `framer-oVUBd`
       )),
-      (G.displayName = `Buttons`),
-      (G.defaultProps = { height: 48, width: 94 }),
-      P(G, {
+      (J.displayName = `Buttons`),
+      (J.defaultProps = { height: 48, width: 94 }),
+      E(J, {
         variant: {
           options: [`uGayw3Tld`, `H6ztmrCS6`],
           optionTitles: [`Gradient Button`, `Big Button`],
           title: `Variant`,
-          type: A.Enum,
+          type: S.Enum,
         },
-        AKuoesW74: { defaultValue: 8, displayStepper: !0, title: `Radius`, type: A.Number },
-        onAKuoesW74Change: { changes: `AKuoesW74`, type: A.ChangeHandler },
-        r7ASsAiJ9: { defaultValue: !0, title: `Button Label`, type: A.Boolean },
-        onr7ASsAiJ9Change: { changes: `r7ASsAiJ9`, type: A.ChangeHandler },
+        AKuoesW74: { defaultValue: 8, displayStepper: !0, title: `Radius`, type: S.Number },
+        onAKuoesW74Change: { changes: `AKuoesW74`, type: S.ChangeHandler },
+        r7ASsAiJ9: { defaultValue: !0, title: `Button Label`, type: S.Boolean },
+        onr7ASsAiJ9Change: { changes: `r7ASsAiJ9`, type: S.ChangeHandler },
         OlthDMhqu: {
           defaultValue: `Button`,
           displayTextArea: !1,
           title: `Button Label`,
-          type: A.String,
+          type: S.String,
         },
-        onOlthDMhquChange: { changes: `OlthDMhqu`, type: A.ChangeHandler },
-        AYwwfkaKd: { title: `Link`, type: A.Link },
-        FPjhikCji: { defaultValue: !1, title: `New Tab`, type: A.Boolean },
-        onFPjhikCjiChange: { changes: `FPjhikCji`, type: A.ChangeHandler },
+        onOlthDMhquChange: { changes: `OlthDMhqu`, type: S.ChangeHandler },
+        AYwwfkaKd: { title: `Link`, type: S.Link },
+        FPjhikCji: { defaultValue: !1, title: `New Tab`, type: S.Boolean },
+        onFPjhikCjiChange: { changes: `FPjhikCji`, type: S.ChangeHandler },
       }),
-      T(
-        G,
+      y(
+        J,
         [
           {
             explicitInter: !0,
@@ -1143,18 +1140,18 @@ var ge,
               },
             ],
           },
-          ...b(F),
-          ...b(de),
+          ...m(D),
+          ...m(W),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  K,
-  je,
-  Me,
-  Ne = e(() => {
-    (y(),
-      (K = {
+  Y,
+  Te,
+  Ee,
+  X = e(() => {
+    (p(),
+      (Y = {
         position: `relative`,
         width: `100%`,
         height: `100%`,
@@ -1162,94 +1159,94 @@ var ge,
         justifyContent: `center`,
         alignItems: `center`,
       }),
-      (je = {
-        ...K,
+      (Te = {
+        ...Y,
         borderRadius: 6,
         background: `rgba(136, 85, 255, 0.3)`,
         color: `#85F`,
         border: `1px dashed #85F`,
         flexDirection: `column`,
       }),
-      (Me = {
-        onClick: { type: A.EventHandler },
-        onMouseEnter: { type: A.EventHandler },
-        onMouseLeave: { type: A.EventHandler },
+      (Ee = {
+        onClick: { type: S.EventHandler },
+        onMouseEnter: { type: S.EventHandler },
+        onMouseLeave: { type: S.EventHandler },
       }),
-      A.Number,
-      A.Boolean,
-      A.String,
-      A.Enum);
+      S.Number,
+      S.Boolean,
+      S.String,
+      S.Enum);
+  }),
+  De = e(() => {
+    (p(), a());
+  }),
+  Oe = e(() => {
+    a();
+  }),
+  ke = e(() => {
+    p();
+  }),
+  Z = e(() => {
+    p();
+  }),
+  Ae = e(() => {
+    a();
+  }),
+  je = e(() => {
+    p();
+  }),
+  Me = e(() => {
+    (te(), a());
+  }),
+  Ne = e(() => {
+    (a(), Z());
   }),
   Pe = e(() => {
-    (y(), s());
+    (a(), p(), Z(), Oe());
   }),
   Fe = e(() => {
-    s();
-  }),
-  Ie = e(() => {
-    y();
-  }),
-  q = e(() => {
-    y();
-  }),
-  Le = e(() => {
-    s();
+    (p(), a(), X());
+  });
+function Ie() {
+  return i(() => b.current() === b.canvas, []);
+}
+var Le = e(() => {
+    (a(), p());
   }),
   Re = e(() => {
-    y();
-  }),
-  ze = e(() => {
-    (m(), s());
-  }),
-  Be = e(() => {
-    (s(), q());
-  }),
-  Ve = e(() => {
-    (s(), y(), q(), Fe());
-  }),
-  He = e(() => {
-    (y(), s(), Ne());
+    a();
   });
-function Ue() {
-  return o(() => D.current() === D.canvas, []);
-}
-var We = e(() => {
-    (s(), y());
-  }),
-  Ge = e(() => {
-    s();
-  });
-function Ke(e) {
+function ze(e) {
   let {
     borderRadius: t,
     isMixedBorderRadius: n,
     topLeftRadius: r,
-    topRightRadius: i,
-    bottomRightRadius: a,
+    topRightRadius: a,
+    bottomRightRadius: o,
     bottomLeftRadius: s,
   } = e;
-  return o(() => (n ? `${r}px ${i}px ${a}px ${s}px` : `${t}px`), [t, n, r, i, a, s]);
+  return i(() => (n ? `${r}px ${a}px ${o}px ${s}px` : `${t}px`), [t, n, r, a, o, s]);
 }
-function qe(e) {
+function Be(e) {
   let {
     padding: t,
     paddingPerSide: n,
     paddingTop: r,
-    paddingRight: i,
-    paddingBottom: a,
+    paddingRight: a,
+    paddingBottom: o,
     paddingLeft: s,
   } = e;
-  return o(() => (n ? `${r}px ${i}px ${a}px ${s}px` : t), [t, n, r, i, a, s]);
+  return i(() => (n ? `${r}px ${a}px ${o}px ${s}px` : t), [t, n, r, a, o, s]);
 }
-var Je,
-  Ye,
-  Xe = e(() => {
-    (s(),
-      y(),
-      (Je = {
+var Ve,
+  He,
+  Ue = e(() => {
+    (a(),
+      p(),
+      (Ve = {
         borderRadius: {
           title: `Radius`,
-          type: A.FusedNumber,
+          type: S.FusedNumber,
           toggleKey: `isMixedBorderRadius`,
           toggleTitles: [`Radius`, `Radius per corner`],
           valueKeys: [`topLeftRadius`, `topRightRadius`, `bottomRightRadius`, `bottomLeftRadius`],
@@ -1257,9 +1254,9 @@ var Je,
           min: 0,
         },
       }),
-      (Ye = {
+      (He = {
         padding: {
-          type: A.FusedNumber,
+          type: S.FusedNumber,
           toggleKey: `paddingPerSide`,
           toggleTitles: [`Padding`, `Padding per side`],
           valueKeys: [`paddingTop`, `paddingRight`, `paddingBottom`, `paddingLeft`],
@@ -1269,258 +1266,19 @@ var Je,
         },
       }));
   }),
-  Ze = e(() => {
-    (Ne(), Pe(), Fe(), Ie(), q(), Le(), Re(), ze(), Be(), Ve(), He(), We(), Ge(), Xe());
+  We = e(() => {
+    (X(), De(), Oe(), ke(), Z(), Ae(), je(), Me(), Ne(), Pe(), Fe(), Le(), Re(), Ue());
   }),
-  Qe = e(() => {
-    Ze();
-  });
-function J({
-  url: e,
-  play: t,
-  shouldMute: r,
-  thumbnail: a,
-  isRed: o,
-  onClick: s,
-  onMouseEnter: c,
-  onMouseLeave: d,
-  onMouseDown: p,
-  onMouseUp: m,
-  title: h,
-  ...g
-}) {
-  let _ = Ue(),
-    v = t !== `Off`,
-    y = _ || (a !== `Off` && !v),
-    [b, x] = n(() => !0, !1),
-    [S, C] = n(() => !0, !y),
-    [w, T] = i(!1),
-    E = Ke(g),
-    D = E !== `0px 0px 0px 0px` && E !== `0px`;
-  if (e === ``) return l(tt, {});
-  let O = $e(e);
-  if (O === void 0) return l(nt, { message: `Invalid Youtube URL.` });
-  let [k, A, j] = O,
-    M = A.searchParams;
-  if (j) for (let [e, t] of j) (M.set(e, t), e === `t` && M.set(`start`, t));
-  (M.set(`iv_load_policy`, `3`),
-    M.set(`rel`, `0`),
-    M.set(`modestbranding`, `1`),
-    M.set(`playsinline`, `1`),
-    S ? (v || (y && S)) && M.set(`autoplay`, `1`) : M.set(`autoplay`, `0`),
-    v && r && M.set(`mute`, `1`),
-    t === `Loop` && (M.set(`loop`, `1`), M.set(`playlist`, k)),
-    o || M.set(`color`, `white`));
-  let N = {
-    title: h || `Youtube Video`,
-    allow: `presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture`,
-    src: A.href,
-    frameBorder: `0`,
-    onClick: s,
-    onMouseEnter: c,
-    onMouseLeave: d,
-    onMouseDown: p,
-    onMouseUp: m,
-  };
-  return u(`article`, {
-    onPointerEnter: () => T(!0),
-    onPointerLeave: () => T(!1),
-    onPointerOver: x,
-    onKeyDown: C,
-    onClick: C,
-    style: {
-      ...st,
-      borderRadius: E,
-      transform: D && (S || _) ? `translateZ(0.000001px)` : `unset`,
-      cursor: `pointer`,
-      overflow: `hidden`,
-    },
-    role: `presentation`,
-    children: [
-      b && l(`link`, { rel: `preconnect`, href: `https://www.youtube.com` }),
-      b && l(`link`, { rel: `preconnect`, href: `https://www.google.com` }),
-      y &&
-        u(f, {
-          children: [
-            l(`link`, { rel: `preconnect`, href: `https://i.ytimg.com` }),
-            l(`img`, { decoding: `async`, src: et(k, a), style: { ...Z, objectFit: `cover` } }),
-          ],
-        }),
-      _
-        ? null
-        : l(`iframe`, {
-            loading: S ? void 0 : `lazy`,
-            style: S ? Z : { ...Z, display: `none` },
-            ...N,
-          }),
-      S ? null : l(rt, { onClick: C, isHovered: w, isRed: o }),
-    ],
-  });
-}
-function $e(e) {
-  let t;
-  try {
-    t = new URL(e);
-  } catch {
-    return [e, Y(e), null];
-  }
-  let n = t.searchParams;
-  if (
-    t.hostname === `youtube.com` ||
-    t.hostname === `www.youtube.com` ||
-    t.hostname === `youtube-nocookie.com` ||
-    t.hostname === `www.youtube-nocookie.com`
-  ) {
-    let e = t.pathname.slice(1).split(`/`),
-      r = e[0];
-    if (r === `watch`) {
-      let e = t.searchParams.get(`v`);
-      return [e, Y(e), n];
-    }
-    if (r === `embed`) return [e[1], t, n];
-    if (r === `shorts` || r === `live`) {
-      let t = e[1];
-      return [t, Y(t), n];
-    }
-  }
-  if (t.hostname === `youtu.be`) {
-    let e = t.pathname.slice(1);
-    return [e, Y(e), n];
-  }
-}
-function Y(e) {
-  return new URL(`https://www.youtube.com/embed/${e}`);
-}
-function et(e, t) {
-  let n = `https://i.ytimg.com/vi_webp/`,
-    r = `webp`;
-  switch (t) {
-    case `Low Quality`:
-      return `${n}${e}/hqdefault.${r}`;
-    case `Medium Quality`:
-      return `${n}${e}/sddefault.${r}`;
-    case `High Quality`:
-      return `${n}${e}/maxresdefault.${r}`;
-    default:
-      return `${n}${e}/0.${r}`;
-  }
-}
-function tt() {
-  return l(`div`, {
-    style: { ...je, overflow: `hidden` },
-    children: l(`div`, {
-      style: X,
-      children: `To embed a Youtube video, add the URL to the properties\xA0panel.`,
-    }),
-  });
-}
-function nt({ message: e }) {
-  return l(`div`, {
-    className: `framerInternalUI-errorPlaceholder`,
-    style: { ...K, overflow: `hidden` },
-    children: u(`div`, { style: X, children: [`Error: `, e] }),
-  });
-}
-function rt({ onClick: e, isHovered: t, isRed: n }) {
-  return l(`button`, {
-    onClick: e,
-    "aria-label": `Play`,
-    style: ot,
-    children: u(`svg`, {
-      height: `100%`,
-      version: `1.1`,
-      viewBox: `0 0 68 48`,
-      width: `100%`,
-      children: [
-        l(`path`, {
-          d: `M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z`,
-          fill: t ? (n ? `#f00` : `#000`) : `#212121`,
-          fillOpacity: t && n ? 1 : 0.8,
-          style: {
-            transition: `fill .1s cubic-bezier(0.4, 0, 1, 1), fill-opacity .1s cubic-bezier(0.4, 0, 1, 1)`,
-          },
-        }),
-        l(`path`, { d: `M 45,24 27,14 27,34`, fill: `#fff` }),
-      ],
-    }),
-  });
-}
-var it,
-  at,
-  ot,
-  st,
-  X,
-  Z,
-  ct = e(() => {
-    (d(),
-      s(),
-      y(),
-      Qe(),
-      (function (e) {
-        ((e.Normal = `Off`), (e.Auto = `On`), (e.Loop = `Loop`));
-      })((it ||= {})),
-      (function (e) {
-        ((e.High = `High Quality`),
-          (e.Medium = `Medium Quality`),
-          (e.Low = `Low Quality`),
-          (e.Off = `Off`));
-      })((at ||= {})),
-      (J.displayName = `YouTube`),
-      P(J, {
-        url: { type: A.String, title: `Video` },
-        play: { type: A.Enum, title: `Autoplay`, options: Object.values(it) },
-        shouldMute: {
-          title: `Mute`,
-          type: A.Boolean,
-          enabledTitle: `Yes`,
-          disabledTitle: `No`,
-          hidden(e) {
-            return e.play === `Off`;
-          },
-        },
-        thumbnail: {
-          title: `Thumbnail`,
-          description: `Showing a thumbnail improves performance.`,
-          type: A.Enum,
-          options: Object.values(at),
-          hidden(e) {
-            return e.play !== `Off`;
-          },
-        },
-        isRed: { title: `Color`, type: A.Boolean, enabledTitle: `Red`, disabledTitle: `White` },
-        ...Je,
-        ...Me,
-      }),
-      (J.defaultProps = {
-        url: `https://youtu.be/8AHPXm9Y6mI`,
-        play: `Off`,
-        shouldMute: !0,
-        thumbnail: `Medium Quality`,
-        isRed: !0,
-      }),
-      (ot = {
-        position: `absolute`,
-        top: `50%`,
-        left: `50%`,
-        transform: `translate(-50%, -50%)`,
-        width: 68,
-        height: 48,
-        padding: 0,
-        border: `none`,
-        background: `transparent`,
-        cursor: `pointer`,
-      }),
-      (st = { position: `relative`, width: `100%`, height: `100%` }),
-      (X = { textAlign: `center`, minWidth: 140 }),
-      (Z = { position: `absolute`, top: 0, left: 0, height: `100%`, width: `100%` }));
+  Ge = e(() => {
+    We();
   }),
-  lt,
-  ut,
-  dt,
-  ft = e(() => {
-    (y(),
-      S.loadFonts([`GF;Inter-600`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
-      (lt = [
+  Ke,
+  qe,
+  Je,
+  Ye = e(() => {
+    (p(),
+      g.loadFonts([`GF;Inter-600`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
+      (Ke = [
         {
           explicitInter: !0,
           fonts: [
@@ -1703,12 +1461,12 @@ var it,
           ],
         },
       ]),
-      (ut = [
+      (qe = [
         `.framer-7wku3 .framer-styles-preset-93ypku:not(.rich-text-wrapper), .framer-7wku3 .framer-styles-preset-93ypku.rich-text-wrapper h1 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 64px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-7wku3 .framer-styles-preset-93ypku:not(.rich-text-wrapper), .framer-7wku3 .framer-styles-preset-93ypku.rich-text-wrapper h1 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 51px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-7wku3 .framer-styles-preset-93ypku:not(.rich-text-wrapper), .framer-7wku3 .framer-styles-preset-93ypku.rich-text-wrapper h1 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 40px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }`,
       ]),
-      (dt = `framer-7wku3`));
+      (Je = `framer-7wku3`));
   });
 function Q(e, t) {
   return {
@@ -1719,8 +1477,8 @@ function Q(e, t) {
     title: `Flamer – The Ultimate AI SaaS Landing Page Template`,
   };
 }
-var pt = e(() => {});
-function mt(e, t) {
+var Xe = e(() => {});
+function Ze(e, t) {
   return {
     breakpoints: [
       { hash: `72rtr7`, mediaQuery: `(min-width: 1200px)` },
@@ -1739,17 +1497,17 @@ function mt(e, t) {
       zKzXmXRGU: `showcases`,
     },
     robots: `max-image-preview:large`,
-    serializationId: `framer-HE7pv`,
+    serializationId: `framer-sbtie`,
     title: Q(e, t).title || `Home`,
     viewport: `width=device-width`,
   };
 }
-var ht,
-  gt,
-  _t = e(() => {
-    (pt(),
-      (ht = 1),
-      (gt = {
+var $,
+  Qe,
+  $e = e(() => {
+    (Xe(),
+      ($ = 1),
+      (Qe = {
         exports: {
           metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           default: { type: `function`, annotations: { framerContractVersion: `1` } },
@@ -1757,7 +1515,7 @@ var ht,
         },
       }));
   });
-function vt(e, t) {
+function et(e, t) {
   return {
     breakpoints: [
       { hash: `djrgrx`, mediaQuery: `(min-width: 1200px)` },
@@ -1773,12 +1531,12 @@ function vt(e, t) {
     viewport: `width=device-width`,
   };
 }
-var $,
-  yt,
-  bt = e(() => {
-    (pt(),
-      ($ = 1),
-      (yt = {
+var tt,
+  nt,
+  rt = e(() => {
+    (Xe(),
+      (tt = 1),
+      (nt = {
         exports: {
           default: { type: `function`, annotations: { framerContractVersion: `1` } },
           metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
@@ -1787,31 +1545,37 @@ var $,
       }));
   });
 export {
-  L as C,
-  R as E,
-  ue as S,
-  F as T,
-  Ye as _,
-  gt as a,
-  Ae as b,
-  ht as c,
-  lt as d,
-  ft as f,
-  Xe as g,
-  Qe as h,
-  $ as i,
-  dt as l,
-  ct as m,
-  bt as n,
-  _t as o,
-  J as p,
-  vt as r,
-  mt as s,
-  yt as t,
-  ut as u,
-  qe as v,
-  I as w,
-  U as x,
-  G as y,
+  O as A,
+  Te as C,
+  H as D,
+  we as E,
+  ae as M,
+  U as O,
+  Ee as S,
+  J as T,
+  Be as _,
+  Qe as a,
+  Ie as b,
+  $ as c,
+  Ke as d,
+  Ye as f,
+  He as g,
+  Ue as h,
+  tt as i,
+  D as j,
+  k,
+  Je as l,
+  Ve as m,
+  rt as n,
+  $e as o,
+  Ge as p,
+  et as r,
+  Ze as s,
+  nt as t,
+  qe as u,
+  ze as v,
+  X as w,
+  Y as x,
+  Le as y,
 };
-//# sourceMappingURL=shared-lib.WUiyMq6h.mjs.map
+//# sourceMappingURL=shared-lib.CdWfgiC-.mjs.map

@@ -20177,13 +20177,13 @@ ${Tf(e)}`);
             d = { ...c },
             p = l(() => ko(n), [n]),
             [m, h] = s();
-          f.useLayoutEffect(() => {
+          f.useEffect(() => {
             if (!n?.src || !o || p) return;
             let e = document.createElement(`img`);
             ((e.onload = () => {
               e.naturalWidth &&
                 e.naturalHeight &&
-                h({ width: e.naturalWidth, height: e.naturalHeight });
+                A(() => h({ width: e.naturalWidth, height: e.naturalHeight }));
             }),
               (e.src = n.src));
           }, [n?.src, o, p]);
@@ -21120,4 +21120,4 @@ export {
   Hx as y,
   ft as z,
 };
-//# sourceMappingURL=framer.D3c-8bqh.mjs.map
+//# sourceMappingURL=framer.D26jh1-v.mjs.map
