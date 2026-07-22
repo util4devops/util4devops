@@ -1487,7 +1487,6 @@ function Ze(e, t) {
     ],
     description: Q(e, t).description,
     elements: {
-      IknGWjLgy: `benefits`,
       iYUNHqCEb: `hero`,
       lCq8UO0dC: `image-gen`,
       N2ijbw0rP: `features`,
@@ -1497,7 +1496,7 @@ function Ze(e, t) {
       zKzXmXRGU: `showcases`,
     },
     robots: `max-image-preview:large`,
-    serializationId: `framer-sbtie`,
+    serializationId: `framer-PvVjk`,
     title: Q(e, t).title || `Home`,
     viewport: `width=device-width`,
   };
@@ -1509,8 +1508,8 @@ var $,
       ($ = 1),
       (Qe = {
         exports: {
-          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           default: { type: `function`, annotations: { framerContractVersion: `1` } },
+          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           __FramerMetadata__: { type: `variable` },
         },
       }));
@@ -1526,7 +1525,7 @@ function et(e, t) {
     elements: {},
     framerSearch: { index: !1 },
     robots: `noindex`,
-    serializationId: `framer-sVwXL`,
+    serializationId: `framer-a2wtF`,
     title: Q(e, t).title || `404`,
     viewport: `width=device-width`,
   };
@@ -1538,8 +1537,8 @@ var tt,
       (tt = 1),
       (nt = {
         exports: {
-          default: { type: `function`, annotations: { framerContractVersion: `1` } },
           metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
+          default: { type: `function`, annotations: { framerContractVersion: `1` } },
           __FramerMetadata__: { type: `variable` },
         },
       }));
@@ -1578,4 +1577,4 @@ export {
   Y as x,
   Le as y,
 };
-//# sourceMappingURL=shared-lib.CdWfgiC-.mjs.map
+//# sourceMappingURL=shared-lib.C2dcIIPs.mjs.map

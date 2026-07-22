@@ -50,58 +50,59 @@ import {
   _ as fe,
   a as pe,
   at as me,
-  b as he,
-  c as ge,
-  ct as _e,
-  d as ve,
-  et as ye,
-  f as be,
-  g as xe,
-  h as Se,
-  ht as Ce,
-  i as we,
-  l as Te,
-  lt as L,
-  mt as Ee,
-  n as De,
-  nt as R,
-  o as Oe,
-  ot as ke,
-  p as Ae,
-  pt as je,
-  q as Me,
-  r as z,
-  st as Ne,
-  t as B,
-  tt as Pe,
-  u as Fe,
-  w as V,
-  x as H,
-  y as U,
-  z as Ie,
+  b as L,
+  c as he,
+  ct as ge,
+  d as _e,
+  et as ve,
+  f as ye,
+  g as be,
+  h as xe,
+  ht as Se,
+  i as Ce,
+  l as we,
+  lt as R,
+  mt as Te,
+  n as Ee,
+  nt as z,
+  o as De,
+  ot as Oe,
+  p as ke,
+  pt as Ae,
+  q as je,
+  r as B,
+  st as Me,
+  t as V,
+  tt as Ne,
+  u as Pe,
+  w as H,
+  x as U,
+  y as W,
+  z as Fe,
 } from "./framer.D26jh1-v.mjs";
 import {
-  A as Le,
-  C as Re,
-  D as ze,
-  E as Be,
-  M as Ve,
-  O as He,
-  S as Ue,
-  T as We,
-  b as Ge,
-  j as Ke,
-  k as qe,
-  m as Je,
-  p as Ye,
-  v as Xe,
-  x as Ze,
-} from "./shared-lib.CdWfgiC-.mjs";
-function Qe(e, ...t) {
+  A as Ie,
+  C as Le,
+  D as Re,
+  E as ze,
+  M as Be,
+  O as Ve,
+  S as He,
+  T as Ue,
+  b as We,
+  j as Ge,
+  k as Ke,
+  m as qe,
+  p as Je,
+  v as Ye,
+  x as Xe,
+} from "./shared-lib.C2dcIIPs.mjs";
+function Ze(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var $e,
+var Qe,
+  $e,
   et,
   tt,
   nt,
@@ -109,39 +110,38 @@ var $e,
   it,
   at,
   ot,
-  st,
-  W,
-  ct = e(() => {
+  G,
+  st = e(() => {
     (x(),
       P(),
       M(),
       d(),
-      Ve(),
-      ($e = [`ElWXHPJjD`, `p1TrTqind`]),
-      (et = `framer-iswKx`),
-      (tt = { ElWXHPJjD: `framer-v-bwvw2j`, p1TrTqind: `framer-v-rv6lfo` }),
-      (nt = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
-      (rt = ({ value: e, children: t }) => {
+      Be(),
+      (Qe = [`ElWXHPJjD`, `p1TrTqind`]),
+      ($e = `framer-iswKx`),
+      (et = { ElWXHPJjD: `framer-v-bwvw2j`, p1TrTqind: `framer-v-rv6lfo` }),
+      (tt = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (nt = ({ value: e, children: t }) => {
         let n = c(A),
           r = e ?? n.transition,
           i = l(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(A.Provider, { value: i, children: t });
       }),
-      (it = { Desktop: `ElWXHPJjD`, Mobile: `p1TrTqind` }),
-      (at = k.create(o)),
-      (ot = ({ height: e, id: t, width: n, ...r }) => ({
+      (rt = { Desktop: `ElWXHPJjD`, Mobile: `p1TrTqind` }),
+      (it = k.create(o)),
+      (at = ({ height: e, id: t, width: n, ...r }) => ({
         ...r,
-        variant: it[r.variant] ?? r.variant ?? `ElWXHPJjD`,
+        variant: rt[r.variant] ?? r.variant ?? `ElWXHPJjD`,
       })),
-      (st = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (W = L(
+      (ot = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (G = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = D(),
-            { activeLocale: s, setLocale: c } = R();
+            { activeLocale: s, setLocale: c } = z();
           de();
-          let { style: l, className: u, layoutId: d, variant: f, ...p } = ot(e),
+          let { style: l, className: u, layoutId: d, variant: f, ...p } = at(e),
             {
               baseVariant: m,
               classNames: g,
@@ -152,32 +152,32 @@ var $e,
               setGestureState: S,
               setVariant: C,
               variants: w,
-            } = _e({
-              cycleOrder: $e,
+            } = ge({
+              cycleOrder: Qe,
               defaultVariant: `ElWXHPJjD`,
               ref: i,
               variant: f,
-              variantClassNames: tt,
+              variantClassNames: et,
             }),
-            T = st(e, w),
-            E = V(et, qe);
+            T = ot(e, w),
+            E = H($e, Ke);
           return h(j, {
             id: d ?? a,
-            children: h(at, {
+            children: h(it, {
               animate: w,
               initial: !1,
-              children: h(rt, {
-                value: nt,
+              children: h(nt, {
+                value: tt,
                 children: h(k.footer, {
                   ...p,
                   ...y,
-                  className: V(E, `framer-bwvw2j`, u, g),
+                  className: H(E, `framer-bwvw2j`, u, g),
                   "data-framer-name": `Desktop`,
                   layoutDependency: T,
                   layoutId: `ElWXHPJjD`,
                   ref: i,
                   style: { ...l },
-                  ...Qe({ p1TrTqind: { "data-framer-name": `Mobile` } }, m, b),
+                  ...Ze({ p1TrTqind: { "data-framer-name": `Mobile` } }, m, b),
                   children: v(k.div, {
                     className: `framer-1dg903l`,
                     "data-framer-name": `Container`,
@@ -239,22 +239,22 @@ var $e,
           `.framer-iswKx.framer-v-rv6lfo .framer-1dg903l { max-width: 840px; padding: 0px 15px 0px 15px; }`,
           `.framer-iswKx.framer-v-rv6lfo .framer-euh8xw { flex-direction: column; gap: 50px; }`,
           `.framer-iswKx.framer-v-rv6lfo .framer-w8i7a0 { flex-direction: column; gap: 24px; }`,
-          ...Le,
+          ...Ie,
         ],
         `framer-iswKx`
       )),
-      (W.displayName = `Footer`),
-      (W.defaultProps = { height: 300, width: 1200 }),
-      H(W, {
+      (G.displayName = `Footer`),
+      (G.defaultProps = { height: 300, width: 1200 }),
+      U(G, {
         variant: {
           options: [`ElWXHPJjD`, `p1TrTqind`],
           optionTitles: [`Desktop`, `Mobile`],
           title: `Variant`,
-          type: z.Enum,
+          type: B.Enum,
         },
       }),
-      he(
-        W,
+      L(
+        G,
         [
           {
             explicitInter: !0,
@@ -324,41 +324,41 @@ var $e,
               },
             ],
           },
-          ...re(Ke),
+          ...re(Ge),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
+  ct,
   lt,
   ut,
   dt,
   ft,
   pt,
   mt,
-  ht,
-  gt = e(() => {
+  ht = e(() => {
     (x(),
       P(),
       d(),
-      (lt = `var(--framer-icon-mask)`),
-      (ut = p(function (e, t) {
+      (ct = `var(--framer-icon-mask)`),
+      (lt = p(function (e, t) {
         return h(`svg`, { ...e, ref: t, children: e.children });
       })),
-      (dt = k.create(ut)),
-      (ft = p((e, t) => {
+      (ut = k.create(lt)),
+      (dt = p((e, t) => {
         let { animated: n, layoutId: r, children: i, ...a } = e;
         return n
-          ? h(dt, { ...a, layoutId: r, ref: t, children: i })
+          ? h(ut, { ...a, layoutId: r, ref: t, children: i })
           : h(`svg`, { ...a, ref: t, children: i });
       })),
-      (pt = `<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 0 12 L 0 0 L 16.5 0 L 16.5 12 Z" fill-opacity="var(--1m6trwb, 0)" fill="var(--21h8s6, rgb(0, 0, 0))" height="12px" id="gwB_ZdJt6" transform="translate(3.75 6)" width="16.5px"/><path d="M 0 0 L 16.5 0" fill="transparent" height="1px" id="xGkn4qbwc" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(3.75 12)" width="16.5px"/><path d="M 0 0 L 16.5 0" fill="transparent" height="1px" id="uQ9bOFKFt" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(3.75 6)" width="16.5px"/><path d="M 0 0 L 16.5 0" fill="transparent" height="1px" id="hrURkUe9P" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(3.75 18)" width="16.5px"/></svg>`),
-      (mt = ({ alpha: e, color: t, height: n, id: r, width: i, width1: a, ...o }) => ({
+      (ft = `<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 0 12 L 0 0 L 16.5 0 L 16.5 12 Z" fill-opacity="var(--1m6trwb, 0)" fill="var(--21h8s6, rgb(0, 0, 0))" height="12px" id="gwB_ZdJt6" transform="translate(3.75 6)" width="16.5px"/><path d="M 0 0 L 16.5 0" fill="transparent" height="1px" id="xGkn4qbwc" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(3.75 12)" width="16.5px"/><path d="M 0 0 L 16.5 0" fill="transparent" height="1px" id="uQ9bOFKFt" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(3.75 6)" width="16.5px"/><path d="M 0 0 L 16.5 0" fill="transparent" height="1px" id="hrURkUe9P" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(3.75 18)" width="16.5px"/></svg>`),
+      (pt = ({ alpha: e, color: t, height: n, id: r, width: i, width1: a, ...o }) => ({
         ...o,
         ezTt3ayMo: t ?? o.ezTt3ayMo ?? `rgb(0, 0, 0)`,
         lschgej4H: a ?? o.lschgej4H ?? 1.5,
         qxTvv_EBh: e ?? o.qxTvv_EBh,
       })),
-      (ht = L(
+      (mt = R(
         p(function (e, t) {
           let {
               style: n,
@@ -369,11 +369,11 @@ var $e,
               lschgej4H: s,
               qxTvv_EBh: c,
               ...l
-            } = mt(e),
-            u = ke(`3559153988`, pt);
-          return h(ft, {
+            } = pt(e),
+            u = Oe(`3559153988`, ft);
+          return h(dt, {
             ...l,
-            className: V(`framer-iZmZi`, r),
+            className: H(`framer-iZmZi`, r),
             layoutId: i,
             ref: t,
             role: `presentation`,
@@ -383,13 +383,13 @@ var $e,
           });
         }),
         [
-          `.framer-iZmZi { -webkit-mask: ${lt}; aspect-ratio: 1; display: block; mask: ${lt}; width: 24px; }`,
+          `.framer-iZmZi { -webkit-mask: ${ct}; aspect-ratio: 1; display: block; mask: ${ct}; width: 24px; }`,
         ],
         `framer-iZmZi`
       )),
-      (ht.displayName = `List`),
-      H(ht, {
-        ezTt3ayMo: { defaultValue: `rgb(0, 0, 0)`, hidden: !1, title: `Color`, type: z.Color },
+      (mt.displayName = `List`),
+      U(mt, {
+        ezTt3ayMo: { defaultValue: `rgb(0, 0, 0)`, hidden: !1, title: `Color`, type: B.Color },
         lschgej4H: {
           defaultValue: 1.5,
           displayStepper: !0,
@@ -398,7 +398,7 @@ var $e,
           min: 0,
           step: 0.5,
           title: `Width`,
-          type: z.Number,
+          type: B.Number,
         },
         qxTvv_EBh: {
           defaultValue: 0,
@@ -408,11 +408,11 @@ var $e,
           min: 0,
           step: 0.1,
           title: `Alpha`,
-          type: z.Number,
+          type: B.Number,
         },
       }));
   });
-function _t(e) {
+function gt(e) {
   let { toggle: t } = e;
   return t
     ? h(`style`, {
@@ -421,48 +421,48 @@ function _t(e) {
       })
     : h(w, {});
 }
-var vt = e(() => {
+var _t = e(() => {
     (x(),
       P(),
-      (_t.displayName = `Stop Scroll`),
-      H(_t, {
+      (gt.displayName = `Stop Scroll`),
+      U(gt, {
         toggle: {
-          type: z.Boolean,
+          type: B.Boolean,
           title: `Block Scroll`,
           description: `More components at [Framer University](https://frameruni.link/cc).`,
         },
       }));
   }),
+  vt,
   yt,
   bt,
   xt,
   St,
   Ct,
   wt,
-  Tt,
-  Et = e(() => {
+  Tt = e(() => {
     (x(),
       P(),
       d(),
-      (yt = `var(--framer-icon-mask)`),
-      (bt = p(function (e, t) {
+      (vt = `var(--framer-icon-mask)`),
+      (yt = p(function (e, t) {
         return h(`svg`, { ...e, ref: t, children: e.children });
       })),
-      (xt = k.create(bt)),
-      (St = p((e, t) => {
+      (bt = k.create(yt)),
+      (xt = p((e, t) => {
         let { animated: n, layoutId: r, children: i, ...a } = e;
         return n
-          ? h(xt, { ...a, layoutId: r, ref: t, children: i })
+          ? h(bt, { ...a, layoutId: r, ref: t, children: i })
           : h(`svg`, { ...a, ref: t, children: i });
       })),
-      (Ct = `<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 1.5 16.5 C 0.672 16.5 0 15.828 0 15 L 0 1.5 C 0 0.672 0.672 0 1.5 0 L 15 0 C 15.828 0 16.5 0.672 16.5 1.5 L 16.5 15 C 16.5 15.828 15.828 16.5 15 16.5 Z" fill-opacity="var(--1m6trwb, 0)" fill="var(--21h8s6, rgb(0, 0, 0))" height="16.5px" id="LjE0Ycn76" transform="translate(3.75 3.75)" width="16.5px"/><path d="M 13.5 0 L 0 13.5" fill="var(--21h8s6, rgb(0, 0, 0))" height="13.5px" id="oSDwjLCvX" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(5.25 5.25)" width="13.5px"/><path d="M 13.5 13.5 L 0 0" fill="var(--21h8s6, rgb(0, 0, 0))" height="13.5px" id="H9XwXWiXU" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(5.25 5.25)" width="13.5px"/></svg>`),
-      (wt = ({ alpha: e, color: t, height: n, id: r, width: i, width1: a, ...o }) => ({
+      (St = `<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 1.5 16.5 C 0.672 16.5 0 15.828 0 15 L 0 1.5 C 0 0.672 0.672 0 1.5 0 L 15 0 C 15.828 0 16.5 0.672 16.5 1.5 L 16.5 15 C 16.5 15.828 15.828 16.5 15 16.5 Z" fill-opacity="var(--1m6trwb, 0)" fill="var(--21h8s6, rgb(0, 0, 0))" height="16.5px" id="LjE0Ycn76" transform="translate(3.75 3.75)" width="16.5px"/><path d="M 13.5 0 L 0 13.5" fill="var(--21h8s6, rgb(0, 0, 0))" height="13.5px" id="oSDwjLCvX" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(5.25 5.25)" width="13.5px"/><path d="M 13.5 13.5 L 0 0" fill="var(--21h8s6, rgb(0, 0, 0))" height="13.5px" id="H9XwXWiXU" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(5.25 5.25)" width="13.5px"/></svg>`),
+      (Ct = ({ alpha: e, color: t, height: n, id: r, width: i, width1: a, ...o }) => ({
         ...o,
         ezTt3ayMo: t ?? o.ezTt3ayMo ?? `rgb(0, 0, 0)`,
         lschgej4H: a ?? o.lschgej4H ?? 1.5,
         qxTvv_EBh: e ?? o.qxTvv_EBh,
       })),
-      (Tt = L(
+      (wt = R(
         p(function (e, t) {
           let {
               style: n,
@@ -473,11 +473,11 @@ var vt = e(() => {
               lschgej4H: s,
               qxTvv_EBh: c,
               ...l
-            } = wt(e),
-            u = ke(`2202960551`, Ct);
-          return h(St, {
+            } = Ct(e),
+            u = Oe(`2202960551`, St);
+          return h(xt, {
             ...l,
-            className: V(`framer-AhL2C`, r),
+            className: H(`framer-AhL2C`, r),
             layoutId: i,
             ref: t,
             role: `presentation`,
@@ -487,13 +487,13 @@ var vt = e(() => {
           });
         }),
         [
-          `.framer-AhL2C { -webkit-mask: ${yt}; aspect-ratio: 1; display: block; mask: ${yt}; width: 24px; }`,
+          `.framer-AhL2C { -webkit-mask: ${vt}; aspect-ratio: 1; display: block; mask: ${vt}; width: 24px; }`,
         ],
         `framer-AhL2C`
       )),
-      (Tt.displayName = `X`),
-      H(Tt, {
-        ezTt3ayMo: { defaultValue: `rgb(0, 0, 0)`, hidden: !1, title: `Color`, type: z.Color },
+      (wt.displayName = `X`),
+      U(wt, {
+        ezTt3ayMo: { defaultValue: `rgb(0, 0, 0)`, hidden: !1, title: `Color`, type: B.Color },
         lschgej4H: {
           defaultValue: 1.5,
           displayStepper: !0,
@@ -502,7 +502,7 @@ var vt = e(() => {
           min: 0,
           step: 0.5,
           title: `Width`,
-          type: z.Number,
+          type: B.Number,
         },
         qxTvv_EBh: {
           defaultValue: 0,
@@ -512,41 +512,41 @@ var vt = e(() => {
           min: 0,
           step: 0.1,
           title: `Alpha`,
-          type: z.Number,
+          type: B.Number,
         },
       }));
   });
-function Dt(e, ...t) {
+function Et(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var Ot,
+var Dt,
+  Ot,
   kt,
   At,
   jt,
   Mt,
   Nt,
   Pt,
-  Ft,
-  G,
-  It = e(() => {
+  K,
+  Ft = e(() => {
     (x(),
       P(),
       M(),
       d(),
-      Ve(),
-      (Ot = { mFxxs8sId: { hover: !0 } }),
-      (kt = `framer-2azqR`),
-      (At = { mFxxs8sId: `framer-v-1q3855e` }),
-      (jt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Mt = ({ value: e, children: t }) => {
+      Be(),
+      (Dt = { mFxxs8sId: { hover: !0 } }),
+      (Ot = `framer-2azqR`),
+      (kt = { mFxxs8sId: `framer-v-1q3855e` }),
+      (At = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (jt = ({ value: e, children: t }) => {
         let n = c(A),
           r = e ?? n.transition,
           i = l(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(A.Provider, { value: i, children: t });
       }),
-      (Nt = k.create(o)),
-      (Pt = ({
+      (Mt = k.create(o)),
+      (Nt = ({
         buttonLabel: e,
         buttonLabel1: t,
         height: n,
@@ -564,13 +564,13 @@ var Ot,
         OlthDMhqu: t ?? c.OlthDMhqu ?? `Button`,
         r7ASsAiJ9: e ?? c.r7ASsAiJ9 ?? !0,
       })),
-      (Ft = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (G = L(
+      (Pt = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (K = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = D(),
-            { activeLocale: s, setLocale: c } = R();
+            { activeLocale: s, setLocale: c } = z();
           de();
           let {
               style: l,
@@ -583,7 +583,7 @@ var Ot,
               FPjhikCji: _,
               C3iVRYv1r: v,
               ...y
-            } = Pt(e),
+            } = Nt(e),
             {
               baseVariant: b,
               classNames: x,
@@ -594,27 +594,27 @@ var Ot,
               setGestureState: E,
               setVariant: ee,
               variants: O,
-            } = _e({
+            } = ge({
               defaultVariant: `mFxxs8sId`,
-              enabledGestures: Ot,
+              enabledGestures: Dt,
               ref: i,
               variant: f,
-              variantClassNames: At,
+              variantClassNames: kt,
             }),
-            A = Ft(e, O),
+            A = Pt(e, O),
             { activeVariantCallback: M, delay: N } = le(b),
             P = M(async (...e) => {
               if ((E({ isPressed: !1 }), v && (await v(...e)) === !1)) return !1;
             }),
-            F = V(kt, qe);
+            F = H(Ot, Ke);
           return h(j, {
             id: d ?? a,
-            children: h(Nt, {
+            children: h(Mt, {
               animate: O,
               initial: !1,
-              children: h(Mt, {
-                value: jt,
-                children: h(Fe, {
+              children: h(jt, {
+                value: At,
+                children: h(Pe, {
                   href: g,
                   motionChild: !0,
                   nodeId: `mFxxs8sId`,
@@ -623,7 +623,7 @@ var Ot,
                   children: h(k.a, {
                     ...y,
                     ...C,
-                    className: `${V(F, `framer-1q3855e`, u, x)} framer-d2a2t9`,
+                    className: `${H(F, `framer-1q3855e`, u, x)} framer-d2a2t9`,
                     "data-border": !0,
                     "data-framer-name": `Small Button`,
                     "data-highlight": !0,
@@ -654,7 +654,7 @@ var Ot,
                         WebkitBackdropFilter: `none`,
                       },
                     },
-                    ...Dt({ "mFxxs8sId-hover": { "data-framer-name": void 0 } }, b, w),
+                    ...Et({ "mFxxs8sId-hover": { "data-framer-name": void 0 } }, b, w),
                     children:
                       p &&
                       h(k.div, {
@@ -687,7 +687,7 @@ var Ot,
                           },
                           verticalAlignment: `top`,
                           withExternalLayout: !0,
-                          ...Dt(
+                          ...Et(
                             {
                               "mFxxs8sId-hover": {
                                 children: h(o, {
@@ -725,27 +725,27 @@ var Ot,
           `.framer-2azqR.framer-1q3855e { align-content: center; align-items: center; cursor: pointer; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 6px 15px 6px 15px; position: relative; text-decoration: none; width: min-content; }`,
           `.framer-2azqR .framer-15m53we { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px 2px 0px 2px; position: relative; width: min-content; }`,
           `.framer-2azqR .framer-138lvn0 { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Le,
+          ...Ie,
           `.framer-2azqR[data-border="true"]::after, .framer-2azqR [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-2azqR`
       )),
-      (G.displayName = `Small Button`),
-      (G.defaultProps = { height: 37.5, width: 84 }),
-      H(G, {
-        r7ASsAiJ9: { defaultValue: !0, title: `Button Label`, type: z.Boolean },
+      (K.displayName = `Small Button`),
+      (K.defaultProps = { height: 37.5, width: 84 }),
+      U(K, {
+        r7ASsAiJ9: { defaultValue: !0, title: `Button Label`, type: B.Boolean },
         OlthDMhqu: {
           defaultValue: `Button`,
           displayTextArea: !1,
           title: `Button Label`,
-          type: z.String,
+          type: B.String,
         },
-        AYwwfkaKd: { title: `Link`, type: z.Link },
-        FPjhikCji: { defaultValue: !1, title: `New Tab`, type: z.Boolean },
-        C3iVRYv1r: { title: `Tap`, type: z.EventHandler },
+        AYwwfkaKd: { title: `Link`, type: B.Link },
+        FPjhikCji: { defaultValue: !1, title: `New Tab`, type: B.Boolean },
+        C3iVRYv1r: { title: `Tap`, type: B.EventHandler },
       }),
-      he(
-        G,
+      L(
+        K,
         [
           {
             explicitInter: !0,
@@ -808,18 +808,18 @@ var Ot,
               },
             ],
           },
-          ...re(Ke),
+          ...re(Ge),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
+  It,
   Lt,
   Rt,
-  zt,
-  Bt = e(() => {
+  zt = e(() => {
     (P(),
       oe.loadFonts([`GF;Inter-500`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-500italic`]),
-      (Lt = [
+      (It = [
         {
           explicitInter: !0,
           fonts: [
@@ -854,16 +854,17 @@ var Ot,
           ],
         },
       ]),
-      (Rt = [
+      (Lt = [
         `.framer-UIaRd .framer-styles-preset-90posr:not(.rich-text-wrapper), .framer-UIaRd .framer-styles-preset-90posr.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 32px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 20px; --framer-text-alignment: center; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
-      (zt = `framer-UIaRd`));
+      (Rt = `framer-UIaRd`));
   });
-function Vt(e, ...t) {
+function Bt(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var Ht,
+var Vt,
+  Ht,
   Ut,
   Wt,
   Gt,
@@ -872,47 +873,46 @@ var Ht,
   Jt,
   Yt,
   Xt,
-  Zt,
-  K,
-  Qt = e(() => {
+  q,
+  Zt = e(() => {
     (x(),
       P(),
       M(),
       d(),
-      Ve(),
-      Bt(),
-      (Ht = { DzkvMXkdl: { hover: !0 } }),
-      (Ut = [`DzkvMXkdl`, `NuOHxCyuX`, `xVhscxT1M`]),
-      (Wt = `framer-YNpO5`),
-      (Gt = {
+      Be(),
+      zt(),
+      (Vt = { DzkvMXkdl: { hover: !0 } }),
+      (Ht = [`DzkvMXkdl`, `NuOHxCyuX`, `xVhscxT1M`]),
+      (Ut = `framer-YNpO5`),
+      (Wt = {
         DzkvMXkdl: `framer-v-up1y4v`,
         NuOHxCyuX: `framer-v-q4idgs`,
         xVhscxT1M: `framer-v-ldngne`,
       }),
-      (Kt = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
-      (qt = ({ value: e, children: t }) => {
+      (Gt = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (Kt = ({ value: e, children: t }) => {
         let n = c(A),
           r = e ?? n.transition,
           i = l(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(A.Provider, { value: i, children: t });
       }),
-      (Jt = { "Nav Active": `xVhscxT1M`, "NAV Item": `DzkvMXkdl`, Mobile: `NuOHxCyuX` }),
-      (Yt = k.create(o)),
-      (Xt = ({ click: e, height: t, hover: n, id: r, link: i, title: a, width: o, ...s }) => ({
+      (qt = { "Nav Active": `xVhscxT1M`, "NAV Item": `DzkvMXkdl`, Mobile: `NuOHxCyuX` }),
+      (Jt = k.create(o)),
+      (Yt = ({ click: e, height: t, hover: n, id: r, link: i, title: a, width: o, ...s }) => ({
         ...s,
         dKoULZI27: i ?? s.dKoULZI27,
         DxZMbxf49: a ?? s.DxZMbxf49 ?? `Menu`,
         ol3VDiW09: n ?? s.ol3VDiW09,
         tDdyGzS4c: e ?? s.tDdyGzS4c,
-        variant: Jt[s.variant] ?? s.variant ?? `DzkvMXkdl`,
+        variant: qt[s.variant] ?? s.variant ?? `DzkvMXkdl`,
       })),
-      (Zt = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (K = L(
+      (Xt = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (q = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = D(),
-            { activeLocale: s, setLocale: c } = R();
+            { activeLocale: s, setLocale: c } = z();
           de();
           let {
               style: l,
@@ -924,7 +924,7 @@ var Ht,
               ol3VDiW09: g,
               tDdyGzS4c: _,
               ...v
-            } = Xt(e),
+            } = Yt(e),
             {
               baseVariant: y,
               classNames: b,
@@ -935,15 +935,15 @@ var Ht,
               setGestureState: T,
               setVariant: E,
               variants: ee,
-            } = _e({
-              cycleOrder: Ut,
+            } = ge({
+              cycleOrder: Ht,
               defaultVariant: `DzkvMXkdl`,
-              enabledGestures: Ht,
+              enabledGestures: Vt,
               ref: i,
               variant: f,
-              variantClassNames: Gt,
+              variantClassNames: Wt,
             }),
-            O = Zt(e, ee),
+            O = Xt(e, ee),
             { activeVariantCallback: A, delay: M } = le(y),
             N = A(async (...e) => {
               if ((T({ isPressed: !1 }), _ && (await _(...e)) === !1)) return !1;
@@ -951,15 +951,15 @@ var Ht,
             P = A(async (...e) => {
               if ((T({ isHovered: !0 }), g && (await g(...e)) === !1)) return !1;
             }),
-            F = V(Wt, qe, zt);
+            F = H(Ut, Ke, Rt);
           return h(j, {
             id: d ?? a,
-            children: h(Yt, {
+            children: h(Jt, {
               animate: ee,
               initial: !1,
-              children: h(qt, {
-                value: Kt,
-                children: h(Fe, {
+              children: h(Kt, {
+                value: Gt,
+                children: h(Pe, {
                   href: m,
                   motionChild: !0,
                   nodeId: `DzkvMXkdl`,
@@ -969,7 +969,7 @@ var Ht,
                   children: h(k.a, {
                     ...v,
                     ...S,
-                    className: `${V(F, `framer-up1y4v`, u, b)} framer-1103wkx`,
+                    className: `${H(F, `framer-up1y4v`, u, b)} framer-1103wkx`,
                     "data-framer-name": `NAV Item`,
                     "data-highlight": !0,
                     layoutDependency: O,
@@ -984,7 +984,7 @@ var Ht,
                       borderTopRightRadius: 100,
                       ...l,
                     },
-                    ...Vt(
+                    ...Bt(
                       {
                         "DzkvMXkdl-hover": { "data-framer-name": void 0 },
                         NuOHxCyuX: { "data-framer-name": `Mobile` },
@@ -1030,7 +1030,7 @@ var Ht,
                         },
                         verticalAlignment: `top`,
                         withExternalLayout: !0,
-                        ...Vt(
+                        ...Bt(
                           {
                             "DzkvMXkdl-hover": {
                               children: h(o, {
@@ -1101,28 +1101,28 @@ var Ht,
           `.framer-YNpO5.framer-v-q4idgs.framer-up1y4v { height: min-content; justify-content: center; padding: 0px; width: 251px; }`,
           `.framer-YNpO5.framer-v-q4idgs .framer-10c5fmm { flex: 1 0 0px; width: 1px; }`,
           `.framer-YNpO5.framer-v-q4idgs .framer-nnuewx { flex: 1 0 0px; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
-          ...Le,
-          ...Rt,
+          ...Ie,
+          ...Lt,
         ],
         `framer-YNpO5`
       )),
-      (K.displayName = `Nav Elements`),
-      (K.defaultProps = { height: 32, width: 71 }),
-      H(K, {
+      (q.displayName = `Nav Elements`),
+      (q.defaultProps = { height: 32, width: 71 }),
+      U(q, {
         variant: {
           options: [`DzkvMXkdl`, `NuOHxCyuX`, `xVhscxT1M`],
           optionTitles: [`NAV Item`, `Mobile`, `Nav Active`],
           title: `Variant`,
-          type: z.Enum,
+          type: B.Enum,
         },
-        DxZMbxf49: { defaultValue: `Menu`, displayTextArea: !1, title: `Title`, type: z.String },
-        onDxZMbxf49Change: { changes: `DxZMbxf49`, type: z.ChangeHandler },
-        dKoULZI27: { title: `Link`, type: z.Link },
-        ol3VDiW09: { title: `Hover`, type: z.EventHandler },
-        tDdyGzS4c: { title: `Click`, type: z.EventHandler },
+        DxZMbxf49: { defaultValue: `Menu`, displayTextArea: !1, title: `Title`, type: B.String },
+        onDxZMbxf49Change: { changes: `DxZMbxf49`, type: B.ChangeHandler },
+        dKoULZI27: { title: `Link`, type: B.Link },
+        ol3VDiW09: { title: `Hover`, type: B.EventHandler },
+        tDdyGzS4c: { title: `Click`, type: B.EventHandler },
       }),
-      he(
-        K,
+      L(
+        q,
         [
           {
             explicitInter: !0,
@@ -1192,53 +1192,53 @@ var Ht,
               },
             ],
           },
-          ...re(Ke),
-          ...re(Lt),
+          ...re(Ge),
+          ...re(It),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   });
-function q(e, ...t) {
+function J(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var $t,
+var Qt,
+  $t,
   en,
   tn,
   nn,
   rn,
+  Y,
   an,
-  J,
   on,
   sn,
   cn,
   ln,
-  un,
-  Y,
-  dn = e(() => {
+  X,
+  un = e(() => {
     (x(),
       P(),
       M(),
       d(),
-      Qt(),
-      ($t = I(K)),
-      (en = Ee(K)),
-      (tn = [`SnNOaglBC`, `zQ0KE9P_v`]),
-      (nn = `framer-gUQWC`),
-      (rn = { SnNOaglBC: `framer-v-1g3sj3s`, zQ0KE9P_v: `framer-v-18iqn74` }),
-      (an = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (J = (...e) => {
+      Zt(),
+      (Qt = I(q)),
+      ($t = Te(q)),
+      (en = [`SnNOaglBC`, `zQ0KE9P_v`]),
+      (tn = `framer-gUQWC`),
+      (nn = { SnNOaglBC: `framer-v-1g3sj3s`, zQ0KE9P_v: `framer-v-18iqn74` }),
+      (rn = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Y = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (on = ({ value: e, children: t }) => {
+      (an = ({ value: e, children: t }) => {
         let n = c(A),
           r = e ?? n.transition,
           i = l(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(A.Provider, { value: i, children: t });
       }),
-      (sn = { Desktop: `SnNOaglBC`, Mobile: `zQ0KE9P_v` }),
-      (cn = k.create(o)),
-      (ln = ({
+      (on = { Desktop: `SnNOaglBC`, Mobile: `zQ0KE9P_v` }),
+      (sn = k.create(o)),
+      (cn = ({
         featuresActive: e,
         featuresPassive: t,
         height: n,
@@ -1261,15 +1261,15 @@ var $t,
         PdsmeeeJ6: t ?? d.PdsmeeeJ6,
         PUmeHLtsE: s ?? d.PUmeHLtsE,
         RvgzwmSGY: o ?? d.RvgzwmSGY,
-        variant: sn[d.variant] ?? d.variant ?? `SnNOaglBC`,
+        variant: on[d.variant] ?? d.variant ?? `SnNOaglBC`,
       })),
-      (un = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Y = L(
+      (ln = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (X = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = D(),
-            { activeLocale: o, setLocale: s } = R(),
+            { activeLocale: o, setLocale: s } = z(),
             c = de(),
             {
               style: l,
@@ -1285,7 +1285,7 @@ var $t,
               nQAehmuPT: x,
               b7zmLqTeR: S,
               ...C
-            } = ln(e),
+            } = cn(e),
             {
               baseVariant: w,
               classNames: T,
@@ -1296,28 +1296,28 @@ var $t,
               setGestureState: M,
               setVariant: N,
               variants: P,
-            } = _e({
-              cycleOrder: tn,
+            } = ge({
+              cycleOrder: en,
               defaultVariant: `SnNOaglBC`,
               ref: i,
               variant: f,
-              variantClassNames: rn,
+              variantClassNames: nn,
             }),
-            F = un(e, P),
-            te = V(nn);
+            F = ln(e, P),
+            te = H(tn);
           return (
             me(),
             h(j, {
               id: d ?? a,
-              children: h(cn, {
+              children: h(sn, {
                 animate: P,
                 initial: !1,
-                children: h(on, {
-                  value: an,
+                children: h(an, {
+                  value: rn,
                   children: v(k.nav, {
                     ...C,
                     ...ee,
-                    className: V(te, `framer-1g3sj3s`, u, T),
+                    className: H(te, `framer-1g3sj3s`, u, T),
                     "data-border": !0,
                     "data-framer-name": `Desktop`,
                     layoutDependency: F,
@@ -1350,9 +1350,9 @@ var $t,
                         WebkitBackdropFilter: `none`,
                       },
                     },
-                    ...q({ zQ0KE9P_v: { "data-framer-name": `Mobile` } }, w, O),
+                    ...J({ zQ0KE9P_v: { "data-framer-name": `Mobile` } }, w, O),
                     children: [
-                      h(xe, {
+                      h(be, {
                         links: [
                           {
                             href: { hash: `:iYUNHqCEb`, webPageId: `augiA20Il` },
@@ -1364,10 +1364,10 @@ var $t,
                           },
                         ],
                         children: (e) =>
-                          h(B, {
+                          h(V, {
                             height: 32,
                             y: (c?.y || 0) + (10 + ((c?.height || 52) - 20 - 32) / 2),
-                            ...q(
+                            ...J(
                               {
                                 zQ0KE9P_v: {
                                   width: `calc(${c?.width || `100vw`} - 30px)`,
@@ -1380,7 +1380,7 @@ var $t,
                               w,
                               O
                             ),
-                            children: h(U, {
+                            children: h(W, {
                               className: `framer-faolcd-container`,
                               "data-framer-name": `Nav Element`,
                               layoutDependency: F,
@@ -1389,7 +1389,7 @@ var $t,
                               nodeId: `UH0PhSnsI`,
                               rendersWithMotion: !0,
                               scopeId: `kT8NSluHB`,
-                              children: h(en, {
+                              children: h($t, {
                                 __framer__animateOnce: !1,
                                 __framer__targets: [
                                   { ref: m, target: `xVhscxT1M` },
@@ -1403,14 +1403,14 @@ var $t,
                                 id: `UH0PhSnsI`,
                                 layoutId: `UH0PhSnsI`,
                                 name: `Nav Element`,
-                                variant: J(`DzkvMXkdl`),
+                                variant: Y(`DzkvMXkdl`),
                                 width: `100%`,
-                                ...q(
+                                ...J(
                                   {
                                     zQ0KE9P_v: {
                                       dKoULZI27: e[1],
                                       style: { width: `100%` },
-                                      variant: J(`NuOHxCyuX`),
+                                      variant: Y(`NuOHxCyuX`),
                                     },
                                   },
                                   w,
@@ -1420,7 +1420,7 @@ var $t,
                             }),
                           }),
                       }),
-                      h(xe, {
+                      h(be, {
                         links: [
                           {
                             href: { hash: `:N2ijbw0rP`, webPageId: `augiA20Il` },
@@ -1432,10 +1432,10 @@ var $t,
                           },
                         ],
                         children: (e) =>
-                          h(B, {
+                          h(V, {
                             height: 32,
                             y: (c?.y || 0) + (10 + ((c?.height || 52) - 20 - 32) / 2),
-                            ...q(
+                            ...J(
                               {
                                 zQ0KE9P_v: {
                                   width: `calc(${c?.width || `100vw`} - 30px)`,
@@ -1448,7 +1448,7 @@ var $t,
                               w,
                               O
                             ),
-                            children: h(U, {
+                            children: h(W, {
                               className: `framer-mf37mt-container`,
                               "data-framer-name": `Nav Element`,
                               layoutDependency: F,
@@ -1457,7 +1457,7 @@ var $t,
                               nodeId: `OijNi1ySH`,
                               rendersWithMotion: !0,
                               scopeId: `kT8NSluHB`,
-                              children: h(en, {
+                              children: h($t, {
                                 __framer__animateOnce: !1,
                                 __framer__targets: [
                                   { ref: _, target: `xVhscxT1M` },
@@ -1471,14 +1471,14 @@ var $t,
                                 id: `OijNi1ySH`,
                                 layoutId: `OijNi1ySH`,
                                 name: `Nav Element`,
-                                variant: J(`DzkvMXkdl`),
+                                variant: Y(`DzkvMXkdl`),
                                 width: `100%`,
-                                ...q(
+                                ...J(
                                   {
                                     zQ0KE9P_v: {
                                       dKoULZI27: e[1],
                                       style: { width: `100%` },
-                                      variant: J(`NuOHxCyuX`),
+                                      variant: Y(`NuOHxCyuX`),
                                     },
                                   },
                                   w,
@@ -1488,7 +1488,7 @@ var $t,
                             }),
                           }),
                       }),
-                      h(xe, {
+                      h(be, {
                         links: [
                           {
                             href: { hash: `:sgmlFhWUG`, webPageId: `augiA20Il` },
@@ -1500,10 +1500,10 @@ var $t,
                           },
                         ],
                         children: (e) =>
-                          h(B, {
+                          h(V, {
                             height: 32,
                             y: (c?.y || 0) + (10 + ((c?.height || 52) - 20 - 32) / 2),
-                            ...q(
+                            ...J(
                               {
                                 zQ0KE9P_v: {
                                   width: `calc(${c?.width || `100vw`} - 30px)`,
@@ -1516,7 +1516,7 @@ var $t,
                               w,
                               O
                             ),
-                            children: h(U, {
+                            children: h(W, {
                               className: `framer-1bzr61k-container`,
                               "data-framer-name": `Nav Element`,
                               layoutDependency: F,
@@ -1525,7 +1525,7 @@ var $t,
                               nodeId: `FqhF_6Tqn`,
                               rendersWithMotion: !0,
                               scopeId: `kT8NSluHB`,
-                              children: h(en, {
+                              children: h($t, {
                                 __framer__animateOnce: !1,
                                 __framer__targets: [
                                   { ref: y, target: `xVhscxT1M` },
@@ -1539,14 +1539,14 @@ var $t,
                                 id: `FqhF_6Tqn`,
                                 layoutId: `FqhF_6Tqn`,
                                 name: `Nav Element`,
-                                variant: J(`DzkvMXkdl`),
+                                variant: Y(`DzkvMXkdl`),
                                 width: `100%`,
-                                ...q(
+                                ...J(
                                   {
                                     zQ0KE9P_v: {
                                       dKoULZI27: e[1],
                                       style: { width: `100%` },
-                                      variant: J(`NuOHxCyuX`),
+                                      variant: Y(`NuOHxCyuX`),
                                     },
                                   },
                                   w,
@@ -1556,7 +1556,7 @@ var $t,
                             }),
                           }),
                       }),
-                      h(xe, {
+                      h(be, {
                         links: [
                           {
                             href: { hash: `:zKzXmXRGU`, webPageId: `augiA20Il` },
@@ -1568,10 +1568,10 @@ var $t,
                           },
                         ],
                         children: (e) =>
-                          h(B, {
+                          h(V, {
                             height: 32,
                             y: (c?.y || 0) + (10 + ((c?.height || 52) - 20 - 32) / 2),
-                            ...q(
+                            ...J(
                               {
                                 zQ0KE9P_v: {
                                   width: `calc(${c?.width || `100vw`} - 30px)`,
@@ -1584,7 +1584,7 @@ var $t,
                               w,
                               O
                             ),
-                            children: h(U, {
+                            children: h(W, {
                               className: `framer-5no09r-container`,
                               "data-framer-name": `Nav Element`,
                               layoutDependency: F,
@@ -1593,7 +1593,7 @@ var $t,
                               nodeId: `e7FhLBp4y`,
                               rendersWithMotion: !0,
                               scopeId: `kT8NSluHB`,
-                              children: h(en, {
+                              children: h($t, {
                                 __framer__animateOnce: !1,
                                 __framer__targets: [
                                   { ref: S, target: `xVhscxT1M` },
@@ -1607,14 +1607,14 @@ var $t,
                                 id: `e7FhLBp4y`,
                                 layoutId: `e7FhLBp4y`,
                                 name: `Nav Element`,
-                                variant: J(`DzkvMXkdl`),
+                                variant: Y(`DzkvMXkdl`),
                                 width: `100%`,
-                                ...q(
+                                ...J(
                                   {
                                     zQ0KE9P_v: {
                                       dKoULZI27: e[1],
                                       style: { width: `100%` },
-                                      variant: J(`NuOHxCyuX`),
+                                      variant: Y(`NuOHxCyuX`),
                                     },
                                   },
                                   w,
@@ -1624,7 +1624,7 @@ var $t,
                             }),
                           }),
                       }),
-                      h(xe, {
+                      h(be, {
                         links: [
                           {
                             href: { hash: `:v99AbFhke`, webPageId: `augiA20Il` },
@@ -1636,10 +1636,10 @@ var $t,
                           },
                         ],
                         children: (e) =>
-                          h(B, {
+                          h(V, {
                             height: 32,
                             y: (c?.y || 0) + (10 + ((c?.height || 52) - 20 - 32) / 2),
-                            ...q(
+                            ...J(
                               {
                                 zQ0KE9P_v: {
                                   y:
@@ -1651,7 +1651,7 @@ var $t,
                               w,
                               O
                             ),
-                            children: h(U, {
+                            children: h(W, {
                               className: `framer-1cv8gl2-container`,
                               "data-framer-name": `Nav Element`,
                               layoutDependency: F,
@@ -1660,7 +1660,7 @@ var $t,
                               nodeId: `OC0O7Ncf0`,
                               rendersWithMotion: !0,
                               scopeId: `kT8NSluHB`,
-                              children: h(en, {
+                              children: h($t, {
                                 __framer__animateOnce: !1,
                                 __framer__targets: [
                                   { ref: S, target: `xVhscxT1M` },
@@ -1674,9 +1674,9 @@ var $t,
                                 id: `OC0O7Ncf0`,
                                 layoutId: `OC0O7Ncf0`,
                                 name: `Nav Element`,
-                                variant: J(`DzkvMXkdl`),
+                                variant: Y(`DzkvMXkdl`),
                                 width: `100%`,
-                                ...q({ zQ0KE9P_v: { dKoULZI27: e[1] } }, w, O),
+                                ...J({ zQ0KE9P_v: { dKoULZI27: e[1] } }, w, O),
                               }),
                             }),
                           }),
@@ -1698,32 +1698,33 @@ var $t,
         ],
         `framer-gUQWC`
       )),
-      (Y.displayName = `NAV MENU`),
-      (Y.defaultProps = { height: 52, width: 541 }),
-      H(Y, {
+      (X.displayName = `NAV MENU`),
+      (X.defaultProps = { height: 52, width: 541 }),
+      U(X, {
         variant: {
           options: [`SnNOaglBC`, `zQ0KE9P_v`],
           optionTitles: [`Desktop`, `Mobile`],
           title: `Variant`,
-          type: z.Enum,
+          type: B.Enum,
         },
-        PdsmeeeJ6: { title: `Features Passive`, type: z.ScrollSectionRef },
-        Ca70t6UaX: { title: `Home Scroll Section`, type: z.ScrollSectionRef },
-        dg70DYZf1: { title: `Home Nav Passive`, type: z.ScrollSectionRef },
-        E1VDnva7s: { title: `Features Active`, type: z.ScrollSectionRef },
-        RvgzwmSGY: { title: `Product Active`, type: z.ScrollSectionRef },
-        PUmeHLtsE: { title: `Product Passive`, type: z.ScrollSectionRef },
-        nQAehmuPT: { title: `Scroll Section`, type: z.ScrollSectionRef },
-        b7zmLqTeR: { title: `Show case`, type: z.ScrollSectionRef },
+        PdsmeeeJ6: { title: `Features Passive`, type: B.ScrollSectionRef },
+        Ca70t6UaX: { title: `Home Scroll Section`, type: B.ScrollSectionRef },
+        dg70DYZf1: { title: `Home Nav Passive`, type: B.ScrollSectionRef },
+        E1VDnva7s: { title: `Features Active`, type: B.ScrollSectionRef },
+        RvgzwmSGY: { title: `Product Active`, type: B.ScrollSectionRef },
+        PUmeHLtsE: { title: `Product Passive`, type: B.ScrollSectionRef },
+        nQAehmuPT: { title: `Scroll Section`, type: B.ScrollSectionRef },
+        b7zmLqTeR: { title: `Show case`, type: B.ScrollSectionRef },
       }),
-      he(Y, [{ explicitInter: !0, fonts: [] }, ...$t], { supportsExplicitInterCodegen: !0 }),
-      (Y.loader = { load: (e, t) => (t.locale, Promise.allSettled([F(K, {}, t)])) }));
+      L(X, [{ explicitInter: !0, fonts: [] }, ...Qt], { supportsExplicitInterCodegen: !0 }),
+      (X.loader = { load: (e, t) => (t.locale, Promise.allSettled([F(q, {}, t)])) }));
   });
-function fn(e, ...t) {
+function dn(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var pn,
+var fn,
+  pn,
   mn,
   hn,
   gn,
@@ -1737,44 +1738,43 @@ var pn,
   wn,
   Tn,
   En,
-  Dn,
-  X,
-  On = e(() => {
+  Z,
+  Dn = e(() => {
     (x(),
       P(),
       M(),
       d(),
-      gt(),
-      vt(),
-      Et(),
-      It(),
-      He(),
-      dn(),
-      (pn = I(ze)),
-      (mn = I(Y)),
-      (hn = I(G)),
-      (gn = I(_t)),
-      (_n = [`BM7tMcazb`, `WYkxKI3Su`, `vUcOkaaJX`]),
-      (vn = `framer-aBIAN`),
-      (yn = {
+      ht(),
+      _t(),
+      Tt(),
+      Ft(),
+      Ve(),
+      un(),
+      (fn = I(Re)),
+      (pn = I(X)),
+      (mn = I(K)),
+      (hn = I(gt)),
+      (gn = [`BM7tMcazb`, `WYkxKI3Su`, `vUcOkaaJX`]),
+      (_n = `framer-aBIAN`),
+      (vn = {
         BM7tMcazb: `framer-v-j7lohg`,
         vUcOkaaJX: `framer-v-b488xt`,
         WYkxKI3Su: `framer-v-vwow46`,
       }),
-      (bn = void 0),
-      (xn = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
-      (Sn = (...e) => {
+      (yn = void 0),
+      (bn = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (xn = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (Cn = ({ value: e, children: t }) => {
+      (Sn = ({ value: e, children: t }) => {
         let n = c(A),
           r = e ?? n.transition,
           i = l(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(A.Provider, { value: i, children: t });
       }),
-      (wn = { "Mobile Closed": `WYkxKI3Su`, "Mobile Opened": `vUcOkaaJX`, Desktop: `BM7tMcazb` }),
-      (Tn = k.create(o)),
-      (En = ({
+      (Cn = { "Mobile Closed": `WYkxKI3Su`, "Mobile Opened": `vUcOkaaJX`, Desktop: `BM7tMcazb` }),
+      (wn = k.create(o)),
+      (Tn = ({
         featuresPassive: e,
         featuresScrollSection: t,
         height: n,
@@ -1793,15 +1793,15 @@ var pn,
         rQ8RMEfAF: r ?? l.rQ8RMEfAF,
         T3HPnSxUm: i ?? l.T3HPnSxUm,
         t57Vo4ns5: t ?? l.t57Vo4ns5,
-        variant: wn[l.variant] ?? l.variant ?? `BM7tMcazb`,
+        variant: Cn[l.variant] ?? l.variant ?? `BM7tMcazb`,
       })),
-      (Dn = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (X = L(
+      (En = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Z = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = D(),
-            { activeLocale: o, setLocale: s } = R(),
+            { activeLocale: o, setLocale: s } = z(),
             c = de(),
             {
               style: l,
@@ -1815,7 +1815,7 @@ var pn,
               Apee1Bt8u: y,
               J0_M0UDdY: b,
               ...x
-            } = En(e),
+            } = Tn(e),
             {
               baseVariant: S,
               classNames: C,
@@ -1826,14 +1826,14 @@ var pn,
               setGestureState: O,
               setVariant: A,
               variants: M,
-            } = _e({
-              cycleOrder: _n,
+            } = ge({
+              cycleOrder: gn,
               defaultVariant: `BM7tMcazb`,
               ref: i,
               variant: f,
-              variantClassNames: yn,
+              variantClassNames: vn,
             }),
-            N = Dn(e, M),
+            N = En(e, M),
             { activeVariantCallback: P, delay: F } = le(S),
             te = P(async (...e) => {
               A(`vUcOkaaJX`);
@@ -1841,22 +1841,22 @@ var pn,
             ne = P(async (...e) => {
               A(`WYkxKI3Su`);
             }),
-            I = V(vn);
+            I = H(_n);
           me();
           let re = () => ![`WYkxKI3Su`, `vUcOkaaJX`].includes(S),
             ie = () => !![`WYkxKI3Su`, `vUcOkaaJX`].includes(S),
             ae = () => S === `vUcOkaaJX`;
           return h(j, {
             id: d ?? a,
-            children: h(Tn, {
+            children: h(wn, {
               animate: M,
               initial: !1,
-              children: h(Cn, {
-                value: xn,
+              children: h(Sn, {
+                value: bn,
                 children: v(k.header, {
                   ...x,
                   ...T,
-                  className: V(I, `framer-j7lohg`, u, C),
+                  className: H(I, `framer-j7lohg`, u, C),
                   "data-framer-name": `Desktop`,
                   layoutDependency: N,
                   layoutId: `BM7tMcazb`,
@@ -1879,7 +1879,7 @@ var pn,
                       background: `linear-gradient(180deg, var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, rgb(1, 1, 23)) 0%, rgba(0, 0, 0, 0) 100%)`,
                     },
                   },
-                  ...fn(
+                  ...dn(
                     {
                       vUcOkaaJX: { "data-framer-name": `Mobile Opened` },
                       WYkxKI3Su: { "data-framer-name": `Mobile Closed` },
@@ -1899,17 +1899,17 @@ var pn,
                         layoutDependency: N,
                         layoutId: `t7Vl92asH`,
                         children: [
-                          h(xe, {
+                          h(be, {
                             links: [
                               { href: { webPageId: `augiA20Il` }, implicitPathVariables: void 0 },
                               { href: { webPageId: `augiA20Il` }, implicitPathVariables: void 0 },
                               { href: { webPageId: `augiA20Il` }, implicitPathVariables: void 0 },
                             ],
                             children: (e) =>
-                              h(B, {
+                              h(V, {
                                 height: 48,
                                 y: (c?.y || 0) + 25 + 0 + 0 + 0 + 24,
-                                ...fn(
+                                ...dn(
                                   {
                                     vUcOkaaJX: { y: (c?.y || 0) + 0 + 0 + 0 + 0 + 24 },
                                     WYkxKI3Su: { y: (c?.y || 0) + 0 + 0 + 0 + 0 + 24 },
@@ -1917,21 +1917,21 @@ var pn,
                                   S,
                                   E
                                 ),
-                                children: h(U, {
+                                children: h(W, {
                                   className: `framer-b3b1k1-container`,
                                   layoutDependency: N,
                                   layoutId: `QJ03X90eG-container`,
                                   nodeId: `QJ03X90eG`,
                                   rendersWithMotion: !0,
                                   scopeId: `HskjMAcxS`,
-                                  children: h(ze, {
+                                  children: h(Re, {
                                     height: `100%`,
                                     id: `QJ03X90eG`,
                                     irY_XKj0O: e[0],
                                     layoutId: `QJ03X90eG`,
-                                    variant: Sn(`iC3uXzR0q`),
+                                    variant: xn(`iC3uXzR0q`),
                                     width: `100%`,
-                                    ...fn(
+                                    ...dn(
                                       {
                                         vUcOkaaJX: { irY_XKj0O: e[2] },
                                         WYkxKI3Su: { irY_XKj0O: e[1] },
@@ -1962,18 +1962,18 @@ var pn,
                                 borderTopLeftRadius: 32,
                                 borderTopRightRadius: 32,
                               },
-                              children: h(B, {
+                              children: h(V, {
                                 height: 52,
                                 y: (c?.y || 0) + 25 + 0 + 0 + 0 + 96 - 72 + 6,
-                                children: h(U, {
+                                children: h(W, {
                                   className: `framer-bc6jil-container`,
                                   layoutDependency: N,
                                   layoutId: `I3JwG2AY1-container`,
                                   nodeId: `I3JwG2AY1`,
                                   rendersWithMotion: !0,
                                   scopeId: `HskjMAcxS`,
-                                  children: h(Y, {
-                                    b7zmLqTeR: bn,
+                                  children: h(X, {
+                                    b7zmLqTeR: yn,
                                     Ca70t6UaX: p,
                                     dg70DYZf1: g,
                                     E1VDnva7s: m,
@@ -1983,7 +1983,7 @@ var pn,
                                     PdsmeeeJ6: _,
                                     PUmeHLtsE: b,
                                     RvgzwmSGY: y,
-                                    variant: Sn(`SnNOaglBC`),
+                                    variant: xn(`SnNOaglBC`),
                                     width: `100%`,
                                   }),
                                 }),
@@ -1995,7 +1995,7 @@ var pn,
                             "data-reset": `button`,
                             layoutDependency: N,
                             layoutId: `yqV3ZivSO`,
-                            ...fn(
+                            ...dn(
                               {
                                 vUcOkaaJX: { "data-highlight": !0, onTap: ne },
                                 WYkxKI3Su: { "data-highlight": !0, onTap: te },
@@ -2005,10 +2005,10 @@ var pn,
                             ),
                             children: [
                               ie() &&
-                                h(ge, {
+                                h(he, {
                                   animated: !0,
                                   className: `framer-1u5hbcm`,
-                                  Component: ht,
+                                  Component: mt,
                                   layoutDependency: N,
                                   layoutId: `AUGh10xbQ`,
                                   style: {
@@ -2016,20 +2016,20 @@ var pn,
                                     "--21h8s6": `var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, rgb(245, 245, 245))`,
                                     "--pgex8v": 1.5,
                                   },
-                                  ...fn({ vUcOkaaJX: { Component: Tt } }, S, E),
+                                  ...dn({ vUcOkaaJX: { Component: wt } }, S, E),
                                 }),
                               re() &&
-                                h(B, {
+                                h(V, {
                                   height: 37,
                                   y: (c?.y || 0) + 25 + 0 + 0 + 0 + 29.5 + 0,
-                                  children: h(U, {
+                                  children: h(W, {
                                     className: `framer-13ja4jg-container`,
                                     layoutDependency: N,
                                     layoutId: `gv_rfcenE-container`,
                                     nodeId: `gv_rfcenE`,
                                     rendersWithMotion: !0,
                                     scopeId: `HskjMAcxS`,
-                                    children: h(G, {
+                                    children: h(K, {
                                       AYwwfkaKd: `https://docs.google.com/forms/d/e/1FAIpQLSeQIJhQMzPBFqP9yYTHWXvKw0VAtJ6xwEAuq-Xr2yI8E6VcNA/viewform`,
                                       FPjhikCji: !1,
                                       height: `100%`,
@@ -2047,8 +2047,8 @@ var pn,
                       }),
                     }),
                     ae() &&
-                      h(B, {
-                        ...fn(
+                      h(V, {
+                        ...dn(
                           {
                             vUcOkaaJX: {
                               height: 52,
@@ -2059,26 +2059,26 @@ var pn,
                           S,
                           E
                         ),
-                        children: h(U, {
+                        children: h(W, {
                           className: `framer-1flstnu-container`,
                           layoutDependency: N,
                           layoutId: `mD9t2qR2t-container`,
                           nodeId: `mD9t2qR2t`,
                           rendersWithMotion: !0,
                           scopeId: `HskjMAcxS`,
-                          children: h(Y, {
+                          children: h(X, {
                             height: `100%`,
                             id: `mD9t2qR2t`,
                             layoutId: `mD9t2qR2t`,
                             style: { width: `100%` },
-                            variant: Sn(`zQ0KE9P_v`),
+                            variant: xn(`zQ0KE9P_v`),
                             width: `100%`,
                           }),
                         }),
                       }),
                     ae() &&
-                      h(B, {
-                        children: h(U, {
+                      h(V, {
+                        children: h(W, {
                           className: `framer-57t2mv-container`,
                           isAuthoredByUser: !0,
                           isModuleExternal: !0,
@@ -2087,7 +2087,7 @@ var pn,
                           nodeId: `H8PufP3h9`,
                           rendersWithMotion: !0,
                           scopeId: `HskjMAcxS`,
-                          children: h(_t, {
+                          children: h(gt, {
                             height: `100%`,
                             id: `H8PufP3h9`,
                             layoutId: `H8PufP3h9`,
@@ -2123,30 +2123,30 @@ var pn,
         ],
         `framer-aBIAN`
       )),
-      (X.displayName = `Header`),
-      (X.defaultProps = { height: 121, width: 1280 }),
-      H(X, {
+      (Z.displayName = `Header`),
+      (Z.defaultProps = { height: 121, width: 1280 }),
+      U(Z, {
         variant: {
           options: [`BM7tMcazb`, `WYkxKI3Su`, `vUcOkaaJX`],
           optionTitles: [`Desktop`, `Mobile Closed`, `Mobile Opened`],
           title: `Variant`,
-          type: z.Enum,
+          type: B.Enum,
         },
-        T3HPnSxUm: { title: `Home Scroll Section`, type: z.ScrollSectionRef },
-        t57Vo4ns5: { title: `Features Scroll Section`, type: z.ScrollSectionRef },
-        rQ8RMEfAF: { title: `Home Nav Passive`, type: z.ScrollSectionRef },
-        fALSZKb37: { title: `Features Passive`, type: z.ScrollSectionRef },
-        Apee1Bt8u: { title: `Product Active`, type: z.ScrollSectionRef },
-        J0_M0UDdY: { title: `Product Passive`, type: z.ScrollSectionRef },
+        T3HPnSxUm: { title: `Home Scroll Section`, type: B.ScrollSectionRef },
+        t57Vo4ns5: { title: `Features Scroll Section`, type: B.ScrollSectionRef },
+        rQ8RMEfAF: { title: `Home Nav Passive`, type: B.ScrollSectionRef },
+        fALSZKb37: { title: `Features Passive`, type: B.ScrollSectionRef },
+        Apee1Bt8u: { title: `Product Active`, type: B.ScrollSectionRef },
+        J0_M0UDdY: { title: `Product Passive`, type: B.ScrollSectionRef },
       }),
-      he(X, [{ explicitInter: !0, fonts: [] }, ...pn, ...mn, ...hn, ...gn], {
+      L(Z, [{ explicitInter: !0, fonts: [] }, ...fn, ...pn, ...mn, ...hn], {
         supportsExplicitInterCodegen: !0,
       }),
-      (X.loader = {
-        load: (e, t) => (t.locale, Promise.allSettled([F(ze, {}, t), F(Y, {}, t), F(G, {}, t)])),
+      (Z.loader = {
+        load: (e, t) => (t.locale, Promise.allSettled([F(Re, {}, t), F(X, {}, t), F(K, {}, t)])),
       }));
   });
-function kn({
+function On({
   url: e,
   play: t,
   shouldMute: n,
@@ -2160,17 +2160,17 @@ function kn({
   title: f,
   ...p
 }) {
-  let m = Ge(),
+  let m = We(),
     g = t !== `Off`,
     _ = m || (r !== `Off` && !g),
     [y, b] = i(() => !0, !1),
     [x, S] = i(() => !0, !_),
     [C, T] = s(!1),
-    E = Xe(p),
+    E = Ye(p),
     ee = E !== `0px 0px 0px 0px` && E !== `0px`;
-  if (e === ``) return h(Nn, {});
-  let D = An(e);
-  if (D === void 0) return h(Pn, { message: `Invalid Youtube URL.` });
+  if (e === ``) return h(Mn, {});
+  let D = kn(e);
+  if (D === void 0) return h(Nn, { message: `Invalid Youtube URL.` });
   let [O, k, A] = D,
     j = k.searchParams;
   if (A) for (let [e, t] of A) (j.set(e, t), e === `t` && j.set(`start`, t));
@@ -2200,7 +2200,7 @@ function kn({
     onKeyDown: S,
     onClick: S,
     style: {
-      ...zn,
+      ...Rn,
       borderRadius: E,
       transform: ee && (x || m) ? `translateZ(0.000001px)` : `unset`,
       cursor: `pointer`,
@@ -2214,26 +2214,26 @@ function kn({
         v(w, {
           children: [
             h(`link`, { rel: `preconnect`, href: `https://i.ytimg.com` }),
-            h(`img`, { decoding: `async`, src: Mn(O, r), style: { ...Vn, objectFit: `cover` } }),
+            h(`img`, { decoding: `async`, src: jn(O, r), style: { ...Bn, objectFit: `cover` } }),
           ],
         }),
       m
         ? null
         : h(`iframe`, {
             loading: x ? void 0 : `lazy`,
-            style: x ? Vn : { ...Vn, display: `none` },
+            style: x ? Bn : { ...Bn, display: `none` },
             ...M,
           }),
-      x ? null : h(Fn, { onClick: S, isHovered: C, isRed: a }),
+      x ? null : h(Pn, { onClick: S, isHovered: C, isRed: a }),
     ],
   });
 }
-function An(e) {
+function kn(e) {
   let t;
   try {
     t = new URL(e);
   } catch {
-    return [e, jn(e), null];
+    return [e, An(e), null];
   }
   let n = t.searchParams;
   if (
@@ -2246,23 +2246,23 @@ function An(e) {
       r = e[0];
     if (r === `watch`) {
       let e = t.searchParams.get(`v`);
-      return [e, jn(e), n];
+      return [e, An(e), n];
     }
     if (r === `embed`) return [e[1], t, n];
     if (r === `shorts` || r === `live`) {
       let t = e[1];
-      return [t, jn(t), n];
+      return [t, An(t), n];
     }
   }
   if (t.hostname === `youtu.be`) {
     let e = t.pathname.slice(1);
-    return [e, jn(e), n];
+    return [e, An(e), n];
   }
 }
-function jn(e) {
+function An(e) {
   return new URL(`https://www.youtube.com/embed/${e}`);
 }
-function Mn(e, t) {
+function jn(e, t) {
   let n = `https://i.ytimg.com/vi_webp/`,
     r = `webp`;
   switch (t) {
@@ -2276,27 +2276,27 @@ function Mn(e, t) {
       return `${n}${e}/0.${r}`;
   }
 }
-function Nn() {
+function Mn() {
   return h(`div`, {
-    style: { ...Re, overflow: `hidden` },
+    style: { ...Le, overflow: `hidden` },
     children: h(`div`, {
-      style: Bn,
+      style: zn,
       children: `To embed a Youtube video, add the URL to the properties\xA0panel.`,
     }),
   });
 }
-function Pn({ message: e }) {
+function Nn({ message: e }) {
   return h(`div`, {
     className: `framerInternalUI-errorPlaceholder`,
-    style: { ...Ze, overflow: `hidden` },
-    children: v(`div`, { style: Bn, children: [`Error: `, e] }),
+    style: { ...Xe, overflow: `hidden` },
+    children: v(`div`, { style: zn, children: [`Error: `, e] }),
   });
 }
-function Fn({ onClick: e, isHovered: t, isRed: n }) {
+function Pn({ onClick: e, isHovered: t, isRed: n }) {
   return h(`button`, {
     onClick: e,
     "aria-label": `Play`,
-    style: Rn,
+    style: Ln,
     children: v(`svg`, {
       height: `100%`,
       version: `1.1`,
@@ -2316,33 +2316,33 @@ function Fn({ onClick: e, isHovered: t, isRed: n }) {
     }),
   });
 }
-var In,
+var Fn,
+  In,
   Ln,
   Rn,
   zn,
   Bn,
-  Vn,
-  Hn = e(() => {
+  Vn = e(() => {
     (x(),
       d(),
       P(),
-      Ye(),
+      Je(),
       (function (e) {
         ((e.Normal = `Off`), (e.Auto = `On`), (e.Loop = `Loop`));
-      })((In ||= {})),
+      })((Fn ||= {})),
       (function (e) {
         ((e.High = `High Quality`),
           (e.Medium = `Medium Quality`),
           (e.Low = `Low Quality`),
           (e.Off = `Off`));
-      })((Ln ||= {})),
-      (kn.displayName = `YouTube`),
-      H(kn, {
-        url: { type: z.String, title: `Video` },
-        play: { type: z.Enum, title: `Autoplay`, options: Object.values(In) },
+      })((In ||= {})),
+      (On.displayName = `YouTube`),
+      U(On, {
+        url: { type: B.String, title: `Video` },
+        play: { type: B.Enum, title: `Autoplay`, options: Object.values(Fn) },
         shouldMute: {
           title: `Mute`,
-          type: z.Boolean,
+          type: B.Boolean,
           enabledTitle: `Yes`,
           disabledTitle: `No`,
           hidden(e) {
@@ -2352,24 +2352,24 @@ var In,
         thumbnail: {
           title: `Thumbnail`,
           description: `Showing a thumbnail improves performance.`,
-          type: z.Enum,
-          options: Object.values(Ln),
+          type: B.Enum,
+          options: Object.values(In),
           hidden(e) {
             return e.play !== `Off`;
           },
         },
-        isRed: { title: `Color`, type: z.Boolean, enabledTitle: `Red`, disabledTitle: `White` },
-        ...Je,
-        ...Ue,
+        isRed: { title: `Color`, type: B.Boolean, enabledTitle: `Red`, disabledTitle: `White` },
+        ...qe,
+        ...He,
       }),
-      (kn.defaultProps = {
+      (On.defaultProps = {
         url: `https://youtu.be/8AHPXm9Y6mI`,
         play: `Off`,
         shouldMute: !0,
         thumbnail: `Medium Quality`,
         isRed: !0,
       }),
-      (Rn = {
+      (Ln = {
         position: `absolute`,
         top: `50%`,
         left: `50%`,
@@ -2381,40 +2381,40 @@ var In,
         background: `transparent`,
         cursor: `pointer`,
       }),
-      (zn = { position: `relative`, width: `100%`, height: `100%` }),
-      (Bn = { textAlign: `center`, minWidth: 140 }),
-      (Vn = { position: `absolute`, top: 0, left: 0, height: `100%`, width: `100%` }));
+      (Rn = { position: `relative`, width: `100%`, height: `100%` }),
+      (zn = { textAlign: `center`, minWidth: 140 }),
+      (Bn = { position: `absolute`, top: 0, left: 0, height: `100%`, width: `100%` }));
   }),
+  Hn,
   Un,
   Wn,
   Gn,
   Kn,
   qn,
   Jn,
-  Yn,
-  Xn = e(() => {
+  Yn = e(() => {
     (x(),
       P(),
       d(),
-      (Un = `var(--framer-icon-mask)`),
-      (Wn = p(function (e, t) {
+      (Hn = `var(--framer-icon-mask)`),
+      (Un = p(function (e, t) {
         return h(`svg`, { ...e, ref: t, children: e.children });
       })),
-      (Gn = k.create(Wn)),
-      (Kn = p((e, t) => {
+      (Wn = k.create(Un)),
+      (Gn = p((e, t) => {
         let { animated: n, layoutId: r, children: i, ...a } = e;
         return n
-          ? h(Gn, { ...a, layoutId: r, ref: t, children: i })
+          ? h(Wn, { ...a, layoutId: r, ref: t, children: i })
           : h(`svg`, { ...a, ref: t, children: i });
       })),
-      (qn = `<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 1.5 16.5 C 0.672 16.5 0 15.828 0 15 L 0 1.5 C 0 0.672 0.672 0 1.5 0 L 15 0 C 15.828 0 16.5 0.672 16.5 1.5 L 16.5 15 C 16.5 15.828 15.828 16.5 15 16.5 Z" fill-opacity="var(--1m6trwb, 0)" fill="var(--21h8s6, rgb(0, 0, 0))" height="16.5px" id="qUr6K2nJv" transform="translate(3.75 3.75)" width="16.5px"/><path d="M 0 0 L 16.5 0" fill="transparent" height="1px" id="MbfmAbWGf" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(3.75 12)" width="16.5px"/><path d="M 0 0 L 0 16.5" fill="transparent" height="16.5px" id="mcA57vhod" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(12 3.75)" width="1px"/></svg>`),
-      (Jn = ({ alpha: e, color: t, height: n, id: r, width: i, width1: a, ...o }) => ({
+      (Kn = `<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 1.5 16.5 C 0.672 16.5 0 15.828 0 15 L 0 1.5 C 0 0.672 0.672 0 1.5 0 L 15 0 C 15.828 0 16.5 0.672 16.5 1.5 L 16.5 15 C 16.5 15.828 15.828 16.5 15 16.5 Z" fill-opacity="var(--1m6trwb, 0)" fill="var(--21h8s6, rgb(0, 0, 0))" height="16.5px" id="qUr6K2nJv" transform="translate(3.75 3.75)" width="16.5px"/><path d="M 0 0 L 16.5 0" fill="transparent" height="1px" id="MbfmAbWGf" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(3.75 12)" width="16.5px"/><path d="M 0 0 L 0 16.5" fill="transparent" height="16.5px" id="mcA57vhod" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(12 3.75)" width="1px"/></svg>`),
+      (qn = ({ alpha: e, color: t, height: n, id: r, width: i, width1: a, ...o }) => ({
         ...o,
         ezTt3ayMo: t ?? o.ezTt3ayMo ?? `rgb(0, 0, 0)`,
         lschgej4H: a ?? o.lschgej4H ?? 1.5,
         qxTvv_EBh: e ?? o.qxTvv_EBh,
       })),
-      (Yn = L(
+      (Jn = R(
         p(function (e, t) {
           let {
               style: n,
@@ -2425,11 +2425,11 @@ var In,
               lschgej4H: s,
               qxTvv_EBh: c,
               ...l
-            } = Jn(e),
-            u = ke(`465907804`, qn);
-          return h(Kn, {
+            } = qn(e),
+            u = Oe(`465907804`, Kn);
+          return h(Gn, {
             ...l,
-            className: V(`framer-ohg0r`, r),
+            className: H(`framer-ohg0r`, r),
             layoutId: i,
             ref: t,
             role: `presentation`,
@@ -2439,13 +2439,13 @@ var In,
           });
         }),
         [
-          `.framer-ohg0r { -webkit-mask: ${Un}; aspect-ratio: 1; display: block; mask: ${Un}; width: 24px; }`,
+          `.framer-ohg0r { -webkit-mask: ${Hn}; aspect-ratio: 1; display: block; mask: ${Hn}; width: 24px; }`,
         ],
         `framer-ohg0r`
       )),
-      (Yn.displayName = `Plus`),
-      H(Yn, {
-        ezTt3ayMo: { defaultValue: `rgb(0, 0, 0)`, hidden: !1, title: `Color`, type: z.Color },
+      (Jn.displayName = `Plus`),
+      U(Jn, {
+        ezTt3ayMo: { defaultValue: `rgb(0, 0, 0)`, hidden: !1, title: `Color`, type: B.Color },
         lschgej4H: {
           defaultValue: 1.5,
           displayStepper: !0,
@@ -2454,7 +2454,7 @@ var In,
           min: 0,
           step: 0.5,
           title: `Width`,
-          type: z.Number,
+          type: B.Number,
         },
         qxTvv_EBh: {
           defaultValue: 0,
@@ -2464,15 +2464,16 @@ var In,
           min: 0,
           step: 0.1,
           title: `Alpha`,
-          type: z.Number,
+          type: B.Number,
         },
       }));
   });
-function Zn(e, ...t) {
+function Xn(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var Qn,
+var Zn,
+  Qn,
   $n,
   er,
   tr,
@@ -2483,27 +2484,26 @@ var Qn,
   or,
   sr,
   cr,
-  lr,
-  Z,
-  ur = e(() => {
+  Q,
+  lr = e(() => {
     (x(),
       P(),
       M(),
       d(),
-      Hn(),
-      Xn(),
-      (Qn = I(Yn)),
-      ($n = I(kn)),
-      (er = [`HnJ8qWVJX`, `AfO65BCMc`, `a0PDxByKJ`, `Q9BqiCKNd`]),
-      (tr = `framer-Ky08N`),
-      (nr = {
+      Vn(),
+      Yn(),
+      (Zn = I(Jn)),
+      (Qn = I(On)),
+      ($n = [`HnJ8qWVJX`, `AfO65BCMc`, `a0PDxByKJ`, `Q9BqiCKNd`]),
+      (er = `framer-Ky08N`),
+      (tr = {
         a0PDxByKJ: `framer-v-67e0op`,
         AfO65BCMc: `framer-v-cp4qys`,
         HnJ8qWVJX: `framer-v-16wermw`,
         Q9BqiCKNd: `framer-v-14viuwh`,
       }),
-      (rr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (ir = {
+      (nr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (rr = {
         opacity: 1,
         rotate: 0,
         rotateX: 0,
@@ -2514,27 +2514,27 @@ var Qn,
         transition: { bounce: 0.25, delay: 0, duration: 0.45, type: `spring` },
         y: -5,
       }),
-      (ar = ({ value: e, children: t }) => {
+      (ir = ({ value: e, children: t }) => {
         let n = c(A),
           r = e ?? n.transition,
           i = l(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(A.Provider, { value: i, children: t });
       }),
-      (or = { Close: `Q9BqiCKNd`, Desktop: `HnJ8qWVJX`, Phone: `a0PDxByKJ`, Tablet: `AfO65BCMc` }),
-      (sr = k.create(o)),
-      (cr = ({ height: e, id: t, width: n, ...r }) => ({
+      (ar = { Close: `Q9BqiCKNd`, Desktop: `HnJ8qWVJX`, Phone: `a0PDxByKJ`, Tablet: `AfO65BCMc` }),
+      (or = k.create(o)),
+      (sr = ({ height: e, id: t, width: n, ...r }) => ({
         ...r,
-        variant: or[r.variant] ?? r.variant ?? `HnJ8qWVJX`,
+        variant: ar[r.variant] ?? r.variant ?? `HnJ8qWVJX`,
       })),
-      (lr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Z = L(
+      (cr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Q = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = D(),
-            { activeLocale: o, setLocale: s } = R();
+            { activeLocale: o, setLocale: s } = z();
           de();
-          let { style: c, className: l, layoutId: u, variant: d, ...f } = cr(e),
+          let { style: c, className: l, layoutId: u, variant: d, ...f } = sr(e),
             {
               baseVariant: p,
               classNames: m,
@@ -2545,31 +2545,31 @@ var Qn,
               setGestureState: x,
               setVariant: S,
               variants: C,
-            } = _e({
-              cycleOrder: er,
+            } = ge({
+              cycleOrder: $n,
               defaultVariant: `HnJ8qWVJX`,
               ref: i,
               variant: d,
-              variantClassNames: nr,
+              variantClassNames: tr,
             }),
-            w = lr(e, C),
+            w = cr(e, C),
             { activeVariantCallback: T, delay: E } = le(p),
             ee = T(async (...e) => {
               S(`Q9BqiCKNd`);
             }),
-            O = V(tr),
+            O = H(er),
             A = () => p !== `Q9BqiCKNd`;
           return h(j, {
             id: u ?? a,
-            children: h(sr, {
+            children: h(or, {
               animate: C,
               initial: !1,
-              children: h(ar, {
-                value: rr,
+              children: h(ir, {
+                value: nr,
                 children: v(k.div, {
                   ...f,
                   ..._,
-                  className: V(O, `framer-16wermw`, l, m),
+                  className: H(O, `framer-16wermw`, l, m),
                   "data-framer-name": `Desktop`,
                   layoutDependency: w,
                   layoutId: `HnJ8qWVJX`,
@@ -2591,7 +2591,7 @@ var Qn,
                       WebkitBackdropFilter: `none`,
                     },
                   },
-                  ...Zn(
+                  ...Xn(
                     {
                       a0PDxByKJ: { "data-framer-name": `Phone` },
                       AfO65BCMc: { "data-framer-name": `Tablet` },
@@ -2624,8 +2624,8 @@ var Qn,
                           borderTopRightRadius: 17,
                           WebkitBackdropFilter: `blur(35px)`,
                         },
-                        whileHover: ir,
-                        children: h(Yn, {
+                        whileHover: rr,
+                        children: h(Jn, {
                           animated: !0,
                           className: `framer-1imn8oj`,
                           layoutDependency: w,
@@ -2639,8 +2639,8 @@ var Qn,
                         }),
                       }),
                     A() &&
-                      h(B, {
-                        children: h(U, {
+                      h(V, {
+                        children: h(W, {
                           className: `framer-1n9jot8-container`,
                           isModuleExternal: !0,
                           layoutDependency: w,
@@ -2648,7 +2648,7 @@ var Qn,
                           nodeId: `bP6MQtOM6`,
                           rendersWithMotion: !0,
                           scopeId: `Xx3CQgVjS`,
-                          children: h(kn, {
+                          children: h(On, {
                             borderRadius: 12,
                             bottomLeftRadius: 12,
                             bottomRightRadius: 12,
@@ -2686,28 +2686,27 @@ var Qn,
         ],
         `framer-Ky08N`
       )),
-      (Z.displayName = `Delete This`),
-      (Z.defaultProps = { height: 123, width: 210 }),
-      H(Z, {
+      (Q.displayName = `Delete This`),
+      (Q.defaultProps = { height: 123, width: 210 }),
+      U(Q, {
         variant: {
           options: [`HnJ8qWVJX`, `AfO65BCMc`, `a0PDxByKJ`, `Q9BqiCKNd`],
           optionTitles: [`Desktop`, `Tablet`, `Phone`, `Close`],
           title: `Variant`,
-          type: z.Enum,
+          type: B.Enum,
         },
       }),
-      he(Z, [{ explicitInter: !0, fonts: [] }, ...Qn, ...$n], {
-        supportsExplicitInterCodegen: !0,
-      }));
+      L(Q, [{ explicitInter: !0, fonts: [] }, ...Zn, ...Qn], { supportsExplicitInterCodegen: !0 }));
   }),
+  ur,
   dr,
   fr,
   pr,
   mr,
   hr,
   gr,
+  $,
   _r,
-  Q,
   vr,
   yr,
   br,
@@ -2718,91 +2717,88 @@ var Qn,
   Tr,
   Er,
   Dr,
-  Or,
-  kr = e(() => {
+  Or = e(() => {
     (x(),
       P(),
       M(),
       d(),
-      ct(),
-      On(),
-      Be(),
-      ur(),
-      (dr = I(X)),
-      (fr = I(Z)),
-      (pr = I(We)),
-      (mr = I(W)),
-      (hr = {
+      st(),
+      Dn(),
+      ze(),
+      lr(),
+      (ur = I(Z)),
+      (dr = I(Q)),
+      (fr = I(Ue)),
+      (pr = I(G)),
+      (mr = {
         I56gUQFGm: `(min-width: 1200px)`,
         pd6ytuzE1: `(min-width: 810px) and (max-width: 1199.98px)`,
         tHCgLbG0e: `(max-width: 809.98px)`,
       }),
-      (gr = `framer-6PaXG`),
-      (_r = {
+      (hr = `framer-TY66T`),
+      (gr = {
         I56gUQFGm: `framer-v-140pyj1`,
         pd6ytuzE1: `framer-v-pzk0yl`,
         tHCgLbG0e: `framer-v-pmyeso`,
       }),
-      (Q = (...e) => {
+      ($ = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (vr = {
+      (_r = {
         tHCgLbG0e: [
-          `.framer-6PaXG .framer-lcqu2a-container { left: 50%; position: var(--framer-canvas-fixed-position, fixed); transform: translateX(-50%); }`,
+          `.framer-TY66T .framer-lcqu2a-container { left: 50%; position: var(--framer-canvas-fixed-position, fixed); transform: translateX(-50%); }`,
         ],
       }),
-      (yr = Object.keys(vr)),
-      (br = { tHCgLbG0e: `.framer-pmyeso-override` }),
-      (xr = [
-        `.framer-6PaXG.framer-1iygm5, .framer-6PaXG .framer-1iygm5 { display: block; }`,
-        `.framer-6PaXG.framer-140pyj1 { --selection-background-color: var(--token-cd267c31-c786-4dde-8352-aa0f2bc35c58, #faca8b) /* {"name":"Creme"} */; --selection-color: var(--token-bca62d06-743e-42b8-943d-3b018b7cf080, #fff4e3) /* {"name":"Creme 100"} */; align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-6PaXG .framer-lcqu2a-container { flex: none; height: auto; order: -1000; position: sticky; top: 0px; width: 100%; z-index: 10; }`,
-        `.framer-6PaXG .framer-o4tdt9 { background: transparent; flex-grow: 1; height: 0px; margin: 0px; margin-bottom: -0px; position: relative; width: 0px; }`,
-        `.framer-6PaXG .framer-ppkyv1 { align-content: flex-end; align-items: flex-end; bottom: calc(calc(100% - min(var(--framer-viewport-height, 100%), 100%)) + 70px); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; order: 1002; overflow: visible; padding: 0px 10px 0px 10px; position: var(--framer-canvas-fixed-position, fixed); right: 20px; width: min-content; z-index: 10; }`,
-        `.framer-6PaXG .framer-1oiejot-container { flex: none; height: auto; position: relative; width: auto; z-index: 10; }`,
-        `.framer-6PaXG .framer-1i19k86-container { flex: none; height: auto; min-width: 100px; position: relative; width: auto; z-index: 10; }`,
-        `.framer-6PaXG .framer-obna49-container { flex: none; height: 10px; order: 1003; position: relative; width: 100%; }`,
+      (vr = Object.keys(_r)),
+      (yr = { tHCgLbG0e: `.framer-pmyeso-override` }),
+      (br = [
+        `.framer-TY66T.framer-1iygm5, .framer-TY66T .framer-1iygm5 { display: block; }`,
+        `.framer-TY66T.framer-140pyj1 { --selection-background-color: var(--token-cd267c31-c786-4dde-8352-aa0f2bc35c58, #faca8b) /* {"name":"Creme"} */; --selection-color: var(--token-bca62d06-743e-42b8-943d-3b018b7cf080, #fff4e3) /* {"name":"Creme 100"} */; align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-TY66T .framer-lcqu2a-container { flex: none; height: auto; order: -1000; position: sticky; top: 0px; width: 100%; z-index: 10; }`,
+        `.framer-TY66T .framer-o4tdt9 { background: transparent; flex-grow: 1; height: 0px; margin: 0px; margin-bottom: -0px; position: relative; width: 0px; }`,
+        `.framer-TY66T .framer-ppkyv1 { align-content: flex-end; align-items: flex-end; bottom: calc(calc(100% - min(var(--framer-viewport-height, 100%), 100%)) + 70px); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; order: 1002; overflow: visible; padding: 0px 10px 0px 10px; position: var(--framer-canvas-fixed-position, fixed); right: 20px; width: min-content; z-index: 10; }`,
+        `.framer-TY66T .framer-1oiejot-container { flex: none; height: auto; position: relative; width: auto; z-index: 10; }`,
+        `.framer-TY66T .framer-1i19k86-container { flex: none; height: auto; min-width: 100px; position: relative; width: auto; z-index: 10; }`,
+        `.framer-TY66T .framer-obna49-container { flex: none; height: 10px; order: 1003; position: relative; width: 100%; }`,
         `[data-layout-template="true"] > #overlay { margin-bottom: -0px; }`,
-        `.framer-6PaXG[data-selection="true"] * ::selection, .framer-6PaXG [data-selection="true"] * ::selection { color: var(--selection-color, none); background-color: var(--selection-background-color, none); }`,
+        `.framer-TY66T[data-selection="true"] * ::selection, .framer-TY66T [data-selection="true"] * ::selection { color: var(--selection-color, none); background-color: var(--selection-background-color, none); }`,
       ]),
-      (Sr = {
+      (xr = {
         I56gUQFGm: `(min-width: 1200px)`,
         pd6ytuzE1: `(min-width: 810px) and (max-width: 1199.98px)`,
         tHCgLbG0e: `(max-width: 809.98px)`,
       }),
-      (Cr = { Desktop: `I56gUQFGm`, Phone: `tHCgLbG0e`, Tablet: `pd6ytuzE1` }),
-      (wr = ({ value: e }) =>
-        Pe()
+      (Sr = { Desktop: `I56gUQFGm`, Phone: `tHCgLbG0e`, Tablet: `pd6ytuzE1` }),
+      (Cr = ({ value: e }) =>
+        Ne()
           ? null
           : h(`style`, { dangerouslySetInnerHTML: { __html: e }, "data-framer-html-style": `` })),
-      (Tr = ({
-        blog: e,
-        features: t,
-        featuresPassive: n,
-        height: r,
-        homeActive: i,
-        homePassive: a,
-        id: o,
-        productActive: s,
-        productPassive: c,
-        width: l,
-        ...u
+      (wr = ({
+        features: e,
+        featuresPassive: t,
+        height: n,
+        homeActive: r,
+        homePassive: i,
+        id: a,
+        productActive: o,
+        productPassive: s,
+        width: c,
+        ...l
       }) => ({
-        ...u,
-        EzSNs9Obl: a ?? u.EzSNs9Obl,
-        ijCz8cPdl: t ?? u.ijCz8cPdl,
-        JDoUE0Q8I: e ?? u.JDoUE0Q8I,
-        KB36F5lyR: n ?? u.KB36F5lyR,
-        KnwXTuwwP: c ?? u.KnwXTuwwP,
-        Lo3xd9ZUS: i ?? u.Lo3xd9ZUS,
-        RbgiRgJS1: s ?? u.RbgiRgJS1,
-        variant: Cr[u.variant] ?? u.variant ?? `I56gUQFGm`,
+        ...l,
+        EzSNs9Obl: i ?? l.EzSNs9Obl,
+        ijCz8cPdl: e ?? l.ijCz8cPdl,
+        KB36F5lyR: t ?? l.KB36F5lyR,
+        KnwXTuwwP: s ?? l.KnwXTuwwP,
+        Lo3xd9ZUS: r ?? l.Lo3xd9ZUS,
+        RbgiRgJS1: o ?? l.RbgiRgJS1,
+        variant: Sr[l.variant] ?? l.variant ?? `I56gUQFGm`,
       })),
-      (Er = p(function (e, n) {
+      (Tr = p(function (e, n) {
         let r = t(null),
           i = n ?? r,
           a = D(),
-          { activeLocale: o, setLocale: s } = R(),
+          { activeLocale: o, setLocale: s } = z(),
           {
             style: c,
             className: l,
@@ -2814,108 +2810,106 @@ var Qn,
             KB36F5lyR: g,
             RbgiRgJS1: _,
             KnwXTuwwP: y,
-            JDoUE0Q8I: b,
-            children: x,
-            ...S
-          } = Tr(e),
-          [C, w] = ye(d, hr, !1),
-          T = V(gr);
+            children: b,
+            ...x
+          } = wr(e),
+          [S, C] = ve(d, mr, !1),
+          w = H(hr);
         return (
           N({}),
           h(pe.Provider, {
             value: {
-              activeVariantId: C,
-              humanReadableVariantMap: Cr,
+              activeVariantId: S,
+              humanReadableVariantMap: Sr,
               isLayoutTemplate: !0,
               primaryVariantId: `I56gUQFGm`,
-              variantClassNames: _r,
+              variantClassNames: gr,
             },
             children: v(j, {
               id: u ?? a,
               children: [
-                h(wr, {
+                h(Cr, {
                   value: `:root body { background: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, rgb(1, 1, 23)); }`,
                 }),
                 v(k.div, {
-                  ...S,
-                  className: V(T, `framer-140pyj1`, l),
+                  ...x,
+                  className: H(w, `framer-140pyj1`, l),
                   "data-layout-template": !0,
                   "data-selection": !0,
                   ref: i,
                   style: { ...c },
                   children: [
-                    h(B, {
-                      height: 111,
+                    h(V, {
+                      height: 121,
                       width: `100vw`,
                       y: 0,
-                      children: h(Ae, {
-                        breakpoint: C,
+                      children: h(ke, {
+                        breakpoint: S,
                         overrides: {
                           tHCgLbG0e: { "data-framer-layout-hint-center-x": !0, layoutScroll: !0 },
                         },
-                        children: h(De, {
+                        children: h(Ee, {
                           className: `framer-lcqu2a-container`,
                           nodeId: `Ou8r3MGSV`,
                           scopeId: `Jyr06fner`,
-                          children: h(Ae, {
-                            breakpoint: C,
-                            overrides: { tHCgLbG0e: { variant: Q(`WYkxKI3Su`) } },
-                            children: h(X, {
+                          children: h(ke, {
+                            breakpoint: S,
+                            overrides: { tHCgLbG0e: { variant: $(`WYkxKI3Su`) } },
+                            children: h(Z, {
                               Apee1Bt8u: _,
                               fALSZKb37: g,
                               height: `100%`,
                               id: `Ou8r3MGSV`,
                               J0_M0UDdY: y,
                               layoutId: `Ou8r3MGSV`,
-                              OrPShorLq: b,
                               rQ8RMEfAF: p,
                               style: { width: `100%` },
                               T3HPnSxUm: f,
                               t57Vo4ns5: m,
-                              variant: Q(`BM7tMcazb`),
+                              variant: $(`BM7tMcazb`),
                               width: `100%`,
                             }),
                           }),
                         }),
                       }),
                     }),
-                    x,
+                    b,
                     h(`div`, { className: `framer-o4tdt9` }),
                     v(k.div, {
                       className: `framer-ppkyv1`,
                       "data-framer-name": `Delete This`,
                       children: [
-                        h(B, {
+                        h(V, {
                           height: 123,
                           y: 749,
-                          children: h(De, {
+                          children: h(Ee, {
                             className: `framer-1oiejot-container`,
                             nodeId: `UCJX1BNum`,
                             scopeId: `Jyr06fner`,
-                            children: h(Ae, {
-                              breakpoint: C,
+                            children: h(ke, {
+                              breakpoint: S,
                               overrides: {
-                                pd6ytuzE1: { variant: Q(`AfO65BCMc`) },
-                                tHCgLbG0e: { variant: Q(`a0PDxByKJ`) },
+                                pd6ytuzE1: { variant: $(`AfO65BCMc`) },
+                                tHCgLbG0e: { variant: $(`a0PDxByKJ`) },
                               },
-                              children: h(Z, {
+                              children: h(Q, {
                                 height: `100%`,
                                 id: `UCJX1BNum`,
                                 layoutId: `UCJX1BNum`,
-                                variant: Q(`HnJ8qWVJX`),
+                                variant: $(`HnJ8qWVJX`),
                                 width: `100%`,
                               }),
                             }),
                           }),
                         }),
-                        h(B, {
+                        h(V, {
                           height: 48,
                           y: 882,
-                          children: h(De, {
+                          children: h(Ee, {
                             className: `framer-1i19k86-container`,
                             nodeId: `FrbdWMtGW`,
                             scopeId: `Jyr06fner`,
-                            children: h(We, {
+                            children: h(Ue, {
                               AKuoesW74: 14,
                               AYwwfkaKd: `https://www.youtube.com/watch?v=f4voNcwBvTo`,
                               FPjhikCji: !1,
@@ -2924,36 +2918,36 @@ var Qn,
                               layoutId: `FrbdWMtGW`,
                               OlthDMhqu: `Xem demo chi tiết`,
                               r7ASsAiJ9: !0,
-                              variant: Q(`uGayw3Tld`),
+                              variant: $(`uGayw3Tld`),
                               width: `100%`,
                             }),
                           }),
                         }),
                       ],
                     }),
-                    h(Ae, {
-                      breakpoint: C,
+                    h(ke, {
+                      breakpoint: S,
                       overrides: { tHCgLbG0e: { y: 1e3 } },
-                      children: h(B, {
+                      children: h(V, {
                         height: 10,
                         width: `100vw`,
-                        y: 1111,
-                        children: h(De, {
+                        y: 1121,
+                        children: h(Ee, {
                           className: `framer-obna49-container`,
                           nodeId: `GKRGkR0nC`,
                           scopeId: `Jyr06fner`,
-                          children: h(Ae, {
-                            breakpoint: C,
+                          children: h(ke, {
+                            breakpoint: S,
                             overrides: {
-                              pd6ytuzE1: { variant: Q(`p1TrTqind`) },
-                              tHCgLbG0e: { variant: Q(`p1TrTqind`) },
+                              pd6ytuzE1: { variant: $(`p1TrTqind`) },
+                              tHCgLbG0e: { variant: $(`p1TrTqind`) },
                             },
-                            children: h(W, {
+                            children: h(G, {
                               height: `100%`,
                               id: `GKRGkR0nC`,
                               layoutId: `GKRGkR0nC`,
                               style: { height: `100%`, width: `100%` },
-                              variant: Q(`ElWXHPJjD`),
+                              variant: $(`ElWXHPJjD`),
                               width: `100%`,
                             }),
                           }),
@@ -2968,39 +2962,38 @@ var Qn,
           })
         );
       })),
-      (Dr = (e) =>
-        e === Se.canvas || e === Se.export
+      (Er = (e) =>
+        e === xe.canvas || e === xe.export
           ? [
-              ...xr,
-              ...yr.flatMap((e) => {
-                let t = br[e];
-                return vr[e].map((e) => `${t} {${e}}`);
+              ...br,
+              ...vr.flatMap((e) => {
+                let t = yr[e];
+                return _r[e].map((e) => `${t} {${e}}`);
               }),
             ]
-          : [...xr, ...yr.map((e) => `@media ${Sr[e]} { ${vr[e].join(` `)} }`)]),
-      (Or = L(Er, Dr, `framer-6PaXG`)),
-      (Or.displayName = `Header & Footer Template`),
-      (Or.defaultProps = { height: 1e3, width: 1200 }),
-      H(Or, {
-        Lo3xd9ZUS: { title: `Home Active`, type: z.ScrollSectionRef },
-        EzSNs9Obl: { title: `Home Passive`, type: z.ScrollSectionRef },
-        ijCz8cPdl: { title: `Features`, type: z.ScrollSectionRef },
-        KB36F5lyR: { title: `Features Passive`, type: z.ScrollSectionRef },
-        RbgiRgJS1: { title: `Product Active`, type: z.ScrollSectionRef },
-        KnwXTuwwP: { title: `Product Passive`, type: z.ScrollSectionRef },
-        JDoUE0Q8I: { title: `Blog`, type: z.ScrollSectionRef },
+          : [...br, ...vr.map((e) => `@media ${xr[e]} { ${_r[e].join(` `)} }`)]),
+      (Dr = R(Tr, Er, `framer-TY66T`)),
+      (Dr.displayName = `Header & Footer Template`),
+      (Dr.defaultProps = { height: 1e3, width: 1200 }),
+      U(Dr, {
+        Lo3xd9ZUS: { title: `Home Active`, type: B.ScrollSectionRef },
+        EzSNs9Obl: { title: `Home Passive`, type: B.ScrollSectionRef },
+        ijCz8cPdl: { title: `Features`, type: B.ScrollSectionRef },
+        KB36F5lyR: { title: `Features Passive`, type: B.ScrollSectionRef },
+        RbgiRgJS1: { title: `Product Active`, type: B.ScrollSectionRef },
+        KnwXTuwwP: { title: `Product Passive`, type: B.ScrollSectionRef },
       }),
-      he(Or, [{ explicitInter: !0, fonts: [] }, ...dr, ...fr, ...pr, ...mr], {
+      L(Dr, [{ explicitInter: !0, fonts: [] }, ...ur, ...dr, ...fr, ...pr], {
         supportsExplicitInterCodegen: !0,
       }),
-      (Or.loader = {
+      (Dr.loader = {
         load: (e, t) => (
           t.locale,
-          Promise.allSettled([F(X, {}, t), F(Z, {}, t), F(We, {}, t), F(W, {}, t)])
+          Promise.allSettled([F(Z, {}, t), F(Q, {}, t), F(Ue, {}, t), F(G, {}, t)])
         ),
       }));
   });
-function Ar({ webPageId: e, children: t, style: n, ...r }) {
+function kr({ webPageId: e, children: t, style: n, ...r }) {
   let i = {
       EzSNs9Obl: { href: { hash: `:U6VhzUg6a`, webPageId: `augiA20Il` }, refKey: !0 },
       ijCz8cPdl: { href: { hash: `:N2ijbw0rP`, webPageId: `augiA20Il` }, refKey: !0 },
@@ -3008,14 +3001,14 @@ function Ar({ webPageId: e, children: t, style: n, ...r }) {
       RbgiRgJS1: { href: { hash: `:lCq8UO0dC`, webPageId: `augiA20Il` }, refKey: !0 },
     },
     a = { ...i, EzSNs9Obl: void 0, ijCz8cPdl: void 0, KB36F5lyR: void 0, RbgiRgJS1: void 0 },
-    o = Ne(),
+    o = Me(),
     s = { augiA20Il: i, weKLGiygA: a }[e] ?? {};
   switch (e) {
     case `augiA20Il`:
     case `weKLGiygA`:
-      return E(xe, { links: [s.EzSNs9Obl, s.ijCz8cPdl, s.KB36F5lyR, s.RbgiRgJS1] }, (e) =>
+      return E(be, { links: [s.EzSNs9Obl, s.ijCz8cPdl, s.KB36F5lyR, s.RbgiRgJS1] }, (e) =>
         E(
-          Or,
+          Dr,
           {
             ...s,
             EzSNs9Obl: o(e[0]),
@@ -3032,22 +3025,22 @@ function Ar({ webPageId: e, children: t, style: n, ...r }) {
       return t(!1);
   }
 }
-function jr(e) {
+function Ar(e) {
   switch (e) {
     case `augiA20Il`:
     case `weKLGiygA`:
       return [
-        { hash: `pmyeso`, mediaQuery: `(max-width: 809.98px)` },
-        { hash: `pzk0yl`, mediaQuery: `(min-width: 810px) and (max-width: 1199.98px)` },
         { hash: `140pyj1`, mediaQuery: `(min-width: 1200px)` },
+        { hash: `pzk0yl`, mediaQuery: `(min-width: 810px) and (max-width: 1199.98px)` },
+        { hash: `pmyeso`, mediaQuery: `(max-width: 809.98px)` },
       ];
     default:
       return;
   }
 }
-async function Mr({ routeId: e, pathVariables: n, localeId: i, collectionItemId: c }) {
-  let l = $[e].page.preload();
-  Me({
+async function jr({ routeId: e, pathVariables: n, localeId: i, collectionItemId: c }) {
+  let l = Pr[e].page.preload();
+  je({
     disableCustomCode: !1,
     editorBarDisableFrameAncestorsSecurity: !1,
     motionDivToDiv: !1,
@@ -3058,18 +3051,18 @@ async function Mr({ routeId: e, pathVariables: n, localeId: i, collectionItemId:
     synchronousNavigationOnDesktop: !1,
     yieldOnTap: !1,
   });
-  let d = E(ve, {
-    children: E(Oe, {
-      children: E(be, {
+  let d = E(_e, {
+    children: E(De, {
+      children: E(ye, {
         isWebsite: !0,
         environment: `site`,
         routeId: e,
         pathVariables: n,
-        routes: $,
+        routes: Pr,
         collectionUtils: Ir,
         framerSiteId: Lr,
         notFoundPage: ce(
-          () => import(`./aKBF-xKvwF46HuMNzoEi7w-OUPLzNLN0KDmjK4bqmVQ.BqW7fROr.mjs`)
+          () => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.DlS9I4Bx.mjs`)
         ),
         isReducedMotion: void 0,
         localeId: i,
@@ -3087,7 +3080,7 @@ async function Mr({ routeId: e, pathVariables: n, localeId: i, collectionItemId:
                 return ce(async () => {
                   f.__framer_editorBarDependencies = {
                     __version: 3,
-                    framer: { useCurrentRoute: ie, useLocaleInfo: R, useRouter: me },
+                    framer: { useCurrentRoute: ie, useLocaleInfo: z, useRouter: me },
                     react: {
                       createElement: E,
                       Fragment: o,
@@ -3105,8 +3098,8 @@ async function Mr({ routeId: e, pathVariables: n, localeId: i, collectionItemId:
                 });
               })(),
         adaptLayoutToTextDirection: !1,
-        LayoutTemplate: Ar,
-        loadSnippetsModule: new Te(
+        LayoutTemplate: kr,
+        loadSnippetsModule: new we(
           () => import(`./DQqSUZsnaRFZh7IOWWHNlhUcW2OuIQoZol3YF9qrJXY.dObCGW41.mjs`)
         ),
         initialCollectionItemId: c,
@@ -3116,10 +3109,10 @@ async function Mr({ routeId: e, pathVariables: n, localeId: i, collectionItemId:
   });
   return (await l, d);
 }
-function Nr() {
+function Mr() {
   Rr && f.__framer_events.push(arguments);
 }
-async function Pr(e, t) {
+async function Nr(e, t) {
   function n(e, t, n = !0) {
     if (e.caught || f.__framer_hadFatalError) return;
     let r = t?.componentStack;
@@ -3141,7 +3134,7 @@ async function Pr(e, t) {
         e,
         r
       );
-    Nr(n ? `published_site_load_recoverable_error` : `published_site_load_error`, {
+    Mr(n ? `published_site_load_recoverable_error` : `published_site_load_error`, {
       message: String(e),
       componentStack: r,
       stack: r ? void 0 : e instanceof Error && typeof e.stack == `string` ? e.stack : null,
@@ -3155,9 +3148,9 @@ async function Pr(e, t) {
         (i = s.localeId),
         (a = s.pathVariables),
         (o = s.breakpoints),
-        (r = te($, r)));
+        (r = te(Pr, r)));
     else {
-      te($, void 0);
+      te(Pr, void 0);
       let e = performance
         .getEntriesByType(`navigation`)[0]
         ?.serverTiming?.find((e) => e.name === `route`)?.description;
@@ -3167,11 +3160,11 @@ async function Pr(e, t) {
         for (let [e, n] of t.entries()) e.startsWith(`var.`) && ((a ??= {}), (a[e.slice(4)] = n));
       }
       if (!r || !i) {
-        let e = ae($, decodeURIComponent(location.pathname), !0, Fr);
+        let e = ae(Pr, decodeURIComponent(location.pathname), !0, Fr);
         ((r = e.routeId), (i = e.localeId), (a = e.pathVariables));
       }
     }
-    let c = Mr({
+    let c = jr({
       routeId: r,
       localeId: i,
       pathVariables: a,
@@ -3179,7 +3172,7 @@ async function Pr(e, t) {
     });
     f !== void 0 &&
       (async () => {
-        let e = $[r],
+        let e = Pr[r],
           t = Fr.find(({ id: e }) => (i ? e === i : e === "default")).code,
           n = s?.collectionItemId ?? null;
         if (n === null && e?.collectionId && Ir) {
@@ -3216,7 +3209,7 @@ async function Pr(e, t) {
             },
             `eager`,
           ]),
-          await Ce({
+          await Se({
             priority: `background`,
             ensureContinueBeforeUnload: !0,
             continueAfter: `paint`,
@@ -3227,7 +3220,7 @@ async function Pr(e, t) {
       })();
     let l = await c;
     e
-      ? (je(`framer-rewrite-breakpoints`, () => {
+      ? (Ae(`framer-rewrite-breakpoints`, () => {
           (ne(o), f.__framer_onRewriteBreakpoints?.(o));
         }),
         (zr ? (e) => e() : ee)(() => {
@@ -3238,7 +3231,7 @@ async function Pr(e, t) {
     throw (n(e, void 0, !1), e);
   }
 }
-var $, Fr, Ir, Lr, Rr, zr;
+var Pr, Fr, Ir, Lr, Rr, zr;
 e(() => {
   if (
     (O(),
@@ -3246,11 +3239,10 @@ e(() => {
     d(),
     m(),
     b(),
-    kr(),
-    ($ = {
+    Or(),
+    (Pr = {
       augiA20Il: {
         elements: {
-          IknGWjLgy: `benefits`,
           iYUNHqCEb: `hero`,
           lCq8UO0dC: `image-gen`,
           N2ijbw0rP: `features`,
@@ -3259,12 +3251,12 @@ e(() => {
           v99AbFhke: `faqs`,
           zKzXmXRGU: `showcases`,
         },
-        page: ce(() => import(`./zvjyG9rKUPbhu9gIXm08IHodyxGDSDpVgtwsKV60ArU.B7ln7tZV.mjs`)),
+        page: ce(() => import(`./kziG2OQpMxtl0QxA8n0LLJiPXAWrRhJJQEuygY2T07I.BO80duz9.mjs`)),
         path: `/`,
       },
       weKLGiygA: {
         elements: {},
-        page: ce(() => import(`./aKBF-xKvwF46HuMNzoEi7w-OUPLzNLN0KDmjK4bqmVQ.BqW7fROr.mjs`)),
+        page: ce(() => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.DlS9I4Bx.mjs`)),
         path: `/404`,
       },
     }),
@@ -3276,11 +3268,11 @@ e(() => {
     Rr)
   ) {
     ((f.__framer_importFromPackage = (e, t) => () =>
-      E(we, { error: `Package component not supported: "` + t + `" in "` + e + `"` })),
+      E(Ce, { error: `Package component not supported: "` + t + `" in "` + e + `"` })),
       (f.__framer_events = f.__framer_events || []),
-      Ie());
+      Fe());
     let e = document.getElementById(`main`);
-    `framerHydrateV2` in e.dataset ? Pr(!0, e) : Pr(!1, e);
+    `framerHydrateV2` in e.dataset ? Nr(!0, e) : Nr(!1, e);
   }
   (function () {
     Rr &&
@@ -3292,5 +3284,5 @@ e(() => {
       });
   })();
 })();
-export { jr as getLayoutTemplateBreakpoints, Mr as getPageRoot };
-//# sourceMappingURL=script_main.CXvorhaC.mjs.map
+export { Ar as getLayoutTemplateBreakpoints, jr as getPageRoot };
+//# sourceMappingURL=script_main.DHge-8BL.mjs.map
