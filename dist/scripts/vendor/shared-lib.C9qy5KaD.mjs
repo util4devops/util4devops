@@ -1342,11 +1342,11 @@ var J,
   });
 function Q(e, t) {
   return {
-    description: `Flamer is a sleek, high-converting SaaS landing page template designed for AI-powered startups. With modern design, intuitive layout, and all essential sections, it helps you showcase your product, engage users, and drive conversions effortlessly.`,
+    description: `Util4dev trao cho mỗi nhân viên một AI đồng hành có khả năng hiểu tri thức doanh nghiệp, hỗ trợ ra quyết định và thực hiện công việc trên các hệ thống hiện có. Từ đó giúp doanh nghiệp vận hành nhanh hơn, hiệu quả hơn mà không cần thay đổi cách tổ chức.`,
     favicon: `https://framerusercontent.com/assets/lbsCM2zkqw7fkfm7k2tIMYBfIWE.png`,
     robots: `max-image-preview:large`,
     socialImage: `https://framerusercontent.com/assets/Z3mNskx1Fxte8WGpIKp7ecpH7JI.png`,
-    title: `Flamer – The Ultimate AI SaaS Landing Page Template`,
+    title: `Util4dev - Kiến tạo công việc trong tương lai`,
   };
 }
 var we = e(() => {});
@@ -1368,7 +1368,7 @@ function Te(e, t) {
       zKzXmXRGU: `showcases`,
     },
     robots: `max-image-preview:large`,
-    serializationId: `framer-UaBhM`,
+    serializationId: `framer-kcvvC`,
     title: Q(e, t).title || `Home`,
     viewport: `width=device-width`,
   };
@@ -1437,4 +1437,4 @@ export {
   D as v,
   E as y,
 };
-//# sourceMappingURL=shared-lib.D6I7Vrd0.mjs.map
+//# sourceMappingURL=shared-lib.C9qy5KaD.mjs.map

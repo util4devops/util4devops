@@ -86,7 +86,7 @@ import {
   u as ke,
   v as Ae,
   y as je,
-} from "./shared-lib.D6I7Vrd0.mjs";
+} from "./shared-lib.C9qy5KaD.mjs";
 var Me,
   Ne,
   Pe,
@@ -2253,7 +2253,8 @@ var Nt,
   Xt,
   Zt,
   Qt,
-  $t = e(() => {
+  $t,
+  en = e(() => {
     (v(),
       k(),
       O(),
@@ -2262,17 +2263,20 @@ var Nt,
       jt(),
       Ut(),
       (Wt = M(Ht)),
-      (Gt = `framer-zUn0C`),
+      (Gt = `framer-84g9j`),
       (Kt = { idAGtyDqJ: `framer-v-oar3z9` }),
       (qt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Jt = ({ value: e, children: t }) => {
+      (Jt = (...e) => {
+        for (let t of e) if (t && typeof t == `string`) return t;
+      }),
+      (Yt = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Yt = C.create(a)),
-      (Xt = ({
+      (Xt = C.create(a)),
+      (Zt = ({
         badge: e,
         badgeVisible: t,
         description: n,
@@ -2291,8 +2295,8 @@ var Nt,
           s.TmroXSTYL ??
           `Whether you’re crafting content, designing visuals, or launching ideas, Flamer helps you go from prompt to polished in seconds.`,
       })),
-      (Zt = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Qt = R(
+      (Qt = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      ($t = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
@@ -2309,7 +2313,7 @@ var Nt,
               TmroXSTYL: v,
               blBXxPHbO: y,
               ...x
-            } = Xt(e),
+            } = Zt(e),
             {
               baseVariant: S,
               classNames: ee,
@@ -2321,14 +2325,14 @@ var Nt,
               setVariant: ne,
               variants: k,
             } = L({ defaultVariant: `idAGtyDqJ`, ref: i, variant: p, variantClassNames: Kt }),
-            A = Zt(e, k),
+            A = Qt(e, k),
             j = G(Gt, At, lt);
           return h(D, {
             id: f ?? o,
-            children: h(Yt, {
+            children: h(Xt, {
               animate: k,
               initial: !1,
-              children: h(Jt, {
+              children: h(Yt, {
                 value: qt,
                 children: _(C.div, {
                   ...x,
@@ -2340,10 +2344,10 @@ var Nt,
                   ref: i,
                   style: { ...u },
                   children: [
-                    y &&
+                    y !== !1 &&
                       h(W, {
                         height: 37,
-                        y: (l?.y || 0) + 0 + (((l?.height || 193) - 0 - 294.6) / 2 + 0 + 0),
+                        y: (l?.y || 0) + 0 + (((l?.height || 193) - 0 - 242.6) / 2 + 0 + 0),
                         children: h(q, {
                           className: `framer-vzqj77-container`,
                           layoutDependency: A,
@@ -2356,7 +2360,7 @@ var Nt,
                             id: `nS_IiscH2`,
                             layoutId: `nS_IiscH2`,
                             O6gJl3TVN: m,
-                            variant: `IHeVKXtSW`,
+                            variant: Jt(`IHeVKXtSW`),
                             width: `100%`,
                           }),
                         }),
@@ -2434,99 +2438,109 @@ var Nt,
           });
         }),
         [
-          `@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }`,
-          `.framer-zUn0C.framer-1r79yr2, .framer-zUn0C .framer-1r79yr2 { display: block; }`,
-          `.framer-zUn0C.framer-oar3z9 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px 25px 0px 25px; position: relative; width: 750px; }`,
-          `.framer-zUn0C .framer-vzqj77-container { flex: none; height: auto; position: relative; width: auto; }`,
-          `.framer-zUn0C .framer-1a0no2 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-          `.framer-zUn0C .framer-4pqf1h { flex: none; height: auto; max-width: 700px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-          `.framer-zUn0C .framer-1mw190m { flex: none; height: auto; max-width: 620px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+          `.framer-84g9j.framer-1r79yr2, .framer-84g9j .framer-1r79yr2 { display: block; }`,
+          `.framer-84g9j.framer-oar3z9 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px 25px 0px 25px; position: relative; width: 750px; }`,
+          `.framer-84g9j .framer-vzqj77-container { flex: none; height: auto; position: relative; width: auto; }`,
+          `.framer-84g9j .framer-1a0no2 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+          `.framer-84g9j .framer-4pqf1h { flex: none; height: auto; max-width: 700px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+          `.framer-84g9j .framer-1mw190m { flex: none; height: auto; max-width: 620px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
           ...kt,
           ...ct,
         ],
-        `framer-zUn0C`
+        `framer-84g9j`
       )),
-      (Qt.displayName = `Headline`),
-      (Qt.defaultProps = { height: 193, width: 750 }),
-      K(Qt, {
+      ($t.displayName = `Headline`),
+      ($t.defaultProps = { height: 193, width: 750 }),
+      K($t, {
         sIRtTcVp7: {
           defaultValue: `Flamer Blog`,
           displayTextArea: !1,
           title: `Badge`,
           type: H.String,
         },
+        onsIRtTcVp7Change: { changes: `sIRtTcVp7`, type: H.ChangeHandler },
         bRyvaH27Q: {
           defaultValue: `News from the world of AI`,
           displayTextArea: !1,
           title: `Title`,
           type: H.String,
         },
+        onbRyvaH27QChange: { changes: `bRyvaH27Q`, type: H.ChangeHandler },
         TmroXSTYL: {
           defaultValue: `Whether you’re crafting content, designing visuals, or launching ideas, Flamer helps you go from prompt to polished in seconds.`,
           displayTextArea: !1,
           title: `Description`,
           type: H.String,
         },
+        onTmroXSTYLChange: { changes: `TmroXSTYL`, type: H.ChangeHandler },
         blBXxPHbO: { defaultValue: !0, title: `Badge Visible`, type: H.Boolean },
+        onblBXxPHbOChange: { changes: `blBXxPHbO`, type: H.ChangeHandler },
       }),
       I(
-        Qt,
+        $t,
         [
           {
             explicitInter: !0,
             fonts: [
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F`,
                 url: `https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116`,
                 url: `https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+1F00-1FFF`,
                 url: `https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0370-03FF`,
                 url: `https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF`,
                 url: `https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
-                unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
-                url: `../../assets/fonts/vQyevYAyHtARFwPqUzQGpnDs.woff2`,
+                uiFamilyName: `Inter`,
+                unicodeRange: `U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD`,
+                url: `https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2`,
                 weight: `400`,
               },
               {
-                family: `Inter`,
+                cssFamilyName: `Inter`,
                 source: `framer`,
                 style: `normal`,
+                uiFamilyName: `Inter`,
                 unicodeRange: `U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB`,
                 url: `../../assets/fonts/b6Y37FthZeALduNqHicBT6FutY.woff2`,
                 weight: `400`,
@@ -2538,19 +2552,20 @@ var Nt,
           ...N(st),
         ],
         { supportsExplicitInterCodegen: !0 }
-      ));
+      ),
+      ($t.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Ht, {}, t)])) }));
   }),
-  en,
-  tn = e(() => {
-    en = (e) => e;
-  }),
+  tn,
   nn = e(() => {
-    tn();
+    tn = (e) => e;
   }),
   rn = e(() => {
     nn();
+  }),
+  an = e(() => {
+    rn();
   });
-function an(e, t) {
+function on(e, t) {
   var n = {};
   for (var r in e) Object.prototype.hasOwnProperty.call(e, r) && t.indexOf(r) < 0 && (n[r] = e[r]);
   if (e != null && typeof Object.getOwnPropertySymbols == `function`) {
@@ -2562,21 +2577,21 @@ function an(e, t) {
   }
   return n;
 }
-var on = e(() => {}),
-  sn,
-  cn = e(() => {
-    ((sn = {}),
-      Object.defineProperty(sn, "__esModule", { value: !0 }),
-      (sn.warning = function () {}),
-      (sn.invariant = function () {}),
-      sn.__esModule,
-      sn.warning,
-      sn.invariant);
-  }),
+var sn = e(() => {}),
+  cn,
   ln = e(() => {
-    tn();
+    ((cn = {}),
+      Object.defineProperty(cn, "__esModule", { value: !0 }),
+      (cn.warning = function () {}),
+      (cn.invariant = function () {}),
+      cn.__esModule,
+      cn.warning,
+      cn.invariant);
+  }),
+  un = e(() => {
+    nn();
   });
-function un(e, t) {
+function dn(e, t) {
   return (
     typeof e == `string`
       ? t
@@ -2586,9 +2601,9 @@ function un(e, t) {
     Array.from(e || [])
   );
 }
-function dn(e, t, { root: n, margin: r, amount: i = `any` } = {}) {
+function fn(e, t, { root: n, margin: r, amount: i = `any` } = {}) {
   if (typeof IntersectionObserver > `u`) return () => {};
-  let a = un(e),
+  let a = dn(e),
     o = new WeakMap(),
     s = new IntersectionObserver(
       (e) => {
@@ -2601,11 +2616,11 @@ function dn(e, t, { root: n, margin: r, amount: i = `any` } = {}) {
             } else n && (n(e), o.delete(e.target));
         });
       },
-      { root: n, rootMargin: r, threshold: typeof i == `number` ? i : Nn[i] }
+      { root: n, rootMargin: r, threshold: typeof i == `number` ? i : Pn[i] }
     );
   return (a.forEach((e) => s.observe(e)), () => s.disconnect());
 }
-function fn(e, t) {
+function pn(e, t) {
   if (t) {
     let { inlineSize: e, blockSize: n } = t[0];
     return { width: e, height: n };
@@ -2614,69 +2629,68 @@ function fn(e, t) {
     ? e.getBBox()
     : { width: e.offsetWidth, height: e.offsetHeight };
 }
-function pn({ target: e, contentRect: t, borderBoxSize: n }) {
+function mn({ target: e, contentRect: t, borderBoxSize: n }) {
   var r;
-  (r = Pn.get(e)) == null ||
+  (r = Fn.get(e)) == null ||
     r.forEach((r) => {
       r({
         target: e,
         contentSize: t,
         get size() {
-          return fn(e, n);
+          return pn(e, n);
         },
       });
     });
 }
-function mn(e) {
-  e.forEach(pn);
+function hn(e) {
+  e.forEach(mn);
 }
-function hn() {
-  typeof ResizeObserver < `u` && (Fn = new ResizeObserver(mn));
+function gn() {
+  typeof ResizeObserver < `u` && (In = new ResizeObserver(hn));
 }
-function gn(e, t) {
-  Fn || hn();
-  let n = un(e);
+function _n(e, t) {
+  In || gn();
+  let n = dn(e);
   return (
     n.forEach((e) => {
-      let n = Pn.get(e);
-      (n || ((n = new Set()), Pn.set(e, n)), n.add(t), Fn?.observe(e));
+      let n = Fn.get(e);
+      (n || ((n = new Set()), Fn.set(e, n)), n.add(t), In?.observe(e));
     }),
     () => {
       n.forEach((e) => {
-        let n = Pn.get(e);
-        (n?.delete(t), (n != null && n.size) || Fn == null || Fn.unobserve(e));
+        let n = Fn.get(e);
+        (n?.delete(t), (n != null && n.size) || In == null || In.unobserve(e));
       });
     }
   );
 }
-function _n() {
-  ((Ln = () => {
+function vn() {
+  ((Rn = () => {
     let e = { width: f.innerWidth, height: f.innerHeight },
       t = { target: f, size: e, contentSize: e };
-    In.forEach((e) => e(t));
+    Ln.forEach((e) => e(t));
   }),
-    f.addEventListener(`resize`, Ln));
+    f.addEventListener(`resize`, Rn));
 }
-function vn(e) {
+function yn(e) {
   return (
-    In.add(e),
-    Ln || _n(),
+    Ln.add(e),
+    Rn || vn(),
     () => {
-      (In.delete(e), !In.size && Ln && (Ln = void 0));
+      (Ln.delete(e), !Ln.size && Rn && (Rn = void 0));
     }
   );
 }
-function yn(e, t) {
-  return typeof e == `function` ? vn(e) : gn(e, t);
-}
-function bn(e, t, n) {
-  e.dispatchEvent(new CustomEvent(t, { detail: { originalEvent: n } }));
+function bn(e, t) {
+  return typeof e == `function` ? yn(e) : _n(e, t);
 }
 function xn(e, t, n) {
+  e.dispatchEvent(new CustomEvent(t, { detail: { originalEvent: n } }));
+}
+function Sn(e, t, n) {
   e.dispatchEvent(new CustomEvent(t, { detail: { originalEntry: n } }));
 }
-var Sn,
-  Cn,
+var Cn,
   wn,
   Tn,
   En,
@@ -2694,82 +2708,83 @@ var Sn,
   Rn,
   zn,
   Bn,
-  Vn = e(() => {
+  Vn,
+  Hn = e(() => {
     (x(),
-      tn(),
-      rn(),
-      on(),
-      cn(),
+      nn(),
+      an(),
+      sn(),
       ln(),
-      (Sn = [``, `X`, `Y`, `Z`]),
-      (Cn = [`translate`, `scale`, `rotate`, `skew`]),
-      (wn = { syntax: `<angle>`, initialValue: `0deg`, toDefaultUnit: (e) => e + `deg` }),
-      (Tn = {
+      un(),
+      (Cn = [``, `X`, `Y`, `Z`]),
+      (wn = [`translate`, `scale`, `rotate`, `skew`]),
+      (Tn = { syntax: `<angle>`, initialValue: `0deg`, toDefaultUnit: (e) => e + `deg` }),
+      (En = {
         translate: {
           syntax: `<length-percentage>`,
           initialValue: `0px`,
           toDefaultUnit: (e) => e + `px`,
         },
-        rotate: wn,
-        scale: { syntax: `<number>`, initialValue: 1, toDefaultUnit: en },
-        skew: wn,
+        rotate: Tn,
+        scale: { syntax: `<number>`, initialValue: 1, toDefaultUnit: tn },
+        skew: Tn,
       }),
-      (En = new Map()),
-      (Dn = (e) => `--motion-${e}`),
-      (On = [`x`, `y`, `z`]),
-      Cn.forEach((e) => {
-        Sn.forEach((t) => {
-          (On.push(e + t), En.set(Dn(e + t), Tn[e]));
+      (Dn = new Map()),
+      (On = (e) => `--motion-${e}`),
+      (kn = [`x`, `y`, `z`]),
+      wn.forEach((e) => {
+        Cn.forEach((t) => {
+          (kn.push(e + t), Dn.set(On(e + t), En[e]));
         });
       }),
-      new Set(On),
-      (kn = (e) => document.createElement(`div`).animate(e, { duration: 0.001 })),
-      (An = {
+      new Set(kn),
+      (An = (e) => document.createElement(`div`).animate(e, { duration: 0.001 })),
+      (jn = {
         cssRegisterProperty: () =>
           typeof CSS < `u` && Object.hasOwnProperty.call(CSS, `registerProperty`),
         waapi: () => Object.hasOwnProperty.call(Element.prototype, `animate`),
         partialKeyframes: () => {
           try {
-            kn({ opacity: [1] });
+            An({ opacity: [1] });
           } catch {
             return !1;
           }
           return !0;
         },
-        finished: () => !!kn({ opacity: [0, 1] }).finished,
+        finished: () => !!An({ opacity: [0, 1] }).finished,
       }),
-      (jn = {}),
-      (Mn = {}));
-    for (let e in An) Mn[e] = () => (jn[e] === void 0 && (jn[e] = An[e]()), jn[e]);
-    ((Nn = { any: 0, all: 1 }),
-      (Pn = new WeakMap()),
-      (In = new Set()),
-      (Rn = {
+      (Mn = {}),
+      (Nn = {}));
+    for (let e in jn) Nn[e] = () => (Mn[e] === void 0 && (Mn[e] = jn[e]()), Mn[e]);
+    ((Pn = { any: 0, all: 1 }),
+      (Fn = new WeakMap()),
+      (Ln = new Set()),
+      (zn = {
         isActive: (e) => !!e.inView,
         subscribe: (e, { enable: t, disable: n }, { inViewOptions: r = {} }) => {
           let { once: i } = r;
-          return dn(
+          return fn(
             e,
             (r) => {
-              if ((t(), xn(e, `viewenter`, r), !i))
+              if ((t(), Sn(e, `viewenter`, r), !i))
                 return (t) => {
-                  (n(), xn(e, `viewleave`, t));
+                  (n(), Sn(e, `viewleave`, t));
                 };
             },
-            an(r, [`once`])
+            on(r, [`once`])
           );
         },
       }),
-      (zn = (e, t, n) => (r) => {
-        (!r.pointerType || r.pointerType === `mouse`) && (n(), bn(e, t, r));
+      (Bn = (e, t, n) => (r) => {
+        (!r.pointerType || r.pointerType === `mouse`) && (n(), xn(e, t, r));
       }),
-      (Bn = {
-        inView: Rn,
+      (Vn = {
+        inView: zn,
         hover: {
           isActive: (e) => !!e.hover,
           subscribe: (e, { enable: t, disable: n }) => {
-            let r = zn(e, `hoverstart`, t),
-              i = zn(e, `hoverend`, n);
+            let r = Bn(e, `hoverstart`, t),
+              i = Bn(e, `hoverend`, n);
             return (
               e.addEventListener(`pointerenter`, r),
               e.addEventListener(`pointerleave`, i),
@@ -2784,10 +2799,10 @@ var Sn,
           isActive: (e) => !!e.press,
           subscribe: (e, { enable: t, disable: n }) => {
             let r = (t) => {
-                (n(), bn(e, `pressend`, t), f.removeEventListener(`pointerup`, r));
+                (n(), xn(e, `pressend`, t), f.removeEventListener(`pointerup`, r));
               },
               i = (n) => {
-                (t(), bn(e, `pressstart`, n), f.addEventListener(`pointerup`, r));
+                (t(), xn(e, `pressstart`, n), f.addEventListener(`pointerup`, r));
               };
             return (
               e.addEventListener(`pointerdown`, i),
@@ -2798,9 +2813,9 @@ var Sn,
           },
         },
       }),
-      [...Object.keys(Bn)]);
+      [...Object.keys(Vn)]);
   });
-function Hn(e) {
+function Un(e) {
   let {
       slots: a = [],
       gap: s,
@@ -2823,14 +2838,14 @@ function Hn(e) {
     F = d ? `${f}px ${p}px ${m}px ${v}px` : `${l}px`,
     oe = fe.current(),
     se = oe === fe.canvas || oe === fe.export,
-    I = Un(),
+    I = Wn(),
     L = a.filter(Boolean),
     ce = r.count(L),
     le = ce > 0,
     ue = S(0),
-    de = Wn(T === !0 ? `left` : T, I),
+    de = Gn(T === !0 ? `left` : T, I),
     pe = de === `left` || de === `right`,
-    R = Kn[de];
+    R = qn[de];
   w(ue, R);
   let me = t(null),
     z = c(() => [{ current: null }, { current: null }], []),
@@ -2843,7 +2858,7 @@ function Hn(e) {
     !se &&
       le &&
       B.parent &&
-      ((U = Math.round((B.parent / B.children) * 2) + 1), (U = Math.min(U, Gn)), (ge = 1)));
+      ((U = Math.round((B.parent / B.children) * 2) + 1), (U = Math.min(U, Kn)), (ge = 1)));
   let W = u(() => {
       if (le && me.current) {
         let e = pe ? me.current.offsetWidth : me.current.offsetHeight,
@@ -2868,7 +2883,7 @@ function Hn(e) {
       n(
         () => (
           E.read(W, !1, !0),
-          yn(me.current, ({ contentSize: t }) => {
+          bn(me.current, ({ contentSize: t }) => {
             (!e.current && (t.width || t.height) && E.read(W, !1, !0), (e.current = !1));
           })
         ),
@@ -2882,7 +2897,7 @@ function Hn(e) {
       let r = { width: ae ? e.props?.width : `100%`, height: P ? e.props?.height : `100%` };
       return h(D, {
         inherit: `id`,
-        children: h(qn, {
+        children: h(Jn, {
           ref: n,
           style: r,
           children: g(
@@ -2912,7 +2927,7 @@ function Hn(e) {
             {
               inherit: `id`,
               children: h(
-                qn,
+                Jn,
                 {
                   style: r,
                   children: g(
@@ -2983,11 +2998,11 @@ function Hn(e) {
   let be = pe ? `to right` : `to bottom`,
     xe = N / 2,
     Se = 100 - N / 2,
-    Ce = `linear-gradient(${be}, rgba(0, 0, 0, ${ie}) ${$n(re, 0, xe)}%, rgba(0, 0, 0, 1) ${xe}%, rgba(0, 0, 0, 1) ${Se}%, rgba(0, 0, 0, ${ie}) ${100 - re}%)`;
+    Ce = `linear-gradient(${be}, rgba(0, 0, 0, ${ie}) ${er(re, 0, xe)}%, rgba(0, 0, 0, 1) ${xe}%, rgba(0, 0, 0, 1) ${Se}%, rgba(0, 0, 0, ${ie}) ${100 - re}%)`;
   return le
     ? h(`section`, {
         style: {
-          ...Jn,
+          ...Yn,
           opacity: ge,
           WebkitMaskImage: j ? Ce : void 0,
           maskImage: j ? Ce : void 0,
@@ -2998,10 +3013,10 @@ function Hn(e) {
         children: _(C.ul, {
           ref: ye,
           style: {
-            ...Jn,
+            ...Yn,
             gap: s,
-            top: T === `bottom` && er(G) ? -G : void 0,
-            left: T === `right` && er(G) ? G * (I === `rtl` ? 1 : -1) : void 0,
+            top: T === `bottom` && tr(G) ? -G : void 0,
+            left: T === `right` && tr(G) ? G * (I === `rtl` ? 1 : -1) : void 0,
             placeItems: O,
             position: `relative`,
             flexDirection: pe ? `row` : `column`,
@@ -3019,29 +3034,28 @@ function Hn(e) {
         }),
       })
     : _(`section`, {
-        style: Yn,
+        style: Xn,
         children: [
-          h(`div`, { style: Xn, children: `✨` }),
-          h(`p`, { style: Zn, children: `Connect to Content` }),
+          h(`div`, { style: Zn, children: `✨` }),
+          h(`p`, { style: Qn, children: `Connect to Content` }),
           h(`p`, {
-            style: Qn,
+            style: $n,
             children: `Add layers or components to infinitely loop on your page.`,
           }),
         ],
       });
 }
-function Un() {
+function Wn() {
   return !f || !f.document || !f.document.documentElement
     ? `ltr`
     : f.document.documentElement.dir === `rtl`
       ? `rtl`
       : `ltr`;
 }
-function Wn(e, t) {
+function Gn(e, t) {
   return t === `rtl` ? (e === `left` ? `right` : e === `right` ? `left` : e) : e;
 }
-var Gn,
-  Kn,
+var Kn,
   qn,
   Jn,
   Yn,
@@ -3050,21 +3064,22 @@ var Gn,
   Qn,
   $n,
   er,
-  tr = e(() => {
+  tr,
+  nr = e(() => {
     (x(),
       v(),
       d(),
       k(),
       O(),
-      Vn(),
-      (Gn = 100),
-      (Kn = {
+      Hn(),
+      (Kn = 100),
+      (qn = {
         left: (e) => `translateX(-${e}px)`,
         right: (e) => `translateX(${e}px)`,
         top: (e) => `translateY(-${e}px)`,
         bottom: (e) => `translateY(${e}px)`,
       }),
-      (qn = p(({ children: e, ...n }, r) => {
+      (Jn = p(({ children: e, ...n }, r) => {
         let a = t(),
           o = ee(a);
         return (
@@ -3085,14 +3100,14 @@ var Gn,
           h(`li`, { ...n, "aria-hidden": !o, ref: a, children: e })
         );
       })),
-      (Hn.defaultProps = {
+      (Un.defaultProps = {
         gap: 10,
         padding: 10,
         sizingOptions: { widthType: !0, heightType: !0 },
         fadeOptions: { fadeContent: !0, overflow: !1, fadeWidth: 25, fadeAlpha: 0, fadeInset: 0 },
         direction: !0,
       }),
-      K(Hn, {
+      K(Un, {
         slots: { type: H.Array, title: `Children`, control: { type: H.ComponentInstance } },
         speed: {
           type: H.Number,
@@ -3220,7 +3235,7 @@ var Gn,
           description: `Slows down the speed while you are hovering.`,
         },
       }),
-      (Jn = {
+      (Yn = {
         display: `flex`,
         width: `100%`,
         height: `100%`,
@@ -3232,7 +3247,7 @@ var Gn,
         listStyleType: `none`,
         textIndent: `none`,
       }),
-      (Yn = {
+      (Xn = {
         display: `flex`,
         width: `100%`,
         height: `100%`,
@@ -3245,18 +3260,17 @@ var Gn,
         overflow: `hidden`,
         padding: `20px 20px 30px 20px`,
       }),
-      (Xn = { fontSize: 32, marginBottom: 10 }),
-      (Zn = { margin: 0, marginBottom: 10, fontWeight: 600, textAlign: `center` }),
-      (Qn = { margin: 0, opacity: 0.7, maxWidth: 150, lineHeight: 1.5, textAlign: `center` }),
-      ($n = (e, t, n) => Math.min(Math.max(e, t), n)),
-      (er = (e) => typeof e == `number` && !isNaN(e)));
+      (Zn = { fontSize: 32, marginBottom: 10 }),
+      (Qn = { margin: 0, marginBottom: 10, fontWeight: 600, textAlign: `center` }),
+      ($n = { margin: 0, opacity: 0.7, maxWidth: 150, lineHeight: 1.5, textAlign: `center` }),
+      (er = (e, t, n) => Math.min(Math.max(e, t), n)),
+      (tr = (e) => typeof e == `number` && !isNaN(e)));
   });
-function nr(e, ...t) {
+function rr(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var rr,
-  ir,
+var ir,
   ar,
   or,
   sr,
@@ -3266,39 +3280,40 @@ var rr,
   dr,
   fr,
   pr,
+  mr,
   Z,
-  mr = e(() => {
+  hr = e(() => {
     (v(),
       k(),
       O(),
       d(),
       Ze(),
       J(),
-      (rr = M(Y)),
-      (ir = j(Y)),
-      (ar = [`vrX9Rsr1R`, `cgFnljKzI`, `bhanRXDIc`]),
-      (or = `framer-50FLH`),
-      (sr = {
+      (ir = M(Y)),
+      (ar = j(Y)),
+      (or = [`vrX9Rsr1R`, `cgFnljKzI`, `bhanRXDIc`]),
+      (sr = `framer-50FLH`),
+      (cr = {
         bhanRXDIc: `framer-v-cpfpbf`,
         cgFnljKzI: `framer-v-u4if80`,
         vrX9Rsr1R: `framer-v-r00olz`,
       }),
-      (cr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (lr = ({ value: e, children: t }) => {
+      (lr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (ur = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (ur = { "Variant 1": `vrX9Rsr1R`, "Variant 2": `cgFnljKzI`, "Variant 3": `bhanRXDIc` }),
-      (dr = C.create(a)),
-      (fr = ({ height: e, icon: t, id: n, title: r, width: i, ...a }) => ({
+      (dr = { "Variant 1": `vrX9Rsr1R`, "Variant 2": `cgFnljKzI`, "Variant 3": `bhanRXDIc` }),
+      (fr = C.create(a)),
+      (pr = ({ height: e, icon: t, id: n, title: r, width: i, ...a }) => ({
         ...a,
         GdG43nGqr: r ?? a.GdG43nGqr ?? `Trợ lý tri thức (RAG)`,
         oqPfwZIHv: t ?? a.oqPfwZIHv ?? `Sparkle`,
-        variant: ur[a.variant] ?? a.variant ?? `vrX9Rsr1R`,
+        variant: dr[a.variant] ?? a.variant ?? `vrX9Rsr1R`,
       })),
-      (pr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (mr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
       (Z = R(
         p(function (e, n) {
           let r = t(null),
@@ -3314,7 +3329,7 @@ var rr,
               GdG43nGqr: p,
               oqPfwZIHv: m,
               ...g
-            } = fr(e),
+            } = pr(e),
             {
               baseVariant: v,
               classNames: y,
@@ -3326,21 +3341,21 @@ var rr,
               setVariant: T,
               variants: E,
             } = L({
-              cycleOrder: ar,
+              cycleOrder: or,
               defaultVariant: `vrX9Rsr1R`,
               ref: i,
               variant: f,
-              variantClassNames: sr,
+              variantClassNames: cr,
             }),
-            O = pr(e, E),
-            ne = G(or, ye);
+            O = mr(e, E),
+            ne = G(sr, ye);
           return h(D, {
             id: d ?? o,
-            children: h(dr, {
+            children: h(fr, {
               animate: E,
               initial: !1,
-              children: h(lr, {
-                value: cr,
+              children: h(ur, {
+                value: lr,
                 children: h(C.div, {
                   ...g,
                   ...S,
@@ -3367,7 +3382,7 @@ var rr,
                     WebkitBackdropFilter: `blur(5px)`,
                     ...l,
                   },
-                  ...nr(
+                  ...rr(
                     {
                       bhanRXDIc: { "data-framer-name": `Variant 3` },
                       cgFnljKzI: { "data-framer-name": `Variant 2` },
@@ -3461,8 +3476,8 @@ var rr,
           type: H.String,
         },
         onGdG43nGqrChange: { changes: `GdG43nGqr`, type: H.ChangeHandler },
-        oqPfwZIHv: ir?.iconSelection && {
-          ...ir.iconSelection,
+        oqPfwZIHv: ar?.iconSelection && {
+          ...ar.iconSelection,
           defaultValue: `Sparkle`,
           description: void 0,
           hidden: void 0,
@@ -3542,60 +3557,60 @@ var rr,
               },
             ],
           },
-          ...rr,
+          ...ir,
           ...N(je),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  hr,
   gr,
   _r,
   vr,
   yr,
   br,
   xr,
-  Q,
   Sr,
+  Q,
   Cr,
   wr,
   Tr,
   Er,
-  Dr = e(() => {
+  Dr,
+  Or = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      tr(),
+      nr(),
       Ze(),
-      mr(),
-      (hr = M(Y)),
-      (gr = M(Z)),
-      (_r = M(Hn)),
-      (vr = `framer-1L3tW`),
-      (yr = { OzRtCR5_w: `framer-v-1pr0fgl` }),
-      (br = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (xr = (e, t) => `translate(-50%, -50%) ${t}`),
+      hr(),
+      (gr = M(Y)),
+      (_r = M(Z)),
+      (vr = M(Un)),
+      (yr = `framer-1L3tW`),
+      (br = { OzRtCR5_w: `framer-v-1pr0fgl` }),
+      (xr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Sr = (e, t) => `translate(-50%, -50%) ${t}`),
       (Q = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (Sr = ({ value: e, children: t }) => {
+      (Cr = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Cr = C.create(a)),
-      (wr = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
-      (Tr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Er = R(
+      (wr = C.create(a)),
+      (Tr = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
+      (Er = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Dr = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = b(),
             { activeLocale: o, setLocale: s } = B(),
             c = P(),
-            { style: l, className: u, layoutId: d, variant: f, ...p } = wr(e),
+            { style: l, className: u, layoutId: d, variant: f, ...p } = Tr(e),
             {
               baseVariant: m,
               classNames: g,
@@ -3606,16 +3621,16 @@ var rr,
               setGestureState: ee,
               setVariant: te,
               variants: w,
-            } = L({ defaultVariant: `OzRtCR5_w`, ref: i, variant: f, variantClassNames: yr }),
-            T = Tr(e, w),
-            E = G(vr);
+            } = L({ defaultVariant: `OzRtCR5_w`, ref: i, variant: f, variantClassNames: br }),
+            T = Er(e, w),
+            E = G(yr);
           return h(D, {
             id: d ?? a,
-            children: h(Cr, {
+            children: h(wr, {
               animate: w,
               initial: !1,
-              children: h(Sr, {
-                value: br,
+              children: h(Cr, {
+                value: xr,
                 children: _(C.div, {
                   ...p,
                   ...y,
@@ -3663,7 +3678,7 @@ var rr,
                         boxShadow: `0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), 0px 6.046576391451527px 15.72109861777397px -0.125px rgba(255, 255, 255, 0.02), 0px 14.331453723425511px 37.26177968090633px -0.25px rgba(255, 255, 255, 0.02), 0px 26.142052965529725px 67.96933771037729px -0.375px rgba(255, 255, 255, 0.03), 0px 43.46111057588132px 112.99888749729143px -0.5px rgba(255, 255, 255, 0.03), 0px 70.18614979904378px 182.48398947751383px -0.625px rgba(255, 255, 255, 0.03), 0px 114.88776338672031px 298.7081848054728px -0.75px rgba(255, 255, 255, 0.04), 0px 197.82897034812487px 514.3553229051246px -0.875px rgba(255, 255, 255, 0.06), 0px 360px 936px -1px rgba(255, 255, 255, 0.09)`,
                         WebkitBackdropFilter: `blur(10px)`,
                       },
-                      transformTemplate: xr,
+                      transformTemplate: Sr,
                       children: h(C.div, {
                         className: `framer-s1yhzm`,
                         "data-border": !0,
@@ -3733,7 +3748,7 @@ var rr,
                             nodeId: `sS7J4maeB`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Hn, {
+                            children: h(Un, {
                               alignment: `center`,
                               direction: `left`,
                               fadeOptions: {
@@ -3839,7 +3854,7 @@ var rr,
                             nodeId: `kJztC50AZ`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Hn, {
+                            children: h(Un, {
                               alignment: `center`,
                               direction: `right`,
                               fadeOptions: {
@@ -3945,7 +3960,7 @@ var rr,
                             nodeId: `pwndxoYox`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Hn, {
+                            children: h(Un, {
                               alignment: `center`,
                               direction: `left`,
                               fadeOptions: {
@@ -4051,7 +4066,7 @@ var rr,
                             nodeId: `ybfv_eDXP`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Hn, {
+                            children: h(Un, {
                               alignment: `center`,
                               direction: `right`,
                               fadeOptions: {
@@ -4157,7 +4172,7 @@ var rr,
                             nodeId: `agalbGwZT`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Hn, {
+                            children: h(Un, {
                               alignment: `center`,
                               direction: `left`,
                               fadeOptions: {
@@ -4263,7 +4278,7 @@ var rr,
                             nodeId: `Dqr6Ox_Qq`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Hn, {
+                            children: h(Un, {
                               alignment: `center`,
                               direction: `right`,
                               fadeOptions: {
@@ -4406,14 +4421,13 @@ var rr,
         ],
         `framer-1L3tW`
       )),
-      (Er.displayName = `Ticker Content`),
-      (Er.defaultProps = { height: 567, width: 574 }),
-      I(Er, [{ explicitInter: !0, fonts: [] }, ...hr, ...gr, ..._r], {
+      (Dr.displayName = `Ticker Content`),
+      (Dr.defaultProps = { height: 567, width: 574 }),
+      I(Dr, [{ explicitInter: !0, fonts: [] }, ...gr, ..._r, ...vr], {
         supportsExplicitInterCodegen: !0,
       }),
-      (Er.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Z, {}, t)])) }));
+      (Dr.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Z, {}, t)])) }));
   }),
-  Or,
   kr,
   Ar,
   jr,
@@ -4421,29 +4435,30 @@ var rr,
   Nr,
   Pr,
   Fr,
-  Ir = e(() => {
+  Ir,
+  Lr = e(() => {
     (v(),
       k(),
       O(),
       d(),
       J(),
-      (Or = `framer-wCX2P`),
-      (kr = { kk7oXE732: `framer-v-fmgod6` }),
-      (Ar = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (jr = ({ value: e, children: t }) => {
+      (kr = `framer-wCX2P`),
+      (Ar = { kk7oXE732: `framer-v-fmgod6` }),
+      (jr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Mr = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Mr = C.create(a)),
-      (Nr = ({ announcement: e, badgeTitle: t, height: n, id: r, width: i, ...a }) => ({
+      (Nr = C.create(a)),
+      (Pr = ({ announcement: e, badgeTitle: t, height: n, id: r, width: i, ...a }) => ({
         ...a,
         LEDw9whQr: e ?? a.LEDw9whQr ?? `AI is Available for MacOS`,
         s0mvfnZbf: t ?? a.s0mvfnZbf ?? `New`,
       })),
-      (Pr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Fr = R(
+      (Fr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Ir = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
@@ -4458,7 +4473,7 @@ var rr,
               s0mvfnZbf: p,
               LEDw9whQr: m,
               ...g
-            } = Nr(e),
+            } = Pr(e),
             {
               baseVariant: v,
               classNames: y,
@@ -4469,16 +4484,16 @@ var rr,
               setGestureState: w,
               setVariant: T,
               variants: E,
-            } = L({ defaultVariant: `kk7oXE732`, ref: i, variant: f, variantClassNames: kr }),
-            O = Pr(e, E),
-            ne = G(Or, ye);
+            } = L({ defaultVariant: `kk7oXE732`, ref: i, variant: f, variantClassNames: Ar }),
+            O = Fr(e, E),
+            ne = G(kr, ye);
           return h(D, {
             id: d ?? o,
-            children: h(Mr, {
+            children: h(Nr, {
               animate: E,
               initial: !1,
-              children: h(jr, {
-                value: Ar,
+              children: h(Mr, {
+                value: jr,
                 children: _(C.div, {
                   ...g,
                   ...S,
@@ -4586,9 +4601,9 @@ var rr,
         ],
         `framer-wCX2P`
       )),
-      (Fr.displayName = `Hero Badge`),
-      (Fr.defaultProps = { height: 37.5, width: 277 }),
-      K(Fr, {
+      (Ir.displayName = `Hero Badge`),
+      (Ir.defaultProps = { height: 37.5, width: 277 }),
+      K(Ir, {
         s0mvfnZbf: {
           defaultValue: `New`,
           displayTextArea: !1,
@@ -4603,7 +4618,7 @@ var rr,
         },
       }),
       I(
-        Fr,
+        Ir,
         [
           {
             explicitInter: !0,
@@ -4671,7 +4686,6 @@ var rr,
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  Lr,
   Rr,
   zr,
   Br,
@@ -4682,40 +4696,41 @@ var rr,
   Gr,
   Kr,
   qr,
-  Jr = e(() => {
+  Jr,
+  Yr = e(() => {
     (v(),
       k(),
       O(),
       d(),
       ut(),
       xe(),
-      Ir(),
+      Lr(),
       Te(),
-      (Lr = M(Fr)),
-      (Rr = M(De)),
-      (zr = `framer-wKtnZ`),
-      (Br = { rrE2SlL6R: `framer-v-tkox25` }),
-      (Vr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Hr = (...e) => {
+      (Rr = M(Ir)),
+      (zr = M(De)),
+      (Br = `framer-YMhpf`),
+      (Vr = { rrE2SlL6R: `framer-v-tkox25` }),
+      (Hr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Ur = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (Ur = ({ value: e, children: t }) => {
+      (Wr = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Wr = C.create(a)),
-      (Gr = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
-      (Kr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (qr = R(
+      (Gr = C.create(a)),
+      (Kr = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
+      (qr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Jr = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B(),
             l = P(),
-            { style: u, className: d, layoutId: f, variant: p, ...m } = Gr(e),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = Kr(e),
             {
               baseVariant: g,
               classNames: v,
@@ -4726,16 +4741,16 @@ var rr,
               setGestureState: te,
               setVariant: w,
               variants: T,
-            } = L({ defaultVariant: `rrE2SlL6R`, ref: i, variant: p, variantClassNames: Br }),
-            E = Kr(e, T),
-            O = G(zr, we, lt);
+            } = L({ defaultVariant: `rrE2SlL6R`, ref: i, variant: p, variantClassNames: Vr }),
+            E = qr(e, T),
+            O = G(Br, we, lt);
           return h(D, {
             id: f ?? o,
-            children: h(Wr, {
+            children: h(Gr, {
               animate: T,
               initial: !1,
-              children: h(Ur, {
-                value: Vr,
+              children: h(Wr, {
+                value: Hr,
                 children: _(C.div, {
                   ...m,
                   ...x,
@@ -4756,11 +4771,11 @@ var rr,
                         nodeId: `jKBO3Pr6N`,
                         rendersWithMotion: !0,
                         scopeId: `fhaHIfqLp`,
-                        children: h(Fr, {
+                        children: h(Ir, {
                           height: `100%`,
                           id: `jKBO3Pr6N`,
                           layoutId: `jKBO3Pr6N`,
-                          LEDw9whQr: `cùng doanh nghiệp`,
+                          LEDw9whQr: `cùng bạn`,
                           s0mvfnZbf: `Đồng hành`,
                           width: `100%`,
                         }),
@@ -4849,7 +4864,7 @@ var rr,
                           layoutId: `HSAi_Ng3u`,
                           OlthDMhqu: `Đặt lịch tư vấn giải pháp!`,
                           r7ASsAiJ9: !0,
-                          variant: Hr(`uGayw3Tld`),
+                          variant: Ur(`uGayw3Tld`),
                           width: `100%`,
                         }),
                       }),
@@ -4880,22 +4895,22 @@ var rr,
           });
         }),
         [
-          `.framer-wKtnZ.framer-qidlc2, .framer-wKtnZ .framer-qidlc2 { display: block; }`,
-          `.framer-wKtnZ.framer-tkox25 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 38px 0px 50px 0px; position: relative; width: 1150px; }`,
-          `.framer-wKtnZ .framer-j26l3z-container, .framer-wKtnZ .framer-wxllgz-container { flex: none; height: auto; position: relative; width: auto; }`,
-          `.framer-wKtnZ .framer-k0nsb9 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-          `.framer-wKtnZ .framer-12c66yh { flex: none; height: auto; max-width: 80%; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-          `.framer-wKtnZ .framer-1abhtuc { flex: none; height: 60px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-          `.framer-wKtnZ .framer-owmude { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+          `.framer-YMhpf.framer-qidlc2, .framer-YMhpf .framer-qidlc2 { display: block; }`,
+          `.framer-YMhpf.framer-tkox25 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 38px 0px 50px 0px; position: relative; width: 1150px; }`,
+          `.framer-YMhpf .framer-j26l3z-container, .framer-YMhpf .framer-wxllgz-container { flex: none; height: auto; position: relative; width: auto; }`,
+          `.framer-YMhpf .framer-k0nsb9 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+          `.framer-YMhpf .framer-12c66yh { flex: none; height: auto; max-width: 80%; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+          `.framer-YMhpf .framer-1abhtuc { flex: none; height: 60px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+          `.framer-YMhpf .framer-owmude { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
           ...ke,
           ...ct,
         ],
-        `framer-wKtnZ`
+        `framer-YMhpf`
       )),
-      (qr.displayName = `buttons`),
-      (qr.defaultProps = { height: 524, width: 1150 }),
+      (Jr.displayName = `buttons`),
+      (Jr.defaultProps = { height: 524, width: 1150 }),
       I(
-        qr,
+        Jr,
         [
           {
             explicitInter: !0,
@@ -4965,18 +4980,17 @@ var rr,
               },
             ],
           },
-          ...Lr,
           ...Rr,
+          ...zr,
           ...N(be),
           ...N(st),
         ],
         { supportsExplicitInterCodegen: !0 }
       ),
-      (qr.loader = {
-        load: (e, t) => (t.locale, Promise.allSettled([A(Fr, {}, t), A(De, {}, t)])),
+      (Jr.loader = {
+        load: (e, t) => (t.locale, Promise.allSettled([A(Ir, {}, t), A(De, {}, t)])),
       }));
   }),
-  Yr,
   Xr,
   Zr,
   Qr,
@@ -4985,28 +4999,29 @@ var rr,
   ti,
   ni,
   ri,
-  ii = e(() => {
+  ii,
+  ai = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      (Yr = `framer-zZYPZ`),
-      (Xr = { VmTPPJyjA: `framer-v-1ijsilz` }),
-      (Zr = (e) =>
+      (Xr = `framer-zZYPZ`),
+      (Zr = { VmTPPJyjA: `framer-v-1ijsilz` }),
+      (Qr = (e) =>
         typeof e == `object` && e && typeof e.src == `string`
           ? e
           : typeof e == `string`
             ? { src: e }
             : void 0),
-      (Qr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      ($r = ({ value: e, children: t }) => {
+      ($r = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (ei = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (ei = C.create(a)),
-      (ti = ({ height: e, id: t, image: n, width: r, ...i }) => ({
+      (ti = C.create(a)),
+      (ni = ({ height: e, id: t, image: n, width: r, ...i }) => ({
         ...i,
         kiWtO5xPD: n ??
           i.kiWtO5xPD ?? {
@@ -5016,15 +5031,15 @@ var rr,
             srcSet: `../../assets/images/fPPQX1SwiW06ThdNYCxiCNoSrtU.jpeg?scale-down-to=512 512w,../../assets/images/fPPQX1SwiW06ThdNYCxiCNoSrtU.jpeg 1024w,../../assets/images/fPPQX1SwiW06ThdNYCxiCNoSrtU.jpeg 1248w`,
           },
       })),
-      (ni = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (ri = R(
+      (ri = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (ii = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = b(),
             { activeLocale: o, setLocale: s } = B(),
             c = P(),
-            { style: l, className: u, layoutId: d, variant: f, kiWtO5xPD: p, ...m } = ti(e),
+            { style: l, className: u, layoutId: d, variant: f, kiWtO5xPD: p, ...m } = ni(e),
             {
               baseVariant: g,
               classNames: _,
@@ -5035,16 +5050,16 @@ var rr,
               setGestureState: ee,
               setVariant: te,
               variants: C,
-            } = L({ defaultVariant: `VmTPPJyjA`, ref: i, variant: f, variantClassNames: Xr }),
-            w = ni(e, C),
-            T = G(Yr);
+            } = L({ defaultVariant: `VmTPPJyjA`, ref: i, variant: f, variantClassNames: Zr }),
+            w = ri(e, C),
+            T = G(Xr);
           return h(D, {
             id: d ?? a,
-            children: h(ei, {
+            children: h(ti, {
               animate: C,
               initial: !1,
-              children: h($r, {
-                value: Qr,
+              children: h(ei, {
+                value: $r,
                 children: h(U, {
                   ...m,
                   ...y,
@@ -5055,7 +5070,7 @@ var rr,
                     pixelHeight: 832,
                     pixelWidth: 1248,
                     sizes: c?.width || `100vw`,
-                    ...Zr(p),
+                    ...Qr(p),
                     positionX: `center`,
                     positionY: `center`,
                   },
@@ -5077,18 +5092,17 @@ var rr,
         ],
         `framer-zZYPZ`
       )),
-      (ri.displayName = `Showcase Image`),
-      (ri.defaultProps = { height: 550, width: 550 }),
-      K(ri, {
+      (ii.displayName = `Showcase Image`),
+      (ii.defaultProps = { height: 550, width: 550 }),
+      K(ii, {
         kiWtO5xPD: {
           __defaultAssetReference: `data:framer/asset-reference,fPPQX1SwiW06ThdNYCxiCNoSrtU.jpeg?originalFilename=nQuBmOheR4CJXTtlScYkTQ.jpeg&preferredSize=auto`,
           title: `Image`,
           type: H.ResponsiveImage,
         },
       }),
-      I(ri, [{ explicitInter: !0, fonts: [] }], { supportsExplicitInterCodegen: !0 }));
+      I(ii, [{ explicitInter: !0, fonts: [] }], { supportsExplicitInterCodegen: !0 }));
   }),
-  ai,
   oi,
   si,
   ci,
@@ -5100,39 +5114,40 @@ var rr,
   mi,
   hi,
   gi,
-  _i = e(() => {
+  _i,
+  vi = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      tr(),
-      ii(),
-      (ai = M(ri)),
-      (oi = M(Hn)),
-      (si = ce(C.figure)),
-      (ci = `framer-efwYq`),
-      (li = { vPXxJ3AW1: `framer-v-d75ay` }),
-      (ui = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (di = (e, t) => {
+      nr(),
+      ai(),
+      (oi = M(ii)),
+      (si = M(Un)),
+      (ci = ce(C.figure)),
+      (li = `framer-efwYq`),
+      (ui = { vPXxJ3AW1: `framer-v-d75ay` }),
+      (di = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (fi = (e, t) => {
         if (!(!e || typeof e != `object`)) return { ...e, alt: t };
       }),
-      (fi = ({ value: e, children: t }) => {
+      (pi = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (pi = C.create(a)),
-      (mi = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
-      (hi = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (gi = R(
+      (mi = C.create(a)),
+      (hi = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
+      (gi = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (_i = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = b(),
             { activeLocale: o, setLocale: s } = B();
           P();
-          let { style: c, className: l, layoutId: u, variant: d, ...f } = mi(e),
+          let { style: c, className: l, layoutId: u, variant: d, ...f } = hi(e),
             {
               baseVariant: p,
               classNames: m,
@@ -5143,17 +5158,17 @@ var rr,
               setGestureState: S,
               setVariant: ee,
               variants: te,
-            } = L({ defaultVariant: `vPXxJ3AW1`, ref: i, variant: d, variantClassNames: li }),
-            C = hi(e, te),
-            w = G(ci);
+            } = L({ defaultVariant: `vPXxJ3AW1`, ref: i, variant: d, variantClassNames: ui }),
+            C = gi(e, te),
+            w = G(li);
           return h(D, {
             id: u ?? a,
-            children: h(pi, {
+            children: h(mi, {
               animate: te,
               initial: !1,
-              children: h(fi, {
-                value: ui,
-                children: _(si, {
+              children: h(pi, {
+                value: di,
+                children: _(ci, {
                   ...f,
                   ...v,
                   __framer__spring: {
@@ -5218,7 +5233,7 @@ var rr,
                         nodeId: `HhQ2Jf6gv`,
                         rendersWithMotion: !0,
                         scopeId: `H9865_ccE`,
-                        children: h(Hn, {
+                        children: h(Un, {
                           alignment: `center`,
                           direction: `top`,
                           fadeOptions: {
@@ -5252,7 +5267,7 @@ var rr,
                                 nodeId: `yBlyU1nVZ`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ri, {
+                                children: h(ii, {
                                   height: `100%`,
                                   id: `yBlyU1nVZ`,
                                   layoutId: `yBlyU1nVZ`,
@@ -5272,10 +5287,10 @@ var rr,
                                 nodeId: `K3veC4wBk`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ri, {
+                                children: h(ii, {
                                   height: `100%`,
                                   id: `K3veC4wBk`,
-                                  kiWtO5xPD: di(
+                                  kiWtO5xPD: fi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5301,10 +5316,10 @@ var rr,
                                 nodeId: `Sstw76yzS`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ri, {
+                                children: h(ii, {
                                   height: `100%`,
                                   id: `Sstw76yzS`,
-                                  kiWtO5xPD: di(
+                                  kiWtO5xPD: fi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5336,7 +5351,7 @@ var rr,
                         nodeId: `bYTyxyRtD`,
                         rendersWithMotion: !0,
                         scopeId: `H9865_ccE`,
-                        children: h(Hn, {
+                        children: h(Un, {
                           alignment: `center`,
                           direction: `bottom`,
                           fadeOptions: {
@@ -5370,10 +5385,10 @@ var rr,
                                 nodeId: `DlgtPFZJA`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ri, {
+                                children: h(ii, {
                                   height: `100%`,
                                   id: `DlgtPFZJA`,
-                                  kiWtO5xPD: di(
+                                  kiWtO5xPD: fi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5399,7 +5414,7 @@ var rr,
                                 nodeId: `yBlyU1nVZ`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ri, {
+                                children: h(ii, {
                                   height: `100%`,
                                   id: `yBlyU1nVZ`,
                                   layoutId: `yBlyU1nVZ`,
@@ -5419,10 +5434,10 @@ var rr,
                                 nodeId: `bwJy3rUzl`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ri, {
+                                children: h(ii, {
                                   height: `100%`,
                                   id: `bwJy3rUzl`,
-                                  kiWtO5xPD: di(
+                                  kiWtO5xPD: fi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5454,7 +5469,7 @@ var rr,
                         nodeId: `M_U7HW6_1`,
                         rendersWithMotion: !0,
                         scopeId: `H9865_ccE`,
-                        children: h(Hn, {
+                        children: h(Un, {
                           alignment: `center`,
                           direction: `top`,
                           fadeOptions: {
@@ -5488,10 +5503,10 @@ var rr,
                                 nodeId: `Sstw76yzS`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ri, {
+                                children: h(ii, {
                                   height: `100%`,
                                   id: `Sstw76yzS`,
-                                  kiWtO5xPD: di(
+                                  kiWtO5xPD: fi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5517,10 +5532,10 @@ var rr,
                                 nodeId: `Fphn0PCbH`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ri, {
+                                children: h(ii, {
                                   height: `100%`,
                                   id: `Fphn0PCbH`,
-                                  kiWtO5xPD: di(
+                                  kiWtO5xPD: fi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5546,10 +5561,10 @@ var rr,
                                 nodeId: `b8gjuCLNR`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ri, {
+                                children: h(ii, {
                                   height: `100%`,
                                   id: `b8gjuCLNR`,
-                                  kiWtO5xPD: di(
+                                  kiWtO5xPD: fi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5585,12 +5600,11 @@ var rr,
         ],
         `framer-efwYq`
       )),
-      (gi.displayName = `Showcase Ticker Section`),
-      (gi.defaultProps = { height: 800, width: 1440 }),
-      I(gi, [{ explicitInter: !0, fonts: [] }, ...ai, ...oi], { supportsExplicitInterCodegen: !0 }),
-      (gi.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(ri, {}, t)])) }));
+      (_i.displayName = `Showcase Ticker Section`),
+      (_i.defaultProps = { height: 800, width: 1440 }),
+      I(_i, [{ explicitInter: !0, fonts: [] }, ...oi, ...si], { supportsExplicitInterCodegen: !0 }),
+      (_i.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(ii, {}, t)])) }));
   }),
-  vi,
   yi,
   bi,
   xi,
@@ -5599,37 +5613,38 @@ var rr,
   wi,
   Ti,
   Ei,
-  Di = e(() => {
+  Di,
+  Oi = e(() => {
     (v(),
       k(),
       O(),
       d(),
       Ze(),
       J(),
-      (vi = M(Y)),
-      (yi = `framer-5Kj10`),
-      (bi = { mGWZfGZNS: `framer-v-1n4xgv6` }),
-      (xi = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Si = ({ value: e, children: t }) => {
+      (yi = M(Y)),
+      (bi = `framer-5Kj10`),
+      (xi = { mGWZfGZNS: `framer-v-1n4xgv6` }),
+      (Si = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Ci = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Ci = C.create(a)),
-      (wi = ({ height: e, id: t, title: n, width: r, ...i }) => ({
+      (wi = C.create(a)),
+      (Ti = ({ height: e, id: t, title: n, width: r, ...i }) => ({
         ...i,
         IAk0cTPD3: n ?? i.IAk0cTPD3 ?? `Basic AI Writing Tools`,
       })),
-      (Ti = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Ei = R(
+      (Ei = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Di = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B();
           P();
-          let { style: l, className: u, layoutId: d, variant: f, IAk0cTPD3: p, ...m } = wi(e),
+          let { style: l, className: u, layoutId: d, variant: f, IAk0cTPD3: p, ...m } = Ti(e),
             {
               baseVariant: g,
               classNames: v,
@@ -5640,16 +5655,16 @@ var rr,
               setGestureState: te,
               setVariant: w,
               variants: T,
-            } = L({ defaultVariant: `mGWZfGZNS`, ref: i, variant: f, variantClassNames: bi }),
-            E = Ti(e, T),
-            O = G(yi, ye);
+            } = L({ defaultVariant: `mGWZfGZNS`, ref: i, variant: f, variantClassNames: xi }),
+            E = Ei(e, T),
+            O = G(bi, ye);
           return h(D, {
             id: d ?? o,
-            children: h(Ci, {
+            children: h(wi, {
               animate: T,
               initial: !1,
-              children: h(Si, {
-                value: xi,
+              children: h(Ci, {
+                value: Si,
                 children: _(C.ol, {
                   ...m,
                   ...x,
@@ -5752,9 +5767,9 @@ var rr,
         ],
         `framer-5Kj10`
       )),
-      (Ei.displayName = `List Item`),
-      (Ei.defaultProps = { height: 32, width: 260 }),
-      K(Ei, {
+      (Di.displayName = `List Item`),
+      (Di.defaultProps = { height: 32, width: 260 }),
+      K(Di, {
         IAk0cTPD3: {
           defaultValue: `Basic AI Writing Tools`,
           displayTextArea: !1,
@@ -5763,7 +5778,7 @@ var rr,
         },
       }),
       I(
-        Ei,
+        Di,
         [
           {
             explicitInter: !0,
@@ -5826,18 +5841,17 @@ var rr,
               },
             ],
           },
-          ...vi,
+          ...yi,
           ...N(je),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   });
-function Oi(e, ...t) {
+function ki(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var ki,
-  Ai,
+var Ai,
   ji,
   Mi,
   Ni,
@@ -5850,46 +5864,47 @@ var ki,
   Bi,
   Vi,
   Hi,
-  Ui = e(() => {
+  Ui,
+  Wi = e(() => {
     (v(),
       k(),
       O(),
       d(),
       ut(),
-      Di(),
+      Oi(),
       Te(),
       Ut(),
-      (ki = M(Ht)),
-      (Ai = M(De)),
-      (ji = M(Ei)),
-      (Mi = [`zMyIYBXWv`, `slD3l9NUj`]),
-      (Ni = `framer-uWgCr`),
-      (Pi = { slD3l9NUj: `framer-v-auu05y`, zMyIYBXWv: `framer-v-1h0r7j3` }),
-      (Fi = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Ii = (...e) => {
+      (Ai = M(Ht)),
+      (ji = M(De)),
+      (Mi = M(Di)),
+      (Ni = [`zMyIYBXWv`, `slD3l9NUj`]),
+      (Pi = `framer-uWgCr`),
+      (Fi = { slD3l9NUj: `framer-v-auu05y`, zMyIYBXWv: `framer-v-1h0r7j3` }),
+      (Ii = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Li = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (Li = ({ value: e, children: t }) => {
+      (Ri = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Ri = { "Price Card": `zMyIYBXWv`, Mobile: `slD3l9NUj` }),
-      (zi = C.create(a)),
-      (Bi = ({ height: e, id: t, width: n, ...r }) => ({
+      (zi = { "Price Card": `zMyIYBXWv`, Mobile: `slD3l9NUj` }),
+      (Bi = C.create(a)),
+      (Vi = ({ height: e, id: t, width: n, ...r }) => ({
         ...r,
-        variant: Ri[r.variant] ?? r.variant ?? `zMyIYBXWv`,
+        variant: zi[r.variant] ?? r.variant ?? `zMyIYBXWv`,
       })),
-      (Vi = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Hi = R(
+      (Hi = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Ui = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B(),
             l = P(),
-            { style: u, className: d, layoutId: f, variant: p, ...m } = Bi(e),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = Vi(e),
             {
               baseVariant: g,
               classNames: v,
@@ -5901,21 +5916,21 @@ var ki,
               setVariant: w,
               variants: T,
             } = L({
-              cycleOrder: Mi,
+              cycleOrder: Ni,
               defaultVariant: `zMyIYBXWv`,
               ref: i,
               variant: p,
-              variantClassNames: Pi,
+              variantClassNames: Fi,
             }),
-            E = Vi(e, T),
-            O = G(Ni, lt);
+            E = Hi(e, T),
+            O = G(Pi, lt);
           return h(D, {
             id: f ?? o,
-            children: h(zi, {
+            children: h(Bi, {
               animate: T,
               initial: !1,
-              children: h(Li, {
-                value: Fi,
+              children: h(Ri, {
+                value: Ii,
                 children: _(C.div, {
                   ...m,
                   ...x,
@@ -5940,7 +5955,7 @@ var ki,
                     boxShadow: `inset 0px 0px 12px 0px rgba(250, 250, 250, 0.19)`,
                     ...u,
                   },
-                  ...Oi({ slD3l9NUj: { "data-framer-name": `Mobile` } }, g, S),
+                  ...ki({ slD3l9NUj: { "data-framer-name": `Mobile` } }, g, S),
                   children: [
                     _(C.div, {
                       className: `framer-h5tgbs`,
@@ -5951,7 +5966,7 @@ var ki,
                         h(W, {
                           height: 37,
                           y: (l?.y || 0) + 30 + 0 + 0 + 0,
-                          ...Oi(
+                          ...ki(
                             {
                               slD3l9NUj: {
                                 y: (l?.y || 0) + (30 + ((l?.height || 264) - 60 - 461) / 2) + 0 + 0,
@@ -5972,7 +5987,7 @@ var ki,
                               id: `lTPDR53BQ`,
                               layoutId: `lTPDR53BQ`,
                               O6gJl3TVN: `Dùng thử miễn phí`,
-                              variant: Ii(`A4b5N3lov`),
+                              variant: Li(`A4b5N3lov`),
                               width: `100%`,
                             }),
                           }),
@@ -6059,7 +6074,7 @@ var ki,
                           height: 48,
                           width: `min(${l?.width || `100vw`} - 60px, 300px)`,
                           y: (l?.y || 0) + 30 + 0 + 0 + 413,
-                          ...Oi(
+                          ...ki(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6090,9 +6105,9 @@ var ki,
                               OlthDMhqu: `Thử miễn phí ngay bây giờ`,
                               r7ASsAiJ9: !0,
                               style: { maxWidth: `100%`, width: `100%` },
-                              variant: Ii(`uGayw3Tld`),
+                              variant: Li(`uGayw3Tld`),
                               width: `100%`,
-                              ...Oi({ slD3l9NUj: { style: { width: `100%` } } }, g, S),
+                              ...ki({ slD3l9NUj: { style: { width: `100%` } } }, g, S),
                             }),
                           }),
                         }),
@@ -6108,7 +6123,7 @@ var ki,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 0,
-                          ...Oi(
+                          ...ki(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6126,7 +6141,7 @@ var ki,
                             nodeId: `jLbwl1CHj`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Ei, {
+                            children: h(Di, {
                               height: `100%`,
                               IAk0cTPD3: `Basic AI Writing Tools`,
                               id: `jLbwl1CHj`,
@@ -6140,7 +6155,7 @@ var ki,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 37,
-                          ...Oi(
+                          ...ki(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6159,7 +6174,7 @@ var ki,
                             nodeId: `hK43mEpNq`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Ei, {
+                            children: h(Di, {
                               height: `100%`,
                               IAk0cTPD3: `SEO Optimization`,
                               id: `hK43mEpNq`,
@@ -6173,7 +6188,7 @@ var ki,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 74,
-                          ...Oi(
+                          ...ki(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6192,7 +6207,7 @@ var ki,
                             nodeId: `wC9kjjHRk`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Ei, {
+                            children: h(Di, {
                               height: `100%`,
                               IAk0cTPD3: `AI-Powered Analytics`,
                               id: `wC9kjjHRk`,
@@ -6206,7 +6221,7 @@ var ki,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 111,
-                          ...Oi(
+                          ...ki(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6228,7 +6243,7 @@ var ki,
                             nodeId: `sGXZI_juS`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Ei, {
+                            children: h(Di, {
                               height: `100%`,
                               IAk0cTPD3: `Team Collaboration`,
                               id: `sGXZI_juS`,
@@ -6242,7 +6257,7 @@ var ki,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 148,
-                          ...Oi(
+                          ...ki(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6264,7 +6279,7 @@ var ki,
                             nodeId: `kO13fEXQB`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Ei, {
+                            children: h(Di, {
                               height: `100%`,
                               IAk0cTPD3: `Custom AI Models`,
                               id: `kO13fEXQB`,
@@ -6367,9 +6382,9 @@ var ki,
         ],
         `framer-uWgCr`
       )),
-      (Hi.displayName = `Price Card`),
-      (Hi.defaultProps = { height: 460, width: 320 }),
-      K(Hi, {
+      (Ui.displayName = `Price Card`),
+      (Ui.defaultProps = { height: 460, width: 320 }),
+      K(Ui, {
         variant: {
           options: [`zMyIYBXWv`, `slD3l9NUj`],
           optionTitles: [`Price Card`, `Mobile`],
@@ -6378,7 +6393,7 @@ var ki,
         },
       }),
       I(
-        Hi,
+        Ui,
         [
           {
             explicitInter: !0,
@@ -6456,24 +6471,24 @@ var ki,
               },
             ],
           },
-          ...ki,
           ...Ai,
           ...ji,
+          ...Mi,
           ...N(st),
         ],
         { supportsExplicitInterCodegen: !0 }
       ),
-      (Hi.loader = {
-        load: (e, t) => (t.locale, Promise.allSettled([A(Ht, {}, t), A(De, {}, t), A(Ei, {}, t)])),
+      (Ui.loader = {
+        load: (e, t) => (t.locale, Promise.allSettled([A(Ht, {}, t), A(De, {}, t), A(Di, {}, t)])),
       }));
   }),
-  Wi,
   Gi,
   Ki,
-  qi = e(() => {
+  qi,
+  Ji = e(() => {
     (k(),
       ie.loadFonts([`Inter-SemiBold`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-SemiBoldItalic`]),
-      (Wi = [
+      (Gi = [
         {
           explicitInter: !0,
           fonts: [
@@ -6704,17 +6719,16 @@ var ki,
           ],
         },
       ]),
-      (Gi = [
+      (Ki = [
         `.framer-yW3GS .framer-styles-preset-1q4vzqz:not(.rich-text-wrapper), .framer-yW3GS .framer-styles-preset-1q4vzqz.rich-text-wrapper h6 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 600; --framer-letter-spacing: -0.02em; --framer-line-height: 1.4em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
-      (Ki = `framer-yW3GS`));
+      (qi = `framer-yW3GS`));
   });
-function Ji(e, ...t) {
+function Yi(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var Yi,
-  Xi,
+var Xi,
   Zi,
   Qi,
   $i,
@@ -6724,26 +6738,27 @@ var Yi,
   ra,
   ia,
   aa,
-  oa = e(() => {
+  oa,
+  sa = e(() => {
     (v(),
       k(),
       O(),
       d(),
       J(),
-      (Yi = { QzrBcpVgk: { hover: !0, pressed: !0 } }),
-      (Xi = [`IllKbU6rd`, `QzrBcpVgk`]),
-      (Zi = `framer-DvKpE`),
-      (Qi = { IllKbU6rd: `framer-v-1t7owjd`, QzrBcpVgk: `framer-v-ramoko` }),
-      ($i = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (ea = ({ value: e, children: t }) => {
+      (Xi = { QzrBcpVgk: { hover: !0, pressed: !0 } }),
+      (Zi = [`IllKbU6rd`, `QzrBcpVgk`]),
+      (Qi = `framer-DvKpE`),
+      ($i = { IllKbU6rd: `framer-v-1t7owjd`, QzrBcpVgk: `framer-v-ramoko` }),
+      (ea = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (ta = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (ta = C.create(a)),
-      (na = { Active: `IllKbU6rd`, Passive: `QzrBcpVgk` }),
-      (ra = ({
+      (na = C.create(a)),
+      (ra = { Active: `IllKbU6rd`, Passive: `QzrBcpVgk` }),
+      (ia = ({
         borderColor: e,
         borderHoverColor: t,
         click: n,
@@ -6761,7 +6776,7 @@ var Yi,
             borderWidth: 1,
           },
         oXv7AZm4A: n ?? s.oXv7AZm4A,
-        variant: na[s.variant] ?? s.variant ?? `IllKbU6rd`,
+        variant: ra[s.variant] ?? s.variant ?? `IllKbU6rd`,
         YnoIm5kRZ: a ?? s.YnoIm5kRZ ?? `Untitled Article`,
         yueETfOfX: t ??
           s.yueETfOfX ?? {
@@ -6770,8 +6785,8 @@ var Yi,
             borderWidth: 1,
           },
       })),
-      (ia = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (aa = R(
+      (aa = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (oa = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
@@ -6788,7 +6803,7 @@ var Yi,
               hWSEK1rhs: g,
               yueETfOfX: _,
               ...v
-            } = ra(e),
+            } = ia(e),
             {
               baseVariant: y,
               classNames: x,
@@ -6800,26 +6815,26 @@ var Yi,
               setVariant: E,
               variants: O,
             } = L({
-              cycleOrder: Xi,
+              cycleOrder: Zi,
               defaultVariant: `IllKbU6rd`,
-              enabledGestures: Yi,
+              enabledGestures: Xi,
               ref: i,
               variant: f,
-              variantClassNames: Qi,
+              variantClassNames: $i,
             }),
-            ne = ia(e, O),
+            ne = aa(e, O),
             { activeVariantCallback: k, delay: A } = ae(y),
             j = k(async (...e) => {
               if ((T({ isPressed: !1 }), m && (await m(...e)) === !1)) return !1;
             }),
-            M = G(Zi, ye);
+            M = G(Qi, ye);
           return h(D, {
             id: d ?? o,
-            children: h(ta, {
+            children: h(na, {
               animate: O,
               initial: !1,
-              children: h(ea, {
-                value: $i,
+              children: h(ta, {
+                value: ea,
                 children: h(C.div, {
                   ...v,
                   ...ee,
@@ -6867,7 +6882,7 @@ var Yi,
                       backgroundColor: `rgba(0, 0, 0, 0)`,
                     },
                   },
-                  ...Ji(
+                  ...Yi(
                     {
                       "QzrBcpVgk-hover": { "data-framer-name": void 0 },
                       "QzrBcpVgk-pressed": { "data-framer-name": void 0 },
@@ -6905,7 +6920,7 @@ var Yi,
                     },
                     verticalAlignment: `top`,
                     withExternalLayout: !0,
-                    ...Ji(
+                    ...Yi(
                       {
                         "QzrBcpVgk-pressed": {
                           children: h(a, {
@@ -6939,9 +6954,9 @@ var Yi,
         ],
         `framer-DvKpE`
       )),
-      (aa.displayName = `Platform Tab`),
-      (aa.defaultProps = { height: 41.5, width: 154 }),
-      K(aa, {
+      (oa.displayName = `Platform Tab`),
+      (oa.defaultProps = { height: 41.5, width: 154 }),
+      K(oa, {
         variant: {
           options: [`IllKbU6rd`, `QzrBcpVgk`],
           optionTitles: [`Active`, `Passive`],
@@ -6975,7 +6990,7 @@ var Yi,
         },
       }),
       I(
-        aa,
+        oa,
         [
           {
             explicitInter: !0,
@@ -7043,7 +7058,6 @@ var Yi,
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  sa,
   ca,
   la,
   ua,
@@ -7052,33 +7066,34 @@ var Yi,
   pa,
   ma,
   ha,
-  ga = e(() => {
+  ga,
+  _a = e(() => {
     (v(),
       k(),
       O(),
       d(),
       J(),
-      (sa = `framer-v7sxB`),
-      (ca = { KR8VHmiaR: `framer-v-ahjq4m` }),
-      (la = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (ua = (e, t) => `translate(-50%, -50%) ${t}`),
-      (da = ({ value: e, children: t }) => {
+      (ca = `framer-v7sxB`),
+      (la = { KR8VHmiaR: `framer-v-ahjq4m` }),
+      (ua = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (da = (e, t) => `translate(-50%, -50%) ${t}`),
+      (fa = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (fa = C.create(a)),
-      (pa = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
-      (ma = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (ha = R(
+      (pa = C.create(a)),
+      (ma = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
+      (ha = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (ga = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B();
           P();
-          let { style: l, className: u, layoutId: d, variant: f, ...p } = pa(e),
+          let { style: l, className: u, layoutId: d, variant: f, ...p } = ma(e),
             {
               baseVariant: m,
               classNames: g,
@@ -7089,16 +7104,16 @@ var Yi,
               setGestureState: ee,
               setVariant: te,
               variants: w,
-            } = L({ defaultVariant: `KR8VHmiaR`, ref: i, variant: f, variantClassNames: ca }),
-            T = ma(e, w),
-            E = G(sa, ye);
+            } = L({ defaultVariant: `KR8VHmiaR`, ref: i, variant: f, variantClassNames: la }),
+            T = ha(e, w),
+            E = G(ca, ye);
           return h(D, {
             id: d ?? o,
-            children: h(fa, {
+            children: h(pa, {
               animate: w,
               initial: !1,
-              children: h(da, {
-                value: la,
+              children: h(fa, {
+                value: ua,
                 children: _(C.div, {
                   ...p,
                   ...y,
@@ -7114,7 +7129,7 @@ var Yi,
                       "data-framer-name": `Cursor`,
                       layoutDependency: T,
                       layoutId: `A_qxjPDKH`,
-                      transformTemplate: ua,
+                      transformTemplate: da,
                       children: h(ve, {
                         className: `framer-6zxsbm`,
                         layout: `position`,
@@ -7173,10 +7188,10 @@ var Yi,
         ],
         `framer-v7sxB`
       )),
-      (ha.displayName = `Cursor`),
-      (ha.defaultProps = { height: 26, width: 24 }),
+      (ga.displayName = `Cursor`),
+      (ga.defaultProps = { height: 26, width: 24 }),
       I(
-        ha,
+        ga,
         [
           {
             explicitInter: !0,
@@ -7244,12 +7259,11 @@ var Yi,
         { supportsExplicitInterCodegen: !0 }
       ));
   });
-function _a(e, ...t) {
+function va(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var va,
-  ya,
+var ya,
   ba,
   xa,
   Sa,
@@ -7267,7 +7281,8 @@ var va,
   Pa,
   Fa,
   Ia,
-  La = e(() => {
+  La,
+  Ra = e(() => {
     (v(),
       k(),
       O(),
@@ -7275,26 +7290,26 @@ var va,
       Ze(),
       J(),
       ut(),
-      qi(),
+      Ji(),
       Se(),
-      oa(),
-      ga(),
-      (va = M(Y)),
-      (ya = ue(ce(C.div))),
-      (ba = M(Ce)),
-      (xa = M(aa)),
-      (Sa = M(ha)),
-      (Ca = [`KBgKtVKOD`, `exGrCNMBY`, `YkRwyK5Zj`, `BhgKpPyRM`]),
-      (wa = `framer-rPTAV`),
-      (Ta = {
+      sa(),
+      _a(),
+      (ya = M(Y)),
+      (ba = ue(ce(C.div))),
+      (xa = M(Ce)),
+      (Sa = M(oa)),
+      (Ca = M(ga)),
+      (wa = [`KBgKtVKOD`, `exGrCNMBY`, `YkRwyK5Zj`, `BhgKpPyRM`]),
+      (Ta = `framer-rPTAV`),
+      (Ea = {
         BhgKpPyRM: `framer-v-74oqk8`,
         exGrCNMBY: `framer-v-gulk9f`,
         KBgKtVKOD: `framer-v-abng2a`,
         YkRwyK5Zj: `framer-v-1yf3zxs`,
       }),
-      (Ea = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Da = (e, t) => `translateX(-50%) ${t}`),
-      (Oa = {
+      (Da = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Oa = (e, t) => `translateX(-50%) ${t}`),
+      (ka = {
         opacity: 1,
         rotate: 0,
         rotateX: 0,
@@ -7302,11 +7317,11 @@ var va,
         scale: 1,
         skewX: 0,
         skewY: 0,
-        transition: Ea,
+        transition: Da,
         x: 0,
         y: 0,
       }),
-      (ka = {
+      (Aa = {
         opacity: 0.001,
         rotate: 0,
         rotateX: 0,
@@ -7317,35 +7332,35 @@ var va,
         x: 0,
         y: 150,
       }),
-      (Aa = (...e) => {
+      (ja = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (ja = ({ value: e, children: t }) => {
+      (Ma = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Ma = {
+      (Na = {
         "Content Generation": `KBgKtVKOD`,
         "Image Generation": `exGrCNMBY`,
         "Mobile Image Gen": `BhgKpPyRM`,
         Mobile: `YkRwyK5Zj`,
       }),
-      (Na = C.create(a)),
-      (Pa = ({ height: e, id: t, width: n, ...r }) => ({
+      (Pa = C.create(a)),
+      (Fa = ({ height: e, id: t, width: n, ...r }) => ({
         ...r,
-        variant: Ma[r.variant] ?? r.variant ?? `KBgKtVKOD`,
+        variant: Na[r.variant] ?? r.variant ?? `KBgKtVKOD`,
       })),
-      (Fa = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Ia = R(
+      (Ia = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (La = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B(),
             l = P(),
-            { style: u, className: d, layoutId: f, variant: p, ...m } = Pa(e),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = Fa(e),
             {
               baseVariant: g,
               classNames: v,
@@ -7357,13 +7372,13 @@ var va,
               setVariant: w,
               variants: T,
             } = L({
-              cycleOrder: Ca,
+              cycleOrder: wa,
               defaultVariant: `KBgKtVKOD`,
               ref: i,
               variant: p,
-              variantClassNames: Ta,
+              variantClassNames: Ea,
             }),
-            E = Fa(e, T),
+            E = Ia(e, T),
             { activeVariantCallback: O, delay: ne } = ae(g),
             k = O(async (...e) => {
               w(`KBgKtVKOD`);
@@ -7377,18 +7392,18 @@ var va,
             M = O(async (...e) => {
               w(`BhgKpPyRM`);
             }),
-            N = G(wa, Ki, lt, ye),
+            N = G(Ta, qi, lt, ye),
             ie = () => !![`exGrCNMBY`, `BhgKpPyRM`].includes(g);
           se();
           let oe = () => ![`exGrCNMBY`, `BhgKpPyRM`].includes(g),
             I = () => g === `exGrCNMBY`;
           return h(D, {
             id: f ?? o,
-            children: h(Na, {
+            children: h(Pa, {
               animate: T,
               initial: !1,
-              children: h(ja, {
-                value: Ea,
+              children: h(Ma, {
+                value: Da,
                 children: h(C.section, {
                   ...m,
                   ...x,
@@ -7398,7 +7413,7 @@ var va,
                   layoutId: `KBgKtVKOD`,
                   ref: i,
                   style: { ...u },
-                  ..._a(
+                  ...va(
                     {
                       BhgKpPyRM: { "data-framer-name": `Mobile Image Gen` },
                       exGrCNMBY: { "data-framer-name": `Image Generation` },
@@ -7432,16 +7447,16 @@ var va,
                       layoutId: `aGwVRV_Bw`,
                       children: [
                         ie() &&
-                          _(ya, {
+                          _(ba, {
                             __perspectiveFX: !1,
                             __smartComponentFX: !0,
                             __targetOpacity: 1,
-                            animate: Oa,
+                            animate: ka,
                             className: `framer-1gekuna`,
                             "data-border": !0,
                             "data-framer-appear-id": `1gekuna`,
                             "data-framer-name": `Bottom Bar`,
-                            initial: ka,
+                            initial: Aa,
                             layoutDependency: E,
                             layoutId: `P7nj4Rl83`,
                             optimized: !0,
@@ -7460,7 +7475,7 @@ var va,
                               borderTopRightRadius: 40,
                               WebkitBackdropFilter: `blur(20px)`,
                             },
-                            transformTemplate: Da,
+                            transformTemplate: Oa,
                             children: [
                               _(C.div, {
                                 className: `framer-1lf9x0i`,
@@ -7516,7 +7531,7 @@ var va,
                                     },
                                     verticalAlignment: `top`,
                                     withExternalLayout: !0,
-                                    ..._a(
+                                    ...va(
                                       {
                                         BhgKpPyRM: {
                                           children: h(a, {
@@ -7706,7 +7721,7 @@ var va,
                                                 children: (e) =>
                                                   h(W, {
                                                     height: 48,
-                                                    ..._a(
+                                                    ...va(
                                                       {
                                                         BhgKpPyRM: {
                                                           y:
@@ -7772,9 +7787,9 @@ var va,
                                                         id: `lEyAQLvR6`,
                                                         irY_XKj0O: e[0],
                                                         layoutId: `lEyAQLvR6`,
-                                                        variant: Aa(`iC3uXzR0q`),
+                                                        variant: ja(`iC3uXzR0q`),
                                                         width: `100%`,
-                                                        ..._a(
+                                                        ...va(
                                                           {
                                                             BhgKpPyRM: { irY_XKj0O: e[3] },
                                                             exGrCNMBY: { irY_XKj0O: e[1] },
@@ -7795,7 +7810,7 @@ var va,
                                                 children: [
                                                   h(W, {
                                                     height: 41,
-                                                    ..._a(
+                                                    ...va(
                                                       {
                                                         BhgKpPyRM: {
                                                           width: `max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
@@ -7862,7 +7877,7 @@ var va,
                                                       nodeId: `brUOUIawY`,
                                                       rendersWithMotion: !0,
                                                       scopeId: `ThlFB8dhK`,
-                                                      children: h(aa, {
+                                                      children: h(oa, {
                                                         height: `100%`,
                                                         hWSEK1rhs: {
                                                           borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
@@ -7871,7 +7886,7 @@ var va,
                                                         },
                                                         id: `brUOUIawY`,
                                                         layoutId: `brUOUIawY`,
-                                                        variant: Aa(`IllKbU6rd`),
+                                                        variant: ja(`IllKbU6rd`),
                                                         width: `100%`,
                                                         YnoIm5kRZ: `Content Generation`,
                                                         yueETfOfX: {
@@ -7879,16 +7894,16 @@ var va,
                                                           borderStyle: `solid`,
                                                           borderWidth: 1,
                                                         },
-                                                        ..._a(
+                                                        ...va(
                                                           {
                                                             BhgKpPyRM: {
                                                               oXv7AZm4A: A,
                                                               style: { width: `100%` },
-                                                              variant: Aa(`QzrBcpVgk`),
+                                                              variant: ja(`QzrBcpVgk`),
                                                             },
                                                             exGrCNMBY: {
                                                               oXv7AZm4A: k,
-                                                              variant: Aa(`QzrBcpVgk`),
+                                                              variant: ja(`QzrBcpVgk`),
                                                             },
                                                             YkRwyK5Zj: { style: { width: `100%` } },
                                                           },
@@ -7900,7 +7915,7 @@ var va,
                                                   }),
                                                   h(W, {
                                                     height: 41,
-                                                    ..._a(
+                                                    ...va(
                                                       {
                                                         BhgKpPyRM: {
                                                           width: `max(max(max(${l?.width || `100vw`} - 10px, 1px) - 60px, 1px) - 40px, 1px)`,
@@ -7967,7 +7982,7 @@ var va,
                                                       nodeId: `mt0STHqmT`,
                                                       rendersWithMotion: !0,
                                                       scopeId: `ThlFB8dhK`,
-                                                      children: h(aa, {
+                                                      children: h(oa, {
                                                         height: `100%`,
                                                         hWSEK1rhs: {
                                                           borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
@@ -7977,7 +7992,7 @@ var va,
                                                         id: `mt0STHqmT`,
                                                         layoutId: `mt0STHqmT`,
                                                         oXv7AZm4A: j,
-                                                        variant: Aa(`QzrBcpVgk`),
+                                                        variant: ja(`QzrBcpVgk`),
                                                         width: `100%`,
                                                         YnoIm5kRZ: `Image Generation`,
                                                         yueETfOfX: {
@@ -7985,13 +8000,13 @@ var va,
                                                           borderStyle: `solid`,
                                                           borderWidth: 1,
                                                         },
-                                                        ..._a(
+                                                        ...va(
                                                           {
                                                             BhgKpPyRM: {
                                                               style: { width: `100%` },
-                                                              variant: Aa(`IllKbU6rd`),
+                                                              variant: ja(`IllKbU6rd`),
                                                             },
-                                                            exGrCNMBY: { variant: Aa(`IllKbU6rd`) },
+                                                            exGrCNMBY: { variant: ja(`IllKbU6rd`) },
                                                             YkRwyK5Zj: {
                                                               oXv7AZm4A: M,
                                                               style: { width: `100%` },
@@ -8124,7 +8139,7 @@ var va,
                                                       h(W, {
                                                         height: 26,
                                                         width: `24px`,
-                                                        ..._a(
+                                                        ...va(
                                                           {
                                                             YkRwyK5Zj: {
                                                               y:
@@ -8164,7 +8179,7 @@ var va,
                                                           nodeId: `zLG0Yr6R6`,
                                                           rendersWithMotion: !0,
                                                           scopeId: `ThlFB8dhK`,
-                                                          children: h(ha, {
+                                                          children: h(ga, {
                                                             height: `100%`,
                                                             id: `zLG0Yr6R6`,
                                                             layoutId: `zLG0Yr6R6`,
@@ -8285,16 +8300,16 @@ var va,
                                                 layoutId: `JrVZXbXwt`,
                                                 children:
                                                   ie() &&
-                                                  _(ya, {
+                                                  _(ba, {
                                                     __perspectiveFX: !1,
                                                     __smartComponentFX: !0,
                                                     __targetOpacity: 1,
-                                                    animate: Oa,
+                                                    animate: ka,
                                                     className: `framer-1kv1muo`,
                                                     "data-border": !0,
                                                     "data-framer-appear-id": `1kv1muo`,
                                                     "data-framer-name": `Images`,
-                                                    initial: ka,
+                                                    initial: Aa,
                                                     layoutDependency: E,
                                                     layoutId: `LsfPOV0hr`,
                                                     optimized: !0,
@@ -8329,7 +8344,7 @@ var va,
                                                           borderTopLeftRadius: 12,
                                                           borderTopRightRadius: 12,
                                                         },
-                                                        ..._a(
+                                                        ...va(
                                                           {
                                                             BhgKpPyRM: {
                                                               background: {
@@ -8394,7 +8409,7 @@ var va,
                                                           borderTopLeftRadius: 12,
                                                           borderTopRightRadius: 12,
                                                         },
-                                                        ..._a(
+                                                        ...va(
                                                           {
                                                             BhgKpPyRM: {
                                                               background: {
@@ -8459,7 +8474,7 @@ var va,
                                                           borderTopLeftRadius: 12,
                                                           borderTopRightRadius: 12,
                                                         },
-                                                        ..._a(
+                                                        ...va(
                                                           {
                                                             BhgKpPyRM: {
                                                               background: {
@@ -8524,7 +8539,7 @@ var va,
                                                           borderTopLeftRadius: 12,
                                                           borderTopRightRadius: 12,
                                                         },
-                                                        ..._a(
+                                                        ...va(
                                                           {
                                                             BhgKpPyRM: {
                                                               background: {
@@ -8575,16 +8590,16 @@ var va,
                                                   }),
                                               }),
                                             I() &&
-                                              _(ya, {
+                                              _(ba, {
                                                 __perspectiveFX: !1,
                                                 __smartComponentFX: !0,
                                                 __targetOpacity: 1,
-                                                animate: Oa,
+                                                animate: ka,
                                                 className: `framer-11moh0n`,
                                                 "data-border": !0,
                                                 "data-framer-appear-id": `11moh0n`,
                                                 "data-framer-name": `Sidebar`,
-                                                initial: ka,
+                                                initial: Aa,
                                                 layoutDependency: E,
                                                 layoutId: `Wgw6AKq7O`,
                                                 optimized: !0,
@@ -8899,16 +8914,16 @@ var va,
           `.framer-rPTAV.framer-v-74oqk8 .framer-wlsqne { flex: none; height: min-content; order: 3; }`,
           `.framer-rPTAV.framer-v-74oqk8 .framer-1kv1muo { flex: none; gap: 10px 10px; grid-auto-rows: min-content; grid-template-rows: repeat(2, min-content); height: min-content; }`,
           `.framer-rPTAV.framer-v-74oqk8 .framer-wrx00q, .framer-rPTAV.framer-v-74oqk8 .framer-2z15iz, .framer-rPTAV.framer-v-74oqk8 .framer-1owar35, .framer-rPTAV.framer-v-74oqk8 .framer-1xj0y6j { aspect-ratio: 1.3888888888888888 / 1; height: auto; }`,
-          ...Gi,
+          ...Ki,
           ...ct,
           ...Ae,
           `.framer-rPTAV[data-border="true"]::after, .framer-rPTAV [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
         `framer-rPTAV`
       )),
-      (Ia.displayName = `Dashboard Tab`),
-      (Ia.defaultProps = { height: 580, width: 1152 }),
-      K(Ia, {
+      (La.displayName = `Dashboard Tab`),
+      (La.defaultProps = { height: 580, width: 1152 }),
+      K(La, {
         variant: {
           options: [`KBgKtVKOD`, `exGrCNMBY`, `YkRwyK5Zj`, `BhgKpPyRM`],
           optionTitles: [`Content Generation`, `Image Generation`, `Mobile`, `Mobile Image Gen`],
@@ -8917,7 +8932,7 @@ var va,
         },
       }),
       I(
-        Ia,
+        La,
         [
           {
             explicitInter: !0,
@@ -8987,26 +9002,25 @@ var va,
               },
             ],
           },
-          ...va,
-          ...ba,
+          ...ya,
           ...xa,
           ...Sa,
-          ...N(Wi),
+          ...Ca,
+          ...N(Gi),
           ...N(st),
           ...N(je),
         ],
         { supportsExplicitInterCodegen: !0 }
       ),
-      (Ia.loader = {
-        load: (e, t) => (t.locale, Promise.allSettled([A(Ce, {}, t), A(aa, {}, t), A(ha, {}, t)])),
+      (La.loader = {
+        load: (e, t) => (t.locale, Promise.allSettled([A(Ce, {}, t), A(oa, {}, t), A(ga, {}, t)])),
       }));
   });
-function Ra(e, ...t) {
+function za(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var za,
-  Ba,
+var Ba,
   Va,
   Ha,
   Ua,
@@ -9018,7 +9032,8 @@ var za,
   Ya,
   Xa,
   Za,
-  Qa = e(() => {
+  Qa,
+  $a = e(() => {
     (v(),
       k(),
       O(),
@@ -9026,27 +9041,27 @@ var za,
       Ze(),
       J(),
       ut(),
-      (za = M(Y)),
-      (Ba = j(Y)),
-      (Va = [`UQAKERQXo`, `J3JugmfqE`]),
-      (Ha = `framer-6mUmJ`),
-      (Ua = { J3JugmfqE: `framer-v-1ye2a7x`, UQAKERQXo: `framer-v-heob82` }),
-      (Wa = (e, t) => {
+      (Ba = M(Y)),
+      (Va = j(Y)),
+      (Ha = [`UQAKERQXo`, `J3JugmfqE`]),
+      (Ua = `framer-6mUmJ`),
+      (Wa = { J3JugmfqE: `framer-v-1ye2a7x`, UQAKERQXo: `framer-v-heob82` }),
+      (Ga = (e, t) => {
         if (typeof e == `number` && Number.isFinite(e)) return Math.max(0, e) + `px`;
         if (typeof e != `string` || typeof t != `number`) return;
         let n = e.split(` `);
         return n[t] || n[t - 2] || n[0];
       }),
-      (Ga = { duration: 0, type: `tween` }),
-      (Ka = ({ value: e, children: t }) => {
+      (Ka = { duration: 0, type: `tween` }),
+      (qa = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (qa = C.create(a)),
-      (Ja = { Closed: `UQAKERQXo`, Opened: `J3JugmfqE` }),
-      (Ya = ({
+      (Ja = C.create(a)),
+      (Ya = { Closed: `UQAKERQXo`, Opened: `J3JugmfqE` }),
+      (Xa = ({
         answer: e,
         height: t,
         id: n,
@@ -9064,11 +9079,11 @@ var za,
         kYWASCjTi: a ?? l.kYWASCjTi ?? `8px`,
         NJYIkQ6JL: e ?? l.NJYIkQ6JL ?? `Answer`,
         Ro4lUtH7q: r ?? l.Ro4lUtH7q ?? `CaretUp`,
-        variant: Ja[l.variant] ?? l.variant ?? `UQAKERQXo`,
+        variant: Ya[l.variant] ?? l.variant ?? `UQAKERQXo`,
         w45GKkb9R: s ?? l.w45GKkb9R ?? `CaretDown`,
       })),
-      (Xa = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Za = R(
+      (Za = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Qa = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
@@ -9087,7 +9102,7 @@ var za,
               w45GKkb9R: y,
               Ro4lUtH7q: x,
               ...S
-            } = Ya(e),
+            } = Xa(e),
             {
               baseVariant: ee,
               classNames: te,
@@ -9099,13 +9114,13 @@ var za,
               setVariant: k,
               variants: A,
             } = L({
-              cycleOrder: Va,
+              cycleOrder: Ha,
               defaultVariant: `UQAKERQXo`,
               ref: i,
               variant: f,
-              variantClassNames: Ua,
+              variantClassNames: Wa,
             }),
-            j = Xa(e, A),
+            j = Za(e, A),
             { activeVariantCallback: M, delay: N } = ae(ee),
             re = M(async (...e) => {
               (ne({ isPressed: !1 }), k(`J3JugmfqE`));
@@ -9113,15 +9128,15 @@ var za,
             ie = M(async (...e) => {
               (ne({ isPressed: !1 }), k(`UQAKERQXo`));
             }),
-            oe = G(Ha, lt, ye),
+            oe = G(Ua, lt, ye),
             se = () => ee === `J3JugmfqE`;
           return h(D, {
             id: d ?? o,
-            children: h(qa, {
+            children: h(Ja, {
               animate: A,
               initial: !1,
-              children: h(Ka, {
-                value: Ga,
+              children: h(qa, {
+                value: Ka,
                 children: _(C.div, {
                   ...S,
                   ...T,
@@ -9140,14 +9155,14 @@ var za,
                     "--border-right-width": `1px`,
                     "--border-style": `solid`,
                     "--border-top-width": `1px`,
-                    borderBottomLeftRadius: Wa(p, 3),
-                    borderBottomRightRadius: Wa(p, 2),
-                    borderTopLeftRadius: Wa(p, 0),
-                    borderTopRightRadius: Wa(p, 1),
+                    borderBottomLeftRadius: Ga(p, 3),
+                    borderBottomRightRadius: Ga(p, 2),
+                    borderTopLeftRadius: Ga(p, 0),
+                    borderTopRightRadius: Ga(p, 1),
                     boxShadow: `inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25)`,
                     ...l,
                   },
-                  ...Ra({ J3JugmfqE: { "data-framer-name": `Opened`, onTap: ie } }, ee, E),
+                  ...za({ J3JugmfqE: { "data-framer-name": `Opened`, onTap: ie } }, ee, E),
                   children: [
                     _(C.div, {
                       className: `framer-xoxlf4`,
@@ -9237,7 +9252,7 @@ var za,
                               style: { height: `100%`, width: `100%` },
                               weight: `bold`,
                               width: `100%`,
-                              ...Ra({ J3JugmfqE: { iconSelection: x } }, ee, E),
+                              ...za({ J3JugmfqE: { iconSelection: x } }, ee, E),
                             }),
                           }),
                         }),
@@ -9275,9 +9290,9 @@ var za,
         ],
         `framer-6mUmJ`
       )),
-      (Za.displayName = `FAQ Item`),
-      (Za.defaultProps = { height: 82, width: 390 }),
-      K(Za, {
+      (Qa.displayName = `FAQ Item`),
+      (Qa.defaultProps = { height: 82, width: 390 }),
+      K(Qa, {
         variant: {
           options: [`UQAKERQXo`, `J3JugmfqE`],
           optionTitles: [`Closed`, `Opened`],
@@ -9293,15 +9308,15 @@ var za,
         },
         NJYIkQ6JL: { defaultValue: `Answer`, displayTextArea: !0, title: `Answer`, type: H.String },
         iOqNF0AA8: { defaultValue: !0, title: `Right Icon`, type: H.Boolean },
-        w45GKkb9R: Ba?.iconSelection && {
-          ...Ba.iconSelection,
+        w45GKkb9R: Va?.iconSelection && {
+          ...Va.iconSelection,
           defaultValue: `CaretDown`,
           description: void 0,
           hidden: void 0,
           title: `Right Icon 2`,
         },
-        Ro4lUtH7q: Ba?.iconSelection && {
-          ...Ba.iconSelection,
+        Ro4lUtH7q: Va?.iconSelection && {
+          ...Va.iconSelection,
           defaultValue: `CaretUp`,
           description: void 0,
           hidden: void 0,
@@ -9309,7 +9324,7 @@ var za,
         },
       }),
       I(
-        Za,
+        Qa,
         [
           {
             explicitInter: !0,
@@ -9372,20 +9387,20 @@ var za,
               },
             ],
           },
-          ...za,
+          ...Ba,
           ...N(st),
           ...N(je),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  $a,
   eo,
   to,
-  no = e(() => {
+  no,
+  ro = e(() => {
     (k(),
       ie.loadFonts([`Inter`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-Italic`]),
-      ($a = [
+      (eo = [
         {
           explicitInter: !0,
           fonts: [
@@ -9616,15 +9631,15 @@ var za,
           ],
         },
       ]),
-      (eo = [
+      (to = [
         `.framer-qohCG .framer-styles-preset-1kw3yst:not(.rich-text-wrapper), .framer-qohCG .framer-styles-preset-1kw3yst.rich-text-wrapper p { --framer-font-family: "Inter", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 14px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.02em; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
-      (to = `framer-qohCG`));
+      (no = `framer-qohCG`));
   }),
-  ro,
   io,
   ao,
-  oo = e(() => {
+  oo,
+  so = e(() => {
     (k(),
       ie.loadFonts([
         `FS;Poppins-regular`,
@@ -9632,7 +9647,7 @@ var za,
         `FS;Poppins-bold italic`,
         `FS;Poppins-italic`,
       ]),
-      (ro = [
+      (io = [
         {
           explicitInter: !0,
           fonts: [
@@ -9667,19 +9682,19 @@ var za,
           ],
         },
       ]),
-      (io = [
+      (ao = [
         `.framer-LsGmy .framer-styles-preset-qpltp7:not(.rich-text-wrapper), .framer-LsGmy .framer-styles-preset-qpltp7.rich-text-wrapper p { --framer-font-family: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 68px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.05em; --framer-line-height: 1em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 0px) { .framer-LsGmy .framer-styles-preset-qpltp7:not(.rich-text-wrapper), .framer-LsGmy .framer-styles-preset-qpltp7.rich-text-wrapper p { --framer-font-family: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 36px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.05em; --framer-line-height: 1em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (ao = `framer-LsGmy`));
+      (oo = `framer-LsGmy`));
   }),
-  so,
   co,
   lo,
-  uo = e(() => {
+  uo,
+  fo = e(() => {
     (k(),
       ie.loadFonts([`GF;Inter-regular`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-italic`]),
-      (so = [
+      (co = [
         {
           explicitInter: !0,
           fonts: [
@@ -9714,14 +9729,13 @@ var za,
           ],
         },
       ]),
-      (co = [
+      (lo = [
         `.framer-JC3Nv .framer-styles-preset-12qzpp4:not(.rich-text-wrapper), .framer-JC3Nv .framer-styles-preset-12qzpp4.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 30px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-JC3Nv .framer-styles-preset-12qzpp4:not(.rich-text-wrapper), .framer-JC3Nv .framer-styles-preset-12qzpp4.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 28px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-JC3Nv .framer-styles-preset-12qzpp4:not(.rich-text-wrapper), .framer-JC3Nv .framer-styles-preset-12qzpp4.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 28px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (lo = `framer-JC3Nv`));
+      (uo = `framer-JC3Nv`));
   }),
-  fo,
   po,
   mo,
   ho,
@@ -9739,8 +9753,8 @@ var za,
   Do,
   Oo,
   ko,
-  $,
   Ao,
+  $,
   jo,
   Mo,
   No,
@@ -9749,7 +9763,8 @@ var za,
   Io,
   Lo,
   Ro,
-  zo;
+  zo,
+  Bo;
 e(() => {
   (v(),
     k(),
@@ -9757,53 +9772,53 @@ e(() => {
     d(),
     Ze(),
     Dt(),
-    $t(),
-    Dr(),
-    Jr(),
-    _i(),
-    Ui(),
+    en(),
+    Or(),
+    Yr(),
+    vi(),
+    Wi(),
     Ut(),
-    La(),
-    Qa(),
+    Ra(),
+    $a(),
     J(),
     ut(),
-    no(),
-    oo(),
+    ro(),
+    so(),
     jt(),
-    uo(),
+    fo(),
     Ee(),
-    (fo = ce(U)),
-    (po = M(qr)),
-    (mo = M(Ht)),
-    (ho = M(X)),
-    (go = M(Er)),
-    (_o = M(Y)),
-    (vo = ce(C.div)),
-    (yo = M(Qt)),
-    (bo = M(Ia)),
-    (xo = M(gi)),
-    (So = me(gi)),
-    (Co = M(Za)),
-    (wo = M(Hi)),
-    (To = {
+    (po = ce(U)),
+    (mo = M(Jr)),
+    (ho = M(Ht)),
+    (go = M(X)),
+    (_o = M(Dr)),
+    (vo = M(Y)),
+    (yo = ce(C.div)),
+    (bo = M($t)),
+    (xo = M(La)),
+    (So = M(_i)),
+    (Co = me(_i)),
+    (wo = M(Qa)),
+    (To = M(Ui)),
+    (Eo = {
       dV9dN50OP: `(max-width: 809.98px)`,
       MNFOeKjhJ: `(min-width: 810px) and (max-width: 1199.98px)`,
       WQLkyLRf1: `(min-width: 1200px)`,
     }),
-    (Eo = []),
-    (Do = `framer-UaBhM`),
-    (Oo = {
+    (Do = []),
+    (Oo = `framer-kcvvC`),
+    (ko = {
       dV9dN50OP: `framer-v-1bp0152`,
       MNFOeKjhJ: `framer-v-1npr79d`,
       WQLkyLRf1: `framer-v-72rtr7`,
     }),
-    (ko = (e, t, n) => (e && t ? `position` : n)),
+    (Ao = (e, t, n) => (e && t ? `position` : n)),
     ($ = (...e) => {
       for (let t of e) if (t && typeof t == `string`) return t;
     }),
-    (Ao = (e, t) => `translate(-50%, -50%) ${t}`),
-    (jo = { delay: 0, duration: 1, ease: [0, 0, 1, 1], type: `tween` }),
-    (Mo = {
+    (jo = (e, t) => `translate(-50%, -50%) ${t}`),
+    (Mo = { delay: 0, duration: 1, ease: [0, 0, 1, 1], type: `tween` }),
+    (No = {
       opacity: 1,
       rotate: 360,
       rotateX: 0,
@@ -9814,31 +9829,31 @@ e(() => {
       x: 0,
       y: 0,
     }),
-    (No = (e, t) => `translateX(-50%) ${t}`),
-    (Po = (e, t) => `translateY(-50%) ${t}`),
-    (Fo = { Desktop: `WQLkyLRf1`, Phone: `dV9dN50OP`, Tablet: `MNFOeKjhJ` }),
-    (Io = ({ value: e }) =>
+    (Po = (e, t) => `translateX(-50%) ${t}`),
+    (Fo = (e, t) => `translateY(-50%) ${t}`),
+    (Io = { Desktop: `WQLkyLRf1`, Phone: `dV9dN50OP`, Tablet: `MNFOeKjhJ` }),
+    (Lo = ({ value: e }) =>
       _e()
         ? null
         : h(`style`, { dangerouslySetInnerHTML: { __html: e }, "data-framer-html-style": `` })),
-    (Lo = ({ height: e, id: t, width: n, ...r }) => ({
+    (Ro = ({ height: e, id: t, width: n, ...r }) => ({
       ...r,
-      variant: Fo[r.variant] ?? r.variant ?? `WQLkyLRf1`,
+      variant: Io[r.variant] ?? r.variant ?? `WQLkyLRf1`,
     })),
-    (Ro = R(
+    (zo = R(
       p(function (e, n) {
         let r = t(null),
           i = n ?? r,
           o = b(),
           { activeLocale: l, setLocale: u } = B(),
           d = P(),
-          { style: f, className: p, layoutId: m, variant: g, ...v } = Lo(e);
+          { style: f, className: p, layoutId: m, variant: g, ...v } = Ro(e);
         he(c(() => Oe({}, l), [l]));
-        let [y, x] = le(g, To, !1),
-          S = G(Do, ao, At, lt, to, ye, lo),
+        let [y, x] = le(g, Eo, !1),
+          S = G(Oo, oo, At, lt, no, ye, uo),
           ee = s(oe)?.isLayoutTemplate,
           te = !!s(T)?.transition?.layout,
-          w = ko(ee, te),
+          w = Ao(ee, te),
           E = pe(`iYUNHqCEb`),
           O = t(null),
           k = pe(`U6VhzUg6a`),
@@ -9856,14 +9871,14 @@ e(() => {
           h(oe.Provider, {
             value: {
               activeVariantId: y,
-              humanReadableVariantMap: Fo,
+              humanReadableVariantMap: Io,
               primaryVariantId: `WQLkyLRf1`,
-              variantClassNames: Oo,
+              variantClassNames: ko,
             },
             children: _(D, {
               id: m ?? o,
               children: [
-                h(Io, {
+                h(Lo, {
                   value: `html body { background: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, rgb(1, 1, 23)); }`,
                 }),
                 _(C.div, {
@@ -9908,7 +9923,7 @@ e(() => {
                                       },
                                     },
                                   },
-                                  children: h(fo, {
+                                  children: h(po, {
                                     __framer__spring: {
                                       damping: 60,
                                       delay: 0,
@@ -9989,7 +10004,7 @@ e(() => {
                                       },
                                     },
                                   },
-                                  children: h(fo, {
+                                  children: h(po, {
                                     __framer__spring: {
                                       damping: 60,
                                       delay: 0,
@@ -10065,7 +10080,7 @@ e(() => {
                                       className: `framer-1ok201j-container`,
                                       nodeId: `Md0g4bJOo`,
                                       scopeId: `augiA20Il`,
-                                      children: h(qr, {
+                                      children: h(Jr, {
                                         height: `100%`,
                                         id: `Md0g4bJOo`,
                                         layoutId: `Md0g4bJOo`,
@@ -10671,7 +10686,7 @@ e(() => {
                                       dV9dN50OP: { style: { width: `100%` } },
                                       MNFOeKjhJ: { style: { width: `100%` } },
                                     },
-                                    children: h(Er, {
+                                    children: h(Dr, {
                                       height: `100%`,
                                       id: `wfFANPtBb`,
                                       layoutId: `wfFANPtBb`,
@@ -11507,7 +11522,7 @@ e(() => {
                               "data-border": !0,
                               "data-framer-name": `Decors`,
                               children: [
-                                h(vo, {
+                                h(yo, {
                                   __framer__spring: {
                                     damping: 60,
                                     delay: 0,
@@ -11576,18 +11591,18 @@ e(() => {
                                     }),
                                     className: `framer-shxrxy`,
                                     fonts: [`GF;Inter-regular`],
-                                    transformTemplate: Ao,
+                                    transformTemplate: jo,
                                     verticalAlignment: `top`,
                                     withExternalLayout: !0,
                                   }),
                                 }),
-                                h(vo, {
-                                  __framer__loop: Mo,
+                                h(yo, {
+                                  __framer__loop: No,
                                   __framer__loopEffectEnabled: !0,
                                   __framer__loopPauseOffscreen: !0,
                                   __framer__loopRepeatDelay: 0,
                                   __framer__loopRepeatType: `mirror`,
-                                  __framer__loopTransition: jo,
+                                  __framer__loopTransition: Mo,
                                   __framer__styleTransformEffectEnabled: !0,
                                   __framer__transformTargets: [
                                     {
@@ -11622,7 +11637,7 @@ e(() => {
                                   __targetOpacity: 1,
                                   className: `framer-eby5ch`,
                                   "data-framer-name": `Light`,
-                                  transformTemplate: Ao,
+                                  transformTemplate: jo,
                                 }),
                                 _(`div`, {
                                   className: `framer-ua5e1b`,
@@ -11733,7 +11748,7 @@ e(() => {
                                   className: `framer-1704cpc`,
                                   "data-framer-name": `Top`,
                                   style: { rotate: 180 },
-                                  transformTemplate: No,
+                                  transformTemplate: Po,
                                   children: [
                                     _(`div`, {
                                       className: `framer-9pkixk`,
@@ -11840,7 +11855,7 @@ e(() => {
                                   className: `framer-1tacat3`,
                                   "data-framer-name": `Left`,
                                   style: { rotate: 90 },
-                                  transformTemplate: Po,
+                                  transformTemplate: Fo,
                                   children: [
                                     _(`div`, {
                                       className: `framer-zgcfdk`,
@@ -11936,7 +11951,7 @@ e(() => {
                                   className: `framer-2kludh`,
                                   "data-framer-name": `Right`,
                                   style: { rotate: -90 },
-                                  transformTemplate: Po,
+                                  transformTemplate: Fo,
                                   children: [
                                     _(`div`, {
                                       className: `framer-12arpol`,
@@ -12046,7 +12061,7 @@ e(() => {
                               ],
                             }),
                           }),
-                          _(vo, {
+                          _(yo, {
                             __framer__spring: {
                               damping: 60,
                               delay: 0,
@@ -12092,7 +12107,7 @@ e(() => {
                             className: `framer-18f2cvk`,
                             "data-framer-name": `Card`,
                             style: { transformPerspective: 500 },
-                            transformTemplate: Ao,
+                            transformTemplate: jo,
                             children: [
                               h(U, {
                                 background: {
@@ -12182,13 +12197,13 @@ e(() => {
                                 className: `framer-13vydhe-container`,
                                 nodeId: `l23j0jFfm`,
                                 scopeId: `augiA20Il`,
-                                children: h(Qt, {
+                                children: h($t, {
                                   blBXxPHbO: !0,
                                   bRyvaH27Q: `Những tính năng hấp dẫn `,
                                   height: `100%`,
                                   id: `l23j0jFfm`,
                                   layoutId: `l23j0jFfm`,
-                                  sIRtTcVp7: `All-in-one`,
+                                  sIRtTcVp7: ``,
                                   style: { width: `100%` },
                                   TmroXSTYL: `Khai thác sức mạnh của AI agent để tạo, tối ưu hóa và tự động hóa hơn bao giờ hết. Util4dev là nền tảng giúp đơn giản hóa quy trình công việc của bạn.`,
                                   width: `100%`,
@@ -12213,7 +12228,7 @@ e(() => {
                                 children: h(V, {
                                   breakpoint: y,
                                   overrides: { dV9dN50OP: { variant: $(`YkRwyK5Zj`) } },
-                                  children: h(Ia, {
+                                  children: h(La, {
                                     height: `100%`,
                                     id: `ALpI4vCyC`,
                                     layoutId: `ALpI4vCyC`,
@@ -12244,7 +12259,7 @@ e(() => {
                             nodeId: `zKzXmXRGU`,
                             ref: re,
                             scopeId: `augiA20Il`,
-                            children: h(Qt, {
+                            children: h($t, {
                               blBXxPHbO: !0,
                               bRyvaH27Q: `Chuyển dịch từ thế bị động sang chủ động`,
                               height: `100%`,
@@ -12268,7 +12283,7 @@ e(() => {
                               nodeId: `adTRrxLJn`,
                               rendersWithMotion: !0,
                               scopeId: `augiA20Il`,
-                              children: h(So, {
+                              children: h(Co, {
                                 __framer__animateOnce: !1,
                                 __framer__threshold: 1,
                                 __framer__variantAppearEffectEnabled: !0,
@@ -12402,7 +12417,7 @@ e(() => {
                                         className: `framer-1pcksmg-container`,
                                         nodeId: `EBNMcAQFa`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Za, {
+                                        children: h(Qa, {
                                           height: `100%`,
                                           I8x_1pBcj: `How does Flamer work?`,
                                           id: `EBNMcAQFa`,
@@ -12436,7 +12451,7 @@ e(() => {
                                         className: `framer-1t3z73n-container`,
                                         nodeId: `m1PPLCI3K`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Za, {
+                                        children: h(Qa, {
                                           height: `100%`,
                                           I8x_1pBcj: `Do I need any technical skills to use Flamer?`,
                                           id: `m1PPLCI3K`,
@@ -12470,7 +12485,7 @@ e(() => {
                                         className: `framer-lxy4y4-container`,
                                         nodeId: `JcrKmJGCC`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Za, {
+                                        children: h(Qa, {
                                           height: `100%`,
                                           I8x_1pBcj: `Are the contents generated by Flamer unique?`,
                                           id: `JcrKmJGCC`,
@@ -12504,7 +12519,7 @@ e(() => {
                                         className: `framer-1scxxvo-container`,
                                         nodeId: `C10yzXb47`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Za, {
+                                        children: h(Qa, {
                                           height: `100%`,
                                           I8x_1pBcj: `Can I try Flamer for free?`,
                                           id: `C10yzXb47`,
@@ -12551,7 +12566,7 @@ e(() => {
                                       variant: $(`slD3l9NUj`),
                                     },
                                   },
-                                  children: h(Hi, {
+                                  children: h(Ui, {
                                     height: `100%`,
                                     id: `DXDiXNvM6`,
                                     layoutId: `DXDiXNvM6`,
@@ -12575,109 +12590,109 @@ e(() => {
         );
       }),
       [
-        `.framer-UaBhM.framer-lux5qc, .framer-UaBhM .framer-lux5qc { display: block; }`,
-        `.framer-UaBhM.framer-72rtr7 { align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1200px; }`,
-        `.framer-UaBhM .framer-7dod6r { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; scroll-margin-top: 200px; width: 100%; z-index: 5; }`,
-        `.framer-UaBhM .framer-1mki1k0 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 13%) add; align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 13%) add; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
-        `.framer-UaBhM .framer-1au44ra { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 100px; height: 500px; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-UaBhM .framer-39pjht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: 436px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-wmsqgn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; left: 18px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 9; }`,
-        `.framer-UaBhM .framer-np6d6q { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; overflow: hidden; padding: 0px; position: absolute; right: 22px; top: -5px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 5; }`,
-        `.framer-UaBhM .framer-1ok201j-container { flex: none; height: 550px; position: relative; width: 100%; z-index: 3; }`,
-        `.framer-UaBhM .framer-13indg1 { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) add; mix-blend-mode: screen; opacity: 0.09; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-UaBhM .framer-2y58l1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; scroll-margin-top: 150px; width: 100%; }`,
-        `.framer-UaBhM .framer-k0af9v { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 27px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 100px 25px 100px 25px; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-yg6vbi { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 100px; height: 800px; justify-content: center; padding: 40px 0px 0px 0px; position: sticky; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-UaBhM .framer-1qlm5z7, .framer-UaBhM .framer-11h0s18 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-UaBhM .framer-la7fvh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 17px; height: min-content; justify-content: center; max-width: 975px; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-1ix5vbv, .framer-UaBhM .framer-19nc088, .framer-UaBhM .framer-5aywpq, .framer-UaBhM .framer-esox5h, .framer-UaBhM .framer-qoiezj, .framer-UaBhM .framer-1a10g8j, .framer-UaBhM .framer-1kw4qni, .framer-UaBhM .framer-cwkj3m, .framer-UaBhM .framer-1v0joqm, .framer-UaBhM .framer-1g13tt7, .framer-UaBhM .framer-1t98ne0 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-        `.framer-UaBhM .framer-1obwh4c, .framer-UaBhM .framer-lvsu6d, .framer-UaBhM .framer-10pj67n, .framer-UaBhM .framer-1fiua8d { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 62px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 62px; will-change: var(--framer-will-change-filter-override, filter); }`,
-        `.framer-UaBhM .framer-16gd5iv, .framer-UaBhM .framer-1fv2udu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-flkrtb { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-1afaic6 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-1l0fz2d, .framer-UaBhM .framer-y0l0rk { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-1unbp0v-container, .framer-UaBhM .framer-zroyd3-container { flex: none; height: auto; position: relative; width: auto; }`,
-        `.framer-UaBhM .framer-kwokev, .framer-UaBhM .framer-fgnpc0, .framer-UaBhM .framer-i58id4, .framer-UaBhM .framer-tqr107 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 500px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-UaBhM .framer-wdmzrp, .framer-UaBhM .framer-1i2yrmx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-be6r75-container, .framer-UaBhM .framer-1d14rzc-container, .framer-UaBhM .framer-1t71dbs-container, .framer-UaBhM .framer-1vo5xwn-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-154jz2f-container { align-self: stretch; flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-zqr5yg { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 0; }`,
-        `.framer-UaBhM .framer-1v3a43r { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-feyxnm { --border-bottom-width: 1px; --border-color: rgba(250, 250, 250, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-bottom-left-radius: 34px; border-bottom-right-radius: 34px; border-top-left-radius: 34px; border-top-right-radius: 34px; box-shadow: inset 0px 0.421531111242075px 0.421531111242075px -0.8333333333333333px rgba(255, 255, 255, 0.13), inset 0px 1.60197331227042px 1.60197331227042px -1.6666666666666665px rgba(255, 255, 255, 0.13), inset 0px 7px 7px -2.5px rgba(255, 255, 255, 0.13); display: grid; flex: none; gap: 20px 20px; grid-auto-rows: min-content; grid-template-columns: repeat(auto-fill, minmax(282px, 1fr)); height: min-content; justify-content: center; overflow: visible; padding: 20px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-1psnt4v, .framer-UaBhM .framer-xjqzmg, .framer-UaBhM .framer-16c0xdy, .framer-UaBhM .framer-xngrzv { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 1fr; }`,
-        `.framer-UaBhM .framer-jx3klg-container { cursor: default; flex: none; height: 270px; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-UaBhM .framer-6uiyx3, .framer-UaBhM .framer-f9gs6n { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-f3x7a-container, .framer-UaBhM .framer-8lw8u4-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-UaBhM .framer-ztv74n-container, .framer-UaBhM .framer-1elfzky-container { cursor: default; flex: none; height: 330px; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-UaBhM .framer-znhnrm-container { flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-UaBhM .framer-w99w4p { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; aspect-ratio: 1.0126582278481013 / 1; background-color: #010117; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: auto; justify-content: center; overflow: hidden; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-UaBhM .framer-nbkp49 { flex: none; height: 342px; left: calc(50.00000000000002% - 429px / 2); overflow: hidden; position: absolute; top: calc(50.09041591320075% - 342px / 2); width: 429px; z-index: 6; }`,
-        `.framer-UaBhM .framer-n8js10 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; bottom: 1px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; left: 0px; padding: 30px; position: absolute; width: min-content; z-index: 8; }`,
-        `.framer-UaBhM .framer-1axadyl, .framer-UaBhM .framer-1madksd { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-        `.framer-UaBhM .framer-uf1zfz, .framer-UaBhM .framer-1ily88o { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-        `.framer-UaBhM .framer-1s4cmew, .framer-UaBhM .framer-1bxaqb { background-color: rgba(255, 255, 255, 0.1); flex: none; height: 1px; overflow: hidden; position: relative; width: 231px; }`,
-        `.framer-UaBhM .framer-34b1uq, .framer-UaBhM .framer-1q33nos, .framer-UaBhM .framer-1fkwiq9, .framer-UaBhM .framer-1t7yud9, .framer-UaBhM .framer-gnplo5 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; align-self: stretch; flex: none; height: auto; position: relative; white-space: pre-wrap; width: auto; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-UaBhM .framer-9zmqk2 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; padding: 30px; position: absolute; right: 0px; top: 1px; width: min-content; z-index: 9; }`,
-        `.framer-UaBhM .framer-putkun, .framer-UaBhM .framer-1xda8k8, .framer-UaBhM .framer-1kor0q7 { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: auto; }`,
-        `.framer-UaBhM .framer-p6tjzn, .framer-UaBhM .framer-bj3gl6 { aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-UaBhM .framer-1q7qg1, .framer-UaBhM .framer-rgkh0s, .framer-UaBhM .framer-8d4qq { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-UaBhM .framer-l5pl4y { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.29); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-UaBhM .framer-1mc1cmk-container { flex: none; height: 20px; left: calc(50.00000000000002% - 20px / 2); position: absolute; top: calc(50.00000000000002% - 20px / 2); width: 20px; }`,
-        `.framer-UaBhM .framer-hajfu1 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.15; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-UaBhM .framer-101kz2c { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-gug6nb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-561hc4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 100vh; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-swwljn { flex: none; height: 100vh; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-UaBhM .framer-heo43w { -webkit-mask: radial-gradient(36% 53% at 50% 50%, #000000 0%, rgba(0,0,0,0) 100%) add; bottom: 0px; flex: none; left: 0px; mask: radial-gradient(36% 53% at 50% 50%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%) add; opacity: 0.3; overflow: hidden; position: absolute; right: 0px; top: 0px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
-        `.framer-UaBhM .framer-usmt83 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; border-top-left-radius: 50px; border-top-right-radius: 50px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 240px; justify-content: center; left: calc(50.00000000000002% - 240px / 2); overflow: visible; padding: 60px 40px 60px 40px; position: absolute; top: calc(50.062893081761025% - 240px / 2); width: 240px; z-index: 5; }`,
-        `.framer-UaBhM .framer-184qr9z { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: #010117; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-top-left-radius: 45px; border-top-right-radius: 45px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.1), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px -5px 0px 0px rgb(18, 18, 38); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 230px; justify-content: center; overflow: visible; padding: 60px 40px 60px 40px; position: relative; width: 230px; }`,
-        `.framer-UaBhM .framer-ix4n7k { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.08); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: #0f0f1c; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; border-top-left-radius: 11px; border-top-right-radius: 11px; box-shadow: inset 0px -5px 0px 0px #151526, 0px 2px 50px 0px rgba(255, 255, 255, 0.25); flex: none; height: 100px; left: calc(50.00000000000002% - 100px / 2); overflow: visible; position: absolute; top: calc(50.00000000000002% - 100px / 2); width: 100px; z-index: 8; }`,
-        `.framer-UaBhM .framer-shxrxy { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); white-space: pre; width: auto; z-index: 3; }`,
-        `.framer-UaBhM .framer-eby5ch { -webkit-filter: blur(50px); aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; border-top-left-radius: 60px; border-top-right-radius: 60px; filter: blur(50px); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 149px; will-change: var(--framer-will-change-override, transform); z-index: 7; }`,
-        `.framer-UaBhM .framer-ua5e1b { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; bottom: 0px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; transform: translateX(-50%); width: min-content; z-index: 1; }`,
-        `.framer-UaBhM .framer-d2f385, .framer-UaBhM .framer-9gt9oc, .framer-UaBhM .framer-1esk5v6, .framer-UaBhM .framer-1x0uys9, .framer-UaBhM .framer-amoeb6, .framer-UaBhM .framer-6hekwl, .framer-UaBhM .framer-1srqqzw, .framer-UaBhM .framer-425ty6, .framer-UaBhM .framer-so1fg0, .framer-UaBhM .framer-9pkixk, .framer-UaBhM .framer-1dqaayv, .framer-UaBhM .framer-lov685, .framer-UaBhM .framer-1p36qzv, .framer-UaBhM .framer-1swmpqo, .framer-UaBhM .framer-1lphk7i, .framer-UaBhM .framer-1dghyv2, .framer-UaBhM .framer-1biver0, .framer-UaBhM .framer-bi87nm, .framer-UaBhM .framer-zgcfdk, .framer-UaBhM .framer-1sj3ks9, .framer-UaBhM .framer-f487ef, .framer-UaBhM .framer-1tte299, .framer-UaBhM .framer-p4hlcq, .framer-UaBhM .framer-1h2n2r9, .framer-UaBhM .framer-dlpv88, .framer-UaBhM .framer-zokmbl, .framer-UaBhM .framer-12arpol, .framer-UaBhM .framer-1y1wi5, .framer-UaBhM .framer-xcsk9u, .framer-UaBhM .framer-1kcp2ao, .framer-UaBhM .framer-mv5f17, .framer-UaBhM .framer-n0a3b1, .framer-UaBhM .framer-vat3ft, .framer-UaBhM .framer-113kpbl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 7px; }`,
-        `.framer-UaBhM .framer-10gecie, .framer-UaBhM .framer-sc8g0l, .framer-UaBhM .framer-1iuql6i, .framer-UaBhM .framer-12s2puc, .framer-UaBhM .framer-1xfwsb1, .framer-UaBhM .framer-1i6kawf, .framer-UaBhM .framer-rf53n8, .framer-UaBhM .framer-867xl, .framer-UaBhM .framer-1tfh29b, .framer-UaBhM .framer-1eda2up, .framer-UaBhM .framer-1qw4diq, .framer-UaBhM .framer-36a1sf, .framer-UaBhM .framer-y1i8tj, .framer-UaBhM .framer-1w3w184, .framer-UaBhM .framer-41fqr7, .framer-UaBhM .framer-1r7widh, .framer-UaBhM .framer-ya9uhb, .framer-UaBhM .framer-1r8goa4, .framer-UaBhM .framer-zu341p, .framer-UaBhM .framer-xflsxq, .framer-UaBhM .framer-ho0m6l, .framer-UaBhM .framer-7nv7an, .framer-UaBhM .framer-7bj5wz, .framer-UaBhM .framer-fnyeb8, .framer-UaBhM .framer-1dgg61f, .framer-UaBhM .framer-wd5i5z, .framer-UaBhM .framer-zd88su, .framer-UaBhM .framer-1t8qsas, .framer-UaBhM .framer-13rwvn9, .framer-UaBhM .framer-hsobs1, .framer-UaBhM .framer-l3dhnu, .framer-UaBhM .framer-1vu9xoi, .framer-UaBhM .framer-qjqm97, .framer-UaBhM .framer-1c1oc41 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-18hq8p2, .framer-UaBhM .framer-bqwiqu, .framer-UaBhM .framer-1swx3aq, .framer-UaBhM .framer-1w4aefw, .framer-UaBhM .framer-1tpir69, .framer-UaBhM .framer-15rq9h7, .framer-UaBhM .framer-1m3oam1, .framer-UaBhM .framer-1ju0v5u, .framer-UaBhM .framer-1tglqmr, .framer-UaBhM .framer-1uf9mxj, .framer-UaBhM .framer-1h7hn3v, .framer-UaBhM .framer-fcegqc, .framer-UaBhM .framer-1xpg41w, .framer-UaBhM .framer-grcv3c, .framer-UaBhM .framer-9iej07, .framer-UaBhM .framer-186tb14, .framer-UaBhM .framer-iawexo, .framer-UaBhM .framer-1xvjhhw, .framer-UaBhM .framer-12sev8g, .framer-UaBhM .framer-fapyao, .framer-UaBhM .framer-1wkdjqn, .framer-UaBhM .framer-1isb641, .framer-UaBhM .framer-1thuvo1, .framer-UaBhM .framer-opqvdb, .framer-UaBhM .framer-cz9lgj, .framer-UaBhM .framer-1cxikid, .framer-UaBhM .framer-1njdv9x, .framer-UaBhM .framer-1uxj224, .framer-UaBhM .framer-36wm5j, .framer-UaBhM .framer-cmiagn, .framer-UaBhM .framer-trdy3u, .framer-UaBhM .framer-dp41nc, .framer-UaBhM .framer-1olfxnc, .framer-UaBhM .framer-1c7vd7a { background-color: #26263b; flex: none; height: 2px; overflow: hidden; position: relative; width: 3px; }`,
-        `.framer-UaBhM .framer-1blku5b, .framer-UaBhM .framer-vryvz3, .framer-UaBhM .framer-1lgx97q, .framer-UaBhM .framer-1vo5k69, .framer-UaBhM .framer-1sc3pyy, .framer-UaBhM .framer-1oy9leb, .framer-UaBhM .framer-8r580i, .framer-UaBhM .framer-1cfwvrk, .framer-UaBhM .framer-1oprtfp, .framer-UaBhM .framer-3sq8h3, .framer-UaBhM .framer-9eu0qa, .framer-UaBhM .framer-1pp8gvd, .framer-UaBhM .framer-1jpo2es, .framer-UaBhM .framer-4e81e7, .framer-UaBhM .framer-1bh4qeh, .framer-UaBhM .framer-1r06lh2, .framer-UaBhM .framer-1hh7ji4, .framer-UaBhM .framer-1j94mul, .framer-UaBhM .framer-1pwbak4, .framer-UaBhM .framer-82mlkx, .framer-UaBhM .framer-bpr2qe, .framer-UaBhM .framer-z03wpc, .framer-UaBhM .framer-1is7cls, .framer-UaBhM .framer-1822x3x, .framer-UaBhM .framer-bwg342, .framer-UaBhM .framer-1yz2he9, .framer-UaBhM .framer-1klubqh, .framer-UaBhM .framer-1i9zwqc, .framer-UaBhM .framer-11bt983, .framer-UaBhM .framer-30dnev, .framer-UaBhM .framer-3yrj4, .framer-UaBhM .framer-grfgz6, .framer-UaBhM .framer-1tlzkai, .framer-UaBhM .framer-10hqp73 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-or86ni, .framer-UaBhM .framer-l19m8k, .framer-UaBhM .framer-1ll7tok, .framer-UaBhM .framer-mqrfb2, .framer-UaBhM .framer-l765d2, .framer-UaBhM .framer-13n0vxr, .framer-UaBhM .framer-luf7wi, .framer-UaBhM .framer-13rvf71, .framer-UaBhM .framer-1iglmqd, .framer-UaBhM .framer-44fsjz, .framer-UaBhM .framer-vwx8me, .framer-UaBhM .framer-uwvk6e, .framer-UaBhM .framer-6p4uyb, .framer-UaBhM .framer-1mgctqc, .framer-UaBhM .framer-1rkg42b, .framer-UaBhM .framer-168l4j, .framer-UaBhM .framer-1w6t7gu, .framer-UaBhM .framer-1b5vybr, .framer-UaBhM .framer-2re22o, .framer-UaBhM .framer-19ymgc3, .framer-UaBhM .framer-1l1nqhm, .framer-UaBhM .framer-104g80q, .framer-UaBhM .framer-1mved3f, .framer-UaBhM .framer-1xa0xbr, .framer-UaBhM .framer-1xldh3q, .framer-UaBhM .framer-q8ut7y, .framer-UaBhM .framer-19x7o1d, .framer-UaBhM .framer-1h93ipv, .framer-UaBhM .framer-ndjb9l, .framer-UaBhM .framer-1pt695f, .framer-UaBhM .framer-12b51mw, .framer-UaBhM .framer-194mruf, .framer-UaBhM .framer-1hmmem9, .framer-UaBhM .framer-zz7l6b { background-color: #26263b; flex: none; height: 6px; overflow: hidden; position: relative; width: 3px; }`,
-        `.framer-UaBhM .framer-10qqhre, .framer-UaBhM .framer-1y3kixc, .framer-UaBhM .framer-dujhfu, .framer-UaBhM .framer-16o62ae, .framer-UaBhM .framer-jnqi3m, .framer-UaBhM .framer-fzkgk7, .framer-UaBhM .framer-1qqodxh, .framer-UaBhM .framer-1wszigl, .framer-UaBhM .framer-140tmra, .framer-UaBhM .framer-rs00n7, .framer-UaBhM .framer-baims5, .framer-UaBhM .framer-1ty5wsh, .framer-UaBhM .framer-htzwl1, .framer-UaBhM .framer-120teex, .framer-UaBhM .framer-16x1y9q, .framer-UaBhM .framer-15351tf, .framer-UaBhM .framer-yyyb0b, .framer-UaBhM .framer-1lafilr, .framer-UaBhM .framer-1n43xx3, .framer-UaBhM .framer-1q892uq, .framer-UaBhM .framer-z4jszg, .framer-UaBhM .framer-xdtpf1, .framer-UaBhM .framer-oz109a, .framer-UaBhM .framer-i4ldro, .framer-UaBhM .framer-zxc94p, .framer-UaBhM .framer-1x73ba2, .framer-UaBhM .framer-jjkcfb, .framer-UaBhM .framer-1sgbbek, .framer-UaBhM .framer-1n86hme, .framer-UaBhM .framer-16rxcnq, .framer-UaBhM .framer-oh247, .framer-UaBhM .framer-1j2j096, .framer-UaBhM .framer-14gn505, .framer-UaBhM .framer-lghanc { background-color: #26263b; flex: none; height: 30px; overflow: hidden; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-1704cpc { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 0px; transform: translateX(-50%); width: min-content; z-index: 1; }`,
-        `.framer-UaBhM .framer-1tacat3 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: -20px; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
-        `.framer-UaBhM .framer-2kludh { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
-        `.framer-UaBhM .framer-107c3z8 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; bottom: 0px; filter: invert(1); flex: none; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-        `.framer-UaBhM .framer-18f2cvk { aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 39px; border-bottom-right-radius: 39px; border-top-left-radius: 39px; border-top-right-radius: 39px; box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.52), inset 0px -4px 1px 0px rgba(255, 255, 255, 0.25); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 217px; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
-        `.framer-UaBhM .framer-imcr1b { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgba(0,0,0,0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-UaBhM .framer-8p2ooy { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 100%; z-index: 5; }`,
-        `.framer-UaBhM .framer-yr7e8u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-1lqrq9m { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-13vydhe-container, .framer-UaBhM .framer-t6hoyi-container { flex: none; height: auto; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-UaBhM .framer-a7r3bf-container, .framer-UaBhM .framer-1pcksmg-container, .framer-UaBhM .framer-1t3z73n-container, .framer-UaBhM .framer-lxy4y4-container, .framer-UaBhM .framer-1scxxvo-container { flex: none; height: auto; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-4rcdqo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: visible; padding: 75px 0px 75px 0px; position: relative; scroll-margin-top: 100px; width: 100%; }`,
-        `.framer-UaBhM .framer-rlgwnx-container { flex: none; height: 100vh; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-iis1dp { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 75px 25px 75px 25px; position: relative; scroll-margin-top: 150px; width: 100%; z-index: 1; }`,
-        `.framer-UaBhM .framer-1xenox7 { --border-bottom-width: 1px; --border-color: var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; border-bottom-left-radius: 44px; border-bottom-right-radius: 44px; border-top-left-radius: 44px; border-top-right-radius: 44px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 40px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-1pdk0aw { align-content: flex-start; align-items: flex-start; align-self: stretch; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: auto; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-UaBhM .framer-1uvw7h { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 26px; height: 1px; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-1a2p70w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-rdc6sc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-UaBhM .framer-jx47os, .framer-UaBhM .framer-dmav2q { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-UaBhM .framer-a7kr4n-container { flex: 1 0 0px; height: auto; max-width: 30%; position: sticky; top: 35px; width: 1px; z-index: 1; }`,
-        ...io,
+        `.framer-kcvvC.framer-lux5qc, .framer-kcvvC .framer-lux5qc { display: block; }`,
+        `.framer-kcvvC.framer-72rtr7 { align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1200px; }`,
+        `.framer-kcvvC .framer-7dod6r { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; scroll-margin-top: 200px; width: 100%; z-index: 5; }`,
+        `.framer-kcvvC .framer-1mki1k0 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 13%) add; align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 13%) add; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
+        `.framer-kcvvC .framer-1au44ra { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 100px; height: 500px; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-kcvvC .framer-39pjht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: 436px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-wmsqgn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; left: 18px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 9; }`,
+        `.framer-kcvvC .framer-np6d6q { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; overflow: hidden; padding: 0px; position: absolute; right: 22px; top: -5px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 5; }`,
+        `.framer-kcvvC .framer-1ok201j-container { flex: none; height: 550px; position: relative; width: 100%; z-index: 3; }`,
+        `.framer-kcvvC .framer-13indg1 { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) add; mix-blend-mode: screen; opacity: 0.09; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-kcvvC .framer-2y58l1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; scroll-margin-top: 150px; width: 100%; }`,
+        `.framer-kcvvC .framer-k0af9v { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 27px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 100px 25px 100px 25px; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-yg6vbi { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 100px; height: 800px; justify-content: center; padding: 40px 0px 0px 0px; position: sticky; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-kcvvC .framer-1qlm5z7, .framer-kcvvC .framer-11h0s18 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-kcvvC .framer-la7fvh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 17px; height: min-content; justify-content: center; max-width: 975px; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-1ix5vbv, .framer-kcvvC .framer-19nc088, .framer-kcvvC .framer-5aywpq, .framer-kcvvC .framer-esox5h, .framer-kcvvC .framer-qoiezj, .framer-kcvvC .framer-1a10g8j, .framer-kcvvC .framer-1kw4qni, .framer-kcvvC .framer-cwkj3m, .framer-kcvvC .framer-1v0joqm, .framer-kcvvC .framer-1g13tt7, .framer-kcvvC .framer-1t98ne0 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+        `.framer-kcvvC .framer-1obwh4c, .framer-kcvvC .framer-lvsu6d, .framer-kcvvC .framer-10pj67n, .framer-kcvvC .framer-1fiua8d { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 62px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 62px; will-change: var(--framer-will-change-filter-override, filter); }`,
+        `.framer-kcvvC .framer-16gd5iv, .framer-kcvvC .framer-1fv2udu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-flkrtb { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-1afaic6 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-1l0fz2d, .framer-kcvvC .framer-y0l0rk { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-1unbp0v-container, .framer-kcvvC .framer-zroyd3-container { flex: none; height: auto; position: relative; width: auto; }`,
+        `.framer-kcvvC .framer-kwokev, .framer-kcvvC .framer-fgnpc0, .framer-kcvvC .framer-i58id4, .framer-kcvvC .framer-tqr107 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 500px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-kcvvC .framer-wdmzrp, .framer-kcvvC .framer-1i2yrmx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-be6r75-container, .framer-kcvvC .framer-1d14rzc-container, .framer-kcvvC .framer-1t71dbs-container, .framer-kcvvC .framer-1vo5xwn-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-154jz2f-container { align-self: stretch; flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-zqr5yg { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 0; }`,
+        `.framer-kcvvC .framer-1v3a43r { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-feyxnm { --border-bottom-width: 1px; --border-color: rgba(250, 250, 250, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-bottom-left-radius: 34px; border-bottom-right-radius: 34px; border-top-left-radius: 34px; border-top-right-radius: 34px; box-shadow: inset 0px 0.421531111242075px 0.421531111242075px -0.8333333333333333px rgba(255, 255, 255, 0.13), inset 0px 1.60197331227042px 1.60197331227042px -1.6666666666666665px rgba(255, 255, 255, 0.13), inset 0px 7px 7px -2.5px rgba(255, 255, 255, 0.13); display: grid; flex: none; gap: 20px 20px; grid-auto-rows: min-content; grid-template-columns: repeat(auto-fill, minmax(282px, 1fr)); height: min-content; justify-content: center; overflow: visible; padding: 20px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-1psnt4v, .framer-kcvvC .framer-xjqzmg, .framer-kcvvC .framer-16c0xdy, .framer-kcvvC .framer-xngrzv { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 1fr; }`,
+        `.framer-kcvvC .framer-jx3klg-container { cursor: default; flex: none; height: 270px; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-kcvvC .framer-6uiyx3, .framer-kcvvC .framer-f9gs6n { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-f3x7a-container, .framer-kcvvC .framer-8lw8u4-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-kcvvC .framer-ztv74n-container, .framer-kcvvC .framer-1elfzky-container { cursor: default; flex: none; height: 330px; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-kcvvC .framer-znhnrm-container { flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-kcvvC .framer-w99w4p { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; aspect-ratio: 1.0126582278481013 / 1; background-color: #010117; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: auto; justify-content: center; overflow: hidden; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-kcvvC .framer-nbkp49 { flex: none; height: 342px; left: calc(50.00000000000002% - 429px / 2); overflow: hidden; position: absolute; top: calc(50.09041591320075% - 342px / 2); width: 429px; z-index: 6; }`,
+        `.framer-kcvvC .framer-n8js10 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; bottom: 1px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; left: 0px; padding: 30px; position: absolute; width: min-content; z-index: 8; }`,
+        `.framer-kcvvC .framer-1axadyl, .framer-kcvvC .framer-1madksd { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-kcvvC .framer-uf1zfz, .framer-kcvvC .framer-1ily88o { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-kcvvC .framer-1s4cmew, .framer-kcvvC .framer-1bxaqb { background-color: rgba(255, 255, 255, 0.1); flex: none; height: 1px; overflow: hidden; position: relative; width: 231px; }`,
+        `.framer-kcvvC .framer-34b1uq, .framer-kcvvC .framer-1q33nos, .framer-kcvvC .framer-1fkwiq9, .framer-kcvvC .framer-1t7yud9, .framer-kcvvC .framer-gnplo5 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; align-self: stretch; flex: none; height: auto; position: relative; white-space: pre-wrap; width: auto; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-kcvvC .framer-9zmqk2 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; padding: 30px; position: absolute; right: 0px; top: 1px; width: min-content; z-index: 9; }`,
+        `.framer-kcvvC .framer-putkun, .framer-kcvvC .framer-1xda8k8, .framer-kcvvC .framer-1kor0q7 { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: auto; }`,
+        `.framer-kcvvC .framer-p6tjzn, .framer-kcvvC .framer-bj3gl6 { aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-kcvvC .framer-1q7qg1, .framer-kcvvC .framer-rgkh0s, .framer-kcvvC .framer-8d4qq { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-kcvvC .framer-l5pl4y { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.29); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-kcvvC .framer-1mc1cmk-container { flex: none; height: 20px; left: calc(50.00000000000002% - 20px / 2); position: absolute; top: calc(50.00000000000002% - 20px / 2); width: 20px; }`,
+        `.framer-kcvvC .framer-hajfu1 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.15; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-kcvvC .framer-101kz2c { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-gug6nb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-561hc4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 100vh; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-swwljn { flex: none; height: 100vh; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-kcvvC .framer-heo43w { -webkit-mask: radial-gradient(36% 53% at 50% 50%, #000000 0%, rgba(0,0,0,0) 100%) add; bottom: 0px; flex: none; left: 0px; mask: radial-gradient(36% 53% at 50% 50%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%) add; opacity: 0.3; overflow: hidden; position: absolute; right: 0px; top: 0px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
+        `.framer-kcvvC .framer-usmt83 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; border-top-left-radius: 50px; border-top-right-radius: 50px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 240px; justify-content: center; left: calc(50.00000000000002% - 240px / 2); overflow: visible; padding: 60px 40px 60px 40px; position: absolute; top: calc(50.062893081761025% - 240px / 2); width: 240px; z-index: 5; }`,
+        `.framer-kcvvC .framer-184qr9z { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: #010117; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-top-left-radius: 45px; border-top-right-radius: 45px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.1), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px -5px 0px 0px rgb(18, 18, 38); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 230px; justify-content: center; overflow: visible; padding: 60px 40px 60px 40px; position: relative; width: 230px; }`,
+        `.framer-kcvvC .framer-ix4n7k { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.08); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: #0f0f1c; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; border-top-left-radius: 11px; border-top-right-radius: 11px; box-shadow: inset 0px -5px 0px 0px #151526, 0px 2px 50px 0px rgba(255, 255, 255, 0.25); flex: none; height: 100px; left: calc(50.00000000000002% - 100px / 2); overflow: visible; position: absolute; top: calc(50.00000000000002% - 100px / 2); width: 100px; z-index: 8; }`,
+        `.framer-kcvvC .framer-shxrxy { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); white-space: pre; width: auto; z-index: 3; }`,
+        `.framer-kcvvC .framer-eby5ch { -webkit-filter: blur(50px); aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; border-top-left-radius: 60px; border-top-right-radius: 60px; filter: blur(50px); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 149px; will-change: var(--framer-will-change-override, transform); z-index: 7; }`,
+        `.framer-kcvvC .framer-ua5e1b { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; bottom: 0px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; transform: translateX(-50%); width: min-content; z-index: 1; }`,
+        `.framer-kcvvC .framer-d2f385, .framer-kcvvC .framer-9gt9oc, .framer-kcvvC .framer-1esk5v6, .framer-kcvvC .framer-1x0uys9, .framer-kcvvC .framer-amoeb6, .framer-kcvvC .framer-6hekwl, .framer-kcvvC .framer-1srqqzw, .framer-kcvvC .framer-425ty6, .framer-kcvvC .framer-so1fg0, .framer-kcvvC .framer-9pkixk, .framer-kcvvC .framer-1dqaayv, .framer-kcvvC .framer-lov685, .framer-kcvvC .framer-1p36qzv, .framer-kcvvC .framer-1swmpqo, .framer-kcvvC .framer-1lphk7i, .framer-kcvvC .framer-1dghyv2, .framer-kcvvC .framer-1biver0, .framer-kcvvC .framer-bi87nm, .framer-kcvvC .framer-zgcfdk, .framer-kcvvC .framer-1sj3ks9, .framer-kcvvC .framer-f487ef, .framer-kcvvC .framer-1tte299, .framer-kcvvC .framer-p4hlcq, .framer-kcvvC .framer-1h2n2r9, .framer-kcvvC .framer-dlpv88, .framer-kcvvC .framer-zokmbl, .framer-kcvvC .framer-12arpol, .framer-kcvvC .framer-1y1wi5, .framer-kcvvC .framer-xcsk9u, .framer-kcvvC .framer-1kcp2ao, .framer-kcvvC .framer-mv5f17, .framer-kcvvC .framer-n0a3b1, .framer-kcvvC .framer-vat3ft, .framer-kcvvC .framer-113kpbl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 7px; }`,
+        `.framer-kcvvC .framer-10gecie, .framer-kcvvC .framer-sc8g0l, .framer-kcvvC .framer-1iuql6i, .framer-kcvvC .framer-12s2puc, .framer-kcvvC .framer-1xfwsb1, .framer-kcvvC .framer-1i6kawf, .framer-kcvvC .framer-rf53n8, .framer-kcvvC .framer-867xl, .framer-kcvvC .framer-1tfh29b, .framer-kcvvC .framer-1eda2up, .framer-kcvvC .framer-1qw4diq, .framer-kcvvC .framer-36a1sf, .framer-kcvvC .framer-y1i8tj, .framer-kcvvC .framer-1w3w184, .framer-kcvvC .framer-41fqr7, .framer-kcvvC .framer-1r7widh, .framer-kcvvC .framer-ya9uhb, .framer-kcvvC .framer-1r8goa4, .framer-kcvvC .framer-zu341p, .framer-kcvvC .framer-xflsxq, .framer-kcvvC .framer-ho0m6l, .framer-kcvvC .framer-7nv7an, .framer-kcvvC .framer-7bj5wz, .framer-kcvvC .framer-fnyeb8, .framer-kcvvC .framer-1dgg61f, .framer-kcvvC .framer-wd5i5z, .framer-kcvvC .framer-zd88su, .framer-kcvvC .framer-1t8qsas, .framer-kcvvC .framer-13rwvn9, .framer-kcvvC .framer-hsobs1, .framer-kcvvC .framer-l3dhnu, .framer-kcvvC .framer-1vu9xoi, .framer-kcvvC .framer-qjqm97, .framer-kcvvC .framer-1c1oc41 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-18hq8p2, .framer-kcvvC .framer-bqwiqu, .framer-kcvvC .framer-1swx3aq, .framer-kcvvC .framer-1w4aefw, .framer-kcvvC .framer-1tpir69, .framer-kcvvC .framer-15rq9h7, .framer-kcvvC .framer-1m3oam1, .framer-kcvvC .framer-1ju0v5u, .framer-kcvvC .framer-1tglqmr, .framer-kcvvC .framer-1uf9mxj, .framer-kcvvC .framer-1h7hn3v, .framer-kcvvC .framer-fcegqc, .framer-kcvvC .framer-1xpg41w, .framer-kcvvC .framer-grcv3c, .framer-kcvvC .framer-9iej07, .framer-kcvvC .framer-186tb14, .framer-kcvvC .framer-iawexo, .framer-kcvvC .framer-1xvjhhw, .framer-kcvvC .framer-12sev8g, .framer-kcvvC .framer-fapyao, .framer-kcvvC .framer-1wkdjqn, .framer-kcvvC .framer-1isb641, .framer-kcvvC .framer-1thuvo1, .framer-kcvvC .framer-opqvdb, .framer-kcvvC .framer-cz9lgj, .framer-kcvvC .framer-1cxikid, .framer-kcvvC .framer-1njdv9x, .framer-kcvvC .framer-1uxj224, .framer-kcvvC .framer-36wm5j, .framer-kcvvC .framer-cmiagn, .framer-kcvvC .framer-trdy3u, .framer-kcvvC .framer-dp41nc, .framer-kcvvC .framer-1olfxnc, .framer-kcvvC .framer-1c7vd7a { background-color: #26263b; flex: none; height: 2px; overflow: hidden; position: relative; width: 3px; }`,
+        `.framer-kcvvC .framer-1blku5b, .framer-kcvvC .framer-vryvz3, .framer-kcvvC .framer-1lgx97q, .framer-kcvvC .framer-1vo5k69, .framer-kcvvC .framer-1sc3pyy, .framer-kcvvC .framer-1oy9leb, .framer-kcvvC .framer-8r580i, .framer-kcvvC .framer-1cfwvrk, .framer-kcvvC .framer-1oprtfp, .framer-kcvvC .framer-3sq8h3, .framer-kcvvC .framer-9eu0qa, .framer-kcvvC .framer-1pp8gvd, .framer-kcvvC .framer-1jpo2es, .framer-kcvvC .framer-4e81e7, .framer-kcvvC .framer-1bh4qeh, .framer-kcvvC .framer-1r06lh2, .framer-kcvvC .framer-1hh7ji4, .framer-kcvvC .framer-1j94mul, .framer-kcvvC .framer-1pwbak4, .framer-kcvvC .framer-82mlkx, .framer-kcvvC .framer-bpr2qe, .framer-kcvvC .framer-z03wpc, .framer-kcvvC .framer-1is7cls, .framer-kcvvC .framer-1822x3x, .framer-kcvvC .framer-bwg342, .framer-kcvvC .framer-1yz2he9, .framer-kcvvC .framer-1klubqh, .framer-kcvvC .framer-1i9zwqc, .framer-kcvvC .framer-11bt983, .framer-kcvvC .framer-30dnev, .framer-kcvvC .framer-3yrj4, .framer-kcvvC .framer-grfgz6, .framer-kcvvC .framer-1tlzkai, .framer-kcvvC .framer-10hqp73 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-or86ni, .framer-kcvvC .framer-l19m8k, .framer-kcvvC .framer-1ll7tok, .framer-kcvvC .framer-mqrfb2, .framer-kcvvC .framer-l765d2, .framer-kcvvC .framer-13n0vxr, .framer-kcvvC .framer-luf7wi, .framer-kcvvC .framer-13rvf71, .framer-kcvvC .framer-1iglmqd, .framer-kcvvC .framer-44fsjz, .framer-kcvvC .framer-vwx8me, .framer-kcvvC .framer-uwvk6e, .framer-kcvvC .framer-6p4uyb, .framer-kcvvC .framer-1mgctqc, .framer-kcvvC .framer-1rkg42b, .framer-kcvvC .framer-168l4j, .framer-kcvvC .framer-1w6t7gu, .framer-kcvvC .framer-1b5vybr, .framer-kcvvC .framer-2re22o, .framer-kcvvC .framer-19ymgc3, .framer-kcvvC .framer-1l1nqhm, .framer-kcvvC .framer-104g80q, .framer-kcvvC .framer-1mved3f, .framer-kcvvC .framer-1xa0xbr, .framer-kcvvC .framer-1xldh3q, .framer-kcvvC .framer-q8ut7y, .framer-kcvvC .framer-19x7o1d, .framer-kcvvC .framer-1h93ipv, .framer-kcvvC .framer-ndjb9l, .framer-kcvvC .framer-1pt695f, .framer-kcvvC .framer-12b51mw, .framer-kcvvC .framer-194mruf, .framer-kcvvC .framer-1hmmem9, .framer-kcvvC .framer-zz7l6b { background-color: #26263b; flex: none; height: 6px; overflow: hidden; position: relative; width: 3px; }`,
+        `.framer-kcvvC .framer-10qqhre, .framer-kcvvC .framer-1y3kixc, .framer-kcvvC .framer-dujhfu, .framer-kcvvC .framer-16o62ae, .framer-kcvvC .framer-jnqi3m, .framer-kcvvC .framer-fzkgk7, .framer-kcvvC .framer-1qqodxh, .framer-kcvvC .framer-1wszigl, .framer-kcvvC .framer-140tmra, .framer-kcvvC .framer-rs00n7, .framer-kcvvC .framer-baims5, .framer-kcvvC .framer-1ty5wsh, .framer-kcvvC .framer-htzwl1, .framer-kcvvC .framer-120teex, .framer-kcvvC .framer-16x1y9q, .framer-kcvvC .framer-15351tf, .framer-kcvvC .framer-yyyb0b, .framer-kcvvC .framer-1lafilr, .framer-kcvvC .framer-1n43xx3, .framer-kcvvC .framer-1q892uq, .framer-kcvvC .framer-z4jszg, .framer-kcvvC .framer-xdtpf1, .framer-kcvvC .framer-oz109a, .framer-kcvvC .framer-i4ldro, .framer-kcvvC .framer-zxc94p, .framer-kcvvC .framer-1x73ba2, .framer-kcvvC .framer-jjkcfb, .framer-kcvvC .framer-1sgbbek, .framer-kcvvC .framer-1n86hme, .framer-kcvvC .framer-16rxcnq, .framer-kcvvC .framer-oh247, .framer-kcvvC .framer-1j2j096, .framer-kcvvC .framer-14gn505, .framer-kcvvC .framer-lghanc { background-color: #26263b; flex: none; height: 30px; overflow: hidden; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-1704cpc { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 0px; transform: translateX(-50%); width: min-content; z-index: 1; }`,
+        `.framer-kcvvC .framer-1tacat3 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: -20px; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
+        `.framer-kcvvC .framer-2kludh { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
+        `.framer-kcvvC .framer-107c3z8 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; bottom: 0px; filter: invert(1); flex: none; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+        `.framer-kcvvC .framer-18f2cvk { aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 39px; border-bottom-right-radius: 39px; border-top-left-radius: 39px; border-top-right-radius: 39px; box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.52), inset 0px -4px 1px 0px rgba(255, 255, 255, 0.25); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 217px; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
+        `.framer-kcvvC .framer-imcr1b { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgba(0,0,0,0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-kcvvC .framer-8p2ooy { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 100%; z-index: 5; }`,
+        `.framer-kcvvC .framer-yr7e8u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-1lqrq9m { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-13vydhe-container, .framer-kcvvC .framer-t6hoyi-container { flex: none; height: auto; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-kcvvC .framer-a7r3bf-container, .framer-kcvvC .framer-1pcksmg-container, .framer-kcvvC .framer-1t3z73n-container, .framer-kcvvC .framer-lxy4y4-container, .framer-kcvvC .framer-1scxxvo-container { flex: none; height: auto; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-4rcdqo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: visible; padding: 75px 0px 75px 0px; position: relative; scroll-margin-top: 100px; width: 100%; }`,
+        `.framer-kcvvC .framer-rlgwnx-container { flex: none; height: 100vh; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-iis1dp { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 75px 25px 75px 25px; position: relative; scroll-margin-top: 150px; width: 100%; z-index: 1; }`,
+        `.framer-kcvvC .framer-1xenox7 { --border-bottom-width: 1px; --border-color: var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; border-bottom-left-radius: 44px; border-bottom-right-radius: 44px; border-top-left-radius: 44px; border-top-right-radius: 44px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 40px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-1pdk0aw { align-content: flex-start; align-items: flex-start; align-self: stretch; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: auto; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-kcvvC .framer-1uvw7h { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 26px; height: 1px; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-1a2p70w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-rdc6sc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-kcvvC .framer-jx47os, .framer-kcvvC .framer-dmav2q { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-kcvvC .framer-a7kr4n-container { flex: 1 0 0px; height: auto; max-width: 30%; position: sticky; top: 35px; width: 1px; z-index: 1; }`,
+        ...ao,
         ...kt,
         ...ct,
-        ...eo,
+        ...to,
         ...Ae,
-        ...co,
-        `.framer-UaBhM[data-border="true"]::after, .framer-UaBhM [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
-        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-UaBhM.framer-72rtr7 { width: 810px; } .framer-UaBhM .framer-1au44ra { gap: 50px; padding: 50px 25px 0px 25px; } .framer-UaBhM .framer-wmsqgn { left: 50px; } .framer-UaBhM .framer-np6d6q { right: 50px; } .framer-UaBhM .framer-k0af9v, .framer-UaBhM .framer-1v3a43r { padding: 50px 25px 50px 25px; } .framer-UaBhM .framer-la7fvh { gap: 5px 10px; max-width: 600px; } .framer-UaBhM .framer-16gd5iv, .framer-UaBhM .framer-1fv2udu { flex-direction: column; padding: 50px 25px 50px 25px; } .framer-UaBhM .framer-flkrtb { flex: none; width: 100%; } .framer-UaBhM .framer-1l0fz2d, .framer-UaBhM .framer-y0l0rk { align-content: center; align-items: center; } .framer-UaBhM .framer-fgnpc0, .framer-UaBhM .framer-tqr107 { max-width: 450px; } .framer-UaBhM .framer-wdmzrp, .framer-UaBhM .framer-1i2yrmx { gap: 20px; } .framer-UaBhM .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-UaBhM .framer-w99w4p { flex: none; order: 1; width: 100%; } .framer-UaBhM .framer-101kz2c { flex: none; order: 0; width: 100%; } .framer-UaBhM .framer-561hc4 { padding: 100px 0px 100px 0px; } .framer-UaBhM .framer-1lqrq9m { gap: 50px; padding: 50px 25px 50px 25px; } .framer-UaBhM .framer-4rcdqo { padding: 50px 0px 50px 0px; } .framer-UaBhM .framer-iis1dp { padding: 24px; } .framer-UaBhM .framer-1xenox7 { flex-direction: column; } .framer-UaBhM .framer-1pdk0aw { align-self: unset; flex: none; height: min-content; width: 100%; } .framer-UaBhM .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
-        `@media (max-width: 809.98px) { .framer-UaBhM.framer-72rtr7 { width: 390px; } .framer-UaBhM .framer-7dod6r { flex-direction: column; padding: 75px 0px 0px 0px; } .framer-UaBhM .framer-1mki1k0, .framer-UaBhM .framer-flkrtb, .framer-UaBhM .framer-be6r75-container, .framer-UaBhM .framer-1d14rzc-container, .framer-UaBhM .framer-w99w4p, .framer-UaBhM .framer-101kz2c, .framer-UaBhM .framer-1t71dbs-container, .framer-UaBhM .framer-1vo5xwn-container { flex: none; width: 100%; } .framer-UaBhM .framer-1au44ra { gap: 36px; padding: 20px 25px 0px 25px; } .framer-UaBhM .framer-wmsqgn { aspect-ratio: 1 / 1; height: auto; left: 0px; top: 45px; width: 60px; } .framer-UaBhM .framer-np6d6q { aspect-ratio: 1 / 1; height: auto; right: 0px; top: 45px; width: 60px; } .framer-UaBhM .framer-2y58l1 { flex-direction: column; scroll-margin-top: unset; } .framer-UaBhM .framer-k0af9v, .framer-UaBhM .framer-1v3a43r { flex: none; padding: 30px 20px 30px 20px; width: 100%; } .framer-UaBhM .framer-la7fvh { gap: 5px 10px; max-width: 95%; } .framer-UaBhM .framer-1obwh4c, .framer-UaBhM .framer-lvsu6d, .framer-UaBhM .framer-10pj67n, .framer-UaBhM .framer-1fiua8d { aspect-ratio: 1 / 1; height: auto; width: 48px; } .framer-UaBhM .framer-16gd5iv { flex-direction: column; gap: 30px; padding: 30px 20px 30px 20px; } .framer-UaBhM .framer-1afaic6 { align-content: center; align-items: center; padding: 10px; } .framer-UaBhM .framer-1l0fz2d, .framer-UaBhM .framer-y0l0rk { align-content: center; align-items: center; } .framer-UaBhM .framer-wdmzrp, .framer-UaBhM .framer-1i2yrmx { flex-direction: column; gap: 20px; } .framer-UaBhM .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-UaBhM .framer-zqr5yg, .framer-UaBhM .framer-yr7e8u { flex-direction: column; } .framer-UaBhM .framer-feyxnm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; } .framer-UaBhM .framer-1psnt4v, .framer-UaBhM .framer-xjqzmg, .framer-UaBhM .framer-16c0xdy, .framer-UaBhM .framer-xngrzv { align-self: unset; width: 100%; } .framer-UaBhM .framer-6uiyx3, .framer-UaBhM .framer-f9gs6n { align-self: unset; } .framer-UaBhM .framer-1fv2udu { flex-direction: column; padding: 30px 20px 30px 20px; } .framer-UaBhM .framer-gug6nb { align-content: center; align-items: center; gap: 30px; padding: 10px; } .framer-UaBhM .framer-1lqrq9m { flex: none; gap: 30px; padding: 30px 20px 30px 20px; width: 100%; } .framer-UaBhM .framer-4rcdqo { padding: 30px 0px 30px 0px; } .framer-UaBhM .framer-rlgwnx-container { height: 50vh; } .framer-UaBhM .framer-iis1dp { padding: 20px; } .framer-UaBhM .framer-1xenox7 { flex-direction: column; padding: 25px; } .framer-UaBhM .framer-1pdk0aw { align-self: unset; flex: none; gap: 30px; height: min-content; width: 100%; } .framer-UaBhM .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
+        ...lo,
+        `.framer-kcvvC[data-border="true"]::after, .framer-kcvvC [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-kcvvC.framer-72rtr7 { width: 810px; } .framer-kcvvC .framer-1au44ra { gap: 50px; padding: 50px 25px 0px 25px; } .framer-kcvvC .framer-wmsqgn { left: 50px; } .framer-kcvvC .framer-np6d6q { right: 50px; } .framer-kcvvC .framer-k0af9v, .framer-kcvvC .framer-1v3a43r { padding: 50px 25px 50px 25px; } .framer-kcvvC .framer-la7fvh { gap: 5px 10px; max-width: 600px; } .framer-kcvvC .framer-16gd5iv, .framer-kcvvC .framer-1fv2udu { flex-direction: column; padding: 50px 25px 50px 25px; } .framer-kcvvC .framer-flkrtb { flex: none; width: 100%; } .framer-kcvvC .framer-1l0fz2d, .framer-kcvvC .framer-y0l0rk { align-content: center; align-items: center; } .framer-kcvvC .framer-fgnpc0, .framer-kcvvC .framer-tqr107 { max-width: 450px; } .framer-kcvvC .framer-wdmzrp, .framer-kcvvC .framer-1i2yrmx { gap: 20px; } .framer-kcvvC .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-kcvvC .framer-w99w4p { flex: none; order: 1; width: 100%; } .framer-kcvvC .framer-101kz2c { flex: none; order: 0; width: 100%; } .framer-kcvvC .framer-561hc4 { padding: 100px 0px 100px 0px; } .framer-kcvvC .framer-1lqrq9m { gap: 50px; padding: 50px 25px 50px 25px; } .framer-kcvvC .framer-4rcdqo { padding: 50px 0px 50px 0px; } .framer-kcvvC .framer-iis1dp { padding: 24px; } .framer-kcvvC .framer-1xenox7 { flex-direction: column; } .framer-kcvvC .framer-1pdk0aw { align-self: unset; flex: none; height: min-content; width: 100%; } .framer-kcvvC .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
+        `@media (max-width: 809.98px) { .framer-kcvvC.framer-72rtr7 { width: 390px; } .framer-kcvvC .framer-7dod6r { flex-direction: column; padding: 75px 0px 0px 0px; } .framer-kcvvC .framer-1mki1k0, .framer-kcvvC .framer-flkrtb, .framer-kcvvC .framer-be6r75-container, .framer-kcvvC .framer-1d14rzc-container, .framer-kcvvC .framer-w99w4p, .framer-kcvvC .framer-101kz2c, .framer-kcvvC .framer-1t71dbs-container, .framer-kcvvC .framer-1vo5xwn-container { flex: none; width: 100%; } .framer-kcvvC .framer-1au44ra { gap: 36px; padding: 20px 25px 0px 25px; } .framer-kcvvC .framer-wmsqgn { aspect-ratio: 1 / 1; height: auto; left: 0px; top: 45px; width: 60px; } .framer-kcvvC .framer-np6d6q { aspect-ratio: 1 / 1; height: auto; right: 0px; top: 45px; width: 60px; } .framer-kcvvC .framer-2y58l1 { flex-direction: column; scroll-margin-top: unset; } .framer-kcvvC .framer-k0af9v, .framer-kcvvC .framer-1v3a43r { flex: none; padding: 30px 20px 30px 20px; width: 100%; } .framer-kcvvC .framer-la7fvh { gap: 5px 10px; max-width: 95%; } .framer-kcvvC .framer-1obwh4c, .framer-kcvvC .framer-lvsu6d, .framer-kcvvC .framer-10pj67n, .framer-kcvvC .framer-1fiua8d { aspect-ratio: 1 / 1; height: auto; width: 48px; } .framer-kcvvC .framer-16gd5iv { flex-direction: column; gap: 30px; padding: 30px 20px 30px 20px; } .framer-kcvvC .framer-1afaic6 { align-content: center; align-items: center; padding: 10px; } .framer-kcvvC .framer-1l0fz2d, .framer-kcvvC .framer-y0l0rk { align-content: center; align-items: center; } .framer-kcvvC .framer-wdmzrp, .framer-kcvvC .framer-1i2yrmx { flex-direction: column; gap: 20px; } .framer-kcvvC .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-kcvvC .framer-zqr5yg, .framer-kcvvC .framer-yr7e8u { flex-direction: column; } .framer-kcvvC .framer-feyxnm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; } .framer-kcvvC .framer-1psnt4v, .framer-kcvvC .framer-xjqzmg, .framer-kcvvC .framer-16c0xdy, .framer-kcvvC .framer-xngrzv { align-self: unset; width: 100%; } .framer-kcvvC .framer-6uiyx3, .framer-kcvvC .framer-f9gs6n { align-self: unset; } .framer-kcvvC .framer-1fv2udu { flex-direction: column; padding: 30px 20px 30px 20px; } .framer-kcvvC .framer-gug6nb { align-content: center; align-items: center; gap: 30px; padding: 10px; } .framer-kcvvC .framer-1lqrq9m { flex: none; gap: 30px; padding: 30px 20px 30px 20px; width: 100%; } .framer-kcvvC .framer-4rcdqo { padding: 30px 0px 30px 0px; } .framer-kcvvC .framer-rlgwnx-container { height: 50vh; } .framer-kcvvC .framer-iis1dp { padding: 20px; } .framer-kcvvC .framer-1xenox7 { flex-direction: column; padding: 25px; } .framer-kcvvC .framer-1pdk0aw { align-self: unset; flex: none; gap: 30px; height: min-content; width: 100%; } .framer-kcvvC .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
       ],
-      `framer-UaBhM`
+      `framer-kcvvC`
     )),
-    (Ro.displayName = `Home`),
-    (Ro.defaultProps = { height: 8111, width: 1200 }),
+    (zo.displayName = `Home`),
+    (zo.defaultProps = { height: 8111, width: 1200 }),
     I(
-      Ro,
+      zo,
       [
         {
           explicitInter: !0,
@@ -12771,68 +12786,68 @@ e(() => {
             },
           ],
         },
-        ...po,
         ...mo,
         ...ho,
         ...go,
         ..._o,
-        ...yo,
+        ...vo,
         ...bo,
         ...xo,
-        ...Co,
+        ...So,
         ...wo,
-        ...N(ro),
+        ...To,
+        ...N(io),
         ...N(Ot),
         ...N(st),
-        ...N($a),
+        ...N(eo),
         ...N(je),
-        ...N(so),
+        ...N(co),
       ],
       { supportsExplicitInterCodegen: !0 }
     ),
-    (Ro.loader = {
+    (zo.loader = {
       load: (e, t) => (
         t.locale,
         Promise.allSettled([
-          A(qr, {}, t),
+          A(Jr, {}, t),
           A(Ht, {}, t),
           A(X, {}, t),
-          A(Er, {}, t),
-          A(Qt, {}, t),
-          A(Ia, {}, t),
-          A(gi, {}, t),
-          A(Za, {}, t),
-          A(Hi, {}, t),
+          A(Dr, {}, t),
+          A($t, {}, t),
+          A(La, {}, t),
+          A(_i, {}, t),
+          A(Qa, {}, t),
+          A(Ui, {}, t),
         ])
       ),
     }),
-    (zo = {
+    (Bo = {
       exports: {
+        Props: { type: `tsType`, annotations: { framerContractVersion: `1` } },
         default: {
           type: `reactComponent`,
           name: `FrameraugiA20Il`,
           slots: [],
           annotations: {
+            framerComponentViewportWidth: `true`,
             framerContractVersion: `1`,
-            framerDisplayContentsDiv: `false`,
-            framerAutoSizeImages: `true`,
+            framerImmutableVariables: `true`,
             framerScrollSections: `{"iYUNHqCEb":{"pattern":":iYUNHqCEb","name":"hero"},"U6VhzUg6a":{"pattern":":U6VhzUg6a","name":"richtext"},"N2ijbw0rP":{"pattern":":N2ijbw0rP","name":"features"},"lCq8UO0dC":{"pattern":":lCq8UO0dC","name":"image-gen"},"zKzXmXRGU":{"pattern":":zKzXmXRGU","name":"showcases"},"sgmlFhWUG":{"pattern":":sgmlFhWUG","name":"product"},"v99AbFhke":{"pattern":":v99AbFhke","name":"faqs"}}`,
+            framerAcceptsLayoutTemplate: `true`,
             framerLayoutTemplateFlowEffect: `true`,
             framerIntrinsicWidth: `1200`,
-            framerImmutableVariables: `true`,
+            framerDisplayContentsDiv: `false`,
             framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"MNFOeKjhJ":{"layout":["fixed","auto"]},"dV9dN50OP":{"layout":["fixed","auto"]}}}`,
-            framerComponentViewportWidth: `true`,
-            framerResponsiveScreen: `true`,
-            framerColorSyntax: `true`,
-            framerAcceptsLayoutTemplate: `true`,
             framerIntrinsicHeight: `8111`,
+            framerAutoSizeImages: `true`,
+            framerColorSyntax: `true`,
+            framerResponsiveScreen: `true`,
           },
         },
         queryParamNames: { type: `variable`, annotations: { framerContractVersion: `1` } },
-        Props: { type: `tsType`, annotations: { framerContractVersion: `1` } },
         __FramerMetadata__: { type: `variable` },
       },
     }));
 })();
-export { zo as __FramerMetadata__, Ro as default, Eo as queryParamNames };
-//# sourceMappingURL=MXp9CUfd2AyvZN6dVzVFiMWEjmD05HPxKj2V7ILvLL0.CzNSjqi7.mjs.map
+export { Bo as __FramerMetadata__, zo as default, Do as queryParamNames };
+//# sourceMappingURL=wOyoAXAb_2F4NIa_VHopWICvigMknF3qFrnKrY7IOx4.CrUNP7oi.mjs.map
