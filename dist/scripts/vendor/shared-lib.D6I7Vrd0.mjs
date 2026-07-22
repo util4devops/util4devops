@@ -8,36 +8,34 @@ import {
   _ as o,
   c as s,
   l as c,
-  o as l,
-  y as ee,
-  z as te,
+  o as ee,
+  y as l,
 } from "./react.B4kFiiQA.mjs";
-import { S as u, a as d, r as ne, t as f } from "./motion.CYX_XZth.mjs";
+import { S as u, a as d, r as f, t as p } from "./motion.CYX_XZth.mjs";
 import {
-  B as p,
-  N as m,
-  P as h,
-  T as g,
-  Z as _,
-  _ as v,
-  b as y,
-  ct as re,
-  h as b,
+  B as m,
+  N as h,
+  P as g,
+  T as _,
+  Z as v,
+  _ as y,
+  b,
+  ct as te,
   lt as x,
-  nt as ie,
+  nt as ne,
   r as S,
   s as C,
-  u as w,
-  w as T,
-  x as E,
+  u as re,
+  w,
+  x as T,
 } from "./framer.D26jh1-v.mjs";
-var D,
+var E,
+  D,
   O,
-  k,
-  ae = e(() => {
-    (p(),
-      g.loadFonts([`Inter-Medium`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-MediumItalic`]),
-      (D = [
+  k = e(() => {
+    (m(),
+      _.loadFonts([`Inter-Medium`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-MediumItalic`]),
+      (E = [
         {
           explicitInter: !0,
           fonts: [
@@ -268,20 +266,20 @@ var D,
           ],
         },
       ]),
-      (O = [
+      (D = [
         `.framer-mhfY5 .framer-styles-preset-ke6suj:not(.rich-text-wrapper), .framer-mhfY5 .framer-styles-preset-ke6suj.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0px; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-mhfY5 .framer-styles-preset-ke6suj:not(.rich-text-wrapper), .framer-mhfY5 .framer-styles-preset-ke6suj.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0px; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-mhfY5 .framer-styles-preset-ke6suj:not(.rich-text-wrapper), .framer-mhfY5 .framer-styles-preset-ke6suj.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0px; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (k = `framer-mhfY5`));
+      (O = `framer-mhfY5`));
   }),
-  oe,
   A,
+  ie,
   j,
-  M = e(() => {
-    (p(),
-      g.loadFonts([`GF;Inter-500`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-500italic`]),
-      (oe = [
+  ae = e(() => {
+    (m(),
+      _.loadFonts([`GF;Inter-500`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-500italic`]),
+      (A = [
         {
           explicitInter: !0,
           fonts: [
@@ -316,19 +314,19 @@ var D,
           ],
         },
       ]),
-      (A = [
+      (ie = [
         `.framer-zCU8Z .framer-styles-preset-im2x0h:not(.rich-text-wrapper), .framer-zCU8Z .framer-styles-preset-im2x0h.rich-text-wrapper p { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 20px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: 0em; --framer-line-height: 1.4em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
       (j = `framer-zCU8Z`));
   });
-function N(e, ...t) {
+function M(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var P,
+var N,
+  P,
   F,
   I,
-  se,
   L,
   R,
   z,
@@ -336,15 +334,15 @@ var P,
   V,
   H,
   U = e(() => {
-    (l(),
+    (ee(),
+      m(),
       p(),
-      f(),
       a(),
-      M(),
-      (P = [`iC3uXzR0q`, `mmDUgpyjc`]),
-      (F = `framer-Oj3EQ`),
-      (I = { iC3uXzR0q: `framer-v-17bnp42`, mmDUgpyjc: `framer-v-1t7i2o5` }),
-      (se = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      ae(),
+      (N = [`iC3uXzR0q`, `mmDUgpyjc`]),
+      (P = `framer-Oj3EQ`),
+      (F = { iC3uXzR0q: `framer-v-17bnp42`, mmDUgpyjc: `framer-v-1t7i2o5` }),
+      (I = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (L = ({ value: e, children: t }) => {
         let n = r(d),
           a = e ?? n.transition,
@@ -363,67 +361,67 @@ var P,
         o(function (e, r) {
           let i = t(null),
             a = r ?? i,
-            o = ee(),
-            { activeLocale: l, setLocale: te } = ie(),
-            d = _(),
-            { style: f, className: p, layoutId: m, variant: g, irY_XKj0O: y, ...b } = B(e),
+            o = l(),
+            { activeLocale: ee, setLocale: d } = ne(),
+            p = v(),
+            { style: m, className: h, layoutId: _, variant: b, irY_XKj0O: x, ...S } = B(e),
             {
-              baseVariant: x,
-              classNames: S,
-              clearLoadingGesture: E,
-              gestureHandlers: D,
-              gestureVariant: O,
-              isLoading: k,
-              setGestureState: ae,
-              setVariant: oe,
-              variants: A,
-            } = re({
-              cycleOrder: P,
+              baseVariant: T,
+              classNames: E,
+              clearLoadingGesture: D,
+              gestureHandlers: O,
+              gestureVariant: k,
+              isLoading: A,
+              setGestureState: ie,
+              setVariant: ae,
+              variants: R,
+            } = te({
+              cycleOrder: N,
               defaultVariant: `iC3uXzR0q`,
               ref: a,
-              variant: g,
-              variantClassNames: I,
+              variant: b,
+              variantClassNames: F,
             }),
-            M = V(e, A),
-            R = T(F, j),
-            H = () => x !== `mmDUgpyjc`,
-            U = () => x === `mmDUgpyjc`;
-          return s(ne, {
-            id: m ?? o,
+            H = V(e, R),
+            U = w(P, j),
+            W = () => T !== `mmDUgpyjc`,
+            G = () => T === `mmDUgpyjc`;
+          return s(f, {
+            id: _ ?? o,
             children: s(z, {
-              animate: A,
+              animate: R,
               initial: !1,
               children: s(L, {
-                value: se,
-                children: s(w, {
-                  href: y,
+                value: I,
+                children: s(re, {
+                  href: x,
                   motionChild: !0,
                   nodeId: `iC3uXzR0q`,
                   scopeId: `JTibN7whG`,
                   children: s(u.a, {
-                    ...b,
-                    ...D,
-                    className: `${T(R, `framer-17bnp42`, p, S)} framer-8037fa`,
+                    ...S,
+                    ...O,
+                    className: `${w(U, `framer-17bnp42`, h, E)} framer-8037fa`,
                     "data-framer-name": `Logo`,
-                    layoutDependency: M,
+                    layoutDependency: H,
                     layoutId: `iC3uXzR0q`,
                     ref: a,
-                    style: { ...f },
-                    ...N({ mmDUgpyjc: { "data-framer-name": `Footer` } }, x, O),
+                    style: { ...m },
+                    ...M({ mmDUgpyjc: { "data-framer-name": `Footer` } }, T, k),
                     children: c(u.div, {
                       className: `framer-14xrcyt`,
                       "data-framer-name": `Logo`,
-                      layoutDependency: M,
+                      layoutDependency: H,
                       layoutId: `W5UNeFaVz`,
                       children: [
-                        H() &&
+                        W() &&
                           s(C, {
                             background: {
                               alt: ``,
                               fit: `fill`,
                               intrinsicHeight: 500,
                               intrinsicWidth: 500,
-                              loading: h((d?.y || 0) + (0 + ((d?.height || 48) - 0 - 48) / 2) + 0),
+                              loading: g((p?.y || 0) + (0 + ((p?.height || 48) - 0 - 48) / 2) + 0),
                               pixelHeight: 500,
                               pixelWidth: 500,
                               sizes: `48px`,
@@ -431,15 +429,15 @@ var P,
                             },
                             className: `framer-19ysx27`,
                             "data-framer-name": `Logo-removebg-preview`,
-                            layoutDependency: M,
+                            layoutDependency: H,
                             layoutId: `DQHI69Gw8`,
                             style: {
                               filter: `drop-shadow(0px 1px 1px rgba(0,0,0,0.25))`,
                               WebkitFilter: `drop-shadow(0px 1px 1px rgba(0,0,0,0.25))`,
                             },
                           }),
-                        H() &&
-                          s(v, {
+                        W() &&
+                          s(y, {
                             __fromCanvasComponent: !0,
                             children: s(n, {
                               children: s(u.p, {
@@ -454,7 +452,7 @@ var P,
                             }),
                             className: `framer-1u5vwwj`,
                             fonts: [`Inter`],
-                            layoutDependency: M,
+                            layoutDependency: H,
                             layoutId: `aY_Unl2UT`,
                             style: {
                               "--extracted-r6o4lv": `var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, rgb(250, 250, 250))`,
@@ -464,7 +462,7 @@ var P,
                             verticalAlignment: `top`,
                             withExternalLayout: !0,
                           }),
-                        U() &&
+                        G() &&
                           s(C, {
                             background: {
                               alt: ``,
@@ -477,9 +475,9 @@ var P,
                             },
                             className: `framer-ifdtpq`,
                             "data-framer-name": `Logo-removebg-preview`,
-                            layoutDependency: M,
+                            layoutDependency: H,
                             layoutId: `OO_viLLXT`,
-                            ...N(
+                            ...M(
                               {
                                 mmDUgpyjc: {
                                   background: {
@@ -487,7 +485,7 @@ var P,
                                     fit: `fill`,
                                     intrinsicHeight: 100,
                                     intrinsicWidth: 100,
-                                    loading: h((d?.y || 0) + 0 + 0 + 0 + 0),
+                                    loading: g((p?.y || 0) + 0 + 0 + 0 + 0),
                                     pixelHeight: 100,
                                     pixelWidth: 100,
                                     sizes: `87px`,
@@ -495,8 +493,8 @@ var P,
                                   },
                                 },
                               },
-                              x,
-                              O
+                              T,
+                              k
                             ),
                           }),
                       ],
@@ -516,13 +514,13 @@ var P,
           `.framer-Oj3EQ .framer-ifdtpq { aspect-ratio: 1 / 1; flex: none; height: auto; overflow: visible; position: relative; width: 87px; }`,
           `.framer-Oj3EQ.framer-v-1t7i2o5.framer-17bnp42 { flex-direction: column; }`,
           `.framer-Oj3EQ.framer-v-1t7i2o5 .framer-14xrcyt { flex-direction: column; gap: 5px; }`,
-          ...A,
+          ...ie,
         ],
         `framer-Oj3EQ`
       )),
       (H.displayName = `Logos`),
       (H.defaultProps = { height: 48, width: 138 }),
-      E(H, {
+      T(H, {
         variant: {
           options: [`iC3uXzR0q`, `mmDUgpyjc`],
           optionTitles: [`Logo`, `Footer`],
@@ -531,7 +529,7 @@ var P,
         },
         irY_XKj0O: { title: `Link`, type: S.Link },
       }),
-      y(
+      b(
         H,
         [
           {
@@ -602,7 +600,7 @@ var P,
               },
             ],
           },
-          ...m(oe),
+          ...h(A),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
@@ -610,9 +608,9 @@ var P,
   W,
   G,
   K,
-  ce = e(() => {
-    (p(),
-      g.loadFonts([`GF;Inter-500`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
+  oe = e(() => {
+    (m(),
+      _.loadFonts([`GF;Inter-500`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
       (W = [
         {
           explicitInter: !0,
@@ -802,68 +800,68 @@ var P,
       ]),
       (K = `framer-NS75P`));
   });
-function le(e, ...t) {
+function q(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var ue,
+var J,
+  se,
+  ce,
+  Y,
+  le,
+  ue,
   de,
   fe,
+  X,
   pe,
   me,
   he,
   ge,
   _e,
-  q,
   ve,
-  ye,
-  be,
-  xe,
-  Se,
-  Ce,
-  J,
-  we = e(() => {
-    (l(),
+  Z,
+  ye = e(() => {
+    (ee(),
+      m(),
       p(),
-      f(),
       a(),
-      ae(),
-      ce(),
-      (ue = { H6ztmrCS6: { hover: !0 }, uGayw3Tld: { hover: !0 } }),
-      (de = [`uGayw3Tld`, `H6ztmrCS6`]),
-      (fe = `framer-oVUBd`),
-      (pe = { H6ztmrCS6: `framer-v-1w5meqt`, uGayw3Tld: `framer-v-1m898ms` }),
-      (me = (e, t) =>
+      k(),
+      oe(),
+      (J = { H6ztmrCS6: { hover: !0 }, uGayw3Tld: { hover: !0 } }),
+      (se = [`uGayw3Tld`, `H6ztmrCS6`]),
+      (ce = `framer-oVUBd`),
+      (Y = { H6ztmrCS6: `framer-v-1w5meqt`, uGayw3Tld: `framer-v-1m898ms` }),
+      (le = (e, t) =>
         typeof e == `string` && typeof t == `string`
           ? e.toLowerCase() === t.toLowerCase()
           : e === t),
-      (he = (e, t) => (e ? 20 : 12)),
-      (ge = (e) => {
+      (ue = (e, t) => (e ? 20 : 12)),
+      (de = (e) => {
         if (typeof e == `number` && Number.isFinite(e)) return e;
         if (typeof e != `string`) return 0;
         let t = parseFloat(e);
         return typeof t == `number` && Number.isFinite(t) ? t : 0;
       }),
-      (_e = (e) => {
+      (fe = (e) => {
         if (typeof e != `number`) return e;
         if (Number.isFinite(e)) return Math.max(0, e) + `px`;
       }),
-      (q = (e, t) => {
+      (X = (e, t) => {
         if (typeof e == `number` && Number.isFinite(e)) return Math.max(0, e) + `px`;
         if (typeof e != `string` || typeof t != `number`) return;
         let n = e.split(` `);
         return n[t] || n[t - 2] || n[0];
       }),
-      (ve = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
-      (ye = ({ value: e, children: t }) => {
+      (pe = { delay: 0, duration: 0.25, ease: [0.44, 0, 0.56, 1], type: `tween` }),
+      (me = ({ value: e, children: t }) => {
         let n = r(d),
           a = e ?? n.transition,
           o = i(() => ({ ...n, transition: a }), [JSON.stringify(a)]);
         return s(d.Provider, { value: o, children: t });
       }),
-      (be = { "Big Button": `H6ztmrCS6`, "Gradient Button": `uGayw3Tld` }),
-      (xe = u.create(n)),
-      (Se = ({
+      (he = { "Big Button": `H6ztmrCS6`, "Gradient Button": `uGayw3Tld` }),
+      (ge = u.create(n)),
+      (_e = ({
         buttonLabel: e,
         buttonLabel1: t,
         height: n,
@@ -880,75 +878,75 @@ var ue,
         FPjhikCji: a ?? c.FPjhikCji,
         OlthDMhqu: t ?? c.OlthDMhqu ?? `Button`,
         r7ASsAiJ9: e ?? c.r7ASsAiJ9 ?? !0,
-        variant: be[c.variant] ?? c.variant ?? `uGayw3Tld`,
+        variant: he[c.variant] ?? c.variant ?? `uGayw3Tld`,
       })),
-      (Ce = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (J = x(
+      (ve = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Z = x(
         o(function (e, r) {
           let i = t(null),
             a = r ?? i,
-            o = ee(),
-            { activeLocale: c, setLocale: l } = ie();
-          _();
+            o = l(),
+            { activeLocale: c, setLocale: ee } = ne();
+          v();
           let {
-              style: te,
-              className: d,
-              layoutId: f,
-              variant: p,
-              AKuoesW74: m,
-              r7ASsAiJ9: h,
-              OlthDMhqu: g,
-              AYwwfkaKd: y,
-              FPjhikCji: b,
-              ...x
-            } = Se(e),
+              style: d,
+              className: p,
+              layoutId: m,
+              variant: h,
+              AKuoesW74: g,
+              r7ASsAiJ9: _,
+              OlthDMhqu: b,
+              AYwwfkaKd: x,
+              FPjhikCji: S,
+              ...C
+            } = _e(e),
             {
-              baseVariant: S,
-              classNames: C,
-              clearLoadingGesture: E,
-              gestureHandlers: D,
-              gestureVariant: O,
-              isLoading: ae,
-              setGestureState: oe,
-              setVariant: A,
-              variants: j,
-            } = re({
-              cycleOrder: de,
+              baseVariant: T,
+              classNames: E,
+              clearLoadingGesture: D,
+              gestureHandlers: k,
+              gestureVariant: A,
+              isLoading: ie,
+              setGestureState: j,
+              setVariant: ae,
+              variants: M,
+            } = te({
+              cycleOrder: se,
               defaultVariant: `uGayw3Tld`,
-              enabledGestures: ue,
+              enabledGestures: J,
               ref: a,
-              variant: p,
-              variantClassNames: pe,
+              variant: h,
+              variantClassNames: Y,
             }),
-            M = Ce(e, j),
-            N = [k, K],
-            P = _e(ge(he(me(h, !0), c))),
-            F = T(fe, ...N);
-          return s(ne, {
-            id: f ?? o,
-            children: s(xe, {
-              animate: j,
+            N = ve(e, M),
+            P = [O, K],
+            F = fe(de(ue(le(_, !0), c))),
+            I = w(ce, ...P);
+          return s(f, {
+            id: m ?? o,
+            children: s(ge, {
+              animate: M,
               initial: !1,
-              children: s(ye, {
-                value: ve,
-                children: s(w, {
-                  href: y,
+              children: s(me, {
+                value: pe,
+                children: s(re, {
+                  href: x,
                   motionChild: !0,
                   nodeId: `uGayw3Tld`,
-                  openInNewTab: b,
+                  openInNewTab: S,
                   scopeId: `sq0qV09H9`,
                   smoothScroll: !1,
                   children: s(u.a, {
-                    ...x,
-                    ...D,
-                    className: `${T(F, `framer-1m898ms`, d, C)} framer-xi89o0`,
+                    ...C,
+                    ...k,
+                    className: `${w(I, `framer-1m898ms`, p, E)} framer-xi89o0`,
                     "data-border": !0,
                     "data-framer-name": `Gradient Button`,
-                    layoutDependency: M,
+                    layoutDependency: N,
                     layoutId: `uGayw3Tld`,
                     ref: a,
                     style: {
-                      "--10ocmuz": P,
+                      "--10ocmuz": F,
                       "--border-bottom-width": `1px`,
                       "--border-color": `rgba(255, 255, 255, 0.29)`,
                       "--border-left-width": `1px`,
@@ -956,12 +954,12 @@ var ue,
                       "--border-style": `solid`,
                       "--border-top-width": `1px`,
                       background: `linear-gradient(109deg, rgb(148, 61, 255) -4%, rgb(242, 97, 121) 50.30616554054054%, rgb(252, 208, 147) 107%)`,
-                      borderBottomLeftRadius: q(m, 3),
-                      borderBottomRightRadius: q(m, 2),
-                      borderTopLeftRadius: q(m, 0),
-                      borderTopRightRadius: q(m, 1),
+                      borderBottomLeftRadius: X(g, 3),
+                      borderBottomRightRadius: X(g, 2),
+                      borderTopLeftRadius: X(g, 0),
+                      borderTopRightRadius: X(g, 1),
                       boxShadow: `inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25), inset 0px -5px 0.5px 0px rgba(255, 255, 255, 0.49), inset 0px 0px 20px 0px rgb(255, 255, 255), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(15, 15, 15, 0.72), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(15, 15, 15, 0.64), inset 0px 10px 10px -3.75px rgba(15, 15, 15, 0.25), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(255, 255, 255, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(255, 255, 255, 0.16), 0px 10px 10px -3.75px rgba(255, 255, 255, 0.06), 0px 0.6021873017743928px 0.6021873017743928px -1px rgba(255, 255, 255, 0.15), 0px 2.288533303243457px 2.288533303243457px -2px rgba(255, 255, 255, 0.14), 0px 10px 10px -3px rgba(255, 255, 255, 0.1)`,
-                      ...te,
+                      ...d,
                     },
                     variants: {
                       "H6ztmrCS6-hover": {
@@ -972,23 +970,23 @@ var ue,
                         boxShadow: `inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25), inset 0px -3px 0.5px 0px rgba(255, 255, 255, 0.25), inset 0px 0px 20px 0px rgb(255, 255, 255), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(15, 15, 15, 0.72), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(15, 15, 15, 0.64), inset 0px 10px 10px -3.75px rgba(15, 15, 15, 0.25), 0px 0.8398022765904898px 0.7558220489314408px -0.4375px rgba(255, 255, 255, 0.07), 0px 1.9904796838090988px 1.7914317154281887px -0.875px rgba(255, 255, 255, 0.07), 0px 3.6308406896569063px 3.267756620691215px -1.3125px rgba(255, 255, 255, 0.07), 0px 6.036265357761295px 5.432638821985164px -1.75px rgba(255, 255, 255, 0.07), 0px 9.748076360978303px 8.773268724880472px -2.1875px rgba(255, 255, 255, 0.06), 0px 15.956633803711155px 14.360970423340037px -2.625px rgba(255, 255, 255, 0.06), 0px 27.476245881684008px 24.728621293515605px -3.0625px rgba(255, 255, 255, 0.05), 0px 50px 44.99999999999999px -3.5px rgba(255, 255, 255, 0.03)`,
                       },
                     },
-                    ...le(
+                    ...q(
                       {
                         "H6ztmrCS6-hover": { "data-framer-name": void 0 },
                         "uGayw3Tld-hover": { "data-framer-name": void 0 },
                         H6ztmrCS6: { "data-framer-name": `Big Button` },
                       },
-                      S,
-                      O
+                      T,
+                      A
                     ),
                     children:
-                      h !== !1 &&
+                      _ !== !1 &&
                       s(u.div, {
                         className: `framer-h4h8vv`,
                         "data-framer-name": `label`,
-                        layoutDependency: M,
+                        layoutDependency: N,
                         layoutId: `G19FVmU1r`,
-                        children: s(v, {
+                        children: s(y, {
                           __fromCanvasComponent: !0,
                           children: s(n, {
                             children: s(u.p, {
@@ -1000,16 +998,16 @@ var ue,
                           }),
                           className: `framer-dyr4eo`,
                           fonts: [`Inter`],
-                          layoutDependency: M,
+                          layoutDependency: N,
                           layoutId: `aMazJQRJ4`,
                           style: {
                             "--framer-link-text-color": `rgb(0, 153, 255)`,
                             "--framer-link-text-decoration": `underline`,
                           },
-                          text: g,
+                          text: b,
                           verticalAlignment: `top`,
                           withExternalLayout: !0,
-                          ...le(
+                          ...q(
                             {
                               H6ztmrCS6: {
                                 children: s(n, {
@@ -1022,8 +1020,8 @@ var ue,
                                 }),
                               },
                             },
-                            S,
-                            O
+                            T,
+                            A
                           ),
                         }),
                       }),
@@ -1039,15 +1037,15 @@ var ue,
           `.framer-oVUBd .framer-h4h8vv { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px 2px 0px 2px; position: relative; width: min-content; }`,
           `.framer-oVUBd .framer-dyr4eo { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
           `.framer-oVUBd.framer-v-1w5meqt.framer-1m898ms { height: min-content; padding: 30px 40px 30px 40px; }`,
-          ...O,
+          ...D,
           ...G,
           `.framer-oVUBd[data-border="true"]::after, .framer-oVUBd [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
         `framer-oVUBd`
       )),
-      (J.displayName = `Buttons`),
-      (J.defaultProps = { height: 48, width: 94 }),
-      E(J, {
+      (Z.displayName = `Buttons`),
+      (Z.defaultProps = { height: 48, width: 94 }),
+      T(Z, {
         variant: {
           options: [`uGayw3Tld`, `H6ztmrCS6`],
           optionTitles: [`Gradient Button`, `Big Button`],
@@ -1069,8 +1067,8 @@ var ue,
         FPjhikCji: { defaultValue: !1, title: `New Tab`, type: S.Boolean },
         onFPjhikCjiChange: { changes: `FPjhikCji`, type: S.ChangeHandler },
       }),
-      y(
-        J,
+      b(
+        Z,
         [
           {
             explicitInter: !0,
@@ -1140,145 +1138,19 @@ var ue,
               },
             ],
           },
-          ...m(D),
-          ...m(W),
+          ...h(E),
+          ...h(W),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  Y,
-  Te,
-  Ee,
-  X = e(() => {
-    (p(),
-      (Y = {
-        position: `relative`,
-        width: `100%`,
-        height: `100%`,
-        display: `flex`,
-        justifyContent: `center`,
-        alignItems: `center`,
-      }),
-      (Te = {
-        ...Y,
-        borderRadius: 6,
-        background: `rgba(136, 85, 255, 0.3)`,
-        color: `#85F`,
-        border: `1px dashed #85F`,
-        flexDirection: `column`,
-      }),
-      (Ee = {
-        onClick: { type: S.EventHandler },
-        onMouseEnter: { type: S.EventHandler },
-        onMouseLeave: { type: S.EventHandler },
-      }),
-      S.Number,
-      S.Boolean,
-      S.String,
-      S.Enum);
-  }),
-  De = e(() => {
-    (p(), a());
-  }),
-  Oe = e(() => {
-    a();
-  }),
-  ke = e(() => {
-    p();
-  }),
-  Z = e(() => {
-    p();
-  }),
-  Ae = e(() => {
-    a();
-  }),
-  je = e(() => {
-    p();
-  }),
-  Me = e(() => {
-    (te(), a());
-  }),
-  Ne = e(() => {
-    (a(), Z());
-  }),
-  Pe = e(() => {
-    (a(), p(), Z(), Oe());
-  }),
-  Fe = e(() => {
-    (p(), a(), X());
-  });
-function Ie() {
-  return i(() => b.current() === b.canvas, []);
-}
-var Le = e(() => {
-    (a(), p());
-  }),
-  Re = e(() => {
-    a();
-  });
-function ze(e) {
-  let {
-    borderRadius: t,
-    isMixedBorderRadius: n,
-    topLeftRadius: r,
-    topRightRadius: a,
-    bottomRightRadius: o,
-    bottomLeftRadius: s,
-  } = e;
-  return i(() => (n ? `${r}px ${a}px ${o}px ${s}px` : `${t}px`), [t, n, r, a, o, s]);
-}
-function Be(e) {
-  let {
-    padding: t,
-    paddingPerSide: n,
-    paddingTop: r,
-    paddingRight: a,
-    paddingBottom: o,
-    paddingLeft: s,
-  } = e;
-  return i(() => (n ? `${r}px ${a}px ${o}px ${s}px` : t), [t, n, r, a, o, s]);
-}
-var Ve,
-  He,
-  Ue = e(() => {
-    (a(),
-      p(),
-      (Ve = {
-        borderRadius: {
-          title: `Radius`,
-          type: S.FusedNumber,
-          toggleKey: `isMixedBorderRadius`,
-          toggleTitles: [`Radius`, `Radius per corner`],
-          valueKeys: [`topLeftRadius`, `topRightRadius`, `bottomRightRadius`, `bottomLeftRadius`],
-          valueLabels: [`TL`, `TR`, `BR`, `BL`],
-          min: 0,
-        },
-      }),
-      (He = {
-        padding: {
-          type: S.FusedNumber,
-          toggleKey: `paddingPerSide`,
-          toggleTitles: [`Padding`, `Padding per side`],
-          valueKeys: [`paddingTop`, `paddingRight`, `paddingBottom`, `paddingLeft`],
-          valueLabels: [`T`, `R`, `B`, `L`],
-          min: 0,
-          title: `Padding`,
-        },
-      }));
-  }),
-  We = e(() => {
-    (X(), De(), Oe(), ke(), Z(), Ae(), je(), Me(), Ne(), Pe(), Fe(), Le(), Re(), Ue());
-  }),
-  Ge = e(() => {
-    We();
-  }),
-  Ke,
-  qe,
-  Je,
-  Ye = e(() => {
-    (p(),
-      g.loadFonts([`GF;Inter-600`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
-      (Ke = [
+  be,
+  xe,
+  Se,
+  Ce = e(() => {
+    (m(),
+      _.loadFonts([`GF;Inter-600`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
+      (be = [
         {
           explicitInter: !0,
           fonts: [
@@ -1461,12 +1333,12 @@ var Ve,
           ],
         },
       ]),
-      (qe = [
+      (xe = [
         `.framer-7wku3 .framer-styles-preset-93ypku:not(.rich-text-wrapper), .framer-7wku3 .framer-styles-preset-93ypku.rich-text-wrapper h1 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 64px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-7wku3 .framer-styles-preset-93ypku:not(.rich-text-wrapper), .framer-7wku3 .framer-styles-preset-93ypku.rich-text-wrapper h1 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 51px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-7wku3 .framer-styles-preset-93ypku:not(.rich-text-wrapper), .framer-7wku3 .framer-styles-preset-93ypku.rich-text-wrapper h1 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 40px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 0px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; --framer-text-wrap: balance; } }`,
       ]),
-      (Je = `framer-7wku3`));
+      (Se = `framer-7wku3`));
   });
 function Q(e, t) {
   return {
@@ -1477,8 +1349,8 @@ function Q(e, t) {
     title: `Flamer – The Ultimate AI SaaS Landing Page Template`,
   };
 }
-var Xe = e(() => {});
-function Ze(e, t) {
+var we = e(() => {});
+function Te(e, t) {
   return {
     breakpoints: [
       { hash: `72rtr7`, mediaQuery: `(min-width: 1200px)` },
@@ -1496,25 +1368,25 @@ function Ze(e, t) {
       zKzXmXRGU: `showcases`,
     },
     robots: `max-image-preview:large`,
-    serializationId: `framer-PvVjk`,
+    serializationId: `framer-UaBhM`,
     title: Q(e, t).title || `Home`,
     viewport: `width=device-width`,
   };
 }
-var $,
-  Qe,
-  $e = e(() => {
-    (Xe(),
-      ($ = 1),
-      (Qe = {
+var Ee,
+  De,
+  Oe = e(() => {
+    (we(),
+      (Ee = 1),
+      (De = {
         exports: {
-          default: { type: `function`, annotations: { framerContractVersion: `1` } },
           metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
+          default: { type: `function`, annotations: { framerContractVersion: `1` } },
           __FramerMetadata__: { type: `variable` },
         },
       }));
   });
-function et(e, t) {
+function ke(e, t) {
   return {
     breakpoints: [
       { hash: `djrgrx`, mediaQuery: `(min-width: 1200px)` },
@@ -1530,12 +1402,12 @@ function et(e, t) {
     viewport: `width=device-width`,
   };
 }
-var tt,
-  nt,
-  rt = e(() => {
-    (Xe(),
-      (tt = 1),
-      (nt = {
+var Ae,
+  $,
+  je = e(() => {
+    (we(),
+      (Ae = 1),
+      ($ = {
         exports: {
           metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           default: { type: `function`, annotations: { framerContractVersion: `1` } },
@@ -1544,37 +1416,25 @@ var tt,
       }));
   });
 export {
-  O as A,
-  Te as C,
-  H as D,
-  we as E,
-  ae as M,
-  U as O,
-  Ee as S,
-  J as T,
-  Be as _,
-  Qe as a,
-  Ie as b,
-  $ as c,
-  Ke as d,
-  Ye as f,
-  He as g,
-  Ue as h,
-  tt as i,
-  D as j,
-  k,
-  Je as l,
-  Ve as m,
-  rt as n,
-  $e as o,
-  Ge as p,
-  et as r,
-  Ze as s,
-  nt as t,
-  qe as u,
-  ze as v,
-  X as w,
-  Y as x,
-  Le as y,
+  O as _,
+  De as a,
+  k as b,
+  Ee as c,
+  be as d,
+  Ce as f,
+  U as g,
+  H as h,
+  Ae as i,
+  Se as l,
+  ye as m,
+  je as n,
+  Oe as o,
+  Z as p,
+  ke as r,
+  Te as s,
+  $ as t,
+  xe as u,
+  D as v,
+  E as y,
 };
-//# sourceMappingURL=shared-lib.C2dcIIPs.mjs.map
+//# sourceMappingURL=shared-lib.D6I7Vrd0.mjs.map
