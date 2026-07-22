@@ -89,7 +89,7 @@ import {
   p as Ve,
   v as He,
   y as Ue,
-} from "./shared-lib.C9qy5KaD.mjs";
+} from "./shared-lib.D9VPan7L.mjs";
 function We(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
@@ -1217,7 +1217,7 @@ var Gt,
       (Gt = I(q)),
       (Kt = Te(q)),
       (qt = [`SnNOaglBC`, `zQ0KE9P_v`]),
-      (Jt = `framer-gUQWC`),
+      (Jt = `framer-hYah2`),
       (Yt = { SnNOaglBC: `framer-v-1g3sj3s`, zQ0KE9P_v: `framer-v-18iqn74` }),
       (Xt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (Y = (...e) => {
@@ -1484,11 +1484,11 @@ var Gt,
                       h(be, {
                         links: [
                           {
-                            href: { hash: `:sgmlFhWUG`, webPageId: `augiA20Il` },
+                            href: { hash: `:ZyhbuJwZr`, webPageId: `augiA20Il` },
                             implicitPathVariables: void 0,
                           },
                           {
-                            href: { hash: `:sgmlFhWUG`, webPageId: `augiA20Il` },
+                            href: { hash: `:ZyhbuJwZr`, webPageId: `augiA20Il` },
                             implicitPathVariables: void 0,
                           },
                         ],
@@ -1620,11 +1620,11 @@ var Gt,
                       h(be, {
                         links: [
                           {
-                            href: { hash: `:v99AbFhke`, webPageId: `augiA20Il` },
+                            href: { hash: `:sgmlFhWUG`, webPageId: `augiA20Il` },
                             implicitPathVariables: void 0,
                           },
                           {
-                            href: { hash: `:v99AbFhke`, webPageId: `augiA20Il` },
+                            href: { hash: `:sgmlFhWUG`, webPageId: `augiA20Il` },
                             implicitPathVariables: void 0,
                           },
                         ],
@@ -1682,14 +1682,14 @@ var Gt,
           );
         }),
         [
-          `.framer-gUQWC.framer-lpjxpv, .framer-gUQWC .framer-lpjxpv { display: block; }`,
-          `.framer-gUQWC.framer-1g3sj3s { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: center; overflow: visible; padding: 10px 15px 10px 15px; position: relative; width: min-content; }`,
-          `.framer-gUQWC .framer-faolcd-container, .framer-gUQWC .framer-mf37mt-container, .framer-gUQWC .framer-1bzr61k-container, .framer-gUQWC .framer-5no09r-container, .framer-gUQWC .framer-1cv8gl2-container { flex: none; height: auto; position: relative; width: auto; }`,
-          `.framer-gUQWC.framer-v-18iqn74.framer-1g3sj3s { flex-direction: column; gap: 60px; padding: 15px; width: 300px; }`,
-          `.framer-gUQWC.framer-v-18iqn74 .framer-faolcd-container, .framer-gUQWC.framer-v-18iqn74 .framer-mf37mt-container, .framer-gUQWC.framer-v-18iqn74 .framer-1bzr61k-container, .framer-gUQWC.framer-v-18iqn74 .framer-5no09r-container { width: 100%; }`,
-          `.framer-gUQWC[data-border="true"]::after, .framer-gUQWC [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+          `.framer-hYah2.framer-lpjxpv, .framer-hYah2 .framer-lpjxpv { display: block; }`,
+          `.framer-hYah2.framer-1g3sj3s { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 8px; height: min-content; justify-content: center; overflow: visible; padding: 10px 15px 10px 15px; position: relative; width: min-content; }`,
+          `.framer-hYah2 .framer-faolcd-container, .framer-hYah2 .framer-mf37mt-container, .framer-hYah2 .framer-1bzr61k-container, .framer-hYah2 .framer-5no09r-container, .framer-hYah2 .framer-1cv8gl2-container { flex: none; height: auto; position: relative; width: auto; }`,
+          `.framer-hYah2.framer-v-18iqn74.framer-1g3sj3s { flex-direction: column; gap: 60px; padding: 15px; width: 300px; }`,
+          `.framer-hYah2.framer-v-18iqn74 .framer-faolcd-container, .framer-hYah2.framer-v-18iqn74 .framer-mf37mt-container, .framer-hYah2.framer-v-18iqn74 .framer-1bzr61k-container, .framer-hYah2.framer-v-18iqn74 .framer-5no09r-container { width: 100%; }`,
+          `.framer-hYah2[data-border="true"]::after, .framer-hYah2 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
-        `framer-gUQWC`
+        `framer-hYah2`
       )),
       (X.displayName = `NAV MENU`),
       (X.defaultProps = { height: 52, width: 541 }),
@@ -3094,8 +3094,8 @@ function Wr({ webPageId: e, children: t, style: n, ...r }) {
   let i = {
       EzSNs9Obl: { href: { hash: `:U6VhzUg6a`, webPageId: `augiA20Il` }, refKey: !0 },
       ijCz8cPdl: { href: { hash: `:N2ijbw0rP`, webPageId: `augiA20Il` }, refKey: !0 },
-      KB36F5lyR: { href: { hash: `:lCq8UO0dC`, webPageId: `augiA20Il` }, refKey: !0 },
-      RbgiRgJS1: { href: { hash: `:lCq8UO0dC`, webPageId: `augiA20Il` }, refKey: !0 },
+      KB36F5lyR: { href: { webPageId: `augiA20Il` }, refKey: !0 },
+      RbgiRgJS1: { href: { webPageId: `augiA20Il` }, refKey: !0 },
     },
     a = { ...i, EzSNs9Obl: void 0, ijCz8cPdl: void 0, KB36F5lyR: void 0, RbgiRgJS1: void 0 },
     o = Me(),
@@ -3159,7 +3159,7 @@ async function Kr({ routeId: e, pathVariables: n, localeId: i, collectionItemId:
         collectionUtils: Zr,
         framerSiteId: Qr,
         notFoundPage: ce(
-          () => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.DAeTiuxE.mjs`)
+          () => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.By_Hf1P1.mjs`)
         ),
         isReducedMotion: void 0,
         localeId: i,
@@ -3340,20 +3340,21 @@ e(() => {
     (Yr = {
       augiA20Il: {
         elements: {
+          adTRrxLJn: `showcase`,
           iYUNHqCEb: `hero`,
-          lCq8UO0dC: `image-gen`,
           N2ijbw0rP: `features`,
-          sgmlFhWUG: `product`,
+          sgmlFhWUG: `faqs`,
           U6VhzUg6a: `richtext`,
-          v99AbFhke: `faqs`,
+          v99AbFhke: `faqs-1`,
           zKzXmXRGU: `showcases`,
+          ZyhbuJwZr: `products`,
         },
-        page: ce(() => import(`./wOyoAXAb_2F4NIa_VHopWICvigMknF3qFrnKrY7IOx4.CrUNP7oi.mjs`)),
+        page: ce(() => import(`./u3xlQkiKbhVbRGprwMqmLg55Hwuvl5wxEqkbJP5fch0.Cc6bfXa7.mjs`)),
         path: `/`,
       },
       weKLGiygA: {
         elements: {},
-        page: ce(() => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.DAeTiuxE.mjs`)),
+        page: ce(() => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.By_Hf1P1.mjs`)),
         path: `/404`,
       },
     }),
@@ -3382,4 +3383,4 @@ e(() => {
   })();
 })();
 export { Gr as getLayoutTemplateBreakpoints, Kr as getPageRoot };
-//# sourceMappingURL=script_main.C3OYc3Rh.mjs.map
+//# sourceMappingURL=script_main.6lX4KRI2.mjs.map

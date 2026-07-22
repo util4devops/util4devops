@@ -1359,16 +1359,17 @@ function Te(e, t) {
     ],
     description: Q(e, t).description,
     elements: {
+      adTRrxLJn: `showcase`,
       iYUNHqCEb: `hero`,
-      lCq8UO0dC: `image-gen`,
       N2ijbw0rP: `features`,
-      sgmlFhWUG: `product`,
+      sgmlFhWUG: `faqs`,
       U6VhzUg6a: `richtext`,
-      v99AbFhke: `faqs`,
+      v99AbFhke: `faqs-1`,
       zKzXmXRGU: `showcases`,
+      ZyhbuJwZr: `products`,
     },
     robots: `max-image-preview:large`,
-    serializationId: `framer-kcvvC`,
+    serializationId: `framer-i4vOf`,
     title: Q(e, t).title || `Home`,
     viewport: `width=device-width`,
   };
@@ -1437,4 +1438,4 @@ export {
   D as v,
   E as y,
 };
-//# sourceMappingURL=shared-lib.C9qy5KaD.mjs.map
+//# sourceMappingURL=shared-lib.D9VPan7L.mjs.map
