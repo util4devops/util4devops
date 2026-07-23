@@ -86,7 +86,7 @@ import {
   u as ke,
   v as Ae,
   y as je,
-} from "./shared-lib.By8mBIkh.mjs";
+} from "./shared-lib.BoJil0-s.mjs";
 var Me,
   Ne,
   Pe,
@@ -7095,7 +7095,7 @@ var la,
       (da = M(Ce)),
       (fa = M(oa)),
       (pa = [`KBgKtVKOD`, `exGrCNMBY`, `YkRwyK5Zj`, `BhgKpPyRM`, `NzZwNSqPC`, `i66Xu18wi`]),
-      (ma = `framer-F646z`),
+      (ma = `framer-HJBWk`),
       (ha = {
         BhgKpPyRM: `framer-v-74oqk8`,
         exGrCNMBY: `framer-v-gulk9f`,
@@ -7462,7 +7462,7 @@ var la,
                               boxShadow: `inset 0px 0px 12px 0px rgba(255, 255, 255, 0.25)`,
                               WebkitBackdropFilter: `blur(20px)`,
                             },
-                            children: _(C.div, {
+                            children: h(C.div, {
                               className: `framer-cl2hnl`,
                               "data-border": !0,
                               "data-framer-name": `Platform`,
@@ -7478,87 +7478,72 @@ var la,
                                 borderTopLeftRadius: 22,
                                 borderTopRightRadius: 22,
                               },
-                              children: [
-                                h(C.div, {
-                                  className: `framer-btjoxh`,
-                                  "data-framer-name": `Corner Line Gradient`,
-                                  layoutDependency: E,
-                                  layoutId: `NiwkfE0_o`,
-                                  style: {
-                                    background: `linear-gradient(124deg, rgb(148, 61, 255) -9%, rgb(252, 208, 147) 18%, rgb(242, 97, 121) 50%)`,
-                                    borderTopLeftRadius: 22,
-                                    borderTopRightRadius: 22,
-                                    mask: `linear-gradient(334deg, rgba(0,0,0,0) 70%, rgba(0,0,0,1) 103%) add`,
-                                    WebkitMask: `linear-gradient(334deg, rgba(0,0,0,0) 70%, rgba(0,0,0,1) 103%) add`,
-                                  },
-                                  children: h(C.div, {
-                                    className: `framer-1r316je`,
-                                    "data-framer-name": `Corner Line Inner`,
-                                    layoutDependency: E,
-                                    layoutId: `OOn1X4ueQ`,
-                                    style: {
-                                      backgroundColor: `rgb(1, 1, 23)`,
-                                      borderTopLeftRadius: 22,
-                                      borderTopRightRadius: 22,
-                                    },
-                                  }),
-                                }),
-                                _(C.div, {
-                                  className: `framer-eahfkc`,
-                                  layoutDependency: E,
-                                  layoutId: `OHI5RF_Wo`,
-                                  children: [
-                                    I() &&
-                                      _(C.div, {
-                                        className: `framer-qhdsv0`,
-                                        layoutDependency: E,
-                                        layoutId: `KqGPxNpdU`,
-                                        children: [
-                                          _(C.div, {
-                                            className: `framer-o6qbd`,
-                                            layoutDependency: E,
-                                            layoutId: `V_PX4ksga`,
-                                            children: [
-                                              h(ve, {
-                                                className: `framer-lbnfqj`,
-                                                layoutDependency: E,
-                                                layoutId: `HhHkqQOFA`,
-                                                requiresOverflowVisible: !1,
-                                                svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 34 32" overflow="visible"><path d="M 17 1.528 L 21.996 11.056 L 33.168 12.584 L 25.084 20 L 26.992 30.472 L 17 25.528 L 7.008 30.472 L 8.916 20 L 0.832 12.584 L 12.004 11.056 Z" fill="#CCC"></path></svg>`,
-                                                withExternalLayout: !0,
-                                              }),
-                                              h(F, {
-                                                __fromCanvasComponent: !0,
-                                                children: h(a, {
-                                                  children: h(C.p, {
-                                                    dir: `auto`,
-                                                    style: {
-                                                      "--framer-font-size": `26px`,
-                                                      "--framer-text-color": `var(--extracted-r6o4lv, rgb(219, 138, 138))`,
-                                                    },
-                                                    children: `AI Co-Pilot cho Chat`,
-                                                  }),
+                              children: _(C.div, {
+                                className: `framer-eahfkc`,
+                                layoutDependency: E,
+                                layoutId: `OHI5RF_Wo`,
+                                children: [
+                                  I() &&
+                                    _(C.div, {
+                                      className: `framer-qhdsv0`,
+                                      layoutDependency: E,
+                                      layoutId: `KqGPxNpdU`,
+                                      children: [
+                                        _(C.div, {
+                                          className: `framer-o6qbd`,
+                                          "data-border": !0,
+                                          layoutDependency: E,
+                                          layoutId: `V_PX4ksga`,
+                                          style: {
+                                            "--border-bottom-width": `1px`,
+                                            "--border-color": `rgb(232, 118, 118)`,
+                                            "--border-left-width": `1px`,
+                                            "--border-right-width": `1px`,
+                                            "--border-style": `solid`,
+                                            "--border-top-width": `1px`,
+                                          },
+                                          children: [
+                                            h(ve, {
+                                              className: `framer-lbnfqj`,
+                                              layoutDependency: E,
+                                              layoutId: `HhHkqQOFA`,
+                                              requiresOverflowVisible: !1,
+                                              svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 34 32" overflow="visible"><path d="M 17 1.528 L 21.996 11.056 L 33.168 12.584 L 25.084 20 L 26.992 30.472 L 17 25.528 L 7.008 30.472 L 8.916 20 L 0.832 12.584 L 12.004 11.056 Z" fill="#CCC"></path></svg>`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            h(F, {
+                                              __fromCanvasComponent: !0,
+                                              children: h(a, {
+                                                children: h(C.p, {
+                                                  dir: `auto`,
+                                                  style: {
+                                                    "--framer-font-size": `26px`,
+                                                    "--framer-text-color": `var(--extracted-r6o4lv, rgb(219, 138, 138))`,
+                                                  },
+                                                  children: `AI Co-Pilot cho Chat`,
                                                 }),
-                                                className: `framer-r0au63`,
-                                                fonts: [`Inter`],
-                                                layoutDependency: E,
-                                                layoutId: `z6vI2aD6V`,
-                                                style: {
-                                                  "--extracted-r6o4lv": `rgb(219, 138, 138)`,
-                                                  "--framer-link-text-color": `rgb(0, 153, 255)`,
-                                                  "--framer-link-text-decoration": `underline`,
-                                                },
-                                                verticalAlignment: `top`,
-                                                withExternalLayout: !0,
                                               }),
-                                              h(C.div, {
-                                                className: `framer-h91mze`,
-                                                layoutDependency: E,
-                                                layoutId: `mxInUmdW8`,
-                                                children: h(F, {
-                                                  __fromCanvasComponent: !0,
-                                                  children: h(a, {
-                                                    children: _(C.ul, {
+                                              className: `framer-r0au63`,
+                                              fonts: [`Inter`],
+                                              layoutDependency: E,
+                                              layoutId: `z6vI2aD6V`,
+                                              style: {
+                                                "--extracted-r6o4lv": `rgb(219, 138, 138)`,
+                                                "--framer-link-text-color": `rgb(0, 153, 255)`,
+                                                "--framer-link-text-decoration": `underline`,
+                                              },
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            h(C.div, {
+                                              className: `framer-h91mze`,
+                                              layoutDependency: E,
+                                              layoutId: `mxInUmdW8`,
+                                              children: h(F, {
+                                                __fromCanvasComponent: !0,
+                                                children: _(a, {
+                                                  children: [
+                                                    _(C.ul, {
                                                       dir: `auto`,
                                                       style: {
                                                         "--framer-font-size": `20px`,
@@ -7569,9 +7554,9 @@ var la,
                                                           "data-preset-tag": `p`,
                                                           children: _(C.p, {
                                                             children: [
-                                                              `Khi AI gửi cảnh báo, nó sẽ đính kèm luôn `,
+                                                              `Gợi  ý `,
                                                               h(C.strong, {
-                                                                children: `3 phương án xử lý gợi ý`,
+                                                                children: `sẵn 3 phương án xử lý đi kèm cảnh báo.`,
                                                               }),
                                                             ],
                                                           }),
@@ -7579,7 +7564,7 @@ var la,
                                                         h(C.li, {
                                                           "data-preset-tag": `p`,
                                                           children: h(C.p, {
-                                                            children: `Chuyên viên chỉ cần bấm vào các nút tùy chọn ngay dưới tin nhắn`,
+                                                            children: `Ra lệnh trực tiếp bằng nút bấm ngay dưới tin nhắn.`,
                                                           }),
                                                         }),
                                                         h(C.li, {
@@ -7587,675 +7572,709 @@ var la,
                                                           children: _(C.p, {
                                                             children: [
                                                               `Ví dụ: `,
-                                                              h(C.em, {
-                                                                children: `[Duyệt và Sửa]`,
+                                                              h(C.code, {
+                                                                children: h(C.em, {
+                                                                  children: `[Duyệt & Sửa]`,
+                                                                }),
                                                               }),
-                                                              ` | `,
-                                                              h(C.em, { children: `[Bỏ qua]` }),
-                                                              ` | `,
-                                                              h(C.em, {
-                                                                children: `[Yêu cầu AI hoàn tác]`,
+                                                              h(C.em, { children: ` | ` }),
+                                                              h(C.code, {
+                                                                children: h(C.em, {
+                                                                  children: `[Bỏ qua]`,
+                                                                }),
                                                               }),
+                                                              h(C.em, { children: ` | ` }),
+                                                              h(C.code, {
+                                                                children: h(C.em, {
+                                                                  children: `[Hoàn tác]`,
+                                                                }),
+                                                              }),
+                                                              h(C.em, { children: `.` }),
                                                             ],
                                                           }),
                                                         }),
                                                       ],
                                                     }),
-                                                  }),
-                                                  className: `framer-19ql1k0`,
-                                                  fonts: [
-                                                    `Inter`,
-                                                    `Inter-Bold`,
-                                                    `Inter-BoldItalic`,
-                                                    `Inter-Italic`,
+                                                    h(C.ul, {
+                                                      dir: `auto`,
+                                                      style: {
+                                                        "--framer-text-decoration-color": `rgb(10, 10, 10)`,
+                                                      },
+                                                      children: h(C.li, {}),
+                                                    }),
                                                   ],
-                                                  layoutDependency: E,
-                                                  layoutId: `PnR3O_P1V`,
-                                                  style: {
-                                                    "--extracted-1l7ec2w": `rgb(255, 242, 242)`,
-                                                    "--framer-link-text-color": `rgb(0, 153, 255)`,
-                                                    "--framer-link-text-decoration": `underline`,
-                                                  },
-                                                  verticalAlignment: `top`,
-                                                  withExternalLayout: !0,
                                                 }),
-                                              }),
-                                            ],
-                                          }),
-                                          _(C.div, {
-                                            className: `framer-1wc6841`,
-                                            layoutDependency: E,
-                                            layoutId: `Sn2iLxF2z`,
-                                            children: [
-                                              h(ve, {
-                                                className: `framer-11e3kne`,
+                                                className: `framer-19ql1k0`,
+                                                fonts: [
+                                                  `Inter`,
+                                                  `Inter-Bold`,
+                                                  `Inter-BoldItalic`,
+                                                  `Inter-Italic`,
+                                                ],
                                                 layoutDependency: E,
-                                                layoutId: `pxmmnfMGG`,
-                                                requiresOverflowVisible: !1,
-                                                svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 34 32" overflow="visible"><path d="M 17 1.528 L 21.996 11.056 L 33.168 12.584 L 25.084 20 L 26.992 30.472 L 17 25.528 L 7.008 30.472 L 8.916 20 L 0.832 12.584 L 12.004 11.056 Z" fill="#CCC"></path></svg>`,
-                                                withExternalLayout: !0,
-                                              }),
-                                              h(F, {
-                                                __fromCanvasComponent: !0,
-                                                children: h(a, {
-                                                  children: h(C.p, {
-                                                    dir: `auto`,
-                                                    style: {
-                                                      "--framer-font-size": `26px`,
-                                                      "--framer-text-color": `var(--extracted-r6o4lv, rgb(219, 138, 138))`,
-                                                    },
-                                                    children: `Trợ lý Ủy quyền & Tự vận hành`,
-                                                  }),
-                                                }),
-                                                className: `framer-s5c4cw`,
-                                                fonts: [`Inter`],
-                                                layoutDependency: E,
-                                                layoutId: `ZrG7ELpMJ`,
+                                                layoutId: `PnR3O_P1V`,
                                                 style: {
-                                                  "--extracted-r6o4lv": `rgb(219, 138, 138)`,
+                                                  "--extracted-1l7ec2w": `rgb(255, 242, 242)`,
                                                   "--framer-link-text-color": `rgb(0, 153, 255)`,
                                                   "--framer-link-text-decoration": `underline`,
                                                 },
                                                 verticalAlignment: `top`,
                                                 withExternalLayout: !0,
                                               }),
-                                              h(C.div, {
-                                                className: `framer-1xfnkf2`,
-                                                layoutDependency: E,
-                                                layoutId: `Uk__iIGMo`,
-                                                children: h(F, {
-                                                  __fromCanvasComponent: !0,
-                                                  children: h(a, {
-                                                    children: _(C.ul, {
-                                                      dir: `auto`,
-                                                      style: {
-                                                        "--framer-font-size": `20px`,
-                                                        "--framer-text-color": `var(--extracted-1l7ec2w, rgb(255, 242, 242))`,
-                                                      },
-                                                      children: [
-                                                        h(C.li, {
-                                                          "data-preset-tag": `p`,
-                                                          children: h(C.p, {
-                                                            children: `Chuyên viên chỉ cần "giao việc" cho AI bằng ngôn ngữ tự nhiên như giao cho một nhân sự thật`,
-                                                          }),
-                                                        }),
-                                                        h(C.li, {
-                                                          "data-preset-tag": `p`,
-                                                          children: h(C.p, {
-                                                            children: `AI sẽ đề xuất quy trình kiểm tra để chuyên viên xác nhận `,
-                                                          }),
-                                                        }),
-                                                        h(C.li, {
-                                                          "data-preset-tag": `p`,
-                                                          children: h(C.p, {
-                                                            children: `Tự động chạy ngầm mà không cần con người can thiệp kỹ thuật trong phạm vi chuyên viên đã cho phép`,
-                                                          }),
-                                                        }),
-                                                      ],
-                                                    }),
-                                                  }),
-                                                  className: `framer-1y0c7vy`,
-                                                  fonts: [`Inter`],
-                                                  layoutDependency: E,
-                                                  layoutId: `GYVYjsdUr`,
+                                            }),
+                                          ],
+                                        }),
+                                        _(C.div, {
+                                          className: `framer-1wc6841`,
+                                          "data-border": !0,
+                                          layoutDependency: E,
+                                          layoutId: `Sn2iLxF2z`,
+                                          style: {
+                                            "--border-bottom-width": `1px`,
+                                            "--border-color": `rgb(48, 52, 97)`,
+                                            "--border-left-width": `1px`,
+                                            "--border-right-width": `1px`,
+                                            "--border-style": `solid`,
+                                            "--border-top-width": `1px`,
+                                          },
+                                          children: [
+                                            h(ve, {
+                                              className: `framer-11e3kne`,
+                                              layoutDependency: E,
+                                              layoutId: `pxmmnfMGG`,
+                                              requiresOverflowVisible: !1,
+                                              svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 34 32" overflow="visible"><path d="M 17 1.528 L 21.996 11.056 L 33.168 12.584 L 25.084 20 L 26.992 30.472 L 17 25.528 L 7.008 30.472 L 8.916 20 L 0.832 12.584 L 12.004 11.056 Z" fill="#CCC"></path></svg>`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            h(F, {
+                                              __fromCanvasComponent: !0,
+                                              children: h(a, {
+                                                children: h(C.p, {
+                                                  dir: `auto`,
                                                   style: {
-                                                    "--extracted-1l7ec2w": `rgb(255, 242, 242)`,
-                                                    "--framer-link-text-color": `rgb(0, 153, 255)`,
-                                                    "--framer-link-text-decoration": `underline`,
+                                                    "--framer-font-size": `26px`,
+                                                    "--framer-text-color": `var(--extracted-r6o4lv, rgb(219, 138, 138))`,
                                                   },
-                                                  verticalAlignment: `top`,
-                                                  withExternalLayout: !0,
+                                                  children: `Trợ lý Ủy quyền & Tự vận hành`,
                                                 }),
                                               }),
-                                            ],
-                                          }),
-                                          _(C.div, {
-                                            className: `framer-pkre4i`,
-                                            layoutDependency: E,
-                                            layoutId: `dhVatynwn`,
-                                            children: [
-                                              h(ve, {
-                                                className: `framer-mgy0kq`,
-                                                layoutDependency: E,
-                                                layoutId: `hBkPDs53c`,
-                                                requiresOverflowVisible: !1,
-                                                svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 34 32" overflow="visible"><path d="M 17 1.528 L 21.996 11.056 L 33.168 12.584 L 25.084 20 L 26.992 30.472 L 17 25.528 L 7.008 30.472 L 8.916 20 L 0.832 12.584 L 12.004 11.056 Z" fill="#CCC"></path></svg>`,
-                                                withExternalLayout: !0,
-                                              }),
-                                              h(F, {
+                                              className: `framer-s5c4cw`,
+                                              fonts: [`Inter`],
+                                              layoutDependency: E,
+                                              layoutId: `ZrG7ELpMJ`,
+                                              style: {
+                                                "--extracted-r6o4lv": `rgb(219, 138, 138)`,
+                                                "--framer-link-text-color": `rgb(0, 153, 255)`,
+                                                "--framer-link-text-decoration": `underline`,
+                                              },
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            h(C.div, {
+                                              className: `framer-1xfnkf2`,
+                                              layoutDependency: E,
+                                              layoutId: `Uk__iIGMo`,
+                                              children: h(F, {
                                                 __fromCanvasComponent: !0,
                                                 children: h(a, {
-                                                  children: h(C.p, {
+                                                  children: _(C.ul, {
                                                     dir: `auto`,
                                                     style: {
-                                                      "--framer-font-size": `26px`,
-                                                      "--framer-text-color": `var(--extracted-r6o4lv, rgb(219, 138, 138))`,
+                                                      "--framer-font-size": `20px`,
+                                                      "--framer-text-color": `var(--extracted-1l7ec2w, rgb(255, 242, 242))`,
                                                     },
-                                                    children: `Giao ban Tri thức Doanh nghiệp`,
+                                                    children: [
+                                                      h(C.li, {
+                                                        "data-preset-tag": `p`,
+                                                        children: h(C.p, {
+                                                          children: `Giao việc cho AI bằng ngôn ngữ tự nhiên như nhân sự thật.`,
+                                                        }),
+                                                      }),
+                                                      h(C.li, {
+                                                        "data-preset-tag": `p`,
+                                                        children: h(C.p, {
+                                                          children: `Tự đề xuất và chạy ngầm quy trình kiểm tra dữ liệu. `,
+                                                        }),
+                                                      }),
+                                                      h(C.li, {
+                                                        "data-preset-tag": `p`,
+                                                        children: h(C.p, {
+                                                          children: `Hoạt động an toàn trong phạm vi chuyên viên cho phép.`,
+                                                        }),
+                                                      }),
+                                                    ],
                                                   }),
                                                 }),
-                                                className: `framer-usxrcj`,
+                                                className: `framer-1y0c7vy`,
                                                 fonts: [`Inter`],
                                                 layoutDependency: E,
-                                                layoutId: `W56NwsKFY`,
+                                                layoutId: `GYVYjsdUr`,
                                                 style: {
-                                                  "--extracted-r6o4lv": `rgb(219, 138, 138)`,
+                                                  "--extracted-1l7ec2w": `rgb(255, 242, 242)`,
                                                   "--framer-link-text-color": `rgb(0, 153, 255)`,
                                                   "--framer-link-text-decoration": `underline`,
                                                 },
                                                 verticalAlignment: `top`,
                                                 withExternalLayout: !0,
                                               }),
-                                              h(C.div, {
-                                                className: `framer-12r5nzr`,
-                                                layoutDependency: E,
-                                                layoutId: `CL7yayvUW`,
-                                                children: h(F, {
-                                                  __fromCanvasComponent: !0,
-                                                  children: h(a, {
-                                                    children: _(C.ul, {
-                                                      dir: `auto`,
-                                                      style: {
-                                                        "--framer-font-size": `20px`,
-                                                        "--framer-text-color": `var(--extracted-1l7ec2w, rgb(255, 242, 242))`,
-                                                      },
-                                                      children: [
-                                                        h(C.li, {
-                                                          "data-preset-tag": `p`,
-                                                          children: h(C.p, {
-                                                            children: `AI tự động tổng hợp, phân tích toàn bộ dữ liệu vận hành trong ngày thành một bản tin vắn gửi riêng cho người thiết lập `,
-                                                          }),
-                                                        }),
-                                                        h(C.li, {
-                                                          "data-preset-tag": `p`,
-                                                          children: h(C.p, {
-                                                            children: `Nắm rõ tổng quan công việc nhanh chóng, tìm hiểu sâu hơn dựa vào ngữ cảnh hiện có`,
-                                                          }),
-                                                        }),
-                                                        h(C.li, {
-                                                          "data-preset-tag": `p`,
-                                                          children: h(C.p, {
-                                                            children: `Chuẩn bị phương án dự phòng cho những rủi ro công việc`,
-                                                          }),
-                                                        }),
-                                                      ],
-                                                    }),
-                                                  }),
-                                                  className: `framer-xes6ag`,
-                                                  fonts: [`Inter`],
-                                                  layoutDependency: E,
-                                                  layoutId: `uMPyWAoR7`,
+                                            }),
+                                          ],
+                                        }),
+                                        _(C.div, {
+                                          className: `framer-pkre4i`,
+                                          "data-border": !0,
+                                          layoutDependency: E,
+                                          layoutId: `dhVatynwn`,
+                                          style: {
+                                            "--border-bottom-width": `1px`,
+                                            "--border-color": `rgb(44, 105, 65)`,
+                                            "--border-left-width": `1px`,
+                                            "--border-right-width": `1px`,
+                                            "--border-style": `solid`,
+                                            "--border-top-width": `1px`,
+                                          },
+                                          children: [
+                                            h(ve, {
+                                              className: `framer-mgy0kq`,
+                                              layoutDependency: E,
+                                              layoutId: `hBkPDs53c`,
+                                              requiresOverflowVisible: !1,
+                                              svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 34 32" overflow="visible"><path d="M 17 1.528 L 21.996 11.056 L 33.168 12.584 L 25.084 20 L 26.992 30.472 L 17 25.528 L 7.008 30.472 L 8.916 20 L 0.832 12.584 L 12.004 11.056 Z" fill="#CCC"></path></svg>`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            h(F, {
+                                              __fromCanvasComponent: !0,
+                                              children: h(a, {
+                                                children: h(C.p, {
+                                                  dir: `auto`,
                                                   style: {
-                                                    "--extracted-1l7ec2w": `rgb(255, 242, 242)`,
-                                                    "--framer-link-text-color": `rgb(0, 153, 255)`,
-                                                    "--framer-link-text-decoration": `underline`,
+                                                    "--framer-font-size": `26px`,
+                                                    "--framer-text-color": `var(--extracted-r6o4lv, rgb(219, 138, 138))`,
                                                   },
-                                                  verticalAlignment: `top`,
-                                                  withExternalLayout: !0,
+                                                  children: `Giao ban Tri thức Doanh nghiệp`,
                                                 }),
                                               }),
-                                            ],
+                                              className: `framer-usxrcj`,
+                                              fonts: [`Inter`],
+                                              layoutDependency: E,
+                                              layoutId: `W56NwsKFY`,
+                                              style: {
+                                                "--extracted-r6o4lv": `rgb(219, 138, 138)`,
+                                                "--framer-link-text-color": `rgb(0, 153, 255)`,
+                                                "--framer-link-text-decoration": `underline`,
+                                              },
+                                              verticalAlignment: `top`,
+                                              withExternalLayout: !0,
+                                            }),
+                                            h(C.div, {
+                                              className: `framer-12r5nzr`,
+                                              layoutDependency: E,
+                                              layoutId: `CL7yayvUW`,
+                                              children: h(F, {
+                                                __fromCanvasComponent: !0,
+                                                children: h(a, {
+                                                  children: _(C.ul, {
+                                                    dir: `auto`,
+                                                    style: {
+                                                      "--framer-font-size": `20px`,
+                                                      "--framer-text-color": `var(--extracted-1l7ec2w, rgb(255, 242, 242))`,
+                                                    },
+                                                    children: [
+                                                      h(C.li, {
+                                                        "data-preset-tag": `p`,
+                                                        children: h(C.p, {
+                                                          children: `Tự động đúc kết toàn bộ dữ liệu vận hành thành bản tin vắn hằng ngày.`,
+                                                        }),
+                                                      }),
+                                                      h(C.li, {
+                                                        "data-preset-tag": `p`,
+                                                        children: h(C.p, {
+                                                          children: `Giúp nhà quản lý nắm trọn "sức khỏe" doanh nghiệp sau 30 giây.`,
+                                                        }),
+                                                      }),
+                                                      h(C.li, {
+                                                        "data-preset-tag": `p`,
+                                                        children: h(C.p, {
+                                                          children: `Cảnh báo trước rủi ro và đề xuất phương án dự phòng.`,
+                                                        }),
+                                                      }),
+                                                    ],
+                                                  }),
+                                                }),
+                                                className: `framer-xes6ag`,
+                                                fonts: [`Inter`],
+                                                layoutDependency: E,
+                                                layoutId: `uMPyWAoR7`,
+                                                style: {
+                                                  "--extracted-1l7ec2w": `rgb(255, 242, 242)`,
+                                                  "--framer-link-text-color": `rgb(0, 153, 255)`,
+                                                  "--framer-link-text-decoration": `underline`,
+                                                },
+                                                verticalAlignment: `top`,
+                                                withExternalLayout: !0,
+                                              }),
+                                            }),
+                                          ],
+                                        }),
+                                      ],
+                                    }),
+                                  h(de, {
+                                    links: [
+                                      {
+                                        href: { webPageId: `augiA20Il` },
+                                        implicitPathVariables: void 0,
+                                      },
+                                      {
+                                        href: { webPageId: `augiA20Il` },
+                                        implicitPathVariables: void 0,
+                                      },
+                                      {
+                                        href: { webPageId: `augiA20Il` },
+                                        implicitPathVariables: void 0,
+                                      },
+                                      {
+                                        href: { webPageId: `augiA20Il` },
+                                        implicitPathVariables: void 0,
+                                      },
+                                      {
+                                        href: { webPageId: `augiA20Il` },
+                                        implicitPathVariables: void 0,
+                                      },
+                                      {
+                                        href: { webPageId: `augiA20Il` },
+                                        implicitPathVariables: void 0,
+                                      },
+                                    ],
+                                    children: (e) =>
+                                      h(W, {
+                                        height: 48,
+                                        y:
+                                          (l?.y || 0) +
+                                          0 +
+                                          (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                          5 +
+                                          0 +
+                                          0 +
+                                          25 +
+                                          0 +
+                                          5 +
+                                          0 +
+                                          8,
+                                        children: h(q, {
+                                          className: `framer-7g86ak-container`,
+                                          layoutDependency: E,
+                                          layoutId: `lEyAQLvR6-container`,
+                                          nodeId: `lEyAQLvR6`,
+                                          rendersWithMotion: !0,
+                                          scopeId: `ThlFB8dhK`,
+                                          children: h(Ce, {
+                                            height: `100%`,
+                                            id: `lEyAQLvR6`,
+                                            irY_XKj0O: e[0],
+                                            layoutId: `lEyAQLvR6`,
+                                            variant: ba(`iC3uXzR0q`),
+                                            width: `100%`,
+                                            ...ca(
+                                              {
+                                                BhgKpPyRM: { irY_XKj0O: e[3] },
+                                                exGrCNMBY: { irY_XKj0O: e[1] },
+                                                i66Xu18wi: { irY_XKj0O: e[5] },
+                                                NzZwNSqPC: { irY_XKj0O: e[4] },
+                                                YkRwyK5Zj: { irY_XKj0O: e[2] },
+                                              },
+                                              g,
+                                              S
+                                            ),
                                           }),
-                                        ],
+                                        }),
                                       }),
-                                    h(de, {
-                                      links: [
-                                        {
-                                          href: { webPageId: `augiA20Il` },
-                                          implicitPathVariables: void 0,
-                                        },
-                                        {
-                                          href: { webPageId: `augiA20Il` },
-                                          implicitPathVariables: void 0,
-                                        },
-                                        {
-                                          href: { webPageId: `augiA20Il` },
-                                          implicitPathVariables: void 0,
-                                        },
-                                        {
-                                          href: { webPageId: `augiA20Il` },
-                                          implicitPathVariables: void 0,
-                                        },
-                                        {
-                                          href: { webPageId: `augiA20Il` },
-                                          implicitPathVariables: void 0,
-                                        },
-                                        {
-                                          href: { webPageId: `augiA20Il` },
-                                          implicitPathVariables: void 0,
-                                        },
-                                      ],
-                                      children: (e) =>
-                                        h(W, {
-                                          height: 48,
-                                          y:
-                                            (l?.y || 0) +
-                                            0 +
-                                            (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                            5 +
-                                            0 +
-                                            0 +
-                                            25 +
-                                            0 +
-                                            5 +
-                                            0 +
-                                            8,
-                                          children: h(q, {
-                                            className: `framer-7g86ak-container`,
-                                            layoutDependency: E,
-                                            layoutId: `lEyAQLvR6-container`,
-                                            nodeId: `lEyAQLvR6`,
-                                            rendersWithMotion: !0,
-                                            scopeId: `ThlFB8dhK`,
-                                            children: h(Ce, {
-                                              height: `100%`,
-                                              id: `lEyAQLvR6`,
-                                              irY_XKj0O: e[0],
-                                              layoutId: `lEyAQLvR6`,
-                                              variant: ba(`iC3uXzR0q`),
-                                              width: `100%`,
-                                              ...ca(
-                                                {
-                                                  BhgKpPyRM: { irY_XKj0O: e[3] },
-                                                  exGrCNMBY: { irY_XKj0O: e[1] },
-                                                  i66Xu18wi: { irY_XKj0O: e[5] },
-                                                  NzZwNSqPC: { irY_XKj0O: e[4] },
-                                                  YkRwyK5Zj: { irY_XKj0O: e[2] },
+                                  }),
+                                  _(C.div, {
+                                    className: `framer-1kkj2bb`,
+                                    "data-framer-name": `Tabs`,
+                                    layoutDependency: E,
+                                    layoutId: `vem08X3Jj`,
+                                    transformTemplate: _a,
+                                    children: [
+                                      h(W, {
+                                        height: 41,
+                                        y:
+                                          (l?.y || 0) +
+                                          0 +
+                                          (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                          5 +
+                                          0 +
+                                          0 +
+                                          25 +
+                                          0 +
+                                          5 +
+                                          0 +
+                                          11 +
+                                          0,
+                                        ...ca(
+                                          {
+                                            BhgKpPyRM: {
+                                              width: `974px`,
+                                              y:
+                                                (l?.y || 0) +
+                                                0 +
+                                                (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                                5 +
+                                                0 +
+                                                0 +
+                                                25 +
+                                                0 +
+                                                5 +
+                                                0 +
+                                                11 +
+                                                0 +
+                                                0,
+                                            },
+                                            YkRwyK5Zj: {
+                                              width: `974px`,
+                                              y:
+                                                (l?.y || 0) +
+                                                0 +
+                                                (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                                5 +
+                                                0 +
+                                                0 +
+                                                25 +
+                                                0 +
+                                                5 +
+                                                0 +
+                                                11 +
+                                                0 +
+                                                0,
+                                            },
+                                          },
+                                          g,
+                                          S
+                                        ),
+                                        children: h(q, {
+                                          className: `framer-1g931o1-container`,
+                                          layoutDependency: E,
+                                          layoutId: `brUOUIawY-container`,
+                                          nodeId: `brUOUIawY`,
+                                          rendersWithMotion: !0,
+                                          scopeId: `ThlFB8dhK`,
+                                          children: h(oa, {
+                                            height: `100%`,
+                                            hWSEK1rhs: {
+                                              borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
+                                              borderStyle: `solid`,
+                                              borderWidth: 1,
+                                            },
+                                            id: `brUOUIawY`,
+                                            layoutId: `brUOUIawY`,
+                                            oXv7AZm4A: k,
+                                            variant: ba(`IllKbU6rd`),
+                                            width: `100%`,
+                                            YnoIm5kRZ: `Sắp ra mắt`,
+                                            yueETfOfX: {
+                                              borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
+                                              borderStyle: `solid`,
+                                              borderWidth: 1,
+                                            },
+                                            ...ca(
+                                              {
+                                                BhgKpPyRM: {
+                                                  oXv7AZm4A: A,
+                                                  style: { width: `100%` },
+                                                  variant: ba(`QzrBcpVgk`),
                                                 },
-                                                g,
-                                                S
-                                              ),
-                                            }),
+                                                exGrCNMBY: { variant: ba(`QzrBcpVgk`) },
+                                                i66Xu18wi: { variant: ba(`QzrBcpVgk`) },
+                                                NzZwNSqPC: { variant: ba(`QzrBcpVgk`) },
+                                                YkRwyK5Zj: { style: { width: `100%` } },
+                                              },
+                                              g,
+                                              S
+                                            ),
                                           }),
                                         }),
-                                    }),
-                                    _(C.div, {
-                                      className: `framer-1kkj2bb`,
-                                      "data-framer-name": `Tabs`,
-                                      layoutDependency: E,
-                                      layoutId: `vem08X3Jj`,
-                                      transformTemplate: _a,
-                                      children: [
-                                        h(W, {
-                                          height: 41,
-                                          y:
-                                            (l?.y || 0) +
-                                            0 +
-                                            (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                            5 +
-                                            0 +
-                                            0 +
-                                            25 +
-                                            0 +
-                                            5 +
-                                            0 +
-                                            11 +
-                                            0,
-                                          ...ca(
-                                            {
-                                              BhgKpPyRM: {
-                                                width: `974px`,
-                                                y:
-                                                  (l?.y || 0) +
-                                                  0 +
-                                                  (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                                  5 +
-                                                  0 +
-                                                  0 +
-                                                  25 +
-                                                  0 +
-                                                  5 +
-                                                  0 +
-                                                  11 +
-                                                  0 +
-                                                  0,
-                                              },
-                                              YkRwyK5Zj: {
-                                                width: `974px`,
-                                                y:
-                                                  (l?.y || 0) +
-                                                  0 +
-                                                  (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                                  5 +
-                                                  0 +
-                                                  0 +
-                                                  25 +
-                                                  0 +
-                                                  5 +
-                                                  0 +
-                                                  11 +
-                                                  0 +
-                                                  0,
-                                              },
+                                      }),
+                                      h(W, {
+                                        height: 41,
+                                        y:
+                                          (l?.y || 0) +
+                                          0 +
+                                          (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                          5 +
+                                          0 +
+                                          0 +
+                                          25 +
+                                          0 +
+                                          5 +
+                                          0 +
+                                          11 +
+                                          0,
+                                        ...ca(
+                                          {
+                                            BhgKpPyRM: {
+                                              width: `974px`,
+                                              y:
+                                                (l?.y || 0) +
+                                                0 +
+                                                (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                                5 +
+                                                0 +
+                                                0 +
+                                                25 +
+                                                0 +
+                                                5 +
+                                                0 +
+                                                11 +
+                                                0 +
+                                                51,
                                             },
-                                            g,
-                                            S
-                                          ),
-                                          children: h(q, {
-                                            className: `framer-1g931o1-container`,
-                                            layoutDependency: E,
-                                            layoutId: `brUOUIawY-container`,
-                                            nodeId: `brUOUIawY`,
-                                            rendersWithMotion: !0,
-                                            scopeId: `ThlFB8dhK`,
-                                            children: h(oa, {
-                                              height: `100%`,
-                                              hWSEK1rhs: {
-                                                borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
-                                                borderStyle: `solid`,
-                                                borderWidth: 1,
-                                              },
-                                              id: `brUOUIawY`,
-                                              layoutId: `brUOUIawY`,
-                                              oXv7AZm4A: k,
-                                              variant: ba(`IllKbU6rd`),
-                                              width: `100%`,
-                                              YnoIm5kRZ: `Sắp ra mắt`,
-                                              yueETfOfX: {
-                                                borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
-                                                borderStyle: `solid`,
-                                                borderWidth: 1,
-                                              },
-                                              ...ca(
-                                                {
-                                                  BhgKpPyRM: {
-                                                    oXv7AZm4A: A,
-                                                    style: { width: `100%` },
-                                                    variant: ba(`QzrBcpVgk`),
-                                                  },
-                                                  exGrCNMBY: { variant: ba(`QzrBcpVgk`) },
-                                                  i66Xu18wi: { variant: ba(`QzrBcpVgk`) },
-                                                  NzZwNSqPC: { variant: ba(`QzrBcpVgk`) },
-                                                  YkRwyK5Zj: { style: { width: `100%` } },
+                                            YkRwyK5Zj: {
+                                              width: `974px`,
+                                              y:
+                                                (l?.y || 0) +
+                                                0 +
+                                                (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                                5 +
+                                                0 +
+                                                0 +
+                                                25 +
+                                                0 +
+                                                5 +
+                                                0 +
+                                                11 +
+                                                0 +
+                                                51,
+                                            },
+                                          },
+                                          g,
+                                          S
+                                        ),
+                                        children: h(q, {
+                                          className: `framer-1gekgcx-container`,
+                                          layoutDependency: E,
+                                          layoutId: `mt0STHqmT-container`,
+                                          nodeId: `mt0STHqmT`,
+                                          rendersWithMotion: !0,
+                                          scopeId: `ThlFB8dhK`,
+                                          children: h(oa, {
+                                            height: `100%`,
+                                            hWSEK1rhs: {
+                                              borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
+                                              borderStyle: `solid`,
+                                              borderWidth: 1,
+                                            },
+                                            id: `mt0STHqmT`,
+                                            layoutId: `mt0STHqmT`,
+                                            oXv7AZm4A: j,
+                                            variant: ba(`QzrBcpVgk`),
+                                            width: `100%`,
+                                            YnoIm5kRZ: `Vận hành 1 chiều`,
+                                            yueETfOfX: {
+                                              borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
+                                              borderStyle: `solid`,
+                                              borderWidth: 1,
+                                            },
+                                            ...ca(
+                                              {
+                                                BhgKpPyRM: {
+                                                  style: { width: `100%` },
+                                                  variant: ba(`IllKbU6rd`),
                                                 },
-                                                g,
-                                                S
-                                              ),
-                                            }),
-                                          }),
-                                        }),
-                                        h(W, {
-                                          height: 41,
-                                          y:
-                                            (l?.y || 0) +
-                                            0 +
-                                            (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                            5 +
-                                            0 +
-                                            0 +
-                                            25 +
-                                            0 +
-                                            5 +
-                                            0 +
-                                            11 +
-                                            0,
-                                          ...ca(
-                                            {
-                                              BhgKpPyRM: {
-                                                width: `974px`,
-                                                y:
-                                                  (l?.y || 0) +
-                                                  0 +
-                                                  (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                                  5 +
-                                                  0 +
-                                                  0 +
-                                                  25 +
-                                                  0 +
-                                                  5 +
-                                                  0 +
-                                                  11 +
-                                                  0 +
-                                                  51,
-                                              },
-                                              YkRwyK5Zj: {
-                                                width: `974px`,
-                                                y:
-                                                  (l?.y || 0) +
-                                                  0 +
-                                                  (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                                  5 +
-                                                  0 +
-                                                  0 +
-                                                  25 +
-                                                  0 +
-                                                  5 +
-                                                  0 +
-                                                  11 +
-                                                  0 +
-                                                  51,
-                                              },
-                                            },
-                                            g,
-                                            S
-                                          ),
-                                          children: h(q, {
-                                            className: `framer-1gekgcx-container`,
-                                            layoutDependency: E,
-                                            layoutId: `mt0STHqmT-container`,
-                                            nodeId: `mt0STHqmT`,
-                                            rendersWithMotion: !0,
-                                            scopeId: `ThlFB8dhK`,
-                                            children: h(oa, {
-                                              height: `100%`,
-                                              hWSEK1rhs: {
-                                                borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
-                                                borderStyle: `solid`,
-                                                borderWidth: 1,
-                                              },
-                                              id: `mt0STHqmT`,
-                                              layoutId: `mt0STHqmT`,
-                                              oXv7AZm4A: j,
-                                              variant: ba(`QzrBcpVgk`),
-                                              width: `100%`,
-                                              YnoIm5kRZ: `Vận hành 1 chiều`,
-                                              yueETfOfX: {
-                                                borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
-                                                borderStyle: `solid`,
-                                                borderWidth: 1,
-                                              },
-                                              ...ca(
-                                                {
-                                                  BhgKpPyRM: {
-                                                    style: { width: `100%` },
-                                                    variant: ba(`IllKbU6rd`),
-                                                  },
-                                                  exGrCNMBY: { variant: ba(`IllKbU6rd`) },
-                                                  YkRwyK5Zj: {
-                                                    oXv7AZm4A: M,
-                                                    style: { width: `100%` },
-                                                  },
+                                                exGrCNMBY: { variant: ba(`IllKbU6rd`) },
+                                                YkRwyK5Zj: {
+                                                  oXv7AZm4A: M,
+                                                  style: { width: `100%` },
                                                 },
-                                                g,
-                                                S
-                                              ),
-                                            }),
+                                              },
+                                              g,
+                                              S
+                                            ),
                                           }),
                                         }),
-                                        h(W, {
-                                          height: 41,
-                                          y:
-                                            (l?.y || 0) +
-                                            0 +
-                                            (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                            5 +
-                                            0 +
-                                            0 +
-                                            25 +
-                                            0 +
-                                            5 +
-                                            0 +
-                                            11 +
-                                            0,
-                                          ...ca(
-                                            {
-                                              BhgKpPyRM: {
-                                                y:
-                                                  (l?.y || 0) +
-                                                  0 +
-                                                  (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                                  5 +
-                                                  0 +
-                                                  0 +
-                                                  25 +
-                                                  0 +
-                                                  5 +
-                                                  0 +
-                                                  11 +
-                                                  0 +
-                                                  102,
-                                              },
-                                              YkRwyK5Zj: {
-                                                y:
-                                                  (l?.y || 0) +
-                                                  0 +
-                                                  (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                                  5 +
-                                                  0 +
-                                                  0 +
-                                                  25 +
-                                                  0 +
-                                                  5 +
-                                                  0 +
-                                                  11 +
-                                                  0 +
-                                                  102,
-                                              },
+                                      }),
+                                      h(W, {
+                                        height: 41,
+                                        y:
+                                          (l?.y || 0) +
+                                          0 +
+                                          (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                          5 +
+                                          0 +
+                                          0 +
+                                          25 +
+                                          0 +
+                                          5 +
+                                          0 +
+                                          11 +
+                                          0,
+                                        ...ca(
+                                          {
+                                            BhgKpPyRM: {
+                                              y:
+                                                (l?.y || 0) +
+                                                0 +
+                                                (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                                5 +
+                                                0 +
+                                                0 +
+                                                25 +
+                                                0 +
+                                                5 +
+                                                0 +
+                                                11 +
+                                                0 +
+                                                102,
                                             },
-                                            g,
-                                            S
-                                          ),
-                                          children: h(q, {
-                                            className: `framer-1ahxmui-container`,
-                                            layoutDependency: E,
-                                            layoutId: `NZCseoGAa-container`,
-                                            nodeId: `NZCseoGAa`,
-                                            rendersWithMotion: !0,
-                                            scopeId: `ThlFB8dhK`,
-                                            children: h(oa, {
-                                              height: `100%`,
-                                              hWSEK1rhs: {
-                                                borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
-                                                borderStyle: `solid`,
-                                                borderWidth: 1,
-                                              },
-                                              id: `NZCseoGAa`,
-                                              layoutId: `NZCseoGAa`,
-                                              oXv7AZm4A: N,
-                                              variant: ba(`QzrBcpVgk`),
-                                              width: `100%`,
-                                              YnoIm5kRZ: `Vận hành 2 chiều`,
-                                              yueETfOfX: {
-                                                borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
-                                                borderStyle: `solid`,
-                                                borderWidth: 1,
-                                              },
-                                              ...ca(
-                                                { NzZwNSqPC: { variant: ba(`IllKbU6rd`) } },
-                                                g,
-                                                S
-                                              ),
-                                            }),
-                                          }),
-                                        }),
-                                        h(W, {
-                                          height: 41,
-                                          y:
-                                            (l?.y || 0) +
-                                            0 +
-                                            (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                            5 +
-                                            0 +
-                                            0 +
-                                            25 +
-                                            0 +
-                                            5 +
-                                            0 +
-                                            11 +
-                                            0,
-                                          ...ca(
-                                            {
-                                              BhgKpPyRM: {
-                                                y:
-                                                  (l?.y || 0) +
-                                                  0 +
-                                                  (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                                  5 +
-                                                  0 +
-                                                  0 +
-                                                  25 +
-                                                  0 +
-                                                  5 +
-                                                  0 +
-                                                  11 +
-                                                  0 +
-                                                  153,
-                                              },
-                                              YkRwyK5Zj: {
-                                                y:
-                                                  (l?.y || 0) +
-                                                  0 +
-                                                  (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
-                                                  5 +
-                                                  0 +
-                                                  0 +
-                                                  25 +
-                                                  0 +
-                                                  5 +
-                                                  0 +
-                                                  11 +
-                                                  0 +
-                                                  153,
-                                              },
+                                            YkRwyK5Zj: {
+                                              y:
+                                                (l?.y || 0) +
+                                                0 +
+                                                (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                                5 +
+                                                0 +
+                                                0 +
+                                                25 +
+                                                0 +
+                                                5 +
+                                                0 +
+                                                11 +
+                                                0 +
+                                                102,
                                             },
-                                            g,
-                                            S
-                                          ),
-                                          children: h(q, {
-                                            className: `framer-aj1jge-container`,
-                                            layoutDependency: E,
-                                            layoutId: `cDUNWwuQY-container`,
-                                            nodeId: `cDUNWwuQY`,
-                                            rendersWithMotion: !0,
-                                            scopeId: `ThlFB8dhK`,
-                                            children: h(oa, {
-                                              height: `100%`,
-                                              hWSEK1rhs: {
-                                                borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
-                                                borderStyle: `solid`,
-                                                borderWidth: 1,
-                                              },
-                                              id: `cDUNWwuQY`,
-                                              layoutId: `cDUNWwuQY`,
-                                              oXv7AZm4A: re,
-                                              variant: ba(`QzrBcpVgk`),
-                                              width: `100%`,
-                                              YnoIm5kRZ: `Vận hành 3 chiều`,
-                                              yueETfOfX: {
-                                                borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
-                                                borderStyle: `solid`,
-                                                borderWidth: 1,
-                                              },
-                                              ...ca(
-                                                { i66Xu18wi: { variant: ba(`IllKbU6rd`) } },
-                                                g,
-                                                S
-                                              ),
-                                            }),
+                                          },
+                                          g,
+                                          S
+                                        ),
+                                        children: h(q, {
+                                          className: `framer-1ahxmui-container`,
+                                          layoutDependency: E,
+                                          layoutId: `NZCseoGAa-container`,
+                                          nodeId: `NZCseoGAa`,
+                                          rendersWithMotion: !0,
+                                          scopeId: `ThlFB8dhK`,
+                                          children: h(oa, {
+                                            height: `100%`,
+                                            hWSEK1rhs: {
+                                              borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
+                                              borderStyle: `solid`,
+                                              borderWidth: 1,
+                                            },
+                                            id: `NZCseoGAa`,
+                                            layoutId: `NZCseoGAa`,
+                                            oXv7AZm4A: N,
+                                            variant: ba(`QzrBcpVgk`),
+                                            width: `100%`,
+                                            YnoIm5kRZ: `Vận hành 2 chiều`,
+                                            yueETfOfX: {
+                                              borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
+                                              borderStyle: `solid`,
+                                              borderWidth: 1,
+                                            },
+                                            ...ca(
+                                              { NzZwNSqPC: { variant: ba(`IllKbU6rd`) } },
+                                              g,
+                                              S
+                                            ),
                                           }),
                                         }),
-                                      ],
-                                    }),
-                                    h(C.div, {
-                                      className: `framer-rgajbb`,
-                                      "data-framer-name": `Divider`,
-                                      layoutDependency: E,
-                                      layoutId: `dPsv1qW4G`,
-                                      style: { backgroundColor: `rgba(255, 255, 255, 0.1)` },
-                                    }),
-                                  ],
-                                }),
-                              ],
+                                      }),
+                                      h(W, {
+                                        height: 41,
+                                        y:
+                                          (l?.y || 0) +
+                                          0 +
+                                          (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                          5 +
+                                          0 +
+                                          0 +
+                                          25 +
+                                          0 +
+                                          5 +
+                                          0 +
+                                          11 +
+                                          0,
+                                        ...ca(
+                                          {
+                                            BhgKpPyRM: {
+                                              y:
+                                                (l?.y || 0) +
+                                                0 +
+                                                (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                                5 +
+                                                0 +
+                                                0 +
+                                                25 +
+                                                0 +
+                                                5 +
+                                                0 +
+                                                11 +
+                                                0 +
+                                                153,
+                                            },
+                                            YkRwyK5Zj: {
+                                              y:
+                                                (l?.y || 0) +
+                                                0 +
+                                                (((l?.height || 592) - 0 - 592) / 2 + 0 + 0) +
+                                                5 +
+                                                0 +
+                                                0 +
+                                                25 +
+                                                0 +
+                                                5 +
+                                                0 +
+                                                11 +
+                                                0 +
+                                                153,
+                                            },
+                                          },
+                                          g,
+                                          S
+                                        ),
+                                        children: h(q, {
+                                          className: `framer-aj1jge-container`,
+                                          layoutDependency: E,
+                                          layoutId: `cDUNWwuQY-container`,
+                                          nodeId: `cDUNWwuQY`,
+                                          rendersWithMotion: !0,
+                                          scopeId: `ThlFB8dhK`,
+                                          children: h(oa, {
+                                            height: `100%`,
+                                            hWSEK1rhs: {
+                                              borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
+                                              borderStyle: `solid`,
+                                              borderWidth: 1,
+                                            },
+                                            id: `cDUNWwuQY`,
+                                            layoutId: `cDUNWwuQY`,
+                                            oXv7AZm4A: re,
+                                            variant: ba(`QzrBcpVgk`),
+                                            width: `100%`,
+                                            YnoIm5kRZ: `Vận hành 3 chiều`,
+                                            yueETfOfX: {
+                                              borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
+                                              borderStyle: `solid`,
+                                              borderWidth: 1,
+                                            },
+                                            ...ca(
+                                              { i66Xu18wi: { variant: ba(`IllKbU6rd`) } },
+                                              g,
+                                              S
+                                            ),
+                                          }),
+                                        }),
+                                      }),
+                                    ],
+                                  }),
+                                  h(C.div, {
+                                    className: `framer-rgajbb`,
+                                    "data-framer-name": `Divider`,
+                                    layoutDependency: E,
+                                    layoutId: `dPsv1qW4G`,
+                                    style: { backgroundColor: `rgba(255, 255, 255, 0.1)` },
+                                  }),
+                                ],
+                              }),
                             }),
                           }),
                         ],
@@ -8268,42 +8287,39 @@ var la,
           );
         }),
         [
-          `.framer-F646z.framer-n1l3kq, .framer-F646z .framer-n1l3kq { display: block; }`,
-          `.framer-F646z.framer-abng2a { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1152px; }`,
-          `.framer-F646z .framer-1m124zm { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 5px; position: relative; width: 100%; }`,
-          `.framer-F646z .framer-5apymz { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; max-height: 710px; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
-          `.framer-F646z .framer-1gekuna { align-content: center; align-items: center; bottom: 50px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 200px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 10px; position: absolute; width: min-content; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
-          `.framer-F646z .framer-1lf9x0i { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 29px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 224px; }`,
-          `.framer-F646z .framer-1sf4mrc-container, .framer-F646z .framer-1gr0s0l-container { flex: none; height: 18px; position: relative; width: 18px; }`,
-          `.framer-F646z .framer-fc22no, .framer-F646z .framer-r0au63, .framer-F646z .framer-s5c4cw, .framer-F646z .framer-usxrcj { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          `.framer-F646z .framer-1i73yo4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 5px; position: relative; width: min-content; will-change: var(--framer-will-change-override, transform); }`,
-          `.framer-F646z .framer-fp8vvk { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-end; overflow: visible; padding: 25px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
-          `.framer-F646z .framer-cl2hnl { align-content: flex-end; align-items: flex-end; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; min-height: 500px; overflow: var(--overflow-clip-fallback, clip); padding: 5px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
-          `.framer-F646z .framer-btjoxh { flex: none; height: 100%; left: 0px; overflow: hidden; position: absolute; right: 0px; top: 0px; will-change: var(--framer-will-change-override, transform); z-index: 1; }`,
-          `.framer-F646z .framer-1r316je { bottom: 0px; flex: none; left: 1px; overflow: hidden; position: absolute; right: 1px; top: 1px; will-change: var(--framer-will-change-override, transform); z-index: 1; }`,
-          `.framer-F646z .framer-eahfkc { flex: 1 0 0px; height: 547px; min-height: 500px; overflow: visible; position: relative; width: 1px; }`,
-          `.framer-F646z .framer-qhdsv0 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 10px; height: 210px; justify-content: flex-start; left: calc(50.00000000000002% - 1042px / 2); overflow: visible; padding: 0px; position: absolute; top: calc(53.56489945155395% - 210px / 2); width: 1042px; }`,
-          `.framer-F646z .framer-o6qbd, .framer-F646z .framer-1wc6841, .framer-F646z .framer-pkre4i { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1042px; }`,
-          `.framer-F646z .framer-lbnfqj, .framer-F646z .framer-11e3kne, .framer-F646z .framer-mgy0kq { height: 32px; position: relative; width: 34px; }`,
-          `.framer-F646z .framer-h91mze, .framer-F646z .framer-1xfnkf2, .framer-F646z .framer-12r5nzr { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-          `.framer-F646z .framer-19ql1k0, .framer-F646z .framer-1y0c7vy, .framer-F646z .framer-xes6ag { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
-          `.framer-F646z .framer-7g86ak-container { flex: none; height: auto; left: 20px; position: absolute; top: 8px; width: auto; }`,
-          `.framer-F646z .framer-1kkj2bb { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 10px; height: min-content; justify-content: flex-end; left: 53%; overflow: visible; padding: 0px; position: absolute; top: 11px; width: 974px; z-index: 10; }`,
-          `.framer-F646z .framer-1g931o1-container, .framer-F646z .framer-1gekgcx-container, .framer-F646z .framer-1ahxmui-container, .framer-F646z .framer-aj1jge-container { flex: none; height: auto; position: relative; width: auto; }`,
-          `.framer-F646z .framer-rgajbb { flex: none; height: 1px; left: calc(50.00000000000002% - 1042px / 2); overflow: hidden; position: absolute; top: 76px; width: 1042px; }`,
-          `.framer-F646z.framer-v-gulk9f .framer-fp8vvk, .framer-F646z.framer-v-74oqk8 .framer-fp8vvk, .framer-F646z.framer-v-18zx71q .framer-fp8vvk, .framer-F646z.framer-v-1r3odqu .framer-fp8vvk { z-index: 9; }`,
-          `.framer-F646z.framer-v-gulk9f .framer-cl2hnl, .framer-F646z.framer-v-18zx71q .framer-cl2hnl, .framer-F646z.framer-v-1r3odqu .framer-cl2hnl { order: 0; }`,
-          `.framer-F646z.framer-v-gulk9f .framer-btjoxh, .framer-F646z.framer-v-18zx71q .framer-btjoxh, .framer-F646z.framer-v-1r3odqu .framer-btjoxh { height: 500px; }`,
-          `.framer-F646z.framer-v-1yf3zxs.framer-abng2a, .framer-F646z.framer-v-74oqk8.framer-abng2a { gap: 0px; overflow: visible; width: 380px; }`,
-          `.framer-F646z.framer-v-1yf3zxs .framer-5apymz, .framer-F646z.framer-v-74oqk8 .framer-5apymz { max-height: unset; }`,
-          `.framer-F646z.framer-v-1yf3zxs .framer-cl2hnl, .framer-F646z.framer-v-74oqk8 .framer-cl2hnl { overflow: visible; will-change: unset; }`,
-          `.framer-F646z.framer-v-1yf3zxs .framer-1kkj2bb, .framer-F646z.framer-v-74oqk8 .framer-1kkj2bb { align-content: flex-start; align-items: flex-start; flex-direction: column; }`,
-          `.framer-F646z.framer-v-1yf3zxs .framer-1g931o1-container, .framer-F646z.framer-v-1yf3zxs .framer-1gekgcx-container, .framer-F646z.framer-v-74oqk8 .framer-1g931o1-container, .framer-F646z.framer-v-74oqk8 .framer-1gekgcx-container { width: 100%; }`,
-          `.framer-F646z.framer-v-74oqk8 .framer-1gekuna { bottom: 45px; gap: 0px; }`,
+          `.framer-HJBWk.framer-n1l3kq, .framer-HJBWk .framer-n1l3kq { display: block; }`,
+          `.framer-HJBWk.framer-abng2a { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: var(--overflow-clip-fallback, clip); padding: 0px; position: relative; width: 1152px; }`,
+          `.framer-HJBWk .framer-1m124zm { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 5px; position: relative; width: 100%; }`,
+          `.framer-HJBWk .framer-5apymz { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; max-height: 710px; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
+          `.framer-HJBWk .framer-1gekuna { align-content: center; align-items: center; bottom: 50px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 200px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 10px; position: absolute; width: min-content; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
+          `.framer-HJBWk .framer-1lf9x0i { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 29px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 224px; }`,
+          `.framer-HJBWk .framer-1sf4mrc-container, .framer-HJBWk .framer-1gr0s0l-container { flex: none; height: 18px; position: relative; width: 18px; }`,
+          `.framer-HJBWk .framer-fc22no, .framer-HJBWk .framer-r0au63, .framer-HJBWk .framer-s5c4cw, .framer-HJBWk .framer-usxrcj { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+          `.framer-HJBWk .framer-1i73yo4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 5px; position: relative; width: min-content; will-change: var(--framer-will-change-override, transform); }`,
+          `.framer-HJBWk .framer-fp8vvk { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: flex-end; overflow: visible; padding: 25px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
+          `.framer-HJBWk .framer-cl2hnl { align-content: flex-end; align-items: flex-end; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; min-height: 500px; overflow: var(--overflow-clip-fallback, clip); padding: 5px; position: relative; width: 100%; will-change: var(--framer-will-change-override, transform); }`,
+          `.framer-HJBWk .framer-eahfkc { flex: 1 0 0px; height: 547px; min-height: 500px; overflow: visible; position: relative; width: 1px; }`,
+          `.framer-HJBWk .framer-qhdsv0 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 10px; height: 210px; justify-content: flex-start; left: calc(50.00000000000002% - 1042px / 2); overflow: visible; padding: 0px; position: absolute; top: calc(53.56489945155395% - 210px / 2); width: 1042px; }`,
+          `.framer-HJBWk .framer-o6qbd, .framer-HJBWk .framer-1wc6841, .framer-HJBWk .framer-pkre4i { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 10px; position: relative; width: 1042px; }`,
+          `.framer-HJBWk .framer-lbnfqj, .framer-HJBWk .framer-11e3kne, .framer-HJBWk .framer-mgy0kq { height: 32px; position: relative; width: 34px; }`,
+          `.framer-HJBWk .framer-h91mze, .framer-HJBWk .framer-1xfnkf2, .framer-HJBWk .framer-12r5nzr { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+          `.framer-HJBWk .framer-19ql1k0, .framer-HJBWk .framer-1y0c7vy, .framer-HJBWk .framer-xes6ag { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+          `.framer-HJBWk .framer-7g86ak-container { flex: none; height: auto; left: 20px; position: absolute; top: 8px; width: auto; }`,
+          `.framer-HJBWk .framer-1kkj2bb { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 10px; height: min-content; justify-content: flex-end; left: 53%; overflow: visible; padding: 0px; position: absolute; top: 11px; width: 974px; z-index: 10; }`,
+          `.framer-HJBWk .framer-1g931o1-container, .framer-HJBWk .framer-1gekgcx-container, .framer-HJBWk .framer-1ahxmui-container, .framer-HJBWk .framer-aj1jge-container { flex: none; height: auto; position: relative; width: auto; }`,
+          `.framer-HJBWk .framer-rgajbb { flex: none; height: 1px; left: calc(50.00000000000002% - 1042px / 2); overflow: hidden; position: absolute; top: 76px; width: 1042px; }`,
+          `.framer-HJBWk.framer-v-gulk9f .framer-fp8vvk, .framer-HJBWk.framer-v-74oqk8 .framer-fp8vvk, .framer-HJBWk.framer-v-18zx71q .framer-fp8vvk, .framer-HJBWk.framer-v-1r3odqu .framer-fp8vvk { z-index: 9; }`,
+          `.framer-HJBWk.framer-v-gulk9f .framer-cl2hnl, .framer-HJBWk.framer-v-18zx71q .framer-cl2hnl, .framer-HJBWk.framer-v-1r3odqu .framer-cl2hnl { order: 0; }`,
+          `.framer-HJBWk.framer-v-1yf3zxs.framer-abng2a, .framer-HJBWk.framer-v-74oqk8.framer-abng2a { gap: 0px; overflow: visible; width: 380px; }`,
+          `.framer-HJBWk.framer-v-1yf3zxs .framer-5apymz, .framer-HJBWk.framer-v-74oqk8 .framer-5apymz { max-height: unset; }`,
+          `.framer-HJBWk.framer-v-1yf3zxs .framer-cl2hnl, .framer-HJBWk.framer-v-74oqk8 .framer-cl2hnl { overflow: visible; will-change: unset; }`,
+          `.framer-HJBWk.framer-v-1yf3zxs .framer-1kkj2bb, .framer-HJBWk.framer-v-74oqk8 .framer-1kkj2bb { align-content: flex-start; align-items: flex-start; flex-direction: column; }`,
+          `.framer-HJBWk.framer-v-1yf3zxs .framer-1g931o1-container, .framer-HJBWk.framer-v-1yf3zxs .framer-1gekgcx-container, .framer-HJBWk.framer-v-74oqk8 .framer-1g931o1-container, .framer-HJBWk.framer-v-74oqk8 .framer-1gekgcx-container { width: 100%; }`,
+          `.framer-HJBWk.framer-v-74oqk8 .framer-1gekuna { bottom: 45px; gap: 0px; }`,
           ...Ki,
-          `.framer-F646z[data-border="true"]::after, .framer-F646z [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+          `.framer-HJBWk[data-border="true"]::after, .framer-HJBWk [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
-        `framer-F646z`
+        `framer-HJBWk`
       )),
       (Ea.displayName = `Dashboard Tab`),
       (Ea.defaultProps = { height: 592, width: 1152 }),
@@ -9383,7 +9399,7 @@ e(() => {
       WQLkyLRf1: `(min-width: 1200px)`,
     }),
     (go = []),
-    (_o = `framer-ldsQa`),
+    (_o = `framer-5wkIU`),
     (vo = {
       dV9dN50OP: `framer-v-1bp0152`,
       MNFOeKjhJ: `framer-v-1npr79d`,
@@ -10114,7 +10130,7 @@ e(() => {
                                                   "--framer-text-alignment": `center`,
                                                   "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                                 },
-                                                children: `Util4dev thay đổi cách bạn làm việc bằng sức mạnh của các công nghệ tiên tiến`,
+                                                children: `Util4dev thay đổi cách bạn làm việc bằng sức mạnh của các công nghệ tiên tiến như:`,
                                               }),
                                             }),
                                           },
@@ -10128,7 +10144,7 @@ e(() => {
                                                   "--framer-text-alignment": `center`,
                                                   "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                                 },
-                                                children: `Util4dev thay đổi cách bạn làm việc bằng sức mạnh của các công nghệ tiên tiến`,
+                                                children: `Util4dev thay đổi cách bạn làm việc bằng sức mạnh của các công nghệ tiên tiến như:`,
                                               }),
                                             }),
                                           },
@@ -10144,7 +10160,7 @@ e(() => {
                                                 "--framer-text-alignment": `left`,
                                                 "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                               },
-                                              children: `Util4dev thay đổi cách bạn làm việc bằng sức mạnh của các công nghệ tiên tiến`,
+                                              children: `Util4dev thay đổi cách bạn làm việc bằng sức mạnh của các công nghệ tiên tiến như:`,
                                             }),
                                           }),
                                           className: `framer-fgnpc0`,
@@ -10185,7 +10201,7 @@ e(() => {
                                               children: h(X, {
                                                 height: `100%`,
                                                 id: `V5jaIM4Z_`,
-                                                JFPp1IiQm: `Flare`,
+                                                JFPp1IiQm: `Check`,
                                                 layoutId: `V5jaIM4Z_`,
                                                 style: { width: `100%` },
                                                 variant: $(`b6EZJwsob`),
@@ -10223,7 +10239,7 @@ e(() => {
                                               children: h(X, {
                                                 height: `100%`,
                                                 id: `mJC5D9GKG`,
-                                                JFPp1IiQm: `GoogleDocs`,
+                                                JFPp1IiQm: `Check`,
                                                 layoutId: `mJC5D9GKG`,
                                                 style: { width: `100%` },
                                                 variant: $(`b6EZJwsob`),
@@ -10411,7 +10427,7 @@ e(() => {
                                       variant: $(`egwieoSxG`),
                                       width: `100%`,
                                       xKsrNeCEm: `Kết nối và điều phối hệ thống`,
-                                      yvKNMfljW: `Liên kết ERP, CRM, Drive, Email, Teams, Slack... để AI làm việc xuyên suốt giữa các nền tảng.`,
+                                      yvKNMfljW: `Liên kết các hệ thống hiện tại như ERP, CRM, Drive, Email, Teams, Slack... để AI làm việc xuyên suốt giữa các nền tảng.`,
                                     }),
                                   }),
                                 }),
@@ -11782,13 +11798,13 @@ e(() => {
                                 scopeId: `augiA20Il`,
                                 children: h($t, {
                                   blBXxPHbO: !0,
-                                  bRyvaH27Q: `Những tính năng hấp dẫn `,
+                                  bRyvaH27Q: `Kiến tạo cách làm việc mới `,
                                   height: `100%`,
                                   id: `l23j0jFfm`,
                                   layoutId: `l23j0jFfm`,
                                   sIRtTcVp7: ``,
                                   style: { width: `100%` },
-                                  TmroXSTYL: `Khai thác sức mạnh của RAG & AI agent để tạo, tối ưu hóa và tự động hóa hơn bao giờ hết. Util4dev là nền tảng giúp đơn giản hóa quy trình công việc và kiến tạo phong cách làm việc của bạn.`,
+                                  TmroXSTYL: `Không còn những quy trình thủ công lặp đi lặp lại. Util4dev kết hợp Trí tuệ nhân tạo và Kho tri thức doanh nghiệp để biến AI thành cộng sự thực sự, giúp bạn đơn giản hóa mọi luồng công việc và vận hành bộ máy 24/7 chỉ với chi phí bằng một ly cà phê.`,
                                   width: `100%`,
                                 }),
                               }),
@@ -11802,7 +11818,7 @@ e(() => {
                               },
                             },
                             children: h(W, {
-                              height: 545,
+                              height: 592,
                               width: `calc(min(max(${d?.width || `100vw`}, 1px), 1200px) - 50px)`,
                               children: h(z, {
                                 className: `framer-a7r3bf-container`,
@@ -12173,107 +12189,107 @@ e(() => {
         );
       }),
       [
-        `.framer-ldsQa.framer-lux5qc, .framer-ldsQa .framer-lux5qc { display: block; }`,
-        `.framer-ldsQa.framer-72rtr7 { align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1200px; }`,
-        `.framer-ldsQa .framer-7dod6r { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; scroll-margin-top: 200px; width: 100%; z-index: 5; }`,
-        `.framer-ldsQa .framer-1mki1k0 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 13%) add; align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 13%) add; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
-        `.framer-ldsQa .framer-1au44ra { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 100px; height: 500px; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-ldsQa .framer-39pjht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: 436px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-wmsqgn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; left: 18px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 9; }`,
-        `.framer-ldsQa .framer-np6d6q { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; overflow: hidden; padding: 0px; position: absolute; right: 22px; top: -5px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 5; }`,
-        `.framer-ldsQa .framer-1ok201j-container { flex: none; height: 550px; position: relative; width: 100%; z-index: 3; }`,
-        `.framer-ldsQa .framer-13indg1 { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) add; mix-blend-mode: screen; opacity: 0.09; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-ldsQa .framer-2y58l1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; scroll-margin-top: 150px; width: 100%; }`,
-        `.framer-ldsQa .framer-k0af9v { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 27px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 100px 25px 100px 25px; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-yg6vbi { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 100px; height: 800px; justify-content: center; padding: 40px 0px 0px 0px; position: sticky; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-ldsQa .framer-1qlm5z7, .framer-ldsQa .framer-11h0s18 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-ldsQa .framer-la7fvh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 17px; height: min-content; justify-content: center; max-width: 975px; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-1ix5vbv, .framer-ldsQa .framer-19nc088, .framer-ldsQa .framer-5aywpq, .framer-ldsQa .framer-esox5h, .framer-ldsQa .framer-qoiezj, .framer-ldsQa .framer-1a10g8j, .framer-ldsQa .framer-1kw4qni, .framer-ldsQa .framer-cwkj3m, .framer-ldsQa .framer-1v0joqm, .framer-ldsQa .framer-1g13tt7, .framer-ldsQa .framer-1t98ne0 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-        `.framer-ldsQa .framer-1obwh4c, .framer-ldsQa .framer-lvsu6d, .framer-ldsQa .framer-10pj67n, .framer-ldsQa .framer-1fiua8d { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 62px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 62px; will-change: var(--framer-will-change-filter-override, filter); }`,
-        `.framer-ldsQa .framer-16gd5iv, .framer-ldsQa .framer-1fv2udu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-flkrtb { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-1afaic6 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-1l0fz2d, .framer-ldsQa .framer-y0l0rk { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-1unbp0v-container, .framer-ldsQa .framer-zroyd3-container { flex: none; height: auto; position: relative; width: auto; }`,
-        `.framer-ldsQa .framer-kwokev, .framer-ldsQa .framer-fgnpc0, .framer-ldsQa .framer-i58id4, .framer-ldsQa .framer-tqr107 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 500px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-ldsQa .framer-wdmzrp, .framer-ldsQa .framer-1i2yrmx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-be6r75-container, .framer-ldsQa .framer-1d14rzc-container, .framer-ldsQa .framer-1t71dbs-container, .framer-ldsQa .framer-1vo5xwn-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-154jz2f-container { align-self: stretch; flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-zqr5yg { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 0; }`,
-        `.framer-ldsQa .framer-1v3a43r { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-feyxnm { --border-bottom-width: 1px; --border-color: rgba(250, 250, 250, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-bottom-left-radius: 34px; border-bottom-right-radius: 34px; border-top-left-radius: 34px; border-top-right-radius: 34px; box-shadow: inset 0px 0.421531111242075px 0.421531111242075px -0.8333333333333333px rgba(255, 255, 255, 0.13), inset 0px 1.60197331227042px 1.60197331227042px -1.6666666666666665px rgba(255, 255, 255, 0.13), inset 0px 7px 7px -2.5px rgba(255, 255, 255, 0.13); display: grid; flex: none; gap: 20px 20px; grid-auto-rows: min-content; grid-template-columns: repeat(auto-fill, minmax(282px, 1fr)); height: min-content; justify-content: center; overflow: visible; padding: 20px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-1psnt4v, .framer-ldsQa .framer-xjqzmg, .framer-ldsQa .framer-16c0xdy, .framer-ldsQa .framer-xngrzv { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 1fr; }`,
-        `.framer-ldsQa .framer-jx3klg-container { cursor: default; flex: none; height: 270px; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-ldsQa .framer-6uiyx3, .framer-ldsQa .framer-f9gs6n { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-f3x7a-container, .framer-ldsQa .framer-8lw8u4-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-ldsQa .framer-ztv74n-container, .framer-ldsQa .framer-1elfzky-container { cursor: default; flex: none; height: 330px; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-ldsQa .framer-znhnrm-container { flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-ldsQa .framer-w99w4p { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; aspect-ratio: 1.0126582278481013 / 1; background-color: #010117; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: auto; justify-content: center; overflow: hidden; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-ldsQa .framer-nbkp49 { flex: none; height: 342px; left: calc(50.00000000000002% - 429px / 2); overflow: hidden; position: absolute; top: calc(50.09041591320075% - 342px / 2); width: 429px; z-index: 6; }`,
-        `.framer-ldsQa .framer-n8js10 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; bottom: 1px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; left: 0px; padding: 30px; position: absolute; width: min-content; z-index: 8; }`,
-        `.framer-ldsQa .framer-1axadyl, .framer-ldsQa .framer-1madksd { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-        `.framer-ldsQa .framer-uf1zfz, .framer-ldsQa .framer-1ily88o { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-        `.framer-ldsQa .framer-1s4cmew, .framer-ldsQa .framer-1bxaqb { background-color: rgba(255, 255, 255, 0.1); flex: none; height: 1px; overflow: hidden; position: relative; width: 231px; }`,
-        `.framer-ldsQa .framer-34b1uq, .framer-ldsQa .framer-1q33nos, .framer-ldsQa .framer-1fkwiq9, .framer-ldsQa .framer-1t7yud9, .framer-ldsQa .framer-gnplo5 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; align-self: stretch; flex: none; height: auto; position: relative; white-space: pre-wrap; width: auto; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-ldsQa .framer-9zmqk2 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; padding: 30px; position: absolute; right: 0px; top: 1px; width: min-content; z-index: 9; }`,
-        `.framer-ldsQa .framer-putkun, .framer-ldsQa .framer-1xda8k8, .framer-ldsQa .framer-1kor0q7 { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: auto; }`,
-        `.framer-ldsQa .framer-p6tjzn, .framer-ldsQa .framer-bj3gl6 { aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-ldsQa .framer-1q7qg1, .framer-ldsQa .framer-rgkh0s, .framer-ldsQa .framer-8d4qq { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-ldsQa .framer-l5pl4y { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.29); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-ldsQa .framer-1mc1cmk-container { flex: none; height: 20px; left: calc(50.00000000000002% - 20px / 2); position: absolute; top: calc(50.00000000000002% - 20px / 2); width: 20px; }`,
-        `.framer-ldsQa .framer-hajfu1 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.15; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-ldsQa .framer-101kz2c { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-gug6nb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-561hc4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 600px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-swwljn { flex: none; height: 600px; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-ldsQa .framer-heo43w { -webkit-mask: radial-gradient(36% 53% at 50% 50%, #000000 0%, rgba(0,0,0,0) 100%) add; flex: none; height: auto; left: 0px; mask: radial-gradient(36% 53% at 50% 50%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%) add; opacity: 0.3; overflow: hidden; position: absolute; top: 0px; width: 669px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
-        `.framer-ldsQa .framer-usmt83 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; border-top-left-radius: 50px; border-top-right-radius: 50px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 240px; justify-content: center; left: calc(50.00000000000002% - 240px / 2); overflow: visible; padding: 60px 40px 60px 40px; position: absolute; top: calc(50.062893081761025% - 240px / 2); width: 240px; z-index: 5; }`,
-        `.framer-ldsQa .framer-184qr9z { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: #010117; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-top-left-radius: 45px; border-top-right-radius: 45px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.1), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px -5px 0px 0px rgb(18, 18, 38); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 230px; justify-content: center; overflow: visible; padding: 60px 40px 60px 40px; position: relative; width: 230px; }`,
-        `.framer-ldsQa .framer-ix4n7k { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.08); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: #0f0f1c; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; border-top-left-radius: 11px; border-top-right-radius: 11px; box-shadow: inset 0px -5px 0px 0px #151526, 0px 2px 50px 0px rgba(255, 255, 255, 0.25); flex: none; height: 100px; left: calc(50.00000000000002% - 100px / 2); overflow: visible; position: absolute; top: calc(50.00000000000002% - 100px / 2); width: 100px; z-index: 8; }`,
-        `.framer-ldsQa .framer-shxrxy { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); white-space: pre; width: auto; z-index: 3; }`,
-        `.framer-ldsQa .framer-eby5ch { -webkit-filter: blur(50px); aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; border-top-left-radius: 60px; border-top-right-radius: 60px; filter: blur(50px); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 149px; will-change: var(--framer-will-change-override, transform); z-index: 7; }`,
-        `.framer-ldsQa .framer-ua5e1b { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; bottom: 0px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; transform: translateX(-50%); width: min-content; z-index: 1; }`,
-        `.framer-ldsQa .framer-d2f385, .framer-ldsQa .framer-9gt9oc, .framer-ldsQa .framer-1esk5v6, .framer-ldsQa .framer-1x0uys9, .framer-ldsQa .framer-amoeb6, .framer-ldsQa .framer-6hekwl, .framer-ldsQa .framer-1srqqzw, .framer-ldsQa .framer-425ty6, .framer-ldsQa .framer-so1fg0, .framer-ldsQa .framer-9pkixk, .framer-ldsQa .framer-1dqaayv, .framer-ldsQa .framer-lov685, .framer-ldsQa .framer-1p36qzv, .framer-ldsQa .framer-1swmpqo, .framer-ldsQa .framer-1lphk7i, .framer-ldsQa .framer-1dghyv2, .framer-ldsQa .framer-1biver0, .framer-ldsQa .framer-bi87nm, .framer-ldsQa .framer-zgcfdk, .framer-ldsQa .framer-1sj3ks9, .framer-ldsQa .framer-f487ef, .framer-ldsQa .framer-1tte299, .framer-ldsQa .framer-p4hlcq, .framer-ldsQa .framer-1h2n2r9, .framer-ldsQa .framer-dlpv88, .framer-ldsQa .framer-zokmbl, .framer-ldsQa .framer-12arpol, .framer-ldsQa .framer-1y1wi5, .framer-ldsQa .framer-xcsk9u, .framer-ldsQa .framer-1kcp2ao, .framer-ldsQa .framer-mv5f17, .framer-ldsQa .framer-n0a3b1, .framer-ldsQa .framer-vat3ft, .framer-ldsQa .framer-113kpbl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 7px; }`,
-        `.framer-ldsQa .framer-10gecie, .framer-ldsQa .framer-sc8g0l, .framer-ldsQa .framer-1iuql6i, .framer-ldsQa .framer-12s2puc, .framer-ldsQa .framer-1xfwsb1, .framer-ldsQa .framer-1i6kawf, .framer-ldsQa .framer-rf53n8, .framer-ldsQa .framer-867xl, .framer-ldsQa .framer-1tfh29b, .framer-ldsQa .framer-1eda2up, .framer-ldsQa .framer-1qw4diq, .framer-ldsQa .framer-36a1sf, .framer-ldsQa .framer-y1i8tj, .framer-ldsQa .framer-1w3w184, .framer-ldsQa .framer-41fqr7, .framer-ldsQa .framer-1r7widh, .framer-ldsQa .framer-ya9uhb, .framer-ldsQa .framer-1r8goa4, .framer-ldsQa .framer-zu341p, .framer-ldsQa .framer-xflsxq, .framer-ldsQa .framer-ho0m6l, .framer-ldsQa .framer-7nv7an, .framer-ldsQa .framer-7bj5wz, .framer-ldsQa .framer-fnyeb8, .framer-ldsQa .framer-1dgg61f, .framer-ldsQa .framer-wd5i5z, .framer-ldsQa .framer-zd88su, .framer-ldsQa .framer-1t8qsas, .framer-ldsQa .framer-13rwvn9, .framer-ldsQa .framer-hsobs1, .framer-ldsQa .framer-l3dhnu, .framer-ldsQa .framer-1vu9xoi, .framer-ldsQa .framer-qjqm97, .framer-ldsQa .framer-1c1oc41 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-18hq8p2, .framer-ldsQa .framer-bqwiqu, .framer-ldsQa .framer-1swx3aq, .framer-ldsQa .framer-1w4aefw, .framer-ldsQa .framer-1tpir69, .framer-ldsQa .framer-15rq9h7, .framer-ldsQa .framer-1m3oam1, .framer-ldsQa .framer-1ju0v5u, .framer-ldsQa .framer-1tglqmr, .framer-ldsQa .framer-1uf9mxj, .framer-ldsQa .framer-1h7hn3v, .framer-ldsQa .framer-fcegqc, .framer-ldsQa .framer-1xpg41w, .framer-ldsQa .framer-grcv3c, .framer-ldsQa .framer-9iej07, .framer-ldsQa .framer-186tb14, .framer-ldsQa .framer-iawexo, .framer-ldsQa .framer-1xvjhhw, .framer-ldsQa .framer-12sev8g, .framer-ldsQa .framer-fapyao, .framer-ldsQa .framer-1wkdjqn, .framer-ldsQa .framer-1isb641, .framer-ldsQa .framer-1thuvo1, .framer-ldsQa .framer-opqvdb, .framer-ldsQa .framer-cz9lgj, .framer-ldsQa .framer-1cxikid, .framer-ldsQa .framer-1njdv9x, .framer-ldsQa .framer-1uxj224, .framer-ldsQa .framer-36wm5j, .framer-ldsQa .framer-cmiagn, .framer-ldsQa .framer-trdy3u, .framer-ldsQa .framer-dp41nc, .framer-ldsQa .framer-1olfxnc, .framer-ldsQa .framer-1c7vd7a { background-color: #26263b; flex: none; height: 2px; overflow: hidden; position: relative; width: 3px; }`,
-        `.framer-ldsQa .framer-1blku5b, .framer-ldsQa .framer-vryvz3, .framer-ldsQa .framer-1lgx97q, .framer-ldsQa .framer-1vo5k69, .framer-ldsQa .framer-1sc3pyy, .framer-ldsQa .framer-1oy9leb, .framer-ldsQa .framer-8r580i, .framer-ldsQa .framer-1cfwvrk, .framer-ldsQa .framer-1oprtfp, .framer-ldsQa .framer-3sq8h3, .framer-ldsQa .framer-9eu0qa, .framer-ldsQa .framer-1pp8gvd, .framer-ldsQa .framer-1jpo2es, .framer-ldsQa .framer-4e81e7, .framer-ldsQa .framer-1bh4qeh, .framer-ldsQa .framer-1r06lh2, .framer-ldsQa .framer-1hh7ji4, .framer-ldsQa .framer-1j94mul, .framer-ldsQa .framer-1pwbak4, .framer-ldsQa .framer-82mlkx, .framer-ldsQa .framer-bpr2qe, .framer-ldsQa .framer-z03wpc, .framer-ldsQa .framer-1is7cls, .framer-ldsQa .framer-1822x3x, .framer-ldsQa .framer-bwg342, .framer-ldsQa .framer-1yz2he9, .framer-ldsQa .framer-1klubqh, .framer-ldsQa .framer-1i9zwqc, .framer-ldsQa .framer-11bt983, .framer-ldsQa .framer-30dnev, .framer-ldsQa .framer-3yrj4, .framer-ldsQa .framer-grfgz6, .framer-ldsQa .framer-1tlzkai, .framer-ldsQa .framer-10hqp73 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-or86ni, .framer-ldsQa .framer-l19m8k, .framer-ldsQa .framer-1ll7tok, .framer-ldsQa .framer-mqrfb2, .framer-ldsQa .framer-l765d2, .framer-ldsQa .framer-13n0vxr, .framer-ldsQa .framer-luf7wi, .framer-ldsQa .framer-13rvf71, .framer-ldsQa .framer-1iglmqd, .framer-ldsQa .framer-44fsjz, .framer-ldsQa .framer-vwx8me, .framer-ldsQa .framer-uwvk6e, .framer-ldsQa .framer-6p4uyb, .framer-ldsQa .framer-1mgctqc, .framer-ldsQa .framer-1rkg42b, .framer-ldsQa .framer-168l4j, .framer-ldsQa .framer-1w6t7gu, .framer-ldsQa .framer-1b5vybr, .framer-ldsQa .framer-2re22o, .framer-ldsQa .framer-19ymgc3, .framer-ldsQa .framer-1l1nqhm, .framer-ldsQa .framer-104g80q, .framer-ldsQa .framer-1mved3f, .framer-ldsQa .framer-1xa0xbr, .framer-ldsQa .framer-1xldh3q, .framer-ldsQa .framer-q8ut7y, .framer-ldsQa .framer-19x7o1d, .framer-ldsQa .framer-1h93ipv, .framer-ldsQa .framer-ndjb9l, .framer-ldsQa .framer-1pt695f, .framer-ldsQa .framer-12b51mw, .framer-ldsQa .framer-194mruf, .framer-ldsQa .framer-1hmmem9, .framer-ldsQa .framer-zz7l6b { background-color: #26263b; flex: none; height: 6px; overflow: hidden; position: relative; width: 3px; }`,
-        `.framer-ldsQa .framer-10qqhre, .framer-ldsQa .framer-1y3kixc, .framer-ldsQa .framer-dujhfu, .framer-ldsQa .framer-16o62ae, .framer-ldsQa .framer-jnqi3m, .framer-ldsQa .framer-fzkgk7, .framer-ldsQa .framer-1qqodxh, .framer-ldsQa .framer-1wszigl, .framer-ldsQa .framer-140tmra, .framer-ldsQa .framer-rs00n7, .framer-ldsQa .framer-baims5, .framer-ldsQa .framer-1ty5wsh, .framer-ldsQa .framer-htzwl1, .framer-ldsQa .framer-120teex, .framer-ldsQa .framer-16x1y9q, .framer-ldsQa .framer-15351tf, .framer-ldsQa .framer-yyyb0b, .framer-ldsQa .framer-1lafilr, .framer-ldsQa .framer-1n43xx3, .framer-ldsQa .framer-1q892uq, .framer-ldsQa .framer-z4jszg, .framer-ldsQa .framer-xdtpf1, .framer-ldsQa .framer-oz109a, .framer-ldsQa .framer-i4ldro, .framer-ldsQa .framer-zxc94p, .framer-ldsQa .framer-1x73ba2, .framer-ldsQa .framer-jjkcfb, .framer-ldsQa .framer-1sgbbek, .framer-ldsQa .framer-1n86hme, .framer-ldsQa .framer-16rxcnq, .framer-ldsQa .framer-oh247, .framer-ldsQa .framer-1j2j096, .framer-ldsQa .framer-14gn505, .framer-ldsQa .framer-lghanc { background-color: #26263b; flex: none; height: 30px; overflow: hidden; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-1704cpc { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 0px; transform: translateX(-50%); width: min-content; z-index: 1; }`,
-        `.framer-ldsQa .framer-1tacat3 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: -20px; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
-        `.framer-ldsQa .framer-2kludh { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
-        `.framer-ldsQa .framer-107c3z8 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; bottom: 0px; filter: invert(1); flex: none; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-        `.framer-ldsQa .framer-18f2cvk { aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 39px; border-bottom-right-radius: 39px; border-top-left-radius: 39px; border-top-right-radius: 39px; box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.52), inset 0px -4px 1px 0px rgba(255, 255, 255, 0.25); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 217px; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
-        `.framer-ldsQa .framer-imcr1b { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgba(0,0,0,0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-ldsQa .framer-8p2ooy { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 100%; z-index: 5; }`,
-        `.framer-ldsQa .framer-yr7e8u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-1lqrq9m { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-13vydhe-container, .framer-ldsQa .framer-t6hoyi-container { flex: none; height: auto; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-ldsQa .framer-a7r3bf-container, .framer-ldsQa .framer-1pcksmg-container, .framer-ldsQa .framer-1t3z73n-container, .framer-ldsQa .framer-lxy4y4-container, .framer-ldsQa .framer-1scxxvo-container { flex: none; height: auto; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-4rcdqo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: visible; padding: 75px 0px 75px 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-rlgwnx-container { flex: none; height: 100vh; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-iis1dp { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 75px 25px 75px 25px; position: relative; scroll-margin-top: 150px; width: 100%; z-index: 1; }`,
-        `.framer-ldsQa .framer-1xenox7 { --border-bottom-width: 1px; --border-color: var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; border-bottom-left-radius: 44px; border-bottom-right-radius: 44px; border-top-left-radius: 44px; border-top-right-radius: 44px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 40px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-1pdk0aw { align-content: flex-start; align-items: flex-start; align-self: stretch; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: auto; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-ldsQa .framer-1uvw7h { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 26px; height: 1px; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-1a2p70w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-rdc6sc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-ldsQa .framer-jx47os, .framer-ldsQa .framer-dmav2q { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-ldsQa .framer-a7kr4n-container { flex: 1 0 0px; height: auto; max-width: 30%; position: sticky; top: 35px; width: 1px; z-index: 1; }`,
+        `.framer-5wkIU.framer-lux5qc, .framer-5wkIU .framer-lux5qc { display: block; }`,
+        `.framer-5wkIU.framer-72rtr7 { align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1200px; }`,
+        `.framer-5wkIU .framer-7dod6r { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; scroll-margin-top: 200px; width: 100%; z-index: 5; }`,
+        `.framer-5wkIU .framer-1mki1k0 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 13%) add; align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 13%) add; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
+        `.framer-5wkIU .framer-1au44ra { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 100px; height: 500px; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-5wkIU .framer-39pjht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: 436px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-wmsqgn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; left: 18px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 9; }`,
+        `.framer-5wkIU .framer-np6d6q { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; overflow: hidden; padding: 0px; position: absolute; right: 22px; top: -5px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 5; }`,
+        `.framer-5wkIU .framer-1ok201j-container { flex: none; height: 550px; position: relative; width: 100%; z-index: 3; }`,
+        `.framer-5wkIU .framer-13indg1 { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) add; mix-blend-mode: screen; opacity: 0.09; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-5wkIU .framer-2y58l1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; scroll-margin-top: 150px; width: 100%; }`,
+        `.framer-5wkIU .framer-k0af9v { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 27px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 100px 25px 100px 25px; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-yg6vbi { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 100px; height: 800px; justify-content: center; padding: 40px 0px 0px 0px; position: sticky; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-5wkIU .framer-1qlm5z7, .framer-5wkIU .framer-11h0s18 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-5wkIU .framer-la7fvh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 17px; height: min-content; justify-content: center; max-width: 975px; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-1ix5vbv, .framer-5wkIU .framer-19nc088, .framer-5wkIU .framer-5aywpq, .framer-5wkIU .framer-esox5h, .framer-5wkIU .framer-qoiezj, .framer-5wkIU .framer-1a10g8j, .framer-5wkIU .framer-1kw4qni, .framer-5wkIU .framer-cwkj3m, .framer-5wkIU .framer-1v0joqm, .framer-5wkIU .framer-1g13tt7, .framer-5wkIU .framer-1t98ne0 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+        `.framer-5wkIU .framer-1obwh4c, .framer-5wkIU .framer-lvsu6d, .framer-5wkIU .framer-10pj67n, .framer-5wkIU .framer-1fiua8d { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 62px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 62px; will-change: var(--framer-will-change-filter-override, filter); }`,
+        `.framer-5wkIU .framer-16gd5iv, .framer-5wkIU .framer-1fv2udu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-flkrtb { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-1afaic6 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-1l0fz2d, .framer-5wkIU .framer-y0l0rk { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-1unbp0v-container, .framer-5wkIU .framer-zroyd3-container { flex: none; height: auto; position: relative; width: auto; }`,
+        `.framer-5wkIU .framer-kwokev, .framer-5wkIU .framer-fgnpc0, .framer-5wkIU .framer-i58id4, .framer-5wkIU .framer-tqr107 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 500px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-5wkIU .framer-wdmzrp, .framer-5wkIU .framer-1i2yrmx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-be6r75-container, .framer-5wkIU .framer-1d14rzc-container, .framer-5wkIU .framer-1t71dbs-container, .framer-5wkIU .framer-1vo5xwn-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-154jz2f-container { align-self: stretch; flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-zqr5yg { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 0; }`,
+        `.framer-5wkIU .framer-1v3a43r { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-feyxnm { --border-bottom-width: 1px; --border-color: rgba(250, 250, 250, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-bottom-left-radius: 34px; border-bottom-right-radius: 34px; border-top-left-radius: 34px; border-top-right-radius: 34px; box-shadow: inset 0px 0.421531111242075px 0.421531111242075px -0.8333333333333333px rgba(255, 255, 255, 0.13), inset 0px 1.60197331227042px 1.60197331227042px -1.6666666666666665px rgba(255, 255, 255, 0.13), inset 0px 7px 7px -2.5px rgba(255, 255, 255, 0.13); display: grid; flex: none; gap: 20px 20px; grid-auto-rows: min-content; grid-template-columns: repeat(auto-fill, minmax(282px, 1fr)); height: min-content; justify-content: center; overflow: visible; padding: 20px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-1psnt4v, .framer-5wkIU .framer-xjqzmg, .framer-5wkIU .framer-16c0xdy, .framer-5wkIU .framer-xngrzv { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 1fr; }`,
+        `.framer-5wkIU .framer-jx3klg-container { cursor: default; flex: none; height: 270px; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-5wkIU .framer-6uiyx3, .framer-5wkIU .framer-f9gs6n { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-f3x7a-container, .framer-5wkIU .framer-8lw8u4-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-5wkIU .framer-ztv74n-container, .framer-5wkIU .framer-1elfzky-container { cursor: default; flex: none; height: 330px; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-5wkIU .framer-znhnrm-container { flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-5wkIU .framer-w99w4p { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; aspect-ratio: 1.0126582278481013 / 1; background-color: #010117; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: auto; justify-content: center; overflow: hidden; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-5wkIU .framer-nbkp49 { flex: none; height: 342px; left: calc(50.00000000000002% - 429px / 2); overflow: hidden; position: absolute; top: calc(50.09041591320075% - 342px / 2); width: 429px; z-index: 6; }`,
+        `.framer-5wkIU .framer-n8js10 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; bottom: 1px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; left: 0px; padding: 30px; position: absolute; width: min-content; z-index: 8; }`,
+        `.framer-5wkIU .framer-1axadyl, .framer-5wkIU .framer-1madksd { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-5wkIU .framer-uf1zfz, .framer-5wkIU .framer-1ily88o { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-5wkIU .framer-1s4cmew, .framer-5wkIU .framer-1bxaqb { background-color: rgba(255, 255, 255, 0.1); flex: none; height: 1px; overflow: hidden; position: relative; width: 231px; }`,
+        `.framer-5wkIU .framer-34b1uq, .framer-5wkIU .framer-1q33nos, .framer-5wkIU .framer-1fkwiq9, .framer-5wkIU .framer-1t7yud9, .framer-5wkIU .framer-gnplo5 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; align-self: stretch; flex: none; height: auto; position: relative; white-space: pre-wrap; width: auto; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-5wkIU .framer-9zmqk2 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; padding: 30px; position: absolute; right: 0px; top: 1px; width: min-content; z-index: 9; }`,
+        `.framer-5wkIU .framer-putkun, .framer-5wkIU .framer-1xda8k8, .framer-5wkIU .framer-1kor0q7 { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: auto; }`,
+        `.framer-5wkIU .framer-p6tjzn, .framer-5wkIU .framer-bj3gl6 { aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-5wkIU .framer-1q7qg1, .framer-5wkIU .framer-rgkh0s, .framer-5wkIU .framer-8d4qq { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-5wkIU .framer-l5pl4y { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.29); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-5wkIU .framer-1mc1cmk-container { flex: none; height: 20px; left: calc(50.00000000000002% - 20px / 2); position: absolute; top: calc(50.00000000000002% - 20px / 2); width: 20px; }`,
+        `.framer-5wkIU .framer-hajfu1 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.15; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-5wkIU .framer-101kz2c { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-gug6nb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-561hc4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 700px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-swwljn { flex: none; height: 700px; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-5wkIU .framer-heo43w { -webkit-mask: radial-gradient(36% 53% at 50% 50%, #000000 0%, rgba(0,0,0,0) 100%) add; flex: none; height: auto; left: 0px; mask: radial-gradient(36% 53% at 50% 50%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%) add; opacity: 0.3; overflow: hidden; position: absolute; top: 0px; width: 669px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
+        `.framer-5wkIU .framer-usmt83 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; border-top-left-radius: 50px; border-top-right-radius: 50px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 240px; justify-content: center; left: calc(50.00000000000002% - 240px / 2); overflow: visible; padding: 60px 40px 60px 40px; position: absolute; top: calc(50.062893081761025% - 240px / 2); width: 240px; z-index: 5; }`,
+        `.framer-5wkIU .framer-184qr9z { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: #010117; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-top-left-radius: 45px; border-top-right-radius: 45px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.1), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px -5px 0px 0px rgb(18, 18, 38); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 230px; justify-content: center; overflow: visible; padding: 60px 40px 60px 40px; position: relative; width: 230px; }`,
+        `.framer-5wkIU .framer-ix4n7k { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.08); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: #0f0f1c; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; border-top-left-radius: 11px; border-top-right-radius: 11px; box-shadow: inset 0px -5px 0px 0px #151526, 0px 2px 50px 0px rgba(255, 255, 255, 0.25); flex: none; height: 100px; left: calc(50.00000000000002% - 100px / 2); overflow: visible; position: absolute; top: calc(50.00000000000002% - 100px / 2); width: 100px; z-index: 8; }`,
+        `.framer-5wkIU .framer-shxrxy { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); white-space: pre; width: auto; z-index: 3; }`,
+        `.framer-5wkIU .framer-eby5ch { -webkit-filter: blur(50px); aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; border-top-left-radius: 60px; border-top-right-radius: 60px; filter: blur(50px); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 149px; will-change: var(--framer-will-change-override, transform); z-index: 7; }`,
+        `.framer-5wkIU .framer-ua5e1b { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; bottom: 0px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; transform: translateX(-50%); width: min-content; z-index: 1; }`,
+        `.framer-5wkIU .framer-d2f385, .framer-5wkIU .framer-9gt9oc, .framer-5wkIU .framer-1esk5v6, .framer-5wkIU .framer-1x0uys9, .framer-5wkIU .framer-amoeb6, .framer-5wkIU .framer-6hekwl, .framer-5wkIU .framer-1srqqzw, .framer-5wkIU .framer-425ty6, .framer-5wkIU .framer-so1fg0, .framer-5wkIU .framer-9pkixk, .framer-5wkIU .framer-1dqaayv, .framer-5wkIU .framer-lov685, .framer-5wkIU .framer-1p36qzv, .framer-5wkIU .framer-1swmpqo, .framer-5wkIU .framer-1lphk7i, .framer-5wkIU .framer-1dghyv2, .framer-5wkIU .framer-1biver0, .framer-5wkIU .framer-bi87nm, .framer-5wkIU .framer-zgcfdk, .framer-5wkIU .framer-1sj3ks9, .framer-5wkIU .framer-f487ef, .framer-5wkIU .framer-1tte299, .framer-5wkIU .framer-p4hlcq, .framer-5wkIU .framer-1h2n2r9, .framer-5wkIU .framer-dlpv88, .framer-5wkIU .framer-zokmbl, .framer-5wkIU .framer-12arpol, .framer-5wkIU .framer-1y1wi5, .framer-5wkIU .framer-xcsk9u, .framer-5wkIU .framer-1kcp2ao, .framer-5wkIU .framer-mv5f17, .framer-5wkIU .framer-n0a3b1, .framer-5wkIU .framer-vat3ft, .framer-5wkIU .framer-113kpbl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 7px; }`,
+        `.framer-5wkIU .framer-10gecie, .framer-5wkIU .framer-sc8g0l, .framer-5wkIU .framer-1iuql6i, .framer-5wkIU .framer-12s2puc, .framer-5wkIU .framer-1xfwsb1, .framer-5wkIU .framer-1i6kawf, .framer-5wkIU .framer-rf53n8, .framer-5wkIU .framer-867xl, .framer-5wkIU .framer-1tfh29b, .framer-5wkIU .framer-1eda2up, .framer-5wkIU .framer-1qw4diq, .framer-5wkIU .framer-36a1sf, .framer-5wkIU .framer-y1i8tj, .framer-5wkIU .framer-1w3w184, .framer-5wkIU .framer-41fqr7, .framer-5wkIU .framer-1r7widh, .framer-5wkIU .framer-ya9uhb, .framer-5wkIU .framer-1r8goa4, .framer-5wkIU .framer-zu341p, .framer-5wkIU .framer-xflsxq, .framer-5wkIU .framer-ho0m6l, .framer-5wkIU .framer-7nv7an, .framer-5wkIU .framer-7bj5wz, .framer-5wkIU .framer-fnyeb8, .framer-5wkIU .framer-1dgg61f, .framer-5wkIU .framer-wd5i5z, .framer-5wkIU .framer-zd88su, .framer-5wkIU .framer-1t8qsas, .framer-5wkIU .framer-13rwvn9, .framer-5wkIU .framer-hsobs1, .framer-5wkIU .framer-l3dhnu, .framer-5wkIU .framer-1vu9xoi, .framer-5wkIU .framer-qjqm97, .framer-5wkIU .framer-1c1oc41 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-18hq8p2, .framer-5wkIU .framer-bqwiqu, .framer-5wkIU .framer-1swx3aq, .framer-5wkIU .framer-1w4aefw, .framer-5wkIU .framer-1tpir69, .framer-5wkIU .framer-15rq9h7, .framer-5wkIU .framer-1m3oam1, .framer-5wkIU .framer-1ju0v5u, .framer-5wkIU .framer-1tglqmr, .framer-5wkIU .framer-1uf9mxj, .framer-5wkIU .framer-1h7hn3v, .framer-5wkIU .framer-fcegqc, .framer-5wkIU .framer-1xpg41w, .framer-5wkIU .framer-grcv3c, .framer-5wkIU .framer-9iej07, .framer-5wkIU .framer-186tb14, .framer-5wkIU .framer-iawexo, .framer-5wkIU .framer-1xvjhhw, .framer-5wkIU .framer-12sev8g, .framer-5wkIU .framer-fapyao, .framer-5wkIU .framer-1wkdjqn, .framer-5wkIU .framer-1isb641, .framer-5wkIU .framer-1thuvo1, .framer-5wkIU .framer-opqvdb, .framer-5wkIU .framer-cz9lgj, .framer-5wkIU .framer-1cxikid, .framer-5wkIU .framer-1njdv9x, .framer-5wkIU .framer-1uxj224, .framer-5wkIU .framer-36wm5j, .framer-5wkIU .framer-cmiagn, .framer-5wkIU .framer-trdy3u, .framer-5wkIU .framer-dp41nc, .framer-5wkIU .framer-1olfxnc, .framer-5wkIU .framer-1c7vd7a { background-color: #26263b; flex: none; height: 2px; overflow: hidden; position: relative; width: 3px; }`,
+        `.framer-5wkIU .framer-1blku5b, .framer-5wkIU .framer-vryvz3, .framer-5wkIU .framer-1lgx97q, .framer-5wkIU .framer-1vo5k69, .framer-5wkIU .framer-1sc3pyy, .framer-5wkIU .framer-1oy9leb, .framer-5wkIU .framer-8r580i, .framer-5wkIU .framer-1cfwvrk, .framer-5wkIU .framer-1oprtfp, .framer-5wkIU .framer-3sq8h3, .framer-5wkIU .framer-9eu0qa, .framer-5wkIU .framer-1pp8gvd, .framer-5wkIU .framer-1jpo2es, .framer-5wkIU .framer-4e81e7, .framer-5wkIU .framer-1bh4qeh, .framer-5wkIU .framer-1r06lh2, .framer-5wkIU .framer-1hh7ji4, .framer-5wkIU .framer-1j94mul, .framer-5wkIU .framer-1pwbak4, .framer-5wkIU .framer-82mlkx, .framer-5wkIU .framer-bpr2qe, .framer-5wkIU .framer-z03wpc, .framer-5wkIU .framer-1is7cls, .framer-5wkIU .framer-1822x3x, .framer-5wkIU .framer-bwg342, .framer-5wkIU .framer-1yz2he9, .framer-5wkIU .framer-1klubqh, .framer-5wkIU .framer-1i9zwqc, .framer-5wkIU .framer-11bt983, .framer-5wkIU .framer-30dnev, .framer-5wkIU .framer-3yrj4, .framer-5wkIU .framer-grfgz6, .framer-5wkIU .framer-1tlzkai, .framer-5wkIU .framer-10hqp73 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-or86ni, .framer-5wkIU .framer-l19m8k, .framer-5wkIU .framer-1ll7tok, .framer-5wkIU .framer-mqrfb2, .framer-5wkIU .framer-l765d2, .framer-5wkIU .framer-13n0vxr, .framer-5wkIU .framer-luf7wi, .framer-5wkIU .framer-13rvf71, .framer-5wkIU .framer-1iglmqd, .framer-5wkIU .framer-44fsjz, .framer-5wkIU .framer-vwx8me, .framer-5wkIU .framer-uwvk6e, .framer-5wkIU .framer-6p4uyb, .framer-5wkIU .framer-1mgctqc, .framer-5wkIU .framer-1rkg42b, .framer-5wkIU .framer-168l4j, .framer-5wkIU .framer-1w6t7gu, .framer-5wkIU .framer-1b5vybr, .framer-5wkIU .framer-2re22o, .framer-5wkIU .framer-19ymgc3, .framer-5wkIU .framer-1l1nqhm, .framer-5wkIU .framer-104g80q, .framer-5wkIU .framer-1mved3f, .framer-5wkIU .framer-1xa0xbr, .framer-5wkIU .framer-1xldh3q, .framer-5wkIU .framer-q8ut7y, .framer-5wkIU .framer-19x7o1d, .framer-5wkIU .framer-1h93ipv, .framer-5wkIU .framer-ndjb9l, .framer-5wkIU .framer-1pt695f, .framer-5wkIU .framer-12b51mw, .framer-5wkIU .framer-194mruf, .framer-5wkIU .framer-1hmmem9, .framer-5wkIU .framer-zz7l6b { background-color: #26263b; flex: none; height: 6px; overflow: hidden; position: relative; width: 3px; }`,
+        `.framer-5wkIU .framer-10qqhre, .framer-5wkIU .framer-1y3kixc, .framer-5wkIU .framer-dujhfu, .framer-5wkIU .framer-16o62ae, .framer-5wkIU .framer-jnqi3m, .framer-5wkIU .framer-fzkgk7, .framer-5wkIU .framer-1qqodxh, .framer-5wkIU .framer-1wszigl, .framer-5wkIU .framer-140tmra, .framer-5wkIU .framer-rs00n7, .framer-5wkIU .framer-baims5, .framer-5wkIU .framer-1ty5wsh, .framer-5wkIU .framer-htzwl1, .framer-5wkIU .framer-120teex, .framer-5wkIU .framer-16x1y9q, .framer-5wkIU .framer-15351tf, .framer-5wkIU .framer-yyyb0b, .framer-5wkIU .framer-1lafilr, .framer-5wkIU .framer-1n43xx3, .framer-5wkIU .framer-1q892uq, .framer-5wkIU .framer-z4jszg, .framer-5wkIU .framer-xdtpf1, .framer-5wkIU .framer-oz109a, .framer-5wkIU .framer-i4ldro, .framer-5wkIU .framer-zxc94p, .framer-5wkIU .framer-1x73ba2, .framer-5wkIU .framer-jjkcfb, .framer-5wkIU .framer-1sgbbek, .framer-5wkIU .framer-1n86hme, .framer-5wkIU .framer-16rxcnq, .framer-5wkIU .framer-oh247, .framer-5wkIU .framer-1j2j096, .framer-5wkIU .framer-14gn505, .framer-5wkIU .framer-lghanc { background-color: #26263b; flex: none; height: 30px; overflow: hidden; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-1704cpc { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 0px; transform: translateX(-50%); width: min-content; z-index: 1; }`,
+        `.framer-5wkIU .framer-1tacat3 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: -20px; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
+        `.framer-5wkIU .framer-2kludh { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
+        `.framer-5wkIU .framer-107c3z8 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; bottom: 0px; filter: invert(1); flex: none; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+        `.framer-5wkIU .framer-18f2cvk { aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 39px; border-bottom-right-radius: 39px; border-top-left-radius: 39px; border-top-right-radius: 39px; box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.52), inset 0px -4px 1px 0px rgba(255, 255, 255, 0.25); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 217px; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
+        `.framer-5wkIU .framer-imcr1b { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgba(0,0,0,0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-5wkIU .framer-8p2ooy { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 100%; z-index: 5; }`,
+        `.framer-5wkIU .framer-yr7e8u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-1lqrq9m { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-13vydhe-container, .framer-5wkIU .framer-t6hoyi-container { flex: none; height: auto; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-5wkIU .framer-a7r3bf-container, .framer-5wkIU .framer-1pcksmg-container, .framer-5wkIU .framer-1t3z73n-container, .framer-5wkIU .framer-lxy4y4-container, .framer-5wkIU .framer-1scxxvo-container { flex: none; height: auto; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-4rcdqo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: visible; padding: 75px 0px 75px 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-rlgwnx-container { flex: none; height: 100vh; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-iis1dp { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 75px 25px 75px 25px; position: relative; scroll-margin-top: 150px; width: 100%; z-index: 1; }`,
+        `.framer-5wkIU .framer-1xenox7 { --border-bottom-width: 1px; --border-color: var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; border-bottom-left-radius: 44px; border-bottom-right-radius: 44px; border-top-left-radius: 44px; border-top-right-radius: 44px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 40px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-1pdk0aw { align-content: flex-start; align-items: flex-start; align-self: stretch; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: auto; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-5wkIU .framer-1uvw7h { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 26px; height: 1px; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-1a2p70w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-rdc6sc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-5wkIU .framer-jx47os, .framer-5wkIU .framer-dmav2q { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-5wkIU .framer-a7kr4n-container { flex: 1 0 0px; height: auto; max-width: 30%; position: sticky; top: 35px; width: 1px; z-index: 1; }`,
         ...Ja,
         ...kt,
         ...ct,
         ...Wa,
         ...Ae,
         ...Qa,
-        `.framer-ldsQa[data-border="true"]::after, .framer-ldsQa [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
-        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-ldsQa.framer-72rtr7 { width: 810px; } .framer-ldsQa .framer-1au44ra { gap: 50px; padding: 50px 25px 0px 25px; } .framer-ldsQa .framer-wmsqgn { left: 50px; } .framer-ldsQa .framer-np6d6q { right: 50px; } .framer-ldsQa .framer-k0af9v, .framer-ldsQa .framer-1v3a43r { padding: 50px 25px 50px 25px; } .framer-ldsQa .framer-la7fvh { gap: 5px 10px; max-width: 600px; } .framer-ldsQa .framer-16gd5iv, .framer-ldsQa .framer-1fv2udu { flex-direction: column; padding: 50px 25px 50px 25px; } .framer-ldsQa .framer-flkrtb { flex: none; width: 100%; } .framer-ldsQa .framer-1l0fz2d, .framer-ldsQa .framer-y0l0rk { align-content: center; align-items: center; } .framer-ldsQa .framer-fgnpc0, .framer-ldsQa .framer-tqr107 { max-width: 450px; } .framer-ldsQa .framer-wdmzrp, .framer-ldsQa .framer-1i2yrmx { gap: 20px; } .framer-ldsQa .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-ldsQa .framer-w99w4p { flex: none; order: 1; width: 100%; } .framer-ldsQa .framer-101kz2c { flex: none; order: 0; width: 100%; } .framer-ldsQa .framer-561hc4 { padding: 100px 0px 100px 0px; } .framer-ldsQa .framer-1lqrq9m { gap: 50px; padding: 50px 25px 50px 25px; } .framer-ldsQa .framer-4rcdqo { padding: 50px 0px 50px 0px; } .framer-ldsQa .framer-iis1dp { padding: 24px; } .framer-ldsQa .framer-1xenox7 { flex-direction: column; } .framer-ldsQa .framer-1pdk0aw { align-self: unset; flex: none; height: min-content; width: 100%; } .framer-ldsQa .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
-        `@media (max-width: 809.98px) { .framer-ldsQa.framer-72rtr7 { width: 390px; } .framer-ldsQa .framer-7dod6r { flex-direction: column; padding: 75px 0px 0px 0px; } .framer-ldsQa .framer-1mki1k0, .framer-ldsQa .framer-flkrtb, .framer-ldsQa .framer-be6r75-container, .framer-ldsQa .framer-1d14rzc-container, .framer-ldsQa .framer-w99w4p, .framer-ldsQa .framer-101kz2c, .framer-ldsQa .framer-1t71dbs-container, .framer-ldsQa .framer-1vo5xwn-container { flex: none; width: 100%; } .framer-ldsQa .framer-1au44ra { gap: 36px; padding: 20px 25px 0px 25px; } .framer-ldsQa .framer-wmsqgn { aspect-ratio: 1 / 1; height: auto; left: 0px; top: 45px; width: 60px; } .framer-ldsQa .framer-np6d6q { aspect-ratio: 1 / 1; height: auto; right: 0px; top: 45px; width: 60px; } .framer-ldsQa .framer-2y58l1 { flex-direction: column; scroll-margin-top: unset; } .framer-ldsQa .framer-k0af9v, .framer-ldsQa .framer-1v3a43r { flex: none; padding: 30px 20px 30px 20px; width: 100%; } .framer-ldsQa .framer-la7fvh { gap: 5px 10px; max-width: 95%; } .framer-ldsQa .framer-1obwh4c, .framer-ldsQa .framer-lvsu6d, .framer-ldsQa .framer-10pj67n, .framer-ldsQa .framer-1fiua8d { aspect-ratio: 1 / 1; height: auto; width: 48px; } .framer-ldsQa .framer-16gd5iv { flex-direction: column; gap: 30px; padding: 30px 20px 30px 20px; } .framer-ldsQa .framer-1afaic6 { align-content: center; align-items: center; padding: 10px; } .framer-ldsQa .framer-1l0fz2d, .framer-ldsQa .framer-y0l0rk { align-content: center; align-items: center; } .framer-ldsQa .framer-wdmzrp, .framer-ldsQa .framer-1i2yrmx { flex-direction: column; gap: 20px; } .framer-ldsQa .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-ldsQa .framer-zqr5yg, .framer-ldsQa .framer-yr7e8u { flex-direction: column; } .framer-ldsQa .framer-feyxnm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; } .framer-ldsQa .framer-1psnt4v, .framer-ldsQa .framer-xjqzmg, .framer-ldsQa .framer-16c0xdy, .framer-ldsQa .framer-xngrzv { align-self: unset; width: 100%; } .framer-ldsQa .framer-6uiyx3, .framer-ldsQa .framer-f9gs6n { align-self: unset; } .framer-ldsQa .framer-1fv2udu { flex-direction: column; padding: 30px 20px 30px 20px; } .framer-ldsQa .framer-gug6nb { align-content: center; align-items: center; gap: 30px; padding: 10px; } .framer-ldsQa .framer-1lqrq9m { flex: none; gap: 30px; padding: 30px 20px 30px 20px; width: 100%; } .framer-ldsQa .framer-4rcdqo { padding: 30px 0px 30px 0px; } .framer-ldsQa .framer-rlgwnx-container { height: 50vh; } .framer-ldsQa .framer-iis1dp { padding: 20px; } .framer-ldsQa .framer-1xenox7 { flex-direction: column; padding: 25px; } .framer-ldsQa .framer-1pdk0aw { align-self: unset; flex: none; gap: 30px; height: min-content; width: 100%; } .framer-ldsQa .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
+        `.framer-5wkIU[data-border="true"]::after, .framer-5wkIU [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-5wkIU.framer-72rtr7 { width: 810px; } .framer-5wkIU .framer-1au44ra { gap: 50px; padding: 50px 25px 0px 25px; } .framer-5wkIU .framer-wmsqgn { left: 50px; } .framer-5wkIU .framer-np6d6q { right: 50px; } .framer-5wkIU .framer-k0af9v, .framer-5wkIU .framer-1v3a43r { padding: 50px 25px 50px 25px; } .framer-5wkIU .framer-la7fvh { gap: 5px 10px; max-width: 600px; } .framer-5wkIU .framer-16gd5iv, .framer-5wkIU .framer-1fv2udu { flex-direction: column; padding: 50px 25px 50px 25px; } .framer-5wkIU .framer-flkrtb { flex: none; width: 100%; } .framer-5wkIU .framer-1l0fz2d, .framer-5wkIU .framer-y0l0rk { align-content: center; align-items: center; } .framer-5wkIU .framer-fgnpc0, .framer-5wkIU .framer-tqr107 { max-width: 450px; } .framer-5wkIU .framer-wdmzrp, .framer-5wkIU .framer-1i2yrmx { gap: 20px; } .framer-5wkIU .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-5wkIU .framer-w99w4p { flex: none; order: 1; width: 100%; } .framer-5wkIU .framer-101kz2c { flex: none; order: 0; width: 100%; } .framer-5wkIU .framer-561hc4 { padding: 100px 0px 100px 0px; } .framer-5wkIU .framer-1lqrq9m { gap: 50px; padding: 50px 25px 50px 25px; } .framer-5wkIU .framer-4rcdqo { padding: 50px 0px 50px 0px; } .framer-5wkIU .framer-iis1dp { padding: 24px; } .framer-5wkIU .framer-1xenox7 { flex-direction: column; } .framer-5wkIU .framer-1pdk0aw { align-self: unset; flex: none; height: min-content; width: 100%; } .framer-5wkIU .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
+        `@media (max-width: 809.98px) { .framer-5wkIU.framer-72rtr7 { width: 390px; } .framer-5wkIU .framer-7dod6r { flex-direction: column; padding: 75px 0px 0px 0px; } .framer-5wkIU .framer-1mki1k0, .framer-5wkIU .framer-flkrtb, .framer-5wkIU .framer-be6r75-container, .framer-5wkIU .framer-1d14rzc-container, .framer-5wkIU .framer-w99w4p, .framer-5wkIU .framer-101kz2c, .framer-5wkIU .framer-1t71dbs-container, .framer-5wkIU .framer-1vo5xwn-container { flex: none; width: 100%; } .framer-5wkIU .framer-1au44ra { gap: 36px; padding: 20px 25px 0px 25px; } .framer-5wkIU .framer-wmsqgn { aspect-ratio: 1 / 1; height: auto; left: 0px; top: 45px; width: 60px; } .framer-5wkIU .framer-np6d6q { aspect-ratio: 1 / 1; height: auto; right: 0px; top: 45px; width: 60px; } .framer-5wkIU .framer-2y58l1 { flex-direction: column; scroll-margin-top: unset; } .framer-5wkIU .framer-k0af9v, .framer-5wkIU .framer-1v3a43r { flex: none; padding: 30px 20px 30px 20px; width: 100%; } .framer-5wkIU .framer-la7fvh { gap: 5px 10px; max-width: 95%; } .framer-5wkIU .framer-1obwh4c, .framer-5wkIU .framer-lvsu6d, .framer-5wkIU .framer-10pj67n, .framer-5wkIU .framer-1fiua8d { aspect-ratio: 1 / 1; height: auto; width: 48px; } .framer-5wkIU .framer-16gd5iv { flex-direction: column; gap: 30px; padding: 30px 20px 30px 20px; } .framer-5wkIU .framer-1afaic6 { align-content: center; align-items: center; padding: 10px; } .framer-5wkIU .framer-1l0fz2d, .framer-5wkIU .framer-y0l0rk { align-content: center; align-items: center; } .framer-5wkIU .framer-wdmzrp, .framer-5wkIU .framer-1i2yrmx { flex-direction: column; gap: 20px; } .framer-5wkIU .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-5wkIU .framer-zqr5yg, .framer-5wkIU .framer-yr7e8u { flex-direction: column; } .framer-5wkIU .framer-feyxnm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; } .framer-5wkIU .framer-1psnt4v, .framer-5wkIU .framer-xjqzmg, .framer-5wkIU .framer-16c0xdy, .framer-5wkIU .framer-xngrzv { align-self: unset; width: 100%; } .framer-5wkIU .framer-6uiyx3, .framer-5wkIU .framer-f9gs6n { align-self: unset; } .framer-5wkIU .framer-1fv2udu { flex-direction: column; padding: 30px 20px 30px 20px; } .framer-5wkIU .framer-gug6nb { align-content: center; align-items: center; gap: 30px; padding: 10px; } .framer-5wkIU .framer-1lqrq9m { flex: none; gap: 30px; padding: 30px 20px 30px 20px; width: 100%; } .framer-5wkIU .framer-4rcdqo { padding: 30px 0px 30px 0px; } .framer-5wkIU .framer-rlgwnx-container { height: 50vh; } .framer-5wkIU .framer-iis1dp { padding: 20px; } .framer-5wkIU .framer-1xenox7 { flex-direction: column; padding: 25px; } .framer-5wkIU .framer-1pdk0aw { align-self: unset; flex: none; gap: 30px; height: min-content; width: 100%; } .framer-5wkIU .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
       ],
-      `framer-ldsQa`
+      `framer-5wkIU`
     )),
     (Oo.displayName = `Home`),
-    (Oo.defaultProps = { height: 7978, width: 1200 }),
+    (Oo.defaultProps = { height: 8159, width: 1200 }),
     I(
       Oo,
       [
@@ -12413,19 +12429,19 @@ e(() => {
           name: `FrameraugiA20Il`,
           slots: [],
           annotations: {
+            framerAcceptsLayoutTemplate: `true`,
+            framerIntrinsicHeight: `8159`,
+            framerIntrinsicWidth: `1200`,
+            framerAutoSizeImages: `true`,
+            framerDisplayContentsDiv: `false`,
+            framerResponsiveScreen: `true`,
+            framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"MNFOeKjhJ":{"layout":["fixed","auto"]},"dV9dN50OP":{"layout":["fixed","auto"]}}}`,
+            framerImmutableVariables: `true`,
+            framerColorSyntax: `true`,
+            framerComponentViewportWidth: `true`,
+            framerContractVersion: `1`,
             framerScrollSections: `{"iYUNHqCEb":{"pattern":":iYUNHqCEb","name":"hero"},"U6VhzUg6a":{"pattern":":U6VhzUg6a","name":"richtext"},"N2ijbw0rP":{"pattern":":N2ijbw0rP","name":"features"},"ZyhbuJwZr":{"pattern":":ZyhbuJwZr","name":"products"},"zKzXmXRGU":{"pattern":":zKzXmXRGU","name":"showcases"},"adTRrxLJn":{"pattern":":adTRrxLJn","name":"showcase"},"sgmlFhWUG":{"pattern":":sgmlFhWUG","name":"faqs"},"v99AbFhke":{"pattern":":v99AbFhke","name":"faqs"}}`,
             framerLayoutTemplateFlowEffect: `true`,
-            framerAutoSizeImages: `true`,
-            framerImmutableVariables: `true`,
-            framerDisplayContentsDiv: `false`,
-            framerAcceptsLayoutTemplate: `true`,
-            framerColorSyntax: `true`,
-            framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"MNFOeKjhJ":{"layout":["fixed","auto"]},"dV9dN50OP":{"layout":["fixed","auto"]}}}`,
-            framerResponsiveScreen: `true`,
-            framerIntrinsicHeight: `7978`,
-            framerIntrinsicWidth: `1200`,
-            framerContractVersion: `1`,
-            framerComponentViewportWidth: `true`,
           },
         },
         __FramerMetadata__: { type: `variable` },
@@ -12433,4 +12449,4 @@ e(() => {
     }));
 })();
 export { ko as __FramerMetadata__, Oo as default, go as queryParamNames };
-//# sourceMappingURL=LXjzK8vR_4h4ktVb_z5mDzVdc_5Cdw3-F8SAEnBjGGE.CfevDNd8.mjs.map
+//# sourceMappingURL=gmTh4tT-3w3RqDjjRnKCVnIexlHdyAbEaWIL3sGYKaA.D-eLbBO1.mjs.map

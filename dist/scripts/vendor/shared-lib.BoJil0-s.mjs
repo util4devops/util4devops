@@ -1220,7 +1220,7 @@ function be(e, t) {
       ZyhbuJwZr: `products`,
     },
     robots: `max-image-preview:large`,
-    serializationId: `framer-ldsQa`,
+    serializationId: `framer-5wkIU`,
     title: $(e, t).title || `Home`,
     viewport: `width=device-width`,
   };
@@ -1232,8 +1232,8 @@ var xe,
       (xe = 1),
       (Se = {
         exports: {
-          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           default: { type: `function`, annotations: { framerContractVersion: `1` } },
+          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           __FramerMetadata__: { type: `variable` },
         },
       }));
@@ -1289,4 +1289,4 @@ export {
   D as v,
   E as y,
 };
-//# sourceMappingURL=shared-lib.By8mBIkh.mjs.map
+//# sourceMappingURL=shared-lib.BoJil0-s.mjs.map
