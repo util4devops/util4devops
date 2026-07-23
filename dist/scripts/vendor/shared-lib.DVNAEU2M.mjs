@@ -1210,7 +1210,6 @@ function be(e, t) {
     ],
     description: $(e, t).description,
     elements: {
-      adTRrxLJn: `showcase`,
       iYUNHqCEb: `hero`,
       N2ijbw0rP: `features`,
       sgmlFhWUG: `faqs`,
@@ -1220,7 +1219,7 @@ function be(e, t) {
       ZyhbuJwZr: `products`,
     },
     robots: `max-image-preview:large`,
-    serializationId: `framer-f6e6T`,
+    serializationId: `framer-6mNkK`,
     title: $(e, t).title || `Home`,
     viewport: `width=device-width`,
   };
@@ -1232,8 +1231,8 @@ var xe,
       (xe = 1),
       (Se = {
         exports: {
-          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           default: { type: `function`, annotations: { framerContractVersion: `1` } },
+          metadataVersion: { type: `variable`, annotations: { framerContractVersion: `1` } },
           __FramerMetadata__: { type: `variable` },
         },
       }));
@@ -1293,4 +1292,4 @@ export {
   A as x,
   B as y,
 };
-//# sourceMappingURL=shared-lib.C6bafAHz.mjs.map
+//# sourceMappingURL=shared-lib.DVNAEU2M.mjs.map

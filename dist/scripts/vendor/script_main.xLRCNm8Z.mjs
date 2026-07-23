@@ -89,7 +89,7 @@ import {
   w as Ve,
   x as He,
   y as Ue,
-} from "./shared-lib.C6bafAHz.mjs";
+} from "./shared-lib.DVNAEU2M.mjs";
 function We(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
@@ -3136,7 +3136,7 @@ async function Jr({ routeId: e, pathVariables: n, localeId: i, collectionItemId:
         collectionUtils: $r,
         framerSiteId: ei,
         notFoundPage: ce(
-          () => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.CnCPosAo.mjs`)
+          () => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.DPgOjJNR.mjs`)
         ),
         isReducedMotion: void 0,
         localeId: i,
@@ -3317,7 +3317,6 @@ e(() => {
     (Zr = {
       augiA20Il: {
         elements: {
-          adTRrxLJn: `showcase`,
           iYUNHqCEb: `hero`,
           N2ijbw0rP: `features`,
           sgmlFhWUG: `faqs`,
@@ -3326,12 +3325,12 @@ e(() => {
           zKzXmXRGU: `showcases`,
           ZyhbuJwZr: `products`,
         },
-        page: ce(() => import(`./GqbQ-i0sG_sipv7aph5l-P3XpXDqvAMiRqckgNXD45Y.Dk5Esd0w.mjs`)),
+        page: ce(() => import(`./fNgg7dXI8DmWQpWkQ8ezHwXmt0JbGiQutDOJgucxrVw.DrIciR7t.mjs`)),
         path: `/`,
       },
       weKLGiygA: {
         elements: {},
-        page: ce(() => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.CnCPosAo.mjs`)),
+        page: ce(() => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.DPgOjJNR.mjs`)),
         path: `/404`,
       },
     }),
@@ -3360,4 +3359,4 @@ e(() => {
   })();
 })();
 export { qr as getLayoutTemplateBreakpoints, Jr as getPageRoot };
-//# sourceMappingURL=script_main.t4sDYKA4.mjs.map
+//# sourceMappingURL=script_main.xLRCNm8Z.mjs.map
