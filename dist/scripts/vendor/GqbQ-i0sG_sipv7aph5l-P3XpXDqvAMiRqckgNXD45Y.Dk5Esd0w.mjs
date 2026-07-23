@@ -72,55 +72,59 @@ import {
   y as q,
 } from "./framer.D26jh1-v.mjs";
 import {
-  _ as ye,
-  b as J,
-  d as be,
-  f as xe,
-  g as Se,
-  h as Ce,
-  l as we,
-  m as Te,
-  o as Ee,
-  p as De,
-  s as Oe,
-  u as ke,
-  v as Ae,
-  y as je,
-} from "./shared-lib.BoJil0-s.mjs";
-var Me,
-  Ne,
-  Pe,
-  Fe = e(() => {
+  C as ye,
+  S as J,
+  _ as be,
+  b as xe,
+  d as Se,
+  f as Ce,
+  g as we,
+  h as Te,
+  l as Ee,
+  m as De,
+  o as Oe,
+  p as ke,
+  s as Ae,
+  u as je,
+  v as Me,
+  w as Ne,
+  x as Pe,
+  y as Fe,
+} from "./shared-lib.C6bafAHz.mjs";
+var Ie,
+  Le,
+  Re,
+  ze = e(() => {
     (v(),
       d(),
-      (Me = {
+      (Ie = {
         width: `100%`,
         height: `100%`,
         display: `flex`,
         justifyContent: `center`,
         alignItems: `center`,
       }),
-      (Ne = {
-        ...Me,
+      (Le = {
+        ...Ie,
         borderRadius: 6,
         background: `rgba(149, 149, 149, 0.1)`,
         border: `1px dashed rgba(149, 149, 149, 0.15)`,
         color: `#a5a5a5`,
         flexDirection: `column`,
       }),
-      (Pe = p((e, t) => h(`div`, { style: Ne, ref: t }))));
+      (Re = p((e, t) => h(`div`, { style: Le, ref: t }))));
   }),
-  Ie = e(() => {
-    Fe();
+  Be = e(() => {
+    ze();
   }),
-  Le,
-  Re,
-  ze,
-  Be,
-  Ve = e(() => {
-    ((ze = (e) => (
-      Le ||
-        ((Le = new Map([
+  Ve,
+  He,
+  Ue,
+  We,
+  Ge = e(() => {
+    ((Ue = (e) => (
+      Ve ||
+        ((Ve = new Map([
           [
             `bold`,
             e.createElement(
@@ -186,35 +190,35 @@ var Me,
             ),
           ],
         ])),
-        (Re = e.forwardRef((t, n) => e.createElement(`g`, { ref: n, ...t }, Le.get(t.weight))))),
-      Re
+        (He = e.forwardRef((t, n) => e.createElement(`g`, { ref: n, ...t }, Ve.get(t.weight))))),
+      He
     )),
-      (Be = ze));
+      (We = Ue));
   }),
-  He = e(() => {
-    (Ve(), Ve());
+  Ke = e(() => {
+    (Ge(), Ge());
   });
-function Ue(e, t, n = ``, r, i) {
+function qe(e, t, n = ``, r, i) {
   let a = c(() => {
     if (n == null || n?.length === 0) return null;
     let t = n.toLowerCase().replace(/-|\s/g, ``);
-    return i[t] ?? Ge(e, t);
+    return i[t] ?? Ye(e, t);
   }, [r, n]);
   return t ? r : a;
 }
-var We,
-  Ge,
-  Ke = e(() => {
+var Je,
+  Ye,
+  Xe = e(() => {
     (d(),
       k(),
-      (We = {
+      (Je = {
         onClick: { type: H.EventHandler },
         onMouseDown: { type: H.EventHandler },
         onMouseUp: { type: H.EventHandler },
         onMouseEnter: { type: H.EventHandler },
         onMouseLeave: { type: H.EventHandler },
       }),
-      (Ge = (e, t) => e.find((e) => e.toLowerCase().includes(t))));
+      (Ye = (e, t) => e.find((e) => e.toLowerCase().includes(t))));
   });
 function Y(e) {
   let {
@@ -231,11 +235,11 @@ function Y(e) {
       mirrored: g,
     } = e,
     _ = t(!1),
-    v = Ue(qe, r, a, s, Xe),
-    [y, b] = o(v === `Home` ? Be(l) : null);
+    v = qe(Ze, r, a, s, et),
+    [y, b] = o(v === `Home` ? We(l) : null);
   async function x() {
     try {
-      let e = await import(`${Je}${v}.js@0.0.57`);
+      let e = await import(`${Qe}${v}.js@0.0.57`);
       _.current && b(e.default(l));
     } catch {
       _.current && b(null);
@@ -251,7 +255,7 @@ function Y(e) {
     ),
     [v]
   );
-  let S = fe.current() === fe.canvas ? h(Pe, {}) : null;
+  let S = fe.current() === fe.canvas ? h(Re, {}) : null;
   return h(C.div, {
     style: { display: `contents` },
     onClick: c,
@@ -280,25 +284,25 @@ function Y(e) {
       : S,
   });
 }
-var qe,
-  Je,
-  Ye,
-  Xe,
-  Ze = e(() => {
+var Ze,
+  Qe,
+  $e,
+  et,
+  tt = e(() => {
     (v(),
       d(),
       k(),
       O(),
-      Ie(),
-      He(),
+      Be(),
       Ke(),
-      (qe =
+      Xe(),
+      (Ze =
         `Acorn.AddressBook.AddressBookTabs.AirTrafficControl.Airplane.AirplaneInFlight.AirplaneLanding.AirplaneTakeoff.AirplaneTaxiing.AirplaneTilt.Airplay.Alarm.Alien.AlignBottom.AlignBottomSimple.AlignCenterVertical.AlignLeft.AlignLeftSimple.AlignRight.AlignRightSimple.AlignTop.AlignTopSimple.AmazonLogo.Ambulance.Anchor.AnchorSimple.AndroidLogo.Angle.AngularLogo.Aperture.AppStoreLogo.AppWindow.AppleLogo.ApplePodcastsLogo.ApproximateEquals.Archive.ArchiveBox.ArchiveTray.Armchair.ArrowArcLeft.ArrowArcRight.ArrowBendDownLeft.ArrowBendDownRight.ArrowBendLeftDown.ArrowBendLeftUp.ArrowBendRightDown.ArrowBendRightUp.ArrowBendUpLeft.ArrowBendUpRight.ArrowCircleDown.ArrowCircleDownLeft.ArrowCircleDownRight.ArrowCircleLeft.ArrowCircleRight.ArrowCircleUp.ArrowCircleUpLeft.ArrowCircleUpRight.ArrowClockwise.ArrowDown.ArrowDownLeft.ArrowDownRight.ArrowElbowDownLeft.ArrowElbowDownRight.ArrowElbowLeft.ArrowElbowLeftDown.ArrowElbowLeftUp.ArrowElbowRight.ArrowElbowRightDown.ArrowElbowRightUp.ArrowElbowUpLeft.ArrowElbowUpRight.ArrowFatDown.ArrowFatLeft.ArrowFatLineDown.ArrowFatLineLeft.ArrowFatLineRight.ArrowFatLineUp.ArrowFatLinesDown.ArrowFatLinesLeft.ArrowFatLinesRight.ArrowFatLinesUp.ArrowFatRight.ArrowFatUp.ArrowLeft.ArrowLineDown.ArrowLineDownLeft.ArrowLineDownRight.ArrowLineLeft.ArrowLineRight.ArrowLineUp.ArrowLineUpLeft.ArrowLineUpRight.ArrowRight.ArrowSquareDown.ArrowSquareDownLeft.ArrowSquareDownRight.ArrowSquareIn.ArrowSquareLeft.ArrowSquareOut.ArrowSquareRight.ArrowSquareUp.ArrowSquareUpLeft.ArrowSquareUpRight.ArrowUDownLeft.ArrowUDownRight.ArrowULeftDown.ArrowULeftUp.ArrowURightDown.ArrowURightUp.ArrowUUpLeft.ArrowUUpRight.ArrowUp.ArrowUpLeft.ArrowUpRight.ArrowsClockwise.ArrowsDownUp.ArrowsHorizontal.ArrowsIn.ArrowsInCardinal.ArrowsInLineVertical.ArrowsInSimple.ArrowsLeftRight.ArrowsMerge.ArrowsOut.ArrowsOutCardinal.ArrowsOutSimple.ArrowsSplit.ArrowsVertical.Article.ArticleMedium.ArticleNyTimes.Asclepius.Asterisk.AsteriskSimple.At.Atom.Avocado.Axe.Baby.BabyCarriage.Backpack.Backspace.Bag.BagSimple.Balloon.Bandaids.Bank.Barbell.Barcode.Barn.Barricade.Baseball.BaseballCap.BaseballHelmet.Basket.Basketball.Bathtub.BatteryCharging.BatteryEmpty.BatteryFull.BatteryHigh.BatteryLow.BatteryMedium.BatteryPlus.BatteryPlusVertical.BatteryVerticalEmpty.BatteryVerticalFull.BatteryVerticalHigh.BatteryVerticalLow.BatteryWarning.BeachBall.Beanie.Bed.BeerBottle.BeerStein.BehanceLogo.Bell.BellRinging.BellSimple.BellSimpleRinging.BellSimpleSlash.BellSimpleZ.BellSlash.BellZ.Belt.BezierCurve.Bicycle.Binary.Binoculars.Biohazard.Bird.Blueprint.Bluetooth.BluetoothConnected.BluetoothSlash.BluetoothX.Boat.Bomb.Bone.Book.BookBookmark.BookOpen.BookOpenText.BookOpenUser.BookUser.Bookmark.BookmarkSimple.Bookmarks.BookmarksSimple.Books.Boot.Boules.BoundingBox.BowlFood.BowlSteam.BowlingBall.BoxArrowDown.BoxArrowUp.BoxingGlove.BracketsAngle.BracketsCurly.BracketsRound.BracketsSquare.Brain.Brandy.Bread.Bridge.Briefcase.BriefcaseMetal.Broadcast.Broom.Browser.Browsers.Bug.BugBeetle.BugDroid.Building.BuildingApartment.BuildingOffice.Buildings.Bulldozer.Bus.Butterfly.CableCar.Cactus.Cake.Calculator.Calendar.CalendarBlank.CalendarCheck.CalendarDot.CalendarDots.CalendarHeart.CalendarMinus.CalendarPlus.CalendarSlash.CalendarStar.CalendarX.CallBell.Camera.CameraPlus.CameraRotate.CameraSlash.Campfire.Car.CarBattery.CarProfile.CarSimple.Cardholder.Cards.CardsThree.CaretCircleDoubleUp.CaretCircleDown.CaretCircleLeft.CaretCircleRight.CaretCircleUp.CaretCircleUpDown.CaretDoubleDown.CaretDoubleLeft.CaretDoubleRight.CaretDoubleUp.CaretDown.CaretLeft.CaretLineDown.CaretLineLeft.CaretLineRight.CaretLineUp.CaretRight.CaretUp.CaretUpDown.Carrot.CashRegister.CassetteTape.CastleTurret.Cat.CellSignalFull.CellSignalHigh.CellSignalLow.CellSignalMedium.CellSignalNone.CellSignalSlash.CellSignalX.CellTower.Certificate.Chair.Chalkboard.ChalkboardSimple.ChalkboardTeacher.Champagne.ChargingStation.ChartBar.ChartBarHorizontal.ChartDonut.ChartLine.ChartLineDown.ChartLineUp.ChartPie.ChartPieSlice.ChartPolar.ChartScatter.Chat.ChatCentered.ChatCenteredDots.ChatCenteredSlash.ChatCenteredText.ChatCircle.ChatCircleDots.ChatCircleSlash.ChatCircleText.ChatDots.ChatSlash.ChatTeardrop.ChatTeardropDots.ChatTeardropSlash.ChatTeardropText.ChatText.Chats.ChatsCircle.ChatsTeardrop.Check.CheckCircle.CheckFat.CheckSquare.CheckSquareOffset.Checkerboard.Checks.Cheers.Cheese.ChefHat.Cherries.Church.Cigarette.CigaretteSlash.Circle.CircleDashed.CircleHalf.CircleHalfTilt.CircleNotch.CirclesFour.CirclesThree.CirclesThreePlus.Circuitry.City.Clipboard.ClipboardText.Clock.ClockAfternoon.ClockClockwise.ClockCountdown.ClockUser.ClosedCaptioning.Cloud.CloudArrowDown.CloudArrowUp.CloudCheck.CloudFog.CloudLightning.CloudMoon.CloudRain.CloudSlash.CloudSnow.CloudSun.CloudWarning.CloudX.Clover.Club.CoatHanger.CodaLogo.Code.CodeBlock.CodeSimple.CodepenLogo.CodesandboxLogo.Coffee.CoffeeBean.Coin.CoinVertical.Coins.Columns.ColumnsPlusLeft.ColumnsPlusRight.Command.Compass.CompassRose.CompassTool.ComputerTower.Confetti.ContactlessPayment.Control.Cookie.CookingPot.Copy.CopySimple.Copyleft.Copyright.CornersIn.CornersOut.Couch.CourtBasketball.Cow.CowboyHat.Cpu.Crane.CraneTower.CreditCard.Cricket.Crop.Cross.Crosshair.CrosshairSimple.Crown.CrownCross.CrownSimple.Cube.CubeFocus.CubeTransparent.CurrencyBtc.CurrencyCircleDollar.CurrencyCny.CurrencyDollar.CurrencyDollarSimple.CurrencyEth.CurrencyEur.CurrencyGbp.CurrencyInr.CurrencyJpy.CurrencyKrw.CurrencyKzt.CurrencyNgn.CurrencyRub.Cursor.CursorClick.CursorText.Cylinder.Database.Desk.Desktop.DesktopTower.Detective.DevToLogo.DeviceMobile.DeviceMobileCamera.DeviceMobileSlash.DeviceMobileSpeaker.DeviceRotate.DeviceTablet.DeviceTabletCamera.DeviceTabletSpeaker.Devices.Diamond.DiamondsFour.DiceFive.DiceFour.DiceOne.DiceSix.DiceThree.DiceTwo.Disc.DiscoBall.DiscordLogo.Divide.Dna.Dog.Door.DoorOpen.Dot.DotOutline.DotsNine.DotsSix.DotsSixVertical.DotsThree.DotsThreeCircle.DotsThreeOutline.DotsThreeVertical.Download.DownloadSimple.Dress.Dresser.DribbbleLogo.Drone.Drop.DropHalf.DropHalfBottom.DropSimple.DropSlash.DropboxLogo.Ear.EarSlash.Egg.EggCrack.Eject.EjectSimple.Elevator.Empty.Engine.Envelope.EnvelopeOpen.EnvelopeSimple.EnvelopeSimpleOpen.Equalizer.Equals.Eraser.EscalatorDown.EscalatorUp.Exam.ExclamationMark.Exclude.ExcludeSquare.Export.Eye.EyeClosed.EyeSlash.Eyedropper.EyedropperSample.Eyeglasses.Eyes.FaceMask.FacebookLogo.Factory.Faders.FadersHorizontal.FalloutShelter.Fan.Farm.FastForward.FastForwardCircle.Feather.FediverseLogo.FigmaLogo.File.FileArchive.FileArrowDown.FileArrowUp.FileAudio.FileC.FileCloud.FileCode.FileCpp.FileCss.FileCsv.FileDashed.FileDoc.FileHtml.FileImage.FileIni.FileJpg.FileJs.FileJsx.FileLock.FileMagnifyingGlass.FileMd.FileMinus.FilePdf.FilePlus.FilePng.FilePpt.FilePy.FileRs.FileSql.FileSvg.FileText.FileTs.FileTsx.FileTxt.FileVideo.FileVue.FileX.FileXls.FileZip.Files.FilmReel.FilmScript.FilmSlate.FilmStrip.Fingerprint.FingerprintSimple.FinnTheHuman.Fire.FireExtinguisher.FireSimple.FireTruck.FirstAid.FirstAidKit.Fish.FishSimple.Flag.FlagBanner.FlagBannerFold.FlagCheckered.FlagPennant.Flame.Flashlight.Flask.FlipHorizontal.FlipVertical.FloppyDisk.FloppyDiskBack.FlowArrow.Flower.FlowerLotus.FlowerTulip.FlyingSaucer.Folder.FolderDashed.FolderLock.FolderMinus.FolderNotch.FolderNotchMinus.FolderNotchOpen.FolderNotchPlus.FolderOpen.FolderPlus.FolderSimple.FolderSimpleDashed.FolderSimpleLock.FolderSimpleMinus.FolderSimplePlus.FolderSimpleStar.FolderSimpleUser.FolderStar.FolderUser.Folders.Football.FootballHelmet.Footprints.ForkKnife.FourK.FrameCorners.FramerLogo.Function.Funnel.FunnelSimple.FunnelSimpleX.FunnelX.GameController.Garage.GasCan.GasPump.Gauge.Gavel.Gear.GearFine.GearSix.GenderFemale.GenderIntersex.GenderMale.GenderNeuter.GenderNonbinary.GenderTransgender.Ghost.Gif.Gift.GitBranch.GitCommit.GitDiff.GitFork.GitMerge.GitPullRequest.GithubLogo.GitlabLogo.GitlabLogoSimple.Globe.GlobeHemisphereEast.GlobeHemisphereWest.GlobeSimple.GlobeSimpleX.GlobeStand.GlobeX.Goggles.Golf.GoodreadsLogo.GoogleCardboardLogo.GoogleChromeLogo.GoogleDriveLogo.GoogleLogo.GooglePhotosLogo.GooglePlayLogo.GooglePodcastsLogo.Gps.GpsFix.GpsSlash.Gradient.GraduationCap.Grains.GrainsSlash.Graph.GraphicsCard.GreaterThan.GreaterThanOrEqual.GridFour.GridNine.Guitar.HairDryer.Hamburger.Hammer.Hand.HandArrowDown.HandArrowUp.HandCoins.HandDeposit.HandEye.HandFist.HandGrabbing.HandHeart.HandPalm.HandPeace.HandPointing.HandSoap.HandSwipeLeft.HandSwipeRight.HandTap.HandWaving.HandWithdraw.Handbag.HandbagSimple.HandsClapping.HandsPraying.Handshake.HardDrive.HardDrives.HardHat.Hash.HashStraight.HeadCircuit.Headlights.Headphones.Headset.Heart.HeartBreak.HeartHalf.HeartStraight.HeartStraightBreak.Heartbeat.Hexagon.HighDefinition.HighHeel.Highlighter.HighlighterCircle.Hockey.Hoodie.Horse.Hospital.Hourglass.HourglassHigh.HourglassLow.HourglassMedium.HourglassSimple.HourglassSimpleHigh.HourglassSimpleLow.House.HouseLine.HouseSimple.Hurricane.IceCream.IdentificationBadge.IdentificationCard.Image.ImageBroken.ImageSquare.Images.ImagesSquare.Infinity.Info.InstagramLogo.Intersect.IntersectSquare.IntersectThree.Intersection.Invoice.Island.Jar.JarLabel.Jeep.Joystick.Kanban.Key.KeyReturn.Keyboard.Keyhole.Knife.Ladder.LadderSimple.Lamp.LampPendant.Laptop.Lasso.LastfmLogo.Layout.Leaf.Lectern.Lego.LegoSmiley.LessThan.LessThanOrEqual.LetterCircleH.LetterCircleP.LetterCircleV.Lifebuoy.Lightbulb.LightbulbFilament.Lighthouse.Lightning.LightningA.LightningSlash.LineSegment.LineSegments.LineVertical.Link.LinkBreak.LinkSimple.LinkSimpleBreak.LinkSimpleHorizontal.LinkedinLogo.LinktreeLogo.LinuxLogo.List.ListBullets.ListChecks.ListDashes.ListHeart.ListMagnifyingGlass.ListNumbers.ListPlus.ListStar.Lock.LockKey.LockKeyOpen.LockLaminated.LockLaminatedOpen.LockOpen.LockSimple.LockSimpleOpen.Lockers.Log.MagicWand.Magnet.MagnetStraight.MagnifyingGlass.MagnifyingGlassMinus.MagnifyingGlassPlus.Mailbox.MapPin.MapPinArea.MapPinLine.MapPinPlus.MapPinSimple.MapPinSimpleArea.MapPinSimpleLine.MapTrifold.MarkdownLogo.MarkerCircle.Martini.MaskHappy.MaskSad.MastodonLogo.MathOperations.MatrixLogo.Medal.MedalMilitary.MediumLogo.Megaphone.MegaphoneSimple.MemberOf.Memory.MessengerLogo.MetaLogo.Meteor.Metronome.Microphone.MicrophoneSlash.MicrophoneStage.Microscope.MicrosoftExcelLogo.MicrosoftOutlookLogo.MicrosoftTeamsLogo.MicrosoftWordLogo.Minus.MinusCircle.MinusSquare.Money.MoneyWavy.Monitor.MonitorArrowUp.MonitorPlay.Moon.MoonStars.Moped.MopedFront.Mosque.Motorcycle.Mountains.Mouse.MouseLeftClick.MouseMiddleClick.MouseRightClick.MouseScroll.MouseSimple.MusicNote.MusicNoteSimple.MusicNotes.MusicNotesMinus.MusicNotesPlus.MusicNotesSimple.NavigationArrow.Needle.Network.NetworkSlash.NetworkX.Newspaper.NewspaperClipping.NotEquals.NotMemberOf.NotSubsetOf.NotSupersetOf.Notches.Note.NoteBlank.NotePencil.Notebook.Notepad.Notification.NotionLogo.NuclearPlant.NumberCircleEight.NumberCircleFive.NumberCircleFour.NumberCircleNine.NumberCircleOne.NumberCircleSeven.NumberCircleSix.NumberCircleThree.NumberCircleTwo.NumberCircleZero.NumberEight.NumberFive.NumberFour.NumberNine.NumberOne.NumberSeven.NumberSix.NumberSquareEight.NumberSquareFive.NumberSquareFour.NumberSquareNine.NumberSquareOne.NumberSquareSeven.NumberSquareSix.NumberSquareThree.NumberSquareTwo.NumberSquareZero.NumberThree.NumberTwo.NumberZero.Numpad.Nut.NyTimesLogo.Octagon.OfficeChair.Onigiri.OpenAiLogo.Option.Orange.OrangeSlice.Oven.Package.PaintBrush.PaintBrushBroad.PaintBrushHousehold.PaintBucket.PaintRoller.Palette.Panorama.Pants.PaperPlane.PaperPlaneRight.PaperPlaneTilt.Paperclip.PaperclipHorizontal.Parachute.Paragraph.Parallelogram.Park.Password.Path.PatreonLogo.Pause.PauseCircle.PawPrint.PaypalLogo.Peace.Pen.PenNib.PenNibStraight.Pencil.PencilCircle.PencilLine.PencilRuler.PencilSimple.PencilSimpleLine.PencilSimpleSlash.PencilSlash.Pentagon.Pentagram.Pepper.Percent.Person.PersonArmsSpread.PersonSimple.PersonSimpleBike.PersonSimpleCircle.PersonSimpleHike.PersonSimpleRun.PersonSimpleSki.PersonSimpleSwim.PersonSimpleTaiChi.PersonSimpleThrow.PersonSimpleWalk.Perspective.Phone.PhoneCall.PhoneDisconnect.PhoneIncoming.PhoneList.PhoneOutgoing.PhonePause.PhonePlus.PhoneSlash.PhoneTransfer.PhoneX.PhosphorLogo.Pi.PianoKeys.PicnicTable.PictureInPicture.PiggyBank.Pill.PingPong.PintGlass.PinterestLogo.Pinwheel.Pipe.PipeWrench.PixLogo.Pizza.Placeholder.Planet.Plant.Play.PlayCircle.PlayPause.Playlist.Plug.PlugCharging.Plugs.PlugsConnected.Plus.PlusCircle.PlusMinus.PlusSquare.PokerChip.PoliceCar.Polygon.Popcorn.Popsicle.PottedPlant.Power.Prescription.Presentation.PresentationChart.Printer.Prohibit.ProhibitInset.ProjectorScreen.ProjectorScreenChart.Pulse.PushPin.PushPinSimple.PushPinSimpleSlash.PushPinSlash.PuzzlePiece.QrCode.Question.QuestionMark.Queue.Quotes.Rabbit.Racquet.Radical.Radio.RadioButton.Radioactive.Rainbow.RainbowCloud.Ranking.ReadCvLogo.Receipt.ReceiptX.Record.Rectangle.RectangleDashed.Recycle.RedditLogo.Repeat.RepeatOnce.ReplitLogo.Resize.Rewind.RewindCircle.RoadHorizon.Robot.Rocket.RocketLaunch.Rows.RowsPlusBottom.RowsPlusTop.Rss.RssSimple.Rug.Ruler.Sailboat.Scales.Scan.ScanSmiley.Scissors.Scooter.Screencast.Screwdriver.Scribble.ScribbleLoop.Scroll.Seal.SealCheck.SealPercent.SealQuestion.SealWarning.Seat.Seatbelt.SecurityCamera.Selection.SelectionAll.SelectionBackground.SelectionForeground.SelectionInverse.SelectionPlus.SelectionSlash.Shapes.Share.ShareFat.ShareNetwork.Shield.ShieldCheck.ShieldCheckered.ShieldChevron.ShieldPlus.ShieldSlash.ShieldStar.ShieldWarning.ShippingContainer.ShirtFolded.ShootingStar.ShoppingBag.ShoppingBagOpen.ShoppingCart.ShoppingCartSimple.Shovel.Shower.Shrimp.Shuffle.ShuffleAngular.ShuffleSimple.Sidebar.SidebarSimple.Sigma.SignIn.SignOut.Signature.Signpost.SimCard.Siren.SketchLogo.SkipBack.SkipBackCircle.SkipForward.SkipForwardCircle.Skull.SkypeLogo.SlackLogo.Sliders.SlidersHorizontal.Slideshow.Smiley.SmileyAngry.SmileyBlank.SmileyMeh.SmileyMelting.SmileyNervous.SmileySad.SmileySticker.SmileyWink.SmileyXEyes.SnapchatLogo.Sneaker.SneakerMove.Snowflake.SoccerBall.Sock.SolarPanel.SolarRoof.SortAscending.SortDescending.SoundcloudLogo.Spade.Sparkle.SpeakerHifi.SpeakerHigh.SpeakerLow.SpeakerNone.SpeakerSimpleHigh.SpeakerSimpleLow.SpeakerSimpleNone.SpeakerSimpleSlash.SpeakerSimpleX.SpeakerSlash.SpeakerX.Speedometer.Sphere.Spinner.SpinnerBall.SpinnerGap.Spiral.SplitHorizontal.SplitVertical.SpotifyLogo.SprayBottle.Square.SquareHalf.SquareHalfBottom.SquareLogo.SquareSplitVertical.SquaresFour.Stack.StackMinus.StackOverflowLogo.StackPlus.StackSimple.Stairs.Stamp.StandardDefinition.Star.StarAndCrescent.StarFour.StarHalf.StarOfDavid.SteamLogo.SteeringWheel.Steps.Stethoscope.Sticker.Stool.Stop.StopCircle.Storefront.Strategy.StripeLogo.Student.SubsetOf.SubsetProperOf.Subtitles.SubtitlesSlash.Subtract.SubtractSquare.Subway.Suitcase.SuitcaseRolling.SuitcaseSimple.Sun.SunDim.SunHorizon.Sunglasses.SupersetOf.SupersetProperOf.Swap.Swatches.SwimmingPool.Sword.Synagogue.Syringe.TShirt.Table.Tabs.Tag.TagChevron.TagSimple.Target.Taxi.TeaBag.TelegramLogo.Television.TelevisionSimple.TennisBall.Tent.Terminal.TerminalWindow.TestTube.TextAUnderline.TextAa.TextAlignCenter.TextAlignJustify.TextAlignLeft.TextAlignRight.TextB.TextColumns.TextH.TextHFive.TextHFour.TextHOne.TextHSix.TextHThree.TextHTwo.TextIndent.TextItalic.TextOutdent.TextStrikethrough.TextSubscript.TextSuperscript.TextT.TextTSlash.TextUnderline.Textbox.Thermometer.ThermometerCold.ThermometerHot.ThermometerSimple.ThreadsLogo.ThreeD.ThumbsDown.ThumbsUp.Ticket.TidalLogo.TiktokLogo.Tilde.Timer.TipJar.Tipi.Tire.ToggleLeft.ToggleRight.Toilet.ToiletPaper.Toolbox.Tooth.Tornado.Tote.ToteSimple.Towel.Tractor.Trademark.TrademarkRegistered.TrafficCone.TrafficSign.TrafficSignal.Train.TrainRegional.TrainSimple.Tram.Translate.Trash.TrashSimple.Tray.TrayArrowDown.TrayArrowUp.TreasureChest.Tree.TreeEvergreen.TreePalm.TreeStructure.TreeView.TrendDown.TrendUp.Triangle.TriangleDashed.Trolley.TrolleySuitcase.Trophy.Truck.TruckTrailer.TumblrLogo.TwitchLogo.TwitterLogo.Umbrella.UmbrellaSimple.Union.Unite.UniteSquare.Upload.UploadSimple.Usb.User.UserCheck.UserCircle.UserCircleCheck.UserCircleDashed.UserCircleGear.UserCircleMinus.UserCirclePlus.UserFocus.UserGear.UserList.UserMinus.UserPlus.UserRectangle.UserSound.UserSquare.UserSwitch.Users.UsersFour.UsersThree.Van.Vault.VectorThree.VectorTwo.Vibrate.Video.VideoCamera.VideoCameraSlash.VideoConference.Vignette.VinylRecord.VirtualReality.Virus.Visor.Voicemail.Volleyball.Wall.Wallet.Warehouse.Warning.WarningCircle.WarningDiamond.WarningOctagon.WashingMachine.Watch.WaveSawtooth.WaveSine.WaveSquare.WaveTriangle.Waveform.WaveformSlash.Waves.Webcam.WebcamSlash.WebhooksLogo.WechatLogo.WhatsappLogo.Wheelchair.WheelchairMotion.WifiHigh.WifiLow.WifiMedium.WifiNone.WifiSlash.WifiX.Wind.Windmill.WindowsLogo.Wine.Wrench.X.XCircle.XLogo.XSquare.Yarn.YinYang.YoutubeLogo`.split(
           `.`
         )),
-      (Je = `https://framer.com/m/phosphor-icons/`),
-      (Ye = [`thin`, `light`, `regular`, `bold`, `fill`, `duotone`]),
-      (Xe = qe.reduce((e, t) => ((e[t.toLowerCase()] = t), e), {})),
+      (Qe = `https://framer.com/m/phosphor-icons/`),
+      ($e = [`thin`, `light`, `regular`, `bold`, `fill`, `duotone`]),
+      (et = Ze.reduce((e, t) => ((e[t.toLowerCase()] = t), e), {})),
       (Y.displayName = `Phosphor`),
       (Y.defaultProps = {
         width: 24,
@@ -320,7 +324,7 @@ var qe,
         },
         iconSelection: {
           type: H.Enum,
-          options: qe,
+          options: Ze,
           defaultValue: Y.defaultProps.iconSelection,
           title: `Name`,
           hidden: ({ selectByList: e }) => !e,
@@ -336,8 +340,8 @@ var qe,
         weight: {
           type: H.Enum,
           title: `Weight`,
-          optionTitles: Ye.map((e) => e.charAt(0).toUpperCase() + e.slice(1)),
-          options: Ye,
+          optionTitles: $e.map((e) => e.charAt(0).toUpperCase() + e.slice(1)),
+          options: $e,
           defaultValue: Y.defaultProps.weight,
         },
         mirrored: {
@@ -346,14 +350,14 @@ var qe,
           disabledTitle: `No`,
           defaultValue: Y.defaultProps.mirrored,
         },
-        ...We,
+        ...Je,
       }));
   }),
-  Qe,
-  $e,
-  et = e(() => {
-    $e = (e) => (
-      (Qe ||= e.forwardRef(function (t, n) {
+  nt,
+  rt,
+  it = e(() => {
+    rt = (e) => (
+      (nt ||= e.forwardRef(function (t, n) {
         return e.createElement(
           `svg`,
           {
@@ -375,13 +379,13 @@ var qe,
           })
         );
       })),
-      Qe
+      nt
     );
   }),
-  tt = e(() => {
-    (et(), et());
+  at = e(() => {
+    (it(), it());
   });
-function nt(e) {
+function ot(e) {
   let {
       color: n,
       selectByList: r,
@@ -395,11 +399,11 @@ function nt(e) {
       mirrored: m,
     } = e,
     g = t(!1),
-    _ = Ue(rt, r, a, s, at),
-    [v, y] = o(_ === `Home` ? $e(l) : null);
+    _ = qe(st, r, a, s, lt),
+    [v, y] = o(_ === `Home` ? rt(l) : null);
   async function b() {
     try {
-      let e = await import(`${it}${_}.js@0.0.11`);
+      let e = await import(`${ct}${_}.js@0.0.11`);
       g.current && y(e.default(l));
     } catch {
       g.current && y(null);
@@ -415,7 +419,7 @@ function nt(e) {
     ),
     [_]
   );
-  let x = fe.current() === fe.canvas ? h(Pe, {}) : null;
+  let x = fe.current() === fe.canvas ? h(Re, {}) : null;
   return h(`div`, {
     style: { display: `contents` },
     onClick: c,
@@ -432,24 +436,24 @@ function nt(e) {
       : x,
   });
 }
-var rt,
-  it,
-  at,
-  ot = e(() => {
+var st,
+  ct,
+  lt,
+  ut = e(() => {
     (v(),
       d(),
       k(),
-      Ie(),
-      tt(),
-      Ke(),
-      (rt =
+      Be(),
+      at(),
+      Xe(),
+      (st =
         `Accessibility.AccessibilitySign.AccessibilityTech.Activity.AddCircledOutline.AddDatabaseScript.AddFolder.AddFrame.AddHexagon.AddKeyframe.AddKeyframeAlt.AddKeyframes.AddLens.AddPage.AddPinAlt.AddSelection.AddSquare.AddToCart.AddUser.Airplane.AirplaneHelix.AirplaneHelix45Deg.AirplaneOff.AirplaneRotation.Airplay.Alarm.Album.AlbumCarousel.AlbumList.AlbumOpen.AlignBottomBox.AlignCenter.AlignJustify.AlignLeft.AlignLeftBox.AlignRight.AlignRightBox.AlignTopBox.Antenna.AntennaOff.AntennaSignal.AppNotification.Apple.AppleHalf.AppleHalfAlt.AppleImac2021.AppleImac2021Side.AppleSwift.ArSymbol.Archery.Archive.AreaSearch.ArrowArchery.ArrowDown.ArrowDownCircled.ArrowLeft.ArrowLeftCircled.ArrowRight.ArrowRightCircled.ArrowSeparate.ArrowUnion.ArrowUnionVertical.ArrowUp.ArrowUpCircled.Asana.Attachment.AutoFlash.Bag.BasketBall.BasketBallAlt.BasketballField.Battery25.Battery50.Battery75.BatteryCharging.BatteryEmpty.BatteryFull.BatteryIndicator.BatteryWarning.BeachBag.BeachBagBig.Bell.BellNotification.BellOff.Bicycle.Bin.BinAdd.BinFull.BinHalf.BinMinus.Bluetooth.Bold.BoldSquareOutline.BookmarkCircled.BookmarkEmpty.BorderBl.BorderBottom.BorderBr.BorderInner.BorderLeft.BorderOut.BorderRight.BorderTl.BorderTop.BorderTr.BounceLeft.BounceRight.BowlingBall.Box.BoxIso.BoxingGlove.BubbleDownload.BubbleError.BubbleIncome.BubbleOutcome.BubbleSearch.BubbleStar.BubbleUpload.BubbleWarning.Building.BusOutline.BusStop.Calculator.Calendar.Camera.Cancel.CarOutline.Cart.CartAlt.Cash.Cell4X4.CenterAlign.ChatAdd.ChatBubble.ChatBubbleCheck.ChatBubbleCheck1.ChatBubbleEmpty.ChatBubbleError.ChatBubbleQuestion.ChatBubbleTranslate.ChatBubbleWarning.ChatLines.ChatRemove.Check.CheckCircledOutline.Chocolate.Chromecast.ChromecastActive.Church.ChurchAlt.CinemaOld.Circle.City.ClockOutline.Closet.Cloud.CloudBookAlt.CloudCheck.CloudDesync.CloudDownload.CloudError.CloudSunny.CloudSync.CloudUpload.Code.Codepen.Coin.CollageFrame.Collapse.ColorFilter.ColorPicker.ColorPickerEmpty.Combine.CompactDisc.Compress.CompressLines.Computer.ControlSlider.Copy.Copyright.CornerBottomLeft.CornerBottomRight.CornerTopLeft.CornerTopRight.Cpu.CpuWarning.CrackedEgg.CreativeCommons.CreditCard.CreditCard2.Crop.CropRotateBl.CropRotateBr.CropRotateTl.CropRotateTr.Css3.CursorPointer.Cut.CutAlt.Cycling.DashFlag.Dashboard.DashboardDots.DashboardSpeed.DataTransferBoth.DataTransferCheck.DataTransferDown.DataTransferUp.DataTransferWarning.DatabaseBackup.DatabaseExport.DatabaseMonitor.DatabaseRestore.DatabaseScript.DatabaseSettings.DatabaseStar.DatabaseStats.Db.DbCheck.DbError.DbSearch.DbStar.DbWarning.DeCompress.DeleteCircledOutline.DesignPencil.Dialpad.Display4K.DivideSelection1.DivideSelection2.DocSearch.DocSearchAlt.DocStar.DocStarAlt.Dollar.DomoticIssue.Donate.DoubleCheck.DownRoundArrow.Download.DragHandGesture.Drawer.Dribbble.Droplet.DropletHalf.EaseIn.EaseInControlPoint.EaseInOut.EaseOut.EaseOutControlPoint.Edit.EditPencil.Egg.Eject.ElectronicsChip.Emoji.EmojiBall.EmojiBlinkLeft.EmojiBlinkRight.EmojiLookBottom.EmojiLookLeft.EmojiLookRight.EmojiLookTop.EmojiQuite.EmojiReally.EmojiSad.EmojiSatisfied.EmojiSingLeft.EmojiSingLeftNote.EmojiSingRight.EmojiSingRightNote.EmojiSurprise.EmojiSurpriseAlt.EmojiTalkingAngry.EmojiTalkingHappy.EmojiThinkLeft.EmojiThinkRight.EmptyPage.Enlarge.EnlargeRoundArrow.Euro.EuroSquare.EvCharge.EvChargeAlt.EvPlug.EvPlugCharging.EvPlugError.EvStation.Exclude.Expand.ExpandLines.EyeAlt.EyeClose.EyeEmpty.EyeOff.FaceId.Facebook.FacebookSquared.Farm.FastArrowDown.FastArrowDownBox.FastArrowLeft.FastArrowLeftBox.FastArrowRight.FastArrowRightBox.FastArrowTop.FastArrowUpBox.FastBottomCircle.FastLeftCircle.FastRightCircle.FastTopCircle.Female.Figma.FileNotFound.Filter.FilterAlt.Finder.Fingerprint.FingerprintCircled.FingerprintCircledOk.FingerprintPhone.FingerprintScan.FingerprintSquared.Fishing.Flare.Flash.FlashOff.Flip.FlipReverse.Flower.Fog.Folder.FolderAlert.FontSize.Football.FootballBall.ForwardOutline.Frame.FrameAlt.FrameAltEmpty.FrameSelect.FrameSimple.FrameTool.Fridge.Fx.Garage.Gas.GasTank.GasTankDrop.Gift.GitBranch.GitCommit.GitHub.GitHubOutline.GitLabFull.GitMerge.GlassEmpty.GlassHalf.GlassHalfAlt.Glasses.Golf.Google.GoogleCircled.GoogleDocs.GoogleDrive.GoogleDriveCheck.GoogleDriveSync.GoogleDriveWarning.GoogleHome.GoogleOne.Gps.GraphDown.GraphUp.GridAdd.GridMinus.GridRemove.Group.Gym.HalfMoon.HandBrake.Handbag.HardDrive.Hat.Hd.Hdr.Headset.HeadsetCharge.HeadsetHelp.HeadsetIssue.HealthShield.Healthcare.Heart.HeavyRain.Heptagon.HerSlips.HesaWarningOutline.Hexagon.HexagonAlt.HighPriority.HistoricShield.HistoricShieldAlt.Home.HomeAlt.HomeAltSlim.HomeAltSlimHoriz.HomeHospital.HomeSimple.HomeSimpleDoor.HomeUser.Hospital.HospitalSign.Hourglass.Html5.Iconoir.Import.Industry.InfoEmpty.InputField.InputSearch.Instagram.Intersect.IntersectAlt.IosSettings.IrisScan.Italic.ItalicSquareOutline.Journal.JournalPage.KeyAlt.KeyAltBack.KeyAltMinus.KeyAltPlus.KeyAltRemove.Keyframe.KeyframeAlignCenter.KeyframePosition.Keyframes.KeyframesCouple.LabelOutline.Lamp.Language.Laptop.LaptopCharging.LaptopFix.LaptopIssue.LargeSuitcase.LayoutLeft.LayoutRight.Leaderboard.LeaderboardStar.LeftRoundArrow.Lens.Lifebelt.LightBulb.LightBulbOff.LightBulbOn.LineSpace.Linear.Link.LinkedIn.List.LoadActionFloppy.Lock.LockKey.LogDenied.LogIn.LogOut.LongArrowDownLeft.LongArrowDownRight.LongArrowLeftDown.LongArrowLeftUp.LongArrowRightDown.LongArrowRightUp.LongArrowRightUp1.LongArrowUpLeft.LongArrowUpRight.LotOfCash.MacControlKey.MacDock.MacOptionKey.MacOsWindow.Mail.MailOpened.Male.Map.MapIssue.MapsArrow.MapsArrowDiagonal.MapsArrowIssue.MapsGoStraight.MapsTurnBack.MapsTurnLeft.MapsTurnRight.MaskSquare.Maximize.Medal.Medal1St.Medium.Megaphone.Menu.MenuScale.Message.MessageAlert.MessageText.Metro.Mic.MicAdd.MicCheck.MicMute.MicRemove.MicSpeaking.MicWarning.Minus.Minus1.MinusHexagon.MinusPinAlt.MinusSquare.MissingFont.ModernTv.ModernTv4K.MoneySquare.MoonSat.MoreHoriz.MoreVert.MouseButtonLeft.MouseButtonRight.MouseScrollWheel.MoveDown.MoveLeft.MoveRight.MoveRuler.MoveUp.Movie.MultiBubble.MultiMacOsWindow.MultiWindow.MultiplePages.MultiplePagesAdd.MultiplePagesDelete.MultiplePagesEmpty.MultiplePagesRemove.Music1.Music1Add.Music2.Music2Add.NavArrowDown.NavArrowLeft.NavArrowRight.NavArrowUp.Navigator.NavigatorAlt.Network.NetworkAlt.NetworkLeft.NetworkRight.NoBattery.NoCoin.NoCreditCard.NoLock.NoSmoking.Notes.Octagon.OilIndustry.OpenInBrowser.OpenInWindow.OpenVpn.OrangeHalf.OrangeSlice.OrangeSliceAlt.Page.PageFlip.PageSearch.PageStar.Palette.PanoramaEnlarge.PanoramaReduce.Pants.PantsAlt.PasswordCursor.PasswordError.PasswordPass.PauseOutline.PcMouse.PenConnectBluetooth.PenConnectWifi.PenTablet.PenTabletConnectUsb.PenTabletConnectWifi.Pentagon.Percentage.PercentageRound.PercentageSquare.PharmacyCircledCross.PharmacySquaredCross.Phone.PhoneAdd.PhoneDelete.PhoneDisabled.PhoneIncome.PhoneOutcome.PhonePaused.PhoneRemove.Pin.PinAlt.PizzaSlice.Planet.PlanetAlt.PlanetSat.PlayOutline.Playlist.PlaylistAdd.PlaylistPlay.PlugTypeA.PlugTypeC.PlugTypeG.PlugTypeL.Plus.Pocket.Position.PositionAlign.Pound.PrecisionTool.Printer.PrinterAlt.PrintingPage.PriorityDown.PriorityUp.ProfileCircled.Prohibition.QuestionMark.QuestionMarkCircle.Rain.ReceiveDollars.ReceiveEuros.ReceivePounds.ReceiveYens.Redo.RedoAction.RedoCircle.Reduce.ReduceRoundArrow.Refresh.RefreshCircular.RefreshDouble.ReminderHandGesture.RemoveDatabaseScript.RemoveEmpty.RemoveFolder.RemoveFrame.RemoveFromCart.RemoveKeyframe.RemoveKeyframeAlt.RemoveKeyframes.RemovePage.RemovePinAlt.RemoveSelection.RemoveSquare.RemoveUser.Repeat.RepeatOnce.ReportColumns.Reports.RewindOutline.Rhombus.RightRoundArrow.Rings.RotateCameraLeft.RotateCameraRight.RssFeed.RssFeedSquared.Ruler.RulerAdd.RulerCombine.RulerRemove.Running.Sandals.SaveActionFloppy.SaveFloppyDisk.ScaleFrameEnlarge.ScaleFrameReduce.Scanning.Scarf.Scissor.ScissorAlt.SeaAndSun.SeaWaves.Search.SearchFont.SecurityPass.Selection.SelectiveTool.SendDollars.SendEuros.SendPounds.SendYens.Server.ServerConnection.Settings.SettingsCloud.SettingsProfiles.ShareAndroid.ShareIos.Shield.ShieldAdd.ShieldAlert.ShieldAlt.ShieldBroken.ShieldCheck.ShieldCross.ShieldDownload.ShieldEye.ShieldLoading.ShieldMinus.ShieldQuestion.ShieldSearch.ShieldUpload.Shop.ShopAlt.ShoppingBag.ShoppingBagAdd.ShoppingBagAlt.ShoppingBagArrowDown.ShoppingBagArrowUp.ShoppingBagCheck.ShoppingBagIssue.ShoppingBagRemove.ShoppingCode.ShoppingCodeCheck.ShoppingCodeError.ShortPants.ShortPantsAlt.Shuffle.SimpleCart.SingleTapGesture.Skateboard.Skateboarding.SkipNextOutline.SkipPrevOutline.SmallShop.SmallShopAlt.SmartphoneDevice.Smoking.Snow.SnowFlake.Soap.SoccerBall.SortDown.SortUp.SoundHigh.SoundLow.SoundMin.SoundOff.SpockHandGesture.Square.StarDashed.StarHalfDashed.StarOutline.StatDown.StatUp.StatsReport.StatsSquareDown.StatsSquareUp.Stretching.StyleBorder.Substract.Suggestion.SunLight.Swimming.SwipeDownGesture.SwipeLeftGesture.SwipeRightGesture.SwipeUpGesture.SwitchOffOutline.SwitchOnOutline.SystemRestart.SystemShut.Table.Table2Columns.TableRows.Telegram.TelegramCircled.TennisBall.TennisBallAlt.TerminalOutline.TerminalSimple.Text.TextAlt.TextSize.ThreeStars.Thunderstorm.TikTok.Timer.TimerOff.Tower.TowerCheck.TowerNoAccess.TowerWarning.Trademark.TrainOutline.Tram.TransitionBottom.TransitionLeft.TransitionRight.TransitionTop.Translate.Trash.Treadmill.Trekking.Trello.Triangle.TriangleFlag.TriangleFlagCircle.TriangleFlagFull.Trophy.Tunnel.Tv.TvFix.TvIssue.Twitter.TwitterVerifiedBadge.Type.UmbrellaFull.Underline.Undo.UndoAction.UndoCircle.Union.UnionAlt.UnionHorizAlt.Unity.Unity5.UpRoundArrow.Upload.UploadSquareOutline.Usb.User.UserBag.UserCart.UserCircleAlt.UserScan.UserSquareAlt.VerifiedBadge.VerifiedUser.VideoCamera.VideoCameraOff.ViewColumns2.ViewColumns3.ViewGrid.ViewStructureDown.ViewStructureUp.Voice.VoiceCircled.VoiceCircledLock.VoiceError.VoiceOk.VoicePhone.VoiceScan.VoiceSquared.VrSymbol.Waist.Walking.WarningSquareOutline.WebWindow.WebWindowClose.Weight.WeightAlt.WhiteFlag.Wifi.WifiIssue.WifiOff.WifiSignalNone.Wind.WrapText.Wristwatch.Yen.YenSquare.Yoga.YouTube.ZoomIn.ZoomOut`.split(
           `.`
         )),
-      (it = `https://framer.com/m/iconoir-icons/`),
-      (at = rt.reduce((e, t) => ((e[t.toLowerCase()] = t), e), {})),
-      (nt.displayName = `Iconoir`),
-      (nt.defaultProps = {
+      (ct = `https://framer.com/m/iconoir-icons/`),
+      (lt = st.reduce((e, t) => ((e[t.toLowerCase()] = t), e), {})),
+      (ot.displayName = `Iconoir`),
+      (ot.defaultProps = {
         width: 24,
         height: 24,
         iconSelection: `Home`,
@@ -458,18 +462,18 @@ var rt,
         selectByList: !0,
         mirrored: !1,
       }),
-      K(nt, {
+      K(ot, {
         selectByList: {
           type: H.Boolean,
           title: `Select`,
           enabledTitle: `List`,
           disabledTitle: `Search`,
-          defaultValue: nt.defaultProps.selectByList,
+          defaultValue: ot.defaultProps.selectByList,
         },
         iconSelection: {
           type: H.Enum,
-          options: rt,
-          defaultValue: nt.defaultProps.iconSelection,
+          options: st,
+          defaultValue: ot.defaultProps.iconSelection,
           title: `Name`,
           hidden: ({ selectByList: e }) => !e,
           description: `Find every icon name on the [Iconoir site](https://iconoir.com/)`,
@@ -484,19 +488,19 @@ var rt,
           type: H.Boolean,
           enabledTitle: `Yes`,
           disabledTitle: `No`,
-          defaultValue: nt.defaultProps.mirrored,
+          defaultValue: ot.defaultProps.mirrored,
         },
-        color: { type: H.Color, title: `Color`, defaultValue: nt.defaultProps.color },
-        ...We,
+        color: { type: H.Color, title: `Color`, defaultValue: ot.defaultProps.color },
+        ...Je,
       }));
   }),
-  st,
-  ct,
-  lt,
-  ut = e(() => {
+  dt,
+  ft,
+  pt,
+  mt = e(() => {
     (k(),
       ie.loadFonts([`Inter`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-Italic`]),
-      (st = [
+      (dt = [
         {
           explicitInter: !0,
           fonts: [
@@ -727,19 +731,19 @@ var rt,
           ],
         },
       ]),
-      (ct = [
+      (ft = [
         `.framer-xW2tW .framer-styles-preset-1ywp38s:not(.rich-text-wrapper), .framer-xW2tW .framer-styles-preset-1ywp38s.rich-text-wrapper p { --framer-font-family: "Inter", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 20px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.02em; --framer-line-height: 1.7em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 0px) { .framer-xW2tW .framer-styles-preset-1ywp38s:not(.rich-text-wrapper), .framer-xW2tW .framer-styles-preset-1ywp38s.rich-text-wrapper p { --framer-font-family: "Inter", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 18px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.02em; --framer-line-height: 1.7em; --framer-paragraph-spacing: 20px; --framer-text-alignment: left; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (lt = `framer-xW2tW`));
+      (pt = `framer-xW2tW`));
   }),
-  dt,
-  ft,
-  pt,
-  mt = e(() => {
+  ht,
+  gt,
+  _t,
+  vt = e(() => {
     (k(),
       ie.loadFonts([`Inter-Medium`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-MediumItalic`]),
-      (dt = [
+      (ht = [
         {
           explicitInter: !0,
           fonts: [
@@ -970,71 +974,71 @@ var rt,
           ],
         },
       ]),
-      (ft = [
+      (gt = [
         `.framer-RNWIL .framer-styles-preset-1s7ojww:not(.rich-text-wrapper), .framer-RNWIL .framer-styles-preset-1s7ojww.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 22px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 500; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 500; --framer-letter-spacing: -0.02em; --framer-line-height: 1.6em; --framer-paragraph-spacing: 40px; --framer-text-alignment: left; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
-      (pt = `framer-RNWIL`));
+      (_t = `framer-RNWIL`));
   });
-function ht(e, ...t) {
+function yt(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var gt,
-  _t,
-  vt,
-  yt,
-  bt,
+var bt,
   xt,
   St,
   Ct,
   wt,
   Tt,
   Et,
+  Dt,
+  Ot,
+  kt,
+  At,
   X,
-  Dt = e(() => {
+  jt = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      Ze(),
-      ot(),
-      J(),
+      tt(),
       ut(),
+      Ne(),
       mt(),
-      (gt = M(Y)),
-      (_t = j(nt)),
-      (vt = [`b6EZJwsob`, `egwieoSxG`, `ya0gZ988X`, `CyAGZEOr5`, `KMHpSWbcQ`]),
-      (yt = `framer-73DMB`),
-      (bt = {
+      vt(),
+      (bt = M(Y)),
+      (xt = j(ot)),
+      (St = [`b6EZJwsob`, `egwieoSxG`, `ya0gZ988X`, `CyAGZEOr5`, `KMHpSWbcQ`]),
+      (Ct = `framer-73DMB`),
+      (wt = {
         b6EZJwsob: `framer-v-evqo01`,
         CyAGZEOr5: `framer-v-y6yrg0`,
         egwieoSxG: `framer-v-1u7abr4`,
         KMHpSWbcQ: `framer-v-y9ehjk`,
         ya0gZ988X: `framer-v-19nfxps`,
       }),
-      (xt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (St = ({ value: e, children: t }) => {
+      (Tt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Et = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Ct = {
+      (Dt = {
         "Compare List": `KMHpSWbcQ`,
         "Feature Basic": `b6EZJwsob`,
         "Feature Card": `egwieoSxG`,
         "Feature List Mobile": `CyAGZEOr5`,
         "Feature Without Icon": `ya0gZ988X`,
       }),
-      (wt = C.create(a)),
-      (Tt = ({ height: e, icon: t, id: n, text: r, title: i, width: a, ...o }) => ({
+      (Ot = C.create(a)),
+      (kt = ({ height: e, icon: t, id: n, text: r, title: i, width: a, ...o }) => ({
         ...o,
         JFPp1IiQm: t ?? o.JFPp1IiQm ?? `Home`,
-        variant: Ct[o.variant] ?? o.variant ?? `b6EZJwsob`,
+        variant: Dt[o.variant] ?? o.variant ?? `b6EZJwsob`,
         xKsrNeCEm: i ?? o.xKsrNeCEm ?? `Lorem Ipsum`,
         yvKNMfljW: r ?? o.yvKNMfljW ?? `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       })),
-      (Et = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (At = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
       (X = R(
         p(function (e, n) {
           let r = t(null),
@@ -1051,7 +1055,7 @@ var gt,
               xKsrNeCEm: g,
               yvKNMfljW: v,
               ...y
-            } = Tt(e),
+            } = kt(e),
             {
               baseVariant: x,
               classNames: S,
@@ -1063,24 +1067,24 @@ var gt,
               setVariant: O,
               variants: ne,
             } = L({
-              cycleOrder: vt,
+              cycleOrder: St,
               defaultVariant: `b6EZJwsob`,
               ref: i,
               variant: p,
-              variantClassNames: bt,
+              variantClassNames: wt,
             }),
-            k = Et(e, ne),
-            A = G(yt, pt, lt, ye),
+            k = At(e, ne),
+            A = G(Ct, _t, pt, Pe),
             j = () => x !== `ya0gZ988X`,
             M = () => x === `egwieoSxG`,
             N = () => x !== `KMHpSWbcQ`;
           return h(D, {
             id: f ?? o,
-            children: h(wt, {
+            children: h(Ot, {
               animate: ne,
               initial: !1,
-              children: h(St, {
-                value: xt,
+              children: h(Et, {
+                value: Tt,
                 children: _(C.div, {
                   ...y,
                   ...te,
@@ -1156,7 +1160,7 @@ var gt,
                       boxShadow: `none`,
                     },
                   },
-                  ...ht(
+                  ...yt(
                     {
                       CyAGZEOr5: { "data-framer-name": `Feature List Mobile` },
                       egwieoSxG: { "data-border": !0, "data-framer-name": `Feature Card` },
@@ -1239,7 +1243,7 @@ var gt,
                                     boxShadow: `none`,
                                   },
                                 },
-                                ...ht({ egwieoSxG: { "data-border": !0 } }, x, w),
+                                ...yt({ egwieoSxG: { "data-border": !0 } }, x, w),
                                 children: _(C.div, {
                                   className: `framer-39pdue`,
                                   "data-framer-name": `Icon Wrapper`,
@@ -1295,7 +1299,7 @@ var gt,
                                       boxShadow: `none`,
                                     },
                                   },
-                                  ...ht({ egwieoSxG: { "data-border": !0 } }, x, w),
+                                  ...yt({ egwieoSxG: { "data-border": !0 } }, x, w),
                                   children: [
                                     h(C.div, {
                                       className: `framer-zhut0s`,
@@ -1410,7 +1414,7 @@ var gt,
                               },
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
-                              ...ht(
+                              ...yt(
                                 {
                                   CyAGZEOr5: {
                                     children: h(a, {
@@ -1525,7 +1529,7 @@ var gt,
                             },
                             verticalAlignment: `top`,
                             withExternalLayout: !0,
-                            ...ht(
+                            ...yt(
                               {
                                 CyAGZEOr5: {
                                   children: h(a, {
@@ -1596,7 +1600,7 @@ var gt,
                           WebkitFilter: `invert(1)`,
                           WebkitMask: `linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add`,
                         },
-                        ...ht(
+                        ...yt(
                           {
                             egwieoSxG: {
                               background: {
@@ -1661,9 +1665,9 @@ var gt,
           `.framer-73DMB.framer-v-1u7abr4 .framer-1rsvui5, .framer-73DMB.framer-v-y6yrg0 .framer-1rsvui5 { flex: none; width: 100%; }`,
           `.framer-73DMB.framer-v-19nfxps.framer-evqo01 { cursor: default; }`,
           `.framer-73DMB.framer-v-y6yrg0 .framer-xasvnb { max-width: 70%; }`,
+          ...gt,
           ...ft,
-          ...ct,
-          ...Ae,
+          ...J,
           `.framer-73DMB[data-border="true"]::after, .framer-73DMB [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
         `framer-73DMB`
@@ -1683,8 +1687,8 @@ var gt,
           title: `Variant`,
           type: H.Enum,
         },
-        JFPp1IiQm: _t?.iconSelection && {
-          ..._t.iconSelection,
+        JFPp1IiQm: xt?.iconSelection && {
+          ...xt.iconSelection,
           defaultValue: `Home`,
           description: void 0,
           hidden: void 0,
@@ -1778,21 +1782,21 @@ var gt,
               },
             ],
           },
-          ...gt,
+          ...bt,
+          ...N(ht),
           ...N(dt),
-          ...N(st),
-          ...N(je),
+          ...N(ye),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  Ot,
-  kt,
-  At,
-  jt = e(() => {
+  Mt,
+  Nt,
+  Pt,
+  Ft = e(() => {
     (k(),
       ie.loadFonts([`GF;Inter-regular`, `Inter-Black`, `Inter-BlackItalic`, `Inter-BoldItalic`]),
-      (Ot = [
+      (Mt = [
         {
           explicitInter: !0,
           fonts: [
@@ -1975,59 +1979,59 @@ var gt,
           ],
         },
       ]),
-      (kt = [
+      (Nt = [
         `.framer-yVN9J .framer-styles-preset-14yy0fo:not(.rich-text-wrapper), .framer-yVN9J .framer-styles-preset-14yy0fo.rich-text-wrapper h2 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 48px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.2em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-yVN9J .framer-styles-preset-14yy0fo:not(.rich-text-wrapper), .framer-yVN9J .framer-styles-preset-14yy0fo.rich-text-wrapper h2 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 34px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.2em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-yVN9J .framer-styles-preset-14yy0fo:not(.rich-text-wrapper), .framer-yVN9J .framer-styles-preset-14yy0fo.rich-text-wrapper h2 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", sans-serif; --framer-font-family-bold-italic: "Inter", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 30px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 900; --framer-font-weight-bold-italic: 900; --framer-font-weight-italic: 700; --framer-letter-spacing: 0em; --framer-line-height: 1.2em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (At = `framer-yVN9J`));
+      (Pt = `framer-yVN9J`));
   });
-function Mt(e, ...t) {
+function It(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var Nt,
-  Pt,
-  Ft,
-  It,
-  Lt,
+var Lt,
   Rt,
   zt,
   Bt,
   Vt,
   Ht,
-  Ut = e(() => {
+  Ut,
+  Wt,
+  Gt,
+  Kt,
+  qt = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      J(),
-      (Nt = [`A4b5N3lov`, `IHeVKXtSW`]),
-      (Pt = `framer-QP90l`),
-      (Ft = { A4b5N3lov: `framer-v-126znxa`, IHeVKXtSW: `framer-v-jfp7u9` }),
-      (It = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Lt = ({ value: e, children: t }) => {
+      Ne(),
+      (Lt = [`A4b5N3lov`, `IHeVKXtSW`]),
+      (Rt = `framer-QP90l`),
+      (zt = { A4b5N3lov: `framer-v-126znxa`, IHeVKXtSW: `framer-v-jfp7u9` }),
+      (Bt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Vt = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Rt = C.create(a)),
-      (zt = { "Badge Purple": `IHeVKXtSW`, Badge: `A4b5N3lov` }),
-      (Bt = ({ height: e, id: t, title: n, width: r, ...i }) => ({
+      (Ht = C.create(a)),
+      (Ut = { "Badge Purple": `IHeVKXtSW`, Badge: `A4b5N3lov` }),
+      (Wt = ({ height: e, id: t, title: n, width: r, ...i }) => ({
         ...i,
         O6gJl3TVN: n ?? i.O6gJl3TVN ?? `AI is Available for MacOS`,
-        variant: zt[i.variant] ?? i.variant ?? `A4b5N3lov`,
+        variant: Ut[i.variant] ?? i.variant ?? `A4b5N3lov`,
       })),
-      (Vt = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Ht = R(
+      (Gt = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Kt = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B();
           P();
-          let { style: l, className: u, layoutId: d, variant: f, O6gJl3TVN: p, ...m } = Bt(e),
+          let { style: l, className: u, layoutId: d, variant: f, O6gJl3TVN: p, ...m } = Wt(e),
             {
               baseVariant: g,
               classNames: _,
@@ -2039,21 +2043,21 @@ var Nt,
               setVariant: te,
               variants: w,
             } = L({
-              cycleOrder: Nt,
+              cycleOrder: Lt,
               defaultVariant: `A4b5N3lov`,
               ref: i,
               variant: f,
-              variantClassNames: Ft,
+              variantClassNames: zt,
             }),
-            T = Vt(e, w),
-            E = G(Pt, ye);
+            T = Gt(e, w),
+            E = G(Rt, Pe);
           return h(D, {
             id: d ?? o,
-            children: h(Rt, {
+            children: h(Ht, {
               animate: w,
               initial: !1,
-              children: h(Lt, {
-                value: It,
+              children: h(Vt, {
+                value: Bt,
                 children: h(C.div, {
                   ...m,
                   ...y,
@@ -2082,7 +2086,7 @@ var Nt,
                       boxShadow: `inset 0px 0px 10px 0px var(--token-efa3e356-ac9a-49c3-9f07-9b43f54692b7, rgb(167, 139, 250))`,
                     },
                   },
-                  ...Mt({ IHeVKXtSW: { "data-framer-name": `Badge Purple` } }, g, x),
+                  ...It({ IHeVKXtSW: { "data-framer-name": `Badge Purple` } }, g, x),
                   children: h(F, {
                     __fromCanvasComponent: !0,
                     children: h(a, {
@@ -2119,7 +2123,7 @@ var Nt,
                     },
                     verticalAlignment: `top`,
                     withExternalLayout: !0,
-                    ...Mt(
+                    ...It(
                       {
                         IHeVKXtSW: {
                           children: h(a, {
@@ -2154,14 +2158,14 @@ var Nt,
           `.framer-QP90l.framer-p0dcry, .framer-QP90l .framer-p0dcry { display: block; }`,
           `.framer-QP90l.framer-126znxa { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 6px 15px 6px 15px; position: relative; width: min-content; }`,
           `.framer-QP90l .framer-53b4lw { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Ae,
+          ...J,
           `.framer-QP90l[data-border="true"]::after, .framer-QP90l [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-QP90l`
       )),
-      (Ht.displayName = `Badge`),
-      (Ht.defaultProps = { height: 37.5, width: 221.5 }),
-      K(Ht, {
+      (Kt.displayName = `Badge`),
+      (Kt.defaultProps = { height: 37.5, width: 221.5 }),
+      K(Kt, {
         variant: {
           options: [`A4b5N3lov`, `IHeVKXtSW`],
           optionTitles: [`Badge`, `Badge Purple`],
@@ -2176,7 +2180,7 @@ var Nt,
         },
       }),
       I(
-        Ht,
+        Kt,
         [
           {
             explicitInter: !0,
@@ -2239,44 +2243,44 @@ var Nt,
               },
             ],
           },
-          ...N(je),
+          ...N(ye),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  Wt,
-  Gt,
-  Kt,
-  qt,
   Jt,
   Yt,
   Xt,
   Zt,
   Qt,
   $t,
-  en = e(() => {
+  en,
+  tn,
+  nn,
+  rn,
+  an = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      ut(),
-      jt(),
-      Ut(),
-      (Wt = M(Ht)),
-      (Gt = `framer-84g9j`),
-      (Kt = { idAGtyDqJ: `framer-v-oar3z9` }),
-      (qt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Jt = (...e) => {
+      mt(),
+      Ft(),
+      qt(),
+      (Jt = M(Kt)),
+      (Yt = `framer-84g9j`),
+      (Xt = { idAGtyDqJ: `framer-v-oar3z9` }),
+      (Zt = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Qt = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (Yt = ({ value: e, children: t }) => {
+      ($t = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Xt = C.create(a)),
-      (Zt = ({
+      (en = C.create(a)),
+      (tn = ({
         badge: e,
         badgeVisible: t,
         description: n,
@@ -2295,8 +2299,8 @@ var Nt,
           s.TmroXSTYL ??
           `Whether you’re crafting content, designing visuals, or launching ideas, Flamer helps you go from prompt to polished in seconds.`,
       })),
-      (Qt = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      ($t = R(
+      (nn = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (rn = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
@@ -2313,7 +2317,7 @@ var Nt,
               TmroXSTYL: v,
               blBXxPHbO: y,
               ...x
-            } = Zt(e),
+            } = tn(e),
             {
               baseVariant: S,
               classNames: ee,
@@ -2324,16 +2328,16 @@ var Nt,
               setGestureState: O,
               setVariant: ne,
               variants: k,
-            } = L({ defaultVariant: `idAGtyDqJ`, ref: i, variant: p, variantClassNames: Kt }),
-            A = Qt(e, k),
-            j = G(Gt, At, lt);
+            } = L({ defaultVariant: `idAGtyDqJ`, ref: i, variant: p, variantClassNames: Xt }),
+            A = nn(e, k),
+            j = G(Yt, Pt, pt);
           return h(D, {
             id: f ?? o,
-            children: h(Xt, {
+            children: h(en, {
               animate: k,
               initial: !1,
-              children: h(Yt, {
-                value: qt,
+              children: h($t, {
+                value: Zt,
                 children: _(C.div, {
                   ...x,
                   ...w,
@@ -2355,12 +2359,12 @@ var Nt,
                           nodeId: `nS_IiscH2`,
                           rendersWithMotion: !0,
                           scopeId: `c2qIaDibC`,
-                          children: h(Ht, {
+                          children: h(Kt, {
                             height: `100%`,
                             id: `nS_IiscH2`,
                             layoutId: `nS_IiscH2`,
                             O6gJl3TVN: m,
-                            variant: Jt(`IHeVKXtSW`),
+                            variant: Qt(`IHeVKXtSW`),
                             width: `100%`,
                           }),
                         }),
@@ -2444,14 +2448,14 @@ var Nt,
           `.framer-84g9j .framer-1a0no2 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
           `.framer-84g9j .framer-4pqf1h { flex: none; height: auto; max-width: 700px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
           `.framer-84g9j .framer-1mw190m { flex: none; height: auto; max-width: 620px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-          ...kt,
-          ...ct,
+          ...Nt,
+          ...ft,
         ],
         `framer-84g9j`
       )),
-      ($t.displayName = `Headline`),
-      ($t.defaultProps = { height: 193, width: 750 }),
-      K($t, {
+      (rn.displayName = `Headline`),
+      (rn.defaultProps = { height: 193, width: 750 }),
+      K(rn, {
         sIRtTcVp7: {
           defaultValue: `Flamer Blog`,
           displayTextArea: !1,
@@ -2477,7 +2481,7 @@ var Nt,
         onblBXxPHbOChange: { changes: `blBXxPHbO`, type: H.ChangeHandler },
       }),
       I(
-        $t,
+        rn,
         [
           {
             explicitInter: !0,
@@ -2547,25 +2551,25 @@ var Nt,
               },
             ],
           },
-          ...Wt,
-          ...N(Ot),
-          ...N(st),
+          ...Jt,
+          ...N(Mt),
+          ...N(dt),
         ],
         { supportsExplicitInterCodegen: !0 }
       ),
-      ($t.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Ht, {}, t)])) }));
+      (rn.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Kt, {}, t)])) }));
   }),
-  tn,
-  nn = e(() => {
-    tn = (e) => e;
+  on,
+  sn = e(() => {
+    on = (e) => e;
   }),
-  rn = e(() => {
-    nn();
+  cn = e(() => {
+    sn();
   }),
-  an = e(() => {
-    rn();
+  ln = e(() => {
+    cn();
   });
-function on(e, t) {
+function un(e, t) {
   var n = {};
   for (var r in e) Object.prototype.hasOwnProperty.call(e, r) && t.indexOf(r) < 0 && (n[r] = e[r]);
   if (e != null && typeof Object.getOwnPropertySymbols == `function`) {
@@ -2577,21 +2581,21 @@ function on(e, t) {
   }
   return n;
 }
-var sn = e(() => {}),
-  cn,
-  ln = e(() => {
-    ((cn = {}),
-      Object.defineProperty(cn, "__esModule", { value: !0 }),
-      (cn.warning = function () {}),
-      (cn.invariant = function () {}),
-      cn.__esModule,
-      cn.warning,
-      cn.invariant);
+var dn = e(() => {}),
+  fn,
+  pn = e(() => {
+    ((fn = {}),
+      Object.defineProperty(fn, "__esModule", { value: !0 }),
+      (fn.warning = function () {}),
+      (fn.invariant = function () {}),
+      fn.__esModule,
+      fn.warning,
+      fn.invariant);
   }),
-  un = e(() => {
-    nn();
+  mn = e(() => {
+    sn();
   });
-function dn(e, t) {
+function hn(e, t) {
   return (
     typeof e == `string`
       ? t
@@ -2601,9 +2605,9 @@ function dn(e, t) {
     Array.from(e || [])
   );
 }
-function fn(e, t, { root: n, margin: r, amount: i = `any` } = {}) {
+function gn(e, t, { root: n, margin: r, amount: i = `any` } = {}) {
   if (typeof IntersectionObserver > `u`) return () => {};
-  let a = dn(e),
+  let a = hn(e),
     o = new WeakMap(),
     s = new IntersectionObserver(
       (e) => {
@@ -2616,11 +2620,11 @@ function fn(e, t, { root: n, margin: r, amount: i = `any` } = {}) {
             } else n && (n(e), o.delete(e.target));
         });
       },
-      { root: n, rootMargin: r, threshold: typeof i == `number` ? i : Pn[i] }
+      { root: n, rootMargin: r, threshold: typeof i == `number` ? i : Rn[i] }
     );
   return (a.forEach((e) => s.observe(e)), () => s.disconnect());
 }
-function pn(e, t) {
+function _n(e, t) {
   if (t) {
     let { inlineSize: e, blockSize: n } = t[0];
     return { width: e, height: n };
@@ -2629,72 +2633,68 @@ function pn(e, t) {
     ? e.getBBox()
     : { width: e.offsetWidth, height: e.offsetHeight };
 }
-function mn({ target: e, contentRect: t, borderBoxSize: n }) {
+function vn({ target: e, contentRect: t, borderBoxSize: n }) {
   var r;
-  (r = Fn.get(e)) == null ||
+  (r = zn.get(e)) == null ||
     r.forEach((r) => {
       r({
         target: e,
         contentSize: t,
         get size() {
-          return pn(e, n);
+          return _n(e, n);
         },
       });
     });
 }
-function hn(e) {
-  e.forEach(mn);
+function yn(e) {
+  e.forEach(vn);
 }
-function gn() {
-  typeof ResizeObserver < `u` && (In = new ResizeObserver(hn));
+function bn() {
+  typeof ResizeObserver < `u` && (Bn = new ResizeObserver(yn));
 }
-function _n(e, t) {
-  In || gn();
-  let n = dn(e);
+function xn(e, t) {
+  Bn || bn();
+  let n = hn(e);
   return (
     n.forEach((e) => {
-      let n = Fn.get(e);
-      (n || ((n = new Set()), Fn.set(e, n)), n.add(t), In?.observe(e));
+      let n = zn.get(e);
+      (n || ((n = new Set()), zn.set(e, n)), n.add(t), Bn?.observe(e));
     }),
     () => {
       n.forEach((e) => {
-        let n = Fn.get(e);
-        (n?.delete(t), (n != null && n.size) || In == null || In.unobserve(e));
+        let n = zn.get(e);
+        (n?.delete(t), (n != null && n.size) || Bn == null || Bn.unobserve(e));
       });
     }
   );
 }
-function vn() {
-  ((Rn = () => {
+function Sn() {
+  ((Hn = () => {
     let e = { width: f.innerWidth, height: f.innerHeight },
       t = { target: f, size: e, contentSize: e };
-    Ln.forEach((e) => e(t));
+    Vn.forEach((e) => e(t));
   }),
-    f.addEventListener(`resize`, Rn));
+    f.addEventListener(`resize`, Hn));
 }
-function yn(e) {
+function Cn(e) {
   return (
-    Ln.add(e),
-    Rn || vn(),
+    Vn.add(e),
+    Hn || Sn(),
     () => {
-      (Ln.delete(e), !Ln.size && Rn && (Rn = void 0));
+      (Vn.delete(e), !Vn.size && Hn && (Hn = void 0));
     }
   );
 }
-function bn(e, t) {
-  return typeof e == `function` ? yn(e) : _n(e, t);
+function wn(e, t) {
+  return typeof e == `function` ? Cn(e) : xn(e, t);
 }
-function xn(e, t, n) {
+function Tn(e, t, n) {
   e.dispatchEvent(new CustomEvent(t, { detail: { originalEvent: n } }));
 }
-function Sn(e, t, n) {
+function En(e, t, n) {
   e.dispatchEvent(new CustomEvent(t, { detail: { originalEntry: n } }));
 }
-var Cn,
-  wn,
-  Tn,
-  En,
-  Dn,
+var Dn,
   On,
   kn,
   An,
@@ -2709,82 +2709,86 @@ var Cn,
   zn,
   Bn,
   Vn,
-  Hn = e(() => {
+  Hn,
+  Un,
+  Wn,
+  Gn,
+  Kn = e(() => {
     (x(),
-      nn(),
-      an(),
       sn(),
       ln(),
-      un(),
-      (Cn = [``, `X`, `Y`, `Z`]),
-      (wn = [`translate`, `scale`, `rotate`, `skew`]),
-      (Tn = { syntax: `<angle>`, initialValue: `0deg`, toDefaultUnit: (e) => e + `deg` }),
-      (En = {
+      dn(),
+      pn(),
+      mn(),
+      (Dn = [``, `X`, `Y`, `Z`]),
+      (On = [`translate`, `scale`, `rotate`, `skew`]),
+      (kn = { syntax: `<angle>`, initialValue: `0deg`, toDefaultUnit: (e) => e + `deg` }),
+      (An = {
         translate: {
           syntax: `<length-percentage>`,
           initialValue: `0px`,
           toDefaultUnit: (e) => e + `px`,
         },
-        rotate: Tn,
-        scale: { syntax: `<number>`, initialValue: 1, toDefaultUnit: tn },
-        skew: Tn,
+        rotate: kn,
+        scale: { syntax: `<number>`, initialValue: 1, toDefaultUnit: on },
+        skew: kn,
       }),
-      (Dn = new Map()),
-      (On = (e) => `--motion-${e}`),
-      (kn = [`x`, `y`, `z`]),
-      wn.forEach((e) => {
-        Cn.forEach((t) => {
-          (kn.push(e + t), Dn.set(On(e + t), En[e]));
+      (jn = new Map()),
+      (Mn = (e) => `--motion-${e}`),
+      (Nn = [`x`, `y`, `z`]),
+      On.forEach((e) => {
+        Dn.forEach((t) => {
+          (Nn.push(e + t), jn.set(Mn(e + t), An[e]));
         });
       }),
-      new Set(kn),
-      (An = (e) => document.createElement(`div`).animate(e, { duration: 0.001 })),
-      (jn = {
+      new Set(Nn),
+      (Pn = (e) => document.createElement(`div`).animate(e, { duration: 0.001 })),
+      (Fn = {
         cssRegisterProperty: () =>
           typeof CSS < `u` && Object.hasOwnProperty.call(CSS, `registerProperty`),
         waapi: () => Object.hasOwnProperty.call(Element.prototype, `animate`),
         partialKeyframes: () => {
           try {
-            An({ opacity: [1] });
+            Pn({ opacity: [1] });
           } catch {
             return !1;
           }
           return !0;
         },
-        finished: () => !!An({ opacity: [0, 1] }).finished,
+        finished: () => !!Pn({ opacity: [0, 1] }).finished,
       }),
-      (Mn = {}),
-      (Nn = {}));
-    for (let e in jn) Nn[e] = () => (Mn[e] === void 0 && (Mn[e] = jn[e]()), Mn[e]);
-    ((Pn = { any: 0, all: 1 }),
-      (Fn = new WeakMap()),
-      (Ln = new Set()),
-      (zn = {
+      (In = {}),
+      (Ln = {}));
+    for (let e in Fn) Ln[e] = () => (In[e] === void 0 && (In[e] = Fn[e]()), In[e]);
+    ((Rn = { any: 0, all: 1 }),
+      (zn = new WeakMap()),
+      (Vn = new Set()),
+      (Un = {
         isActive: (e) => !!e.inView,
         subscribe: (e, { enable: t, disable: n }, { inViewOptions: r = {} }) => {
           let { once: i } = r;
-          return fn(
+          return gn(
             e,
             (r) => {
-              if ((t(), Sn(e, `viewenter`, r), !i))
+              if ((t(), En(e, `viewenter`, r), !i))
                 return (t) => {
-                  (n(), Sn(e, `viewleave`, t));
+                  (n(), En(e, `viewleave`, t));
                 };
             },
-            on(r, [`once`])
+            un(r, [`once`])
           );
         },
       }),
-      (Bn = (e, t, n) => (r) => {
-        (!r.pointerType || r.pointerType === `mouse`) && (n(), xn(e, t, r));
+      (Wn = (e, t, n) => (r) => {
+        (!r.pointerType || r.pointerType === `mouse`) && (n(), Tn(e, t, r));
       }),
-      (Vn = {
-        inView: zn,
+      (Gn = {
+        inView: Un,
         hover: {
           isActive: (e) => !!e.hover,
           subscribe: (e, { enable: t, disable: n }) => {
-            let r = Bn(e, `hoverstart`, t),
-              i = Bn(e, `hoverend`, n);
+            let r = Wn(e, `hoverstart`, t),
+              i = Wn(e, `hoverend`, n);
             return (
               e.addEventListener(`pointerenter`, r),
               e.addEventListener(`pointerleave`, i),
@@ -2799,10 +2803,10 @@ var Cn,
           isActive: (e) => !!e.press,
           subscribe: (e, { enable: t, disable: n }) => {
             let r = (t) => {
-                (n(), xn(e, `pressend`, t), f.removeEventListener(`pointerup`, r));
+                (n(), Tn(e, `pressend`, t), f.removeEventListener(`pointerup`, r));
               },
               i = (n) => {
-                (t(), xn(e, `pressstart`, n), f.addEventListener(`pointerup`, r));
+                (t(), Tn(e, `pressstart`, n), f.addEventListener(`pointerup`, r));
               };
             return (
               e.addEventListener(`pointerdown`, i),
@@ -2813,9 +2817,9 @@ var Cn,
           },
         },
       }),
-      [...Object.keys(Vn)]);
+      [...Object.keys(Gn)]);
   });
-function Un(e) {
+function qn(e) {
   let {
       slots: a = [],
       gap: s,
@@ -2838,14 +2842,14 @@ function Un(e) {
     F = d ? `${f}px ${p}px ${m}px ${v}px` : `${l}px`,
     oe = fe.current(),
     se = oe === fe.canvas || oe === fe.export,
-    I = Wn(),
+    I = Jn(),
     L = a.filter(Boolean),
     ce = r.count(L),
     le = ce > 0,
     ue = S(0),
-    de = Gn(T === !0 ? `left` : T, I),
+    de = Yn(T === !0 ? `left` : T, I),
     pe = de === `left` || de === `right`,
-    R = qn[de];
+    R = Zn[de];
   w(ue, R);
   let me = t(null),
     z = c(() => [{ current: null }, { current: null }], []),
@@ -2858,7 +2862,7 @@ function Un(e) {
     !se &&
       le &&
       B.parent &&
-      ((U = Math.round((B.parent / B.children) * 2) + 1), (U = Math.min(U, Kn)), (ge = 1)));
+      ((U = Math.round((B.parent / B.children) * 2) + 1), (U = Math.min(U, Xn)), (ge = 1)));
   let W = u(() => {
       if (le && me.current) {
         let e = pe ? me.current.offsetWidth : me.current.offsetHeight,
@@ -2883,7 +2887,7 @@ function Un(e) {
       n(
         () => (
           E.read(W, !1, !0),
-          bn(me.current, ({ contentSize: t }) => {
+          wn(me.current, ({ contentSize: t }) => {
             (!e.current && (t.width || t.height) && E.read(W, !1, !0), (e.current = !1));
           })
         ),
@@ -2897,7 +2901,7 @@ function Un(e) {
       let r = { width: ae ? e.props?.width : `100%`, height: P ? e.props?.height : `100%` };
       return h(D, {
         inherit: `id`,
-        children: h(Jn, {
+        children: h(Qn, {
           ref: n,
           style: r,
           children: g(
@@ -2927,7 +2931,7 @@ function Un(e) {
             {
               inherit: `id`,
               children: h(
-                Jn,
+                Qn,
                 {
                   style: r,
                   children: g(
@@ -2998,11 +3002,11 @@ function Un(e) {
   let be = pe ? `to right` : `to bottom`,
     xe = N / 2,
     Se = 100 - N / 2,
-    Ce = `linear-gradient(${be}, rgba(0, 0, 0, ${ie}) ${er(re, 0, xe)}%, rgba(0, 0, 0, 1) ${xe}%, rgba(0, 0, 0, 1) ${Se}%, rgba(0, 0, 0, ${ie}) ${100 - re}%)`;
+    Ce = `linear-gradient(${be}, rgba(0, 0, 0, ${ie}) ${ir(re, 0, xe)}%, rgba(0, 0, 0, 1) ${xe}%, rgba(0, 0, 0, 1) ${Se}%, rgba(0, 0, 0, ${ie}) ${100 - re}%)`;
   return le
     ? h(`section`, {
         style: {
-          ...Yn,
+          ...$n,
           opacity: ge,
           WebkitMaskImage: j ? Ce : void 0,
           maskImage: j ? Ce : void 0,
@@ -3013,10 +3017,10 @@ function Un(e) {
         children: _(C.ul, {
           ref: ye,
           style: {
-            ...Yn,
+            ...$n,
             gap: s,
-            top: T === `bottom` && tr(G) ? -G : void 0,
-            left: T === `right` && tr(G) ? G * (I === `rtl` ? 1 : -1) : void 0,
+            top: T === `bottom` && ar(G) ? -G : void 0,
+            left: T === `right` && ar(G) ? G * (I === `rtl` ? 1 : -1) : void 0,
             placeItems: O,
             position: `relative`,
             flexDirection: pe ? `row` : `column`,
@@ -3034,52 +3038,52 @@ function Un(e) {
         }),
       })
     : _(`section`, {
-        style: Xn,
+        style: er,
         children: [
-          h(`div`, { style: Zn, children: `✨` }),
-          h(`p`, { style: Qn, children: `Connect to Content` }),
+          h(`div`, { style: tr, children: `✨` }),
+          h(`p`, { style: nr, children: `Connect to Content` }),
           h(`p`, {
-            style: $n,
+            style: rr,
             children: `Add layers or components to infinitely loop on your page.`,
           }),
         ],
       });
 }
-function Wn() {
+function Jn() {
   return !f || !f.document || !f.document.documentElement
     ? `ltr`
     : f.document.documentElement.dir === `rtl`
       ? `rtl`
       : `ltr`;
 }
-function Gn(e, t) {
+function Yn(e, t) {
   return t === `rtl` ? (e === `left` ? `right` : e === `right` ? `left` : e) : e;
 }
-var Kn,
-  qn,
-  Jn,
-  Yn,
-  Xn,
+var Xn,
   Zn,
   Qn,
   $n,
   er,
   tr,
-  nr = e(() => {
+  nr,
+  rr,
+  ir,
+  ar,
+  or = e(() => {
     (x(),
       v(),
       d(),
       k(),
       O(),
-      Hn(),
-      (Kn = 100),
-      (qn = {
+      Kn(),
+      (Xn = 100),
+      (Zn = {
         left: (e) => `translateX(-${e}px)`,
         right: (e) => `translateX(${e}px)`,
         top: (e) => `translateY(-${e}px)`,
         bottom: (e) => `translateY(${e}px)`,
       }),
-      (Jn = p(({ children: e, ...n }, r) => {
+      (Qn = p(({ children: e, ...n }, r) => {
         let a = t(),
           o = ee(a);
         return (
@@ -3100,14 +3104,14 @@ var Kn,
           h(`li`, { ...n, "aria-hidden": !o, ref: a, children: e })
         );
       })),
-      (Un.defaultProps = {
+      (qn.defaultProps = {
         gap: 10,
         padding: 10,
         sizingOptions: { widthType: !0, heightType: !0 },
         fadeOptions: { fadeContent: !0, overflow: !1, fadeWidth: 25, fadeAlpha: 0, fadeInset: 0 },
         direction: !0,
       }),
-      K(Un, {
+      K(qn, {
         slots: { type: H.Array, title: `Children`, control: { type: H.ComponentInstance } },
         speed: {
           type: H.Number,
@@ -3235,7 +3239,7 @@ var Kn,
           description: `Slows down the speed while you are hovering.`,
         },
       }),
-      (Yn = {
+      ($n = {
         display: `flex`,
         width: `100%`,
         height: `100%`,
@@ -3247,7 +3251,7 @@ var Kn,
         listStyleType: `none`,
         textIndent: `none`,
       }),
-      (Xn = {
+      (er = {
         display: `flex`,
         width: `100%`,
         height: `100%`,
@@ -3260,60 +3264,60 @@ var Kn,
         overflow: `hidden`,
         padding: `20px 20px 30px 20px`,
       }),
-      (Zn = { fontSize: 32, marginBottom: 10 }),
-      (Qn = { margin: 0, marginBottom: 10, fontWeight: 600, textAlign: `center` }),
-      ($n = { margin: 0, opacity: 0.7, maxWidth: 150, lineHeight: 1.5, textAlign: `center` }),
-      (er = (e, t, n) => Math.min(Math.max(e, t), n)),
-      (tr = (e) => typeof e == `number` && !isNaN(e)));
+      (tr = { fontSize: 32, marginBottom: 10 }),
+      (nr = { margin: 0, marginBottom: 10, fontWeight: 600, textAlign: `center` }),
+      (rr = { margin: 0, opacity: 0.7, maxWidth: 150, lineHeight: 1.5, textAlign: `center` }),
+      (ir = (e, t, n) => Math.min(Math.max(e, t), n)),
+      (ar = (e) => typeof e == `number` && !isNaN(e)));
   });
-function rr(e, ...t) {
+function sr(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var ir,
-  ar,
-  or,
-  sr,
-  cr,
+var cr,
   lr,
   ur,
   dr,
   fr,
   pr,
   mr,
+  hr,
+  gr,
+  _r,
+  vr,
   Z,
-  hr = e(() => {
+  yr = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      Ze(),
-      J(),
-      (ir = M(Y)),
-      (ar = j(Y)),
-      (or = [`vrX9Rsr1R`, `cgFnljKzI`, `bhanRXDIc`]),
-      (sr = `framer-50FLH`),
-      (cr = {
+      tt(),
+      Ne(),
+      (cr = M(Y)),
+      (lr = j(Y)),
+      (ur = [`vrX9Rsr1R`, `cgFnljKzI`, `bhanRXDIc`]),
+      (dr = `framer-50FLH`),
+      (fr = {
         bhanRXDIc: `framer-v-cpfpbf`,
         cgFnljKzI: `framer-v-u4if80`,
         vrX9Rsr1R: `framer-v-r00olz`,
       }),
-      (lr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (ur = ({ value: e, children: t }) => {
+      (pr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (mr = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (dr = { "Variant 1": `vrX9Rsr1R`, "Variant 2": `cgFnljKzI`, "Variant 3": `bhanRXDIc` }),
-      (fr = C.create(a)),
-      (pr = ({ height: e, icon: t, id: n, title: r, width: i, ...a }) => ({
+      (hr = { "Variant 1": `vrX9Rsr1R`, "Variant 2": `cgFnljKzI`, "Variant 3": `bhanRXDIc` }),
+      (gr = C.create(a)),
+      (_r = ({ height: e, icon: t, id: n, title: r, width: i, ...a }) => ({
         ...a,
         GdG43nGqr: r ?? a.GdG43nGqr ?? `Trợ lý tri thức (RAG)`,
         oqPfwZIHv: t ?? a.oqPfwZIHv ?? `Sparkle`,
-        variant: dr[a.variant] ?? a.variant ?? `vrX9Rsr1R`,
+        variant: hr[a.variant] ?? a.variant ?? `vrX9Rsr1R`,
       })),
-      (mr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (vr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
       (Z = R(
         p(function (e, n) {
           let r = t(null),
@@ -3329,7 +3333,7 @@ var ir,
               GdG43nGqr: p,
               oqPfwZIHv: m,
               ...g
-            } = pr(e),
+            } = _r(e),
             {
               baseVariant: v,
               classNames: y,
@@ -3341,21 +3345,21 @@ var ir,
               setVariant: T,
               variants: E,
             } = L({
-              cycleOrder: or,
+              cycleOrder: ur,
               defaultVariant: `vrX9Rsr1R`,
               ref: i,
               variant: f,
-              variantClassNames: cr,
+              variantClassNames: fr,
             }),
-            O = mr(e, E),
-            ne = G(sr, ye);
+            O = vr(e, E),
+            ne = G(dr, Pe);
           return h(D, {
             id: d ?? o,
-            children: h(fr, {
+            children: h(gr, {
               animate: E,
               initial: !1,
-              children: h(ur, {
-                value: lr,
+              children: h(mr, {
+                value: pr,
                 children: h(C.div, {
                   ...g,
                   ...S,
@@ -3382,7 +3386,7 @@ var ir,
                     WebkitBackdropFilter: `blur(5px)`,
                     ...l,
                   },
-                  ...rr(
+                  ...sr(
                     {
                       bhanRXDIc: { "data-framer-name": `Variant 3` },
                       cgFnljKzI: { "data-framer-name": `Variant 2` },
@@ -3455,7 +3459,7 @@ var ir,
           `.framer-50FLH .framer-gervvj { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
           `.framer-50FLH .framer-16nrjfv-container { flex: none; height: 20px; position: relative; width: 20px; }`,
           `.framer-50FLH .framer-13jo9y5 { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Ae,
+          ...J,
           `.framer-50FLH[data-border="true"]::after, .framer-50FLH [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
         `framer-50FLH`
@@ -3476,8 +3480,8 @@ var ir,
           type: H.String,
         },
         onGdG43nGqrChange: { changes: `GdG43nGqr`, type: H.ChangeHandler },
-        oqPfwZIHv: ar?.iconSelection && {
-          ...ar.iconSelection,
+        oqPfwZIHv: lr?.iconSelection && {
+          ...lr.iconSelection,
           defaultValue: `Sparkle`,
           description: void 0,
           hidden: void 0,
@@ -3557,60 +3561,60 @@ var ir,
               },
             ],
           },
-          ...ir,
-          ...N(je),
+          ...cr,
+          ...N(ye),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  gr,
-  _r,
-  vr,
-  yr,
   br,
   xr,
   Sr,
-  Q,
   Cr,
   wr,
   Tr,
   Er,
+  Q,
   Dr,
-  Or = e(() => {
+  Or,
+  kr,
+  Ar,
+  jr,
+  Mr = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      nr(),
-      Ze(),
-      hr(),
-      (gr = M(Y)),
-      (_r = M(Z)),
-      (vr = M(Un)),
-      (yr = `framer-1L3tW`),
-      (br = { OzRtCR5_w: `framer-v-1pr0fgl` }),
-      (xr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Sr = (e, t) => `translate(-50%, -50%) ${t}`),
+      or(),
+      tt(),
+      yr(),
+      (br = M(Y)),
+      (xr = M(Z)),
+      (Sr = M(qn)),
+      (Cr = `framer-1L3tW`),
+      (wr = { OzRtCR5_w: `framer-v-1pr0fgl` }),
+      (Tr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Er = (e, t) => `translate(-50%, -50%) ${t}`),
       (Q = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (Cr = ({ value: e, children: t }) => {
+      (Dr = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (wr = C.create(a)),
-      (Tr = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
-      (Er = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Dr = R(
+      (Or = C.create(a)),
+      (kr = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
+      (Ar = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (jr = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = b(),
             { activeLocale: o, setLocale: s } = B(),
             c = P(),
-            { style: l, className: u, layoutId: d, variant: f, ...p } = Tr(e),
+            { style: l, className: u, layoutId: d, variant: f, ...p } = kr(e),
             {
               baseVariant: m,
               classNames: g,
@@ -3621,16 +3625,16 @@ var ir,
               setGestureState: ee,
               setVariant: te,
               variants: w,
-            } = L({ defaultVariant: `OzRtCR5_w`, ref: i, variant: f, variantClassNames: br }),
-            T = Er(e, w),
-            E = G(yr);
+            } = L({ defaultVariant: `OzRtCR5_w`, ref: i, variant: f, variantClassNames: wr }),
+            T = Ar(e, w),
+            E = G(Cr);
           return h(D, {
             id: d ?? a,
-            children: h(wr, {
+            children: h(Or, {
               animate: w,
               initial: !1,
-              children: h(Cr, {
-                value: xr,
+              children: h(Dr, {
+                value: Tr,
                 children: _(C.div, {
                   ...p,
                   ...y,
@@ -3678,7 +3682,7 @@ var ir,
                         boxShadow: `0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), 0px 6.046576391451527px 15.72109861777397px -0.125px rgba(255, 255, 255, 0.02), 0px 14.331453723425511px 37.26177968090633px -0.25px rgba(255, 255, 255, 0.02), 0px 26.142052965529725px 67.96933771037729px -0.375px rgba(255, 255, 255, 0.03), 0px 43.46111057588132px 112.99888749729143px -0.5px rgba(255, 255, 255, 0.03), 0px 70.18614979904378px 182.48398947751383px -0.625px rgba(255, 255, 255, 0.03), 0px 114.88776338672031px 298.7081848054728px -0.75px rgba(255, 255, 255, 0.04), 0px 197.82897034812487px 514.3553229051246px -0.875px rgba(255, 255, 255, 0.06), 0px 360px 936px -1px rgba(255, 255, 255, 0.09)`,
                         WebkitBackdropFilter: `blur(10px)`,
                       },
-                      transformTemplate: Sr,
+                      transformTemplate: Er,
                       children: h(C.div, {
                         className: `framer-s1yhzm`,
                         "data-border": !0,
@@ -3748,7 +3752,7 @@ var ir,
                             nodeId: `sS7J4maeB`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Un, {
+                            children: h(qn, {
                               alignment: `center`,
                               direction: `left`,
                               fadeOptions: {
@@ -3854,7 +3858,7 @@ var ir,
                             nodeId: `kJztC50AZ`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Un, {
+                            children: h(qn, {
                               alignment: `center`,
                               direction: `right`,
                               fadeOptions: {
@@ -3960,7 +3964,7 @@ var ir,
                             nodeId: `pwndxoYox`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Un, {
+                            children: h(qn, {
                               alignment: `center`,
                               direction: `left`,
                               fadeOptions: {
@@ -4066,7 +4070,7 @@ var ir,
                             nodeId: `ybfv_eDXP`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Un, {
+                            children: h(qn, {
                               alignment: `center`,
                               direction: `right`,
                               fadeOptions: {
@@ -4172,7 +4176,7 @@ var ir,
                             nodeId: `agalbGwZT`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Un, {
+                            children: h(qn, {
                               alignment: `center`,
                               direction: `left`,
                               fadeOptions: {
@@ -4278,7 +4282,7 @@ var ir,
                             nodeId: `Dqr6Ox_Qq`,
                             rendersWithMotion: !0,
                             scopeId: `d42dILGDl`,
-                            children: h(Un, {
+                            children: h(qn, {
                               alignment: `center`,
                               direction: `right`,
                               fadeOptions: {
@@ -4421,44 +4425,44 @@ var ir,
         ],
         `framer-1L3tW`
       )),
-      (Dr.displayName = `Ticker Content`),
-      (Dr.defaultProps = { height: 567, width: 574 }),
-      I(Dr, [{ explicitInter: !0, fonts: [] }, ...gr, ..._r, ...vr], {
+      (jr.displayName = `Ticker Content`),
+      (jr.defaultProps = { height: 567, width: 574 }),
+      I(jr, [{ explicitInter: !0, fonts: [] }, ...br, ...xr, ...Sr], {
         supportsExplicitInterCodegen: !0,
       }),
-      (Dr.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Z, {}, t)])) }));
+      (jr.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(Z, {}, t)])) }));
   }),
-  kr,
-  Ar,
-  jr,
-  Mr,
   Nr,
   Pr,
   Fr,
   Ir,
-  Lr = e(() => {
+  Lr,
+  Rr,
+  zr,
+  Br,
+  Vr = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      J(),
-      (kr = `framer-wCX2P`),
-      (Ar = { kk7oXE732: `framer-v-fmgod6` }),
-      (jr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Mr = ({ value: e, children: t }) => {
+      Ne(),
+      (Nr = `framer-wCX2P`),
+      (Pr = { kk7oXE732: `framer-v-fmgod6` }),
+      (Fr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Ir = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Nr = C.create(a)),
-      (Pr = ({ announcement: e, badgeTitle: t, height: n, id: r, width: i, ...a }) => ({
+      (Lr = C.create(a)),
+      (Rr = ({ announcement: e, badgeTitle: t, height: n, id: r, width: i, ...a }) => ({
         ...a,
         LEDw9whQr: e ?? a.LEDw9whQr ?? `AI is Available for MacOS`,
         s0mvfnZbf: t ?? a.s0mvfnZbf ?? `New`,
       })),
-      (Fr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Ir = R(
+      (zr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Br = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
@@ -4473,7 +4477,7 @@ var ir,
               s0mvfnZbf: p,
               LEDw9whQr: m,
               ...g
-            } = Pr(e),
+            } = Rr(e),
             {
               baseVariant: v,
               classNames: y,
@@ -4484,16 +4488,16 @@ var ir,
               setGestureState: w,
               setVariant: T,
               variants: E,
-            } = L({ defaultVariant: `kk7oXE732`, ref: i, variant: f, variantClassNames: Ar }),
-            O = Fr(e, E),
-            ne = G(kr, ye);
+            } = L({ defaultVariant: `kk7oXE732`, ref: i, variant: f, variantClassNames: Pr }),
+            O = zr(e, E),
+            ne = G(Nr, Pe);
           return h(D, {
             id: d ?? o,
-            children: h(Nr, {
+            children: h(Lr, {
               animate: E,
               initial: !1,
-              children: h(Mr, {
-                value: jr,
+              children: h(Ir, {
+                value: Fr,
                 children: _(C.div, {
                   ...g,
                   ...S,
@@ -4596,14 +4600,14 @@ var ir,
           `.framer-wCX2P.framer-fmgod6 { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 6px 15px 6px 6px; position: relative; width: min-content; }`,
           `.framer-wCX2P .framer-s72yib { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px 10px 0px 10px; position: relative; width: min-content; }`,
           `.framer-wCX2P .framer-6tzp1b, .framer-wCX2P .framer-1bcz3gm { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Ae,
+          ...J,
           `.framer-wCX2P[data-border="true"]::after, .framer-wCX2P [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-wCX2P`
       )),
-      (Ir.displayName = `Hero Badge`),
-      (Ir.defaultProps = { height: 37.5, width: 277 }),
-      K(Ir, {
+      (Br.displayName = `Hero Badge`),
+      (Br.defaultProps = { height: 37.5, width: 277 }),
+      K(Br, {
         s0mvfnZbf: {
           defaultValue: `New`,
           displayTextArea: !1,
@@ -4618,7 +4622,7 @@ var ir,
         },
       }),
       I(
-        Ir,
+        Br,
         [
           {
             explicitInter: !0,
@@ -4681,15 +4685,11 @@ var ir,
               },
             ],
           },
-          ...N(je),
+          ...N(ye),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  Rr,
-  zr,
-  Br,
-  Vr,
   Hr,
   Ur,
   Wr,
@@ -4697,40 +4697,44 @@ var ir,
   Kr,
   qr,
   Jr,
-  Yr = e(() => {
+  Yr,
+  Xr,
+  Zr,
+  Qr,
+  $r = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      ut(),
-      xe(),
-      Lr(),
-      Te(),
-      (Rr = M(Ir)),
-      (zr = M(De)),
-      (Br = `framer-YMhpf`),
-      (Vr = { rrE2SlL6R: `framer-v-tkox25` }),
-      (Hr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Ur = (...e) => {
+      mt(),
+      Ce(),
+      Vr(),
+      De(),
+      (Hr = M(Br)),
+      (Ur = M(ke)),
+      (Wr = `framer-YMhpf`),
+      (Gr = { rrE2SlL6R: `framer-v-tkox25` }),
+      (Kr = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (qr = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (Wr = ({ value: e, children: t }) => {
+      (Jr = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Gr = C.create(a)),
-      (Kr = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
-      (qr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Jr = R(
+      (Yr = C.create(a)),
+      (Xr = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
+      (Zr = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Qr = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B(),
             l = P(),
-            { style: u, className: d, layoutId: f, variant: p, ...m } = Kr(e),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = Xr(e),
             {
               baseVariant: g,
               classNames: v,
@@ -4741,16 +4745,16 @@ var ir,
               setGestureState: te,
               setVariant: w,
               variants: T,
-            } = L({ defaultVariant: `rrE2SlL6R`, ref: i, variant: p, variantClassNames: Vr }),
-            E = qr(e, T),
-            O = G(Br, we, lt);
+            } = L({ defaultVariant: `rrE2SlL6R`, ref: i, variant: p, variantClassNames: Gr }),
+            E = Zr(e, T),
+            O = G(Wr, Ee, pt);
           return h(D, {
             id: f ?? o,
-            children: h(Gr, {
+            children: h(Yr, {
               animate: T,
               initial: !1,
-              children: h(Wr, {
-                value: Hr,
+              children: h(Jr, {
+                value: Kr,
                 children: _(C.div, {
                   ...m,
                   ...x,
@@ -4771,7 +4775,7 @@ var ir,
                         nodeId: `jKBO3Pr6N`,
                         rendersWithMotion: !0,
                         scopeId: `fhaHIfqLp`,
-                        children: h(Ir, {
+                        children: h(Br, {
                           height: `100%`,
                           id: `jKBO3Pr6N`,
                           layoutId: `jKBO3Pr6N`,
@@ -4855,7 +4859,7 @@ var ir,
                         nodeId: `HSAi_Ng3u`,
                         rendersWithMotion: !0,
                         scopeId: `fhaHIfqLp`,
-                        children: h(De, {
+                        children: h(ke, {
                           AKuoesW74: 15,
                           AYwwfkaKd: `https://docs.google.com/forms/d/e/1FAIpQLSfJafB5tqK6MAxMOTPumhzrx01RYmywOqQDUOrx2Cvqd4cCPQ/viewform`,
                           FPjhikCji: !1,
@@ -4864,7 +4868,7 @@ var ir,
                           layoutId: `HSAi_Ng3u`,
                           OlthDMhqu: `Đặt lịch tư vấn giải pháp!`,
                           r7ASsAiJ9: !0,
-                          variant: Ur(`uGayw3Tld`),
+                          variant: qr(`uGayw3Tld`),
                           width: `100%`,
                         }),
                       }),
@@ -4902,15 +4906,15 @@ var ir,
           `.framer-YMhpf .framer-12c66yh { flex: none; height: auto; max-width: 80%; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
           `.framer-YMhpf .framer-1abhtuc { flex: none; height: 60px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
           `.framer-YMhpf .framer-owmude { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...ke,
-          ...ct,
+          ...je,
+          ...ft,
         ],
         `framer-YMhpf`
       )),
-      (Jr.displayName = `buttons`),
-      (Jr.defaultProps = { height: 524, width: 1150 }),
+      (Qr.displayName = `buttons`),
+      (Qr.defaultProps = { height: 524, width: 1150 }),
       I(
-        Jr,
+        Qr,
         [
           {
             explicitInter: !0,
@@ -4980,48 +4984,48 @@ var ir,
               },
             ],
           },
-          ...Rr,
-          ...zr,
-          ...N(be),
-          ...N(st),
+          ...Hr,
+          ...Ur,
+          ...N(Se),
+          ...N(dt),
         ],
         { supportsExplicitInterCodegen: !0 }
       ),
-      (Jr.loader = {
-        load: (e, t) => (t.locale, Promise.allSettled([A(Ir, {}, t), A(De, {}, t)])),
+      (Qr.loader = {
+        load: (e, t) => (t.locale, Promise.allSettled([A(Br, {}, t), A(ke, {}, t)])),
       }));
   }),
-  Xr,
-  Zr,
-  Qr,
-  $r,
   ei,
   ti,
   ni,
   ri,
   ii,
-  ai = e(() => {
+  ai,
+  oi,
+  si,
+  ci,
+  li = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      (Xr = `framer-zZYPZ`),
-      (Zr = { VmTPPJyjA: `framer-v-1ijsilz` }),
-      (Qr = (e) =>
+      (ei = `framer-zZYPZ`),
+      (ti = { VmTPPJyjA: `framer-v-1ijsilz` }),
+      (ni = (e) =>
         typeof e == `object` && e && typeof e.src == `string`
           ? e
           : typeof e == `string`
             ? { src: e }
             : void 0),
-      ($r = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (ei = ({ value: e, children: t }) => {
+      (ri = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (ii = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (ti = C.create(a)),
-      (ni = ({ height: e, id: t, image: n, width: r, ...i }) => ({
+      (ai = C.create(a)),
+      (oi = ({ height: e, id: t, image: n, width: r, ...i }) => ({
         ...i,
         kiWtO5xPD: n ??
           i.kiWtO5xPD ?? {
@@ -5031,15 +5035,15 @@ var ir,
             srcSet: `../../assets/images/fPPQX1SwiW06ThdNYCxiCNoSrtU.jpeg?scale-down-to=512 512w,../../assets/images/fPPQX1SwiW06ThdNYCxiCNoSrtU.jpeg 1024w,../../assets/images/fPPQX1SwiW06ThdNYCxiCNoSrtU.jpeg 1248w`,
           },
       })),
-      (ri = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (ii = R(
+      (si = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (ci = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = b(),
             { activeLocale: o, setLocale: s } = B(),
             c = P(),
-            { style: l, className: u, layoutId: d, variant: f, kiWtO5xPD: p, ...m } = ni(e),
+            { style: l, className: u, layoutId: d, variant: f, kiWtO5xPD: p, ...m } = oi(e),
             {
               baseVariant: g,
               classNames: _,
@@ -5050,16 +5054,16 @@ var ir,
               setGestureState: ee,
               setVariant: te,
               variants: C,
-            } = L({ defaultVariant: `VmTPPJyjA`, ref: i, variant: f, variantClassNames: Zr }),
-            w = ri(e, C),
-            T = G(Xr);
+            } = L({ defaultVariant: `VmTPPJyjA`, ref: i, variant: f, variantClassNames: ti }),
+            w = si(e, C),
+            T = G(ei);
           return h(D, {
             id: d ?? a,
-            children: h(ti, {
+            children: h(ai, {
               animate: C,
               initial: !1,
-              children: h(ei, {
-                value: $r,
+              children: h(ii, {
+                value: ri,
                 children: h(U, {
                   ...m,
                   ...y,
@@ -5070,7 +5074,7 @@ var ir,
                     pixelHeight: 832,
                     pixelWidth: 1248,
                     sizes: c?.width || `100vw`,
-                    ...Qr(p),
+                    ...ni(p),
                     positionX: `center`,
                     positionY: `center`,
                   },
@@ -5092,21 +5096,17 @@ var ir,
         ],
         `framer-zZYPZ`
       )),
-      (ii.displayName = `Showcase Image`),
-      (ii.defaultProps = { height: 550, width: 550 }),
-      K(ii, {
+      (ci.displayName = `Showcase Image`),
+      (ci.defaultProps = { height: 550, width: 550 }),
+      K(ci, {
         kiWtO5xPD: {
           __defaultAssetReference: `data:framer/asset-reference,fPPQX1SwiW06ThdNYCxiCNoSrtU.jpeg?originalFilename=nQuBmOheR4CJXTtlScYkTQ.jpeg&preferredSize=auto`,
           title: `Image`,
           type: H.ResponsiveImage,
         },
       }),
-      I(ii, [{ explicitInter: !0, fonts: [] }], { supportsExplicitInterCodegen: !0 }));
+      I(ci, [{ explicitInter: !0, fonts: [] }], { supportsExplicitInterCodegen: !0 }));
   }),
-  oi,
-  si,
-  ci,
-  li,
   ui,
   di,
   fi,
@@ -5115,39 +5115,43 @@ var ir,
   hi,
   gi,
   _i,
-  vi = e(() => {
+  vi,
+  yi,
+  bi,
+  xi,
+  Si = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      nr(),
-      ai(),
-      (oi = M(ii)),
-      (si = M(Un)),
-      (ci = ce(C.figure)),
-      (li = `framer-efwYq`),
-      (ui = { vPXxJ3AW1: `framer-v-d75ay` }),
-      (di = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (fi = (e, t) => {
+      or(),
+      li(),
+      (ui = M(ci)),
+      (di = M(qn)),
+      (fi = ce(C.figure)),
+      (pi = `framer-efwYq`),
+      (mi = { vPXxJ3AW1: `framer-v-d75ay` }),
+      (hi = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (gi = (e, t) => {
         if (!(!e || typeof e != `object`)) return { ...e, alt: t };
       }),
-      (pi = ({ value: e, children: t }) => {
+      (_i = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (mi = C.create(a)),
-      (hi = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
-      (gi = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (_i = R(
+      (vi = C.create(a)),
+      (yi = ({ height: e, id: t, width: n, ...r }) => ({ ...r })),
+      (bi = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (xi = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             a = b(),
             { activeLocale: o, setLocale: s } = B();
           P();
-          let { style: c, className: l, layoutId: u, variant: d, ...f } = hi(e),
+          let { style: c, className: l, layoutId: u, variant: d, ...f } = yi(e),
             {
               baseVariant: p,
               classNames: m,
@@ -5158,17 +5162,17 @@ var ir,
               setGestureState: S,
               setVariant: ee,
               variants: te,
-            } = L({ defaultVariant: `vPXxJ3AW1`, ref: i, variant: d, variantClassNames: ui }),
-            C = gi(e, te),
-            w = G(li);
+            } = L({ defaultVariant: `vPXxJ3AW1`, ref: i, variant: d, variantClassNames: mi }),
+            C = bi(e, te),
+            w = G(pi);
           return h(D, {
             id: u ?? a,
-            children: h(mi, {
+            children: h(vi, {
               animate: te,
               initial: !1,
-              children: h(pi, {
-                value: di,
-                children: _(ci, {
+              children: h(_i, {
+                value: hi,
+                children: _(fi, {
                   ...f,
                   ...v,
                   __framer__spring: {
@@ -5233,7 +5237,7 @@ var ir,
                         nodeId: `HhQ2Jf6gv`,
                         rendersWithMotion: !0,
                         scopeId: `H9865_ccE`,
-                        children: h(Un, {
+                        children: h(qn, {
                           alignment: `center`,
                           direction: `top`,
                           fadeOptions: {
@@ -5267,7 +5271,7 @@ var ir,
                                 nodeId: `yBlyU1nVZ`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ii, {
+                                children: h(ci, {
                                   height: `100%`,
                                   id: `yBlyU1nVZ`,
                                   layoutId: `yBlyU1nVZ`,
@@ -5287,10 +5291,10 @@ var ir,
                                 nodeId: `K3veC4wBk`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ii, {
+                                children: h(ci, {
                                   height: `100%`,
                                   id: `K3veC4wBk`,
-                                  kiWtO5xPD: fi(
+                                  kiWtO5xPD: gi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5316,10 +5320,10 @@ var ir,
                                 nodeId: `Sstw76yzS`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ii, {
+                                children: h(ci, {
                                   height: `100%`,
                                   id: `Sstw76yzS`,
-                                  kiWtO5xPD: fi(
+                                  kiWtO5xPD: gi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5351,7 +5355,7 @@ var ir,
                         nodeId: `bYTyxyRtD`,
                         rendersWithMotion: !0,
                         scopeId: `H9865_ccE`,
-                        children: h(Un, {
+                        children: h(qn, {
                           alignment: `center`,
                           direction: `bottom`,
                           fadeOptions: {
@@ -5385,10 +5389,10 @@ var ir,
                                 nodeId: `DlgtPFZJA`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ii, {
+                                children: h(ci, {
                                   height: `100%`,
                                   id: `DlgtPFZJA`,
-                                  kiWtO5xPD: fi(
+                                  kiWtO5xPD: gi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5414,7 +5418,7 @@ var ir,
                                 nodeId: `yBlyU1nVZ`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ii, {
+                                children: h(ci, {
                                   height: `100%`,
                                   id: `yBlyU1nVZ`,
                                   layoutId: `yBlyU1nVZ`,
@@ -5434,10 +5438,10 @@ var ir,
                                 nodeId: `bwJy3rUzl`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ii, {
+                                children: h(ci, {
                                   height: `100%`,
                                   id: `bwJy3rUzl`,
-                                  kiWtO5xPD: fi(
+                                  kiWtO5xPD: gi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5469,7 +5473,7 @@ var ir,
                         nodeId: `M_U7HW6_1`,
                         rendersWithMotion: !0,
                         scopeId: `H9865_ccE`,
-                        children: h(Un, {
+                        children: h(qn, {
                           alignment: `center`,
                           direction: `top`,
                           fadeOptions: {
@@ -5503,10 +5507,10 @@ var ir,
                                 nodeId: `Sstw76yzS`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ii, {
+                                children: h(ci, {
                                   height: `100%`,
                                   id: `Sstw76yzS`,
-                                  kiWtO5xPD: fi(
+                                  kiWtO5xPD: gi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5532,10 +5536,10 @@ var ir,
                                 nodeId: `Fphn0PCbH`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ii, {
+                                children: h(ci, {
                                   height: `100%`,
                                   id: `Fphn0PCbH`,
-                                  kiWtO5xPD: fi(
+                                  kiWtO5xPD: gi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5561,10 +5565,10 @@ var ir,
                                 nodeId: `b8gjuCLNR`,
                                 rendersWithMotion: !0,
                                 scopeId: `H9865_ccE`,
-                                children: h(ii, {
+                                children: h(ci, {
                                   height: `100%`,
                                   id: `b8gjuCLNR`,
-                                  kiWtO5xPD: fi(
+                                  kiWtO5xPD: gi(
                                     {
                                       pixelHeight: 1536,
                                       pixelWidth: 1024,
@@ -5600,51 +5604,51 @@ var ir,
         ],
         `framer-efwYq`
       )),
-      (_i.displayName = `Showcase Ticker Section`),
-      (_i.defaultProps = { height: 800, width: 1440 }),
-      I(_i, [{ explicitInter: !0, fonts: [] }, ...oi, ...si], { supportsExplicitInterCodegen: !0 }),
-      (_i.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(ii, {}, t)])) }));
+      (xi.displayName = `Showcase Ticker Section`),
+      (xi.defaultProps = { height: 800, width: 1440 }),
+      I(xi, [{ explicitInter: !0, fonts: [] }, ...ui, ...di], { supportsExplicitInterCodegen: !0 }),
+      (xi.loader = { load: (e, t) => (t.locale, Promise.allSettled([A(ci, {}, t)])) }));
   }),
-  yi,
-  bi,
-  xi,
-  Si,
   Ci,
   wi,
   Ti,
   Ei,
   Di,
-  Oi = e(() => {
+  Oi,
+  ki,
+  Ai,
+  ji,
+  Mi = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      Ze(),
-      J(),
-      (yi = M(Y)),
-      (bi = `framer-5Kj10`),
-      (xi = { mGWZfGZNS: `framer-v-1n4xgv6` }),
-      (Si = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Ci = ({ value: e, children: t }) => {
+      tt(),
+      Ne(),
+      (Ci = M(Y)),
+      (wi = `framer-5Kj10`),
+      (Ti = { mGWZfGZNS: `framer-v-1n4xgv6` }),
+      (Ei = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Di = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (wi = C.create(a)),
-      (Ti = ({ height: e, id: t, title: n, width: r, ...i }) => ({
+      (Oi = C.create(a)),
+      (ki = ({ height: e, id: t, title: n, width: r, ...i }) => ({
         ...i,
         IAk0cTPD3: n ?? i.IAk0cTPD3 ?? `Basic AI Writing Tools`,
       })),
-      (Ei = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Di = R(
+      (Ai = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (ji = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B();
           P();
-          let { style: l, className: u, layoutId: d, variant: f, IAk0cTPD3: p, ...m } = Ti(e),
+          let { style: l, className: u, layoutId: d, variant: f, IAk0cTPD3: p, ...m } = ki(e),
             {
               baseVariant: g,
               classNames: v,
@@ -5655,16 +5659,16 @@ var ir,
               setGestureState: te,
               setVariant: w,
               variants: T,
-            } = L({ defaultVariant: `mGWZfGZNS`, ref: i, variant: f, variantClassNames: xi }),
-            E = Ei(e, T),
-            O = G(bi, ye);
+            } = L({ defaultVariant: `mGWZfGZNS`, ref: i, variant: f, variantClassNames: Ti }),
+            E = Ai(e, T),
+            O = G(wi, Pe);
           return h(D, {
             id: d ?? o,
-            children: h(wi, {
+            children: h(Oi, {
               animate: T,
               initial: !1,
-              children: h(Ci, {
-                value: Si,
+              children: h(Di, {
+                value: Ei,
                 children: _(C.ol, {
                   ...m,
                   ...x,
@@ -5762,14 +5766,14 @@ var ir,
           `.framer-5Kj10 .framer-1iwfb1b { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 6px; position: relative; width: min-content; }`,
           `.framer-5Kj10 .framer-umva26-container { flex: none; height: 12px; position: relative; width: 12px; }`,
           `.framer-5Kj10 .framer-ufyt8s { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
-          ...Ae,
+          ...J,
           `.framer-5Kj10[data-border="true"]::after, .framer-5Kj10 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-5Kj10`
       )),
-      (Di.displayName = `List Item`),
-      (Di.defaultProps = { height: 32, width: 260 }),
-      K(Di, {
+      (ji.displayName = `List Item`),
+      (ji.defaultProps = { height: 32, width: 260 }),
+      K(ji, {
         IAk0cTPD3: {
           defaultValue: `Basic AI Writing Tools`,
           displayTextArea: !1,
@@ -5778,7 +5782,7 @@ var ir,
         },
       }),
       I(
-        Di,
+        ji,
         [
           {
             explicitInter: !0,
@@ -5841,21 +5845,17 @@ var ir,
               },
             ],
           },
-          ...yi,
-          ...N(je),
+          ...Ci,
+          ...N(ye),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   });
-function ki(e, ...t) {
+function Ni(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var Ai,
-  ji,
-  Mi,
-  Ni,
-  Pi,
+var Pi,
   Fi,
   Ii,
   Li,
@@ -5865,46 +5865,50 @@ var Ai,
   Vi,
   Hi,
   Ui,
-  Wi = e(() => {
+  Wi,
+  Gi,
+  Ki,
+  qi,
+  Ji = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      ut(),
-      Oi(),
-      Te(),
-      Ut(),
-      (Ai = M(Ht)),
-      (ji = M(De)),
-      (Mi = M(Di)),
-      (Ni = [`zMyIYBXWv`, `slD3l9NUj`]),
-      (Pi = `framer-DlMKg`),
-      (Fi = { slD3l9NUj: `framer-v-auu05y`, zMyIYBXWv: `framer-v-1h0r7j3` }),
-      (Ii = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (Li = (...e) => {
+      mt(),
+      Mi(),
+      De(),
+      qt(),
+      (Pi = M(Kt)),
+      (Fi = M(ke)),
+      (Ii = M(ji)),
+      (Li = [`zMyIYBXWv`, `slD3l9NUj`]),
+      (Ri = `framer-DlMKg`),
+      (zi = { slD3l9NUj: `framer-v-auu05y`, zMyIYBXWv: `framer-v-1h0r7j3` }),
+      (Bi = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (Vi = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (Ri = ({ value: e, children: t }) => {
+      (Hi = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (zi = { "Price Card": `zMyIYBXWv`, Mobile: `slD3l9NUj` }),
-      (Bi = C.create(a)),
-      (Vi = ({ height: e, id: t, width: n, ...r }) => ({
+      (Ui = { "Price Card": `zMyIYBXWv`, Mobile: `slD3l9NUj` }),
+      (Wi = C.create(a)),
+      (Gi = ({ height: e, id: t, width: n, ...r }) => ({
         ...r,
-        variant: zi[r.variant] ?? r.variant ?? `zMyIYBXWv`,
+        variant: Ui[r.variant] ?? r.variant ?? `zMyIYBXWv`,
       })),
-      (Hi = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Ui = R(
+      (Ki = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (qi = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B(),
             l = P(),
-            { style: u, className: d, layoutId: f, variant: p, ...m } = Vi(e),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = Gi(e),
             {
               baseVariant: g,
               classNames: v,
@@ -5916,21 +5920,21 @@ var Ai,
               setVariant: w,
               variants: T,
             } = L({
-              cycleOrder: Ni,
+              cycleOrder: Li,
               defaultVariant: `zMyIYBXWv`,
               ref: i,
               variant: p,
-              variantClassNames: Fi,
+              variantClassNames: zi,
             }),
-            E = Hi(e, T),
-            O = G(Pi, lt);
+            E = Ki(e, T),
+            O = G(Ri, pt);
           return h(D, {
             id: f ?? o,
-            children: h(Bi, {
+            children: h(Wi, {
               animate: T,
               initial: !1,
-              children: h(Ri, {
-                value: Ii,
+              children: h(Hi, {
+                value: Bi,
                 children: _(C.div, {
                   ...m,
                   ...x,
@@ -5955,7 +5959,7 @@ var Ai,
                     boxShadow: `inset 0px 0px 12px 0px rgba(250, 250, 250, 0.19)`,
                     ...u,
                   },
-                  ...ki({ slD3l9NUj: { "data-framer-name": `Mobile` } }, g, S),
+                  ...Ni({ slD3l9NUj: { "data-framer-name": `Mobile` } }, g, S),
                   children: [
                     _(C.div, {
                       className: `framer-h5tgbs`,
@@ -5966,7 +5970,7 @@ var Ai,
                         h(W, {
                           height: 37,
                           y: (l?.y || 0) + 30 + 0 + 0 + 0,
-                          ...ki(
+                          ...Ni(
                             {
                               slD3l9NUj: {
                                 y: (l?.y || 0) + (30 + ((l?.height || 278) - 60 - 461) / 2) + 0 + 0,
@@ -5982,12 +5986,12 @@ var Ai,
                             nodeId: `lTPDR53BQ`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Ht, {
+                            children: h(Kt, {
                               height: `100%`,
                               id: `lTPDR53BQ`,
                               layoutId: `lTPDR53BQ`,
                               O6gJl3TVN: `Dùng thử miễn phí`,
-                              variant: Li(`A4b5N3lov`),
+                              variant: Vi(`A4b5N3lov`),
                               width: `100%`,
                             }),
                           }),
@@ -6075,7 +6079,7 @@ var Ai,
                           height: 48,
                           width: `min(${l?.width || `100vw`} - 60px, 300px)`,
                           y: (l?.y || 0) + 30 + 0 + 0 + 413,
-                          ...ki(
+                          ...Ni(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6096,7 +6100,7 @@ var Ai,
                             nodeId: `tnDlChfj7`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(De, {
+                            children: h(ke, {
                               AKuoesW74: 15,
                               AYwwfkaKd: `https://forms.gle/LQ4RduXFNa3e3mYz6`,
                               FPjhikCji: !1,
@@ -6106,9 +6110,9 @@ var Ai,
                               OlthDMhqu: `Thử miễn phí ngay bây giờ`,
                               r7ASsAiJ9: !0,
                               style: { maxWidth: `100%`, width: `100%` },
-                              variant: Li(`uGayw3Tld`),
+                              variant: Vi(`uGayw3Tld`),
                               width: `100%`,
-                              ...ki({ slD3l9NUj: { style: { width: `100%` } } }, g, S),
+                              ...Ni({ slD3l9NUj: { style: { width: `100%` } } }, g, S),
                             }),
                           }),
                         }),
@@ -6124,7 +6128,7 @@ var Ai,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 0,
-                          ...ki(
+                          ...Ni(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6142,7 +6146,7 @@ var Ai,
                             nodeId: `jLbwl1CHj`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Di, {
+                            children: h(ji, {
                               height: `100%`,
                               IAk0cTPD3: `AI Agent tự động hóa 24/7`,
                               id: `jLbwl1CHj`,
@@ -6156,7 +6160,7 @@ var Ai,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 37,
-                          ...ki(
+                          ...Ni(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6175,7 +6179,7 @@ var Ai,
                             nodeId: `hK43mEpNq`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Di, {
+                            children: h(ji, {
                               height: `100%`,
                               IAk0cTPD3: `Cảnh báo tức thì qua Telegram`,
                               id: `hK43mEpNq`,
@@ -6189,7 +6193,7 @@ var Ai,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 74,
-                          ...ki(
+                          ...Ni(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6208,7 +6212,7 @@ var Ai,
                             nodeId: `wC9kjjHRk`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Di, {
+                            children: h(ji, {
                               height: `100%`,
                               IAk0cTPD3: `Giảm 80% tác vụ thủ công`,
                               id: `wC9kjjHRk`,
@@ -6222,7 +6226,7 @@ var Ai,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 111,
-                          ...ki(
+                          ...Ni(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6244,7 +6248,7 @@ var Ai,
                             nodeId: `sGXZI_juS`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Di, {
+                            children: h(ji, {
                               height: `100%`,
                               IAk0cTPD3: `Chuyên viên chỉ cần duyệt và xử lý khi thật sự cần thiết`,
                               id: `sGXZI_juS`,
@@ -6258,7 +6262,7 @@ var Ai,
                           height: 32,
                           width: `260px`,
                           y: (l?.y || 0) + 30 + 477 + 0 + 148,
-                          ...ki(
+                          ...Ni(
                             {
                               slD3l9NUj: {
                                 width: `max((${l?.width || `100vw`} - 90px) / 2, 1px)`,
@@ -6280,7 +6284,7 @@ var Ai,
                             nodeId: `kO13fEXQB`,
                             rendersWithMotion: !0,
                             scopeId: `MBSYfwvcO`,
-                            children: h(Di, {
+                            children: h(ji, {
                               height: `100%`,
                               IAk0cTPD3: `Gửi báo cáo định kỳ`,
                               id: `kO13fEXQB`,
@@ -6378,14 +6382,14 @@ var Ai,
           `.framer-DlMKg.framer-v-auu05y .framer-h5tgbs { align-self: unset; flex: 1 0 0px; width: 1px; }`,
           `.framer-DlMKg.framer-v-auu05y .framer-81ziyn-container { max-width: unset; }`,
           `.framer-DlMKg.framer-v-auu05y .framer-62uetw { flex: 1 0 0px; width: 1px; }`,
-          ...ct,
+          ...ft,
           `.framer-DlMKg[data-border="true"]::after, .framer-DlMKg [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
         `framer-DlMKg`
       )),
-      (Ui.displayName = `Price Card`),
-      (Ui.defaultProps = { height: 498, width: 320 }),
-      K(Ui, {
+      (qi.displayName = `Price Card`),
+      (qi.defaultProps = { height: 498, width: 320 }),
+      K(qi, {
         variant: {
           options: [`zMyIYBXWv`, `slD3l9NUj`],
           optionTitles: [`Price Card`, `Mobile`],
@@ -6394,7 +6398,7 @@ var Ai,
         },
       }),
       I(
-        Ui,
+        qi,
         [
           {
             explicitInter: !0,
@@ -6472,24 +6476,24 @@ var Ai,
               },
             ],
           },
-          ...Ai,
-          ...ji,
-          ...Mi,
-          ...N(st),
+          ...Pi,
+          ...Fi,
+          ...Ii,
+          ...N(dt),
         ],
         { supportsExplicitInterCodegen: !0 }
       ),
-      (Ui.loader = {
-        load: (e, t) => (t.locale, Promise.allSettled([A(Ht, {}, t), A(De, {}, t), A(Di, {}, t)])),
+      (qi.loader = {
+        load: (e, t) => (t.locale, Promise.allSettled([A(Kt, {}, t), A(ke, {}, t), A(ji, {}, t)])),
       }));
   }),
-  Gi,
-  Ki,
-  qi,
-  Ji = e(() => {
+  Yi,
+  Xi,
+  Zi,
+  Qi = e(() => {
     (k(),
       ie.loadFonts([`Inter-SemiBold`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-SemiBoldItalic`]),
-      (Gi = [
+      (Yi = [
         {
           explicitInter: !0,
           fonts: [
@@ -6720,46 +6724,46 @@ var Ai,
           ],
         },
       ]),
-      (Ki = [
+      (Xi = [
         `.framer-yW3GS .framer-styles-preset-1q4vzqz:not(.rich-text-wrapper), .framer-yW3GS .framer-styles-preset-1q4vzqz.rich-text-wrapper h6 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 16px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 600; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 600; --framer-letter-spacing: -0.02em; --framer-line-height: 1.4em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
-      (qi = `framer-yW3GS`));
+      (Zi = `framer-yW3GS`));
   });
-function Yi(e, ...t) {
+function $i(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var Xi,
-  Zi,
-  Qi,
-  $i,
-  ea,
+var ea,
   ta,
   na,
   ra,
   ia,
   aa,
   oa,
-  sa = e(() => {
+  sa,
+  ca,
+  la,
+  ua,
+  da = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      J(),
-      (Xi = { QzrBcpVgk: { hover: !0, pressed: !0 } }),
-      (Zi = [`IllKbU6rd`, `QzrBcpVgk`]),
-      (Qi = `framer-DvKpE`),
-      ($i = { IllKbU6rd: `framer-v-1t7owjd`, QzrBcpVgk: `framer-v-ramoko` }),
-      (ea = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (ta = ({ value: e, children: t }) => {
+      Ne(),
+      (ea = { QzrBcpVgk: { hover: !0, pressed: !0 } }),
+      (ta = [`IllKbU6rd`, `QzrBcpVgk`]),
+      (na = `framer-DvKpE`),
+      (ra = { IllKbU6rd: `framer-v-1t7owjd`, QzrBcpVgk: `framer-v-ramoko` }),
+      (ia = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (aa = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (na = C.create(a)),
-      (ra = { Active: `IllKbU6rd`, Passive: `QzrBcpVgk` }),
-      (ia = ({
+      (oa = C.create(a)),
+      (sa = { Active: `IllKbU6rd`, Passive: `QzrBcpVgk` }),
+      (ca = ({
         borderColor: e,
         borderHoverColor: t,
         click: n,
@@ -6777,7 +6781,7 @@ var Xi,
             borderWidth: 1,
           },
         oXv7AZm4A: n ?? s.oXv7AZm4A,
-        variant: ra[s.variant] ?? s.variant ?? `IllKbU6rd`,
+        variant: sa[s.variant] ?? s.variant ?? `IllKbU6rd`,
         YnoIm5kRZ: a ?? s.YnoIm5kRZ ?? `Untitled Article`,
         yueETfOfX: t ??
           s.yueETfOfX ?? {
@@ -6786,8 +6790,8 @@ var Xi,
             borderWidth: 1,
           },
       })),
-      (aa = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (oa = R(
+      (la = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (ua = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
@@ -6804,7 +6808,7 @@ var Xi,
               hWSEK1rhs: g,
               yueETfOfX: _,
               ...v
-            } = ia(e),
+            } = ca(e),
             {
               baseVariant: y,
               classNames: x,
@@ -6816,26 +6820,26 @@ var Xi,
               setVariant: E,
               variants: O,
             } = L({
-              cycleOrder: Zi,
+              cycleOrder: ta,
               defaultVariant: `IllKbU6rd`,
-              enabledGestures: Xi,
+              enabledGestures: ea,
               ref: i,
               variant: f,
-              variantClassNames: $i,
+              variantClassNames: ra,
             }),
-            ne = aa(e, O),
+            ne = la(e, O),
             { activeVariantCallback: k, delay: A } = ae(y),
             j = k(async (...e) => {
               if ((T({ isPressed: !1 }), m && (await m(...e)) === !1)) return !1;
             }),
-            M = G(Qi, ye);
+            M = G(na, Pe);
           return h(D, {
             id: d ?? o,
-            children: h(na, {
+            children: h(oa, {
               animate: O,
               initial: !1,
-              children: h(ta, {
-                value: ea,
+              children: h(aa, {
+                value: ia,
                 children: h(C.div, {
                   ...v,
                   ...ee,
@@ -6883,7 +6887,7 @@ var Xi,
                       backgroundColor: `rgba(0, 0, 0, 0)`,
                     },
                   },
-                  ...Yi(
+                  ...$i(
                     {
                       "QzrBcpVgk-hover": { "data-framer-name": void 0 },
                       "QzrBcpVgk-pressed": { "data-framer-name": void 0 },
@@ -6921,7 +6925,7 @@ var Xi,
                     },
                     verticalAlignment: `top`,
                     withExternalLayout: !0,
-                    ...Yi(
+                    ...$i(
                       {
                         "QzrBcpVgk-pressed": {
                           children: h(a, {
@@ -6950,14 +6954,14 @@ var Xi,
           `.framer-DvKpE.framer-1eshsc, .framer-DvKpE .framer-1eshsc { display: block; }`,
           `.framer-DvKpE.framer-1t7owjd { align-content: center; align-items: center; cursor: pointer; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; overflow: visible; padding: 8px 20px 8px 20px; position: relative; width: min-content; }`,
           `.framer-DvKpE .framer-1mwgbok { flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-          ...Ae,
+          ...J,
           `.framer-DvKpE[data-border="true"]::after, .framer-DvKpE [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-DvKpE`
       )),
-      (oa.displayName = `Platform Tab`),
-      (oa.defaultProps = { height: 41.5, width: 154 }),
-      K(oa, {
+      (ua.displayName = `Platform Tab`),
+      (ua.defaultProps = { height: 41.5, width: 154 }),
+      K(ua, {
         variant: {
           options: [`IllKbU6rd`, `QzrBcpVgk`],
           optionTitles: [`Active`, `Passive`],
@@ -6991,7 +6995,7 @@ var Xi,
         },
       }),
       I(
-        oa,
+        ua,
         [
           {
             explicitInter: !0,
@@ -7054,20 +7058,16 @@ var Xi,
               },
             ],
           },
-          ...N(je),
+          ...N(ye),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   });
-function ca(e, ...t) {
+function fa(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var la,
-  ua,
-  da,
-  fa,
-  pa,
+var pa,
   ma,
   ha,
   ga,
@@ -7081,22 +7081,26 @@ var la,
   wa,
   Ta,
   Ea,
-  Da = e(() => {
+  Da,
+  Oa,
+  ka,
+  Aa,
+  ja = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      Ze(),
-      Ji(),
-      Se(),
-      sa(),
-      (la = M(Y)),
-      (ua = ue(ce(C.div))),
-      (da = M(Ce)),
-      (fa = M(oa)),
-      (pa = [`KBgKtVKOD`, `exGrCNMBY`, `YkRwyK5Zj`, `BhgKpPyRM`, `NzZwNSqPC`, `i66Xu18wi`]),
-      (ma = `framer-HJBWk`),
-      (ha = {
+      tt(),
+      Qi(),
+      xe(),
+      da(),
+      (pa = M(Y)),
+      (ma = ue(ce(C.div))),
+      (ha = M(Fe)),
+      (ga = M(ua)),
+      (_a = [`KBgKtVKOD`, `exGrCNMBY`, `YkRwyK5Zj`, `BhgKpPyRM`, `NzZwNSqPC`, `i66Xu18wi`]),
+      (va = `framer-HJBWk`),
+      (ya = {
         BhgKpPyRM: `framer-v-74oqk8`,
         exGrCNMBY: `framer-v-gulk9f`,
         i66Xu18wi: `framer-v-1r3odqu`,
@@ -7104,9 +7108,9 @@ var la,
         NzZwNSqPC: `framer-v-18zx71q`,
         YkRwyK5Zj: `framer-v-1yf3zxs`,
       }),
-      (ga = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
-      (_a = (e, t) => `translateX(-50%) ${t}`),
-      (va = {
+      (ba = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
+      (xa = (e, t) => `translateX(-50%) ${t}`),
+      (Sa = {
         opacity: 1,
         rotate: 0,
         rotateX: 0,
@@ -7114,11 +7118,11 @@ var la,
         scale: 1,
         skewX: 0,
         skewY: 0,
-        transition: ga,
+        transition: ba,
         x: 0,
         y: 0,
       }),
-      (ya = {
+      (Ca = {
         opacity: 0.001,
         rotate: 0,
         rotateX: 0,
@@ -7129,16 +7133,16 @@ var la,
         x: 0,
         y: 150,
       }),
-      (ba = (...e) => {
+      (wa = (...e) => {
         for (let t of e) if (t && typeof t == `string`) return t;
       }),
-      (xa = ({ value: e, children: t }) => {
+      (Ta = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (Sa = {
+      (Ea = {
         "Mobile Image Gen": `BhgKpPyRM`,
         "One-way": `exGrCNMBY`,
         "Product-catalogs": `KBgKtVKOD`,
@@ -7146,20 +7150,20 @@ var la,
         "Two-way": `NzZwNSqPC`,
         Mobile: `YkRwyK5Zj`,
       }),
-      (Ca = C.create(a)),
-      (wa = ({ height: e, id: t, width: n, ...r }) => ({
+      (Da = C.create(a)),
+      (Oa = ({ height: e, id: t, width: n, ...r }) => ({
         ...r,
-        variant: Sa[r.variant] ?? r.variant ?? `KBgKtVKOD`,
+        variant: Ea[r.variant] ?? r.variant ?? `KBgKtVKOD`,
       })),
-      (Ta = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Ea = R(
+      (ka = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Aa = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
             o = b(),
             { activeLocale: s, setLocale: c } = B(),
             l = P(),
-            { style: u, className: d, layoutId: f, variant: p, ...m } = wa(e),
+            { style: u, className: d, layoutId: f, variant: p, ...m } = Oa(e),
             {
               baseVariant: g,
               classNames: v,
@@ -7171,13 +7175,13 @@ var la,
               setVariant: w,
               variants: T,
             } = L({
-              cycleOrder: pa,
+              cycleOrder: _a,
               defaultVariant: `KBgKtVKOD`,
               ref: i,
               variant: p,
-              variantClassNames: ha,
+              variantClassNames: ya,
             }),
-            E = Ta(e, T),
+            E = ka(e, T),
             { activeVariantCallback: O, delay: ne } = ae(g),
             k = O(async (...e) => {
               w(`KBgKtVKOD`);
@@ -7197,18 +7201,18 @@ var la,
             re = O(async (...e) => {
               w(`i66Xu18wi`);
             }),
-            ie = G(ma, qi),
+            ie = G(va, Zi),
             oe = () => !![`exGrCNMBY`, `BhgKpPyRM`, `NzZwNSqPC`, `i66Xu18wi`].includes(g),
             I = () => ![`exGrCNMBY`, `NzZwNSqPC`, `i66Xu18wi`].includes(g);
           return (
             se(),
             h(D, {
               id: f ?? o,
-              children: h(Ca, {
+              children: h(Da, {
                 animate: T,
                 initial: !1,
-                children: h(xa, {
-                  value: ga,
+                children: h(Ta, {
+                  value: ba,
                   children: h(C.section, {
                     ...m,
                     ...x,
@@ -7218,7 +7222,7 @@ var la,
                     layoutId: `KBgKtVKOD`,
                     ref: i,
                     style: { ...u },
-                    ...ca(
+                    ...fa(
                       {
                         BhgKpPyRM: { "data-framer-name": `Mobile Image Gen` },
                         exGrCNMBY: { "data-framer-name": `One-way` },
@@ -7254,16 +7258,16 @@ var la,
                         layoutId: `aGwVRV_Bw`,
                         children: [
                           oe() &&
-                            _(ua, {
+                            _(ma, {
                               __perspectiveFX: !1,
                               __smartComponentFX: !0,
                               __targetOpacity: 1,
-                              animate: va,
+                              animate: Sa,
                               className: `framer-1gekuna`,
                               "data-border": !0,
                               "data-framer-appear-id": `1gekuna`,
                               "data-framer-name": `Bottom Bar`,
-                              initial: ya,
+                              initial: Ca,
                               layoutDependency: E,
                               layoutId: `P7nj4Rl83`,
                               optimized: !0,
@@ -7282,7 +7286,7 @@ var la,
                                 borderTopRightRadius: 40,
                                 WebkitBackdropFilter: `blur(20px)`,
                               },
-                              transformTemplate: _a,
+                              transformTemplate: xa,
                               children: [
                                 _(C.div, {
                                   className: `framer-1lf9x0i`,
@@ -7338,7 +7342,7 @@ var la,
                                       },
                                       verticalAlignment: `top`,
                                       withExternalLayout: !0,
-                                      ...ca(
+                                      ...fa(
                                         {
                                           BhgKpPyRM: {
                                             children: h(a, {
@@ -7867,14 +7871,14 @@ var la,
                                           nodeId: `lEyAQLvR6`,
                                           rendersWithMotion: !0,
                                           scopeId: `ThlFB8dhK`,
-                                          children: h(Ce, {
+                                          children: h(Fe, {
                                             height: `100%`,
                                             id: `lEyAQLvR6`,
                                             irY_XKj0O: e[0],
                                             layoutId: `lEyAQLvR6`,
-                                            variant: ba(`iC3uXzR0q`),
+                                            variant: wa(`iC3uXzR0q`),
                                             width: `100%`,
-                                            ...ca(
+                                            ...fa(
                                               {
                                                 BhgKpPyRM: { irY_XKj0O: e[3] },
                                                 exGrCNMBY: { irY_XKj0O: e[1] },
@@ -7894,7 +7898,7 @@ var la,
                                     "data-framer-name": `Tabs`,
                                     layoutDependency: E,
                                     layoutId: `vem08X3Jj`,
-                                    transformTemplate: _a,
+                                    transformTemplate: xa,
                                     children: [
                                       h(W, {
                                         height: 41,
@@ -7911,7 +7915,7 @@ var la,
                                           0 +
                                           11 +
                                           0,
-                                        ...ca(
+                                        ...fa(
                                           {
                                             BhgKpPyRM: {
                                               width: `974px`,
@@ -7958,7 +7962,7 @@ var la,
                                           nodeId: `brUOUIawY`,
                                           rendersWithMotion: !0,
                                           scopeId: `ThlFB8dhK`,
-                                          children: h(oa, {
+                                          children: h(ua, {
                                             height: `100%`,
                                             hWSEK1rhs: {
                                               borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
@@ -7968,7 +7972,7 @@ var la,
                                             id: `brUOUIawY`,
                                             layoutId: `brUOUIawY`,
                                             oXv7AZm4A: k,
-                                            variant: ba(`IllKbU6rd`),
+                                            variant: wa(`IllKbU6rd`),
                                             width: `100%`,
                                             YnoIm5kRZ: `Sắp ra mắt`,
                                             yueETfOfX: {
@@ -7976,16 +7980,16 @@ var la,
                                               borderStyle: `solid`,
                                               borderWidth: 1,
                                             },
-                                            ...ca(
+                                            ...fa(
                                               {
                                                 BhgKpPyRM: {
                                                   oXv7AZm4A: A,
                                                   style: { width: `100%` },
-                                                  variant: ba(`QzrBcpVgk`),
+                                                  variant: wa(`QzrBcpVgk`),
                                                 },
-                                                exGrCNMBY: { variant: ba(`QzrBcpVgk`) },
-                                                i66Xu18wi: { variant: ba(`QzrBcpVgk`) },
-                                                NzZwNSqPC: { variant: ba(`QzrBcpVgk`) },
+                                                exGrCNMBY: { variant: wa(`QzrBcpVgk`) },
+                                                i66Xu18wi: { variant: wa(`QzrBcpVgk`) },
+                                                NzZwNSqPC: { variant: wa(`QzrBcpVgk`) },
                                                 YkRwyK5Zj: { style: { width: `100%` } },
                                               },
                                               g,
@@ -8009,7 +8013,7 @@ var la,
                                           0 +
                                           11 +
                                           0,
-                                        ...ca(
+                                        ...fa(
                                           {
                                             BhgKpPyRM: {
                                               width: `974px`,
@@ -8056,7 +8060,7 @@ var la,
                                           nodeId: `mt0STHqmT`,
                                           rendersWithMotion: !0,
                                           scopeId: `ThlFB8dhK`,
-                                          children: h(oa, {
+                                          children: h(ua, {
                                             height: `100%`,
                                             hWSEK1rhs: {
                                               borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
@@ -8066,7 +8070,7 @@ var la,
                                             id: `mt0STHqmT`,
                                             layoutId: `mt0STHqmT`,
                                             oXv7AZm4A: j,
-                                            variant: ba(`QzrBcpVgk`),
+                                            variant: wa(`QzrBcpVgk`),
                                             width: `100%`,
                                             YnoIm5kRZ: `Vận hành 1 chiều`,
                                             yueETfOfX: {
@@ -8074,13 +8078,13 @@ var la,
                                               borderStyle: `solid`,
                                               borderWidth: 1,
                                             },
-                                            ...ca(
+                                            ...fa(
                                               {
                                                 BhgKpPyRM: {
                                                   style: { width: `100%` },
-                                                  variant: ba(`IllKbU6rd`),
+                                                  variant: wa(`IllKbU6rd`),
                                                 },
-                                                exGrCNMBY: { variant: ba(`IllKbU6rd`) },
+                                                exGrCNMBY: { variant: wa(`IllKbU6rd`) },
                                                 YkRwyK5Zj: {
                                                   oXv7AZm4A: M,
                                                   style: { width: `100%` },
@@ -8107,7 +8111,7 @@ var la,
                                           0 +
                                           11 +
                                           0,
-                                        ...ca(
+                                        ...fa(
                                           {
                                             BhgKpPyRM: {
                                               y:
@@ -8152,7 +8156,7 @@ var la,
                                           nodeId: `NZCseoGAa`,
                                           rendersWithMotion: !0,
                                           scopeId: `ThlFB8dhK`,
-                                          children: h(oa, {
+                                          children: h(ua, {
                                             height: `100%`,
                                             hWSEK1rhs: {
                                               borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
@@ -8162,7 +8166,7 @@ var la,
                                             id: `NZCseoGAa`,
                                             layoutId: `NZCseoGAa`,
                                             oXv7AZm4A: N,
-                                            variant: ba(`QzrBcpVgk`),
+                                            variant: wa(`QzrBcpVgk`),
                                             width: `100%`,
                                             YnoIm5kRZ: `Vận hành 2 chiều`,
                                             yueETfOfX: {
@@ -8170,8 +8174,8 @@ var la,
                                               borderStyle: `solid`,
                                               borderWidth: 1,
                                             },
-                                            ...ca(
-                                              { NzZwNSqPC: { variant: ba(`IllKbU6rd`) } },
+                                            ...fa(
+                                              { NzZwNSqPC: { variant: wa(`IllKbU6rd`) } },
                                               g,
                                               S
                                             ),
@@ -8193,7 +8197,7 @@ var la,
                                           0 +
                                           11 +
                                           0,
-                                        ...ca(
+                                        ...fa(
                                           {
                                             BhgKpPyRM: {
                                               y:
@@ -8238,7 +8242,7 @@ var la,
                                           nodeId: `cDUNWwuQY`,
                                           rendersWithMotion: !0,
                                           scopeId: `ThlFB8dhK`,
-                                          children: h(oa, {
+                                          children: h(ua, {
                                             height: `100%`,
                                             hWSEK1rhs: {
                                               borderColor: `var(--token-3e9d2bfb-a296-4760-9040-440220b8c033, rgb(139, 92, 246))`,
@@ -8248,7 +8252,7 @@ var la,
                                             id: `cDUNWwuQY`,
                                             layoutId: `cDUNWwuQY`,
                                             oXv7AZm4A: re,
-                                            variant: ba(`QzrBcpVgk`),
+                                            variant: wa(`QzrBcpVgk`),
                                             width: `100%`,
                                             YnoIm5kRZ: `Vận hành 3 chiều`,
                                             yueETfOfX: {
@@ -8256,8 +8260,8 @@ var la,
                                               borderStyle: `solid`,
                                               borderWidth: 1,
                                             },
-                                            ...ca(
-                                              { i66Xu18wi: { variant: ba(`IllKbU6rd`) } },
+                                            ...fa(
+                                              { i66Xu18wi: { variant: wa(`IllKbU6rd`) } },
                                               g,
                                               S
                                             ),
@@ -8316,14 +8320,14 @@ var la,
           `.framer-HJBWk.framer-v-1yf3zxs .framer-1kkj2bb, .framer-HJBWk.framer-v-74oqk8 .framer-1kkj2bb { align-content: flex-start; align-items: flex-start; flex-direction: column; }`,
           `.framer-HJBWk.framer-v-1yf3zxs .framer-1g931o1-container, .framer-HJBWk.framer-v-1yf3zxs .framer-1gekgcx-container, .framer-HJBWk.framer-v-74oqk8 .framer-1g931o1-container, .framer-HJBWk.framer-v-74oqk8 .framer-1gekgcx-container { width: 100%; }`,
           `.framer-HJBWk.framer-v-74oqk8 .framer-1gekuna { bottom: 45px; gap: 0px; }`,
-          ...Ki,
+          ...Xi,
           `.framer-HJBWk[data-border="true"]::after, .framer-HJBWk [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
         ],
         `framer-HJBWk`
       )),
-      (Ea.displayName = `Dashboard Tab`),
-      (Ea.defaultProps = { height: 592, width: 1152 }),
-      K(Ea, {
+      (Aa.displayName = `Dashboard Tab`),
+      (Aa.defaultProps = { height: 592, width: 1152 }),
+      K(Aa, {
         variant: {
           options: [`KBgKtVKOD`, `exGrCNMBY`, `YkRwyK5Zj`, `BhgKpPyRM`, `NzZwNSqPC`, `i66Xu18wi`],
           optionTitles: [
@@ -8339,7 +8343,7 @@ var la,
         },
       }),
       I(
-        Ea,
+        Aa,
         [
           {
             explicitInter: !0,
@@ -8598,26 +8602,22 @@ var la,
               },
             ],
           },
-          ...la,
-          ...da,
-          ...fa,
-          ...N(Gi),
+          ...pa,
+          ...ha,
+          ...ga,
+          ...N(Yi),
         ],
         { supportsExplicitInterCodegen: !0 }
       ),
-      (Ea.loader = {
-        load: (e, t) => (t.locale, Promise.allSettled([A(Ce, {}, t), A(oa, {}, t)])),
+      (Aa.loader = {
+        load: (e, t) => (t.locale, Promise.allSettled([A(Fe, {}, t), A(ua, {}, t)])),
       }));
   });
-function Oa(e, ...t) {
+function Ma(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
 }
-var ka,
-  Aa,
-  ja,
-  Ma,
-  Na,
+var Na,
   Pa,
   Fa,
   Ia,
@@ -8626,35 +8626,39 @@ var ka,
   za,
   Ba,
   Va,
-  Ha = e(() => {
+  Ha,
+  Ua,
+  Wa,
+  Ga,
+  Ka = e(() => {
     (v(),
       k(),
       O(),
       d(),
-      Ze(),
-      J(),
-      ut(),
-      (ka = M(Y)),
-      (Aa = j(Y)),
-      (ja = [`UQAKERQXo`, `J3JugmfqE`]),
-      (Ma = `framer-6mUmJ`),
-      (Na = { J3JugmfqE: `framer-v-1ye2a7x`, UQAKERQXo: `framer-v-heob82` }),
-      (Pa = (e, t) => {
+      tt(),
+      Ne(),
+      mt(),
+      (Na = M(Y)),
+      (Pa = j(Y)),
+      (Fa = [`UQAKERQXo`, `J3JugmfqE`]),
+      (Ia = `framer-6mUmJ`),
+      (La = { J3JugmfqE: `framer-v-1ye2a7x`, UQAKERQXo: `framer-v-heob82` }),
+      (Ra = (e, t) => {
         if (typeof e == `number` && Number.isFinite(e)) return Math.max(0, e) + `px`;
         if (typeof e != `string` || typeof t != `number`) return;
         let n = e.split(` `);
         return n[t] || n[t - 2] || n[0];
       }),
-      (Fa = { duration: 0, type: `tween` }),
-      (Ia = ({ value: e, children: t }) => {
+      (za = { duration: 0, type: `tween` }),
+      (Ba = ({ value: e, children: t }) => {
         let n = s(T),
           r = e ?? n.transition,
           i = c(() => ({ ...n, transition: r }), [JSON.stringify(r)]);
         return h(T.Provider, { value: i, children: t });
       }),
-      (La = C.create(a)),
-      (Ra = { Closed: `UQAKERQXo`, Opened: `J3JugmfqE` }),
-      (za = ({
+      (Va = C.create(a)),
+      (Ha = { Closed: `UQAKERQXo`, Opened: `J3JugmfqE` }),
+      (Ua = ({
         answer: e,
         height: t,
         id: n,
@@ -8672,11 +8676,11 @@ var ka,
         kYWASCjTi: a ?? l.kYWASCjTi ?? `8px`,
         NJYIkQ6JL: e ?? l.NJYIkQ6JL ?? `Answer`,
         Ro4lUtH7q: r ?? l.Ro4lUtH7q ?? `CaretUp`,
-        variant: Ra[l.variant] ?? l.variant ?? `UQAKERQXo`,
+        variant: Ha[l.variant] ?? l.variant ?? `UQAKERQXo`,
         w45GKkb9R: s ?? l.w45GKkb9R ?? `CaretDown`,
       })),
-      (Ba = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
-      (Va = R(
+      (Wa = (e, t) => (e.layoutDependency ? t.join(`-`) + e.layoutDependency : t.join(`-`))),
+      (Ga = R(
         p(function (e, n) {
           let r = t(null),
             i = n ?? r,
@@ -8695,7 +8699,7 @@ var ka,
               w45GKkb9R: y,
               Ro4lUtH7q: x,
               ...S
-            } = za(e),
+            } = Ua(e),
             {
               baseVariant: ee,
               classNames: te,
@@ -8707,13 +8711,13 @@ var ka,
               setVariant: k,
               variants: A,
             } = L({
-              cycleOrder: ja,
+              cycleOrder: Fa,
               defaultVariant: `UQAKERQXo`,
               ref: i,
               variant: f,
-              variantClassNames: Na,
+              variantClassNames: La,
             }),
-            j = Ba(e, A),
+            j = Wa(e, A),
             { activeVariantCallback: M, delay: N } = ae(ee),
             re = M(async (...e) => {
               (ne({ isPressed: !1 }), k(`J3JugmfqE`));
@@ -8721,15 +8725,15 @@ var ka,
             ie = M(async (...e) => {
               (ne({ isPressed: !1 }), k(`UQAKERQXo`));
             }),
-            oe = G(Ma, lt, ye),
+            oe = G(Ia, pt, Pe),
             se = () => ee === `J3JugmfqE`;
           return h(D, {
             id: d ?? o,
-            children: h(La, {
+            children: h(Va, {
               animate: A,
               initial: !1,
-              children: h(Ia, {
-                value: Fa,
+              children: h(Ba, {
+                value: za,
                 children: _(C.div, {
                   ...S,
                   ...T,
@@ -8748,14 +8752,14 @@ var ka,
                     "--border-right-width": `1px`,
                     "--border-style": `solid`,
                     "--border-top-width": `1px`,
-                    borderBottomLeftRadius: Pa(p, 3),
-                    borderBottomRightRadius: Pa(p, 2),
-                    borderTopLeftRadius: Pa(p, 0),
-                    borderTopRightRadius: Pa(p, 1),
+                    borderBottomLeftRadius: Ra(p, 3),
+                    borderBottomRightRadius: Ra(p, 2),
+                    borderTopLeftRadius: Ra(p, 0),
+                    borderTopRightRadius: Ra(p, 1),
                     boxShadow: `inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25)`,
                     ...l,
                   },
-                  ...Oa({ J3JugmfqE: { "data-framer-name": `Opened`, onTap: ie } }, ee, E),
+                  ...Ma({ J3JugmfqE: { "data-framer-name": `Opened`, onTap: ie } }, ee, E),
                   children: [
                     _(C.div, {
                       className: `framer-xoxlf4`,
@@ -8845,7 +8849,7 @@ var ka,
                               style: { height: `100%`, width: `100%` },
                               weight: `bold`,
                               width: `100%`,
-                              ...Oa({ J3JugmfqE: { iconSelection: x } }, ee, E),
+                              ...Ma({ J3JugmfqE: { iconSelection: x } }, ee, E),
                             }),
                           }),
                         }),
@@ -8877,15 +8881,15 @@ var ka,
           `.framer-6mUmJ .framer-23gvxk { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 2px 0px 2px 0px; position: relative; width: min-content; }`,
           `.framer-6mUmJ .framer-rd8rfz-container { flex: none; height: 20px; position: relative; width: 20px; }`,
           `.framer-6mUmJ .framer-125oda7 { bottom: 0px; flex: none; left: 0px; overflow: hidden; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-          ...ct,
-          ...Ae,
+          ...ft,
+          ...J,
           `.framer-6mUmJ[data-border="true"]::after, .framer-6mUmJ [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }`,
         ],
         `framer-6mUmJ`
       )),
-      (Va.displayName = `FAQ Item`),
-      (Va.defaultProps = { height: 82, width: 390 }),
-      K(Va, {
+      (Ga.displayName = `FAQ Item`),
+      (Ga.defaultProps = { height: 82, width: 390 }),
+      K(Ga, {
         variant: {
           options: [`UQAKERQXo`, `J3JugmfqE`],
           optionTitles: [`Closed`, `Opened`],
@@ -8901,15 +8905,15 @@ var ka,
         },
         NJYIkQ6JL: { defaultValue: `Answer`, displayTextArea: !0, title: `Answer`, type: H.String },
         iOqNF0AA8: { defaultValue: !0, title: `Right Icon`, type: H.Boolean },
-        w45GKkb9R: Aa?.iconSelection && {
-          ...Aa.iconSelection,
+        w45GKkb9R: Pa?.iconSelection && {
+          ...Pa.iconSelection,
           defaultValue: `CaretDown`,
           description: void 0,
           hidden: void 0,
           title: `Right Icon 2`,
         },
-        Ro4lUtH7q: Aa?.iconSelection && {
-          ...Aa.iconSelection,
+        Ro4lUtH7q: Pa?.iconSelection && {
+          ...Pa.iconSelection,
           defaultValue: `CaretUp`,
           description: void 0,
           hidden: void 0,
@@ -8917,7 +8921,7 @@ var ka,
         },
       }),
       I(
-        Va,
+        Ga,
         [
           {
             explicitInter: !0,
@@ -8980,20 +8984,20 @@ var ka,
               },
             ],
           },
-          ...ka,
-          ...N(st),
-          ...N(je),
+          ...Na,
+          ...N(dt),
+          ...N(ye),
         ],
         { supportsExplicitInterCodegen: !0 }
       ));
   }),
-  Ua,
-  Wa,
-  Ga,
-  Ka = e(() => {
+  qa,
+  Ja,
+  Ya,
+  Xa = e(() => {
     (k(),
       ie.loadFonts([`Inter`, `Inter-Bold`, `Inter-BoldItalic`, `Inter-Italic`]),
-      (Ua = [
+      (qa = [
         {
           explicitInter: !0,
           fonts: [
@@ -9224,15 +9228,15 @@ var ka,
           ],
         },
       ]),
-      (Wa = [
+      (Ja = [
         `.framer-qohCG .framer-styles-preset-1kw3yst:not(.rich-text-wrapper), .framer-qohCG .framer-styles-preset-1kw3yst.rich-text-wrapper p { --framer-font-family: "Inter", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: 'blwf' on, 'cv09' on, 'cv03' on, 'cv04' on, 'cv11' on; --framer-font-size: 14px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.02em; --framer-line-height: 1.6em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-52da8dbb-cd94-4ec6-8ec8-f864d65f3fe3, #fafafa); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
       ]),
-      (Ga = `framer-qohCG`));
+      (Ya = `framer-qohCG`));
   }),
-  qa,
-  Ja,
-  Ya,
-  Xa = e(() => {
+  Za,
+  Qa,
+  $a,
+  eo = e(() => {
     (k(),
       ie.loadFonts([
         `FS;Poppins-regular`,
@@ -9240,7 +9244,7 @@ var ka,
         `FS;Poppins-bold italic`,
         `FS;Poppins-italic`,
       ]),
-      (qa = [
+      (Za = [
         {
           explicitInter: !0,
           fonts: [
@@ -9275,19 +9279,19 @@ var ka,
           ],
         },
       ]),
-      (Ja = [
+      (Qa = [
         `.framer-LsGmy .framer-styles-preset-qpltp7:not(.rich-text-wrapper), .framer-LsGmy .framer-styles-preset-qpltp7.rich-text-wrapper p { --framer-font-family: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 68px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.05em; --framer-line-height: 1em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 0px) { .framer-LsGmy .framer-styles-preset-qpltp7:not(.rich-text-wrapper), .framer-LsGmy .framer-styles-preset-qpltp7.rich-text-wrapper p { --framer-font-family: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-bold-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-family-italic: "Poppins", "Poppins Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 36px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: -0.05em; --framer-line-height: 1em; --framer-paragraph-spacing: 20px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      (Ya = `framer-LsGmy`));
+      ($a = `framer-LsGmy`));
   }),
-  Za,
-  Qa,
-  $a,
-  eo = e(() => {
+  to,
+  no,
+  ro,
+  io = e(() => {
     (k(),
       ie.loadFonts([`GF;Inter-regular`, `GF;Inter-700`, `GF;Inter-700italic`, `GF;Inter-italic`]),
-      (Za = [
+      (to = [
         {
           explicitInter: !0,
           fonts: [
@@ -9322,17 +9326,13 @@ var ka,
           ],
         },
       ]),
-      (Qa = [
+      (no = [
         `.framer-JC3Nv .framer-styles-preset-12qzpp4:not(.rich-text-wrapper), .framer-JC3Nv .framer-styles-preset-12qzpp4.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 30px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; }`,
         `@media (max-width: 1199px) and (min-width: 810px) { .framer-JC3Nv .framer-styles-preset-12qzpp4:not(.rich-text-wrapper), .framer-JC3Nv .framer-styles-preset-12qzpp4.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 28px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
         `@media (max-width: 809px) and (min-width: 0px) { .framer-JC3Nv .framer-styles-preset-12qzpp4:not(.rich-text-wrapper), .framer-JC3Nv .framer-styles-preset-12qzpp4.rich-text-wrapper h3 { --framer-font-family: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif; --framer-font-open-type-features: normal; --framer-font-size: 28px; --framer-font-style: normal; --framer-font-style-bold: normal; --framer-font-style-bold-italic: italic; --framer-font-style-italic: italic; --framer-font-variation-axes: normal; --framer-font-weight: 400; --framer-font-weight-bold: 700; --framer-font-weight-bold-italic: 700; --framer-font-weight-italic: 400; --framer-letter-spacing: 0em; --framer-line-height: 1.1em; --framer-paragraph-spacing: 40px; --framer-text-alignment: start; --framer-text-color: var(--token-f72f35de-6eed-43ee-9e84-9b471b441cf4, #f5f5f5); --framer-text-decoration: none; --framer-text-stroke-color: initial; --framer-text-stroke-width: initial; --framer-text-transform: none; } }`,
       ]),
-      ($a = `framer-JC3Nv`));
+      (ro = `framer-JC3Nv`));
   }),
-  to,
-  no,
-  ro,
-  io,
   ao,
   oo,
   so,
@@ -9347,71 +9347,76 @@ var ka,
   _o,
   vo,
   yo,
-  $,
   bo,
   xo,
   So,
   Co,
+  $,
   wo,
   To,
   Eo,
   Do,
   Oo,
-  ko;
+  ko,
+  Ao,
+  jo,
+  Mo,
+  No;
 e(() => {
   (v(),
     k(),
     O(),
     d(),
-    Ze(),
-    Dt(),
-    en(),
-    Or(),
-    Yr(),
-    vi(),
-    Wi(),
-    Ut(),
-    Da(),
-    Ha(),
-    J(),
-    ut(),
-    Ka(),
-    Xa(),
+    tt(),
     jt(),
+    an(),
+    Mr(),
+    $r(),
+    Si(),
+    Ji(),
+    qt(),
+    ja(),
+    Ka(),
+    Ne(),
+    mt(),
+    Xa(),
     eo(),
-    Ee(),
-    (to = ce(U)),
-    (no = M(Jr)),
-    (ro = M(Ht)),
-    (io = M(X)),
-    (ao = M(Dr)),
-    (oo = M(Y)),
-    (so = ce(C.div)),
-    (co = M($t)),
-    (lo = M(Ea)),
-    (uo = M(_i)),
-    (fo = me(_i)),
-    (po = M(Va)),
-    (mo = M(Ui)),
-    (ho = {
+    Ft(),
+    io(),
+    Me(),
+    Oe(),
+    (ao = ce(U)),
+    (oo = M(Qr)),
+    (so = M(Kt)),
+    (co = M(X)),
+    (lo = M(jr)),
+    (uo = M(Y)),
+    (fo = ce(C.div)),
+    (po = M(rn)),
+    (mo = M(Aa)),
+    (ho = M(xi)),
+    (go = me(xi)),
+    (_o = M(Ga)),
+    (vo = M(qi)),
+    (yo = {
       dV9dN50OP: `(max-width: 809.98px)`,
       MNFOeKjhJ: `(min-width: 810px) and (max-width: 1199.98px)`,
       WQLkyLRf1: `(min-width: 1200px)`,
     }),
-    (go = []),
-    (_o = `framer-5wkIU`),
-    (vo = {
+    (bo = []),
+    (xo = `framer-f6e6T`),
+    (So = {
       dV9dN50OP: `framer-v-1bp0152`,
       MNFOeKjhJ: `framer-v-1npr79d`,
       WQLkyLRf1: `framer-v-72rtr7`,
     }),
-    (yo = (e, t, n) => (e && t ? `position` : n)),
+    (Co = (e, t, n) => (e && t ? `position` : n)),
     ($ = (...e) => {
       for (let t of e) if (t && typeof t == `string`) return t;
     }),
-    (bo = (e, t) => `translate(-50%, -50%) ${t}`),
-    (xo = { delay: 0, duration: 1, ease: [0, 0, 1, 1], type: `tween` }),
-    (So = {
+    (wo = (e, t) => `translate(-50%, -50%) ${t}`),
+    (To = { delay: 0, duration: 1, ease: [0, 0, 1, 1], type: `tween` }),
+    (Eo = {
       opacity: 1,
       rotate: 360,
       rotateX: 0,
@@ -9422,31 +9427,31 @@ e(() => {
       x: 0,
       y: 0,
     }),
-    (Co = (e, t) => `translateX(-50%) ${t}`),
-    (wo = (e, t) => `translateY(-50%) ${t}`),
-    (To = { Desktop: `WQLkyLRf1`, Phone: `dV9dN50OP`, Tablet: `MNFOeKjhJ` }),
-    (Eo = ({ value: e }) =>
+    (Do = (e, t) => `translateX(-50%) ${t}`),
+    (Oo = (e, t) => `translateY(-50%) ${t}`),
+    (ko = { Desktop: `WQLkyLRf1`, Phone: `dV9dN50OP`, Tablet: `MNFOeKjhJ` }),
+    (Ao = ({ value: e }) =>
       _e()
         ? null
         : h(`style`, { dangerouslySetInnerHTML: { __html: e }, "data-framer-html-style": `` })),
-    (Do = ({ height: e, id: t, width: n, ...r }) => ({
+    (jo = ({ height: e, id: t, width: n, ...r }) => ({
       ...r,
-      variant: To[r.variant] ?? r.variant ?? `WQLkyLRf1`,
+      variant: ko[r.variant] ?? r.variant ?? `WQLkyLRf1`,
     })),
-    (Oo = R(
+    (Mo = R(
       p(function (e, n) {
         let r = t(null),
           i = n ?? r,
           o = b(),
           { activeLocale: l, setLocale: u } = B(),
           d = P(),
-          { style: f, className: p, layoutId: m, variant: g, ...v } = Do(e);
-        he(c(() => Oe({}, l), [l]));
-        let [y, x] = le(g, ho, !1),
-          S = G(_o, Ya, At, lt, Ga, ye, $a),
+          { style: f, className: p, layoutId: m, variant: g, ...v } = jo(e);
+        he(c(() => Ae({}, l), [l]));
+        let [y, x] = le(g, yo, !1),
+          S = G(xo, $a, Te, pt, Ya, Pe, Pt, ro),
           ee = s(oe)?.isLayoutTemplate,
           te = !!s(T)?.transition?.layout,
-          w = yo(ee, te),
+          w = Co(ee, te),
           E = pe(`iYUNHqCEb`),
           O = t(null),
           k = pe(`U6VhzUg6a`),
@@ -9467,14 +9472,14 @@ e(() => {
           h(oe.Provider, {
             value: {
               activeVariantId: y,
-              humanReadableVariantMap: To,
+              humanReadableVariantMap: ko,
               primaryVariantId: `WQLkyLRf1`,
-              variantClassNames: vo,
+              variantClassNames: So,
             },
             children: _(D, {
               id: m ?? o,
               children: [
-                h(Eo, {
+                h(Ao, {
                   value: `html body { background: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, rgb(1, 1, 23)); }`,
                 }),
                 _(C.div, {
@@ -9519,7 +9524,7 @@ e(() => {
                                       },
                                     },
                                   },
-                                  children: h(to, {
+                                  children: h(ao, {
                                     __framer__spring: {
                                       damping: 60,
                                       delay: 0,
@@ -9600,7 +9605,7 @@ e(() => {
                                       },
                                     },
                                   },
-                                  children: h(to, {
+                                  children: h(ao, {
                                     __framer__spring: {
                                       damping: 60,
                                       delay: 0,
@@ -9676,7 +9681,7 @@ e(() => {
                                       className: `framer-1ok201j-container`,
                                       nodeId: `Md0g4bJOo`,
                                       scopeId: `augiA20Il`,
-                                      children: h(Jr, {
+                                      children: h(Qr, {
                                         height: `100%`,
                                         id: `Md0g4bJOo`,
                                         layoutId: `Md0g4bJOo`,
@@ -9775,24 +9780,6 @@ e(() => {
                           className: `framer-la7fvh`,
                           "data-framer-name": `Rich Texts`,
                           children: [
-                            h(F, {
-                              __fromCanvasComponent: !0,
-                              children: h(a, {
-                                children: h(`p`, {
-                                  className: `framer-styles-preset-qpltp7`,
-                                  "data-styles-preset": `KI3pCqnpD`,
-                                  dir: `auto`,
-                                  style: {
-                                    "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
-                                  },
-                                  children: `Util4dev`,
-                                }),
-                              }),
-                              className: `framer-1ix5vbv`,
-                              fonts: [`Inter`],
-                              verticalAlignment: `top`,
-                              withExternalLayout: !0,
-                            }),
                             h(V, {
                               breakpoint: y,
                               overrides: {
@@ -9838,79 +9825,10 @@ e(() => {
                                   style: {
                                     "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
                                   },
-                                  children: ` hợp nhất công nghệ`,
+                                  children: `Util4dev`,
                                 }),
                               }),
-                              className: `framer-19nc088`,
-                              fonts: [`Inter`],
-                              verticalAlignment: `top`,
-                              withExternalLayout: !0,
-                            }),
-                            h(V, {
-                              breakpoint: y,
-                              overrides: {
-                                dV9dN50OP: {
-                                  background: {
-                                    alt: ``,
-                                    fit: `fill`,
-                                    pixelHeight: 2500,
-                                    pixelWidth: 2500,
-                                    positionX: `center`,
-                                    positionY: `top`,
-                                    sizes: `48px`,
-                                    src: `../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png?width=2500&height=2500`,
-                                    srcSet: `../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png 512w,../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png?scale-down-to=1024&width=2500&height=2500 1024w,../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png?scale-down-to=2048&width=2500&height=2500 2048w,../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png?width=2500&height=2500 2500w`,
-                                  },
-                                },
-                              },
-                              children: h(U, {
-                                background: {
-                                  alt: ``,
-                                  fit: `fill`,
-                                  pixelHeight: 2500,
-                                  pixelWidth: 2500,
-                                  positionX: `center`,
-                                  positionY: `top`,
-                                  sizes: `62px`,
-                                  src: `../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png?width=2500&height=2500`,
-                                  srcSet: `../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png 512w,../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png?scale-down-to=1024&width=2500&height=2500 1024w,../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png?scale-down-to=2048&width=2500&height=2500 2048w,../../assets/images/YAiTclkgcUAeYJwOifpJJ85k.png?width=2500&height=2500 2500w`,
-                                },
-                                className: `framer-lvsu6d`,
-                                "data-framer-name": `3d Object`,
-                              }),
-                            }),
-                            h(F, {
-                              __fromCanvasComponent: !0,
-                              children: h(a, {
-                                children: h(`p`, {
-                                  className: `framer-styles-preset-qpltp7`,
-                                  "data-styles-preset": `KI3pCqnpD`,
-                                  dir: `auto`,
-                                  style: {
-                                    "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
-                                  },
-                                  children: `xây dựng`,
-                                }),
-                              }),
-                              className: `framer-5aywpq`,
-                              fonts: [`Inter`],
-                              verticalAlignment: `top`,
-                              withExternalLayout: !0,
-                            }),
-                            h(F, {
-                              __fromCanvasComponent: !0,
-                              children: h(a, {
-                                children: h(`p`, {
-                                  className: `framer-styles-preset-qpltp7`,
-                                  "data-styles-preset": `KI3pCqnpD`,
-                                  dir: `auto`,
-                                  style: {
-                                    "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
-                                  },
-                                  children: `nền tảng`,
-                                }),
-                              }),
-                              className: `framer-esox5h`,
+                              className: `framer-1ix5vbv`,
                               fonts: [`Inter`],
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
@@ -9958,64 +9876,13 @@ e(() => {
                                   style: {
                                     "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
                                   },
-                                  children: `Thiết kế`,
-                                }),
-                              }),
-                              className: `framer-qoiezj`,
-                              fonts: [`Inter`],
-                              verticalAlignment: `top`,
-                              withExternalLayout: !0,
-                            }),
-                            h(F, {
-                              __fromCanvasComponent: !0,
-                              children: h(a, {
-                                children: h(`p`, {
-                                  className: `framer-styles-preset-qpltp7`,
-                                  "data-styles-preset": `KI3pCqnpD`,
-                                  dir: `auto`,
-                                  style: {
-                                    "--framer-text-color": `var(--token-4d1b0f99-6f90-4116-a39a-ef6c7bbf7415, rgb(245, 243, 255))`,
-                                  },
-                                  children: `cách làm việc`,
+                                  children: `Thiết kế cách làm việc`,
                                 }),
                               }),
                               className: `framer-1a10g8j`,
                               fonts: [`Inter`],
                               verticalAlignment: `top`,
                               withExternalLayout: !0,
-                            }),
-                            h(V, {
-                              breakpoint: y,
-                              overrides: {
-                                dV9dN50OP: {
-                                  background: {
-                                    alt: ``,
-                                    fit: `fill`,
-                                    pixelHeight: 2500,
-                                    pixelWidth: 2500,
-                                    positionX: `center`,
-                                    positionY: `top`,
-                                    sizes: `48px`,
-                                    src: `../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png?width=2500&height=2500`,
-                                    srcSet: `../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png 512w,../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png?scale-down-to=1024&width=2500&height=2500 1024w,../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png?scale-down-to=2048&width=2500&height=2500 2048w,../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png?width=2500&height=2500 2500w`,
-                                  },
-                                },
-                              },
-                              children: h(U, {
-                                background: {
-                                  alt: ``,
-                                  fit: `fill`,
-                                  pixelHeight: 2500,
-                                  pixelWidth: 2500,
-                                  positionX: `center`,
-                                  positionY: `top`,
-                                  sizes: `62px`,
-                                  src: `../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png?width=2500&height=2500`,
-                                  srcSet: `../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png 512w,../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png?scale-down-to=1024&width=2500&height=2500 1024w,../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png?scale-down-to=2048&width=2500&height=2500 2048w,../../assets/images/chr0i1jcflcVcbvkBkfo0maQpA.png?width=2500&height=2500 2500w`,
-                                },
-                                className: `framer-1fiua8d`,
-                                "data-framer-name": `3d Object`,
-                              }),
                             }),
                             h(F, {
                               __fromCanvasComponent: !0,
@@ -10056,7 +9923,7 @@ e(() => {
                                           className: `framer-1unbp0v-container`,
                                           nodeId: `XZc1RRV7p`,
                                           scopeId: `augiA20Il`,
-                                          children: h(Ht, {
+                                          children: h(Kt, {
                                             height: `100%`,
                                             id: `XZc1RRV7p`,
                                             layoutId: `XZc1RRV7p`,
@@ -10071,29 +9938,29 @@ e(() => {
                                         overrides: {
                                           dV9dN50OP: {
                                             children: h(a, {
-                                              children: h(`h2`, {
-                                                className: `framer-styles-preset-14yy0fo`,
-                                                "data-styles-preset": `U2wSnEg3t`,
+                                              children: h(`h3`, {
+                                                className: `framer-styles-preset-ko1txu`,
+                                                "data-styles-preset": `YSqkrWqww`,
                                                 dir: `auto`,
                                                 style: {
                                                   "--framer-text-alignment": `center`,
                                                   "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                                 },
-                                                children: `Tập hợp giải pháp công nghệ đáp ứng nhu cầu của bạn!`,
+                                                children: `Sức mạnh hợp nhất giữa tri thức & thực thi`,
                                               }),
                                             }),
                                           },
                                           MNFOeKjhJ: {
                                             children: h(a, {
-                                              children: h(`h2`, {
-                                                className: `framer-styles-preset-14yy0fo`,
-                                                "data-styles-preset": `U2wSnEg3t`,
+                                              children: h(`h3`, {
+                                                className: `framer-styles-preset-ko1txu`,
+                                                "data-styles-preset": `YSqkrWqww`,
                                                 dir: `auto`,
                                                 style: {
                                                   "--framer-text-alignment": `center`,
                                                   "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                                 },
-                                                children: `Tập hợp giải pháp công nghệ đáp ứng nhu cầu của bạn!`,
+                                                children: `Sức mạnh hợp nhất giữa tri thức & thực thi`,
                                               }),
                                             }),
                                           },
@@ -10101,14 +9968,14 @@ e(() => {
                                         children: h(F, {
                                           __fromCanvasComponent: !0,
                                           children: h(a, {
-                                            children: h(`h2`, {
-                                              className: `framer-styles-preset-14yy0fo`,
-                                              "data-styles-preset": `U2wSnEg3t`,
+                                            children: h(`h3`, {
+                                              className: `framer-styles-preset-ko1txu`,
+                                              "data-styles-preset": `YSqkrWqww`,
                                               dir: `auto`,
                                               style: {
                                                 "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                               },
-                                              children: `Tập hợp giải pháp công nghệ đáp ứng nhu cầu của bạn!`,
+                                              children: `Sức mạnh hợp nhất giữa tri thức & thực thi`,
                                             }),
                                           }),
                                           className: `framer-kwokev`,
@@ -10130,7 +9997,7 @@ e(() => {
                                                   "--framer-text-alignment": `center`,
                                                   "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                                 },
-                                                children: `Util4dev thay đổi cách bạn làm việc bằng sức mạnh của các công nghệ tiên tiến như:`,
+                                                children: `Util4dev không chỉ cung cấp công cụ rời rạc. Chúng tôi kết hợp giải pháp RAG tiên tiến nhất với các AI Agent tự vận hành để tái kiến tạo bộ máy làm việc của bạn.`,
                                               }),
                                             }),
                                           },
@@ -10144,7 +10011,7 @@ e(() => {
                                                   "--framer-text-alignment": `center`,
                                                   "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                                 },
-                                                children: `Util4dev thay đổi cách bạn làm việc bằng sức mạnh của các công nghệ tiên tiến như:`,
+                                                children: `Util4dev không chỉ cung cấp công cụ rời rạc. Chúng tôi kết hợp giải pháp RAG tiên tiến nhất với các AI Agent tự vận hành để tái kiến tạo bộ máy làm việc của bạn.`,
                                               }),
                                             }),
                                           },
@@ -10160,7 +10027,7 @@ e(() => {
                                                 "--framer-text-alignment": `left`,
                                                 "--framer-text-color": `var(--token-d057d591-fb7e-49e5-8b27-339bf21a2048, rgb(229, 229, 229))`,
                                               },
-                                              children: `Util4dev thay đổi cách bạn làm việc bằng sức mạnh của các công nghệ tiên tiến như:`,
+                                              children: `Util4dev không chỉ cung cấp công cụ rời rạc. Chúng tôi kết hợp giải pháp RAG tiên tiến nhất với các AI Agent tự vận hành để tái kiến tạo bộ máy làm việc của bạn.`,
                                             }),
                                           }),
                                           className: `framer-fgnpc0`,
@@ -10206,8 +10073,8 @@ e(() => {
                                                 style: { width: `100%` },
                                                 variant: $(`b6EZJwsob`),
                                                 width: `100%`,
-                                                xKsrNeCEm: `RAG`,
-                                                yvKNMfljW: `Bộ não tra cứu dữ liệu nội bộ của doanh nghiệp.`,
+                                                xKsrNeCEm: `Bộ não doanh nghiệp`,
+                                                yvKNMfljW: `RAG biến toàn bộ dữ liệu, file Excel và quy trình nội bộ thành một bộ não số tập trung — giúp AI truy xuất thông tin chính xác sau 1 giây.`,
                                               }),
                                             }),
                                           }),
@@ -10244,8 +10111,8 @@ e(() => {
                                                 style: { width: `100%` },
                                                 variant: $(`b6EZJwsob`),
                                                 width: `100%`,
-                                                xKsrNeCEm: `AI agent`,
-                                                yvKNMfljW: `Nhân sự số biết tự lên kế hoạch và thực thi tác vụ.`,
+                                                xKsrNeCEm: `Nhân sự số`,
+                                                yvKNMfljW: `AI agent đóng vai trò là nhân sự số chuyên biệt, có khả năng tự lên kế hoạch, tự điều phối đa hệ thống và thực thi tác vụ 24/7.`,
                                               }),
                                             }),
                                           }),
@@ -10269,7 +10136,7 @@ e(() => {
                                 },
                               },
                               children: h(W, {
-                                height: 463.6,
+                                height: 441.2,
                                 width: `max((min(${d?.width || `100vw`}, 1200px) - 100px) / 2, 1px)`,
                                 children: h(z, {
                                   className: `framer-154jz2f-container`,
@@ -10282,7 +10149,7 @@ e(() => {
                                       dV9dN50OP: { style: { width: `100%` } },
                                       MNFOeKjhJ: { style: { width: `100%` } },
                                     },
-                                    children: h(Dr, {
+                                    children: h(jr, {
                                       height: `100%`,
                                       id: `wfFANPtBb`,
                                       layoutId: `wfFANPtBb`,
@@ -10866,7 +10733,7 @@ e(() => {
                                         className: `framer-zroyd3-container`,
                                         nodeId: `ZkRPIb5ot`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Ht, {
+                                        children: h(Kt, {
                                           height: `100%`,
                                           id: `ZkRPIb5ot`,
                                           layoutId: `ZkRPIb5ot`,
@@ -11119,7 +10986,7 @@ e(() => {
                               "data-border": !0,
                               "data-framer-name": `Decors`,
                               children: [
-                                h(so, {
+                                h(fo, {
                                   __framer__spring: {
                                     damping: 60,
                                     delay: 0,
@@ -11188,18 +11055,18 @@ e(() => {
                                     }),
                                     className: `framer-shxrxy`,
                                     fonts: [`GF;Inter-regular`],
-                                    transformTemplate: bo,
+                                    transformTemplate: wo,
                                     verticalAlignment: `top`,
                                     withExternalLayout: !0,
                                   }),
                                 }),
-                                h(so, {
-                                  __framer__loop: So,
+                                h(fo, {
+                                  __framer__loop: Eo,
                                   __framer__loopEffectEnabled: !0,
                                   __framer__loopPauseOffscreen: !0,
                                   __framer__loopRepeatDelay: 0,
                                   __framer__loopRepeatType: `mirror`,
-                                  __framer__loopTransition: xo,
+                                  __framer__loopTransition: To,
                                   __framer__styleTransformEffectEnabled: !0,
                                   __framer__transformTargets: [
                                     {
@@ -11234,7 +11101,7 @@ e(() => {
                                   __targetOpacity: 1,
                                   className: `framer-eby5ch`,
                                   "data-framer-name": `Light`,
-                                  transformTemplate: bo,
+                                  transformTemplate: wo,
                                 }),
                                 _(`div`, {
                                   className: `framer-ua5e1b`,
@@ -11345,7 +11212,7 @@ e(() => {
                                   className: `framer-1704cpc`,
                                   "data-framer-name": `Top`,
                                   style: { rotate: 180 },
-                                  transformTemplate: Co,
+                                  transformTemplate: Do,
                                   children: [
                                     _(`div`, {
                                       className: `framer-9pkixk`,
@@ -11452,7 +11319,7 @@ e(() => {
                                   className: `framer-1tacat3`,
                                   "data-framer-name": `Left`,
                                   style: { rotate: 90 },
-                                  transformTemplate: wo,
+                                  transformTemplate: Oo,
                                   children: [
                                     _(`div`, {
                                       className: `framer-zgcfdk`,
@@ -11548,7 +11415,7 @@ e(() => {
                                   className: `framer-2kludh`,
                                   "data-framer-name": `Right`,
                                   style: { rotate: -90 },
-                                  transformTemplate: wo,
+                                  transformTemplate: Oo,
                                   children: [
                                     _(`div`, {
                                       className: `framer-12arpol`,
@@ -11658,7 +11525,7 @@ e(() => {
                               ],
                             }),
                           }),
-                          _(so, {
+                          _(fo, {
                             __framer__spring: {
                               damping: 60,
                               delay: 0,
@@ -11704,7 +11571,7 @@ e(() => {
                             className: `framer-18f2cvk`,
                             "data-framer-name": `Card`,
                             style: { transformPerspective: 500 },
-                            transformTemplate: bo,
+                            transformTemplate: wo,
                             children: [
                               h(U, {
                                 background: {
@@ -11796,7 +11663,7 @@ e(() => {
                                 className: `framer-13vydhe-container`,
                                 nodeId: `l23j0jFfm`,
                                 scopeId: `augiA20Il`,
-                                children: h($t, {
+                                children: h(rn, {
                                   blBXxPHbO: !0,
                                   bRyvaH27Q: `Kiến tạo cách làm việc mới `,
                                   height: `100%`,
@@ -11827,7 +11694,7 @@ e(() => {
                                 children: h(V, {
                                   breakpoint: y,
                                   overrides: { dV9dN50OP: { variant: $(`YkRwyK5Zj`) } },
-                                  children: h(Ea, {
+                                  children: h(Aa, {
                                     height: `100%`,
                                     id: `ALpI4vCyC`,
                                     layoutId: `ALpI4vCyC`,
@@ -11856,7 +11723,7 @@ e(() => {
                             nodeId: `zKzXmXRGU`,
                             ref: ie,
                             scopeId: `augiA20Il`,
-                            children: h($t, {
+                            children: h(rn, {
                               blBXxPHbO: !0,
                               bRyvaH27Q: `Chuyển đổi từ thế bị động sang chủ động`,
                               height: `100%`,
@@ -11882,7 +11749,7 @@ e(() => {
                               ref: se,
                               rendersWithMotion: !0,
                               scopeId: `augiA20Il`,
-                              children: h(fo, {
+                              children: h(go, {
                                 __framer__animateOnce: !1,
                                 __framer__threshold: 1,
                                 __framer__variantAppearEffectEnabled: !0,
@@ -12016,7 +11883,7 @@ e(() => {
                                         className: `framer-1pcksmg-container`,
                                         nodeId: `EBNMcAQFa`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Va, {
+                                        children: h(Ga, {
                                           height: `100%`,
                                           I8x_1pBcj: `Util4dev nghĩa là gì?`,
                                           id: `EBNMcAQFa`,
@@ -12050,7 +11917,7 @@ e(() => {
                                         className: `framer-1t3z73n-container`,
                                         nodeId: `m1PPLCI3K`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Va, {
+                                        children: h(Ga, {
                                           height: `100%`,
                                           I8x_1pBcj: `Dữ liệu của tôi được quét liên tục 24/7 có an toàn không? AI Agent dựa vào đâu để phát hiện bất thường?`,
                                           id: `m1PPLCI3K`,
@@ -12084,7 +11951,7 @@ e(() => {
                                         className: `framer-lxy4y4-container`,
                                         nodeId: `JcrKmJGCC`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Va, {
+                                        children: h(Ga, {
                                           height: `100%`,
                                           I8x_1pBcj: `Thiết lập bộ quy tắc đối chiếu có phức tạp không? Nếu doanh nghiệp đang dùng Zalo hay Excel thì có tích hợp được không?`,
                                           id: `JcrKmJGCC`,
@@ -12118,7 +11985,7 @@ e(() => {
                                         className: `framer-1scxxvo-container`,
                                         nodeId: `C10yzXb47`,
                                         scopeId: `augiA20Il`,
-                                        children: h(Va, {
+                                        children: h(Ga, {
                                           height: `100%`,
                                           I8x_1pBcj: `Nếu AI Agent báo động sai hoặc bỏ sót lỗi thì sao? Chuyên viên sẽ xử lý như thế nào?`,
                                           id: `C10yzXb47`,
@@ -12165,7 +12032,7 @@ e(() => {
                                       variant: $(`slD3l9NUj`),
                                     },
                                   },
-                                  children: h(Ui, {
+                                  children: h(qi, {
                                     height: `100%`,
                                     id: `DXDiXNvM6`,
                                     layoutId: `DXDiXNvM6`,
@@ -12189,109 +12056,110 @@ e(() => {
         );
       }),
       [
-        `.framer-5wkIU.framer-lux5qc, .framer-5wkIU .framer-lux5qc { display: block; }`,
-        `.framer-5wkIU.framer-72rtr7 { align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1200px; }`,
-        `.framer-5wkIU .framer-7dod6r { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; scroll-margin-top: 200px; width: 100%; z-index: 5; }`,
-        `.framer-5wkIU .framer-1mki1k0 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 13%) add; align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 13%) add; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
-        `.framer-5wkIU .framer-1au44ra { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 100px; height: 500px; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-5wkIU .framer-39pjht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: 436px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-wmsqgn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; left: 18px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 9; }`,
-        `.framer-5wkIU .framer-np6d6q { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; overflow: hidden; padding: 0px; position: absolute; right: 22px; top: -5px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 5; }`,
-        `.framer-5wkIU .framer-1ok201j-container { flex: none; height: 550px; position: relative; width: 100%; z-index: 3; }`,
-        `.framer-5wkIU .framer-13indg1 { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) add; mix-blend-mode: screen; opacity: 0.09; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-5wkIU .framer-2y58l1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; scroll-margin-top: 150px; width: 100%; }`,
-        `.framer-5wkIU .framer-k0af9v { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 27px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 100px 25px 100px 25px; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-yg6vbi { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 100px; height: 800px; justify-content: center; padding: 40px 0px 0px 0px; position: sticky; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-5wkIU .framer-1qlm5z7, .framer-5wkIU .framer-11h0s18 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-5wkIU .framer-la7fvh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 17px; height: min-content; justify-content: center; max-width: 975px; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-1ix5vbv, .framer-5wkIU .framer-19nc088, .framer-5wkIU .framer-5aywpq, .framer-5wkIU .framer-esox5h, .framer-5wkIU .framer-qoiezj, .framer-5wkIU .framer-1a10g8j, .framer-5wkIU .framer-1kw4qni, .framer-5wkIU .framer-cwkj3m, .framer-5wkIU .framer-1v0joqm, .framer-5wkIU .framer-1g13tt7, .framer-5wkIU .framer-1t98ne0 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
-        `.framer-5wkIU .framer-1obwh4c, .framer-5wkIU .framer-lvsu6d, .framer-5wkIU .framer-10pj67n, .framer-5wkIU .framer-1fiua8d { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 62px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 62px; will-change: var(--framer-will-change-filter-override, filter); }`,
-        `.framer-5wkIU .framer-16gd5iv, .framer-5wkIU .framer-1fv2udu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-flkrtb { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-1afaic6 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-1l0fz2d, .framer-5wkIU .framer-y0l0rk { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-1unbp0v-container, .framer-5wkIU .framer-zroyd3-container { flex: none; height: auto; position: relative; width: auto; }`,
-        `.framer-5wkIU .framer-kwokev, .framer-5wkIU .framer-fgnpc0, .framer-5wkIU .framer-i58id4, .framer-5wkIU .framer-tqr107 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 500px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-5wkIU .framer-wdmzrp, .framer-5wkIU .framer-1i2yrmx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-be6r75-container, .framer-5wkIU .framer-1d14rzc-container, .framer-5wkIU .framer-1t71dbs-container, .framer-5wkIU .framer-1vo5xwn-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-154jz2f-container { align-self: stretch; flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-zqr5yg { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 0; }`,
-        `.framer-5wkIU .framer-1v3a43r { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-feyxnm { --border-bottom-width: 1px; --border-color: rgba(250, 250, 250, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-bottom-left-radius: 34px; border-bottom-right-radius: 34px; border-top-left-radius: 34px; border-top-right-radius: 34px; box-shadow: inset 0px 0.421531111242075px 0.421531111242075px -0.8333333333333333px rgba(255, 255, 255, 0.13), inset 0px 1.60197331227042px 1.60197331227042px -1.6666666666666665px rgba(255, 255, 255, 0.13), inset 0px 7px 7px -2.5px rgba(255, 255, 255, 0.13); display: grid; flex: none; gap: 20px 20px; grid-auto-rows: min-content; grid-template-columns: repeat(auto-fill, minmax(282px, 1fr)); height: min-content; justify-content: center; overflow: visible; padding: 20px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-1psnt4v, .framer-5wkIU .framer-xjqzmg, .framer-5wkIU .framer-16c0xdy, .framer-5wkIU .framer-xngrzv { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 1fr; }`,
-        `.framer-5wkIU .framer-jx3klg-container { cursor: default; flex: none; height: 270px; position: relative; width: 100%; z-index: 10; }`,
-        `.framer-5wkIU .framer-6uiyx3, .framer-5wkIU .framer-f9gs6n { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-f3x7a-container, .framer-5wkIU .framer-8lw8u4-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-5wkIU .framer-ztv74n-container, .framer-5wkIU .framer-1elfzky-container { cursor: default; flex: none; height: 330px; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-5wkIU .framer-znhnrm-container { flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
-        `.framer-5wkIU .framer-w99w4p { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; aspect-ratio: 1.0126582278481013 / 1; background-color: #010117; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: auto; justify-content: center; overflow: hidden; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-5wkIU .framer-nbkp49 { flex: none; height: 342px; left: calc(50.00000000000002% - 429px / 2); overflow: hidden; position: absolute; top: calc(50.09041591320075% - 342px / 2); width: 429px; z-index: 6; }`,
-        `.framer-5wkIU .framer-n8js10 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; bottom: 1px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; left: 0px; padding: 30px; position: absolute; width: min-content; z-index: 8; }`,
-        `.framer-5wkIU .framer-1axadyl, .framer-5wkIU .framer-1madksd { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-        `.framer-5wkIU .framer-uf1zfz, .framer-5wkIU .framer-1ily88o { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
-        `.framer-5wkIU .framer-1s4cmew, .framer-5wkIU .framer-1bxaqb { background-color: rgba(255, 255, 255, 0.1); flex: none; height: 1px; overflow: hidden; position: relative; width: 231px; }`,
-        `.framer-5wkIU .framer-34b1uq, .framer-5wkIU .framer-1q33nos, .framer-5wkIU .framer-1fkwiq9, .framer-5wkIU .framer-1t7yud9, .framer-5wkIU .framer-gnplo5 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; align-self: stretch; flex: none; height: auto; position: relative; white-space: pre-wrap; width: auto; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-5wkIU .framer-9zmqk2 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; padding: 30px; position: absolute; right: 0px; top: 1px; width: min-content; z-index: 9; }`,
-        `.framer-5wkIU .framer-putkun, .framer-5wkIU .framer-1xda8k8, .framer-5wkIU .framer-1kor0q7 { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: auto; }`,
-        `.framer-5wkIU .framer-p6tjzn, .framer-5wkIU .framer-bj3gl6 { aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-5wkIU .framer-1q7qg1, .framer-5wkIU .framer-rgkh0s, .framer-5wkIU .framer-8d4qq { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-5wkIU .framer-l5pl4y { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.29); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
-        `.framer-5wkIU .framer-1mc1cmk-container { flex: none; height: 20px; left: calc(50.00000000000002% - 20px / 2); position: absolute; top: calc(50.00000000000002% - 20px / 2); width: 20px; }`,
-        `.framer-5wkIU .framer-hajfu1 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.15; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-5wkIU .framer-101kz2c { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-gug6nb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-561hc4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 700px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-swwljn { flex: none; height: 700px; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-5wkIU .framer-heo43w { -webkit-mask: radial-gradient(36% 53% at 50% 50%, #000000 0%, rgba(0,0,0,0) 100%) add; flex: none; height: auto; left: 0px; mask: radial-gradient(36% 53% at 50% 50%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%) add; opacity: 0.3; overflow: hidden; position: absolute; top: 0px; width: 669px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
-        `.framer-5wkIU .framer-usmt83 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; border-top-left-radius: 50px; border-top-right-radius: 50px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 240px; justify-content: center; left: calc(50.00000000000002% - 240px / 2); overflow: visible; padding: 60px 40px 60px 40px; position: absolute; top: calc(50.062893081761025% - 240px / 2); width: 240px; z-index: 5; }`,
-        `.framer-5wkIU .framer-184qr9z { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: #010117; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-top-left-radius: 45px; border-top-right-radius: 45px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.1), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px -5px 0px 0px rgb(18, 18, 38); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 230px; justify-content: center; overflow: visible; padding: 60px 40px 60px 40px; position: relative; width: 230px; }`,
-        `.framer-5wkIU .framer-ix4n7k { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.08); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: #0f0f1c; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; border-top-left-radius: 11px; border-top-right-radius: 11px; box-shadow: inset 0px -5px 0px 0px #151526, 0px 2px 50px 0px rgba(255, 255, 255, 0.25); flex: none; height: 100px; left: calc(50.00000000000002% - 100px / 2); overflow: visible; position: absolute; top: calc(50.00000000000002% - 100px / 2); width: 100px; z-index: 8; }`,
-        `.framer-5wkIU .framer-shxrxy { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); white-space: pre; width: auto; z-index: 3; }`,
-        `.framer-5wkIU .framer-eby5ch { -webkit-filter: blur(50px); aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; border-top-left-radius: 60px; border-top-right-radius: 60px; filter: blur(50px); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 149px; will-change: var(--framer-will-change-override, transform); z-index: 7; }`,
-        `.framer-5wkIU .framer-ua5e1b { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; bottom: 0px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; transform: translateX(-50%); width: min-content; z-index: 1; }`,
-        `.framer-5wkIU .framer-d2f385, .framer-5wkIU .framer-9gt9oc, .framer-5wkIU .framer-1esk5v6, .framer-5wkIU .framer-1x0uys9, .framer-5wkIU .framer-amoeb6, .framer-5wkIU .framer-6hekwl, .framer-5wkIU .framer-1srqqzw, .framer-5wkIU .framer-425ty6, .framer-5wkIU .framer-so1fg0, .framer-5wkIU .framer-9pkixk, .framer-5wkIU .framer-1dqaayv, .framer-5wkIU .framer-lov685, .framer-5wkIU .framer-1p36qzv, .framer-5wkIU .framer-1swmpqo, .framer-5wkIU .framer-1lphk7i, .framer-5wkIU .framer-1dghyv2, .framer-5wkIU .framer-1biver0, .framer-5wkIU .framer-bi87nm, .framer-5wkIU .framer-zgcfdk, .framer-5wkIU .framer-1sj3ks9, .framer-5wkIU .framer-f487ef, .framer-5wkIU .framer-1tte299, .framer-5wkIU .framer-p4hlcq, .framer-5wkIU .framer-1h2n2r9, .framer-5wkIU .framer-dlpv88, .framer-5wkIU .framer-zokmbl, .framer-5wkIU .framer-12arpol, .framer-5wkIU .framer-1y1wi5, .framer-5wkIU .framer-xcsk9u, .framer-5wkIU .framer-1kcp2ao, .framer-5wkIU .framer-mv5f17, .framer-5wkIU .framer-n0a3b1, .framer-5wkIU .framer-vat3ft, .framer-5wkIU .framer-113kpbl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 7px; }`,
-        `.framer-5wkIU .framer-10gecie, .framer-5wkIU .framer-sc8g0l, .framer-5wkIU .framer-1iuql6i, .framer-5wkIU .framer-12s2puc, .framer-5wkIU .framer-1xfwsb1, .framer-5wkIU .framer-1i6kawf, .framer-5wkIU .framer-rf53n8, .framer-5wkIU .framer-867xl, .framer-5wkIU .framer-1tfh29b, .framer-5wkIU .framer-1eda2up, .framer-5wkIU .framer-1qw4diq, .framer-5wkIU .framer-36a1sf, .framer-5wkIU .framer-y1i8tj, .framer-5wkIU .framer-1w3w184, .framer-5wkIU .framer-41fqr7, .framer-5wkIU .framer-1r7widh, .framer-5wkIU .framer-ya9uhb, .framer-5wkIU .framer-1r8goa4, .framer-5wkIU .framer-zu341p, .framer-5wkIU .framer-xflsxq, .framer-5wkIU .framer-ho0m6l, .framer-5wkIU .framer-7nv7an, .framer-5wkIU .framer-7bj5wz, .framer-5wkIU .framer-fnyeb8, .framer-5wkIU .framer-1dgg61f, .framer-5wkIU .framer-wd5i5z, .framer-5wkIU .framer-zd88su, .framer-5wkIU .framer-1t8qsas, .framer-5wkIU .framer-13rwvn9, .framer-5wkIU .framer-hsobs1, .framer-5wkIU .framer-l3dhnu, .framer-5wkIU .framer-1vu9xoi, .framer-5wkIU .framer-qjqm97, .framer-5wkIU .framer-1c1oc41 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-18hq8p2, .framer-5wkIU .framer-bqwiqu, .framer-5wkIU .framer-1swx3aq, .framer-5wkIU .framer-1w4aefw, .framer-5wkIU .framer-1tpir69, .framer-5wkIU .framer-15rq9h7, .framer-5wkIU .framer-1m3oam1, .framer-5wkIU .framer-1ju0v5u, .framer-5wkIU .framer-1tglqmr, .framer-5wkIU .framer-1uf9mxj, .framer-5wkIU .framer-1h7hn3v, .framer-5wkIU .framer-fcegqc, .framer-5wkIU .framer-1xpg41w, .framer-5wkIU .framer-grcv3c, .framer-5wkIU .framer-9iej07, .framer-5wkIU .framer-186tb14, .framer-5wkIU .framer-iawexo, .framer-5wkIU .framer-1xvjhhw, .framer-5wkIU .framer-12sev8g, .framer-5wkIU .framer-fapyao, .framer-5wkIU .framer-1wkdjqn, .framer-5wkIU .framer-1isb641, .framer-5wkIU .framer-1thuvo1, .framer-5wkIU .framer-opqvdb, .framer-5wkIU .framer-cz9lgj, .framer-5wkIU .framer-1cxikid, .framer-5wkIU .framer-1njdv9x, .framer-5wkIU .framer-1uxj224, .framer-5wkIU .framer-36wm5j, .framer-5wkIU .framer-cmiagn, .framer-5wkIU .framer-trdy3u, .framer-5wkIU .framer-dp41nc, .framer-5wkIU .framer-1olfxnc, .framer-5wkIU .framer-1c7vd7a { background-color: #26263b; flex: none; height: 2px; overflow: hidden; position: relative; width: 3px; }`,
-        `.framer-5wkIU .framer-1blku5b, .framer-5wkIU .framer-vryvz3, .framer-5wkIU .framer-1lgx97q, .framer-5wkIU .framer-1vo5k69, .framer-5wkIU .framer-1sc3pyy, .framer-5wkIU .framer-1oy9leb, .framer-5wkIU .framer-8r580i, .framer-5wkIU .framer-1cfwvrk, .framer-5wkIU .framer-1oprtfp, .framer-5wkIU .framer-3sq8h3, .framer-5wkIU .framer-9eu0qa, .framer-5wkIU .framer-1pp8gvd, .framer-5wkIU .framer-1jpo2es, .framer-5wkIU .framer-4e81e7, .framer-5wkIU .framer-1bh4qeh, .framer-5wkIU .framer-1r06lh2, .framer-5wkIU .framer-1hh7ji4, .framer-5wkIU .framer-1j94mul, .framer-5wkIU .framer-1pwbak4, .framer-5wkIU .framer-82mlkx, .framer-5wkIU .framer-bpr2qe, .framer-5wkIU .framer-z03wpc, .framer-5wkIU .framer-1is7cls, .framer-5wkIU .framer-1822x3x, .framer-5wkIU .framer-bwg342, .framer-5wkIU .framer-1yz2he9, .framer-5wkIU .framer-1klubqh, .framer-5wkIU .framer-1i9zwqc, .framer-5wkIU .framer-11bt983, .framer-5wkIU .framer-30dnev, .framer-5wkIU .framer-3yrj4, .framer-5wkIU .framer-grfgz6, .framer-5wkIU .framer-1tlzkai, .framer-5wkIU .framer-10hqp73 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-or86ni, .framer-5wkIU .framer-l19m8k, .framer-5wkIU .framer-1ll7tok, .framer-5wkIU .framer-mqrfb2, .framer-5wkIU .framer-l765d2, .framer-5wkIU .framer-13n0vxr, .framer-5wkIU .framer-luf7wi, .framer-5wkIU .framer-13rvf71, .framer-5wkIU .framer-1iglmqd, .framer-5wkIU .framer-44fsjz, .framer-5wkIU .framer-vwx8me, .framer-5wkIU .framer-uwvk6e, .framer-5wkIU .framer-6p4uyb, .framer-5wkIU .framer-1mgctqc, .framer-5wkIU .framer-1rkg42b, .framer-5wkIU .framer-168l4j, .framer-5wkIU .framer-1w6t7gu, .framer-5wkIU .framer-1b5vybr, .framer-5wkIU .framer-2re22o, .framer-5wkIU .framer-19ymgc3, .framer-5wkIU .framer-1l1nqhm, .framer-5wkIU .framer-104g80q, .framer-5wkIU .framer-1mved3f, .framer-5wkIU .framer-1xa0xbr, .framer-5wkIU .framer-1xldh3q, .framer-5wkIU .framer-q8ut7y, .framer-5wkIU .framer-19x7o1d, .framer-5wkIU .framer-1h93ipv, .framer-5wkIU .framer-ndjb9l, .framer-5wkIU .framer-1pt695f, .framer-5wkIU .framer-12b51mw, .framer-5wkIU .framer-194mruf, .framer-5wkIU .framer-1hmmem9, .framer-5wkIU .framer-zz7l6b { background-color: #26263b; flex: none; height: 6px; overflow: hidden; position: relative; width: 3px; }`,
-        `.framer-5wkIU .framer-10qqhre, .framer-5wkIU .framer-1y3kixc, .framer-5wkIU .framer-dujhfu, .framer-5wkIU .framer-16o62ae, .framer-5wkIU .framer-jnqi3m, .framer-5wkIU .framer-fzkgk7, .framer-5wkIU .framer-1qqodxh, .framer-5wkIU .framer-1wszigl, .framer-5wkIU .framer-140tmra, .framer-5wkIU .framer-rs00n7, .framer-5wkIU .framer-baims5, .framer-5wkIU .framer-1ty5wsh, .framer-5wkIU .framer-htzwl1, .framer-5wkIU .framer-120teex, .framer-5wkIU .framer-16x1y9q, .framer-5wkIU .framer-15351tf, .framer-5wkIU .framer-yyyb0b, .framer-5wkIU .framer-1lafilr, .framer-5wkIU .framer-1n43xx3, .framer-5wkIU .framer-1q892uq, .framer-5wkIU .framer-z4jszg, .framer-5wkIU .framer-xdtpf1, .framer-5wkIU .framer-oz109a, .framer-5wkIU .framer-i4ldro, .framer-5wkIU .framer-zxc94p, .framer-5wkIU .framer-1x73ba2, .framer-5wkIU .framer-jjkcfb, .framer-5wkIU .framer-1sgbbek, .framer-5wkIU .framer-1n86hme, .framer-5wkIU .framer-16rxcnq, .framer-5wkIU .framer-oh247, .framer-5wkIU .framer-1j2j096, .framer-5wkIU .framer-14gn505, .framer-5wkIU .framer-lghanc { background-color: #26263b; flex: none; height: 30px; overflow: hidden; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-1704cpc { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 0px; transform: translateX(-50%); width: min-content; z-index: 1; }`,
-        `.framer-5wkIU .framer-1tacat3 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: -20px; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
-        `.framer-5wkIU .framer-2kludh { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
-        `.framer-5wkIU .framer-107c3z8 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; bottom: 0px; filter: invert(1); flex: none; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
-        `.framer-5wkIU .framer-18f2cvk { aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 39px; border-bottom-right-radius: 39px; border-top-left-radius: 39px; border-top-right-radius: 39px; box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.52), inset 0px -4px 1px 0px rgba(255, 255, 255, 0.25); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 217px; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
-        `.framer-5wkIU .framer-imcr1b { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgba(0,0,0,0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
-        `.framer-5wkIU .framer-8p2ooy { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 100%; z-index: 5; }`,
-        `.framer-5wkIU .framer-yr7e8u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-1lqrq9m { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-13vydhe-container, .framer-5wkIU .framer-t6hoyi-container { flex: none; height: auto; position: relative; width: 100%; z-index: 1; }`,
-        `.framer-5wkIU .framer-a7r3bf-container, .framer-5wkIU .framer-1pcksmg-container, .framer-5wkIU .framer-1t3z73n-container, .framer-5wkIU .framer-lxy4y4-container, .framer-5wkIU .framer-1scxxvo-container { flex: none; height: auto; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-4rcdqo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: visible; padding: 75px 0px 75px 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-rlgwnx-container { flex: none; height: 100vh; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-iis1dp { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 75px 25px 75px 25px; position: relative; scroll-margin-top: 150px; width: 100%; z-index: 1; }`,
-        `.framer-5wkIU .framer-1xenox7 { --border-bottom-width: 1px; --border-color: var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; border-bottom-left-radius: 44px; border-bottom-right-radius: 44px; border-top-left-radius: 44px; border-top-right-radius: 44px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 40px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-1pdk0aw { align-content: flex-start; align-items: flex-start; align-self: stretch; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: auto; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
-        `.framer-5wkIU .framer-1uvw7h { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 26px; height: 1px; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-1a2p70w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-rdc6sc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
-        `.framer-5wkIU .framer-jx47os, .framer-5wkIU .framer-dmav2q { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
-        `.framer-5wkIU .framer-a7kr4n-container { flex: 1 0 0px; height: auto; max-width: 30%; position: sticky; top: 35px; width: 1px; z-index: 1; }`,
-        ...Ja,
-        ...kt,
-        ...ct,
-        ...Wa,
-        ...Ae,
+        `.framer-f6e6T.framer-lux5qc, .framer-f6e6T .framer-lux5qc { display: block; }`,
+        `.framer-f6e6T.framer-72rtr7 { align-content: center; align-items: center; background-color: var(--token-129db3aa-c63b-49d4-a9df-4d7f82f7f83f, #010117); display: flex; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 1200px; }`,
+        `.framer-f6e6T .framer-7dod6r { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; scroll-margin-top: 200px; width: 100%; z-index: 5; }`,
+        `.framer-f6e6T .framer-1mki1k0 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 13%) add; align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 13%) add; overflow: visible; padding: 0px; position: relative; width: 1px; z-index: 10; }`,
+        `.framer-f6e6T .framer-1au44ra { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 100px; height: 500px; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 0px 25px; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-f6e6T .framer-39pjht { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: 436px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-wmsqgn { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; left: 18px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 9; }`,
+        `.framer-f6e6T .framer-np6d6q { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 113px; justify-content: center; overflow: hidden; padding: 0px; position: absolute; right: 22px; top: -5px; width: 113px; will-change: var(--framer-will-change-filter-override, filter); z-index: 5; }`,
+        `.framer-f6e6T .framer-1ok201j-container { flex: none; height: 550px; position: relative; width: 100%; z-index: 3; }`,
+        `.framer-f6e6T .framer-13indg1 { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) add; mix-blend-mode: screen; opacity: 0.09; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-f6e6T .framer-2y58l1 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; scroll-margin-top: 150px; width: 100%; }`,
+        `.framer-f6e6T .framer-k0af9v { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 27px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 100px 25px 100px 25px; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-yg6vbi { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 100px; height: 800px; justify-content: center; padding: 40px 0px 0px 0px; position: sticky; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-f6e6T .framer-1qlm5z7, .framer-f6e6T .framer-11h0s18 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-f6e6T .framer-la7fvh { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: wrap; gap: 17px; height: min-content; justify-content: center; max-width: 975px; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-1obwh4c, .framer-f6e6T .framer-10pj67n { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 62px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 62px; will-change: var(--framer-will-change-filter-override, filter); }`,
+        `.framer-f6e6T .framer-1ix5vbv, .framer-f6e6T .framer-1a10g8j, .framer-f6e6T .framer-1kw4qni, .framer-f6e6T .framer-cwkj3m, .framer-f6e6T .framer-1v0joqm, .framer-f6e6T .framer-1g13tt7, .framer-f6e6T .framer-1t98ne0 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre; width: auto; }`,
+        `.framer-f6e6T .framer-16gd5iv, .framer-f6e6T .framer-1fv2udu { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-flkrtb { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-1afaic6 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-1l0fz2d, .framer-f6e6T .framer-y0l0rk { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 15px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-1unbp0v-container, .framer-f6e6T .framer-zroyd3-container { flex: none; height: auto; position: relative; width: auto; }`,
+        `.framer-f6e6T .framer-kwokev, .framer-f6e6T .framer-fgnpc0, .framer-f6e6T .framer-i58id4, .framer-f6e6T .framer-tqr107 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; max-width: 500px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-f6e6T .framer-wdmzrp, .framer-f6e6T .framer-1i2yrmx { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-be6r75-container, .framer-f6e6T .framer-1d14rzc-container, .framer-f6e6T .framer-1t71dbs-container, .framer-f6e6T .framer-1vo5xwn-container { flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-154jz2f-container { align-self: stretch; flex: 1 0 0px; height: auto; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-zqr5yg { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 0px; position: relative; width: 100%; z-index: 0; }`,
+        `.framer-f6e6T .framer-1v3a43r { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-feyxnm { --border-bottom-width: 1px; --border-color: rgba(250, 250, 250, 0.1); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; border-bottom-left-radius: 34px; border-bottom-right-radius: 34px; border-top-left-radius: 34px; border-top-right-radius: 34px; box-shadow: inset 0px 0.421531111242075px 0.421531111242075px -0.8333333333333333px rgba(255, 255, 255, 0.13), inset 0px 1.60197331227042px 1.60197331227042px -1.6666666666666665px rgba(255, 255, 255, 0.13), inset 0px 7px 7px -2.5px rgba(255, 255, 255, 0.13); display: grid; flex: none; gap: 20px 20px; grid-auto-rows: min-content; grid-template-columns: repeat(auto-fill, minmax(282px, 1fr)); height: min-content; justify-content: center; overflow: visible; padding: 20px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-1psnt4v, .framer-f6e6T .framer-xjqzmg, .framer-f6e6T .framer-16c0xdy, .framer-f6e6T .framer-xngrzv { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 1fr; }`,
+        `.framer-f6e6T .framer-jx3klg-container { cursor: default; flex: none; height: 270px; position: relative; width: 100%; z-index: 10; }`,
+        `.framer-f6e6T .framer-6uiyx3, .framer-f6e6T .framer-f9gs6n { align-content: flex-start; align-items: flex-start; align-self: start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: flex-start; justify-self: start; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-f3x7a-container, .framer-f6e6T .framer-8lw8u4-container { cursor: default; flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-f6e6T .framer-ztv74n-container, .framer-f6e6T .framer-1elfzky-container { cursor: default; flex: none; height: 330px; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-f6e6T .framer-znhnrm-container { flex: none; height: auto; position: relative; width: 100%; z-index: 5; }`,
+        `.framer-f6e6T .framer-w99w4p { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; aspect-ratio: 1.0126582278481013 / 1; background-color: #010117; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.19), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: auto; justify-content: center; overflow: hidden; padding: 24px; position: relative; width: 1px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-f6e6T .framer-nbkp49 { flex: none; height: 342px; left: calc(50.00000000000002% - 429px / 2); overflow: hidden; position: absolute; top: calc(50.09041591320075% - 342px / 2); width: 429px; z-index: 6; }`,
+        `.framer-f6e6T .framer-n8js10 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; bottom: 1px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; left: 0px; padding: 30px; position: absolute; width: min-content; z-index: 8; }`,
+        `.framer-f6e6T .framer-1axadyl, .framer-f6e6T .framer-1madksd { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 12px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-f6e6T .framer-uf1zfz, .framer-f6e6T .framer-1ily88o { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: min-content; }`,
+        `.framer-f6e6T .framer-1s4cmew, .framer-f6e6T .framer-1bxaqb { background-color: rgba(255, 255, 255, 0.1); flex: none; height: 1px; overflow: hidden; position: relative; width: 231px; }`,
+        `.framer-f6e6T .framer-34b1uq, .framer-f6e6T .framer-1q33nos, .framer-f6e6T .framer-1fkwiq9, .framer-f6e6T .framer-1t7yud9, .framer-f6e6T .framer-gnplo5 { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; align-self: stretch; flex: none; height: auto; position: relative; white-space: pre-wrap; width: auto; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-f6e6T .framer-9zmqk2 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.11); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; -webkit-backdrop-filter: blur(10px); align-content: flex-start; align-items: flex-start; backdrop-filter: blur(10px); border-bottom-left-radius: 27px; border-bottom-right-radius: 27px; border-top-left-radius: 27px; border-top-right-radius: 27px; box-shadow: inset 0px 1px 28px 0px rgba(255, 255, 255, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 8px 0px rgba(0, 0, 0, 0.25); display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: center; padding: 30px; position: absolute; right: 0px; top: 1px; width: min-content; z-index: 9; }`,
+        `.framer-f6e6T .framer-putkun, .framer-f6e6T .framer-1xda8k8, .framer-f6e6T .framer-1kor0q7 { align-content: center; align-items: center; align-self: stretch; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 14px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: auto; }`,
+        `.framer-f6e6T .framer-p6tjzn, .framer-f6e6T .framer-bj3gl6 { aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-f6e6T .framer-1q7qg1, .framer-f6e6T .framer-rgkh0s, .framer-f6e6T .framer-8d4qq { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-f6e6T .framer-l5pl4y { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.29); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; aspect-ratio: 1 / 1; border-bottom-left-radius: 26px; border-bottom-right-radius: 26px; border-top-left-radius: 26px; border-top-right-radius: 26px; flex: none; height: auto; overflow: hidden; position: relative; width: 52px; will-change: var(--framer-will-change-override, transform); }`,
+        `.framer-f6e6T .framer-1mc1cmk-container { flex: none; height: 20px; left: calc(50.00000000000002% - 20px / 2); position: absolute; top: calc(50.00000000000002% - 20px / 2); width: 20px; }`,
+        `.framer-f6e6T .framer-hajfu1 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.15; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-f6e6T .framer-101kz2c { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-gug6nb { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 75px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-561hc4 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 700px; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-swwljn { flex: none; height: 700px; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-f6e6T .framer-heo43w { -webkit-mask: radial-gradient(36% 53% at 50% 50%, #000000 0%, rgba(0,0,0,0) 100%) add; flex: none; height: auto; left: 0px; mask: radial-gradient(36% 53% at 50% 50%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%) add; opacity: 0.3; overflow: hidden; position: absolute; top: 0px; width: 669px; will-change: var(--framer-will-change-filter-override, filter); z-index: 1; }`,
+        `.framer-f6e6T .framer-usmt83 { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: center; align-items: center; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; border-top-left-radius: 50px; border-top-right-radius: 50px; box-shadow: 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 240px; justify-content: center; left: calc(50.00000000000002% - 240px / 2); overflow: visible; padding: 60px 40px 60px 40px; position: absolute; top: calc(50.062893081761025% - 240px / 2); width: 240px; z-index: 5; }`,
+        `.framer-f6e6T .framer-184qr9z { --border-bottom-width: 1px; --border-color: rgba(228, 230, 235, 0.06); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; background-color: #010117; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px; border-top-left-radius: 45px; border-top-right-radius: 45px; box-shadow: inset 0px 0px 40px 0px rgba(250, 250, 250, 0.1), 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.18), inset 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.16), inset 0px 10px 10px -3.75px rgba(0, 0, 0, 0.06), inset 0px -5px 0px 0px rgb(18, 18, 38); display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 16px; height: 230px; justify-content: center; overflow: visible; padding: 60px 40px 60px 40px; position: relative; width: 230px; }`,
+        `.framer-f6e6T .framer-ix4n7k { --border-bottom-width: 1px; --border-color: rgba(255, 255, 255, 0.08); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; background-color: #0f0f1c; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; border-top-left-radius: 11px; border-top-right-radius: 11px; box-shadow: inset 0px -5px 0px 0px #151526, 0px 2px 50px 0px rgba(255, 255, 255, 0.25); flex: none; height: 100px; left: calc(50.00000000000002% - 100px / 2); overflow: visible; position: absolute; top: calc(50.00000000000002% - 100px / 2); width: 100px; z-index: 8; }`,
+        `.framer-f6e6T .framer-shxrxy { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%); white-space: pre; width: auto; z-index: 3; }`,
+        `.framer-f6e6T .framer-eby5ch { -webkit-filter: blur(50px); aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 60px; border-bottom-right-radius: 60px; border-top-left-radius: 60px; border-top-right-radius: 60px; filter: blur(50px); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 149px; will-change: var(--framer-will-change-override, transform); z-index: 7; }`,
+        `.framer-f6e6T .framer-ua5e1b { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; bottom: 0px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; transform: translateX(-50%); width: min-content; z-index: 1; }`,
+        `.framer-f6e6T .framer-d2f385, .framer-f6e6T .framer-9gt9oc, .framer-f6e6T .framer-1esk5v6, .framer-f6e6T .framer-1x0uys9, .framer-f6e6T .framer-amoeb6, .framer-f6e6T .framer-6hekwl, .framer-f6e6T .framer-1srqqzw, .framer-f6e6T .framer-425ty6, .framer-f6e6T .framer-so1fg0, .framer-f6e6T .framer-9pkixk, .framer-f6e6T .framer-1dqaayv, .framer-f6e6T .framer-lov685, .framer-f6e6T .framer-1p36qzv, .framer-f6e6T .framer-1swmpqo, .framer-f6e6T .framer-1lphk7i, .framer-f6e6T .framer-1dghyv2, .framer-f6e6T .framer-1biver0, .framer-f6e6T .framer-bi87nm, .framer-f6e6T .framer-zgcfdk, .framer-f6e6T .framer-1sj3ks9, .framer-f6e6T .framer-f487ef, .framer-f6e6T .framer-1tte299, .framer-f6e6T .framer-p4hlcq, .framer-f6e6T .framer-1h2n2r9, .framer-f6e6T .framer-dlpv88, .framer-f6e6T .framer-zokmbl, .framer-f6e6T .framer-12arpol, .framer-f6e6T .framer-1y1wi5, .framer-f6e6T .framer-xcsk9u, .framer-f6e6T .framer-1kcp2ao, .framer-f6e6T .framer-mv5f17, .framer-f6e6T .framer-n0a3b1, .framer-f6e6T .framer-vat3ft, .framer-f6e6T .framer-113kpbl { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 7px; }`,
+        `.framer-f6e6T .framer-10gecie, .framer-f6e6T .framer-sc8g0l, .framer-f6e6T .framer-1iuql6i, .framer-f6e6T .framer-12s2puc, .framer-f6e6T .framer-1xfwsb1, .framer-f6e6T .framer-1i6kawf, .framer-f6e6T .framer-rf53n8, .framer-f6e6T .framer-867xl, .framer-f6e6T .framer-1tfh29b, .framer-f6e6T .framer-1eda2up, .framer-f6e6T .framer-1qw4diq, .framer-f6e6T .framer-36a1sf, .framer-f6e6T .framer-y1i8tj, .framer-f6e6T .framer-1w3w184, .framer-f6e6T .framer-41fqr7, .framer-f6e6T .framer-1r7widh, .framer-f6e6T .framer-ya9uhb, .framer-f6e6T .framer-1r8goa4, .framer-f6e6T .framer-zu341p, .framer-f6e6T .framer-xflsxq, .framer-f6e6T .framer-ho0m6l, .framer-f6e6T .framer-7nv7an, .framer-f6e6T .framer-7bj5wz, .framer-f6e6T .framer-fnyeb8, .framer-f6e6T .framer-1dgg61f, .framer-f6e6T .framer-wd5i5z, .framer-f6e6T .framer-zd88su, .framer-f6e6T .framer-1t8qsas, .framer-f6e6T .framer-13rwvn9, .framer-f6e6T .framer-hsobs1, .framer-f6e6T .framer-l3dhnu, .framer-f6e6T .framer-1vu9xoi, .framer-f6e6T .framer-qjqm97, .framer-f6e6T .framer-1c1oc41 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-18hq8p2, .framer-f6e6T .framer-bqwiqu, .framer-f6e6T .framer-1swx3aq, .framer-f6e6T .framer-1w4aefw, .framer-f6e6T .framer-1tpir69, .framer-f6e6T .framer-15rq9h7, .framer-f6e6T .framer-1m3oam1, .framer-f6e6T .framer-1ju0v5u, .framer-f6e6T .framer-1tglqmr, .framer-f6e6T .framer-1uf9mxj, .framer-f6e6T .framer-1h7hn3v, .framer-f6e6T .framer-fcegqc, .framer-f6e6T .framer-1xpg41w, .framer-f6e6T .framer-grcv3c, .framer-f6e6T .framer-9iej07, .framer-f6e6T .framer-186tb14, .framer-f6e6T .framer-iawexo, .framer-f6e6T .framer-1xvjhhw, .framer-f6e6T .framer-12sev8g, .framer-f6e6T .framer-fapyao, .framer-f6e6T .framer-1wkdjqn, .framer-f6e6T .framer-1isb641, .framer-f6e6T .framer-1thuvo1, .framer-f6e6T .framer-opqvdb, .framer-f6e6T .framer-cz9lgj, .framer-f6e6T .framer-1cxikid, .framer-f6e6T .framer-1njdv9x, .framer-f6e6T .framer-1uxj224, .framer-f6e6T .framer-36wm5j, .framer-f6e6T .framer-cmiagn, .framer-f6e6T .framer-trdy3u, .framer-f6e6T .framer-dp41nc, .framer-f6e6T .framer-1olfxnc, .framer-f6e6T .framer-1c7vd7a { background-color: #26263b; flex: none; height: 2px; overflow: hidden; position: relative; width: 3px; }`,
+        `.framer-f6e6T .framer-1blku5b, .framer-f6e6T .framer-vryvz3, .framer-f6e6T .framer-1lgx97q, .framer-f6e6T .framer-1vo5k69, .framer-f6e6T .framer-1sc3pyy, .framer-f6e6T .framer-1oy9leb, .framer-f6e6T .framer-8r580i, .framer-f6e6T .framer-1cfwvrk, .framer-f6e6T .framer-1oprtfp, .framer-f6e6T .framer-3sq8h3, .framer-f6e6T .framer-9eu0qa, .framer-f6e6T .framer-1pp8gvd, .framer-f6e6T .framer-1jpo2es, .framer-f6e6T .framer-4e81e7, .framer-f6e6T .framer-1bh4qeh, .framer-f6e6T .framer-1r06lh2, .framer-f6e6T .framer-1hh7ji4, .framer-f6e6T .framer-1j94mul, .framer-f6e6T .framer-1pwbak4, .framer-f6e6T .framer-82mlkx, .framer-f6e6T .framer-bpr2qe, .framer-f6e6T .framer-z03wpc, .framer-f6e6T .framer-1is7cls, .framer-f6e6T .framer-1822x3x, .framer-f6e6T .framer-bwg342, .framer-f6e6T .framer-1yz2he9, .framer-f6e6T .framer-1klubqh, .framer-f6e6T .framer-1i9zwqc, .framer-f6e6T .framer-11bt983, .framer-f6e6T .framer-30dnev, .framer-f6e6T .framer-3yrj4, .framer-f6e6T .framer-grfgz6, .framer-f6e6T .framer-1tlzkai, .framer-f6e6T .framer-10hqp73 { background-color: #26263b; flex: none; height: 10px; overflow: hidden; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-or86ni, .framer-f6e6T .framer-l19m8k, .framer-f6e6T .framer-1ll7tok, .framer-f6e6T .framer-mqrfb2, .framer-f6e6T .framer-l765d2, .framer-f6e6T .framer-13n0vxr, .framer-f6e6T .framer-luf7wi, .framer-f6e6T .framer-13rvf71, .framer-f6e6T .framer-1iglmqd, .framer-f6e6T .framer-44fsjz, .framer-f6e6T .framer-vwx8me, .framer-f6e6T .framer-uwvk6e, .framer-f6e6T .framer-6p4uyb, .framer-f6e6T .framer-1mgctqc, .framer-f6e6T .framer-1rkg42b, .framer-f6e6T .framer-168l4j, .framer-f6e6T .framer-1w6t7gu, .framer-f6e6T .framer-1b5vybr, .framer-f6e6T .framer-2re22o, .framer-f6e6T .framer-19ymgc3, .framer-f6e6T .framer-1l1nqhm, .framer-f6e6T .framer-104g80q, .framer-f6e6T .framer-1mved3f, .framer-f6e6T .framer-1xa0xbr, .framer-f6e6T .framer-1xldh3q, .framer-f6e6T .framer-q8ut7y, .framer-f6e6T .framer-19x7o1d, .framer-f6e6T .framer-1h93ipv, .framer-f6e6T .framer-ndjb9l, .framer-f6e6T .framer-1pt695f, .framer-f6e6T .framer-12b51mw, .framer-f6e6T .framer-194mruf, .framer-f6e6T .framer-1hmmem9, .framer-f6e6T .framer-zz7l6b { background-color: #26263b; flex: none; height: 6px; overflow: hidden; position: relative; width: 3px; }`,
+        `.framer-f6e6T .framer-10qqhre, .framer-f6e6T .framer-1y3kixc, .framer-f6e6T .framer-dujhfu, .framer-f6e6T .framer-16o62ae, .framer-f6e6T .framer-jnqi3m, .framer-f6e6T .framer-fzkgk7, .framer-f6e6T .framer-1qqodxh, .framer-f6e6T .framer-1wszigl, .framer-f6e6T .framer-140tmra, .framer-f6e6T .framer-rs00n7, .framer-f6e6T .framer-baims5, .framer-f6e6T .framer-1ty5wsh, .framer-f6e6T .framer-htzwl1, .framer-f6e6T .framer-120teex, .framer-f6e6T .framer-16x1y9q, .framer-f6e6T .framer-15351tf, .framer-f6e6T .framer-yyyb0b, .framer-f6e6T .framer-1lafilr, .framer-f6e6T .framer-1n43xx3, .framer-f6e6T .framer-1q892uq, .framer-f6e6T .framer-z4jszg, .framer-f6e6T .framer-xdtpf1, .framer-f6e6T .framer-oz109a, .framer-f6e6T .framer-i4ldro, .framer-f6e6T .framer-zxc94p, .framer-f6e6T .framer-1x73ba2, .framer-f6e6T .framer-jjkcfb, .framer-f6e6T .framer-1sgbbek, .framer-f6e6T .framer-1n86hme, .framer-f6e6T .framer-16rxcnq, .framer-f6e6T .framer-oh247, .framer-f6e6T .framer-1j2j096, .framer-f6e6T .framer-14gn505, .framer-f6e6T .framer-lghanc { background-color: #26263b; flex: none; height: 30px; overflow: hidden; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-1704cpc { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: 50%; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 0px; transform: translateX(-50%); width: min-content; z-index: 1; }`,
+        `.framer-f6e6T .framer-1tacat3 { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; left: -20px; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
+        `.framer-f6e6T .framer-2kludh { -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 100%) add; align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 6px; height: min-content; justify-content: center; mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add; overflow: hidden; padding: 0px; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); width: min-content; z-index: 1; }`,
+        `.framer-f6e6T .framer-107c3z8 { -webkit-filter: invert(1); -webkit-mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; bottom: 0px; filter: invert(1); flex: none; left: 0px; mask: radial-gradient(53% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 36.122255067567565%, rgba(0, 0, 0, 0.7) 59.225436373873876%, rgba(0, 0, 0, 0) 73.81052927927928%, rgba(0, 0, 0, 0.7) 86.59030123873873%, rgba(0, 0, 0, 0.5) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; right: 0px; top: 0px; z-index: 1; }`,
+        `.framer-f6e6T .framer-18f2cvk { aspect-ratio: 1 / 1; background: linear-gradient(318deg, #943dff 0%, rgb(242, 97, 121) 50%, rgb(252, 208, 147) 100%); border-bottom-left-radius: 39px; border-bottom-right-radius: 39px; border-top-left-radius: 39px; border-top-right-radius: 39px; box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.52), inset 0px -4px 1px 0px rgba(255, 255, 255, 0.25); flex: none; height: auto; left: 50%; overflow: hidden; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 217px; will-change: var(--framer-will-change-override, transform); z-index: 10; }`,
+        `.framer-f6e6T .framer-imcr1b { -webkit-filter: invert(1); -webkit-mask: linear-gradient(0deg, rgba(0, 0, 0, 0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; filter: invert(1); flex: none; height: 100%; left: 0px; mask: linear-gradient(0deg, rgba(0,0,0,0) -28.000000000000004%, rgba(0,0,0,1) 100%) add; mix-blend-mode: screen; opacity: 0.1; position: absolute; top: 0px; width: 100%; z-index: 1; }`,
+        `.framer-f6e6T .framer-8p2ooy { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; left: 50%; overflow: hidden; padding: 0px; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 100%; z-index: 5; }`,
+        `.framer-f6e6T .framer-yr7e8u { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-1lqrq9m { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 60px; height: min-content; justify-content: center; max-width: 1200px; overflow: visible; padding: 75px 25px 75px 25px; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-13vydhe-container, .framer-f6e6T .framer-t6hoyi-container { flex: none; height: auto; position: relative; width: 100%; z-index: 1; }`,
+        `.framer-f6e6T .framer-a7r3bf-container, .framer-f6e6T .framer-1pcksmg-container, .framer-f6e6T .framer-1t3z73n-container, .framer-f6e6T .framer-lxy4y4-container, .framer-f6e6T .framer-1scxxvo-container { flex: none; height: auto; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-4rcdqo { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 50px; height: min-content; justify-content: center; overflow: visible; padding: 75px 0px 75px 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-rlgwnx-container { flex: none; height: 100vh; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-iis1dp { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; padding: 75px 25px 75px 25px; position: relative; scroll-margin-top: 150px; width: 100%; z-index: 1; }`,
+        `.framer-f6e6T .framer-1xenox7 { --border-bottom-width: 1px; --border-color: var(--token-64c13be0-f48f-466a-8d93-d1b8decde1b8, rgba(250, 250, 250, 0.1)); --border-left-width: 1px; --border-right-width: 1px; --border-style: solid; --border-top-width: 1px; align-content: flex-start; align-items: flex-start; border-bottom-left-radius: 44px; border-bottom-right-radius: 44px; border-top-left-radius: 44px; border-top-right-radius: 44px; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: flex-start; max-width: 1200px; overflow: visible; padding: 40px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-1pdk0aw { align-content: flex-start; align-items: flex-start; align-self: stretch; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: auto; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 1px; }`,
+        `.framer-f6e6T .framer-1uvw7h { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 26px; height: 1px; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-1a2p70w { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 25px; height: min-content; justify-content: center; overflow: visible; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-rdc6sc { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }`,
+        `.framer-f6e6T .framer-jx47os, .framer-f6e6T .framer-dmav2q { --framer-link-text-color: #0099ff; --framer-link-text-decoration: underline; flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }`,
+        `.framer-f6e6T .framer-a7kr4n-container { flex: 1 0 0px; height: auto; max-width: 30%; position: sticky; top: 35px; width: 1px; z-index: 1; }`,
         ...Qa,
-        `.framer-5wkIU[data-border="true"]::after, .framer-5wkIU [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
-        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-5wkIU.framer-72rtr7 { width: 810px; } .framer-5wkIU .framer-1au44ra { gap: 50px; padding: 50px 25px 0px 25px; } .framer-5wkIU .framer-wmsqgn { left: 50px; } .framer-5wkIU .framer-np6d6q { right: 50px; } .framer-5wkIU .framer-k0af9v, .framer-5wkIU .framer-1v3a43r { padding: 50px 25px 50px 25px; } .framer-5wkIU .framer-la7fvh { gap: 5px 10px; max-width: 600px; } .framer-5wkIU .framer-16gd5iv, .framer-5wkIU .framer-1fv2udu { flex-direction: column; padding: 50px 25px 50px 25px; } .framer-5wkIU .framer-flkrtb { flex: none; width: 100%; } .framer-5wkIU .framer-1l0fz2d, .framer-5wkIU .framer-y0l0rk { align-content: center; align-items: center; } .framer-5wkIU .framer-fgnpc0, .framer-5wkIU .framer-tqr107 { max-width: 450px; } .framer-5wkIU .framer-wdmzrp, .framer-5wkIU .framer-1i2yrmx { gap: 20px; } .framer-5wkIU .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-5wkIU .framer-w99w4p { flex: none; order: 1; width: 100%; } .framer-5wkIU .framer-101kz2c { flex: none; order: 0; width: 100%; } .framer-5wkIU .framer-561hc4 { padding: 100px 0px 100px 0px; } .framer-5wkIU .framer-1lqrq9m { gap: 50px; padding: 50px 25px 50px 25px; } .framer-5wkIU .framer-4rcdqo { padding: 50px 0px 50px 0px; } .framer-5wkIU .framer-iis1dp { padding: 24px; } .framer-5wkIU .framer-1xenox7 { flex-direction: column; } .framer-5wkIU .framer-1pdk0aw { align-self: unset; flex: none; height: min-content; width: 100%; } .framer-5wkIU .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
-        `@media (max-width: 809.98px) { .framer-5wkIU.framer-72rtr7 { width: 390px; } .framer-5wkIU .framer-7dod6r { flex-direction: column; padding: 75px 0px 0px 0px; } .framer-5wkIU .framer-1mki1k0, .framer-5wkIU .framer-flkrtb, .framer-5wkIU .framer-be6r75-container, .framer-5wkIU .framer-1d14rzc-container, .framer-5wkIU .framer-w99w4p, .framer-5wkIU .framer-101kz2c, .framer-5wkIU .framer-1t71dbs-container, .framer-5wkIU .framer-1vo5xwn-container { flex: none; width: 100%; } .framer-5wkIU .framer-1au44ra { gap: 36px; padding: 20px 25px 0px 25px; } .framer-5wkIU .framer-wmsqgn { aspect-ratio: 1 / 1; height: auto; left: 0px; top: 45px; width: 60px; } .framer-5wkIU .framer-np6d6q { aspect-ratio: 1 / 1; height: auto; right: 0px; top: 45px; width: 60px; } .framer-5wkIU .framer-2y58l1 { flex-direction: column; scroll-margin-top: unset; } .framer-5wkIU .framer-k0af9v, .framer-5wkIU .framer-1v3a43r { flex: none; padding: 30px 20px 30px 20px; width: 100%; } .framer-5wkIU .framer-la7fvh { gap: 5px 10px; max-width: 95%; } .framer-5wkIU .framer-1obwh4c, .framer-5wkIU .framer-lvsu6d, .framer-5wkIU .framer-10pj67n, .framer-5wkIU .framer-1fiua8d { aspect-ratio: 1 / 1; height: auto; width: 48px; } .framer-5wkIU .framer-16gd5iv { flex-direction: column; gap: 30px; padding: 30px 20px 30px 20px; } .framer-5wkIU .framer-1afaic6 { align-content: center; align-items: center; padding: 10px; } .framer-5wkIU .framer-1l0fz2d, .framer-5wkIU .framer-y0l0rk { align-content: center; align-items: center; } .framer-5wkIU .framer-wdmzrp, .framer-5wkIU .framer-1i2yrmx { flex-direction: column; gap: 20px; } .framer-5wkIU .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-5wkIU .framer-zqr5yg, .framer-5wkIU .framer-yr7e8u { flex-direction: column; } .framer-5wkIU .framer-feyxnm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; } .framer-5wkIU .framer-1psnt4v, .framer-5wkIU .framer-xjqzmg, .framer-5wkIU .framer-16c0xdy, .framer-5wkIU .framer-xngrzv { align-self: unset; width: 100%; } .framer-5wkIU .framer-6uiyx3, .framer-5wkIU .framer-f9gs6n { align-self: unset; } .framer-5wkIU .framer-1fv2udu { flex-direction: column; padding: 30px 20px 30px 20px; } .framer-5wkIU .framer-gug6nb { align-content: center; align-items: center; gap: 30px; padding: 10px; } .framer-5wkIU .framer-1lqrq9m { flex: none; gap: 30px; padding: 30px 20px 30px 20px; width: 100%; } .framer-5wkIU .framer-4rcdqo { padding: 30px 0px 30px 0px; } .framer-5wkIU .framer-rlgwnx-container { height: 50vh; } .framer-5wkIU .framer-iis1dp { padding: 20px; } .framer-5wkIU .framer-1xenox7 { flex-direction: column; padding: 25px; } .framer-5wkIU .framer-1pdk0aw { align-self: unset; flex: none; gap: 30px; height: min-content; width: 100%; } .framer-5wkIU .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
+        ...we,
+        ...ft,
+        ...Ja,
+        ...J,
+        ...Nt,
+        ...no,
+        `.framer-f6e6T[data-border="true"]::after, .framer-f6e6T [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; corner-shape: inherit; pointer-events: none; }`,
+        `@media (min-width: 810px) and (max-width: 1199.98px) { .framer-f6e6T.framer-72rtr7 { width: 810px; } .framer-f6e6T .framer-1au44ra { gap: 50px; padding: 50px 25px 0px 25px; } .framer-f6e6T .framer-wmsqgn { left: 50px; } .framer-f6e6T .framer-np6d6q { right: 50px; } .framer-f6e6T .framer-k0af9v, .framer-f6e6T .framer-1v3a43r { padding: 50px 25px 50px 25px; } .framer-f6e6T .framer-la7fvh { gap: 5px 10px; max-width: 600px; } .framer-f6e6T .framer-16gd5iv, .framer-f6e6T .framer-1fv2udu { flex-direction: column; padding: 50px 25px 50px 25px; } .framer-f6e6T .framer-flkrtb { flex: none; width: 100%; } .framer-f6e6T .framer-1l0fz2d, .framer-f6e6T .framer-y0l0rk { align-content: center; align-items: center; } .framer-f6e6T .framer-fgnpc0, .framer-f6e6T .framer-tqr107 { max-width: 450px; } .framer-f6e6T .framer-wdmzrp, .framer-f6e6T .framer-1i2yrmx { gap: 20px; } .framer-f6e6T .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-f6e6T .framer-w99w4p { flex: none; order: 1; width: 100%; } .framer-f6e6T .framer-101kz2c { flex: none; order: 0; width: 100%; } .framer-f6e6T .framer-561hc4 { padding: 100px 0px 100px 0px; } .framer-f6e6T .framer-1lqrq9m { gap: 50px; padding: 50px 25px 50px 25px; } .framer-f6e6T .framer-4rcdqo { padding: 50px 0px 50px 0px; } .framer-f6e6T .framer-iis1dp { padding: 24px; } .framer-f6e6T .framer-1xenox7 { flex-direction: column; } .framer-f6e6T .framer-1pdk0aw { align-self: unset; flex: none; height: min-content; width: 100%; } .framer-f6e6T .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
+        `@media (max-width: 809.98px) { .framer-f6e6T.framer-72rtr7 { width: 390px; } .framer-f6e6T .framer-7dod6r { flex-direction: column; padding: 75px 0px 0px 0px; } .framer-f6e6T .framer-1mki1k0, .framer-f6e6T .framer-flkrtb, .framer-f6e6T .framer-be6r75-container, .framer-f6e6T .framer-1d14rzc-container, .framer-f6e6T .framer-w99w4p, .framer-f6e6T .framer-101kz2c, .framer-f6e6T .framer-1t71dbs-container, .framer-f6e6T .framer-1vo5xwn-container { flex: none; width: 100%; } .framer-f6e6T .framer-1au44ra { gap: 36px; padding: 20px 25px 0px 25px; } .framer-f6e6T .framer-wmsqgn { aspect-ratio: 1 / 1; height: auto; left: 0px; top: 45px; width: 60px; } .framer-f6e6T .framer-np6d6q { aspect-ratio: 1 / 1; height: auto; right: 0px; top: 45px; width: 60px; } .framer-f6e6T .framer-2y58l1 { flex-direction: column; scroll-margin-top: unset; } .framer-f6e6T .framer-k0af9v, .framer-f6e6T .framer-1v3a43r { flex: none; padding: 30px 20px 30px 20px; width: 100%; } .framer-f6e6T .framer-la7fvh { gap: 5px 10px; max-width: 95%; } .framer-f6e6T .framer-1obwh4c, .framer-f6e6T .framer-10pj67n { aspect-ratio: 1 / 1; height: auto; width: 48px; } .framer-f6e6T .framer-16gd5iv { flex-direction: column; gap: 30px; padding: 30px 20px 30px 20px; } .framer-f6e6T .framer-1afaic6 { align-content: center; align-items: center; padding: 10px; } .framer-f6e6T .framer-1l0fz2d, .framer-f6e6T .framer-y0l0rk { align-content: center; align-items: center; } .framer-f6e6T .framer-wdmzrp, .framer-f6e6T .framer-1i2yrmx { flex-direction: column; gap: 20px; } .framer-f6e6T .framer-154jz2f-container { align-self: unset; flex: none; width: 100%; } .framer-f6e6T .framer-zqr5yg, .framer-f6e6T .framer-yr7e8u { flex-direction: column; } .framer-f6e6T .framer-feyxnm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; } .framer-f6e6T .framer-1psnt4v, .framer-f6e6T .framer-xjqzmg, .framer-f6e6T .framer-16c0xdy, .framer-f6e6T .framer-xngrzv { align-self: unset; width: 100%; } .framer-f6e6T .framer-6uiyx3, .framer-f6e6T .framer-f9gs6n { align-self: unset; } .framer-f6e6T .framer-1fv2udu { flex-direction: column; padding: 30px 20px 30px 20px; } .framer-f6e6T .framer-gug6nb { align-content: center; align-items: center; gap: 30px; padding: 10px; } .framer-f6e6T .framer-1lqrq9m { flex: none; gap: 30px; padding: 30px 20px 30px 20px; width: 100%; } .framer-f6e6T .framer-4rcdqo { padding: 30px 0px 30px 0px; } .framer-f6e6T .framer-rlgwnx-container { height: 50vh; } .framer-f6e6T .framer-iis1dp { padding: 20px; } .framer-f6e6T .framer-1xenox7 { flex-direction: column; padding: 25px; } .framer-f6e6T .framer-1pdk0aw { align-self: unset; flex: none; gap: 30px; height: min-content; width: 100%; } .framer-f6e6T .framer-a7kr4n-container { flex: none; max-width: unset; width: 100%; }}`,
       ],
-      `framer-5wkIU`
+      `framer-f6e6T`
     )),
-    (Oo.displayName = `Home`),
-    (Oo.defaultProps = { height: 8159, width: 1200 }),
+    (Mo.displayName = `Home`),
+    (Mo.defaultProps = { height: 7989, width: 1200 }),
     I(
-      Oo,
+      Mo,
       [
         {
           explicitInter: !0,
@@ -12385,62 +12253,63 @@ e(() => {
             },
           ],
         },
-        ...no,
-        ...ro,
-        ...io,
-        ...ao,
         ...oo,
+        ...so,
         ...co,
         ...lo,
         ...uo,
         ...po,
         ...mo,
-        ...N(qa),
-        ...N(Ot),
-        ...N(st),
-        ...N(Ua),
-        ...N(je),
+        ...ho,
+        ..._o,
+        ...vo,
         ...N(Za),
+        ...N(be),
+        ...N(dt),
+        ...N(qa),
+        ...N(ye),
+        ...N(Mt),
+        ...N(to),
       ],
       { supportsExplicitInterCodegen: !0 }
     ),
-    (Oo.loader = {
+    (Mo.loader = {
       load: (e, t) => (
         t.locale,
         Promise.allSettled([
-          A(Jr, {}, t),
-          A(Ht, {}, t),
+          A(Qr, {}, t),
+          A(Kt, {}, t),
           A(X, {}, t),
-          A(Dr, {}, t),
-          A($t, {}, t),
-          A(Ea, {}, t),
-          A(_i, {}, t),
-          A(Va, {}, t),
-          A(Ui, {}, t),
+          A(jr, {}, t),
+          A(rn, {}, t),
+          A(Aa, {}, t),
+          A(xi, {}, t),
+          A(Ga, {}, t),
+          A(qi, {}, t),
         ])
       ),
     }),
-    (ko = {
+    (No = {
       exports: {
-        queryParamNames: { type: `variable`, annotations: { framerContractVersion: `1` } },
         Props: { type: `tsType`, annotations: { framerContractVersion: `1` } },
+        queryParamNames: { type: `variable`, annotations: { framerContractVersion: `1` } },
         default: {
           type: `reactComponent`,
           name: `FrameraugiA20Il`,
           slots: [],
           annotations: {
-            framerAcceptsLayoutTemplate: `true`,
-            framerIntrinsicHeight: `8159`,
-            framerIntrinsicWidth: `1200`,
-            framerAutoSizeImages: `true`,
-            framerDisplayContentsDiv: `false`,
-            framerResponsiveScreen: `true`,
-            framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"MNFOeKjhJ":{"layout":["fixed","auto"]},"dV9dN50OP":{"layout":["fixed","auto"]}}}`,
-            framerImmutableVariables: `true`,
-            framerColorSyntax: `true`,
+            framerIntrinsicHeight: `7989`,
             framerComponentViewportWidth: `true`,
+            framerIntrinsicWidth: `1200`,
+            framerCanvasComponentVariantDetails: `{"propertyName":"variant","data":{"default":{"layout":["fixed","auto"]},"MNFOeKjhJ":{"layout":["fixed","auto"]},"dV9dN50OP":{"layout":["fixed","auto"]}}}`,
             framerContractVersion: `1`,
+            framerAutoSizeImages: `true`,
+            framerImmutableVariables: `true`,
+            framerDisplayContentsDiv: `false`,
             framerScrollSections: `{"iYUNHqCEb":{"pattern":":iYUNHqCEb","name":"hero"},"U6VhzUg6a":{"pattern":":U6VhzUg6a","name":"richtext"},"N2ijbw0rP":{"pattern":":N2ijbw0rP","name":"features"},"ZyhbuJwZr":{"pattern":":ZyhbuJwZr","name":"products"},"zKzXmXRGU":{"pattern":":zKzXmXRGU","name":"showcases"},"adTRrxLJn":{"pattern":":adTRrxLJn","name":"showcase"},"sgmlFhWUG":{"pattern":":sgmlFhWUG","name":"faqs"},"v99AbFhke":{"pattern":":v99AbFhke","name":"faqs"}}`,
+            framerResponsiveScreen: `true`,
+            framerAcceptsLayoutTemplate: `true`,
+            framerColorSyntax: `true`,
             framerLayoutTemplateFlowEffect: `true`,
           },
         },
@@ -12448,5 +12317,5 @@ e(() => {
       },
     }));
 })();
-export { ko as __FramerMetadata__, Oo as default, go as queryParamNames };
-//# sourceMappingURL=gmTh4tT-3w3RqDjjRnKCVnIexlHdyAbEaWIL3sGYKaA.D-eLbBO1.mjs.map
+export { No as __FramerMetadata__, Mo as default, bo as queryParamNames };
+//# sourceMappingURL=GqbQ-i0sG_sipv7aph5l-P3XpXDqvAMiRqckgNXD45Y.Dk5Esd0w.mjs.map
