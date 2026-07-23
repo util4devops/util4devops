@@ -1,6 +1,6 @@
 var _a, _b;
 const hostInfo = {
-  version: "9d4ac7d",
+  version: "2e2fef3",
   scopeCanvas: JSON.parse("true"),
 };
 const projectIdRegex =

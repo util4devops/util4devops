@@ -1,4 +1,4 @@
-import { a as c } from "chunk-IE346I3J.mjs";
+import { a as c } from "chunk-GTVAZXXQ.mjs";
 import { a as n } from "chunk-2F5FSM3K.mjs";
 import { a } from "chunk-HMF7T2NG.mjs";
 import "chunk-4PTFRIXN.mjs";
@@ -79,8 +79,8 @@ async function h() {
       t.data.projectFeatures &&
       (window.framerProjectFeatures = t.data.projectFeatures),
     await Promise.all([w(), b()]));
-  let { renderEditorBar: m } = await import("https://app.framerstatic.com/render-FJ4NDLD5.mjs");
+  let { renderEditorBar: m } = await import("https://app.framerstatic.com/render-T6MUUKE4.mjs");
   await m(t, r);
 }
 h().catch(console.error);
-//# sourceMappingURL=editorbar.QJNSYEF3.mjs.map
+//# sourceMappingURL=editorbar.AWQMRI2P.mjs.map

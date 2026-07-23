@@ -12,7 +12,7 @@ import {
   s as c,
   u as T,
   v as g,
-} from "chunk-3SWZZEDP.mjs";
+} from "chunk-RS4ZYW7T.mjs";
 var F = "framer_",
   l = "editSite";
 var { createPortal: C } = w("react-dom");
@@ -319,7 +319,7 @@ function ue({ framerSiteId: e, features: t, iframeRef: o, className: i }) {
 }
 var S;
 function ce({ shouldLoad: e, ...t }) {
-  e && (S ??= import("https://app.framerstatic.com/EditButton-PATLXWP6.mjs"));
+  e && (S ??= import("https://app.framerstatic.com/EditButton-EU266XCC.mjs"));
   let [o, i] = c(null);
   return (
     u(() => {
@@ -385,4 +385,4 @@ function je() {
       : A(le);
 }
 export { je as createEditorBar };
-//# sourceMappingURL=https://app.framerstatic.com/editorbar-initializer.S56VJ577.mjs.map
+//# sourceMappingURL=https://app.framerstatic.com/editorbar-initializer.NKR4V5OR.mjs.map
