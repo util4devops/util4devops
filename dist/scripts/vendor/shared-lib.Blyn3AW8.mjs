@@ -28,7 +28,7 @@ import {
   u as T,
   w as E,
   x as D,
-} from "./framer.D26jh1-v.mjs";
+} from "./framer.DLmCz1mO.mjs";
 var O,
   k,
   A,
@@ -1219,7 +1219,7 @@ function be(e, t) {
       ZyhbuJwZr: `products`,
     },
     robots: `max-image-preview:large`,
-    serializationId: `framer-6mNkK`,
+    serializationId: `framer-tzoEc`,
     title: $(e, t).title || `Home`,
     viewport: `width=device-width`,
   };
@@ -1292,4 +1292,4 @@ export {
   A as x,
   B as y,
 };
-//# sourceMappingURL=shared-lib.DVNAEU2M.mjs.map
+//# sourceMappingURL=shared-lib.Blyn3AW8.mjs.map

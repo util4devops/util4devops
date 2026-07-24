@@ -79,7 +79,7 @@ import {
   x as U,
   y as W,
   z as Fe,
-} from "./framer.D26jh1-v.mjs";
+} from "./framer.DLmCz1mO.mjs";
 import {
   C as Ie,
   S as Le,
@@ -89,7 +89,7 @@ import {
   w as Ve,
   x as He,
   y as Ue,
-} from "./shared-lib.DVNAEU2M.mjs";
+} from "./shared-lib.Blyn3AW8.mjs";
 function We(e, ...t) {
   let n = {};
   return (t?.forEach((t) => t && Object.assign(n, e[t])), n);
@@ -3122,6 +3122,7 @@ async function Jr({ routeId: e, pathVariables: n, localeId: i, collectionItemId:
     onPageMoveTool: !0,
     onPageRichTextBlockSelection: !1,
     privateRouterReplaceState: !1,
+    scrollRestoration: !1,
     synchronousNavigationOnDesktop: !1,
     yieldOnTap: !1,
   });
@@ -3136,7 +3137,7 @@ async function Jr({ routeId: e, pathVariables: n, localeId: i, collectionItemId:
         collectionUtils: $r,
         framerSiteId: ei,
         notFoundPage: ce(
-          () => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.DPgOjJNR.mjs`)
+          () => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.WgCKu9Xz.mjs`)
         ),
         isReducedMotion: void 0,
         localeId: i,
@@ -3325,12 +3326,12 @@ e(() => {
           zKzXmXRGU: `showcases`,
           ZyhbuJwZr: `products`,
         },
-        page: ce(() => import(`./fNgg7dXI8DmWQpWkQ8ezHwXmt0JbGiQutDOJgucxrVw.DrIciR7t.mjs`)),
+        page: ce(() => import(`./eVmoHWi3kpHOC1bQcWq8WOYZ2UV4EIb-sFXTfNet0YU.CevD7Pv9.mjs`)),
         path: `/`,
       },
       weKLGiygA: {
         elements: {},
-        page: ce(() => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.DPgOjJNR.mjs`)),
+        page: ce(() => import(`./hgkQ8iqM_yhyOnWJRdAA58kACw0aGjJAlF2fFG0iuGo.WgCKu9Xz.mjs`)),
         path: `/404`,
       },
     }),
@@ -3353,10 +3354,10 @@ e(() => {
       D(() => {
         T(
           document.getElementById(`__framer-badge-container`),
-          E(y, {}, E(S(() => import(`./PX9hIOIVM.DmPKFyZY.mjs`))))
+          E(y, {}, E(S(() => import(`./PX9hIOIVM.z6vKQoWc.mjs`))))
         );
       });
   })();
 })();
 export { qr as getLayoutTemplateBreakpoints, Jr as getPageRoot };
-//# sourceMappingURL=script_main.xLRCNm8Z.mjs.map
+//# sourceMappingURL=script_main.BNr4Cq4j.mjs.map
