@@ -3326,7 +3326,7 @@ e(() => {
           zKzXmXRGU: `showcases`,
           ZyhbuJwZr: `products`,
         },
-        page: ce(() => import(`./eVmoHWi3kpHOC1bQcWq8WOYZ2UV4EIb-sFXTfNet0YU.CevD7Pv9.mjs`)),
+        page: ce(() => import(`./eVmoHWi3kpHOC1bQcWq8WOYZ2UV4EIb-sFXTfNet0YU.CQWrrbkN.mjs`)),
         path: `/`,
       },
       weKLGiygA: {
@@ -3360,4 +3360,4 @@ e(() => {
   })();
 })();
 export { qr as getLayoutTemplateBreakpoints, Jr as getPageRoot };
-//# sourceMappingURL=script_main.BNr4Cq4j.mjs.map
+//# sourceMappingURL=script_main.C-80PNJc.mjs.map

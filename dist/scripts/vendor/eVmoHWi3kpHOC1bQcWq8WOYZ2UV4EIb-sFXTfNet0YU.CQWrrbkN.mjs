@@ -5129,7 +5129,7 @@ var cr,
       (ui = M(ci)),
       (di = M(qn)),
       (fi = ce(C.figure)),
-      (pi = `framer-Tq2Je`),
+      (pi = `framer-9IEpZ`),
       (mi = { vPXxJ3AW1: `framer-v-d75ay` }),
       (hi = { bounce: 0.2, delay: 0, duration: 0.4, type: `spring` }),
       (gi = (e, t) => {
@@ -5276,10 +5276,10 @@ var cr,
                                   id: `yBlyU1nVZ`,
                                   kiWtO5xPD: gi(
                                     {
-                                      pixelHeight: 541,
-                                      pixelWidth: 764,
-                                      src: `../../assets/images/HW988FNFN2QAOO7eQk1DUxm9a4g.png`,
-                                      srcSet: `../../assets/images/HW988FNFN2QAOO7eQk1DUxm9a4g.png?scale-down-to=512&width=764&height=541 512w,../../assets/images/HW988FNFN2QAOO7eQk1DUxm9a4g.png 764w`,
+                                      pixelHeight: 612,
+                                      pixelWidth: 705,
+                                      src: `../../assets/images/4r8O62GeL3Nb7lB4I7iKUvXhehc.png`,
+                                      srcSet: `../../assets/images/4r8O62GeL3Nb7lB4I7iKUvXhehc.png?scale-down-to=512&width=705&height=612 512w,../../assets/images/4r8O62GeL3Nb7lB4I7iKUvXhehc.png 705w`,
                                     },
                                     ``
                                   ),
@@ -5432,10 +5432,10 @@ var cr,
                                   id: `yBlyU1nVZ`,
                                   kiWtO5xPD: gi(
                                     {
-                                      pixelHeight: 541,
-                                      pixelWidth: 764,
-                                      src: `../../assets/images/HW988FNFN2QAOO7eQk1DUxm9a4g.png`,
-                                      srcSet: `../../assets/images/HW988FNFN2QAOO7eQk1DUxm9a4g.png?scale-down-to=512&width=764&height=541 512w,../../assets/images/HW988FNFN2QAOO7eQk1DUxm9a4g.png 764w`,
+                                      pixelHeight: 612,
+                                      pixelWidth: 705,
+                                      src: `../../assets/images/4r8O62GeL3Nb7lB4I7iKUvXhehc.png`,
+                                      srcSet: `../../assets/images/4r8O62GeL3Nb7lB4I7iKUvXhehc.png?scale-down-to=512&width=705&height=612 512w,../../assets/images/4r8O62GeL3Nb7lB4I7iKUvXhehc.png 705w`,
                                     },
                                     ``
                                   ),
@@ -5461,10 +5461,10 @@ var cr,
                                   id: `bwJy3rUzl`,
                                   kiWtO5xPD: gi(
                                     {
-                                      pixelHeight: 541,
-                                      pixelWidth: 764,
-                                      src: `../../assets/images/HW988FNFN2QAOO7eQk1DUxm9a4g.png`,
-                                      srcSet: `../../assets/images/HW988FNFN2QAOO7eQk1DUxm9a4g.png?scale-down-to=512&width=764&height=541 512w,../../assets/images/HW988FNFN2QAOO7eQk1DUxm9a4g.png 764w`,
+                                      pixelHeight: 577,
+                                      pixelWidth: 797,
+                                      src: `../../assets/images/8Zl8pdlBrPlMOEAeNos1OvhTgH4.png`,
+                                      srcSet: `../../assets/images/8Zl8pdlBrPlMOEAeNos1OvhTgH4.png?scale-down-to=512&width=797&height=577 512w,../../assets/images/8Zl8pdlBrPlMOEAeNos1OvhTgH4.png 797w`,
                                     },
                                     ``
                                   ),
@@ -5559,10 +5559,10 @@ var cr,
                                   id: `Fphn0PCbH`,
                                   kiWtO5xPD: gi(
                                     {
-                                      pixelHeight: 433,
-                                      pixelWidth: 778,
-                                      src: `../../assets/images/KYQaCHPYGu1am50Yhw0qpqirk.png`,
-                                      srcSet: `../../assets/images/KYQaCHPYGu1am50Yhw0qpqirk.png?scale-down-to=512&width=778&height=433 512w,../../assets/images/KYQaCHPYGu1am50Yhw0qpqirk.png 778w`,
+                                      pixelHeight: 567,
+                                      pixelWidth: 627,
+                                      src: `../../assets/images/zK8fp6IL2Koeh85DEjQg0wHE84.png`,
+                                      srcSet: `../../assets/images/zK8fp6IL2Koeh85DEjQg0wHE84.png?scale-down-to=512&width=627&height=567 512w,../../assets/images/zK8fp6IL2Koeh85DEjQg0wHE84.png 627w`,
                                     },
                                     ``
                                   ),
@@ -5615,12 +5615,12 @@ var cr,
           });
         }),
         [
-          `.framer-Tq2Je.framer-1oswoi2, .framer-Tq2Je .framer-1oswoi2 { display: block; }`,
-          `.framer-Tq2Je.framer-d75ay { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: 800px; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 1440px; }`,
-          `.framer-Tq2Je .framer-1y2h3x5-container, .framer-Tq2Je .framer-1ci1o64-container, .framer-Tq2Je .framer-7dd5rp-container { flex: 1 0 0px; height: 100%; position: relative; width: 1px; }`,
-          `.framer-Tq2Je .framer-1vm9st-container, .framer-Tq2Je .framer-1kltkoo-container, .framer-Tq2Je .framer-1awxrug-container, .framer-Tq2Je .framer-2kf7dh-container, .framer-Tq2Je .framer-1oksq0z-container, .framer-Tq2Je .framer-13pzk76-container, .framer-Tq2Je .framer-6l405x-container { aspect-ratio: 1 / 1; height: auto; position: relative; width: 550px; }`,
+          `.framer-9IEpZ.framer-1oswoi2, .framer-9IEpZ .framer-1oswoi2 { display: block; }`,
+          `.framer-9IEpZ.framer-d75ay { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: 800px; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 1440px; }`,
+          `.framer-9IEpZ .framer-1y2h3x5-container, .framer-9IEpZ .framer-1ci1o64-container, .framer-9IEpZ .framer-7dd5rp-container { flex: 1 0 0px; height: 100%; position: relative; width: 1px; }`,
+          `.framer-9IEpZ .framer-1vm9st-container, .framer-9IEpZ .framer-1kltkoo-container, .framer-9IEpZ .framer-1awxrug-container, .framer-9IEpZ .framer-2kf7dh-container, .framer-9IEpZ .framer-1oksq0z-container, .framer-9IEpZ .framer-13pzk76-container, .framer-9IEpZ .framer-6l405x-container { aspect-ratio: 1 / 1; height: auto; position: relative; width: 550px; }`,
         ],
-        `framer-Tq2Je`
+        `framer-9IEpZ`
       )),
       (xi.displayName = `Showcase Ticker Section`),
       (xi.defaultProps = { height: 800, width: 1440 }),
@@ -12495,4 +12495,4 @@ e(() => {
     }));
 })();
 export { Po as __FramerMetadata__, No as default, xo as queryParamNames };
-//# sourceMappingURL=eVmoHWi3kpHOC1bQcWq8WOYZ2UV4EIb-sFXTfNet0YU.CevD7Pv9.mjs.map
+//# sourceMappingURL=eVmoHWi3kpHOC1bQcWq8WOYZ2UV4EIb-sFXTfNet0YU.CQWrrbkN.mjs.map
